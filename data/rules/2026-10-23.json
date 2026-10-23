@@ -1,0 +1,12 @@
+{
+ "date": "2026-10-23",
+ "r": {
+  "external_be": "ok",
+  "htf_bias": "ok",
+  "loss_limit": "ok",
+  "no_pre10": "ok",
+  "protected_stop": "ok",
+  "setup_not_pnl": "ok",
+  "win_lockout": "ok"
+ }
+}
