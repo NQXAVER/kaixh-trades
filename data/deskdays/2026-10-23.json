@@ -1,0 +1,180 @@
+{
+ "bias_note": "Headline risk is high into FOMC week. Size down around 8:30 and 2:00 releases.",
+ "calendar": [
+  {
+   "date": "2026-10-23",
+   "event": "S&P Global flash PMI (Oct)",
+   "id": "c1",
+   "impact": "Medium",
+   "time": "9:45 AM"
+  },
+  {
+   "date": "2026-10-23",
+   "event": "UMich consumer sentiment, final (Oct)",
+   "id": "c2",
+   "impact": "Medium",
+   "time": "10:00 AM"
+  },
+  {
+   "date": "2026-10-28",
+   "event": "FOMC rate decision",
+   "id": "c3",
+   "impact": "High",
+   "time": "2:00 PM"
+  },
+  {
+   "date": "2026-10-29",
+   "event": "GDP Q3 advance estimate",
+   "id": "c4",
+   "impact": "High",
+   "time": "8:30 AM"
+  },
+  {
+   "date": "2026-10-29",
+   "event": "PCE inflation / personal income (Sep)",
+   "id": "c5",
+   "impact": "High",
+   "time": "8:30 AM"
+  }
+ ],
+ "date": "2026-10-23",
+ "earnings": [
+  {
+   "company": "American Express (AXP)",
+   "date": "2026-10-23",
+   "when": "BMO (reported)",
+   "why": "Revenue miss, 5% job cuts; stock -3%"
+  },
+  {
+   "company": "ADP (ADP)",
+   "date": "2026-10-28",
+   "when": "BMO",
+   "why": "Read on the jobs market"
+  },
+  {
+   "company": "Microsoft (MSFT)",
+   "date": "2026-10-28",
+   "when": "AMC",
+   "why": "Top NQ weight, AI/cloud capex"
+  },
+  {
+   "company": "Alphabet (GOOGL)",
+   "date": "2026-10-28",
+   "when": "AMC",
+   "why": "Top NQ weight, AI spend"
+  },
+  {
+   "company": "ServiceNow, KLA, T-Mobile, Fortinet",
+   "date": "2026-10-28",
+   "when": "AMC",
+   "why": "Software and chip-equipment read"
+  },
+  {
+   "company": "Amazon (AMZN)",
+   "date": "2026-10-29",
+   "when": "AMC",
+   "why": "Top NQ weight, AWS growth"
+  },
+  {
+   "company": "Intel (INTC)",
+   "date": "2026-10-29",
+   "when": "AMC",
+   "why": "Semis sentiment"
+  },
+  {
+   "company": "Apple (AAPL)",
+   "date": "2026-11-02",
+   "when": "AMC",
+   "why": "Biggest NQ weight"
+  }
+ ],
+ "grok": {
+  "at": "2026-10-23T20:52:00Z",
+  "bias": "risk-off \u2014 AI capex concerns plus Middle East headlines are still pressuring tech and supporting the defensive tone.",
+  "forSite": [],
+  "items": [
+   "Walter Bloomberg / DeItaone (~4:00 PM ET): Trump said he doubts Iran will say \"let's get down to business\" and floated another operation against Iran.",
+   "The Kobeissi Letter (~2:40 PM ET): US stock market value hit 350% of M2, the highest since the 2000 dot-com bubble.",
+   "Mario Nawfal (~4:40 AM ET): Nasdaq 100 dropped ~2.9% Thursday with chips down sharply as money rotated into Treasuries on AI return doubts and oil above $113.",
+   "Scott Redler (~8:55 AM ET): Many stocks already down 30\u201350% while SPY is only mildly off highs; $760 SPY is key support; failed breakouts in NVDA/META/AMZN.",
+   "plur daddy (~9:05 AM ET): Tight liquidity and AI financing limits into year-end, with the Anthropic IPO flagged as a possible headwind for AI stocks."
+  ],
+  "note": "Grok isn\u2019t connected yet. Add an xAI API key and each update will pull what traders on X are saying about NQ.",
+  "pulse": "X is focused on AI-led weakness in NQ after Thursday's selloff, with rising oil and fresh Iran comments from Trump keeping risk appetite muted into the close.",
+  "trump": "Yes. Multiple comments this afternoon questioning Iran negotiations and suggesting possible further action, plus a side comment on Cuba.",
+  "watch": "Follow-through on Trump's Iran remarks (oil and risk-off flows), FOMC on Oct 28, and whether NQ/ES can hold or reclaim key levels after the AI-led dump."
+ },
+ "moves": [
+  {
+   "basis": "vs. prior close (Yahoo, midday)",
+   "pct": 0.28,
+   "symbol": "NQ"
+  },
+  {
+   "basis": "since 6 PM open 7,695.25",
+   "pct": -0.36,
+   "price": 7667.25,
+   "symbol": "ES"
+  }
+ ],
+ "news": [
+  {
+   "headline": "Nasdaq tries to bounce after its worst day since June; still on pace for a 2nd straight weekly loss",
+   "id": "n1",
+   "impact": "High",
+   "source": "Yahoo Finance",
+   "time": "Fri Oct 23"
+  },
+  {
+   "headline": "Meta fell ~7% after raising its 2026 capex floor to $135-145B, dragging chips and AI names",
+   "id": "n2",
+   "impact": "High",
+   "source": "Yahoo Finance",
+   "time": "Thu Oct 22"
+  },
+  {
+   "headline": "10-yr yield back under 5% (~4.99%) after its biggest one-day drop in 2+ years",
+   "id": "n3",
+   "impact": "High",
+   "source": "Yahoo Finance",
+   "time": "Fri Oct 23"
+  },
+  {
+   "headline": "Oil near a 5-month high on Middle East tension: Brent ~$112, WTI ~$102",
+   "id": "n4",
+   "impact": "Medium",
+   "source": "Yahoo Finance",
+   "time": "Fri Oct 23"
+  },
+  {
+   "headline": "Odds of a Fed hike at next week's meeting fall to ~5% (from 37% at end of September)",
+   "id": "n5",
+   "impact": "High",
+   "source": "Yahoo Finance",
+   "time": "Fri Oct 23"
+  },
+  {
+   "headline": "VIX up ~3% to 19.6; Dow lower, S&P roughly flat",
+   "id": "n6",
+   "impact": "Medium",
+   "source": "Yahoo Finance",
+   "time": "Fri Oct 23"
+  },
+  {
+   "headline": "AmEx -3% on revenue miss, plans ~5% job cuts",
+   "id": "n7",
+   "impact": "Low",
+   "source": "Yahoo Finance",
+   "time": "Fri Oct 23"
+  },
+  {
+   "headline": "SpaceX reportedly eyeing ~80k US cell sites: Crown Castle +7%, AT&T/Verizon/T-Mobile lower",
+   "id": "n8",
+   "impact": "Low",
+   "source": "Benzinga / Yahoo Finance",
+   "time": "Fri Oct 23"
+  }
+ ],
+ "takeaway": "Tech is trying to bounce after Thursday's AI capex selloff while yields ease under 5%. Next week is loaded: FOMC Wednesday 2 PM, then GDP and PCE Thursday 8:30.",
+ "updatedAt": "2026-10-23T17:30:00Z"
+}
