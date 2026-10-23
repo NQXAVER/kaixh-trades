@@ -220,6 +220,9 @@ textarea::placeholder { color: #8aa3c4; }
 .gh-on { color: #9fe0b5; } .gh-off { color: #f0c27a; }
 .gh-input { width: 100%; box-sizing: border-box; font: 14px var(--mono); color: #fff; background: var(--bg); border: 1px solid var(--line); border-radius: 10px; padding: 10px; }
 .tv-wrap { min-height: 72px; }
+.tv-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: 10px; }
+.tv-box { background: #10203a; border: 1px solid var(--line); border-radius: 10px; padding: 10px; min-height: 110px; display: grid; gap: 4px; align-content: start; }
+.tv-label { font: 600 12px var(--mono); color: var(--muted); }
 </style>
 <style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)} body{margin:0;font-size:14px} img{max-width:100%} [hidden]{display:none!important}</style>
 </head>
@@ -256,12 +259,21 @@ textarea::placeholder { color: #8aa3c4; }
     <div class="grid">
       <div class="card">
         <h2>NQ / ES live</h2>
-        <p class="sub">Live % change from TradingView, moving with the market.</p>
-        <div class="tv-wrap">
-          <div class="tradingview-widget-container"><div class="tradingview-widget-container__widget"></div>
-            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
-            {"symbols":[{"proName":"CME_MINI:NQ1!","title":"NQ"},{"proName":"CME_MINI:ES1!","title":"ES"}],"isTransparent":true,"showSymbolLogo":false,"colorTheme":"dark","locale":"en"}
-            </script>
+        <p class="sub" id="mkt-status">Live % change from TradingView.</p>
+        <div class="tv-row">
+          <div class="tv-box"><span class="tv-label">NQ · Nasdaq 100</span>
+            <div class="tradingview-widget-container"><div class="tradingview-widget-container__widget"></div>
+              <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>
+              {"symbol":"OANDA:NAS100USD","width":"100%","isTransparent":true,"colorTheme":"dark","locale":"en"}
+              </script>
+            </div>
+          </div>
+          <div class="tv-box"><span class="tv-label">ES · S&amp;P 500</span>
+            <div class="tradingview-widget-container"><div class="tradingview-widget-container__widget"></div>
+              <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>
+              {"symbol":"OANDA:SPX500USD","width":"100%","isTransparent":true,"colorTheme":"dark","locale":"en"}
+              </script>
+            </div>
           </div>
         </div>
         <p class="sub">Last news snapshot (since the 6 PM ET open):</p>
@@ -821,7 +833,7 @@ textarea::placeholder { color: #8aa3c4; }
   // ---------- Settings (GitHub key) ----------
   const setStatus = () => {
     const on = !!getToken();
-    $('gh-status').textContent = on ? 'Saving to GitHub: on' : 'Saving is off. Add your GitHub key to save.';
+    $('gh-status').textContent = on ? 'Saving to GitHub: on' : 'Saving: off · tap Settings to add your GitHub key';
     $('gh-status').className = 'stamp ' + (on ? 'gh-on' : 'gh-off');
   };
   $('gh-open').addEventListener('click', () => { $('gh-panel').hidden = !$('gh-panel').hidden; });
@@ -839,6 +851,16 @@ textarea::placeholder { color: #8aa3c4; }
   });
   $('gh-clear').addEventListener('click', () => { try { localStorage.removeItem(tokenKey); } catch (e) {} db = null; setStatus(); renderChecks(); $('gh-msg').textContent = 'Key removed from this device.'; });
   setStatus();
+
+  // Futures market status (ET): CME closed Fri 5 PM to Sun 6 PM, and 5-6 PM daily break
+  const mktStatus = () => {
+    const parts = new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York', weekday: 'short', hour: 'numeric', hour12: false }).formatToParts(new Date());
+    const wd = parts.find((x) => x.type === 'weekday').value; const hr = Number(parts.find((x) => x.type === 'hour').value) % 24;
+    const closed = wd === 'Sat' || (wd === 'Fri' && hr >= 17) || (wd === 'Sun' && hr < 18) || (hr === 17 && wd !== 'Sun');
+    const el2 = $('mkt-status'); if (!el2) return;
+    el2.textContent = closed ? 'Futures are closed right now (reopens ' + (wd === 'Fri' || wd === 'Sat' || wd === 'Sun' ? 'Sunday' : 'today') + ' 6 PM ET). Showing the last % move.' : 'Market open · live % change from TradingView.';
+  };
+  mktStatus(); setInterval(mktStatus, 60000);
 
   // ---------- Load data ----------
   const loadDir = async (dir) => {
