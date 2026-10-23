@@ -1,0 +1,10 @@
+{
+ "date": "2026-10-21",
+ "r": {
+  "external_be": "broke",
+  "htf_bias": "broke",
+  "loss_limit": "broke",
+  "protected_stop": "ok",
+  "setup_not_pnl": "broke"
+ }
+}
