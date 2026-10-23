@@ -883,7 +883,7 @@ textarea::placeholder { color: #8aa3c4; }
     ruleDocs = rl; renderRules();
     if (!typingNow) { habitDocs = hb; renderChecks(); renderStats(); }
     reviewsByDate = rv; deskDays = dd;
-    const rows = Object.values(jr).sort((a, b) => String(b['date:Date 1:start']).localeCompare(String(a['date:Date 1:start'])));
+    const rows = Object.values(jr).flatMap((x) => Array.isArray(x) ? x : [x]).sort((a, b) => String(b['date:Date 1:start']).localeCompare(String(a['date:Date 1:start'])));
     renderJournal({ results: rows });
     if (!typingNow) { renderJournalTab(); renderDetail(); }
     renderCalendar();
