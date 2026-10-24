@@ -1,0 +1,26 @@
+{
+ "date": "2026-10-21",
+ "reviewedAt": "2026-10-23T21:40:00Z",
+ "trade": "Long, then flipped short · NY-AM · XFA · Loss, about -$768 (daily limit $500)",
+ "summary": "Hard psychological day, written down so it never happens the same way again. You took a long about 5 minutes after the open on displacement with no deep retrace and not in a discount, it rejected off the EQ of the bullish leg and you lost about $300. From there you traded the P&L instead of the setup, stayed married to the weekly no-wick bias after the higher timeframe had flipped bullish, and ended about $768 down against a $500 daily limit.",
+ "good": [
+  "You waited for the second 30-minute unfilled gap and got a clean rejection before the long re-entry, and your target (no-wick equal highs and London highs) was a real draw.",
+  "You walked away after the big loss instead of revenge trading further. You broke rules, but you stopped before it cost the account.",
+  "You were honest about it afterwards: \"if I was focused on executing a good setup, I wouldn’t have executed the first trade.\""
+ ],
+ "fix": [
+  "Broke: daily loss limit ($768 vs $500).",
+  "Broke: break-even at external highs. You put BE at internal liquidity (the 5-minute bearish unfill). AB: BE should have been the recent high that swept the London high.",
+  "Broke: bias matched the HTF narrative. The prior day put in a fat rejection wick taking out the lows, and price was about 400 points from the weekly no-wick low, so the HTF said longs. You stayed stuck on the bearish weekly idea.",
+  "Broke: traded the setup, not the P&L. After the first loss you were trading to make it back.",
+  "You closed a winning long to flip short on a weakness signal (bearish-leg OTE plus a 1-minute bearish gap plus an SMT at London high). Price went higher and later hit the Asia high, about $1,200 you left on the table."
+ ],
+ "screenshots": [],
+ "questions": [
+  {
+   "q": "When the first loss hit (about $300), what would have stopped you from taking the next trade? Write the exact rule you want next time, in your words."
+  }
+ ],
+ "rule": "When the HTF narrative flips, flip with it. Mark it in PRE MARKET before 9:30, and put BE at external highs/lows only.",
+ "notes": "From Xavier’s own walkthrough on Oct 23, plus AB’s feedback."
+}
