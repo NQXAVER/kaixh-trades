@@ -1,0 +1,22 @@
+{
+ "date": "2026-10-22",
+ "reviewedAt": "2026-10-23T21:45:00Z",
+ "trade": "No trade · NY-AM · XFA · Missed the AMD move",
+ "summary": "A textbook AMD day you sat out. 9:30 to 10:00 accumulated, the 10 AM open manipulated higher into the 4-hour bearish gap, then price distributed lower with a 5-minute inverse FVG and ran all the way to the major draw, the weekly no-wick low. You were waiting for price to retest the high and fail before shorting, which the model did not need here, so the move left with zero retraces.",
+ "good": [
+  "You didn’t chase once it ran. No FOMO entry after the move left.",
+  "Your HTF draw was right: the weekly no-wick low was the A+ target."
+ ],
+ "fix": [
+  "You waited for confirmation the model didn’t require. AB: when 9:30 accumulates, expect 10 AM to make the quick move. The tap of the 4-hour bearish gap at 10 AM plus the flip back down was the AMD entry, which made the 5-minute IFVG valid.",
+  "You woke up later than usual (from your Notion). Late mornings show up on your missed-move days."
+ ],
+ "screenshots": [],
+ "questions": [
+  {
+   "q": "Next time 9:30 accumulates into a 10 AM manipulation of an HTF gap, what exact candle or signal will be your entry so you don’t wait for a retest? Say it in your words."
+  }
+ ],
+ "rule": "If 9:30 accumulates, have the AMD plan ready for 10 AM: manipulation into the HTF gap, flip, enter the 5-minute IFVG.",
+ "notes": "From Xavier’s own walkthrough on Oct 23, plus AB’s feedback in Notion."
+}
