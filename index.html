@@ -1,1 +1,899 @@
-PLACEHOLDER_CONTENT
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Kaixh Trades</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700&family=Public+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: one column of cards under a sticky tab bar; two tabs (Desk, Accountability). */
+:root {
+  --page-a: #0a0a0a; --page-b: #0a0a0a; --on-page: #ffffff; --on-page-muted: #a0a0a0; --blue: #006FFF;
+  --bg: #f3f4f1; --panel: #ffffff; --ink: #161a17; --muted: #5e665f; --line: #dde1dc;
+  --accent: #006FFF; --accent-soft: #e0edff; --good: #1d7a3e; --warn: #9a6700; --bad: #b42318;
+  --good-bg: #e3f3e8; --warn-bg: #fbf0d7; --bad-bg: #fbe4e1; --none-bg: #e8ebe7;
+  --display: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --body: "Public Sans", "Segoe UI", system-ui, sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
+  --r: 12px;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0f1311; --panel: #171c19; --ink: #e8ece8; --muted: #9aa49c; --line: #2a322d;
+  --accent: #3d8bff; --accent-soft: #0b2a52; --good: #6fd08c; --warn: #e3b341; --bad: #ff7b6b;
+  --good-bg: #17301f; --warn-bg: #33290f; --bad-bg: #3a1a16; --none-bg: #232a25; color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #0f1311; --panel: #171c19; --ink: #e8ece8; --muted: #9aa49c; --line: #2a322d;
+  --accent: #3d8bff; --accent-soft: #0b2a52; --good: #6fd08c; --warn: #e3b341; --bad: #ff7b6b;
+  --good-bg: #17301f; --warn-bg: #33290f; --bad-bg: #3a1a16; --none-bg: #232a25; color-scheme: dark; }
+body { background: #0a0a0a !important; color: #ffffff !important; min-height: 100vh; font-family: var(--body); font-size: 15px; line-height: 1.5; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--page-a); }
+.wrap { max-width: 1120px; margin-inline: auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 20px 48px; display: grid; gap: 16px; }
+header.top { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 16px; }
+h1 { color: var(--on-page); font-family: var(--display); font-weight: 700; font-size: 28px; letter-spacing: -.01em; margin: 0; }
+.stamp { font-family: var(--mono); font-size: 12px; color: var(--on-page-muted); }
+nav.tabs { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--page-a); display: flex; gap: 6px; padding: 6px; border-radius: 999px; border: 1px solid rgba(255,255,255,.2); overflow-x: auto; scrollbar-width: none; }
+nav.tabs button { white-space: nowrap; flex: none; font: 600 14px var(--body); color: var(--on-page-muted); background: none; border: 0; padding: 8px 14px; border-radius: 999px; cursor: pointer; }
+nav.tabs button[aria-selected="true"] { color: #ffffff; background: var(--blue); }
+button:focus-visible, textarea:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: var(--r); padding: 18px; display: grid; gap: 10px; align-content: start; min-width: 0; }
+.card h2 { font-family: var(--display); font-weight: 500; font-size: 17px; margin: 0; text-wrap: balance; }
+.sub { color: var(--muted); font-size: 13px; margin: 0; }
+.brief { background: var(--blue); border-color: transparent; color: #ffffff; }
+.brief .sub, .brief h2 { color: rgba(255,255,255,.88); }
+.brief p { margin: 0; }
+.brief .take { font-size: 17px; font-weight: 500; max-width: 70ch; }
+table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+th { text-align: left; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); padding: 4px 8px 6px 0; border-bottom: 1px solid var(--line); }
+td { padding: 8px 8px 8px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+tr:last-child td { border-bottom: 0; }
+.num { text-align: right; padding-right: 0; font-family: var(--mono); }
+.pill { display: inline-block; font-size: 12px; font-weight: 600; padding: 1px 8px; border-radius: 999px; white-space: nowrap; }
+.pill.High { background: var(--bad-bg); color: var(--bad); }
+.pill.Medium { background: var(--warn-bg); color: var(--warn); }
+.pill.Low { background: var(--none-bg); color: var(--muted); }
+.moves { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px; }
+.move { border: 1px solid var(--line); border-radius: 10px; padding: 12px; display: grid; gap: 2px; }
+.move .sym { font: 600 13px var(--mono); color: var(--muted); }
+.move .pct { font: 700 30px var(--display); font-variant-numeric: tabular-nums; }
+.move .pct.up { color: var(--good); } .move .pct.down { color: var(--bad); }
+.move .px { font: 12px var(--mono); color: var(--muted); }
+.meta { font-size: 12px; color: var(--muted); display: block; }
+dl.kv { display: grid; grid-template-columns: max-content 1fr; gap: 6px 14px; margin: 0; }
+dl.kv dt { font-size: 12px; color: var(--muted); padding-top: 2px; }
+dl.kv dd { margin: 0; white-space: pre-line; overflow-wrap: anywhere; min-width: 0; }
+.strip { display: flex; gap: 5px; flex-wrap: wrap; }
+.sq { width: 30px; height: 30px; border-radius: 7px; display: grid; place-items: center; font: 600 12px var(--mono); }
+.sq.Win { background: var(--good-bg); color: var(--good); }
+.sq.Loss { background: var(--bad-bg); color: var(--bad); }
+.sq.BE { background: var(--warn-bg); color: var(--warn); }
+.sq.None { background: var(--none-bg); color: var(--muted); }
+.tally { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+.tally div { display: grid; }
+.tally b { font: 600 24px var(--mono); }
+.tally span { font-size: 12px; color: var(--muted); }
+ol.fb { margin: 0; padding-left: 1.2em; display: grid; gap: 10px; }
+ol.fb li { overflow-wrap: anywhere; }
+.empty { color: var(--muted); font-size: 14px; margin: 0; }
+.err { color: var(--bad); font-size: 14px; margin: 0; }
+/* Accountability */
+.dayhead { display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
+.daynav { display: flex; align-items: center; gap: 6px; }
+.daynav button { font: 600 14px var(--body); background: var(--panel); color: var(--ink); border: 1px solid var(--line); border-radius: 8px; padding: 6px 12px; cursor: pointer; }
+.daynav button:disabled { opacity: .4; cursor: default; }
+.dayname { font-family: var(--display); font-weight: 700; font-size: 20px; margin: 0; }
+.score { font: 600 14px var(--mono); color: var(--accent); }
+.checks { display: grid; gap: 8px; }
+.check { display: flex; align-items: center; gap: 12px; width: 100%; text-align: left; font: 500 15px var(--body); color: var(--ink); background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; cursor: pointer; }
+.check .box { flex: none; width: 24px; height: 24px; border-radius: 7px; border: 2px solid var(--line); display: grid; place-items: center; font-size: 15px; color: transparent; }
+.check[aria-pressed="true"] { border-color: var(--good); background: var(--good-bg); }
+.check[aria-pressed="true"] .box { background: var(--good); border-color: var(--good); color: var(--panel); }
+.check small { display: block; color: var(--muted); font-weight: 400; font-size: 12px; }
+.check:disabled { cursor: default; opacity: .7; }
+textarea { width: 100%; box-sizing: border-box; min-height: 84px; font: 14px var(--body); color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 10px; padding: 10px; resize: vertical; }
+.stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.stats div { display: grid; }
+.stats b { font: 600 26px var(--mono); }
+.stats span { font-size: 12px; color: var(--muted); }
+.heat-wrap { overflow-x: auto; }
+.heat { border-collapse: separate; border-spacing: 3px; width: auto; }
+.heat th { border: 0; padding: 0 4px; font-size: 10px; text-align: center; letter-spacing: 0; text-transform: none; }
+.heat th.row { text-align: left; font-size: 12px; font-weight: 500; color: var(--ink); white-space: nowrap; padding-right: 8px; }
+.heat td { border: 0; padding: 0; }
+.cell { width: 20px; height: 20px; border-radius: 5px; background: var(--none-bg); }
+.cell.on { background: var(--good); }
+.qa { border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; display: grid; gap: 8px; }
+.qa .q { font-weight: 600; margin: 0; }
+.qa .reply { background: var(--accent-soft); border-radius: 8px; padding: 8px 10px; margin: 0; }
+.qa-btn { justify-self: start; font: 600 14px var(--body); background: var(--panel); color: var(--accent); border: 1px solid var(--accent); border-radius: 8px; padding: 7px 14px; cursor: pointer; }
+.qa button { justify-self: start; font: 600 14px var(--body); background: var(--accent); color: var(--panel); border: 0; border-radius: 8px; padding: 7px 14px; cursor: pointer; }
+.qa button:disabled { opacity: .5; cursor: default; }
+.shot { border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; display: grid; gap: 4px; }
+.shot b { font-size: 13px; color: var(--muted); font-weight: 600; }
+ul.fb { margin: 0; padding-left: 1.2em; display: grid; gap: 8px; }
+.rule .box { font-size: 14px; }
+.rule[data-s="ok"] { border-color: var(--good); background: var(--good-bg); }
+.rule[data-s="ok"] .box { background: var(--good); border-color: var(--good); color: var(--panel); }
+.rule[data-s="broke"] { border-color: var(--bad); background: var(--bad-bg); }
+.rule[data-s="broke"] .box { background: var(--bad); border-color: var(--bad); color: var(--panel); }
+.rstreak { display: grid; justify-items: end; text-align: right; }
+.rstreak b { font: 600 26px var(--mono); color: var(--accent); }
+.rstreak span { font-size: 12px; color: var(--muted); max-width: 14ch; }
+.flag { color: var(--bad); }
+.cal-wrap { overflow-x: auto; }
+.cal { display: grid; grid-template-columns: repeat(7, minmax(40px, 1fr)); gap: 4px; min-width: 300px; }
+.cal .dow { font-size: 11px; color: var(--muted); text-align: center; text-transform: uppercase; letter-spacing: .06em; padding-bottom: 2px; }
+.cal .day { min-height: 64px; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); padding: 5px; display: grid; align-content: start; gap: 3px; text-align: left; font: 12px var(--body); color: var(--ink); cursor: pointer; }
+.cal .day.out { visibility: hidden; }
+.cal .day.today { border-color: var(--accent); border-width: 2px; }
+.cal .day.sel { background: var(--accent-soft); }
+.cal .day .n { font: 600 12px var(--mono); }
+.cal .day .marks { display: flex; flex-wrap: wrap; gap: 3px; align-items: center; }
+.cal .chip { font: 800 15px var(--mono); padding: 1px 7px; border-radius: 5px; line-height: 1.3; }
+.cal .chip.Win { background: var(--good-bg); color: var(--good); } .cal .chip.Loss { background: var(--bad-bg); color: var(--bad); }
+.cal .chip.BE { background: var(--warn-bg); color: var(--warn); } .cal .chip.None { background: var(--none-bg); color: var(--muted); }
+.cal .dot { width: 7px; height: 7px; border-radius: 50%; }
+.cal .dot.ok { background: var(--good); } .cal .dot.broke { background: var(--bad); }
+.cal .tiny { font-size: 10px; color: var(--muted); }
+.rlist { display: grid; gap: 4px; margin: 0; padding: 0; list-style: none; }
+.rlist li { display: flex; gap: 8px; align-items: baseline; }
+.rlist .ok { color: var(--good); font-weight: 700; } .rlist .broke { color: var(--bad); font-weight: 700; } .rlist .na { color: var(--muted); }
+.saved { font-size: 12px; color: var(--muted); min-height: 1em; }
+@media (max-width: 420px) { .tally, .stats { gap: 4px; } h1 { font-size: 24px; } }
+@media (prefers-reduced-motion: no-preference) { .check { transition: background .15s, border-color .15s; } }
+
+/* Kaixh look: gray page, dim blue cards, green = checked. Same in every theme. */
+:root, :root:not([data-theme="light"]), :root[data-theme="dark"] {
+  --panel: #172a45; --ink: #ffffff; --muted: #a9bdd8; --line: #2e4a70; --bg: #10203a;
+  --accent: #ffffff; --accent-soft: #23406a; --inner: #1e3554; --blue: #234a7d;
+  --good: #1f9d4c; --good-bg: #22a652; --warn: #f2b632; --warn-bg: #fff2cf; --bad: #e5483a; --bad-bg: #ffe1dd; --none-bg: #3d8bff;
+  color-scheme: dark;
+}
+.card, .brief { background: var(--panel); border-color: var(--line); color: var(--ink); }
+.brief .sub, .brief h2 { color: var(--muted); }
+.check, .qa, .shot, .move, .cal .day { background: var(--inner); border-color: var(--line); color: var(--ink); }
+.check .box { border-color: #6f8fb8; }
+.check[aria-pressed="true"], .rule[data-s="ok"] { background: var(--good-bg); border-color: #8ee0aa; }
+.check[aria-pressed="true"] .box, .rule[data-s="ok"] .box { background: #ffffff; border-color: #ffffff; color: var(--good); }
+.rule[data-s="broke"] { background: var(--bad); border-color: #ffb3aa; }
+.rule[data-s="broke"] .box { background: #ffffff; border-color: #ffffff; color: var(--bad); }
+.pill.High { background: #ffe1dd; color: #b42318; } .pill.Medium { background: #fff2cf; color: #8a5a00; } .pill.Low { background: #e6efff; color: #24456e; }
+.sq.Win, .cal .chip.Win { background: #e3f6e9; color: #146c34; }
+.sq.Loss, .cal .chip.Loss { background: #ffe1dd; color: #b42318; }
+.sq.BE, .cal .chip.BE { background: #fff2cf; color: #8a5a00; }
+.sq.None, .cal .chip.None { background: #e6efff; color: #24456e; }
+.cal .dot.ok { background: #3ee07a; } .cal .dot.broke { background: #ff6b5e; }
+.cal .day.today { border-color: #ffffff; border-width: 2px; }
+.cal .day.sel { background: var(--accent-soft); }
+.move .pct.up { color: #8ff0b0; } .move .pct.down { color: #ffb3aa; }
+.cell { background: #2e4a70; } .cell.on { background: #3ee07a; }
+.err, .flag { color: #ffd2cc; }
+.qa .reply { background: var(--accent-soft); color: #ffffff; }
+.qa button { background: #ffffff; color: #172a45; }
+.qa-btn { background: transparent; color: #ffffff; border-color: #ffffff; }
+.daynav button { background: var(--inner); color: #ffffff; border-color: var(--line); }
+textarea { background: var(--bg); color: #ffffff; border-color: var(--line); }
+textarea::placeholder { color: #8aa3c4; }
+.score, .stats b, .rstreak b { color: #ffffff; }
+.rlist .ok { color: #8ff0b0; } .rlist .broke { color: #ffb3aa; } .rlist .na { color: var(--muted); }
+.card a { color: #ffffff; }
+
+/* Bright status colors */
+.pill { font-weight: 800; padding: 2px 10px; }
+.pill.High { background: #ff1a1a; color: #ffffff; }
+.pill.Medium { background: #ffd500; color: #1a1a1a; }
+.pill.Low { background: #ffffff; color: #1a1a1a; }
+.sq.Win, .cal .chip.Win { background: #00c853; color: #ffffff; }
+.sq.Loss, .cal .chip.Loss { background: #ff1a1a; color: #ffffff; }
+.sq.BE, .cal .chip.BE { background: #ffd500; color: #1a1a1a; }
+.sq.None, .cal .chip.None { background: #ffffff; color: #1a1a1a; }
+.move .pct { display: inline-block; justify-self: start; padding: 2px 12px; border-radius: 10px; }
+.move .pct.up { background: #00c853; color: #ffffff; }
+.move .pct.down { background: #ff1a1a; color: #ffffff; }
+.cal .dot { width: 9px; height: 9px; } .cal .dot.ok { background: #00e676; } .cal .dot.broke { background: #ff1a1a; }
+.rule[data-s="broke"] { background: #ff1a1a; }
+.check[aria-pressed="true"], .rule[data-s="ok"] { background: #00c853; }
+.rlist .ok { color: #00e676; } .rlist .broke { color: #ff5252; }
+.live-btn { justify-self: start; display: inline-block; font: 700 14px var(--body); background: #ffffff; color: #006FFF !important; text-decoration: none; padding: 9px 16px; border-radius: 999px; }
+
+/* Dimmed status colors (dark dashboard) */
+.pill.High { background: #a3302a; color: #f3f3f3; }
+.pill.Medium { background: #b8961e; color: #1b1b1b; }
+.pill.Low { background: #c4ccd6; color: #1b1b1b; }
+.sq.Win, .cal .chip.Win { background: #1e7a45; color: #f3f3f3; }
+.sq.Loss, .cal .chip.Loss { background: #a3302a; color: #f3f3f3; }
+.sq.BE, .cal .chip.BE { background: #b8961e; color: #1b1b1b; }
+.sq.None, .cal .chip.None { background: #c4ccd6; color: #1b1b1b; }
+.move .pct.up { background: #1e7a45; color: #f3f3f3; }
+.move .pct.down { background: #a3302a; color: #f3f3f3; }
+.check[aria-pressed="true"], .rule[data-s="ok"] { background: #1e7a45; border-color: #3a9a63; }
+.check[aria-pressed="true"] .box, .rule[data-s="ok"] .box { color: #1e7a45; }
+.rule[data-s="broke"] { background: #a3302a; border-color: #c4554e; }
+.rule[data-s="broke"] .box { color: #a3302a; }
+.cal .dot.ok { background: #2f9a5c; } .cal .dot.broke { background: #c0392b; }
+.cell.on { background: #2f9a5c; }
+.rlist .ok { color: #5fbf86; } .rlist .broke { color: #e0796f; }
+.err, .flag { color: #e8a39b; }
+.ghbar { display: flex; align-items: center; gap: 8px; }
+.gh-btn { font: 600 13px var(--body); background: transparent; color: #fff; border: 1px solid rgba(255,255,255,.4); border-radius: 999px; padding: 5px 12px; cursor: pointer; }
+.gh-on { color: #9fe0b5; } .gh-off { color: #f0c27a; }
+.gh-input { width: 100%; box-sizing: border-box; font: 14px var(--mono); color: #fff; background: var(--bg); border: 1px solid var(--line); border-radius: 10px; padding: 10px; }
+.tv-wrap { min-height: 72px; }
+.tv-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: 10px; }
+.tv-box { background: #0a0a0a; border: 1px solid #333; border-radius: 10px; padding: 10px; min-height: 110px; display: grid; gap: 4px; align-content: start; }
+.tv-label { font: 600 12px var(--mono); color: var(--muted); }
+</style>
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)} body{margin:0;font-size:14px} img{max-width:100%} [hidden]{display:none!important}</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header class="top">
+    <h1>Kaixh Trades</h1>
+    <span class="stamp" id="stamp">Loading…</span>
+    <div class="ghbar"><span class="stamp" id="gh-status"></span><button type="button" id="gh-open" class="gh-btn">Settings</button></div>
+  </header>
+  <div class="card" id="gh-panel" hidden>
+    <h2>GitHub key</h2>
+    <p class="sub">Paste your GitHub key (starts with github_pat_) so this device can save your checkmarks, rules, answers and reflections. It stays on this device only.</p>
+    <input id="gh-token" type="password" autocomplete="off" placeholder="github_pat_…" class="gh-input">
+    <div class="daynav"><button type="button" id="gh-save">Save key</button><button type="button" id="gh-clear">Remove key</button></div>
+    <span class="saved" id="gh-msg"></span>
+  </div>
+
+  <nav class="tabs" role="tablist" aria-label="Sections">
+    <button role="tab" id="tab-desk" aria-selected="true" aria-controls="desk">Desk</button>
+    <button role="tab" id="tab-acc" aria-selected="false" aria-controls="accountability">Accountability</button>
+    <button role="tab" id="tab-jr" aria-selected="false" aria-controls="journal">Notion Journal</button>
+    <button role="tab" id="tab-cal" aria-selected="false" aria-controls="calendar">Calendar</button>
+  </nav>
+
+  <!-- DESK -->
+  <section id="desk" role="tabpanel" aria-labelledby="tab-desk" style="display:grid;gap:16px">
+    <div class="card brief">
+      <p class="take" id="takeaway">Waiting for the first news update.</p>
+      <p class="sub" id="biasnote"></p>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h2>NQ / ES live</h2>
+        <p class="sub" id="mkt-status">Live % change from TradingView.</p>
+        <div class="tv-row">
+          <div class="tv-box"><span class="tv-label">NQ · Nasdaq 100</span>
+            <div class="tradingview-widget-container"><div class="tradingview-widget-container__widget"></div>
+              <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>
+              {"symbol":"OANDA:NAS100USD","width":"100%","isTransparent":true,"colorTheme":"dark","locale":"en"}
+              </script>
+            </div>
+          </div>
+          <div class="tv-box"><span class="tv-label">ES · S&amp;P 500</span>
+            <div class="tradingview-widget-container"><div class="tradingview-widget-container__widget"></div>
+              <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>
+              {"symbol":"OANDA:SPX500USD","width":"100%","isTransparent":true,"colorTheme":"dark","locale":"en"}
+              </script>
+            </div>
+          </div>
+        </div>
+        <p class="sub">Last news snapshot (since the 6 PM ET open):</p>
+        <div class="moves" id="levels"></div>
+      </div>
+      <div class="card">
+        <h2>Your plan today</h2>
+        <p class="sub" id="plan-date">From your Live Journal 2026</p>
+        <div id="plan"><p class="empty">Loading your journal…</p></div>
+      </div>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h2>Market news</h2>
+        <p class="sub">Updates at 7 AM, 9 AM, 4 PM, 8 PM and 10 PM ET.</p>
+        <table><thead><tr><th>Headline</th><th>Impact</th></tr></thead><tbody id="news"></tbody></table>
+      </div>
+      <div class="card">
+        <h2>Economic calendar</h2>
+        <p class="sub">Times in ET. High impact moves NQ the most.</p>
+        <table><thead><tr><th>Date</th><th>Time</th><th>Event</th><th>Impact</th></tr></thead><tbody id="cal"></tbody></table>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Earnings</h2>
+      <p class="sub">Big reports that can move NQ. AMC = after the close, BMO = before the open.</p>
+      <table><thead><tr><th>Date</th><th>Company</th><th>When</th><th>Why it matters</th></tr></thead><tbody id="earn"></tbody></table>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h2>Last 10 sessions</h2>
+        <p class="sub">Oldest on the left. W win, L loss, B break-even, – no trade.</p>
+        <div class="strip" id="strip"></div>
+        <div class="tally" id="tally"></div>
+      </div>
+      <div class="card">
+        <h2>AB's latest feedback</h2>
+        <p class="sub">Read these before you take a trade.</p>
+        <div id="fb"><p class="empty">Loading…</p></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Grok / X pulse</h2>
+      <p class="sub">What traders on X are saying about NQ.</p>
+      <div id="grok"><p class="empty">Grok isn't connected yet.</p></div>
+    </div>
+  </section>
+
+  <!-- ACCOUNTABILITY -->
+  <section id="accountability" role="tabpanel" aria-labelledby="tab-acc" hidden style="display:grid;gap:16px">
+    <div class="card">
+      <div class="dayhead">
+        <div>
+          <p class="dayname" id="dayname">Today</p>
+          <span class="score" id="dayscore">0 / 7 done</span>
+        </div>
+        <div class="daynav">
+          <button id="prev" aria-label="Previous day">‹ Prev</button>
+          <button id="today-btn">Today</button>
+          <button id="next" aria-label="Next day">Next ›</button>
+        </div>
+      </div>
+      <div class="checks" id="checks"></div>
+      <label for="note" class="sub">How did today go? (optional)</label>
+      <textarea id="note" placeholder="One line on your discipline today…"></textarea>
+      <span class="saved" id="saved"></span>
+    </div>
+
+    <div class="card" id="rules-card">
+      <div class="dayhead">
+        <div>
+          <h2>Trading rules</h2>
+          <p class="sub">Tap once for followed, twice for broke, three times to clear. Skip any that didn't apply today.</p>
+        </div>
+        <div class="rstreak"><b id="r-streak">—</b><span>days in a row with no broken rule</span></div>
+      </div>
+      <div class="checks" id="rules"></div>
+      <p class="sub" id="r-flag"></p>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h2>This week</h2>
+        <div class="stats">
+          <div><b id="st-week">—</b><span>Tasks done (last 7 days)</span></div>
+          <div><b id="st-streak">—</b><span id="st-streak-lab">Day streak, 6+ of 7</span></div>
+          <div><b id="st-perfect">—</b><span>Perfect days (last 30)</span></div>
+        </div>
+      </div>
+      <div class="card">
+        <h2>Last 14 days</h2>
+        <div class="heat-wrap"><table class="heat" id="heat"></table></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NOTION JOURNAL -->
+  <section id="journal" role="tabpanel" aria-labelledby="tab-jr" hidden style="display:grid;gap:16px">
+    <div class="card">
+      <p class="dayname" id="jr-title">Notion Journal</p>
+      <span class="sub" id="jr-meta">Claude reviews today's Live Journal entry at 12 PM ET. At midnight it starts fresh, and the day is saved to the Calendar tab.</span>
+    </div>
+    <div id="jr-view" style="display:grid;gap:16px"></div>
+  </section>
+
+  <!-- CALENDAR -->
+  <section id="calendar" role="tabpanel" aria-labelledby="tab-cal" hidden style="display:grid;gap:16px">
+    <div class="card">
+      <div class="dayhead">
+        <p class="dayname" id="cal-title">Calendar</p>
+        <div class="daynav">
+          <button id="cal-prev" aria-label="Previous month">‹</button>
+          <button id="cal-today">This month</button>
+          <button id="cal-next" aria-label="Next month">›</button>
+        </div>
+      </div>
+      <div class="cal-wrap"><div class="cal" id="cal-grid"></div></div>
+      <p class="sub">W win · L loss · B break-even · – no trade. Red dot: broke a rule. Green dot: no rules broken. ✎ review saved. n/7: habits done.</p>
+    </div>
+    <div id="cal-detail" style="display:grid;gap:16px"></div>
+  </section>
+</div>
+
+<script>
+(() => {
+  const HABITS = [
+    { id: 'sleep', label: 'Slept enough and woke on time', hint: 'In bed early enough to be sharp for 9:30' },
+    { id: 'steps', label: 'Hit 10k steps' },
+    { id: 'clean', label: 'No junk food' },
+    { id: 'social', label: 'Stayed off social media', hint: 'No scrolling. Trading alerts don’t count' },
+    { id: 'bible', label: 'Read the Bible, 30 min' },
+    { id: 'journal', label: 'Write in personal journal', hint: 'In the book, by hand' },
+    { id: 'workout', label: 'Work out' }
+  ];
+  const NOTION = { server: 'Notion', tool: 'notion-query-data-sources' };
+  const JOURNAL_INPUT = { data: { mode: 'rows', data_source_url: 'collection://2ec60e8f-5c45-8131-acdb-000bc78d7ee6', sort: [{ property: 'Date 1', direction: 'descending' }], limit: 60 } };
+
+  const $ = (id) => document.getElementById(id);
+  const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; };
+  const etDate = (d = new Date()) => new Intl.DateTimeFormat('en-CA', { timeZone: 'America/New_York', year: 'numeric', month: '2-digit', day: '2-digit' }).format(d);
+  const shift = (iso, n) => { const d = new Date(iso + 'T12:00:00Z'); d.setUTCDate(d.getUTCDate() + n); return d.toISOString().slice(0, 10); };
+  const pretty = (iso, opts = { weekday: 'long', month: 'short', day: 'numeric' }) => new Date(iso + 'T12:00:00Z').toLocaleDateString('en-US', { ...opts, timeZone: 'UTC' });
+  const price = new Intl.NumberFormat('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+
+  // Tabs
+  const tabs = { desk: $('tab-desk'), accountability: $('tab-acc'), journal: $('tab-jr'), calendar: $('tab-cal') };
+  const show = (name) => {
+    for (const [k, b] of Object.entries(tabs)) { b.setAttribute('aria-selected', String(k === name)); $(k).hidden = k !== name; }
+    try { localStorage.setItem('nqdesk-tab', name); } catch (e) {}
+  };
+  tabs.desk.addEventListener('click', () => show('desk'));
+  tabs.accountability.addEventListener('click', () => show('accountability'));
+  tabs.journal.addEventListener('click', () => show('journal'));
+  tabs.calendar.addEventListener('click', () => show('calendar'));
+  const h = location.hash.slice(1);
+  let start = 'desk';
+  if (h in tabs) start = h; else { try { start = localStorage.getItem('nqdesk-tab') || 'desk'; } catch (e) {} }
+  show(start in tabs ? start : 'desk');
+
+  // ---------- Desk: news doc ----------
+  const renderDesk = (d) => {
+    if (!d) { $('stamp').textContent = 'No news update yet'; return; }
+    const at = d.updatedAt ? new Date(d.updatedAt) : null;
+    $('stamp').textContent = at && !isNaN(at) ? 'News updated ' + at.toLocaleString('en-US', { timeZone: 'America/New_York', weekday: 'short', hour: 'numeric', minute: '2-digit' }) + ' ET' : 'News loaded';
+    $('takeaway').textContent = d.takeaway || '';
+    $('biasnote').textContent = d.bias_note || '';
+    const lv = $('levels'); lv.replaceChildren();
+    (d.moves || []).forEach((r) => {
+      const pct = Number(r.pct); const box = el('div', 'move');
+      box.append(el('span', 'sym', r.symbol));
+      box.append(el('span', 'pct ' + (pct > 0 ? 'up' : pct < 0 ? 'down' : ''), Number.isFinite(pct) ? (pct > 0 ? '+' : '') + pct.toFixed(2) + '%' : '—'));
+      const px = [Number.isFinite(Number(r.price)) ? price.format(Number(r.price)) : '', r.basis || ''].filter(Boolean).join(' · ');
+      if (px) box.append(el('span', 'px', px));
+      lv.append(box);
+    });
+    if (!(d.moves || []).length) lv.append(el('p', 'empty', 'No market data yet.'));
+    const nw = $('news'); nw.replaceChildren();
+    (d.news || []).forEach((r) => { const tr = el('tr'); const td = el('td', null, r.headline); td.append(el('span', 'meta', [r.time, r.source].filter(Boolean).join(' · '))); const ti = el('td'); ti.append(el('span', 'pill ' + (r.impact || 'Low'), r.impact || 'Low')); tr.append(td, ti); nw.append(tr); });
+    const cl = $('cal'); cl.replaceChildren();
+    (d.calendar || []).forEach((r) => { const tr = el('tr'); const ti = el('td'); ti.append(el('span', 'pill ' + (r.impact || 'Low'), r.impact || 'Low')); tr.append(el('td', null, r.date ? pretty(r.date, { weekday: 'short', month: 'short', day: 'numeric' }) : (r.day || '')), el('td', null, r.time), el('td', null, r.event), ti); cl.append(tr); });
+    const er = $('earn'); er.replaceChildren();
+    (d.earnings || []).forEach((r) => { const tr = el('tr'); tr.append(el('td', null, r.date ? pretty(r.date, { weekday: 'short', month: 'short', day: 'numeric' }) : ''), el('td', null, r.company), el('td', null, r.when), el('td', null, r.why || '')); er.append(tr); });
+    if (!(d.earnings || []).length) { const tr = el('tr'); const td = el('td', 'empty', 'No major earnings listed.'); td.colSpan = 4; tr.append(td); er.append(tr); }
+    const g = $('grok'); g.replaceChildren(); g.append(buildGrok(d.grok));
+  };
+
+  const buildGrok = (gk) => {
+    const w = el('div'); w.style.cssText = 'display:grid;gap:8px';
+    if (!gk || !(gk.pulse || (gk.items || []).length)) { w.append(el('p', 'empty', (gk && gk.note) || 'No Grok check-in yet.')); return w; }
+    const at = gk.at ? new Date(gk.at) : null;
+    if (at && !isNaN(at)) w.append(el('p', 'sub', 'From Grok \u00b7 ' + at.toLocaleString('en-US', { timeZone: 'America/New_York', weekday: 'short', hour: 'numeric', minute: '2-digit' }) + ' ET'));
+    if (gk.pulse) w.append(el('p', 'take', gk.pulse));
+    if (gk.bias) { const b = el('p'); const t = /risk-off/i.test(gk.bias) ? 'High' : /risk-on/i.test(gk.bias) ? 'Win' : 'Medium'; const pl = el('span', 'pill ' + (t === 'Win' ? 'Low' : t), /risk-off/i.test(gk.bias) ? 'RISK-OFF' : /risk-on/i.test(gk.bias) ? 'RISK-ON' : 'MIXED'); if (t === 'Win') { pl.style.background = '#1e7a45'; pl.style.color = '#fff'; } b.append(pl, document.createTextNode(' ' + gk.bias.replace(/^(risk-on|risk-off|mixed)\s*[\u2014:-]?\s*/i, ''))); w.append(b); }
+    if ((gk.items || []).length) { const ol = el('ol', 'fb'); gk.items.forEach((t) => ol.append(el('li', null, t))); w.append(ol); }
+    const dl = el('dl', 'kv'); [['Trump', gk.trump], ['Watch', gk.watch]].forEach(([k, v]) => { if (v) dl.append(el('dt', null, k), el('dd', null, v)); }); w.append(dl);
+    (gk.forSite || []).forEach((t) => w.append(el('p', 'reply', t)));
+    return w;
+  };
+
+  // ---------- Desk: journal via Notion ----------
+  const strip = (s) => String(s ?? '').replace(/<br\s*\/?>/gi, '\n').replace(/<[^>]+>/g, '').replace(/\\\$/g, '$').replace(/\n{3,}/g, '\n\n').trim();
+  const list = (s) => { try { const v = JSON.parse(s || '[]'); return Array.isArray(v) ? v.join(', ') : String(v); } catch (e) { return String(s || ''); } };
+  const kind = (r) => /Win|Trailed out W/.test(r) ? 'Win' : /Loss|BLOWN/.test(r) ? 'Loss' : /BreakEven/.test(r) ? 'BE' : /No Trades|Missed/.test(r) ? 'None' : '';
+  let journalRows = {};
+  const renderJournal = (payload) => {
+    let p = payload; if (typeof p === 'string') { try { p = JSON.parse(p); } catch (e) { p = {}; } }
+    const rows = ((p && p.results) || []).map((r) => ({ date: r['date:Date 1:start'] || '', result: list(r['Results']), side: list(r['Long or Short']), rr: strip(r['RR']), premarket: strip(r['PRE MARKET']), dol: strip(r['DOL']), entry: strip(r['Entry type']), talk: strip(r['TALK']), feel: strip(r['Pre- Emotions']), during: strip(r['Emotions during ']), after: strip(r['Emotions after']), reflect: strip(r['Reflect']), improve: strip(r['What i can improve on']), ab: strip(r["AB's Feedback"]), url: r.url || '' }));
+    journalRows = {}; rows.forEach((r) => { if (r.date && !journalRows[r.date]) journalRows[r.date] = r; });
+    try { renderCalendar(); } catch (e) {}
+    const today = etDate();
+    const t = rows.find((r) => r.date === today);
+    const plan = $('plan'); plan.replaceChildren();
+    if (t) {
+      $('plan-date').textContent = pretty(t.date) + ' · Live Journal 2026';
+      const dl = el('dl', 'kv');
+      [['Pre-market', t.premarket], ['DOL', t.dol], ['Entry', t.entry], ['Result', t.result], ['Feeling', t.feel]].forEach(([k, v]) => { dl.append(el('dt', null, k), el('dd', null, v || '—')); });
+      plan.append(dl);
+    } else {
+      $('plan-date').textContent = pretty(today) + ' · Live Journal 2026';
+      plan.append(el('p', 'empty', 'No entry for today yet. Write your pre-market plan in Notion and it shows up here.'));
+    }
+    const last = rows.filter((r) => kind(r.result)).slice(0, 10);
+    const s = $('strip'); s.replaceChildren();
+    last.slice().reverse().forEach((r) => { const k = kind(r.result); const d = el('div', 'sq ' + k, k === 'Win' ? 'W' : k === 'Loss' ? 'L' : k === 'BE' ? 'B' : '–'); d.title = pretty(r.date, { month: 'short', day: 'numeric' }) + ': ' + r.result; d.setAttribute('aria-label', d.title); s.append(d); });
+    const n = (k) => last.filter((r) => kind(r.result) === k).length;
+    const ta = $('tally'); ta.replaceChildren();
+    [['Win', 'Wins'], ['Loss', 'Losses'], ['BE', 'Break-even'], ['None', 'No trade']].forEach(([k, lab]) => { const d = el('div'); d.append(el('b', null, String(n(k))), el('span', null, lab)); ta.append(d); });
+    const fb = $('fb'); fb.replaceChildren();
+    const items = rows.filter((r) => r.ab).slice(0, 3);
+    if (items.length) { const ol = el('ol', 'fb'); items.forEach((r) => { const li = el('li', null, r.ab); li.append(el('span', 'meta', pretty(r.date, { weekday: 'short', month: 'short', day: 'numeric' }))); ol.append(li); }); fb.append(ol); }
+    else fb.append(el('p', 'empty', 'No feedback from AB logged yet.'));
+  };
+  const journalError = (code) => {
+    const msg = code === 'needs_reauth' ? 'Notion needs to be reconnected. Reconnect it in claude.ai Settings → Connectors.'
+      : code === 'server_not_connected' || code === 'selection_required' ? 'Add or pick your Notion connector in claude.ai Settings → Connectors to see your journal here.'
+      : code === 'not_in_manifest' || code === 'consent_required' ? 'Notion is turned off for this page. Allow it from the page’s Permissions menu.'
+      : code === 'server_unavailable' ? 'Notion isn’t answering right now. It will retry on its own.'
+      : 'Couldn’t load your journal from Notion.';
+    for (const id of ['plan', 'fb']) { $(id).replaceChildren(el('p', 'err', msg)); }
+    $('strip').replaceChildren(); $('tally').replaceChildren();
+  };
+
+  // ---------- Accountability ----------
+  let db = null, canWrite = true, viewDay = etDate(), habitDocs = {}, unsubDay = null;
+  const renderChecks = () => {
+    const d = habitDocs[viewDay] || {};
+    const today = etDate();
+    $('dayname').textContent = viewDay === today ? 'Today · ' + pretty(viewDay, { month: 'short', day: 'numeric' }) : pretty(viewDay);
+    $('next').disabled = viewDay >= today;
+    const done = HABITS.filter((x) => d[x.id] === true).length;
+    $('dayscore').textContent = done + ' / ' + HABITS.length + ' done';
+    const box = $('checks'); box.replaceChildren();
+    HABITS.forEach((x) => {
+      const b = el('button', 'check'); b.type = 'button'; b.setAttribute('aria-pressed', String(d[x.id] === true)); b.disabled = !db || !canWrite;
+      const mark = el('span', 'box', '✓'); const txt = el('span', null, x.label); if (x.hint) txt.append(el('small', null, x.hint));
+      b.append(mark, txt);
+      b.addEventListener('click', () => toggle(x.id));
+      box.append(b);
+    });
+    const note = $('note');
+    if (document.activeElement !== note) note.value = d.note || '';
+    note.disabled = !db || !canWrite;
+    try { renderRules(); } catch (e) {}
+  };
+  const GOOD = HABITS.length - 1;
+  const scoreOf = (d) => HABITS.filter((x) => d && d[x.id] === true).length;
+  const renderStats = () => {
+    const today = etDate();
+    let week = 0; for (let i = 0; i < 7; i++) week += scoreOf(habitDocs[shift(today, -i)]);
+    $('st-week').textContent = week + ' / ' + (7 * HABITS.length);
+    let streak = 0; let i = scoreOf(habitDocs[today]) >= GOOD ? 0 : 1;
+    while (scoreOf(habitDocs[shift(today, -i)]) >= GOOD) { streak++; i++; }
+    $('st-streak').textContent = String(streak);
+    let perfect = 0; for (let j = 0; j < 30; j++) if (scoreOf(habitDocs[shift(today, -j)]) === HABITS.length) perfect++;
+    $('st-perfect').textContent = String(perfect);
+    const t = $('heat'); t.replaceChildren();
+    const days = []; for (let j = 13; j >= 0; j--) days.push(shift(today, -j));
+    const hr = el('tr'); hr.append(el('th'));
+    days.forEach((dd) => hr.append(el('th', null, pretty(dd, { weekday: 'narrow' }))));
+    t.append(hr);
+    HABITS.forEach((x) => {
+      const tr = el('tr'); tr.append(el('th', 'row', x.label.replace(/,.*$/, '').replace('Slept enough and woke on time', 'Sleep').replace('Write in personal journal', 'Journal').replace('Stayed off social media', 'Off social').replace('Read the Bible', 'Bible')));
+      days.forEach((dd) => { const td = el('td'); const c = el('div', 'cell' + (habitDocs[dd] && habitDocs[dd][x.id] === true ? ' on' : '')); c.title = pretty(dd, { month: 'short', day: 'numeric' }); td.append(c); tr.append(td); });
+      t.append(tr);
+    });
+  };
+  let writing = Promise.resolve();
+  const save = (patch) => {
+    if (!db) return;
+    const day = viewDay;
+    const next = { ...(habitDocs[day] || {}), ...patch, date: day };
+    habitDocs[day] = next; renderChecks(); renderStats();
+    writing = writing.then(() => db.doc('habits/' + day).set(next)).then(() => { $('saved').textContent = 'Saved'; setTimeout(() => { $('saved').textContent = ''; }, 1500); })
+      .catch((e) => { if (e && e.code === 'invalid_argument') { canWrite = false; renderChecks(); $('saved').textContent = 'You can view this but not change it.'; } else if (e && e.code === 'quota_exceeded') $('saved').textContent = 'Storage is full. Ask Claude to clear old days.'; else $('saved').textContent = 'Couldn’t save. Try again.'; });
+  };
+  const toggle = (id) => { const d = habitDocs[viewDay] || {}; save({ [id]: !(d[id] === true) }); };
+  let noteTimer = null;
+  $('note').addEventListener('input', () => { clearTimeout(noteTimer); noteTimer = setTimeout(() => save({ note: $('note').value.slice(0, 2000) }), 800); });
+  $('note').addEventListener('blur', () => { clearTimeout(noteTimer); const v = $('note').value.slice(0, 2000); if (v !== ((habitDocs[viewDay] || {}).note || '')) save({ note: v }); });
+  $('prev').addEventListener('click', () => { viewDay = shift(viewDay, -1); renderChecks(); });
+  $('next').addEventListener('click', () => { if (viewDay < etDate()) { viewDay = shift(viewDay, 1); renderChecks(); } });
+  $('today-btn').addEventListener('click', () => { viewDay = etDate(); renderChecks(); });
+  renderChecks(); renderStats();
+
+
+
+  // ---------- Trading rules ----------
+  const RULES = [
+    { id: 'loss_limit', label: 'Stayed inside the $500 daily loss limit', hint: 'Never moved or removed the stop to avoid a loss' },
+    { id: 'win_lockout', label: 'Took a win, then locked out' },
+    { id: 'no_pre10', label: 'No entry in the 5 minutes before 10:00', hint: 'Let the 10 AM 4hr open manipulate first' },
+    { id: 'protected_stop', label: 'Stop at a protected high or low' },
+    { id: 'external_be', label: 'Break-even at external highs or lows, not internal' },
+    { id: 'htf_bias', label: 'Bias matched the current HTF narrative', hint: 'Re-checked after any HTF flip, not married to an old bias' },
+    { id: 'setup_not_pnl', label: 'Traded the setup, not the P&L' }
+  ];
+  let ruleDocs = {};
+  const renderRules = () => {
+    const d = (ruleDocs[viewDay] || {}).r || {};
+    const box = $('rules'); box.replaceChildren();
+    RULES.forEach((x) => {
+      const s = d[x.id] || '';
+      const b = el('button', 'check rule'); b.type = 'button'; b.dataset.s = s; b.disabled = !db || !canWrite;
+      b.setAttribute('aria-label', x.label + ': ' + (s === 'ok' ? 'followed' : s === 'broke' ? 'broke' : 'not set'));
+      const mark = el('span', 'box', s === 'broke' ? '✕' : '✓'); const txt = el('span', null, x.label); if (x.hint) txt.append(el('small', null, x.hint));
+      b.append(mark, txt);
+      b.addEventListener('click', () => cycleRule(x.id));
+      box.append(b);
+    });
+    const broke = RULES.filter((x) => d[x.id] === 'broke').map((x) => x.label);
+    $('r-flag').textContent = broke.length ? 'Broke today: ' + broke.join('; ') + '. Talk it through in your reflection on the Notion Journal tab.' : '';
+    $('r-flag').className = broke.length ? 'sub flag' : 'sub';
+    // streak: consecutive logged days (newest first) with no broken rule
+    const days = Object.keys(ruleDocs).filter((k) => Object.values((ruleDocs[k] || {}).r || {}).some(Boolean)).sort().reverse();
+    let st = 0; for (const k of days) { const vals = Object.values(ruleDocs[k].r || {}); if (vals.includes('broke')) break; st++; }
+    $('r-streak').textContent = String(st);
+  };
+  let ruleWriting = Promise.resolve();
+  const cycleRule = (id) => {
+    if (!db) return;
+    const day = viewDay;
+    const cur = ((ruleDocs[day] || {}).r || {})[id] || '';
+    const nxt = cur === '' ? 'ok' : cur === 'ok' ? 'broke' : '';
+    const doc = { date: day, r: { ...((ruleDocs[day] || {}).r || {}), [id]: nxt } };
+    ruleDocs[day] = doc; renderRules();
+    ruleWriting = ruleWriting.then(() => db.doc('rules/' + day).set(doc)).catch(() => { $('r-flag').textContent = 'Couldn\u2019t save. Try again.'; });
+  };
+
+  // ---------- Notion Journal reviews ----------
+  let reviewsByDate = {}, deskDays = {};
+  const listEl = (arr) => { const ul = el('ul', 'fb'); (arr || []).forEach((t) => ul.append(el('li', null, t))); if (!(arr || []).length) ul.append(el('li', 'empty', 'Nothing here.')); return ul; };
+  const card = (title, cls) => { const c = el('div', 'card' + (cls ? ' ' + cls : '')); if (title) c.append(el('h2', null, title)); return c; };
+  const buildReview = (r, prefix) => {
+    const wrap = el('div'); wrap.style.cssText = 'display:grid;gap:16px';
+    const top = card(null, 'brief'); top.append(el('p', 'take', r.summary || ''), el('p', 'sub', r.trade || ''));
+    const at = r.reviewedAt ? new Date(r.reviewedAt) : null;
+    if (at && !isNaN(at)) top.append(el('p', 'sub', 'Reviewed ' + at.toLocaleString('en-US', { timeZone: 'America/New_York', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' }) + ' ET'));
+    const g = el('div', 'grid'); const c1 = card('What you did well'); c1.append(listEl(r.good)); const c2 = card('What to fix'); c2.append(listEl(r.fix)); g.append(c1, c2);
+    const sh = card('Screenshot by screenshot'); const shl = el('div', 'checks');
+    (r.screenshots || []).forEach((s) => { const d = el('div', 'shot'); d.append(el('b', null, s.label || 'Screenshot'), el('span', null, s.feedback || '')); shl.append(d); });
+    if (!(r.screenshots || []).length) shl.append(el('p', 'empty', 'No screenshots reviewed for this day.'));
+    sh.append(shl);
+    const qc = card('Questions for you'); qc.append(el('p', 'sub', 'I wasn’t sure what you meant here. Answer below and I’ll reply at the next review.'));
+    const ql = el('div', 'checks');
+    (r.questions || []).forEach((q, i) => {
+      const d = el('div', 'qa'); d.append(el('p', 'q', q.q));
+      const ta = el('textarea'); ta.id = prefix + '-a-' + r.date + '-' + i; ta.value = q.answer || ''; ta.placeholder = 'Explain it in your own words…'; ta.disabled = !db || !canWrite;
+      const btn = el('button', null, q.answer ? 'Update answer' : 'Send answer'); btn.type = 'button'; btn.disabled = !db || !canWrite;
+      const st = el('span', 'saved');
+      btn.addEventListener('click', () => {
+        const v = ta.value.trim().slice(0, 3000); if (!v) return;
+        const cur = reviewsByDate[r.date] || r;
+        const next = JSON.parse(JSON.stringify(cur)); if (!next.questions[i]) return;
+        next.questions[i].answer = v; next.questions[i].answeredAt = new Date().toISOString();
+        btn.disabled = true;
+        (reviewsByDate[r.date] = next, db.doc('reviews/' + r.date).set(next)).then(() => { st.textContent = 'Sent. I’ll reply at the next review.'; }).catch(() => { st.textContent = 'Couldn’t save. Try again.'; btn.disabled = false; });
+      });
+      d.append(ta, btn, st);
+      if (q.reply) d.append(el('p', 'reply', q.reply));
+      ql.append(d);
+    });
+    if (!(r.questions || []).length) ql.append(el('p', 'empty', 'No questions this day.'));
+    qc.append(ql);
+    const rc = card('Rule for tomorrow', 'brief'); rc.append(el('p', 'take', r.rule || ''));
+    const rf = card('Your reflection');
+    rf.append(el('p', 'sub', 'Reflect here while you read the review: what you see now, what you\u2019d do differently, what clicked. I read it at the next review.'));
+    const rta = el('textarea'); rta.id = prefix + '-a-' + r.date + '-reflect'; rta.value = r.reflection || ''; rta.placeholder = 'Talk it out\u2026'; rta.style.minHeight = '120px'; rta.disabled = !db || !canWrite;
+    const rbtn = el('button', null, r.reflection ? 'Update reflection' : 'Save reflection'); rbtn.type = 'button'; rbtn.disabled = !db || !canWrite;
+    const rst = el('span', 'saved');
+    rbtn.addEventListener('click', () => {
+      const v = rta.value.trim().slice(0, 8000); if (!v) return;
+      const next = JSON.parse(JSON.stringify(reviewsByDate[r.date] || r)); next.reflection = v; next.reflectedAt = new Date().toISOString();
+      rbtn.disabled = true;
+      (reviewsByDate[r.date] = next, db.doc('reviews/' + r.date).set(next)).then(() => { rst.textContent = 'Saved.'; rbtn.disabled = false; }).catch(() => { rst.textContent = 'Couldn\u2019t save. Try again.'; rbtn.disabled = false; });
+    });
+    const rwrap = el('div', 'qa'); rwrap.append(rta, rbtn, rst); if (r.reflectionReply) rwrap.append(el('p', 'reply', r.reflectionReply)); rf.append(rwrap);
+    const parts = [top];
+    if (r.discord) {
+      const dc = card('Discord check-in \u00b7 AB Trades'); const dl = el('dl', 'kv'); const x = r.discord;
+      [['Charts opened', x.chartsOpened], ['Psych plan', x.plan], ['Risk settings', x.risk], ['End of day', x.eod], ['vs. your Notion', x.match]].forEach(([k, v]) => { if (v) dl.append(el('dt', null, k), el('dd', null, v)); });
+      dc.append(dl); parts.push(dc);
+    }
+    parts.push(g, sh, qc, rf, rc);
+    wrap.append(...parts);
+    return wrap;
+  };
+  const typing = (prefix) => { const a = document.activeElement; return a && a.id && a.id.startsWith(prefix + '-a-'); };
+  const renderJournalTab = () => {
+    if (typing('jr')) return;
+    const today = etDate();
+    $('jr-title').textContent = 'Notion Journal · ' + pretty(today);
+    const v = $('jr-view'); v.replaceChildren();
+    const r = reviewsByDate[today];
+    if (r) v.append(buildReview(r, 'jr'));
+    else { const c = card(null); c.append(el('p', 'empty', 'Today’s review shows up after 12 PM ET, once your Live Journal entry is in. Past days are saved in the Calendar tab.')); v.append(c); }
+  };
+
+  // ---------- Calendar ----------
+  let calMonth = etDate().slice(0, 7), selDay = null;
+  const monthName = (ym) => new Date(ym + '-15T12:00:00Z').toLocaleDateString('en-US', { month: 'long', year: 'numeric', timeZone: 'UTC' });
+  const addMonth = (ym, n) => { const [y, m] = ym.split('-').map(Number); const d = new Date(Date.UTC(y, m - 1 + n, 15)); return d.toISOString().slice(0, 7); };
+  const renderCalendar = () => {
+    $('cal-title').textContent = monthName(calMonth);
+    const g = $('cal-grid'); g.replaceChildren();
+    ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'].forEach((d) => g.append(el('div', 'dow', d)));
+    const [y, m] = calMonth.split('-').map(Number);
+    const first = new Date(Date.UTC(y, m - 1, 1)); const days = new Date(Date.UTC(y, m, 0)).getUTCDate();
+    for (let i = 0; i < first.getUTCDay(); i++) g.append(el('div', 'day out'));
+    const today = etDate();
+    for (let dnum = 1; dnum <= days; dnum++) {
+      const iso = calMonth + '-' + String(dnum).padStart(2, '0');
+      const b = el('button', 'day' + (iso === today ? ' today' : '') + (iso === selDay ? ' sel' : '')); b.type = 'button';
+      b.append(el('span', 'n', String(dnum)));
+      const marks = el('span', 'marks');
+      const jr = journalRows[iso]; const k = jr ? kind(jr.result) : '';
+      if (k) marks.append(el('span', 'chip ' + k, k === 'Win' ? 'W' : k === 'Loss' ? 'L' : k === 'BE' ? 'B' : '–'));
+      const rv = Object.values((ruleDocs[iso] || {}).r || {}).filter(Boolean);
+      if (rv.length) marks.append(el('span', 'dot ' + (rv.includes('broke') ? 'broke' : 'ok')));
+      if (reviewsByDate[iso]) marks.append(el('span', 'tiny', '✎'));
+      const hs = scoreOf(habitDocs[iso]); if (hs) marks.append(el('span', 'tiny', hs + '/' + HABITS.length));
+      b.append(marks);
+      b.setAttribute('aria-label', pretty(iso));
+      b.addEventListener('click', () => { selDay = iso; renderCalendar(); renderDetail(); $('cal-detail').scrollIntoView({ block: 'start' }); });
+      g.append(b);
+    }
+  };
+  const renderDetail = () => {
+    const v = $('cal-detail');
+    if (!selDay) { v.replaceChildren(); return; }
+    if (typing('cal')) return;
+    v.replaceChildren();
+    const d = selDay;
+    const head = card(null); head.append(el('p', 'dayname', pretty(d)));
+    v.append(head);
+    // Notion entry
+    const jr = journalRows[d];
+    const jc = card('Live Journal entry');
+    if (jr) {
+      const dl = el('dl', 'kv');
+      [['Result', [jr.side, jr.result, jr.rr ? jr.rr + ' RR' : ''].filter(Boolean).join(' · ')], ['Pre-market', jr.premarket], ['DOL', jr.dol], ['Entry', jr.entry], ['Notes', jr.talk], ['Before', jr.feel], ['During', jr.during], ['After', jr.after], ['Reflect', jr.reflect], ['Improve', jr.improve], ["AB's feedback", jr.ab]]
+        .forEach(([kk, vv]) => { if (vv) dl.append(el('dt', null, kk), el('dd', null, vv)); });
+      jc.append(dl);
+      if (jr.url) { const a = el('a', null, 'Open in Notion'); a.href = jr.url; a.target = '_blank'; a.rel = 'noopener'; jc.append(a); }
+    } else jc.append(el('p', 'empty', 'No Live Journal entry for this day (or it’s older than your last 60 entries).'));
+    v.append(jc);
+    // Review
+    if (reviewsByDate[d]) { const rh = card(null); rh.append(el('h2', null, 'Claude’s review')); v.append(rh, buildReview(reviewsByDate[d], 'cal')); }
+    // Rules + habits
+    const gg = el('div', 'grid');
+    const rc = card('Trading rules'); const rl = el('ul', 'rlist'); const rr = (ruleDocs[d] || {}).r || {};
+    RULES.forEach((x) => { const s = rr[x.id] || ''; const li = el('li'); li.append(el('span', s === 'ok' ? 'ok' : s === 'broke' ? 'broke' : 'na', s === 'ok' ? '✓' : s === 'broke' ? '✕' : '·'), el('span', null, x.label)); rl.append(li); });
+    rc.append(rl);
+    const hc = card('Daily tasks'); const hl = el('ul', 'rlist'); const hd = habitDocs[d] || {};
+    HABITS.forEach((x) => { const on = hd[x.id] === true; const li = el('li'); li.append(el('span', on ? 'ok' : 'na', on ? '✓' : '·'), el('span', null, x.label)); hl.append(li); });
+    hc.append(hl); if (hd.note) hc.append(el('p', 'sub', '“' + hd.note + '”'));
+    const eb = el('button', null, 'Edit this day'); eb.type = 'button'; eb.className = 'qa-btn';
+    eb.addEventListener('click', () => { viewDay = d; renderChecks(); show('accountability'); });
+    hc.append(eb);
+    gg.append(rc, hc); v.append(gg);
+    // News snapshot
+    const nd = deskDays[d];
+    const nc = card('News that day');
+    if (nd) {
+      if (nd.takeaway) nc.append(el('p', null, nd.takeaway));
+      nc.append(listEl((nd.news || []).map((n) => n.headline + (n.impact ? ' (' + n.impact + ')' : ''))));
+      if ((nd.earnings || []).length) { nc.append(el('p', 'sub', 'Earnings: ' + nd.earnings.map((x) => x.company + ' ' + x.when).join(', '))); }
+    } else nc.append(el('p', 'empty', 'No news saved for this day.'));
+    v.append(nc);
+    if (nd && nd.grok && (nd.grok.pulse || (nd.grok.items || []).length)) { const gc = card('Grok / X pulse that day'); gc.append(buildGrok(nd.grok)); v.append(gc); }
+  };
+  $('cal-prev').addEventListener('click', () => { calMonth = addMonth(calMonth, -1); renderCalendar(); });
+  $('cal-next').addEventListener('click', () => { calMonth = addMonth(calMonth, 1); renderCalendar(); });
+  $('cal-today').addEventListener('click', () => { calMonth = etDate().slice(0, 7); renderCalendar(); });
+
+  // Midnight ET rollover: start the new day fresh
+  let lastDay = etDate();
+  setInterval(() => {
+    const t = etDate();
+    if (t !== lastDay) { if (viewDay === lastDay) viewDay = t; lastDay = t; renderChecks(); renderStats(); renderJournalTab(); renderCalendar(); }
+  }, 60000);
+  renderJournalTab(); renderCalendar();
+
+  // ---------- GitHub storage ----------
+  const GH = { owner: 'NQXAVER', repo: 'kaixh-trades', branch: 'main' };
+  const tokenKey = 'kaixh-gh-token';
+  const getToken = () => { try { return localStorage.getItem(tokenKey) || ''; } catch (e) { return ''; } };
+  const api = (path, opts = {}) => {
+    const t = getToken();
+    const headers = { Accept: 'application/vnd.github+json', ...(opts.headers || {}) };
+    if (t) headers.Authorization = 'Bearer ' + t;
+    return fetch('https://api.github.com' + path, { ...opts, headers, cache: 'no-store' });
+  };
+  const b64 = (str) => btoa(unescape(encodeURIComponent(str)));
+  const unb64 = (s) => decodeURIComponent(escape(atob(s.replace(/\n/g, ''))));
+  const shas = {};
+  const readFile = async (path) => {
+    if (getToken()) {
+      const r = await api(`/repos/${GH.owner}/${GH.repo}/contents/${path}?ref=${GH.branch}`);
+      if (r.status === 404) return null;
+      if (!r.ok) throw new Error('read ' + r.status);
+      const j = await r.json(); shas[path] = j.sha; return JSON.parse(unb64(j.content));
+    }
+    const r = await fetch(`https://raw.githubusercontent.com/${GH.owner}/${GH.repo}/${GH.branch}/${path}?t=${Date.now()}`, { cache: 'no-store' });
+    if (r.status === 404) return null;
+    if (!r.ok) throw new Error('read ' + r.status);
+    return r.json();
+  };
+  const queues = {};
+  const writeFile = (path, obj, msg) => {
+    const run = async () => {
+      for (let attempt = 0; attempt < 3; attempt++) {
+        if (!shas[path]) {
+          const g = await api(`/repos/${GH.owner}/${GH.repo}/contents/${path}?ref=${GH.branch}`);
+          if (g.ok) { const j = await g.json(); shas[path] = j.sha; }
+        }
+        const body = { message: msg || ('Update ' + path), content: b64(JSON.stringify(obj, null, 1)), branch: GH.branch };
+        if (shas[path]) body.sha = shas[path];
+        const r = await api(`/repos/${GH.owner}/${GH.repo}/contents/${path}`, { method: 'PUT', body: JSON.stringify(body), headers: { 'Content-Type': 'application/json' } });
+        if (r.ok) { const j = await r.json(); shas[path] = j.content.sha; return; }
+        if (r.status === 409 || r.status === 422) { delete shas[path]; continue; }
+        if (r.status === 401 || r.status === 403) throw new Error('auth');
+        throw new Error('write ' + r.status);
+      }
+      throw new Error('conflict');
+    };
+    queues[path] = (queues[path] || Promise.resolve()).catch(() => {}).then(run);
+    return queues[path];
+  };
+  // a db-like shim so the existing save code keeps working
+  const makeDb = () => ({ doc: (p) => ({ set: (obj) => writeFile('data/' + p + '.json', obj, 'Kaixh Trades: save ' + p) }) });
+  db = getToken() ? makeDb() : null;
+
+  // ---------- Settings (GitHub key) ----------
+  const setStatus = () => {
+    const on = !!getToken();
+    $('gh-status').textContent = on ? 'Saving to GitHub: on' : 'Saving: off · tap Settings to add your GitHub key';
+    $('gh-status').className = 'stamp ' + (on ? 'gh-on' : 'gh-off');
+  };
+  $('gh-open').addEventListener('click', () => { $('gh-panel').hidden = !$('gh-panel').hidden; });
+  $('gh-save').addEventListener('click', async () => {
+    const v = $('gh-token').value.trim();
+    if (!v) return;
+    $('gh-msg').textContent = 'Checking…';
+    try {
+      const r = await fetch(`https://api.github.com/repos/${GH.owner}/${GH.repo}`, { headers: { Authorization: 'Bearer ' + v, Accept: 'application/vnd.github+json' } });
+      const j = await r.json();
+      if (!r.ok || !j.permissions || !j.permissions.push) { $('gh-msg').textContent = 'That key can’t save to kaixh-trades. Check it has Contents: Read and write.'; return; }
+      try { localStorage.setItem(tokenKey, v); } catch (e) {}
+      $('gh-token').value = ''; $('gh-msg').textContent = 'Saved on this device.'; db = makeDb(); canWrite = true; setStatus(); renderChecks(); renderJournalTab(); renderDetail();
+    } catch (e) { $('gh-msg').textContent = 'Couldn’t reach GitHub. Try again.'; }
+  });
+  $('gh-clear').addEventListener('click', () => { try { localStorage.removeItem(tokenKey); } catch (e) {} db = null; setStatus(); renderChecks(); $('gh-msg').textContent = 'Key removed from this device.'; });
+  setStatus();
+
+  // Futures market status (ET): CME closed Fri 5 PM to Sun 6 PM, and 5-6 PM daily break
+  const mktStatus = () => {
+    const parts = new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York', weekday: 'short', hour: 'numeric', hour12: false }).formatToParts(new Date());
+    const wd = parts.find((x) => x.type === 'weekday').value; const hr = Number(parts.find((x) => x.type === 'hour').value) % 24;
+    const closed = wd === 'Sat' || (wd === 'Fri' && hr >= 17) || (wd === 'Sun' && hr < 18) || (hr === 17 && wd !== 'Sun');
+    const el2 = $('mkt-status'); if (!el2) return;
+    el2.textContent = closed ? 'Futures are closed right now (reopens ' + (wd === 'Fri' || wd === 'Sat' || wd === 'Sun' ? 'Sunday' : 'today') + ' 6 PM ET). Showing the last % move.' : 'Market open · live % change from TradingView.';
+  };
+  mktStatus(); setInterval(mktStatus, 60000);
+
+  // ---------- Load data ----------
+  const loadDir = async (dir) => {
+    const r = await api(`/repos/${GH.owner}/${GH.repo}/contents/data/${dir}?ref=${GH.branch}`);
+    if (!r.ok) return {};
+    const list = (await r.json()).filter((f) => f.name.endsWith('.json'));
+    const out = {};
+    await Promise.all(list.map(async (f) => {
+      try {
+        const res = await fetch(f.download_url + '?t=' + Date.now(), { cache: 'no-store' });
+        if (res.ok) { const v = await res.json(); shas['data/' + dir + '/' + f.name] = f.sha; out[f.name.replace(/\.json$/, '')] = v; }
+      } catch (e) {}
+    }));
+    return out;
+  };
+  const loadAll = async () => {
+    try { const dsk = await readFile('data/desk/today.json'); const gk = await readFile('data/desk/grok.json').catch(() => null); if (dsk && gk && (!dsk.grok || !dsk.grok.at || String(gk.at || '') >= String(dsk.grok.at))) dsk.grok = gk; renderDesk(dsk || (gk ? { grok: gk } : null)); } catch (e) { $('stamp').textContent = 'Couldn’t load the news. Reload the page.'; }
+    const [rl, hb, rv, dd, jr] = await Promise.all(['rules', 'habits', 'reviews', 'deskdays', 'journal'].map((d) => loadDir(d).catch(() => ({}))));
+    const typingNow = document.activeElement && /^(jr|cal)-a-|^note$/.test(document.activeElement.id || '');
+    ruleDocs = rl; renderRules();
+    if (!typingNow) { habitDocs = hb; renderChecks(); renderStats(); }
+    reviewsByDate = rv; deskDays = dd;
+    const rows = Object.values(jr).flatMap((x) => Array.isArray(x) ? x : [x]).sort((a, b) => String(b['date:Date 1:start']).localeCompare(String(a['date:Date 1:start'])));
+    renderJournal({ results: rows });
+    if (!typingNow) { renderJournalTab(); renderDetail(); }
+    renderCalendar();
+  };
+  loadAll();
+  setInterval(() => { if (!document.hidden) loadAll(); }, 120000);
+  document.addEventListener('visibilitychange', () => { if (!document.hidden) loadAll(); });
+})();
+</script>
+
+</body>
+</html>
+
