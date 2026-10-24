@@ -223,6 +223,11 @@ textarea::placeholder { color: #8aa3c4; }
 .tv-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: 10px; }
 .tv-box { background: #0a0a0a; border: 1px solid #222; border-radius: 10px; padding: 10px; min-height: 110px; display: grid; gap: 4px; align-content: start; overflow: hidden; }
 .tv-box iframe, .tv-box .tradingview-widget-container { filter: invert(1) hue-rotate(180deg) brightness(0.9) contrast(1.1); background: #000 !important; }
+.fut-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); gap: 10px; }
+.fut { background: #0a0a0a; border: 1px solid #222; border-radius: 10px; padding: 12px; display: grid; gap: 4px; }
+.fut-px { font: 600 24px var(--mono); color: #f3f3f3; font-variant-numeric: tabular-nums; }
+.fut-ch { font: 600 14px var(--mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+.fut-ch.up { color: #5cc98a; } .fut-ch.dn { color: #e07a70; }
 .tv-label { font: 600 12px var(--mono); color: var(--muted); }
 </style>
 <style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)} body{margin:0;font-size:14px} img{max-width:100%} [hidden]{display:none!important}
@@ -239,6 +244,7 @@ textarea::placeholder { color: #8aa3c4; }
 .wday.now { border-color: #ffffff; }
 .wd { font: 600 13px var(--mono); }
 .wev { display: grid; gap: 4px; }
+.evnote { display: block; font-size: 12px; font-weight: 400; color: var(--muted); margin-top: 1px; }
 .wev .none { color: var(--muted); font-size: 13px; }
 .ev { display: grid; grid-template-columns: 12px 72px 1fr; gap: 8px; align-items: center; }
 .folder { width: 12px; height: 10px; border-radius: 2px; background: #a3302a; }
@@ -295,24 +301,13 @@ textarea::placeholder { color: #8aa3c4; }
 
     <div class="grid">
       <div class="card">
-        <h2>NQ / ES live</h2>
-        <p class="sub" id="mkt-status">Live % change from TradingView.</p>
-        <div class="tv-row">
-          <div class="tv-box"><span class="tv-label">NQ · Nasdaq-100 (tracks NQ1! futures)</span>
-            <div class="tradingview-widget-container"><div class="tradingview-widget-container__widget"></div>
-              <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>
-              {"symbol":"OANDA:NAS100USD","width":"100%","isTransparent":false,"colorTheme":"dark","locale":"en","backgroundColor":"#0a0a0a"}
-              </script>
-            </div>
-          </div>
-          <div class="tv-box"><span class="tv-label">ES · S&amp;P 500 (tracks ES1! futures)</span>
-            <div class="tradingview-widget-container"><div class="tradingview-widget-container__widget"></div>
-              <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>
-              {"symbol":"OANDA:SPX500USD","width":"100%","isTransparent":false,"colorTheme":"dark","locale":"en","backgroundColor":"#0a0a0a"}
-              </script>
-            </div>
-          </div>
+        <h2>NQ / ES futures</h2>
+        <p class="sub" id="mkt-status">Real CME futures prices.</p>
+        <div class="fut-row">
+          <div class="fut" id="fut-nq"><span class="tv-label">NQ1! · NASDAQ 100 E-mini Futures · CME</span><div class="fut-px">—</div><div class="fut-ch">Loading…</div></div>
+          <div class="fut" id="fut-es"><span class="tv-label">ES1! · S&amp;P 500 E-mini Futures · CME</span><div class="fut-px">—</div><div class="fut-ch">Loading…</div></div>
         </div>
+        <p class="sub" id="fut-asof"></p>
       </div>
       <div class="card">
         <h2>Your plan today</h2>
@@ -516,7 +511,7 @@ textarea::placeholder { color: #8aa3c4; }
         row.append(el('span', 'wd', pretty(day, { weekday: 'short', month: 'short', day: 'numeric' })));
         const box = el('div', 'wev');
         if (!evs.length) box.append(el('span', 'none', 'No red folder news'));
-        evs.forEach((r) => { const it = el('div', 'ev'); it.append(el('span', 'folder', ''), el('span', 'evt', r.time || ''), el('span', 'evn', r.event || '')); box.append(it); });
+        evs.forEach((r) => { const it = el('div', 'ev'); it.append(el('span', 'folder', ''), el('span', 'evt', r.time || ''), (() => { const n = el('span', 'evn', r.code || r.event || ''); if (r.note) n.append(el('small', 'evnote', r.note)); return n; })()); box.append(it); });
         row.append(box); cl.append(row);
       }
     });
@@ -985,9 +980,28 @@ textarea::placeholder { color: #8aa3c4; }
     const wd = parts.find((x) => x.type === 'weekday').value; const hr = Number(parts.find((x) => x.type === 'hour').value) % 24;
     const closed = wd === 'Sat' || (wd === 'Fri' && hr >= 17) || (wd === 'Sun' && hr < 18) || (hr === 17 && wd !== 'Sun');
     const el2 = $('mkt-status'); if (!el2) return;
-    el2.textContent = closed ? 'Futures are closed right now (reopens ' + (wd === 'Fri' || wd === 'Sat' || wd === 'Sun' ? 'Sunday' : 'today') + ' 6 PM ET). Showing the last % move.' : 'Market open · live % change from TradingView.';
+    el2.textContent = closed ? 'Futures are closed right now (reopens ' + (wd === 'Fri' || wd === 'Sat' || wd === 'Sun' ? 'Sunday' : 'today') + ' 6 PM ET). Showing the last close.' : 'Market open · real CME futures, refreshes every 30 seconds.';
   };
   mktStatus(); setInterval(mktStatus, 60000);
+
+  // Real CME futures (NQ1!/ES1!) from TradingView's public quote feed, ~10 min delayed
+  const fmt2 = (x) => Number(x).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  const loadFut = async () => {
+    try {
+      const r = await fetch('https://scanner.tradingview.com/futures/scan', { method: 'POST', body: JSON.stringify({ symbols: { tickers: ['CME_MINI:NQ1!', 'CME_MINI:ES1!'] }, columns: ['close', 'change', 'change_abs'] }) });
+      const j = await r.json();
+      (j.data || []).forEach((x) => {
+        const b = $(x.s.indexOf('NQ') >= 0 ? 'fut-nq' : 'fut-es'); if (!b) return;
+        const [c, p, a] = x.d;
+        b.querySelector('.fut-px').textContent = fmt2(c);
+        const ch = b.querySelector('.fut-ch');
+        ch.textContent = (a >= 0 ? '+' : '') + fmt2(a) + '   ' + (p >= 0 ? '+' : '') + Number(p).toFixed(2) + '%';
+        ch.className = 'fut-ch ' + (p > 0 ? 'up' : p < 0 ? 'dn' : '');
+      });
+      if ($('fut-asof')) $('fut-asof').textContent = 'CME data (same as your TradingView chart), about 10 min delayed · checked ' + new Date().toLocaleTimeString('en-US', { timeZone: 'America/New_York', hour: 'numeric', minute: '2-digit' }) + ' ET';
+    } catch (e) { if ($('fut-asof')) $('fut-asof').textContent = 'Could not load futures right now. Retrying…'; }
+  };
+  loadFut(); setInterval(() => { if (!document.hidden) loadFut(); }, 30000);
 
   // ---------- Load data ----------
   const loadDir = async (dir) => {
