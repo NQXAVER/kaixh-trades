@@ -483,7 +483,7 @@ textarea::placeholder { color: #8aa3c4; }
   let journalRows = {};
   const renderJournal = (payload) => {
     let p = payload; if (typeof p === 'string') { try { p = JSON.parse(p); } catch (e) { p = {}; } }
-    const rows = ((p && p.results) || []).map((r) => ({ date: r['date:Date 1:start'] || '', result: list(r['Results']), side: list(r['Long or Short']), rr: strip(r['RR']), premarket: strip(r['PRE MARKET']), dol: strip(r['DOL']), entry: strip(r['Entry type']), talk: strip(r['TALK']), feel: strip(r['Pre- Emotions']), during: strip(r['Emotions during ']), after: strip(r['Emotions after']), reflect: strip(r['Reflect']), improve: strip(r['What i can improve on']), ab: strip(r["AB's Feedback"]), url: r.url || '' }));
+    const rows = ((p && p.results) || []).map((r) => ({ date: r['date:Date 1:start'] || '', result: list(r['Results']), side: list(r['Long or Short']), rr: strip(r['RR']), premarket: strip(r['PRE MARKET']), dol: strip(r['DOL']), entry: strip(r['Entry type']), talk: strip(r['TALK']), feel: strip(r['Pre- Emotions']), during: strip(r['Emotions during ']), after: strip(r['Emotions after']), reflect: strip(r['Reflect']), improve: strip(r['What i can improve on']), ab: strip(r["AB's Feedback"]), url: r.url ? 'https://www.notion.so/' + ((String(r.url).match(/[0-9a-f]{32}/) || [''])[0]) : '' }));
     journalRows = {}; rows.forEach((r) => { if (r.date && !journalRows[r.date]) journalRows[r.date] = r; });
     try { renderCalendar(); } catch (e) {}
     const today = etDate();
