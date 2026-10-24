@@ -877,7 +877,7 @@ textarea::placeholder { color: #8aa3c4; }
     return out;
   };
   const loadAll = async () => {
-    try { renderDesk(await readFile('data/desk/today.json')); } catch (e) { $('stamp').textContent = 'Couldn’t load the news. Reload the page.'; }
+    try { const dsk = await readFile('data/desk/today.json'); const gk = await readFile('data/desk/grok.json').catch(() => null); if (dsk && gk && (!dsk.grok || !dsk.grok.at || String(gk.at || '') >= String(dsk.grok.at))) dsk.grok = gk; renderDesk(dsk || (gk ? { grok: gk } : null)); } catch (e) { $('stamp').textContent = 'Couldn’t load the news. Reload the page.'; }
     const [rl, hb, rv, dd, jr] = await Promise.all(['rules', 'habits', 'reviews', 'deskdays', 'journal'].map((d) => loadDir(d).catch(() => ({}))));
     const typingNow = document.activeElement && /^(jr|cal)-a-|^note$/.test(document.activeElement.id || '');
     ruleDocs = rl; renderRules();
