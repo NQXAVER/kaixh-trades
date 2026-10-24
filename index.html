@@ -225,7 +225,32 @@ textarea::placeholder { color: #8aa3c4; }
 .tv-box iframe, .tv-box .tradingview-widget-container { filter: invert(1) hue-rotate(180deg) brightness(0.9) contrast(1.1); background: #000 !important; }
 .tv-label { font: 600 12px var(--mono); color: var(--muted); }
 </style>
-<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)} body{margin:0;font-size:14px} img{max-width:100%} [hidden]{display:none!important}</style>
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)} body{margin:0;font-size:14px} img{max-width:100%} [hidden]{display:none!important}
+/* quote + week calendar + earnings */
+.quote { background: linear-gradient(135deg, #1b2f50, #172a45); }
+.q-label { font: 600 11px var(--mono); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin: 0; }
+.q-text { font-family: var(--display); font-size: 20px; line-height: 1.35; margin: 0; text-wrap: balance; }
+.q-src { color: var(--muted); font-size: 13px; margin: 0; }
+.week { display: grid; gap: 6px; }
+.wday { display: grid; grid-template-columns: 110px 1fr; gap: 10px; align-items: start; padding: 8px 10px; border: 1px solid var(--line); border-radius: 10px; background: var(--inner); }
+.wday.now { border-color: #ffffff; }
+.wd { font: 600 13px var(--mono); }
+.wev { display: grid; gap: 4px; }
+.wev .none { color: var(--muted); font-size: 13px; }
+.ev { display: grid; grid-template-columns: 12px 72px 1fr; gap: 8px; align-items: center; }
+.folder { width: 12px; height: 10px; border-radius: 2px; background: #a3302a; }
+.evt { font: 600 13px var(--mono); }
+.evn { font-weight: 600; }
+.earn-list { display: grid; gap: 8px; }
+.earn { border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; background: var(--inner); display: grid; gap: 3px; }
+.earn-top { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.earn-why { font-size: 13px; color: #dbe5f3; }
+.senti { font: 800 11px var(--mono); padding: 2px 8px; border-radius: 999px; letter-spacing: .06em; }
+.senti.bull { background: #1e7a45; color: #f3f3f3; } .senti.bear { background: #a3302a; color: #f3f3f3; } .senti.neutral { background: #c4ccd6; color: #1b1b1b; }
+.sq.None, .cal .chip.None { background: #5b3f8c; color: #f3f3f3; }
+.sq { width: auto; min-width: 30px; padding: 0 4px; }
+@media (max-width: 420px) { .wday { grid-template-columns: 1fr; gap: 4px; } .q-text { font-size: 18px; } }
+</style>
 </head>
 <body>
 
@@ -252,7 +277,14 @@ textarea::placeholder { color: #8aa3c4; }
 
   <!-- DESK -->
   <section id="desk" role="tabpanel" aria-labelledby="tab-desk" style="display:grid;gap:16px">
+    <div class="card quote" id="quote-card">
+      <p class="q-label">Today's mindset</p>
+      <p class="q-text" id="q-text"></p>
+      <p class="q-src" id="q-src"></p>
+    </div>
+
     <div class="card brief">
+      <p class="q-label">Market read</p>
       <p class="take" id="takeaway">Waiting for the first news update.</p>
       <p class="sub" id="biasnote"></p>
     </div>
@@ -262,17 +294,17 @@ textarea::placeholder { color: #8aa3c4; }
         <h2>NQ / ES live</h2>
         <p class="sub" id="mkt-status">Live % change from TradingView.</p>
         <div class="tv-row">
-          <div class="tv-box"><span class="tv-label">NQ · Nasdaq 100</span>
+          <div class="tv-box"><span class="tv-label">NQ1! · E-mini Nasdaq-100 futures</span>
             <div class="tradingview-widget-container"><div class="tradingview-widget-container__widget"></div>
               <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>
-              {"symbol":"OANDA:NAS100USD","width":"100%","isTransparent":false,"colorTheme":"dark","locale":"en","backgroundColor":"#0a0a0a"}
+              {"symbol":"CME_MINI:NQ1!","width":"100%","isTransparent":false,"colorTheme":"dark","locale":"en","backgroundColor":"#0a0a0a"}
               </script>
             </div>
           </div>
-          <div class="tv-box"><span class="tv-label">ES · S&amp;P 500</span>
+          <div class="tv-box"><span class="tv-label">ES1! · E-mini S&amp;P 500 futures</span>
             <div class="tradingview-widget-container"><div class="tradingview-widget-container__widget"></div>
               <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>
-              {"symbol":"OANDA:SPX500USD","width":"100%","isTransparent":false,"colorTheme":"dark","locale":"en","backgroundColor":"#0a0a0a"}
+              {"symbol":"CME_MINI:ES1!","width":"100%","isTransparent":false,"colorTheme":"dark","locale":"en","backgroundColor":"#0a0a0a"}
               </script>
             </div>
           </div>
@@ -285,29 +317,35 @@ textarea::placeholder { color: #8aa3c4; }
       </div>
     </div>
 
+    <div class="card">
+      <h2>Red folder news this week</h2>
+      <p class="sub">High-impact USD news only (Forex Factory red folder). Times in ET. These move NQ the most.</p>
+      <div class="week" id="cal"></div>
+    </div>
+
     <div class="grid">
       <div class="card">
-        <h2>Market news</h2>
-        <p class="sub">Updates at 7 AM, 9 AM, 4 PM, 8 PM and 10 PM ET.</p>
-        <table><thead><tr><th>Headline</th><th>Impact</th></tr></thead><tbody id="news"></tbody></table>
+        <h2>Earnings that moved the market</h2>
+        <p class="sub">The latest big reports and what they meant for NQ.</p>
+        <div class="earn-list" id="earn-recent"></div>
       </div>
       <div class="card">
-        <h2>Economic calendar</h2>
-        <p class="sub">Times in ET. High impact moves NQ the most.</p>
-        <table><thead><tr><th>Date</th><th>Time</th><th>Event</th><th>Impact</th></tr></thead><tbody id="cal"></tbody></table>
+        <h2>Big earnings coming up</h2>
+        <p class="sub">AMC = after the close, BMO = before the open.</p>
+        <div class="earn-list" id="earn"></div>
       </div>
     </div>
 
     <div class="card">
-      <h2>Earnings</h2>
-      <p class="sub">Big reports that can move NQ. AMC = after the close, BMO = before the open.</p>
-      <table><thead><tr><th>Date</th><th>Company</th><th>When</th><th>Why it matters</th></tr></thead><tbody id="earn"></tbody></table>
+      <h2>Market news</h2>
+      <p class="sub">Updates at 7 AM, 9 AM, 4 PM, 8 PM and 10 PM ET.</p>
+      <table><thead><tr><th>Headline</th><th>Impact</th></tr></thead><tbody id="news"></tbody></table>
     </div>
 
     <div class="grid">
       <div class="card">
         <h2>Last 10 sessions</h2>
-        <p class="sub">Oldest on the left. W win, L loss, B break-even, – no trade.</p>
+        <p class="sub">Oldest on the left. W win · L loss · B break-even · NT no trade.</p>
         <div class="strip" id="strip"></div>
         <div class="tally" id="tally"></div>
       </div>
@@ -362,7 +400,7 @@ textarea::placeholder { color: #8aa3c4; }
         <h2>This week</h2>
         <div class="stats">
           <div><b id="st-week">—</b><span>Tasks done (last 7 days)</span></div>
-          <div><b id="st-streak">—</b><span id="st-streak-lab">Day streak, 6+ of 7</span></div>
+          <div><b id="st-streak">—</b><span id="st-streak-lab">Day streak (all but 1 done)</span></div>
           <div><b id="st-perfect">—</b><span>Perfect days (last 30)</span></div>
         </div>
       </div>
@@ -394,7 +432,7 @@ textarea::placeholder { color: #8aa3c4; }
         </div>
       </div>
       <div class="cal-wrap"><div class="cal" id="cal-grid"></div></div>
-      <p class="sub">W win · L loss · B break-even · – no trade. Red dot: broke a rule. Green dot: no rules broken. ✎ review saved. n/7: habits done.</p>
+      <p class="sub">W win · L loss · B break-even · NT no trade. Red dot: broke a rule. Green dot: no rules broken. ✎ review saved. n/7: habits done.</p>
     </div>
     <div id="cal-detail" style="display:grid;gap:16px"></div>
   </section>
@@ -411,6 +449,17 @@ textarea::placeholder { color: #8aa3c4; }
     { id: 'journal', label: 'Write in personal journal', hint: 'In the book, by hand' },
     { id: 'workout', label: 'Work out' }
   ];
+  const WEEKEND = [
+    { id: 'steps', label: 'Hit 10k steps' },
+    { id: 'journal', label: 'Write in personal journal', hint: 'In the book, by hand' },
+    { id: 'bible', label: 'Read the Bible, 30 min' },
+    { id: 'review', label: 'Study and review my trading journal', hint: 'Go over the week\u2019s entries, reviews and AB\u2019s feedback' },
+    { id: 'backtest', label: 'Backtesting (optional)', optional: true },
+    { id: 'reset', label: 'Reset day: full mental rest', hint: 'One weekend day to fully recharge. Tap it and today counts as done.', reset: true }
+  ];
+  const isWeekend = (iso) => { const w = new Date(iso + 'T12:00:00Z').getUTCDay(); return w === 0 || w === 6; };
+  const habitsFor = (iso) => (iso && isWeekend(iso) ? WEEKEND : HABITS);
+  const required = (iso) => habitsFor(iso).filter((x) => !x.optional && !x.reset).length;
   const NOTION = { server: 'Notion', tool: 'notion-query-data-sources' };
   const JOURNAL_INPUT = { data: { mode: 'rows', data_source_url: 'collection://2ec60e8f-5c45-8131-acdb-000bc78d7ee6', sort: [{ property: 'Date 1', direction: 'descending' }], limit: 60 } };
 
@@ -437,31 +486,98 @@ textarea::placeholder { color: #8aa3c4; }
   show(start in tabs ? start : 'desk');
 
   // ---------- Desk: news doc ----------
-  const renderDesk = (d) => {
-    if (!d) { $('stamp').textContent = 'No news update yet'; return; }
-    const at = d.updatedAt ? new Date(d.updatedAt) : null;
-    $('stamp').textContent = at && !isNaN(at) ? 'News updated ' + at.toLocaleString('en-US', { timeZone: 'America/New_York', weekday: 'short', hour: 'numeric', minute: '2-digit' }) + ' ET' : 'News loaded';
-    $('takeaway').textContent = d.takeaway || '';
-    $('biasnote').textContent = d.bias_note || '';
-    const lv = $('levels'); lv.replaceChildren();
-    (d.moves || []).forEach((r) => {
-      const pct = Number(r.pct); const box = el('div', 'move');
-      box.append(el('span', 'sym', r.symbol));
-      box.append(el('span', 'pct ' + (pct > 0 ? 'up' : pct < 0 ? 'down' : ''), Number.isFinite(pct) ? (pct > 0 ? '+' : '') + pct.toFixed(2) + '%' : '—'));
-      const px = [Number.isFinite(Number(r.price)) ? price.format(Number(r.price)) : '', r.basis || ''].filter(Boolean).join(' · ');
-      if (px) box.append(el('span', 'px', px));
-      lv.append(box);
-    });
-    if (!(d.moves || []).length) lv.append(el('p', 'empty', 'No market data yet.'));
-    const nw = $('news'); nw.replaceChildren();
-    (d.news || []).forEach((r) => { const tr = el('tr'); const td = el('td', null, r.headline); td.append(el('span', 'meta', [r.time, r.source].filter(Boolean).join(' · '))); const ti = el('td'); ti.append(el('span', 'pill ' + (r.impact || 'Low'), r.impact || 'Low')); tr.append(td, ti); nw.append(tr); });
-    const cl = $('cal'); cl.replaceChildren();
-    (d.calendar || []).forEach((r) => { const tr = el('tr'); const ti = el('td'); ti.append(el('span', 'pill ' + (r.impact || 'Low'), r.impact || 'Low')); tr.append(el('td', null, r.date ? pretty(r.date, { weekday: 'short', month: 'short', day: 'numeric' }) : (r.day || '')), el('td', null, r.time), el('td', null, r.event), ti); cl.append(tr); });
-    const er = $('earn'); er.replaceChildren();
-    (d.earnings || []).forEach((r) => { const tr = el('tr'); tr.append(el('td', null, r.date ? pretty(r.date, { weekday: 'short', month: 'short', day: 'numeric' }) : ''), el('td', null, r.company), el('td', null, r.when), el('td', null, r.why || '')); er.append(tr); });
-    if (!(d.earnings || []).length) { const tr = el('tr'); const td = el('td', 'empty', 'No major earnings listed.'); td.colSpan = 4; tr.append(td); er.append(tr); }
-    const g = $('grok'); g.replaceChildren(); g.append(buildGrok(d.grok));
+  const fill = (id, fn) => { const n = $(id); if (n) { n.replaceChildren(); fn(n); } };
+  const sentiment = (s) => { const t = String(s || '').toLowerCase(); return t.startsWith('bull') ? 'bull' : t.startsWith('bear') ? 'bear' : 'neutral'; };
+  const weekStart = (d) => {
+    if (d && d.calendarWeek && d.calendarWeek.start) return d.calendarWeek.start;
+    const t = etDate(); const wd = new Date(t + 'T12:00:00Z').getUTCDay();
+    return shift(t, wd === 0 ? 1 : wd === 6 ? 2 : 1 - wd);
   };
+  const renderDesk = (d) => {
+    if (!d) { if ($('stamp')) $('stamp').textContent = 'No news update yet'; return; }
+    const at = d.updatedAt ? new Date(d.updatedAt) : null;
+    if ($('stamp')) $('stamp').textContent = at && !isNaN(at) ? 'News updated ' + at.toLocaleString('en-US', { timeZone: 'America/New_York', weekday: 'short', hour: 'numeric', minute: '2-digit' }) + ' ET' : 'News loaded';
+    if ($('takeaway')) $('takeaway').textContent = d.takeaway || '';
+    if ($('biasnote')) $('biasnote').textContent = d.bias_note || '';
+    fill('news', (nw) => {
+      (d.news || []).forEach((r) => { const tr = el('tr'); const td = el('td', null, r.headline); td.append(el('span', 'meta', [r.time, r.source].filter(Boolean).join(' · '))); const ti = el('td'); ti.append(el('span', 'pill ' + (r.impact || 'Low'), r.impact || 'Low')); tr.append(td, ti); nw.append(tr); });
+      if (!(d.news || []).length) { const tr = el('tr'); const td = el('td', 'empty', 'No headlines yet.'); td.colSpan = 2; tr.append(td); nw.append(tr); }
+    });
+    fill('cal', (cl) => {
+      const ws = weekStart(d);
+      const red = (d.calendar || []).filter((r) => /high|red/i.test(r.impact || ''));
+      for (let i = 0; i < 5; i++) {
+        const day = shift(ws, i); const evs = red.filter((r) => r.date === day);
+        const row = el('div', 'wday' + (day === etDate() ? ' now' : ''));
+        row.append(el('span', 'wd', pretty(day, { weekday: 'short', month: 'short', day: 'numeric' })));
+        const box = el('div', 'wev');
+        if (!evs.length) box.append(el('span', 'none', 'No red folder news'));
+        evs.forEach((r) => { const it = el('div', 'ev'); it.append(el('span', 'folder', ''), el('span', 'evt', r.time || ''), el('span', 'evn', r.event || '')); box.append(it); });
+        row.append(box); cl.append(row);
+      }
+    });
+    const isRecent = (r) => /reported/i.test(r.when || '') || r.status === 'reported' || !!r.reaction || !!r.sentiment;
+    const earnItem = (r, recent) => {
+      const it = el('div', 'earn');
+      const top = el('div', 'earn-top');
+      top.append(el('b', null, r.company || ''));
+      if (recent && r.sentiment) { const s = sentiment(r.sentiment); top.append(el('span', 'senti ' + s, s === 'bull' ? 'BULLISH' : s === 'bear' ? 'BEARISH' : 'NEUTRAL')); }
+      it.append(top);
+      it.append(el('span', 'meta', [r.date ? pretty(r.date, { weekday: 'short', month: 'short', day: 'numeric' }) : '', (r.when || '').replace(/\s*\(reported\)/i, ''), r.reaction || ''].filter(Boolean).join(' · ')));
+      if (r.why) it.append(el('span', 'earn-why', r.why));
+      return it;
+    };
+    const all = d.earnings || [];
+    fill('earn-recent', (n) => { const rs = all.filter(isRecent); rs.forEach((r) => n.append(earnItem(r, true))); if (!rs.length) n.append(el('p', 'empty', 'No recent reports yet.')); });
+    fill('earn', (n) => { const up = all.filter((r) => !isRecent(r)); up.forEach((r) => n.append(earnItem(r, false))); if (!up.length) n.append(el('p', 'empty', 'No big reports scheduled.')); });
+    fill('grok', (g) => g.append(buildGrok(d.grok)));
+  };
+
+  // ---------- Daily mindset quote ----------
+  const QUOTES = [
+    ['You have power over your mind, not outside events. Realize this, and you will find strength.', 'Marcus Aurelius'],
+    ['The best revenge is not to be like your enemy.', 'Marcus Aurelius'],
+    ['Waste no more time arguing what a good man should be. Be one.', 'Marcus Aurelius'],
+    ['If it is not right, do not do it; if it is not true, do not say it.', 'Marcus Aurelius'],
+    ['The impediment to action advances action. What stands in the way becomes the way.', 'Marcus Aurelius'],
+    ['We suffer more often in imagination than in reality.', 'Seneca'],
+    ['Luck is what happens when preparation meets opportunity.', 'Seneca'],
+    ['Difficulties strengthen the mind, as labor does the body.', 'Seneca'],
+    ['It is not that we have a short time to live, but that we waste much of it.', 'Seneca'],
+    ['No man is free who is not master of himself.', 'Epictetus'],
+    ['First say to yourself what you would be; then do what you have to do.', 'Epictetus'],
+    ['It is not things that disturb us, but our judgments about things.', 'Epictetus'],
+    ['He that is slow to anger is better than the mighty; and he that ruleth his spirit than he that taketh a city.', 'Proverbs 16:32'],
+    ['Commit thy works unto the Lord, and thy thoughts shall be established.', 'Proverbs 16:3'],
+    ['The thoughts of the diligent tend only to plenteousness; but of every one that is hasty only to want.', 'Proverbs 21:5'],
+    ['Be still, and know that I am God.', 'Psalm 46:10'],
+    ['Wait on the Lord: be of good courage, and he shall strengthen thine heart.', 'Psalm 27:14'],
+    ['For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind.', '2 Timothy 1:7'],
+    ['Let us not be weary in well doing: for in due season we shall reap, if we faint not.', 'Galatians 6:9'],
+    ['Be careful for nothing; but in every thing by prayer and supplication with thanksgiving let your requests be made known unto God.', 'Philippians 4:6'],
+    ['Patience is a weapon. The setup comes to you; you never chase it.', 'Kaixh rule'],
+    ['One clean trade at your level beats five trades at someone else’s.', 'Kaixh rule'],
+    ['Protect the account first. The payout follows the discipline, never the other way around.', 'Kaixh rule'],
+    ['A loss inside your rules is tuition. A loss outside your rules is a lesson you already paid for.', 'Kaixh rule'],
+    ['The market will be here tomorrow. Make sure your account is too.', 'Kaixh rule'],
+    ['Trade the setup, not the P&L.', 'Kaixh rule'],
+    ['When the higher timeframe changes its mind, change yours.', 'Kaixh rule'],
+    ['Wait for 10 AM to show its hand. Manipulation first, then your entry.', 'Kaixh rule'],
+    ['Take the win and walk. Locking out is a skill.', 'Kaixh rule'],
+    ['Calm is a position size. If you’re not calm, you’re too big.', 'Kaixh rule'],
+    ['Know thyself.', 'Inscription at Delphi'],
+    ['Victorious warriors win first and then go to war.', 'Sun Tzu'],
+    ['In the midst of chaos, there is also opportunity.', 'Sun Tzu'],
+    ['Well done is better than well said.', 'Benjamin Franklin'],
+    ['Lost time is never found again.', 'Benjamin Franklin']
+  ];
+  const showQuote = () => {
+    const t = etDate(); const n = Math.floor(Date.parse(t + 'T12:00:00Z') / 86400000);
+    const q = QUOTES[((n % QUOTES.length) + QUOTES.length) % QUOTES.length];
+    if ($('q-text')) $('q-text').textContent = '“' + q[0] + '”';
+    if ($('q-src')) $('q-src').textContent = '— ' + q[1];
+  };
+  showQuote(); setInterval(showQuote, 60000);
 
   const buildGrok = (gk) => {
     const w = el('div'); w.style.cssText = 'display:grid;gap:8px';
@@ -500,7 +616,7 @@ textarea::placeholder { color: #8aa3c4; }
     }
     const last = rows.filter((r) => kind(r.result)).slice(0, 10);
     const s = $('strip'); s.replaceChildren();
-    last.slice().reverse().forEach((r) => { const k = kind(r.result); const d = el('div', 'sq ' + k, k === 'Win' ? 'W' : k === 'Loss' ? 'L' : k === 'BE' ? 'B' : '–'); d.title = pretty(r.date, { month: 'short', day: 'numeric' }) + ': ' + r.result; d.setAttribute('aria-label', d.title); s.append(d); });
+    last.slice().reverse().forEach((r) => { const k = kind(r.result); const d = el('div', 'sq ' + k, k === 'Win' ? 'W' : k === 'Loss' ? 'L' : k === 'BE' ? 'B' : 'NT'); d.title = pretty(r.date, { month: 'short', day: 'numeric' }) + ': ' + r.result; d.setAttribute('aria-label', d.title); s.append(d); });
     const n = (k) => last.filter((r) => kind(r.result) === k).length;
     const ta = $('tally'); ta.replaceChildren();
     [['Win', 'Wins'], ['Loss', 'Losses'], ['BE', 'Break-even'], ['None', 'No trade']].forEach(([k, lab]) => { const d = el('div'); d.append(el('b', null, String(n(k))), el('span', null, lab)); ta.append(d); });
@@ -526,10 +642,11 @@ textarea::placeholder { color: #8aa3c4; }
     const today = etDate();
     $('dayname').textContent = viewDay === today ? 'Today · ' + pretty(viewDay, { month: 'short', day: 'numeric' }) : pretty(viewDay);
     $('next').disabled = viewDay >= today;
-    const done = HABITS.filter((x) => d[x.id] === true).length;
-    $('dayscore').textContent = done + ' / ' + HABITS.length + ' done';
+    const HL = habitsFor(viewDay);
+    const done = scoreOf({ ...d, date: viewDay });
+    $('dayscore').textContent = (d.reset ? 'Reset day \u00b7 ' : '') + done + ' / ' + required(viewDay) + ' done' + (isWeekend(viewDay) ? ' \u00b7 weekend' : '');
     const box = $('checks'); box.replaceChildren();
-    HABITS.forEach((x) => {
+    HL.forEach((x) => {
       const b = el('button', 'check'); b.type = 'button'; b.setAttribute('aria-pressed', String(d[x.id] === true)); b.disabled = !db || !canWrite;
       const mark = el('span', 'box', '✓'); const txt = el('span', null, x.label); if (x.hint) txt.append(el('small', null, x.hint));
       b.append(mark, txt);
@@ -541,16 +658,16 @@ textarea::placeholder { color: #8aa3c4; }
     note.disabled = !db || !canWrite;
     try { renderRules(); } catch (e) {}
   };
-  const GOOD = HABITS.length - 1;
-  const scoreOf = (d) => HABITS.filter((x) => d && d[x.id] === true).length;
+  const scoreOf = (d) => { if (!d) return 0; const iso = d.date || etDate(); const L = habitsFor(iso).filter((x) => !x.optional && !x.reset); if (d.reset) return L.length; return L.filter((x) => d[x.id] === true).length; };
+  const goodDay = (iso) => { const d = habitDocs[iso]; return !!d && scoreOf(d) >= required(iso) - 1; };
   const renderStats = () => {
     const today = etDate();
-    let week = 0; for (let i = 0; i < 7; i++) week += scoreOf(habitDocs[shift(today, -i)]);
-    $('st-week').textContent = week + ' / ' + (7 * HABITS.length);
-    let streak = 0; let i = scoreOf(habitDocs[today]) >= GOOD ? 0 : 1;
-    while (scoreOf(habitDocs[shift(today, -i)]) >= GOOD) { streak++; i++; }
+    let week = 0, weekMax = 0; for (let i = 0; i < 7; i++) { const dd = shift(today, -i); week += scoreOf(habitDocs[dd]); weekMax += required(dd); }
+    $('st-week').textContent = week + ' / ' + weekMax;
+    let streak = 0; let i = goodDay(today) ? 0 : 1;
+    while (goodDay(shift(today, -i))) { streak++; i++; }
     $('st-streak').textContent = String(streak);
-    let perfect = 0; for (let j = 0; j < 30; j++) if (scoreOf(habitDocs[shift(today, -j)]) === HABITS.length) perfect++;
+    let perfect = 0; for (let j = 0; j < 30; j++) { const dd = shift(today, -j); if (habitDocs[dd] && scoreOf(habitDocs[dd]) === required(dd)) perfect++; }
     $('st-perfect').textContent = String(perfect);
     const t = $('heat'); t.replaceChildren();
     const days = []; for (let j = 13; j >= 0; j--) days.push(shift(today, -j));
@@ -712,11 +829,11 @@ textarea::placeholder { color: #8aa3c4; }
       b.append(el('span', 'n', String(dnum)));
       const marks = el('span', 'marks');
       const jr = journalRows[iso]; const k = jr ? kind(jr.result) : '';
-      if (k) marks.append(el('span', 'chip ' + k, k === 'Win' ? 'W' : k === 'Loss' ? 'L' : k === 'BE' ? 'B' : '–'));
+      if (k) marks.append(el('span', 'chip ' + k, k === 'Win' ? 'W' : k === 'Loss' ? 'L' : k === 'BE' ? 'B' : 'NT'));
       const rv = Object.values((ruleDocs[iso] || {}).r || {}).filter(Boolean);
       if (rv.length) marks.append(el('span', 'dot ' + (rv.includes('broke') ? 'broke' : 'ok')));
       if (reviewsByDate[iso]) marks.append(el('span', 'tiny', '✎'));
-      const hs = scoreOf(habitDocs[iso]); if (hs) marks.append(el('span', 'tiny', hs + '/' + HABITS.length));
+      const hs = scoreOf(habitDocs[iso]); if (hs) marks.append(el('span', 'tiny', hs + '/' + required(iso)));
       b.append(marks);
       b.setAttribute('aria-label', pretty(iso));
       b.addEventListener('click', () => { selDay = iso; renderCalendar(); renderDetail(); $('cal-detail').scrollIntoView({ block: 'start' }); });
@@ -750,7 +867,7 @@ textarea::placeholder { color: #8aa3c4; }
     RULES.forEach((x) => { const s = rr[x.id] || ''; const li = el('li'); li.append(el('span', s === 'ok' ? 'ok' : s === 'broke' ? 'broke' : 'na', s === 'ok' ? '✓' : s === 'broke' ? '✕' : '·'), el('span', null, x.label)); rl.append(li); });
     rc.append(rl);
     const hc = card('Daily tasks'); const hl = el('ul', 'rlist'); const hd = habitDocs[d] || {};
-    HABITS.forEach((x) => { const on = hd[x.id] === true; const li = el('li'); li.append(el('span', on ? 'ok' : 'na', on ? '✓' : '·'), el('span', null, x.label)); hl.append(li); });
+    habitsFor(d).forEach((x) => { const on = hd[x.id] === true; const li = el('li'); li.append(el('span', on ? 'ok' : 'na', on ? '✓' : '·'), el('span', null, x.label)); hl.append(li); });
     hc.append(hl); if (hd.note) hc.append(el('p', 'sub', '“' + hd.note + '”'));
     const eb = el('button', null, 'Edit this day'); eb.type = 'button'; eb.className = 'qa-btn';
     eb.addEventListener('click', () => { viewDay = d; renderChecks(); show('accountability'); });
