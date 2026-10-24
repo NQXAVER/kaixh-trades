@@ -221,7 +221,8 @@ textarea::placeholder { color: #8aa3c4; }
 .gh-input { width: 100%; box-sizing: border-box; font: 14px var(--mono); color: #fff; background: var(--bg); border: 1px solid var(--line); border-radius: 10px; padding: 10px; }
 .tv-wrap { min-height: 72px; }
 .tv-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: 10px; }
-.tv-box { background: #0a0a0a; border: 1px solid #333; border-radius: 10px; padding: 10px; min-height: 110px; display: grid; gap: 4px; align-content: start; }
+.tv-box { background: #0a0a0a; border: 1px solid #222; border-radius: 10px; padding: 10px; min-height: 110px; display: grid; gap: 4px; align-content: start; overflow: hidden; }
+.tv-box iframe, .tv-box .tradingview-widget-container { filter: invert(1) hue-rotate(180deg) brightness(0.9) contrast(1.1); background: #000 !important; }
 .tv-label { font: 600 12px var(--mono); color: var(--muted); }
 </style>
 <style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)} body{margin:0;font-size:14px} img{max-width:100%} [hidden]{display:none!important}</style>
@@ -264,14 +265,14 @@ textarea::placeholder { color: #8aa3c4; }
           <div class="tv-box"><span class="tv-label">NQ · Nasdaq 100</span>
             <div class="tradingview-widget-container"><div class="tradingview-widget-container__widget"></div>
               <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>
-              {"symbol":"OANDA:NAS100USD","width":"100%","isTransparent":true,"colorTheme":"dark","locale":"en"}
+              {"symbol":"OANDA:NAS100USD","width":"100%","isTransparent":false,"colorTheme":"dark","locale":"en","backgroundColor":"#0a0a0a"}
               </script>
             </div>
           </div>
           <div class="tv-box"><span class="tv-label">ES · S&amp;P 500</span>
             <div class="tradingview-widget-container"><div class="tradingview-widget-container__widget"></div>
               <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>
-              {"symbol":"OANDA:SPX500USD","width":"100%","isTransparent":true,"colorTheme":"dark","locale":"en"}
+              {"symbol":"OANDA:SPX500USD","width":"100%","isTransparent":false,"colorTheme":"dark","locale":"en","backgroundColor":"#0a0a0a"}
               </script>
             </div>
           </div>
