@@ -67,10 +67,40 @@
  ],
  "earnings": [
   {
-   "company": "American Express (AXP)",
+   "date": "2026-10-21",
+   "company": "Meta (META)",
+   "when": "AMC (reported)",
+   "status": "reported",
+   "reaction": "META about -7% next day",
+   "sentiment": "Bearish",
+   "why": "Raised its 2026 capex floor to $135-145B. AI spending fears hit chips and big tech and helped drag the Nasdaq to its worst day since June."
+  },
+  {
+   "date": "2026-10-21",
+   "company": "Tesla (TSLA)",
+   "when": "AMC (reported)",
+   "status": "reported",
+   "reaction": "TSLA about -5% premarket",
+   "sentiment": "Bearish",
+   "why": "Beat on earnings and cut capex to about $20B, but the stock still sold off with the rest of mega-cap tech."
+  },
+  {
+   "date": "2026-10-20",
+   "company": "Netflix (NFLX)",
+   "when": "AMC (reported)",
+   "status": "reported",
+   "reaction": "NFLX about -1%",
+   "sentiment": "Bearish",
+   "why": "Cut its full-year ad revenue outlook to about $2.7B from $3B. Small weight in NQ, so a minor drag."
+  },
+  {
    "date": "2026-10-23",
+   "company": "American Express (AXP)",
    "when": "BMO (reported)",
-   "why": "Revenue miss, ~5% job cuts; stock -3%"
+   "status": "reported",
+   "reaction": "AXP about -3%",
+   "sentiment": "Bearish",
+   "why": "Revenue missed and it announced about 5% job cuts. Not an NQ name, but it added to the weak-consumer story."
   },
   {
    "company": "Cadence Design (CDNS)",
@@ -141,16 +171,16 @@
  ],
  "grok": {
   "at": "2026-10-23T20:52:00Z",
-  "bias": "risk-off \u2014 AI capex concerns plus Middle East headlines are still pressuring tech and supporting the defensive tone.",
+  "bias": "risk-off — AI capex concerns plus Middle East headlines are still pressuring tech and supporting the defensive tone.",
   "forSite": [],
   "items": [
    "Walter Bloomberg / DeItaone (~4:00 PM ET): Trump said he doubts Iran will say \"let's get down to business\" and floated another operation against Iran.",
    "The Kobeissi Letter (~2:40 PM ET): US stock market value hit 350% of M2, the highest since the 2000 dot-com bubble.",
    "Mario Nawfal (~4:40 AM ET): Nasdaq 100 dropped ~2.9% Thursday with chips down sharply as money rotated into Treasuries on AI return doubts and oil above $113.",
-   "Scott Redler (~8:55 AM ET): Many stocks already down 30\u201350% while SPY is only mildly off highs; $760 SPY is key support; failed breakouts in NVDA/META/AMZN.",
+   "Scott Redler (~8:55 AM ET): Many stocks already down 30–50% while SPY is only mildly off highs; $760 SPY is key support; failed breakouts in NVDA/META/AMZN.",
    "plur daddy (~9:05 AM ET): Tight liquidity and AI financing limits into year-end, with the Anthropic IPO flagged as a possible headwind for AI stocks."
   ],
-  "note": "Grok isn\u2019t connected yet. Add an xAI API key and each update will pull what traders on X are saying about NQ.",
+  "note": "Grok isn’t connected yet. Add an xAI API key and each update will pull what traders on X are saying about NQ.",
   "pulse": "X is focused on AI-led weakness in NQ after Thursday's selloff, with rising oil and fresh Iran comments from Trump keeping risk appetite muted into the close.",
   "trump": "Yes. Multiple comments this afternoon questioning Iran negotiations and suggesting possible further action, plus a side comment on Cuba.",
   "watch": "Follow-through on Trump's Iran remarks (oil and risk-off flows), FOMC on Oct 28, and whether NQ/ES can hold or reclaim key levels after the AI-led dump."
@@ -233,5 +263,8 @@
   }
  ],
  "takeaway": "Tech closed only slightly lower after Thursday's AI capex rout, but oil above $103 and a weak consumer kept pressure on. Next week decides direction: FOMC Wed 2 PM plus MSFT/GOOGL that night, then GDP/PCE and AMZN Thursday.",
- "updatedAt": "2026-10-23T20:10:00Z"
+ "updatedAt": "2026-10-23T20:10:00Z",
+ "calendarWeek": {
+  "start": "2026-10-26"
+ }
 }
