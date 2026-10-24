@@ -231,6 +231,9 @@ textarea::placeholder { color: #8aa3c4; }
 .q-label { font: 600 11px var(--mono); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin: 0; }
 .q-text { font-family: var(--display); font-size: 20px; line-height: 1.35; margin: 0; text-wrap: balance; }
 .q-src { color: var(--muted); font-size: 13px; margin: 0; }
+.quote, .brief.center { text-align: center; justify-items: center; }
+.quote .q-text, .quote .q-mean, .brief.center .take, .brief.center .sub { max-width: 60ch; margin-left: auto; margin-right: auto; }
+.q-mean { font-size: 14px; line-height: 1.5; color: var(--ink); opacity: .85; margin: 4px auto 0; padding-top: 10px; border-top: 1px solid var(--line); }
 .week { display: grid; gap: 6px; }
 .wday { display: grid; grid-template-columns: 110px 1fr; gap: 10px; align-items: start; padding: 8px 10px; border: 1px solid var(--line); border-radius: 10px; background: var(--inner); }
 .wday.now { border-color: #ffffff; }
@@ -281,9 +284,10 @@ textarea::placeholder { color: #8aa3c4; }
       <p class="q-label">Today's mindset</p>
       <p class="q-text" id="q-text"></p>
       <p class="q-src" id="q-src"></p>
+      <p class="q-mean" id="q-mean"></p>
     </div>
 
-    <div class="card brief">
+    <div class="card brief center">
       <p class="q-label">Market read</p>
       <p class="take" id="takeaway">Waiting for the first news update.</p>
       <p class="sub" id="biasnote"></p>
@@ -323,19 +327,6 @@ textarea::placeholder { color: #8aa3c4; }
       <div class="week" id="cal"></div>
     </div>
 
-    <div class="grid">
-      <div class="card">
-        <h2>Earnings that moved the market</h2>
-        <p class="sub">The latest big reports and what they meant for NQ.</p>
-        <div class="earn-list" id="earn-recent"></div>
-      </div>
-      <div class="card">
-        <h2>Big earnings coming up</h2>
-        <p class="sub">AMC = after the close, BMO = before the open.</p>
-        <div class="earn-list" id="earn"></div>
-      </div>
-    </div>
-
     <div class="card">
       <h2>Market news</h2>
       <p class="sub">Updates at 7 AM, 9 AM, 4 PM, 8 PM and 10 PM ET.</p>
@@ -353,6 +344,19 @@ textarea::placeholder { color: #8aa3c4; }
         <h2>AB's latest feedback</h2>
         <p class="sub">Read these before you take a trade.</p>
         <div id="fb"><p class="empty">Loading…</p></div>
+      </div>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h2>Earnings that moved the market</h2>
+        <p class="sub">The latest big reports and what they meant for NQ.</p>
+        <div class="earn-list" id="earn-recent"></div>
+      </div>
+      <div class="card">
+        <h2>Big earnings coming up</h2>
+        <p class="sub">AMC = after the close, BMO = before the open.</p>
+        <div class="earn-list" id="earn"></div>
       </div>
     </div>
 
@@ -535,47 +539,48 @@ textarea::placeholder { color: #8aa3c4; }
 
   // ---------- Daily mindset quote ----------
   const QUOTES = [
-    ['You have power over your mind, not outside events. Realize this, and you will find strength.', 'Marcus Aurelius'],
-    ['The best revenge is not to be like your enemy.', 'Marcus Aurelius'],
-    ['Waste no more time arguing what a good man should be. Be one.', 'Marcus Aurelius'],
-    ['If it is not right, do not do it; if it is not true, do not say it.', 'Marcus Aurelius'],
-    ['The impediment to action advances action. What stands in the way becomes the way.', 'Marcus Aurelius'],
-    ['We suffer more often in imagination than in reality.', 'Seneca'],
-    ['Luck is what happens when preparation meets opportunity.', 'Seneca'],
-    ['Difficulties strengthen the mind, as labor does the body.', 'Seneca'],
-    ['It is not that we have a short time to live, but that we waste much of it.', 'Seneca'],
-    ['No man is free who is not master of himself.', 'Epictetus'],
-    ['First say to yourself what you would be; then do what you have to do.', 'Epictetus'],
-    ['It is not things that disturb us, but our judgments about things.', 'Epictetus'],
-    ['He that is slow to anger is better than the mighty; and he that ruleth his spirit than he that taketh a city.', 'Proverbs 16:32'],
-    ['Commit thy works unto the Lord, and thy thoughts shall be established.', 'Proverbs 16:3'],
-    ['The thoughts of the diligent tend only to plenteousness; but of every one that is hasty only to want.', 'Proverbs 21:5'],
-    ['Be still, and know that I am God.', 'Psalm 46:10'],
-    ['Wait on the Lord: be of good courage, and he shall strengthen thine heart.', 'Psalm 27:14'],
-    ['For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind.', '2 Timothy 1:7'],
-    ['Let us not be weary in well doing: for in due season we shall reap, if we faint not.', 'Galatians 6:9'],
-    ['Be careful for nothing; but in every thing by prayer and supplication with thanksgiving let your requests be made known unto God.', 'Philippians 4:6'],
-    ['Patience is a weapon. The setup comes to you; you never chase it.', 'Kaixh rule'],
-    ['One clean trade at your level beats five trades at someone else’s.', 'Kaixh rule'],
-    ['Protect the account first. The payout follows the discipline, never the other way around.', 'Kaixh rule'],
-    ['A loss inside your rules is tuition. A loss outside your rules is a lesson you already paid for.', 'Kaixh rule'],
-    ['The market will be here tomorrow. Make sure your account is too.', 'Kaixh rule'],
-    ['Trade the setup, not the P&L.', 'Kaixh rule'],
-    ['When the higher timeframe changes its mind, change yours.', 'Kaixh rule'],
-    ['Wait for 10 AM to show its hand. Manipulation first, then your entry.', 'Kaixh rule'],
-    ['Take the win and walk. Locking out is a skill.', 'Kaixh rule'],
-    ['Calm is a position size. If you’re not calm, you’re too big.', 'Kaixh rule'],
-    ['Know thyself.', 'Inscription at Delphi'],
-    ['Victorious warriors win first and then go to war.', 'Sun Tzu'],
-    ['In the midst of chaos, there is also opportunity.', 'Sun Tzu'],
-    ['Well done is better than well said.', 'Benjamin Franklin'],
-    ['Lost time is never found again.', 'Benjamin Franklin']
+    ['You have power over your mind, not outside events. Realize this, and you will find strength.', 'Marcus Aurelius', 'You can\'t control the market. You can control your reaction to it — that\'s where your edge lives.'],
+    ['The best revenge is not to be like your enemy.', 'Marcus Aurelius', 'After a loss, don\'t fight the market back. Revenge trading turns one bad trade into a bad day.'],
+    ['Waste no more time arguing what a good man should be. Be one.', 'Marcus Aurelius', 'Stop thinking about the trader you want to be. Act like him today: follow the rules.'],
+    ['If it is not right, do not do it; if it is not true, do not say it.', 'Marcus Aurelius', 'If the setup isn\'t there, don\'t take it. If your journal isn\'t honest, it can\'t help you.'],
+    ['The impediment to action advances action. What stands in the way becomes the way.', 'Marcus Aurelius', 'Every obstacle — a loss, a missed setup — is the exact thing that teaches you the next step.'],
+    ['We suffer more often in imagination than in reality.', 'Seneca', 'Most of the fear is in your head before the trade, not in the trade itself. Trust the plan.'],
+    ['Luck is what happens when preparation meets opportunity.', 'Seneca', 'The \'lucky\' trade is just prep meeting the setup. Do the prep and the luck shows up.'],
+    ['Difficulties strengthen the mind, as labor does the body.', 'Seneca', 'Hard days build your discipline the way the gym builds muscle. Don\'t waste them.'],
+    ['It is not that we have a short time to live, but that we waste much of it.', 'Seneca', 'You have enough time. Don\'t burn it on random trades, scrolling or things that don\'t move you forward.'],
+    ['No man is free who is not master of himself.', 'Epictetus', 'If your emotions run your trades, they own you. Control yourself first.'],
+    ['First say to yourself what you would be; then do what you have to do.', 'Epictetus', 'Decide who you are as a trader, then do what that person does — every day.'],
+    ['It is not things that disturb us, but our judgments about things.', 'Epictetus', 'The red candle doesn\'t upset you. Your story about it does. Change the story, stay calm.'],
+    ['He that is slow to anger is better than the mighty; and he that ruleth his spirit than he that taketh a city.', 'Proverbs 16:32', 'Controlling your own temper is a bigger win than any trade. Calm beats strong.'],
+    ['Commit thy works unto the Lord, and thy thoughts shall be established.', 'Proverbs 16:3', 'Give your work to God and do it well — your thinking gets clear and steady.'],
+    ['The thoughts of the diligent tend only to plenteousness; but of every one that is hasty only to want.', 'Proverbs 21:5', 'Patient, careful work pays. Rushing and being hasty leads to losses.'],
+    ['Be still, and know that I am God.', 'Psalm 46:10', 'Slow down. You don\'t have to force anything today. Peace first, then action.'],
+    ['Wait on the Lord: be of good courage, and he shall strengthen thine heart.', 'Psalm 27:14', 'Waiting is not weakness. Be patient and brave — strength comes while you wait.'],
+    ['For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind.', '2 Timothy 1:7', 'Fear isn\'t from God. You were given power, love and a clear, sound mind — trade from that.'],
+    ['Let us not be weary in well doing: for in due season we shall reap, if we faint not.', 'Galatians 6:9', 'Keep doing the right things even when results are slow. The harvest comes if you don\'t quit.'],
+    ['Be careful for nothing; but in every thing by prayer and supplication with thanksgiving let your requests be made known unto God.', 'Philippians 4:6', 'Don\'t worry. Pray, be thankful, and hand it over — then do your part calmly.'],
+    ['Patience is a weapon. The setup comes to you; you never chase it.', 'Kaixh rule', 'Your edge is waiting. Let price come to your level; never chase a move.'],
+    ['One clean trade at your level beats five trades at someone else’s.', 'Kaixh rule', 'Quality over quantity. One A+ setup beats a bunch of random trades.'],
+    ['Protect the account first. The payout follows the discipline, never the other way around.', 'Kaixh rule', 'Risk management comes first. Money follows discipline, not the other way around.'],
+    ['A loss inside your rules is tuition. A loss outside your rules is a lesson you already paid for.', 'Kaixh rule', 'Losing while following rules is normal. Losing by breaking them is a lesson you already learned.'],
+    ['The market will be here tomorrow. Make sure your account is too.', 'Kaixh rule', 'There\'s always another setup. Don\'t blow the account trying to win today.'],
+    ['Trade the setup, not the P&L.', 'Kaixh rule', 'Watch the chart, not the dollars. Your rules decide the exit, not your emotions.'],
+    ['When the higher timeframe changes its mind, change yours.', 'Kaixh rule', 'Don\'t marry your bias. If the HTF flips, flip with it.'],
+    ['Wait for 10 AM to show its hand. Manipulation first, then your entry.', 'Kaixh rule', 'The open is manipulation. Let it show you its hand before you take your entry.'],
+    ['Take the win and walk. Locking out is a skill.', 'Kaixh rule', 'Stopping after a green trade is a skill. Giving it back is the habit to break.'],
+    ['Calm is a position size. If you’re not calm, you’re too big.', 'Kaixh rule', 'If you feel stressed in a trade, you\'re sized too big. Size down until you\'re calm.'],
+    ['Know thyself.', 'Inscription at Delphi', 'Understand yourself — your emotions, triggers and weak spots. When you know when fear or FOMO shows up, you can catch it before it trades for you.'],
+    ['Victorious warriors win first and then go to war.', 'Sun Tzu', 'Win in your preparation before the session. Plan the trade, then trade the plan.'],
+    ['In the midst of chaos, there is also opportunity.', 'Sun Tzu', 'Volatile days scare most traders. A prepared trader sees the opportunity.'],
+    ['Well done is better than well said.', 'Benjamin Franklin', 'Doing the work beats talking about it. Let your journal show it.'],
+    ['Lost time is never found again.', 'Benjamin Franklin', 'Use your time on purpose — study, rest, family. You don\'t get it back.']
   ];
   const showQuote = () => {
     const t = etDate(); const n = Math.floor(Date.parse(t + 'T12:00:00Z') / 86400000);
     const q = QUOTES[((n % QUOTES.length) + QUOTES.length) % QUOTES.length];
     if ($('q-text')) $('q-text').textContent = '“' + q[0] + '”';
     if ($('q-src')) $('q-src').textContent = '— ' + q[1];
+    if ($('q-mean')) $('q-mean').textContent = q[2] || '';
   };
   showQuote(); setInterval(showQuote, 60000);
 
@@ -610,6 +615,12 @@ textarea::placeholder { color: #8aa3c4; }
       const dl = el('dl', 'kv');
       [['Pre-market', t.premarket], ['DOL', t.dol], ['Entry', t.entry], ['Result', t.result], ['Feeling', t.feel]].forEach(([k, v]) => { dl.append(el('dt', null, k), el('dd', null, v || '—')); });
       plan.append(dl);
+    } else if ([0, 6].includes(new Date(today + 'T12:00:00Z').getUTCDay())) {
+      const ph = $('plan-date').previousElementSibling; if (ph) ph.textContent = 'Weekend plan';
+      $('plan-date').textContent = pretty(today) + ' · No trading today';
+      plan.append(el('p', 'take', 'Complete your simple tasks, then rest.'));
+      const ul = el('ul', 'rlist'); ['10k steps', 'Personal journal', 'Bible, 30 min', 'Review your trading journal', 'Backtest (optional)'].forEach((x) => ul.append(el('li', null, x))); plan.append(ul);
+      plan.append(el('p', 'sub', 'Tick them in the Accountability tab. One Reset day is allowed: full rest, no charts.'));
     } else {
       $('plan-date').textContent = pretty(today) + ' · Live Journal 2026';
       plan.append(el('p', 'empty', 'No entry for today yet. Write your pre-market plan in Notion and it shows up here.'));
