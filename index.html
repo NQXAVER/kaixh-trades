@@ -949,13 +949,29 @@ textarea::placeholder { color: #8aa3c4; }
     return queues[path];
   };
   // a db-like shim so the existing save code keeps working
-  const makeDb = () => ({ doc: (p) => ({ set: (obj) => writeFile('data/' + p + '.json', obj, 'Kaixh Trades: save ' + p) }) });
-  db = getToken() ? makeDb() : null;
+  const pendKey = 'kaixh-pending';
+  const getPending = () => { try { return JSON.parse(localStorage.getItem(pendKey) || '{}'); } catch (e) { return {}; } };
+  const setPending = (p) => { try { localStorage.setItem(pendKey, JSON.stringify(p)); } catch (e) {} };
+  const keepLocal = (p, obj) => { const all = getPending(); all[p] = obj; setPending(all); };
+  const dropLocal = (p, obj) => { const all = getPending(); if (JSON.stringify(all[p]) === JSON.stringify(obj)) { delete all[p]; setPending(all); } };
+  // Saves always work: kept on this device first, then sent to GitHub when a key is set
+  const makeDb = () => ({ doc: (p) => ({ set: (obj) => {
+    keepLocal(p, obj);
+    if (!getToken()) { setStatus(); return Promise.resolve(); }
+    return writeFile('data/' + p + '.json', obj, 'Kaixh Trades: save ' + p).then(() => { dropLocal(p, obj); setStatus(); });
+  } }) });
+  const flushPending = async () => {
+    if (!getToken()) return;
+    const all = getPending();
+    for (const p of Object.keys(all)) { try { await writeFile('data/' + p + '.json', all[p], 'Kaixh Trades: save ' + p); dropLocal(p, all[p]); } catch (e) {} }
+    setStatus();
+  };
+  db = makeDb();
 
   // ---------- Settings (GitHub key) ----------
   const setStatus = () => {
-    const on = !!getToken();
-    $('gh-status').textContent = on ? 'Saving to GitHub: on' : 'Saving: off · tap Settings to add your GitHub key';
+    const on = !!getToken(); const n = Object.keys(getPending()).length;
+    $('gh-status').textContent = on ? (n ? 'Syncing ' + n + ' change' + (n > 1 ? 's' : '') + '…' : 'Saving to GitHub: on') : 'Saving on this device only · add your GitHub key in Settings to sync';
     $('gh-status').className = 'stamp ' + (on ? 'gh-on' : 'gh-off');
   };
   $('gh-open').addEventListener('click', () => { $('gh-panel').hidden = !$('gh-panel').hidden; });
@@ -968,11 +984,11 @@ textarea::placeholder { color: #8aa3c4; }
       const j = await r.json();
       if (!r.ok || !j.permissions || !j.permissions.push) { $('gh-msg').textContent = 'That key can’t save to kaixh-trades. Check it has Contents: Read and write.'; return; }
       try { localStorage.setItem(tokenKey, v); } catch (e) {}
-      $('gh-token').value = ''; $('gh-msg').textContent = 'Saved on this device.'; db = makeDb(); canWrite = true; setStatus(); renderChecks(); renderJournalTab(); renderDetail();
+      $('gh-token').value = ''; $('gh-msg').textContent = 'Saved on this device.'; db = makeDb(); canWrite = true; setStatus(); renderChecks(); renderJournalTab(); renderDetail(); flushPending();
     } catch (e) { $('gh-msg').textContent = 'Couldn’t reach GitHub. Try again.'; }
   });
-  $('gh-clear').addEventListener('click', () => { try { localStorage.removeItem(tokenKey); } catch (e) {} db = null; setStatus(); renderChecks(); $('gh-msg').textContent = 'Key removed from this device.'; });
-  setStatus();
+  $('gh-clear').addEventListener('click', () => { try { localStorage.removeItem(tokenKey); } catch (e) {} setStatus(); renderChecks(); $('gh-msg').textContent = 'Key removed from this device.'; });
+  setStatus(); flushPending();
 
   // Futures market status (ET): CME closed Fri 5 PM to Sun 6 PM, and 5-6 PM daily break
   const mktStatus = () => {
@@ -1004,22 +1020,29 @@ textarea::placeholder { color: #8aa3c4; }
   loadFut(); setInterval(() => { if (!document.hidden) loadFut(); }, 30000);
 
   // ---------- Load data ----------
+  let treeP = null; const lastDirs = {};
+  const getTree = () => (treeP = treeP || api(`/repos/${GH.owner}/${GH.repo}/git/trees/${GH.branch}?recursive=1`).then((r) => (r.ok ? r.json() : Promise.reject(r.status))).then((j) => j.tree || []));
   const loadDir = async (dir) => {
-    const r = await api(`/repos/${GH.owner}/${GH.repo}/contents/data/${dir}?ref=${GH.branch}`);
-    if (!r.ok) return {};
-    const list = (await r.json()).filter((f) => f.name.endsWith('.json'));
+    let tree;
+    try { tree = await getTree(); } catch (e) { return lastDirs[dir] || {}; }
+    const pre = 'data/' + dir + '/';
+    const list = tree.filter((f) => f.type === 'blob' && f.path.startsWith(pre) && f.path.endsWith('.json') && !f.path.slice(pre.length).includes('/'));
     const out = {};
     await Promise.all(list.map(async (f) => {
       try {
-        const res = await fetch(f.download_url + '?t=' + Date.now(), { cache: 'no-store' });
-        if (res.ok) { const v = await res.json(); shas['data/' + dir + '/' + f.name] = f.sha; out[f.name.replace(/\.json$/, '')] = v; }
+        const res = await fetch(`https://raw.githubusercontent.com/${GH.owner}/${GH.repo}/${GH.branch}/${f.path}?t=${Date.now()}`, { cache: 'no-store' });
+        if (res.ok) { const v = await res.json(); shas[f.path] = f.sha; out[f.path.slice(pre.length).replace(/\.json$/, '')] = v; }
       } catch (e) {}
     }));
+    lastDirs[dir] = out;
     return out;
   };
   const loadAll = async () => {
     try { const dsk = await readFile('data/desk/today.json'); const gk = await readFile('data/desk/grok.json').catch(() => null); if (dsk && gk && (!dsk.grok || !dsk.grok.at || String(gk.at || '') >= String(dsk.grok.at))) dsk.grok = gk; renderDesk(dsk || (gk ? { grok: gk } : null)); } catch (e) { $('stamp').textContent = 'Couldn’t load the news. Reload the page.'; }
+    treeP = null;
     const [rl, hb, rv, dd, jr] = await Promise.all(['rules', 'habits', 'reviews', 'deskdays', 'journal'].map((d) => loadDir(d).catch(() => ({}))));
+    // anything saved on this device but not yet on GitHub wins
+    const pend = getPending(); Object.keys(pend).forEach((p) => { const [dir, key] = p.split('/'); const tgt = { rules: rl, habits: hb, reviews: rv }[dir]; if (tgt && key) tgt[key] = pend[p]; });
     const typingNow = document.activeElement && /^(jr|cal)-a-|^note$/.test(document.activeElement.id || '');
     ruleDocs = rl; renderRules();
     if (!typingNow) { habitDocs = hb; renderChecks(); renderStats(); }
@@ -1037,4 +1060,3 @@ textarea::placeholder { color: #8aa3c4; }
 
 </body>
 </html>
-
