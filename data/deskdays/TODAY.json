@@ -1,18 +1,18 @@
 {
   "date": "2026-10-25",
   "grok": {
-    "at": "2026-10-25T11:00:00Z",
-    "pulse": "Weekend Iran strike risk from Trump and reports keeps oil elevated near $117 while AI capex productivity doubts persist, setting a cautious tone into FOMC week.",
-    "bias": "risk-off — elevated oil and geopolitical weekend risks from potential US/Israel strikes on Iran outweigh lingering AI recovery hopes ahead of FOMC.",
+    "at": "2026-10-25T20:17:19Z",
+    "pulse": "Trump rules out Iran attack today while oil stays elevated near multi-month highs and AI funding doubts linger into FOMC week.",
+    "bias": "risk-off — elevated oil from Middle East tensions and AI capex concerns dominate despite Trump's no-strike-today comment ahead of Wednesday FOMC.",
     "items": [
-      "Chris Martenson (~1:28 PM ET Fri): Expect trouble this weekend with signs pointing to another US/Israel strike on Iran; AI bubble cracking with hyperscaler off-balance-sheet debt and token spend collapse.",
-      "HOT SPOTS REPORTS (~7:00 AM ET): Oil futures reopen at 6 p.m. ET after Trump said a U.S. strike on Iran could come as soon as today or a deal; Brent last settled at $116.72.",
-      "Night Owl Trade (~7:00 AM ET): Apollo chief economist Torsten Slok says heavy AI spending has delivered no measurable productivity payoff outside Big Tech so far.",
-      "Tradenometry (~4:22 PM ET Fri): Friday wrap pressure moved from AI to oil with Brent above $116; Fed holds Wednesday but market wants December hike clarity; AI trade bruised not broken.",
-      "Invest Alpha Pro (~7:44 AM ET Fri): Nasdaq worst day since June, Brent 5-month high at $114; AI capex fears vs oil premium into open."
+      "FirstSquawk (~3:52 PM ET): Saudi Hercules plane landed in Tehran; Trump not concerned Iran rebuilds uranium in months; oil could surge past $150 if conflicts restart; Trump: will not attack Iran today.",
+      "Investing.com (~3:25 PM ET): FOMC this week — rate decision, statement Wed 2pm ET, Chair Warsh speaks 2:30pm ET.",
+      "Financelot (~4:09 PM ET): AI private credit market has shut off as SpaceX insiders unlock remaining shares.",
+      "The Long Investor (~3:10 PM ET): Next week packed with Fed decision, PCE, oil peaking near $114, mega-cap earnings, and midterms.",
+      "WE News (~4:16 PM ET): Trump ruled out immediate military strike on Iran, no attack on Sunday, claims US controls Strait of Hormuz."
     ],
-    "trump": "Trump said a U.S. strike on Iran could come as soon as today, or a deal could be reached.",
-    "watch": "Iran headlines and oil reaction into Sunday 6 PM ET futures open, whether NQ holds key levels after last week's selloff, and early positioning ahead of Wednesday's FOMC.",
+    "trump": "Trump said he will not attack Iran today, is not concerned Iran would rebuild uranium in months, and claims control of the Strait of Hormuz.",
+    "watch": "Sunday night futures open reaction to Iran headlines and oil, NQ/ES levels after recent AI pressure, and positioning into Wednesday FOMC plus Mag7 earnings.",
     "forSite": []
   }
 }
