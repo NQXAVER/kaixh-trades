@@ -41,9 +41,7 @@
    "reply": "That's the difference from Oct 22: today you had a time rule (nothing just before the 10am 4hr open) and waited for confirmation that the high had failed twice, so the entry came after the manipulation instead of during it. On Oct 22 AB said the 9:30 accumulation set up the 10am move. Today you respected that timing."
   },
   {
-   "q": "One part I couldn't follow: 'we ended up rejecting, we don't give it 5-minute.' Did you mean the 5min candle closed back below the OTE (a rejection close), and that's what you were waiting on before 10:00? Or something else?",
-   "answer": "the 5min gave me a rejection blocked once i marked it out i saw us hit midpoint fail to take out the smt'd highs and reject i entered paired w all the other conflunces",
-   "answeredAt": "2026-10-25T05:05:49.411Z"
+   "q": "One part I couldn't follow: 'we ended up rejecting, we don't give it 5-minute.' Did you mean the 5min candle closed back below the OTE (a rejection close), and that's what you were waiting on before 10:00? Or something else?"
   }
  ],
  "reviewedAt": "2026-10-23T20:35:00Z",
@@ -71,5 +69,7 @@
   }
  ],
  "summary": "Clean A-type short, and your charts back up what you wrote. 4hr and 1hr both had NQ dumping into PD-L. On the 1min you waited for the 9:40 NYAM low to rally into the 1hr gap and the .705, saw NQ make a higher high that ES didn't (bearish SMT), and shorted the rejection. You held to your DOL, the EQ of the 9:40-10:00 bullish leg, and took 2.94R with no early BE.",
- "trade": "Short · NY-AM · XFA · Win, 2.94 RR · Stop at the SMT'd high"
+ "trade": "Short · NY-AM · XFA · Win, 2.94 RR · Stop at the SMT'd high",
+ "reflection": "I did like the idea an trade bc the 1st time i noticed a trade like that it was soley based off the HTF and it played out but i had faded it now i executed but w more caution cus we already completed the weekly objective not like the last time",
+ "reflectedAt": "2026-10-25T05:07:10.864Z"
 }
