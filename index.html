@@ -958,7 +958,7 @@ textarea::placeholder { color: #8aa3c4; }
   const makeDb = () => ({ doc: (p) => ({ set: (obj) => {
     keepLocal(p, obj);
     if (!getToken()) { setStatus(); return Promise.resolve(); }
-    return writeFile('data/' + p + '.json', obj, 'Kaixh Trades: save ' + p).then(() => { dropLocal(p, obj); setStatus(); });
+    return writeFile('data/' + p + '.json', obj, 'Kaixh Trades: save ' + p).then(() => { dropLocal(p, obj); setStatus(); }, (e) => { if (e && e.message === 'auth') { $('gh-status').textContent = 'Saved on this device · your GitHub key can’t write yet (needs Contents: Read and write)'; $('gh-status').className = 'stamp gh-off'; return; } throw e; });
   } }) });
   const flushPending = async () => {
     if (!getToken()) return;
@@ -982,7 +982,8 @@ textarea::placeholder { color: #8aa3c4; }
     try {
       const r = await fetch(`https://api.github.com/repos/${GH.owner}/${GH.repo}`, { headers: { Authorization: 'Bearer ' + v, Accept: 'application/vnd.github+json' } });
       const j = await r.json();
-      if (!r.ok || !j.permissions || !j.permissions.push) { $('gh-msg').textContent = 'That key can’t save to kaixh-trades. Check it has Contents: Read and write.'; return; }
+      const pr = await fetch(`https://api.github.com/repos/${GH.owner}/${GH.repo}/contents/data/_check.json`, { method: 'PUT', headers: { Authorization: 'Bearer ' + v, Accept: 'application/vnd.github+json', 'Content-Type': 'application/json' }, body: '{}' });
+      if (!r.ok || pr.status === 403 || pr.status === 401) { $('gh-msg').textContent = 'That key can’t save to kaixh-trades. Check it has Contents: Read and write.'; return; }
       try { localStorage.setItem(tokenKey, v); } catch (e) {}
       $('gh-token').value = ''; $('gh-msg').textContent = 'Saved on this device.'; db = makeDb(); canWrite = true; setStatus(); renderChecks(); renderJournalTab(); renderDetail(); flushPending();
     } catch (e) { $('gh-msg').textContent = 'Couldn’t reach GitHub. Try again.'; }
