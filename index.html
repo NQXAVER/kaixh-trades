@@ -910,17 +910,23 @@ textarea::placeholder { color: #8aa3c4; }
     const t = getToken();
     const headers = { Accept: 'application/vnd.github+json', ...(opts.headers || {}) };
     if (t) headers.Authorization = 'Bearer ' + t;
-    return fetch('https://api.github.com' + path, { ...opts, headers, cache: 'no-store' });
+    return fetch('https://api.github.com' + path, { ...opts, headers, cache: 'no-store' }).then((r) => {
+      if (r.status === 401 && t) {
+        badKey = true; try { setStatus(); } catch (e) {}
+        if (!opts.method || opts.method === 'GET') { const h2 = { ...headers }; delete h2.Authorization; return fetch('https://api.github.com' + path, { ...opts, headers: h2, cache: 'no-store' }); }
+      }
+      return r;
+    });
   };
+  let badKey = false;
   const b64 = (str) => btoa(unescape(encodeURIComponent(str)));
   const unb64 = (s) => decodeURIComponent(escape(atob(s.replace(/\n/g, ''))));
   const shas = {};
   const readFile = async (path) => {
-    if (getToken()) {
+    if (getToken() && !badKey) {
       const r = await api(`/repos/${GH.owner}/${GH.repo}/contents/${path}?ref=${GH.branch}`);
       if (r.status === 404) return null;
-      if (!r.ok) throw new Error('read ' + r.status);
-      const j = await r.json(); shas[path] = j.sha; return JSON.parse(unb64(j.content));
+      if (r.ok) { const j = await r.json(); if (j.content) { shas[path] = j.sha; return JSON.parse(unb64(j.content)); } }
     }
     const r = await fetch(`https://raw.githubusercontent.com/${GH.owner}/${GH.repo}/${GH.branch}/${path}?t=${Date.now()}`, { cache: 'no-store' });
     if (r.status === 404) return null;
@@ -971,6 +977,7 @@ textarea::placeholder { color: #8aa3c4; }
   // ---------- Settings (GitHub key) ----------
   const setStatus = () => {
     const on = !!getToken(); const n = Object.keys(getPending()).length;
+    if (on && badKey) { $('gh-status').textContent = 'Your GitHub key stopped working · tap Settings and paste the new one'; $('gh-status').className = 'stamp gh-off'; return; }
     $('gh-status').textContent = on ? (n ? 'Syncing ' + n + ' change' + (n > 1 ? 's' : '') + '…' : 'Saving to GitHub: on') : 'Saving on this device only · add your GitHub key in Settings to sync';
     $('gh-status').className = 'stamp ' + (on ? 'gh-on' : 'gh-off');
   };
@@ -983,9 +990,10 @@ textarea::placeholder { color: #8aa3c4; }
       const r = await fetch(`https://api.github.com/repos/${GH.owner}/${GH.repo}`, { headers: { Authorization: 'Bearer ' + v, Accept: 'application/vnd.github+json' } });
       const j = await r.json();
       const pr = await fetch(`https://api.github.com/repos/${GH.owner}/${GH.repo}/contents/data/_check.json`, { method: 'PUT', headers: { Authorization: 'Bearer ' + v, Accept: 'application/vnd.github+json', 'Content-Type': 'application/json' }, body: '{}' });
-      if (!r.ok || pr.status === 403 || pr.status === 401) { $('gh-msg').textContent = 'That key can’t save to kaixh-trades. Check it has Contents: Read and write.'; return; }
+      if (r.status === 401 || pr.status === 401) { $('gh-msg').textContent = 'GitHub says that key isn\u2019t valid. Copy the whole key again (starts with github_pat_) and paste it.'; return; }
+      if (!r.ok || pr.status === 403) { $('gh-msg').textContent = 'That key can’t save to kaixh-trades. Check it has Contents: Read and write.'; return; }
       try { localStorage.setItem(tokenKey, v); } catch (e) {}
-      $('gh-token').value = ''; $('gh-msg').textContent = 'Saved on this device.'; db = makeDb(); canWrite = true; setStatus(); renderChecks(); renderJournalTab(); renderDetail(); flushPending();
+      $('gh-token').value = ''; $('gh-msg').textContent = 'Saved on this device.'; badKey = false; db = makeDb(); canWrite = true; setStatus(); renderChecks(); renderJournalTab(); renderDetail(); flushPending();
     } catch (e) { $('gh-msg').textContent = 'Couldn’t reach GitHub. Try again.'; }
   });
   $('gh-clear').addEventListener('click', () => { try { localStorage.removeItem(tokenKey); } catch (e) {} setStatus(); renderChecks(); $('gh-msg').textContent = 'Key removed from this device.'; });
