@@ -1,15 +1,15 @@
 {
-  "at": "2026-10-24T02:04:00Z",
-  "pulse": "Markets closed lower Friday with the Dow down over 600 points as oil surged past $100 on escalating Iran tensions, following Thursday's sharp AI-led Nasdaq selloff.",
-  "bias": "risk-off — elevated oil and geopolitical risks from Iran continue to pressure equities into the weekend ahead of FOMC.",
+  "at": "2026-10-25T11:00:00Z",
+  "pulse": "Weekend Iran strike risk from Trump and reports keeps oil elevated near $117 while AI capex productivity doubts persist, setting a cautious tone into FOMC week.",
+  "bias": "risk-off — elevated oil and geopolitical weekend risks from potential US/Israel strikes on Iran outweigh lingering AI recovery hopes ahead of FOMC.",
   "items": [
-    "CNBC (~4:16 PM ET): Dow -653 to 52,215, S&P -0.52% to 7,623, Nasdaq -0.21% to 25,955; oil WTI over $103 on Iran fears.",
-    "Yahoo Finance (~12:54 PM ET): Trump floats letting Iran wither or finishing it off as oil edges higher amid protracted war risks.",
-    "Investopedia: Futures head lower at end of wild week; oil rises further on Middle East tensions; chip stocks rebound.",
-    "The Shmuts: NQ broke 29,200 support and tests 29,000 into FOMC week after Thursday's AI selloff of ~2.9%.",
-    "ANYA (~10:01 PM ET): DJI reversed lower, S&P and Nasdaq continued down; ME military tensions lift oil, AI investment unease persists."
+    "Chris Martenson (~1:28 PM ET Fri): Expect trouble this weekend with signs pointing to another US/Israel strike on Iran; AI bubble cracking with hyperscaler off-balance-sheet debt and token spend collapse.",
+    "HOT SPOTS REPORTS (~7:00 AM ET): Oil futures reopen at 6 p.m. ET after Trump said a U.S. strike on Iran could come as soon as today or a deal; Brent last settled at $116.72.",
+    "Night Owl Trade (~7:00 AM ET): Apollo chief economist Torsten Slok says heavy AI spending has delivered no measurable productivity payoff outside Big Tech so far.",
+    "Tradenometry (~4:22 PM ET Fri): Friday wrap pressure moved from AI to oil with Brent above $116; Fed holds Wednesday but market wants December hike clarity; AI trade bruised not broken.",
+    "Invest Alpha Pro (~7:44 AM ET Fri): Nasdaq worst day since June, Brent 5-month high at $114; AI capex fears vs oil premium into open."
   ],
-  "trump": "Trump denied negotiations with Iran, said something will happen fairly soon, floated letting it wither or taking all its oil, claimed the Strait of Hormuz is ours, and that oil prices will fall when the war ends.",
-  "watch": "Oil and Iran headlines into Sunday's 6 PM ET futures open, whether NQ holds key levels after the recent dump, and early positioning ahead of next week's FOMC.",
+  "trump": "Trump said a U.S. strike on Iran could come as soon as today, or a deal could be reached.",
+  "watch": "Iran headlines and oil reaction into Sunday 6 PM ET futures open, whether NQ holds key levels after last week's selloff, and early positioning ahead of Wednesday's FOMC.",
   "forSite": []
 }
