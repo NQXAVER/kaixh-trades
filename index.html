@@ -750,6 +750,17 @@ textarea::placeholder { color: #8aa3c4; }
 
   // ---------- Notion Journal reviews ----------
   let reviewsByDate = {}, deskDays = {};
+  // Typed answers are kept as drafts on this device and saved automatically after you stop typing or leave the box
+  const draftKey = (ta) => 'kaixh-draft-' + ta.id;
+  const clearDraft = (ta) => { try { localStorage.removeItem(draftKey(ta)); } catch (e) {} };
+  const autoSave = (ta, btn, st) => {
+    try { const dft = localStorage.getItem(draftKey(ta)); if (dft && dft.trim() && dft !== ta.dataset.saved) { ta.value = dft; st.textContent = 'Draft restored — saving…'; setTimeout(() => btn.click(), 400); } } catch (e) {}
+    let tm = null;
+    const go = () => { clearTimeout(tm); const val = ta.value.trim(); if (val && val !== (ta.dataset.saved || '').trim() && !btn.disabled) btn.click(); };
+    ta.addEventListener('input', () => { try { localStorage.setItem(draftKey(ta), ta.value); } catch (e) {} st.textContent = 'Typing…'; clearTimeout(tm); tm = setTimeout(go, 2500); });
+    ta.addEventListener('blur', go);
+  };
+  document.addEventListener('visibilitychange', () => { if (document.hidden && document.activeElement && document.activeElement.tagName === 'TEXTAREA') document.activeElement.blur(); });
   const listEl = (arr) => { const ul = el('ul', 'fb'); (arr || []).forEach((t) => ul.append(el('li', null, t))); if (!(arr || []).length) ul.append(el('li', 'empty', 'Nothing here.')); return ul; };
   const card = (title, cls) => { const c = el('div', 'card' + (cls ? ' ' + cls : '')); if (title) c.append(el('h2', null, title)); return c; };
   const buildReview = (r, prefix) => {
@@ -775,8 +786,9 @@ textarea::placeholder { color: #8aa3c4; }
         const next = JSON.parse(JSON.stringify(cur)); if (!next.questions[i]) return;
         next.questions[i].answer = v; next.questions[i].answeredAt = new Date().toISOString();
         btn.disabled = true;
-        (reviewsByDate[r.date] = next, db.doc('reviews/' + r.date).set(next)).then(() => { st.textContent = 'Sent. I’ll reply at the next review.'; }).catch(() => { st.textContent = 'Couldn’t save. Try again.'; btn.disabled = false; });
+        (reviewsByDate[r.date] = next, db.doc('reviews/' + r.date).set(next)).then(() => { st.textContent = 'Saved ✓ I’ll reply at the next review.'; ta.dataset.saved = v; clearDraft(ta); btn.disabled = false; btn.textContent = 'Update answer'; }).catch(() => { st.textContent = 'Couldn’t save. Try again.'; btn.disabled = false; });
       });
+      ta.dataset.saved = q.answer || ''; autoSave(ta, btn, st);
       d.append(ta, btn, st);
       if (q.reply) d.append(el('p', 'reply', q.reply));
       ql.append(d);
@@ -793,8 +805,9 @@ textarea::placeholder { color: #8aa3c4; }
       const v = rta.value.trim().slice(0, 8000); if (!v) return;
       const next = JSON.parse(JSON.stringify(reviewsByDate[r.date] || r)); next.reflection = v; next.reflectedAt = new Date().toISOString();
       rbtn.disabled = true;
-      (reviewsByDate[r.date] = next, db.doc('reviews/' + r.date).set(next)).then(() => { rst.textContent = 'Saved.'; rbtn.disabled = false; }).catch(() => { rst.textContent = 'Couldn\u2019t save. Try again.'; rbtn.disabled = false; });
+      (reviewsByDate[r.date] = next, db.doc('reviews/' + r.date).set(next)).then(() => { rst.textContent = 'Saved ✓'; rta.dataset.saved = v; clearDraft(rta); rbtn.disabled = false; rbtn.textContent = 'Update reflection'; }).catch(() => { rst.textContent = 'Couldn\u2019t save. Try again.'; rbtn.disabled = false; });
     });
+    rta.dataset.saved = r.reflection || ''; autoSave(rta, rbtn, rst);
     const rwrap = el('div', 'qa'); rwrap.append(rta, rbtn, rst); if (r.reflectionReply) rwrap.append(el('p', 'reply', r.reflectionReply)); rf.append(rwrap);
     const parts = [top];
     if (r.discord) {
