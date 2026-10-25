@@ -41,7 +41,11 @@
    "reply": "That's the difference from Oct 22: today you had a time rule (nothing just before the 10am 4hr open) and waited for confirmation that the high had failed twice, so the entry came after the manipulation instead of during it. On Oct 22 AB said the 9:30 accumulation set up the 10am move. Today you respected that timing."
   },
   {
-   "q": "One part I couldn't follow: 'we ended up rejecting, we don't give it 5-minute.' Did you mean the 5min candle closed back below the OTE (a rejection close), and that's what you were waiting on before 10:00? Or something else?"
+   "q": "One part I couldn't follow: 'we ended up rejecting, we don't give it 5-minute.' Did you mean the 5min candle closed back below the OTE (a rejection close), and that's what you were waiting on before 10:00? Or something else?",
+   "answer": "5min closed rejecting and i marked out the rejection block an saw us reject the midpoint an fail to take out the smt'd high",
+   "answeredAt": "2026-10-25T05:08:38.571Z",
+   "reply": "Got it, that clears it up. The trigger wasn't the OTE close by itself. It was a sequence: the 5min closed as a rejection, you marked that candle as a rejection block, price came back into it, held the midpoint (the CE) and couldn't take out the SMT high. That's three confirmations stacked at the protected high: failure to take the high twice, SMT, and the rejection block's midpoint holding. Put it in your plan in those words as your short trigger: 'rejection block forms in premium, its midpoint holds, SMT high not taken, then enter with the stop above the high.' If price had closed back through the midpoint, the idea would have been invalid, so that's also your no-trade condition.",
+   "repliedAt": "2026-10-25T05:08:38.571Z"
   }
  ],
  "reviewedAt": "2026-10-23T20:35:00Z",
