@@ -41,7 +41,9 @@
    "reply": "That's the difference from Oct 22: today you had a time rule (nothing just before the 10am 4hr open) and waited for confirmation that the high had failed twice, so the entry came after the manipulation instead of during it. On Oct 22 AB said the 9:30 accumulation set up the 10am move. Today you respected that timing."
   },
   {
-   "q": "One part I couldn't follow: 'we ended up rejecting, we don't give it 5-minute.' Did you mean the 5min candle closed back below the OTE (a rejection close), and that's what you were waiting on before 10:00? Or something else?"
+   "q": "One part I couldn't follow: 'we ended up rejecting, we don't give it 5-minute.' Did you mean the 5min candle closed back below the OTE (a rejection close), and that's what you were waiting on before 10:00? Or something else?",
+   "answer": "the 5min gave me a rejection blocked once i marked it out i saw us hit midpoint fail to take out the smt'd highs and reject i entered paired w all the other conflunces",
+   "answeredAt": "2026-10-25T05:05:49.411Z"
   }
  ],
  "reviewedAt": "2026-10-23T20:35:00Z",
@@ -49,25 +51,25 @@
  "screenshots": [
   {
    "feedback": "Strong bearish 4hr leg off the ~30,100 high, with NQ sitting right on PD-L (~29,040) going into the open and ES on its PD-L too. Your HTF bearish read is backed by what's on the chart. One thing to add: mark the 4hr gaps you're referencing (like the 4hr UMG from Oct 22) so the HTF DOL is visible here and not just in your head.",
-   "label": "TimeFrame 1 \u00b7 4hr NQ + ES (9:28 AM)"
+   "label": "TimeFrame 1 · 4hr NQ + ES (9:28 AM)"
   },
   {
    "feedback": "NQ came off PD-EQ, chopped in a box from ~29,050 to ~29,260, and was back at PD-L. ES had already closed below its PD-L (7,665 vs ~7,676) while NQ was still holding it, so ES was the weaker index. That fits a short bias. Write that divergence into PRE MARKET so it becomes a deliberate checklist item.",
-   "label": "TimeFrame 2 \u00b7 1hr NQ + ES (9:29 AM)"
+   "label": "TimeFrame 2 · 1hr NQ + ES (9:29 AM)"
   },
   {
    "feedback": "Best prep screenshot of the set. London swept the Asia high (LO.H ~29,280), then price dropped back through LO.L and D OPEN into PD-L, NYPM.L and AS.L. ES had already taken its NYPM.L and AS.L, and NQ was only wicking them. That's the 'LRL' context your pre-market plan was hinting at, but the plan didn't say which lows or which direction. See question 1.",
-   "label": "TimeFrame 3 \u00b7 15m session levels (9:29 AM)"
+   "label": "TimeFrame 3 · 15m session levels (9:29 AM)"
   },
   {
    "feedback": "Textbook for your model. NQ rallied off the 9:40 NYAM.L (~28,995) straight into the red 1hr gap and rejected at the .705 (~29,193) at 10:00. ES made a lower high there while NQ made a higher high, the SMT you drew. You entered around 29,168 after the 1min failed to take the high. Stop above the SMT'd high (~25 pts), target the leg's 0.5 (~29,093), about 75 pts, which matches 2.94R. The only thing I'd look at: D OPEN (~29,115) sat in the middle of your target path and price paused there. Did you plan for that? See question 2.",
-   "label": "Execution \u00b7 1min NQ + ES (10:18 AM)"
+   "label": "Execution · 1min NQ + ES (10:18 AM)"
   },
   {
    "feedback": "After your TP at the leg's EQ (~29,093), price bounced right off it and ran to a new NYAM high around 29,330 by about 10:50. That's well above your stop at the SMT'd high (~29,193). If you had held or moved to BE, you'd have been stopped or scratched. Taking the full exit at the EQ was the right call today. PM session then drifted back down toward ~29,140.",
-   "label": "Aftermath \u00b7 1min NQ on your TradingView (3:30 PM)"
+   "label": "Aftermath · 1min NQ on your TradingView (3:30 PM)"
   }
  ],
  "summary": "Clean A-type short, and your charts back up what you wrote. 4hr and 1hr both had NQ dumping into PD-L. On the 1min you waited for the 9:40 NYAM low to rally into the 1hr gap and the .705, saw NQ make a higher high that ES didn't (bearish SMT), and shorted the rejection. You held to your DOL, the EQ of the 9:40-10:00 bullish leg, and took 2.94R with no early BE.",
- "trade": "Short \u00b7 NY-AM \u00b7 XFA \u00b7 Win, 2.94 RR \u00b7 Stop at the SMT'd high"
+ "trade": "Short · NY-AM · XFA · Win, 2.94 RR · Stop at the SMT'd high"
 }
