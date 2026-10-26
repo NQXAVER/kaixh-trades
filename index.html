@@ -427,7 +427,7 @@ textarea::placeholder { color: #8aa3c4; }
   <section id="journal" role="tabpanel" aria-labelledby="tab-jr" hidden style="display:grid;gap:16px">
     <div class="card">
       <p class="dayname" id="jr-title">Notion Journal</p>
-      <span class="sub" id="jr-meta">Claude reviews today's Live Journal entry at 12 PM ET. At midnight it starts fresh, and the day is saved to the Calendar tab.</span>
+      <span class="sub" id="jr-meta">Claude reviews today's Live Journal entry at 4 PM ET. At midnight it starts fresh, and the day is saved to the Calendar tab.</span>
     </div>
     <div id="jr-view" style="display:grid;gap:16px"></div>
   </section>
@@ -873,7 +873,7 @@ textarea::placeholder { color: #8aa3c4; }
     const v = $('jr-view'); v.replaceChildren();
     const r = reviewsByDate[today];
     if (r) v.append(buildReview(r, 'jr'));
-    else { const c = card(null); c.append(el('p', 'empty', 'Today’s review shows up after 12 PM ET, once your Live Journal entry is in. Past days are saved in the Calendar tab.')); v.append(c); }
+    else { const c = card(null); c.append(el('p', 'empty', 'Today’s review shows up after 4 PM ET, once your Live Journal entry is in. Past days are saved in the Calendar tab.')); v.append(c); }
   };
 
   // ---------- Calendar ----------
