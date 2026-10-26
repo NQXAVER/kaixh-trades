@@ -1,18 +1,18 @@
 {
   "date": "2026-10-26",
   "grok": {
-    "at": "2026-10-26T11:00:52Z",
-    "pulse": "Equity futures hold modest gains as oil declines on Iran de-escalation hopes, with focus shifting to FOMC and Mag7 earnings this week.",
-    "bias": "mixed — short-term risk-on from oil retreat and green futures into tech prints, but high yields near 5%, residual Hormuz risks, and FOMC uncertainty warrant caution.",
+    "at": "2026-10-26T13:31:48Z",
+    "pulse": "Futures hold modest gains as oil retreats on Iran de-escalation hopes while Anthropic files for Nasdaq IPO, with FOMC and Mag7 earnings dominating the week.",
+    "bias": "mixed — oil pullback and green futures provide short-term support, but elevated yields near 5%, residual Middle East risks, AI valuation scrutiny, and FOMC tone uncertainty keep the bias cautious.",
     "items": [
-      "Bloomberg (~7:00 AM ET): Stocks Gain Before Tech Earnings as Oil Declines.",
-      "InvestmentGuru (~6:58 AM ET): Futures green, Brent easing toward $114–115, 10Y back below 5% near 4.97%; AI financing names under pressure ahead of MSFT/GOOGL.",
-      "SPXSniper (~7:00 AM ET): No major data today but elevated volatility into FOMC and massive earnings week; patience key.",
-      "StochAlpha (overnight): Futures mildly green after Iran news — S&P +0.14%, Nasdaq +0.22%, oil WTI −1.4% near $102.",
-      "Ross Givens (Sun ~7:44 PM ET): NQ +0.3% not broad risk-on with Brent above $116; narrow bet on tech earnings and Fed pause."
+      "Tian Zhang (Brice) (~9:31 AM ET): Pre-Market — ES 7,672.75 +0.17%, NQ 29,141.25 +0.08%, YM +0.35%; Fed week, futures drifting up on cheaper oil ahead of Wednesday FOMC and Big Tech earnings.",
+      "James | Trader (~3:20 AM ET): NQ quiet and slightly firmer overnight as oil pulls back from Friday highs; FOMC Hold fully priced, real move from Wednesday tone; oil + yields remain the headwind.",
+      "FlowStateOfMind (~8:01 AM ET): Monday setup — oil cools ~2% as Qatar pushes peace talks with Iran; futures Nasdaq/S&P +0.2%; oil ~$101, 10Y 5.00%; watching QQQ hold $700.",
+      "Multiple (~9:30 AM ET): Anthropic files S-1 for Nasdaq IPO under ANT; H1 2026 revenue $16.3B (from $1.2B), net loss $80.7B mostly non-cash; chip stocks reacting to AI IPO enthusiasm.",
+      "Maven (~6:00 AM ET): Indices look good for a bounce, oversold feel; yields and oil cooling while FOMC and Anthropic IPO in focus; short gamma suggests possible squeeze."
     ],
-    "trump": "Trump: 'getting to be decision time' on whether to reach a deal with Tehran or resume attacks.",
-    "watch": "Monday cash open vs futures strength, oil trajectory around $114-115, 10Y yield action, and positioning into Wednesday FOMC plus MSFT/GOOGL after close.",
+    "trump": "Trump: 'getting to be decision time' on whether to reach a deal with Tehran or resume attacks; Qatari mediators traveled to Tehran over weekend.",
+    "watch": "Monday cash open reaction to oil retreat and Anthropic IPO news, trajectory of Brent around $114-115 and 10Y near 5%, then positioning into Wednesday FOMC and Mag7 earnings.",
     "forSite": []
   }
 }
