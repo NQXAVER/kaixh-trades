@@ -293,6 +293,11 @@ textarea::placeholder { color: #8aa3c4; }
       <p class="q-mean" id="q-mean"></p>
     </div>
 
+    <div class="card" id="warn-banner" hidden style="background:#a3302a;border-color:#ff6b5e;color:#fff;text-align:center;font-weight:800;font-size:18px;letter-spacing:.04em;">
+      ⚠️ NEW TODAY — TRADE CAUTIOUS ⚠️
+      <p class="sub" id="warn-detail" style="color:#ffe1dd;font-weight:600;margin-top:6px;"></p>
+    </div>
+
     <div class="grid">
       <div class="card">
         <h2>Market read</h2>
@@ -505,6 +510,21 @@ textarea::placeholder { color: #8aa3c4; }
     if ($('stamp')) $('stamp').textContent = at && !isNaN(at) ? 'News updated ' + at.toLocaleString('en-US', { timeZone: 'America/New_York', weekday: 'short', hour: 'numeric', minute: '2-digit' }) + ' ET' : 'News loaded';
     if ($('takeaway')) $('takeaway').textContent = d.takeaway || '';
     if ($('biasnote')) $('biasnote').textContent = d.bias_note || '';
+    // Warning banner for today high-impact news / earnings
+    const today = etDate();
+    const redToday = (d.calendar || []).filter(r => r.date === today && /high|red/i.test(r.impact || ''));
+    const earnToday = (d.earnings || []).filter(r => r.date === today);
+    const warn = $('warn-banner');
+    const detail = $('warn-detail');
+    if (warn && (redToday.length || earnToday.length)) {
+      warn.hidden = false;
+      const parts = [];
+      if (redToday.length) parts.push(redToday.map(r => r.code || r.event).join(', '));
+      if (earnToday.length) parts.push(earnToday.map(r => r.company + ' (' + (r.when || '') + ')').join(', '));
+      if (detail) detail.textContent = parts.join(' · ');
+    } else if (warn) {
+      warn.hidden = true;
+    }
     fill('news', (nw) => {
       (d.news || []).forEach((r) => { const tr = el('tr'); const td = el('td', null, r.headline); td.append(el('span', 'meta', [r.time, r.source].filter(Boolean).join(' · '))); const ti = el('td'); ti.append(el('span', 'pill ' + (r.impact || 'Low'), r.impact || 'Low')); tr.append(td, ti); nw.append(tr); });
       if (!(d.news || []).length) { const tr = el('tr'); const td = el('td', 'empty', 'No headlines yet.'); td.colSpan = 2; tr.append(td); nw.append(tr); }
