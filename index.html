@@ -519,8 +519,8 @@ textarea::placeholder { color: #8aa3c4; }
     if (warn && (redToday.length || earnToday.length)) {
       warn.hidden = false;
       const parts = [];
-      if (redToday.length) parts.push(redToday.map(r => r.code || r.event).join(', '));
-      if (earnToday.length) parts.push(earnToday.map(r => r.company + ' (' + (r.when || '') + ')').join(', '));
+      if (redToday.length) parts.push(redToday.map(r => (r.time ? r.time + ' ' : '') + (r.code || r.event)).join(', '));
+      if (earnToday.length) parts.push(earnToday.map(r => (r.when ? r.when + ' ' : '') + r.company).join(', '));
       if (detail) detail.textContent = parts.join(' · ');
     } else if (warn) {
       warn.hidden = true;
