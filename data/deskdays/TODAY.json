@@ -1,18 +1,18 @@
 {
   "date": "2026-10-26",
   "grok": {
-    "at": "2026-10-26T02:05:40Z",
-    "pulse": "Equity futures rise Sunday night as oil cools on Trump no-strike confirmation and open deal options, heading into FOMC week with AI earnings in focus.",
-    "bias": "mixed — short-term risk-on from oil dip and futures bounce, but caution persists from elevated Iran tensions, AI demand questions, and Wednesday FOMC.",
+    "at": "2026-10-26T11:00:52Z",
+    "pulse": "Equity futures hold modest gains as oil declines on Iran de-escalation hopes, with focus shifting to FOMC and Mag7 earnings this week.",
+    "bias": "mixed — short-term risk-on from oil retreat and green futures into tech prints, but high yields near 5%, residual Hormuz risks, and FOMC uncertainty warrant caution.",
     "items": [
-      "Elliott Wave Analyst (~10:03 PM ET): Trump keeps Iran strike and deal options open, says oil prices will fall soon; claims oil flowing through Hormuz and US ahead of China in AI.",
-      "RAREMINTS (~10:01 PM ET): Sign of relief in oil markets as Trump confirms no strikes on Iran today; WTI down 2%.",
-      "TheBabylonBull (~9:57 PM ET): Stock futures up Sunday night after a losing week; Brent near $116; Fed decides Wednesday; Alphabet, Microsoft and Amazon report this week on AI spending.",
-      "DartNQ (~10:00 PM ET): FOMC Wednesday 1:00 ET, presser 1:30; GDP and core PCE Thursday 7:30 CT.",
-      "JTrades Quant (~9:51 PM ET): Sunday green reopen with ES up 0.44% to near 7,693 is evidence not a flip until price holds above Friday breakdown."
+      "Bloomberg (~7:00 AM ET): Stocks Gain Before Tech Earnings as Oil Declines.",
+      "InvestmentGuru (~6:58 AM ET): Futures green, Brent easing toward $114–115, 10Y back below 5% near 4.97%; AI financing names under pressure ahead of MSFT/GOOGL.",
+      "SPXSniper (~7:00 AM ET): No major data today but elevated volatility into FOMC and massive earnings week; patience key.",
+      "StochAlpha (overnight): Futures mildly green after Iran news — S&P +0.14%, Nasdaq +0.22%, oil WTI −1.4% near $102.",
+      "Ross Givens (Sun ~7:44 PM ET): NQ +0.3% not broad risk-on with Brent above $116; narrow bet on tech earnings and Fed pause."
     ],
-    "trump": "Trump keeps Iran strike or deal options open, predicts oil prices will fall soon, confirms no strikes today; oil cooling in response.",
-    "watch": "Monday cash open continuation, oil holding or further dip below recent highs, NQ/ES reaction to AI and Mag7 headlines, and positioning into Wednesday FOMC plus data.",
+    "trump": "Trump: 'getting to be decision time' on whether to reach a deal with Tehran or resume attacks.",
+    "watch": "Monday cash open vs futures strength, oil trajectory around $114-115, 10Y yield action, and positioning into Wednesday FOMC plus MSFT/GOOGL after close.",
     "forSite": []
   }
 }
