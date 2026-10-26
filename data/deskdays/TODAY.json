@@ -1,18 +1,18 @@
 {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "grok": {
-    "at": "2026-10-25T20:17:19Z",
-    "pulse": "Trump rules out Iran attack today while oil stays elevated near multi-month highs and AI funding doubts linger into FOMC week.",
-    "bias": "risk-off — elevated oil from Middle East tensions and AI capex concerns dominate despite Trump's no-strike-today comment ahead of Wednesday FOMC.",
+    "at": "2026-10-26T00:12:41Z",
+    "pulse": "Equity futures rising with Nasdaq up ~0.6% as oil cools to ~$102 on Sunday open after Friday's selloff, ahead of FOMC amid lingering AI doubts and Iran tensions.",
+    "bias": "mixed — short-term risk-on from futures bounce and oil dip, but caution from elevated geopolitics, AI demand questions, and upcoming FOMC.",
     "items": [
-      "FirstSquawk (~3:52 PM ET): Saudi Hercules plane landed in Tehran; Trump not concerned Iran rebuilds uranium in months; oil could surge past $150 if conflicts restart; Trump: will not attack Iran today.",
-      "Investing.com (~3:25 PM ET): FOMC this week — rate decision, statement Wed 2pm ET, Chair Warsh speaks 2:30pm ET.",
-      "Financelot (~4:09 PM ET): AI private credit market has shut off as SpaceX insiders unlock remaining shares.",
-      "The Long Investor (~3:10 PM ET): Next week packed with Fed decision, PCE, oil peaking near $114, mega-cap earnings, and midterms.",
-      "WE News (~4:16 PM ET): Trump ruled out immediate military strike on Iran, no attack on Sunday, claims US controls Strait of Hormuz."
+      "Little Dog Capital (~8:10 PM ET): Equity futures rising ahead of the Federal Reserve's policy decision as markets position for potential stabilization after the S&P 500's prior decline.",
+      "Rattan Amol (~7:42 PM ET): Sunday night flip — Nasdaq futures up 0.6% while WTI slipped to $101.61 as oil cools; after brutal Friday, traders head into Fed week with a little breathing room.",
+      "Bag Investing (~8:11 PM ET): Neocloud stocks like $CRWV, $NBIS, $IREN crushed as market questions AI demand, debt levels, and returns on massive infrastructure investments.",
+      "BeaconDesk (~8:09 PM ET): FOMC meeting Oct 27-28 key event; oil prices and inflation expectations could influence rate outlook and risk appetite.",
+      "Chris Rainbow (~8:11 PM ET): Oil has risen from $72 to $117 on Iranian strategy; Trump not attacking today but tensions keep crude elevated."
     ],
-    "trump": "Trump said he will not attack Iran today, is not concerned Iran would rebuild uranium in months, and claims control of the Strait of Hormuz.",
-    "watch": "Sunday night futures open reaction to Iran headlines and oil, NQ/ES levels after recent AI pressure, and positioning into Wednesday FOMC plus Mag7 earnings.",
+    "trump": "Trump ruled out an immediate Iran strike; oil remains elevated near multi-month highs on residual Middle East tensions but cooling at the Sunday reopen.",
+    "watch": "Monday open continuation of futures bounce, whether oil holds above $100, NQ/ES reaction to AI headlines, and positioning into Wednesday FOMC decision plus Mag7 earnings.",
     "forSite": []
   }
 }
