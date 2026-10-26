@@ -266,6 +266,7 @@ textarea::placeholder { color: #8aa3c4; }
 <div class="wrap">
   <header class="top">
     <h1>Kaixh Trades</h1>
+    <span class="stamp" id="live-clock">--:--:-- ET</span>
     <span class="stamp" id="stamp">Loading…</span>
     <div class="ghbar"><span class="stamp" id="gh-status"></span><button type="button" id="gh-open" class="gh-btn">Settings</button></div>
   </header>
@@ -1125,5 +1126,16 @@ textarea::placeholder { color: #8aa3c4; }
 })();
 </script>
 
+<script>
+// Live clock (ET)
+function updateClock() {
+  const now = new Date();
+  const et = now.toLocaleString('en-US', { timeZone: 'America/New_York', hour: 'numeric', minute: '2-digit', second: '2-digit', hour12: true });
+  const el = document.getElementById('live-clock');
+  if (el) el.textContent = et + ' ET';
+}
+setInterval(updateClock, 1000);
+updateClock();
+</script>
 </body>
 </html>
