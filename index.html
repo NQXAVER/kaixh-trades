@@ -293,10 +293,17 @@ textarea::placeholder { color: #8aa3c4; }
       <p class="q-mean" id="q-mean"></p>
     </div>
 
-    <div class="card brief center">
-      <p class="q-label">Market read</p>
-      <p class="take" id="takeaway">Waiting for the first news update.</p>
-      <p class="sub" id="biasnote"></p>
+    <div class="grid">
+      <div class="card">
+        <h2>Market read</h2>
+        <p class="take" id="takeaway">Waiting for the first news update.</p>
+        <p class="sub" id="biasnote"></p>
+      </div>
+      <div class="card">
+        <h2>Recent major news</h2>
+        <p class="sub">High-impact headlines that moved the market.</p>
+        <div id="major-news"><p class="empty">Loading…</p></div>
+      </div>
     </div>
 
     <div class="grid">
@@ -502,6 +509,24 @@ textarea::placeholder { color: #8aa3c4; }
       (d.news || []).forEach((r) => { const tr = el('tr'); const td = el('td', null, r.headline); td.append(el('span', 'meta', [r.time, r.source].filter(Boolean).join(' · '))); const ti = el('td'); ti.append(el('span', 'pill ' + (r.impact || 'Low'), r.impact || 'Low')); tr.append(td, ti); nw.append(tr); });
       if (!(d.news || []).length) { const tr = el('tr'); const td = el('td', 'empty', 'No headlines yet.'); td.colSpan = 2; tr.append(td); nw.append(tr); }
     });
+    // Recent major news (High impact only)
+    const maj = $('major-news');
+    if (maj) {
+      maj.replaceChildren();
+      const highs = (d.news || []).filter(r => (r.impact || '').toLowerCase() === 'high');
+      if (highs.length) {
+        const ul = el('ul', 'fb');
+        highs.slice(0, 5).forEach(r => {
+          const li = el('li');
+          li.append(el('strong', null, r.headline));
+          if (r.time || r.source) li.append(el('span', 'meta', [r.time, r.source].filter(Boolean).join(' · ')));
+          ul.append(li);
+        });
+        maj.append(ul);
+      } else {
+        maj.append(el('p', 'empty', 'No high-impact headlines yet.'));
+      }
+    }
     fill('cal', (cl) => {
       const ws = weekStart(d);
       const red = (d.calendar || []).filter((r) => /high|red/i.test(r.impact || ''));
