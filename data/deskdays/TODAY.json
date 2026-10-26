@@ -1,18 +1,18 @@
 {
   "date": "2026-10-26",
   "grok": {
-    "at": "2026-10-26T13:31:48Z",
-    "pulse": "Futures hold modest gains as oil retreats on Iran de-escalation hopes while Anthropic files for Nasdaq IPO, with FOMC and Mag7 earnings dominating the week.",
-    "bias": "mixed — oil pullback and green futures provide short-term support, but elevated yields near 5%, residual Middle East risks, AI valuation scrutiny, and FOMC tone uncertainty keep the bias cautious.",
+    "at": "2026-10-26T20:17:07Z",
+    "pulse": "Stocks closed higher with S&P +0.7% and Nasdaq +0.8% as oil retreated on Saudi-Iran de-escalation signals and Anthropic IPO filing lifted AI sentiment, setting a mixed tone into FOMC and earnings week.",
+    "bias": "mixed — cash session gains and oil ease tilt risk-on short-term, but yields near 5%, residual geopolitics, AI financing doubts, and FOMC tone uncertainty keep the overall bias cautious.",
     "items": [
-      "Tian Zhang (Brice) (~9:31 AM ET): Pre-Market — ES 7,672.75 +0.17%, NQ 29,141.25 +0.08%, YM +0.35%; Fed week, futures drifting up on cheaper oil ahead of Wednesday FOMC and Big Tech earnings.",
-      "James | Trader (~3:20 AM ET): NQ quiet and slightly firmer overnight as oil pulls back from Friday highs; FOMC Hold fully priced, real move from Wednesday tone; oil + yields remain the headwind.",
-      "FlowStateOfMind (~8:01 AM ET): Monday setup — oil cools ~2% as Qatar pushes peace talks with Iran; futures Nasdaq/S&P +0.2%; oil ~$101, 10Y 5.00%; watching QQQ hold $700.",
-      "Multiple (~9:30 AM ET): Anthropic files S-1 for Nasdaq IPO under ANT; H1 2026 revenue $16.3B (from $1.2B), net loss $80.7B mostly non-cash; chip stocks reacting to AI IPO enthusiasm.",
-      "Maven (~6:00 AM ET): Indices look good for a bounce, oversold feel; yields and oil cooling while FOMC and Anthropic IPO in focus; short gamma suggests possible squeeze."
+      "Trade With Nori (~4:15 PM ET): Close — S&P 7,677 +0.70%, Nasdaq 26,169 +0.82%; oil retreated easing inflation pressure, Anthropic IPO boosted semis +2.85%, VIX down to 18.39.",
+      "Codrin Coman (~4:15 PM ET): Oil eased Brent -1.2% to $110.41, WTI -1.7% to $101.54; Saudi defense minister in Iran for de-escalation talks.",
+      "Reza Dilmaghani (~4:16 PM ET): #CL_F pausing as it awaits next developments involving Iran, US, Saudi Arabia, and Yemen; geopolitical headlines likely dictate the next move.",
+      "Raptor invest (~4:16 PM ET): Oil sliding ~2% after weekend Saudi-Iran diplomacy and Trump holding off strikes; Fed decision Wednesday with ~90% chance of hold.",
+      "Market Mono (~4:15 PM ET): Pretty good start to the week for a Monday; caught some mid-day chop expected with FOMC on Wednesday; momentum continuing."
     ],
-    "trump": "Trump: 'getting to be decision time' on whether to reach a deal with Tehran or resume attacks; Qatari mediators traveled to Tehran over weekend.",
-    "watch": "Monday cash open reaction to oil retreat and Anthropic IPO news, trajectory of Brent around $114-115 and 10Y near 5%, then positioning into Wednesday FOMC and Mag7 earnings.",
+    "trump": "none",
+    "watch": "Tuesday data (durable goods, consumer confidence), oil trajectory around $110 and 10Y near 5%, then Wednesday FOMC decision/Warsh presser and Mag7 earnings reaction.",
     "forSite": []
   }
 }
