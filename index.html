@@ -1388,9 +1388,18 @@ textarea::placeholder { color: #8aa3c4; }
     paintSpend();
   };
   const readSpend = async (path) => {
-    try { const remote = await readFile(path); if (remote) return remote; } catch (e) {}
-    try { const rel = await fetch(path + '?t=' + Date.now(), { cache: 'no-store' }); if (rel.ok) return await rel.json(); } catch (e) {}
-    return null;
+    const host = location.hostname || '';
+    const preferLocal = location.protocol === 'file:' || host === 'localhost' || host === '127.0.0.1';
+    const fromRel = async () => {
+      try { const rel = await fetch(path + '?t=' + Date.now(), { cache: 'no-store' }); if (rel.ok) return await rel.json(); } catch (e) {}
+      return null;
+    };
+    const fromRemote = async () => { try { return await readFile(path); } catch (e) { return null; } };
+    // A local preview has the JSON beside index.html. The live site reads GitHub first, same as the other tabs.
+    if (preferLocal) { const rel = await fromRel(); if (rel) return rel; }
+    const remote = await fromRemote();
+    if (remote) return remote;
+    return preferLocal ? null : fromRel();
   };
   if ($('spending')) $('spending').addEventListener('click', (ev) => {
     const node = ev.target && ev.target.nodeType === 1 ? ev.target : ev.target && ev.target.parentElement;
