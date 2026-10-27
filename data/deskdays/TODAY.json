@@ -1,18 +1,18 @@
 {
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "grok": {
-    "at": "2026-10-27T02:05:15Z",
-    "pulse": "Nasdaq and S&P closed higher Monday on Anthropic's Nasdaq IPO filing sparking AI/chip rebound while oil eased slightly ahead of Wednesday's FOMC decision.",
-    "bias": "mixed — Anthropic IPO and chip bid drive near-term risk-on, but FOMC uncertainty, elevated yields near 5%, and lingering Iran/oil risks temper the bias.",
+    "at": "2026-10-27T11:05:00Z",
+    "pulse": "US futures mixed to slightly firmer as AI optimism from Anthropic fades ahead of Wednesday's FOMC, with oil elevated near $115 on lingering Iran risks.",
+    "bias": "mixed \u2014 AI bid fading pre-FOMC while elevated oil and Iran headlines keep near-term risks elevated.",
     "items": [
-      "제이스본 (@malahatpeak ~10:00 PM ET): Anthropic filed S-1 for Nasdaq IPO as ANT; H1 revenue $16.3B (+1304%), S&P +0.7% to 7676.77, Nasdaq +0.82% to 26169, semis +~3%.",
-      "Financial Guru (@stocksprofesso ~10:01 PM ET): S&P 500 closed +0.7% at 7,677 after two losing weeks, led by tech and oil pullback.",
-      "BlockNews (@BlockNews2023 ~10:01 PM ET): Nasdaq +0.82% at 26,169 on Anthropic IPO filing igniting chip stocks; WTI ~$100.74, Brent ~$109.61 easing.",
-      "Maadmen.sol (@maad_ ~10:01 PM ET): #ES_F at resistance, FOMC on Wednesday — get ready for action.",
-      "AiSeek (@Ai__Seek ~10:00 PM ET): Anthropic Nasdaq filing points to offering up to $100B, valuation $1.5-2T range, H1 loss $80.7B."
+      "BloombergRadio (~7:00 ET): US Futures Waver as AI Optimism Wanes Before Fed.",
+      "DayTradingToolkit (~7:00 ET): Asia rose (Kospi ~+3%, Nikkei ~+1.7%) while Europe and US futures sat flat within 0.2%; stock-specific not macro.",
+      "Khalifa (~6:25 ET): US futures edge higher on returning AI optimism but oil/Fed risks remain; Nasdaq +0.11%, Brent >$116.",
+      "MarketNews_Feed (~7:00 ET): Qatar: Iran needs to show good faith and end the threat to neighbors.",
+      "Crok Channel (~6:59 ET): Trump: \"decision time\" on Iran, deal or more strikes; Brent eases to $114.80."
     ],
-    "trump": "Netanyahu sought Iran strike before vote but Trump said wait per CNN reports; residual geopolitical risk on oil.",
-    "watch": "Wednesday FOMC decision (2PM ET, Chair Warsh) and presser; oil trajectory near $100-110 and AI/chip follow-through into Mag7 earnings.",
+    "trump": "\"decision time\" on Iran: deal or more strikes.",
+    "watch": "Wednesday FOMC decision and guidance (2PM ET); oil trajectory near $114-116 and Iran developments; AI/chip follow-through into Mag7 earnings.",
     "forSite": []
   }
 }
