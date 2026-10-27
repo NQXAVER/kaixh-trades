@@ -1,6 +1,7 @@
 {
  "date": "2026-10-26",
  "r": {
+  "protected_stop": "broke",
   "htf_bias": "ok",
   "no_pre10": "ok"
  }
