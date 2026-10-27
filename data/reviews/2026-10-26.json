@@ -1,14 +1,15 @@
 {
  "date": "2026-10-26",
  "discord": {
-  "chartsOpened": "Couldn't check",
-  "eod": "Couldn't check. If it's not done yet, the deadline is 12:00 AM ET.",
-  "match": "Couldn't open Discord",
-  "plan": "Couldn't check",
-  "risk": "Couldn't check"
+  "chartsOpened": "9:17 AM",
+  "plan": "\"Were ranging im only taking TP at internal liquidity not gonna hold to external liquidity in these conditions. Stay patient and follow our rules no over risking no over trading\"",
+  "risk": "Risk settings screenshot posted 9:19 AM and confirmed before 9:30.",
+  "eod": "Done at 10:25 PM, screenshot confirmed. But it says \"no trades couldnt rlly see myself executing in these condition's\" and \"Rules Followed: Yes\", while Notion logs a -$1.2k short on 3 evals.",
+  "match": "Your check-in plan said internal targets only and no over-risking. The trade targeted the London low (external) and ran on 3 evals, so the trade didn't match the plan you posted. Your end-of-day card also doesn't match Notion."
  },
  "entryUrl": "https://app.notion.com/p/40560e8f5c458023b6e8d8a1755c27f3",
  "fix": [
+  "Honesty with yourself: your Discord end-of-day says 'no trades' and 'Rules Followed: Yes', but Notion shows a -$1.2k short. The accountability only works if the check-in matches what happened.",
   "Day selection: AB flagged it and he's right. No-news Monday, FOMC week, HTF ranging, London low 200 pts away. That's a size-down or sit-out day, and you ran it on 3 evals at once.",
   "Risk across accounts: -$1.2k on 3 evals is ~$400 each, under $500 per account, but $1.2k total for one idea. Copying one trade to 3 evals triples the hit when the read is off.",
   "Stop placement: the stop (~29,252) sat right above the 1min EQ/0.5, about 50 points under the high you anchored the fib on (~29,300). That's an internal level, not a protected high, and price took it within ~10 minutes.",
@@ -33,9 +34,12 @@
   },
   {
    "q": "AB asked 'if i was on a live acc would i really risk trading on a day like today'. What's your answer, and what would make you skip a day like this next time?"
+  },
+  {
+   "q": "Your end-of-day check-in on Discord says 'no trades couldnt rlly see myself executing in these condition's' and 'Rules Followed: Yes', but your Notion shows a -$1.2k short on 3 evals. Which one is right, and if you did take the trade, why did the check-in say no trades?"
   }
  ],
- "reviewedAt": "2026-10-26T20:10:00Z",
+ "reviewedAt": "2026-10-27T03:35:00Z",
  "rule": "On no-news days before FOMC with HTF in a range: size down or sit out, keep targets internal, and stop above the high that started the leg (the 1.0 of your fib).",
  "screenshots": [
   {
@@ -55,7 +59,7 @@
    "label": "Execution · 1min NQ + ES (10:10 AM)"
   },
   {
-   "feedback": "Couldn't open TradingView for the aftermath on this run, so the aftermath check is still pending.",
+   "feedback": "Checked your TradingView chart. After your stop got taken around 10:10, NQ never went toward the London low (~29,025). It ripped the other way: from ~29,250 to ~29,560 by about 11 AM (~300 pts), took NYAM.H, then ranged 29,420-29,560 the rest of the day and swept PD-H/Asia high (~29,590) in the evening. The range broke up, not down, so the short was against the move that actually happened.",
    "label": "Aftermath"
   }
  ],
