@@ -290,6 +290,34 @@ textarea::placeholder { color: #8aa3c4; }
   .sp-row .sp-name { grid-column: 1 / -1; grid-row: 2; }
   .sp-stat b { font-size: 18px; }
 }
+.news-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 6px 16px; }
+.news-head > div { min-width: 0; }
+.news-updated { margin: 0; }
+.news-delta { margin: 0; background: var(--accent-soft); color: var(--ink); border-radius: 10px; padding: 8px 12px; font-weight: 600; }
+.news-filters { display: flex; gap: 6px; overflow-x: auto; flex-wrap: nowrap; scrollbar-width: none; padding-bottom: 2px; }
+.news-filters::-webkit-scrollbar { display: none; }
+.news-filters button { flex: none; font: 600 13px var(--body); color: var(--ink); background: var(--inner); border: 1px solid var(--line); border-radius: 999px; padding: 6px 12px; cursor: pointer; }
+.news-filters button[aria-pressed="true"] { background: #ffffff; color: #172a45; border-color: #ffffff; }
+.news-board { display: grid; gap: 16px; }
+.nsec { margin: 2px 0 0; font: 700 12px var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.news-list { display: grid; gap: 8px; }
+.ncard { border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; background: var(--inner); display: grid; gap: 6px; min-width: 0; }
+.ncard-top { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.nhead { margin: 0; font: 600 15.5px/1.35 var(--body); overflow-wrap: anywhere; }
+.nhead a { color: #ffffff; text-decoration: none; }
+.nhead a:hover { text-decoration: underline; }
+.nwhy { margin: 0; font-size: 13px; color: #dbe5f3; }
+.pill.lean-off { background: #a3302a; color: #f3f3f3; }
+.pill.lean-on { background: #1e7a45; color: #f3f3f3; }
+.pill.lean-mix { background: #b8961e; color: #1b1b1b; }
+.pill.new { background: #3d8bff; color: #ffffff; }
+@media (min-width: 840px) { .news-list { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 640px) {
+  .news-updated { text-align: left; }
+  .nhead { font-size: 16px; }
+  .news-filters { flex-wrap: wrap; overflow: visible; }
+  .news-filters button { font-size: 12px; padding: 6px 10px; }
+}
 </style>
 </head>
 <body>
@@ -367,10 +395,17 @@ textarea::placeholder { color: #8aa3c4; }
       <div class="week" id="cal"></div>
     </div>
 
-    <div class="card">
-      <h2>Market news</h2>
-      <p class="sub">Updates at 7 AM, 9 AM, 4 PM, 8 PM and 10 PM ET.</p>
-      <table><thead><tr><th>Headline</th><th>Impact</th></tr></thead><tbody id="news"></tbody></table>
+    <div class="card" id="news-card">
+      <div class="news-head">
+        <div>
+          <h2>Market news</h2>
+          <p class="sub" id="news-sub">Grouped for NQ. Headlines refresh on their own through the US session, and less often overnight and on weekends. Claude's desk notes stay in the list. Impact and the risk-on / risk-off lean are an automatic keyword guess, not advice.</p>
+        </div>
+        <p class="sub" id="news-updated"></p>
+      </div>
+      <p class="news-delta" id="news-delta" hidden></p>
+      <div class="news-filters" id="news-filters" role="toolbar" aria-label="Filter news by section"></div>
+      <div class="news-board" id="news-board"><p class="empty">Loading…</p></div>
     </div>
 
     <div class="grid">
@@ -567,17 +602,225 @@ textarea::placeholder { color: #8aa3c4; }
   show(start in tabs ? start : 'desk');
 
   // ---------- Desk: news doc ----------
+  // Section, impact, and risk lean use the same keyword rules as
+  // scripts/refresh_desk_news.py (lists live in data/desk/news-rules.json).
   const fill = (id, fn) => { const n = $(id); if (n) { n.replaceChildren(); fn(n); } };
+  let newsFilter = 'all';
+  let newsView = { items: [], feed: null, rules: null, fresh: new Set() };
+  const wordHit = (text, raw) => {
+    const w = String(raw || '').toLowerCase().trim();
+    if (!w || !text) return false;
+    if (w.indexOf(' ') >= 0 || w.indexOf('&') >= 0) return text.indexOf(w) >= 0;
+    return new RegExp('\\b' + w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\b').test(text);
+  };
+  const anyHit = (text, words) => (words || []).some((w) => wordHit(text, w));
+  const sectionScore = (text, section) => (section.keywords || []).reduce((sum, entry) => {
+    const token = typeof entry === 'string' ? entry : (entry.t || '');
+    const weight = typeof entry === 'string' ? 1 : (entry.w || 1);
+    return sum + (wordHit(text, token) ? weight : 0);
+  }, 0);
+  const pickSection = (text, rules) => {
+    const priority = (rules && rules.priority) || [];
+    let best = null, bestScore = 0, bestPri = 1e9;
+    ((rules && rules.sections) || []).forEach((sec) => {
+      const score = sectionScore(text, sec);
+      if (score <= 0) return;
+      const pri = priority.indexOf(sec.id);
+      const p = pri < 0 ? 50 : pri;
+      if (score > bestScore || (score === bestScore && p < bestPri)) { best = sec.id; bestScore = score; bestPri = p; }
+    });
+    return best;
+  };
+  const guessImpact = (text, section, rules) => {
+    if (!rules) return 'Low';
+    if (anyHit(text, rules.highAny)) return 'High';
+    if ((rules.highIf || []).some((rule) => section === rule.section && anyHit(text, rule.any))) return 'High';
+    const oil = rules.highOil || {};
+    if (anyHit(text, oil.topics) && anyHit(text, oil.moves)) return 'High';
+    const cap = rules.highCap || {};
+    if (anyHit(text, cap.names) && anyHit(text, cap.events)) return 'High';
+    if ((rules.mediumSections || []).indexOf(section) >= 0) return 'Medium';
+    if (anyHit(text, rules.mediumAny)) return 'Medium';
+    return 'Low';
+  };
+  const guessLean = (text, rules) => {
+    if (!rules) return '';
+    const off = anyHit(text, rules.riskOff);
+    const on = anyHit(text, rules.riskOn);
+    if (off && on) return 'mixed';
+    if (off) return 'risk-off';
+    if (on) return 'risk-on';
+    return '';
+  };
+  const normImpact = (v) => {
+    const t = String(v || '').toLowerCase();
+    return t === 'high' ? 'High' : t === 'medium' ? 'Medium' : t === 'low' ? 'Low' : '';
+  };
+  const normHead = (s) => String(s || '').toLowerCase().replace(/[’‘]/g, "'").replace(/[^a-z0-9]+/g, ' ').replace(/\s+/g, ' ').trim();
+  const similarHead = (a, b) => {
+    if (!a || !b) return false;
+    if (a === b) return true;
+    if (a.length > 24 && (a.indexOf(b) >= 0 || b.indexOf(a) >= 0)) return true;
+    const keep = (n) => n.split(' ').filter((w) => w.length > 2);
+    const ta = new Set(keep(a)), tb = new Set(keep(b));
+    if (ta.size < 3 || tb.size < 3) return false;
+    let inter = 0;
+    ta.forEach((w) => { if (tb.has(w)) inter += 1; });
+    const union = ta.size + tb.size - inter;
+    return union > 0 && inter / union >= 0.72;
+  };
+  const impactRank = (impact) => ({ High: 0, Medium: 1, Low: 2 }[impact] ?? 2);
+  const newsSections = (rules) => {
+    const rows = (rules && rules.display) || [];
+    if (rows.length) return rows.map((r) => ({ id: r.id, label: r.label, short: r.short || r.label }));
+    return [
+      { id: 'war', label: 'Geopolitics / War', short: 'War' },
+      { id: 'fed', label: 'Fed and Rates', short: 'Fed' },
+      { id: 'econ', label: 'Economic Data', short: 'Data' },
+      { id: 'tech', label: 'Mega-cap Tech and Earnings', short: 'Tech' },
+      { id: 'energy', label: 'Energy and Oil', short: 'Oil' },
+      { id: 'markets', label: 'Other Markets', short: 'Markets' }
+    ];
+  };
+  const tagRow = (row, rules, auto) => {
+    const text = String(row.headline || '').toLowerCase().replace(/[’‘]/g, "'");
+    const storedImpact = normImpact(row.impact);
+    if (auto && row.section && storedImpact) return Object.assign({}, row, { auto: true, impact: storedImpact, lean: row.lean || '', section: row.section });
+    const section = row.section || (rules ? pickSection(text, rules) : null) || 'markets';
+    const impact = !auto && storedImpact ? storedImpact : (storedImpact || guessImpact(text, section, rules));
+    const lean = row.lean || guessLean(text, rules);
+    return Object.assign({}, row, { auto: !!auto, section, impact: impact || 'Low', lean: lean || '' });
+  };
+  const mergeNews = (claude, feed, rules) => {
+    const out = [], norms = [];
+    const push = (row) => {
+      const n = normHead(row.headline);
+      if (!n || norms.some((prev) => similarHead(n, prev))) return;
+      out.push(row);
+      norms.push(n);
+    };
+    (claude || []).forEach((row) => push(tagRow(row, rules, false)));
+    ((feed && feed.items) || []).forEach((row) => push(tagRow(row, rules, true)));
+    return out;
+  };
+  const newsId = (row) => row.id || ('c:' + normHead(row.headline));
+  const SEEN_KEY = 'nqdesk-news-seen';
+  const readSeen = () => { try { return JSON.parse(localStorage.getItem(SEEN_KEY) || '{}'); } catch (e) { return {}; } };
+  let seenTimer = null, seenQueued = '';
+  const writeSeen = (ids) => { try { localStorage.setItem(SEEN_KEY, JSON.stringify({ at: new Date().toISOString(), ids })); } catch (e) {} };
+  const queueSeen = (ids) => {
+    const key = ids.join('\n');
+    if (key === seenQueued) return;
+    seenQueued = key;
+    clearTimeout(seenTimer);
+    seenTimer = setTimeout(() => writeSeen(ids), 45000);
+  };
+  document.addEventListener('visibilitychange', () => { if (document.hidden && seenQueued) writeSeen(seenQueued.split('\n')); });
+  const etStamp = (iso) => {
+    const at = iso ? new Date(iso) : null;
+    if (!at || isNaN(at)) return '';
+    return at.toLocaleString('en-US', { timeZone: 'America/New_York', weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' }) + ' ET';
+  };
+  const withEt = (time) => !time ? '' : (/\bet\b/i.test(time) ? time : time + ' ET');
+  const leanPill = (lean) => {
+    if (lean !== 'risk-off' && lean !== 'risk-on' && lean !== 'mixed') return null;
+    const label = lean === 'risk-off' ? 'Risk-off' : lean === 'risk-on' ? 'Risk-on' : 'Mixed';
+    const cls = lean === 'risk-off' ? 'lean-off' : lean === 'risk-on' ? 'lean-on' : 'lean-mix';
+    const pill = el('span', 'pill ' + cls, label);
+    pill.title = 'Automatic keyword guess, not advice';
+    return pill;
+  };
+  const newsCard = (row, isNew) => {
+    const card = el('article', 'ncard');
+    card.dataset.nid = newsId(row);
+    const top = el('div', 'ncard-top');
+    top.append(el('span', 'pill ' + (row.impact || 'Low'), row.impact || 'Low'));
+    const lean = leanPill(row.lean);
+    if (lean) top.append(lean);
+    if (isNew) top.append(el('span', 'pill new', 'New'));
+    card.append(top);
+    const head = el('h3', 'nhead');
+    if (row.url) {
+      const a = el('a', null, row.headline || '');
+      a.href = row.url;
+      a.target = '_blank';
+      a.rel = 'noopener noreferrer';
+      head.append(a);
+    } else head.textContent = row.headline || '';
+    card.append(head);
+    card.append(el('span', 'meta', [row.source, withEt(row.time), row.auto ? 'Auto' : 'Desk note'].filter(Boolean).join(' · ')));
+    if (row.why) card.append(el('p', 'nwhy', row.why));
+    return card;
+  };
+  const renderNewsBoard = () => {
+    const board = $('news-board');
+    const filters = $('news-filters');
+    if (!board || !filters) return;
+    const rules = newsView.rules;
+    const sections = newsSections(rules);
+    const items = newsView.items || [];
+    const counts = {};
+    items.forEach((row) => { counts[row.section] = (counts[row.section] || 0) + 1; });
+    filters.replaceChildren();
+    const chips = [{ id: 'all', short: 'All', label: 'All' }].concat(sections);
+    chips.forEach((sec) => {
+      const n = sec.id === 'all' ? items.length : (counts[sec.id] || 0);
+      if (sec.id !== 'all' && !n && newsFilter !== sec.id) return;
+      const btn = el('button', null, sec.short + (sec.id === 'all' ? '' : ' ' + n));
+      btn.type = 'button';
+      btn.setAttribute('aria-pressed', String(newsFilter === sec.id));
+      btn.addEventListener('click', () => { newsFilter = sec.id; renderNewsBoard(); });
+      filters.append(btn);
+    });
+    board.replaceChildren();
+    const show = sections.filter((sec) => newsFilter === 'all' || newsFilter === sec.id);
+    let any = false;
+    show.forEach((sec) => {
+      const rows = items.filter((row) => row.section === sec.id).slice().sort((a, b) => {
+        const d = impactRank(a.impact) - impactRank(b.impact);
+        if (d) return d;
+        const ta = Date.parse(a.publishedAt || '') || 0;
+        const tb = Date.parse(b.publishedAt || '') || 0;
+        return tb - ta;
+      });
+      if (!rows.length && newsFilter !== sec.id) return;
+      any = true;
+      const block = el('section', 'news-sec');
+      block.append(el('h3', 'nsec', sec.label));
+      if (!rows.length) block.append(el('p', 'empty', 'Nothing in this section right now.'));
+      else {
+        const list = el('div', 'news-list');
+        rows.forEach((row) => list.append(newsCard(row, newsView.fresh.has(newsId(row)))));
+        block.append(list);
+      }
+      board.append(block);
+    });
+    if (!any) board.append(el('p', 'empty', 'No headlines yet.'));
+  };
   const sentiment = (s) => { const t = String(s || '').toLowerCase(); return t.startsWith('bull') ? 'bull' : t.startsWith('bear') ? 'bear' : 'neutral'; };
   const weekStart = (d) => {
     if (d && d.calendarWeek && d.calendarWeek.start) return d.calendarWeek.start;
     const t = etDate(); const wd = new Date(t + 'T12:00:00Z').getUTCDay();
     return shift(t, wd === 0 ? 1 : wd === 6 ? 2 : 1 - wd);
   };
-  const renderDesk = (d) => {
-    if (!d) { if ($('stamp')) $('stamp').textContent = 'No news update yet'; return; }
+  const renderDesk = (d, feed, rules) => {
+    d = d || {};
     const at = d.updatedAt ? new Date(d.updatedAt) : null;
-    if ($('stamp')) $('stamp').textContent = at && !isNaN(at) ? 'News updated ' + at.toLocaleString('en-US', { timeZone: 'America/New_York', weekday: 'short', hour: 'numeric', minute: '2-digit' }) + ' ET' : 'News loaded';
+    const feedAt = feed && feed.updatedAt ? new Date(feed.updatedAt) : null;
+    const hasNews = !!((d.news || []).length || (feed && (feed.items || []).length) || (at && !isNaN(at)) || (feedAt && !isNaN(feedAt)) || d.takeaway || d.grok);
+    if (!hasNews) { if ($('stamp')) $('stamp').textContent = 'No news update yet'; return; }
+    if ($('stamp')) {
+      const bits = [];
+      if (feedAt && !isNaN(feedAt)) bits.push('Headlines ' + etStamp(feed.updatedAt));
+      if (at && !isNaN(at)) bits.push('Desk ' + etStamp(d.updatedAt));
+      $('stamp').textContent = bits.join(' · ') || 'News loaded';
+    }
+    if ($('news-updated')) {
+      const bits = [];
+      if (feedAt && !isNaN(feedAt)) bits.push('Headlines ' + etStamp(feed.updatedAt));
+      if (at && !isNaN(at)) bits.push('Desk note ' + etStamp(d.updatedAt));
+      $('news-updated').textContent = bits.join(' · ');
+    }
     if ($('takeaway')) $('takeaway').textContent = d.takeaway || '';
     if ($('biasnote')) $('biasnote').textContent = d.bias_note || '';
     // Warning banner for today high-impact news / earnings
@@ -599,15 +842,28 @@ textarea::placeholder { color: #8aa3c4; }
     } else if (warn) {
       warn.hidden = true;
     }
-    fill('news', (nw) => {
-      (d.news || []).forEach((r) => { const tr = el('tr'); const td = el('td', null, r.headline); td.append(el('span', 'meta', [r.time, r.source].filter(Boolean).join(' · '))); const ti = el('td'); ti.append(el('span', 'pill ' + (r.impact || 'Low'), r.impact || 'Low')); tr.append(td, ti); nw.append(tr); });
-      if (!(d.news || []).length) { const tr = el('tr'); const td = el('td', 'empty', 'No headlines yet.'); td.colSpan = 2; tr.append(td); nw.append(tr); }
-    });
-    // Recent major news (High impact only)
+    const merged = mergeNews(d.news, feed, rules);
+    // Desk notes have a written time, not an ISO stamp. Sort them with the desk update.
+    if (d.updatedAt) merged.forEach((row) => { if (!row.auto && !row.publishedAt) row.publishedAt = d.updatedAt; });
+    const seen = readSeen();
+    const seenIds = new Set(seen.ids || []);
+    const fresh = seen.at ? new Set(merged.filter((row) => !seenIds.has(newsId(row))).map(newsId)) : new Set();
+    newsView = { items: merged, feed: feed || null, rules: rules || null, fresh };
+    queueSeen(merged.map(newsId));
+    const delta = $('news-delta');
+    if (delta) {
+      if (fresh.size) {
+        delta.hidden = false;
+        const when = seen.at ? etStamp(seen.at) : '';
+        delta.textContent = fresh.size + ' new headline' + (fresh.size === 1 ? '' : 's') + ' since you last opened the desk' + (when ? ' (' + when + ')' : '') + '.';
+      } else delta.hidden = true;
+    }
+    renderNewsBoard();
+    // Recent major news (High impact only), newest first
     const maj = $('major-news');
     if (maj) {
       maj.replaceChildren();
-      const highs = (d.news || []).filter(r => (r.impact || '').toLowerCase() === 'high');
+      const highs = merged.filter(r => (r.impact || '').toLowerCase() === 'high').slice().sort((a, b) => (Date.parse(b.publishedAt || '') || 0) - (Date.parse(a.publishedAt || '') || 0));
       if (highs.length) {
         const ul = el('ul', 'fb');
         highs.slice(0, 5).forEach(r => {
@@ -1409,7 +1665,23 @@ textarea::placeholder { color: #8aa3c4; }
     if (btn.hasAttribute('data-firm')) { spendFirm = btn.getAttribute('data-firm'); spendOpen = false; paintSpend(); }
   });
   const loadAll = async () => {
-    try { const dsk = await readFile('data/desk/today.json'); const gk = await readFile('data/desk/grok.json').catch(() => null); if (dsk && gk && (!dsk.grok || !dsk.grok.at || String(gk.at || '') >= String(dsk.grok.at))) dsk.grok = gk; renderDesk(dsk || (gk ? { grok: gk } : null)); } catch (e) { $('stamp').textContent = 'Couldn’t load the news. Reload the page.'; }
+    try {
+      const readDeskExtra = async (path) => {
+        try { const remote = await readFile(path); if (remote) return remote; } catch (e) {}
+        try { const rel = await fetch(path + '?t=' + Date.now(), { cache: 'no-store' }); if (rel.ok) return await rel.json(); } catch (e) {}
+        return null;
+      };
+      let dsk = null, gk = null;
+      try { dsk = await readFile('data/desk/today.json'); } catch (e) { dsk = null; }
+      try { gk = await readFile('data/desk/grok.json'); } catch (e) { gk = null; }
+      if (!dsk) dsk = await readDeskExtra('data/desk/today.json');
+      if (!gk) gk = await readDeskExtra('data/desk/grok.json');
+      const feed = await readDeskExtra('data/desk/feed.json');
+      const rules = await readDeskExtra('data/desk/news-rules.json');
+      if (dsk && gk && (!dsk.grok || !dsk.grok.at || String(gk.at || '') >= String(dsk.grok.at))) dsk.grok = gk;
+      if (!dsk && !feed) { $('stamp').textContent = 'Couldn’t load the news. Reload the page.'; }
+      else renderDesk(dsk || (gk ? { grok: gk } : {}), feed, rules);
+    } catch (e) { $('stamp').textContent = 'Couldn’t load the news. Reload the page.'; }
     try {
       const [purchases, history] = await Promise.all([readSpend('data/spend/purchases.json'), readSpend('data/spend/history.json')]);
       if (purchases || history) renderSpend(purchases, history);

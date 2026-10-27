@@ -1,0 +1,152 @@
+{
+  "disclaimer": "Impact and the risk-on / risk-off lean are an automatic keyword guess, not trading advice.",
+  "priority": ["war", "econ", "fed", "energy", "tech", "markets"],
+  "display": [
+    {"id": "war", "label": "Geopolitics / War", "short": "War"},
+    {"id": "fed", "label": "Fed and Rates", "short": "Fed"},
+    {"id": "econ", "label": "Economic Data", "short": "Data"},
+    {"id": "tech", "label": "Mega-cap Tech and Earnings", "short": "Tech"},
+    {"id": "energy", "label": "Energy and Oil", "short": "Oil"},
+    {"id": "markets", "label": "Other Markets", "short": "Markets"}
+  ],
+  "sections": [
+    {
+      "id": "war",
+      "keywords": [
+        {"t": "iran", "w": 3}, {"t": "tehran", "w": 3}, {"t": "khamenei", "w": 3},
+        {"t": "hormuz", "w": 3}, {"t": "ceasefire", "w": 3}, {"t": "ukraine", "w": 3},
+        {"t": "gaza", "w": 3}, {"t": "hamas", "w": 3},         {"t": "missile", "w": 3}, {"t": "missiles", "w": 3},
+        {"t": "airstrike", "w": 3}, {"t": "airstrikes", "w": 3}, {"t": "air strike", "w": 3}, {"t": "invasion", "w": 3},
+        {"t": "more strikes", "w": 3}, {"t": "military strike", "w": 3},
+        {"t": "israel", "w": 2}, {"t": "hezbollah", "w": 2}, {"t": "houthi", "w": 2},
+        {"t": "houthis", "w": 2}, {"t": "putin", "w": 2}, {"t": "kyiv", "w": 2},
+        {"t": "russia", "w": 2}, {"t": "taiwan", "w": 2}, {"t": "nato", "w": 1},
+        {"t": "sanction", "w": 1}, {"t": "sanctions", "w": 1}, {"t": "geopolitical", "w": 2},
+        {"t": "geopolitics", "w": 2}, {"t": "middle east", "w": 2}, {"t": "north korea", "w": 2},
+        {"t": "syria", "w": 1}, {"t": "lebanon", "w": 1}, {"t": "red sea", "w": 2},
+        {"t": "pentagon", "w": 1}, {"t": "shelling", "w": 2}, {"t": "bombardment", "w": 2},
+        {"t": "troops", "w": 1}, {"t": "warship", "w": 2}, {"t": "idf", "w": 2},
+        {"t": "drone strike", "w": 3}, {"t": "artillery", "w": 2}
+      ]
+    },
+    {
+      "id": "econ",
+      "keywords": [
+        {"t": "cpi", "w": 3}, {"t": "consumer price", "w": 3}, {"t": "core pce", "w": 3},
+        {"t": "pce", "w": 3}, {"t": "nonfarm", "w": 3}, {"t": "non-farm", "w": 3},
+        {"t": "payrolls", "w": 3}, {"t": "payroll", "w": 2}, {"t": "jobs report", "w": 3},
+        {"t": "gdp", "w": 3}, {"t": "jobless", "w": 3}, {"t": "initial claims", "w": 3},
+        {"t": "unemployment", "w": 2}, {"t": "retail sales", "w": 3}, {"t": "durable goods", "w": 3},
+        {"t": "jolts", "w": 3}, {"t": "producer price", "w": 2}, {"t": "ppi", "w": 2},
+        {"t": "ism", "w": 2}, {"t": "pmi", "w": 2}, {"t": "consumer confidence", "w": 3},
+        {"t": "housing starts", "w": 2}, {"t": "beige book", "w": 2}, {"t": "inflation", "w": 2},
+        {"t": "bureau of labor", "w": 2}, {"t": "labor department", "w": 2},
+        {"t": "tariff", "w": 2}, {"t": "tariffs", "w": 2}, {"t": "adp", "w": 1}
+      ]
+    },
+    {
+      "id": "fed",
+      "keywords": [
+        {"t": "fomc", "w": 3}, {"t": "federal reserve", "w": 3}, {"t": "jerome powell", "w": 3},
+        {"t": "powell", "w": 3}, {"t": "warsh", "w": 3}, {"t": "rate cut", "w": 3},
+        {"t": "rate hike", "w": 3}, {"t": "fed funds", "w": 3}, {"t": "interest rate", "w": 2},
+        {"t": "interest rates", "w": 2}, {"t": "basis point", "w": 2}, {"t": "basis points", "w": 2},
+        {"t": "quantitative tightening", "w": 2}, {"t": "quantitative easing", "w": 2},
+        {"t": "monetary policy", "w": 2}, {"t": "dot plot", "w": 3}, {"t": "treasury yield", "w": 2},
+        {"t": "bond yield", "w": 2}, {"t": "10-year", "w": 1}, {"t": "central bank", "w": 1},
+        {"t": "fed", "w": 1}
+      ]
+    },
+    {
+      "id": "energy",
+      "keywords": [
+        {"t": "brent", "w": 3}, {"t": "wti", "w": 3}, {"t": "crude", "w": 3},
+        {"t": "opec", "w": 3}, {"t": "oil", "w": 2}, {"t": "natural gas", "w": 2},
+        {"t": "refinery", "w": 2}, {"t": "exxon", "w": 3}, {"t": "chevron", "w": 3},
+        {"t": "aramco", "w": 3}, {"t": "ras tanura", "w": 3}, {"t": "shaybah", "w": 3},
+        {"t": "diesel", "w": 2}, {"t": "fuel", "w": 2}, {"t": "oilfield", "w": 2},
+        {"t": "oil field", "w": 2},
+        {"t": "lng", "w": 1}, {"t": "gasoline", "w": 1}, {"t": "barrel", "w": 1},
+        {"t": "pipeline", "w": 1}
+      ]
+    },
+    {
+      "id": "tech",
+      "keywords": [
+        {"t": "nvidia", "w": 3}, {"t": "nvda", "w": 3}, {"t": "apple", "w": 3},
+        {"t": "aapl", "w": 2}, {"t": "microsoft", "w": 3}, {"t": "msft", "w": 2},
+        {"t": "amazon", "w": 2}, {"t": "amzn", "w": 2}, {"t": "alphabet", "w": 3},
+        {"t": "google", "w": 2}, {"t": "googl", "w": 2}, {"t": "aws", "w": 3},
+        {"t": "meta", "w": 2}, {"t": "tesla", "w": 3}, {"t": "tsla", "w": 2},
+        {"t": "broadcom", "w": 3}, {"t": "avgo", "w": 2}, {"t": "amd", "w": 2},
+        {"t": "netflix", "w": 2}, {"t": "nflx", "w": 2}, {"t": "anthropic", "w": 3},
+        {"t": "semiconductor", "w": 2}, {"t": "semiconductors", "w": 2}, {"t": "chipmaker", "w": 2},
+        {"t": "chipmakers", "w": 2}, {"t": "nasdaq-100", "w": 2}, {"t": "intel", "w": 1},
+        {"t": "earnings", "w": 1}, {"t": "guidance", "w": 1}
+      ]
+    },
+    {
+      "id": "markets",
+      "keywords": [
+        {"t": "nasdaq", "w": 2}, {"t": "s&p", "w": 2}, {"t": "dow", "w": 1},
+        {"t": "wall street", "w": 2}, {"t": "stock market", "w": 2}, {"t": "stocks", "w": 1},
+        {"t": "futures", "w": 1}, {"t": "vix", "w": 2}, {"t": "dollar", "w": 1},
+        {"t": "gold", "w": 1}, {"t": "bitcoin", "w": 1}, {"t": "crypto", "w": 1},
+        {"t": "treasury", "w": 1}, {"t": "yield", "w": 1}, {"t": "yields", "w": 1}
+      ]
+    }
+  ],
+  "highAny": [
+    "fomc", "rate decision", "rate cut", "rate hike", "fed funds", "powell", "warsh",
+    "cpi", "core pce", "pce", "nonfarm", "payrolls", "jobs report", "gdp",
+    "invasion", "airstrike", "airstrikes", "air strike", "missile", "missiles", "ceasefire", "hormuz",
+    "more strikes", "military strike", "drone strike", "declares war", "escalation",
+    "nuclear weapon", "nuclear war", "nuclear strike",
+    "hotter than", "cooler than"
+  ],
+  "highIf": [
+    {"section": "war", "any": ["nuclear"]}
+  ],
+  "highOil": {
+    "topics": ["oil", "brent", "wti", "crude", "aramco", "ras tanura"],
+    "moves": ["surge", "surges", "soar", "soars", "jump", "jumps", "spike", "spikes", "plunge", "plunges", "tumble", "tumbles", "crash", "embargo", "attack", "attacks", "fire"]
+  },
+  "highCap": {
+    "names": ["nvidia", "nvda", "apple", "aapl", "microsoft", "msft", "amazon", "amzn", "alphabet", "google", "googl", "meta", "tesla", "tsla", "broadcom", "avgo", "anthropic"],
+    "events": ["earnings", "guidance", "revenue", "profit", "results", "eps", "ipo"]
+  },
+  "mediumAny": [
+    "earnings", "guidance", "revenue", "semiconductor", "semiconductors", "inflation",
+    "treasury", "yield", "yields", "sanction", "sanctions", "opec", "nasdaq", "vix",
+    "unemployment", "jobless", "retail sales", "consumer confidence", "durable",
+    "ism", "pmi", "payroll", "tariff", "tariffs", "selloff", "sell-off", "plunge", "plunging", "plunged", "rout", "ipo"
+  ],
+  "mediumSections": ["war", "fed", "econ", "energy"],
+  "riskOff": [
+    "missile", "airstrike", "air strike", "invasion", "drone strike", "shelling",
+    "bombardment", "more strikes", "military strike", "hormuz", "oil surge", "oil jumps",
+    "oil soars", "oil spikes", "brent rises", "brent jumps", "crude rises", "crude jumps",
+    "crude soars", "hawkish", "rate hike", "yields rise", "yields climb", "yield hits",
+    "hot inflation", "inflation rises", "inflation hot", "hotter than", "cpi rises",
+    "selloff", "sell-off", "stocks fall", "stocks drop", "futures fall", "futures drop",
+    "futures slide", "plunge", "plunges", "tumble", "tumbles", "slump", "rout",
+    "misses estimates", "misses expectations", "cuts guidance", "guidance cut",
+    "layoffs", "sanctions", "blockade", "attacks", "escalation", "airstrikes", "killed",
+    "plunging", "plunged", "aramco", "ras tanura", "revenue miss"
+  ],
+  "riskOn": [
+    "ceasefire", "peace talk", "peace talks", "peace deal", "de-escalation",
+    "de-escalate", "de-escalating", "truce", "reopen", "reopened", "reopening",
+    "oil falls", "oil drops", "oil eases", "oil slips", "oil lower", "brent falls",
+    "brent slips", "brent eases", "crude falls", "crude slips", "crude eases",
+    "inflation cools", "inflation eases", "cooler than", "cpi cools", "dovish",
+    "rate cut", "yields fall", "yields ease", "yields drop", "rally", "stocks rise",
+    "stocks gain", "futures rise", "futures gain", "beats estimates", "beats expectations",
+    "tops estimates", "top estimates",     "earnings beat", "raises guidance", "raises full-year", "hikes earnings",
+    "raises outlook", "beats quarterly", "record high"
+  ],
+  "skip": [
+    "nfl", "nba", "mlb", "nhl", "premier league", "oscar", "grammys", "box office",
+    "recipe", "amazon rainforest", "amazon river", "how to", "in retirement", "i-bonds"
+  ]
+}
