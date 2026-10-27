@@ -1,59 +1,65 @@
 {
  "date": "2026-10-27",
+ "discord": {
+  "chartsOpened": "9:22 AM ET (Morning Check-in Submitted card at 9:26 AM, streak 3 days).",
+  "plan": "Execute a good pullback setup, no entries in a shallow pullback. Shorts only if price consolidates after sweeping Asia high and confirms bearish after mitigating the 1hr bullish gap; otherwise bullish to the 4hr UMG above 29,759.",
+  "risk": "Posted and confirmed at 9:26 AM ET, before the 9:30 deadline.",
+  "eod": "Submitted 11:02 AM ET (streak 4 days), screenshot confirmed 11:03 AM. Rules followed: Yes. Summary lists the same model (1hr gap, 0.618 rejected, internal low swept, 5min RB midpoint, 1min SMT, displacement) and says he might hold to '27,759' (typo for 29,759). Improvement: 1 trade and locked out, needs more confidence to risk heavier.",
+  "match": "Matches Notion: long, one trade, rules followed, locked out, same entry checklist and NYAM.H/29,759 targets. The EOD card doesn't state the result (win, 3.02R) or the account, so nothing contradicts Notion."
+ },
  "entryUrl": "https://app.notion.com/p/40660e8f5c4580cc8937dd26fc520770",
- "summary": "Good day and a clean turnaround from Monday. Your pre-market said wait for a retrace and then long toward the 4hr UMG, and that's what you did: price pulled back into the 5min 0.5-0.618 zone at D OPEN right around 10:00, swept the internal low, and you longed off the 1min SMT with the stop under that low. One XFA account, NY-AM, logged as a win at 3.02R. The one real miss is the exit: you planned the 4hr UMG (~29,759), then cut it at NYAM.H because 1min volume faded, which AB called out too. Your own notes also show the old pull toward PNL (\"risked like 180 instead of 250\").",
- "trade": "Long · NY-AM · XFA x1 · Win (3.02R) · Entry ~29,543 just after 10:00, stop ~29,495 under the swept internal low, closed at NYAM.H (~29,688) instead of the planned 4hr UMG (~29,759)",
- "rule": "When the HTF target from pre-market is still valid, don't close early because 1min volume slows. Only exit early if price sweeps NYAM.H and then consolidates or rejects; otherwise take a partial at NYAM.H and leave the rest on the planned target.",
- "screenshots": [
-  {
-   "label": "TimeFrame 1 · 4hr ES + NQ (9:27 AM)",
-   "feedback": "Your fib runs from the ~30,080 high down to the ~28,975 low, and NQ is sitting right at the 0.5 with PD-H. The 29,759 line you call the 4hr UMG sits at about the 0.705, so a long to it is a long into premium of a bearish 4hr leg. That's a fair retrace target, but it explains why you got nervous holding it."
-  },
-  {
-   "label": "TimeFrame 2 · 1hr ES + NQ (9:27 AM)",
-   "feedback": "Both ES and NQ are pushing into their PD-H at the same time, so there's no clear divergence up here yet. Price had a strong bullish leg off PD-EQ overnight, which matches your note that last night gave another bullish leg. A retrace before continuation was a reasonable read."
-  },
-  {
-   "label": "TimeFrame 3 · 15m ES + NQ (9:27 AM)",
-   "feedback": "NQ already took AS.H and poked above PD-H in the London/pre-market push, then dipped back under it by 9:27. D OPEN (~29,490) and LO.H are the obvious levels underneath, and that's exactly where the retrace you were waiting for ended up."
-  },
-  {
-   "label": "TimeFrame 4 · 5min ES + NQ (9:28 AM)",
-   "feedback": "Best prep chart of the day. You drew the fib on the overnight leg and shaded the 0.5-0.618 zone (~29,480-29,520) right on top of D OPEN before the open. That's a specific, pre-planned area, and price came back into it, so the entry wasn't a guess."
-  },
-  {
-   "label": "Execution · 1min NQ + ES (10:39 AM)",
-   "feedback": "Entry ~29,543, stop ~29,495 under the internal low that price swept right around 10:00 at the 0.618, and the position box still runs up to ~29,760, your original target. The chart backs up your notes: 0.618 held, internal low swept, ES and NQ diverged at that low (1min SMT), then a strong 1min displacement. At 10:39 price had already spiked toward NYAM.H and was at ~29,617."
-  }
+ "fix": [
+  "Exit reason. TALK says 'after taking a big L last week on my account i decided to play it safe and just target NYAM.H'. That's the P&L picking the target, not the chart. AB said it straight: if you expect a rejection at NYAM.H you need to see consolidation there, and slow volume doesn't make the idea invalid. Next time decide the hold-or-exit condition before entry (like 'hold to 29,759 unless we consolidate under NYAM.H or an SMT forms against me').",
+  "Don't grade the trade on the dollars. 'Upset i risked like 180 instead of 250' is the same P&L thinking you called out in yourself. A 3R win following every rule is a perfect day at any size.",
+  "Monday's answer says you took money off the funded account and bought evals to trade, and traded Asia on them. That breaks two of your own lines: XFA only, NY session only. Don't buy another eval or reset this week.",
+  "FOMC is tomorrow afternoon. AB said it can be traded, but that's outside your 9:30-11 NY AM window. Decide tonight if you're trading it, and if you are, write the size and the one setup you'll take before 2:00 PM, not during the release."
  ],
  "good": [
-  "Pre-market plan matched the trade: you said wait for a retrace and then long, and you waited for the retrace into your pre-drawn 5min 0.5-0.618 zone at D OPEN.",
-  "You didn't enter before 10:00. The low at the 0.618 printed around 10:00 and the entry came after it, with confirmation (swept internal low, 1min SMT, displacement).",
-  "Stop sat under the low that was swept and formed the SMT, which is a protected low, not an internal level like Monday's stop.",
-  "One XFA account, NY-AM session, no copying the trade across evals. No eval purchase emails today.",
-  "Risk was under your normal size (~$180 vs $250), so no over-risking, and you locked out after the win instead of looking for more.",
-  "You logged AB's feedback in detail again, including the part that goes against you (closing early)."
- ],
- "fix": [
-  "Exit vs plan: your target was the 4hr UMG (~29,759), and your Entry type even says 'depending on volume i might hold to 27,759' (probably a typo for 29,759). You closed at NYAM.H on 1min volume. AB's point is right: low volume or slow delivery doesn't make the idea invalid.",
-  "You wrote that a strong sweep of NYAM.H with volume would give you conviction. Decide that rule before the trade, not during it. Right now the exit was made on a feeling ('a bit nervous i dont want to get BE').",
-  "PNL focus: 'upset i risked like 180 instead of 250'. You won, followed the plan, and the first thing you graded was the dollar amount. You named it yourself, which is good, but it's the same thing you admitted on Monday.",
-  "Fear from last week is steering exits: 'after taking a big L last week on my account i decided to play it safe'. Playing it safe is fine, but do it with a partial, not by abandoning the target.",
-  "StopLoss says 'Smt'd low'. Add the actual price (~29,495) so each trade can be graded from your own numbers."
+  "Patience on the open. Pre-market said wait for a retrace to go long, and you didn't touch anything until after the 10:00 4hr open. The entry came around 10:20.",
+  "Entry checklist was stacked: accumulation, manipulation into the 1hr gap, 0.618 rejected, internal low swept, 5min rejection block midpoint held, 1min bullish SMT, failure to take the low, then displacement. That's your model, start to finish.",
+  "Stop at the SMT'd low (~29,494.50). That's a protected low, the opposite of Monday's internal-EQ stop. Lesson applied the very next day.",
+  "You locked out after the win. With FOMC tomorrow, walking away green was the right move.",
+  "Sizing down (~$180 instead of $250) right after a rough week isn't a mistake. It's how you rebuild confidence, same as Oct 23."
  ],
  "questions": [
   {
-   "q": "You wrote 'if this trade were to sweep NYAM with volume and closed strong it would've gave me more conviction to hold'. AB says it took NYAM.H and kept going. What exactly would you need to see at NYAM.H tomorrow to hold, and what would make you close?"
+   "q": "Your execution screenshot at 10:39 shows price at 29,617 after a spike to ~29,670, still under NYAM.H. When and where did you actually close: at NYAM.H later on, or early when the 1min volume 'started to die out'?"
   },
   {
-   "q": "You're upset you risked ~$180 instead of $250 on a trade you won. If the same setup had lost, would you be glad it was $180? What does that tell you about whether size should change with how you feel?"
+   "q": "You wrote 'after taking a big L last week on my account i decided to play it safe and just target NYAM.H'. If last week hadn't happened, would you have held for 29,759? What exactly would you need to see to hold next time?"
   },
   {
-   "q": "'After taking a big L last week on my account i decided to play it safe.' Is last week's loss going to decide how you manage FOMC tomorrow? What's your plan for FOMC, and will you wait until after 2:30 PM like AB suggested?"
-  },
-  {
-   "q": "Would a partial at NYAM.H and a runner to 29,759 have solved both the nerves and the early exit? If yes, why wasn't that the plan before entry?"
+   "q": "On Monday you said you took money 'off on funded and buying evals'. Are any eval or reset accounts still active right now, and what's your plan to stick to just the XFA this week?"
   }
  ],
- "reviewedAt": "2026-10-27T20:15:33Z"
+ "reviewedAt": "2026-10-27T20:20:00Z",
+ "rule": "Pick the exit before the entry: hold to the planned DOL unless price consolidates under the level or an SMT forms against you. Last week's P&L doesn't get a vote.",
+ "screenshots": [
+  {
+   "feedback": "NQ 4h fib from the ~30,100 high to the ~28,950 low, price sitting right on the 0.5 and PD-H at ~29,546. Your 29,759 target sits between the 0.618 and 0.705, so you're calling a retrace into 4h premium inside a bearish leg. That matches your 'deeper retrace' read, but it means longs are counter to the 4h, so a partial at NYAM.H is defensible. Just make the hold rule clear.",
+   "label": "4H · NQ & ES (9:27 AM)"
+  },
+  {
+   "feedback": "NQ had already pushed back over PD-H (~29,575) after building a base above PD-EQ (~29,280) since Thursday. ES pressing its PD-H around 7,740 with 7,766 marked above. 29,759 is the obvious next magnet above the 1h structure. Bullish intraday, bearish HTF, which is exactly the tension you wrote about.",
+   "label": "1H · NQ & ES (9:27 AM)"
+  },
+  {
+   "feedback": "Clean overnight: NQ swept LO.L (~29,290), reclaimed D OPEN (~29,480), and broke above AS.H/PD-H into ~29,620. ES did the same over its NYAM.H/AS.H. Both indexes agree, so there's no SMT warning against longs going into the open.",
+   "label": "15M · NQ & ES (9:27 AM)"
+  },
+  {
+   "feedback": "Good plan drawing: fib from the ~29,390 low to the ~29,628 high, with the 0.5-0.618 zone (~29,480-29,510) shaded and lined up with D OPEN (~29,480). That's the 'retrace again to long' from your pre-market. The actual entry came off the 1min 0.618 near 29,505, right at the top of that zone, so the plan held up.",
+   "label": "5M · NQ & ES (9:28 AM)"
+  },
+  {
+   "feedback": "Long at 29,542.75, stop 29,494.50 under the swept internal low/NYAM.L (~48 pts), entry after the 10:00 line. Price spiked to about 29,670 and was back at 29,617 when you took this screenshot, still under NYAM.H (~29,690), with 29,759 marked above. Your 3.02R matches an exit right at NYAM.H, so it looks like you got filled after 10:39. On the ES side, it held over its NYAM.L while NQ swept, which backs up your bullish SMT.",
+   "label": "Execution · 1M NQ & ES (10:39 AM)"
+  },
+  {
+   "feedback": "NQ 1min after your exit: price broke straight through NYAM.H (~29,690) just before 11:00 and never came back to it. It tagged your 4hr UMG at 29,759 around 11:40 (about 4.5R from your entry) and kept going to ~29,875 by noon, then made the NYPM.H near 29,880 at 3:45 and settled around 29,790. Your morning plan's target was right; holding to 29,759 needed no extra heat after NYAM.H broke.",
+   "label": "Aftermath"
+  }
+ ],
+ "summary": "Really clean trade. You waited past 10:00, let price sweep the internal low into the 1min 0.618 with a bullish SMT and a hold at the 5min rejection block midpoint, then went long ~29,542.75 with the stop under the SMT'd low. You took 3.02R at NYAM.H and locked out. The one leak is the exit: you said yourself you cut it at NYAM.H because of last week's big loss and the 1min volume dying, not because the chart said so. Price kept pushing toward the 4hr UMG at 29,759.",
+ "trade": "Long · NY-AM · XFA · Win, 3.02 RR · Stop under the SMT'd low (~29,494.50) · ~$180 risk"
 }
