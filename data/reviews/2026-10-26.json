@@ -1,0 +1,64 @@
+{
+ "date": "2026-10-26",
+ "discord": {
+  "chartsOpened": "Couldn't check",
+  "eod": "Couldn't check. If it's not done yet, the deadline is 12:00 AM ET.",
+  "match": "Couldn't open Discord",
+  "plan": "Couldn't check",
+  "risk": "Couldn't check"
+ },
+ "entryUrl": "https://app.notion.com/p/40560e8f5c458023b6e8d8a1755c27f3",
+ "fix": [
+  "Day selection: AB flagged it and he's right. No-news Monday, FOMC week, HTF ranging, London low 200 pts away. That's a size-down or sit-out day, and you ran it on 3 evals at once.",
+  "Risk across accounts: -$1.2k on 3 evals is ~$400 each, under $500 per account, but $1.2k total for one idea. Copying one trade to 3 evals triples the hit when the read is off.",
+  "Stop placement: the stop (~29,252) sat right above the 1min EQ/0.5, about 50 points under the high you anchored the fib on (~29,300). That's an internal level, not a protected high, and price took it within ~10 minutes.",
+  "Target didn't match your plan. Pre-market said 'for me i would only target intenal liquidty', but the DOL was the London low (~29,025), an external low on the other side of a range.",
+  "Market Conditions says Range. In a range, a 10:00 short in the middle of it needs extra confirmation. You wrote 'looks like were rejecting 10am open', which is a guess, not a confirmed rejection like the 5min rejection block you waited for on Oct 23.",
+  "StopLoss is blank in Notion. Put the stop level in so the stop question can be graded from your own numbers."
+ ],
+ "good": [
+  "Clear HTF read written before the open: ranging out of the daily bearish FVG, NQ tapped PDH plus the bearish UMG, bearish SMT at the external high. Your 4hr chart backs that up.",
+  "You waited for 10:00 and didn't enter in the 5 minutes before the 4hr open.",
+  "Bias matched the HTF narrative (bearish gap above, price under it).",
+  "Calm before, during and after the trade. One loss and you stopped, no revenge entries in the journal.",
+  "You logged AB's feedback in detail the same day, including the 'would I take this on a live account?' question. That's the right filter to carry forward.",
+  "Clean prep again: PD-H/EQ/L, session highs and lows, D OPEN and the 10:00 line all marked on the 15m."
+ ],
+ "questions": [
+  {
+   "q": "Your entry says 'Bearish smt at the internal highs respected EQ on the 1min'. Which high was your stop above: the ~29,300 high your fib starts from, or a smaller high near the EQ? If the second one, why did you count that one as protected?"
+  },
+  {
+   "q": "RR says '-1.2k on 3 evals'. Is your $500 daily limit per account or total across everything you trade? And what made you run this one on all 3 evals instead of one?"
+  },
+  {
+   "q": "AB asked 'if i was on a live acc would i really risk trading on a day like today'. What's your answer, and what would make you skip a day like this next time?"
+  }
+ ],
+ "reviewedAt": "2026-10-26T20:10:00Z",
+ "rule": "On no-news days before FOMC with HTF in a range: size down or sit out, keep targets internal, and stop above the high that started the leg (the 1.0 of your fib).",
+ "screenshots": [
+  {
+   "feedback": "NQ wicked through PD-H (~29,320) while ES stayed well under its PD-H (~7,712). That's the bearish SMT at the external high you wrote about, and it's clear on the chart. Both indexes are sitting around PD-EQ to PD-H though, so this is the top half of a range, not a breakdown yet.",
+   "label": "TimeFrame 1 · 1hr ES + NQ (9:22 AM)"
+  },
+  {
+   "feedback": "Good: the 4hr bearish gap (~29,330 to ~29,720) is marked and NQ tapped its bottom edge, so the HTF bearish story is visible. Price had been chopping between PD-L and PD-H for days, which is why Range is the right condition tag.",
+   "label": "TimeFrame 2 · 4hr ES + NQ (9:23 AM)"
+  },
+  {
+   "feedback": "Best chart of the set. NYAM.H, PD-H, D OPEN, AS/LO/NYPM levels and the 10:00 line are all there. It also shows the London low (~29,030) and PD-L sit about 300 points below, which is a big ask from inside a range on a morning you planned for internal targets only.",
+   "label": "TimeFrame 3 · 15m ES + NQ (9:23 AM)"
+  },
+  {
+   "feedback": "Short box starts at the 10:00 line: entry ~29,200, stop ~29,252, target ~29,025. Your fib runs from ~29,300 down to the ~29,190 low, and the stop sits right at the 0.5, not above the 1.0 high. At 10:10 NQ is at ~29,268, back over D OPEN, so the stop is gone. ES on the left is pushing into its NYAM.H while NQ is still well below its own, so the next SMT was only forming after you were already out.",
+   "label": "Execution · 1min NQ + ES (10:10 AM)"
+  },
+  {
+   "feedback": "Couldn't open TradingView for the aftermath on this run, so the aftermath check is still pending.",
+   "label": "Aftermath"
+  }
+ ],
+ "summary": "Bias made sense (NQ tagged PDH and the bearish gap while ES didn't, so bearish SMT at an external high), but it was a low-probability day to be shooting for a far target. You shorted at the 10:00 open inside a range, stop just above the 1min EQ instead of above the ~29,300 swing high, and targeted the London low ~200 pts away even though pre-market said internal only. AB's read lines up: no-news Monday in FOMC week, HTF in a range, so price was more likely to build liquidity than run it. Total damage was -$1.2k across 3 evals.",
+ "trade": "Short · NY-AM · Eval x3 · Loss (-$1.2k total across 3 evals) · Entry ~29,200 right at 10:00, stop ~29,252, target London low ~29,025"
+}
