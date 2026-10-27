@@ -18,3 +18,5 @@ Live site: https://nqxaver.github.io/kaixh-trades/
 | `data/reviews/YYYY-MM-DD.json` | Claude's review, questions, answers, reflection |
 | `data/rules/YYYY-MM-DD.json` | Trading rules followed/broken that day |
 | `data/habits/YYYY-MM-DD.json` | Daily tasks checked that day |
+| `data/spend/purchases.json` | Lucid account purchases Claude refreshes |
+| `data/spend/history.json` | All-firm purchases, refunds, and tool fees. The Spending tab merges this with `purchases.json` by order number and keeps the copy from the file with the later `updatedAt`. A null amount was not in the email and is not counted as $0. |

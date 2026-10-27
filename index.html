@@ -265,13 +265,31 @@ textarea::placeholder { color: #8aa3c4; }
 .sp-stat span { color: var(--muted); font-size: 12px; }
 .sp-stat.bad b { color: #e07a70; } .sp-stat.good b { color: #5cc98a; }
 .sp-bars { display: grid; gap: 6px; }
-.sp-bar { display: grid; grid-template-columns: 70px 1fr 80px; gap: 10px; align-items: center; font-size: 13px; }
+.sp-bar { display: grid; grid-template-columns: 82px 1fr minmax(76px, auto); gap: 10px; align-items: center; font-size: 13px; }
+.sp-bar.firm { grid-template-columns: minmax(108px, auto) 1fr minmax(88px, auto); }
+.sp-bar span { line-height: 1.2; }
 .sp-bar i { display: block; height: 14px; border-radius: 4px; background: #8a3b35; min-width: 2px; }
+.sp-bar i.off { min-width: 0; background: transparent; }
 .sp-bar em { font-style: normal; text-align: right; font-family: var(--mono); }
+.sp-bar em small { display: block; font-family: var(--body); font-size: 10px; font-weight: 600; color: var(--warn); }
+.sp-filters { display: flex; flex-wrap: wrap; gap: 6px; }
+.sp-filters button { font: 600 13px var(--body); color: var(--ink); background: var(--inner); border: 1px solid var(--line); border-radius: 999px; padding: 6px 12px; cursor: pointer; }
+.sp-filters button[aria-pressed="true"] { background: #ffffff; color: #172a45; border-color: #ffffff; }
 .sp-list { display: grid; gap: 6px; }
 .sp-row { display: grid; grid-template-columns: 96px 1fr auto; gap: 10px; align-items: center; padding: 8px 10px; border: 1px solid var(--line); border-radius: 10px; background: var(--inner); font-size: 13px; }
-.sp-row .amt { font-family: var(--mono); }
+.sp-row .amt { font-family: var(--mono); text-align: right; }
+.sp-row .amt.unk { font-family: var(--body); font-size: 12px; font-weight: 600; color: var(--warn); max-width: 9em; line-height: 1.3; }
+.sp-row .amt.back { color: #5cc98a; }
 .sp-row small { display: block; color: var(--muted); font-size: 11px; }
+@media (max-width: 560px) {
+  .sp-bar { grid-template-columns: 72px 1fr minmax(68px, auto); gap: 6px; font-size: 12px; }
+  .sp-bar.firm { grid-template-columns: minmax(96px, 38%) 1fr minmax(76px, auto); gap: 6px; font-size: 12px; }
+  .sp-row { grid-template-columns: 1fr auto; }
+  .sp-row .sp-date { grid-column: 1; grid-row: 1; }
+  .sp-row .amt { grid-column: 2; grid-row: 1; align-self: start; }
+  .sp-row .sp-name { grid-column: 1 / -1; grid-row: 2; }
+  .sp-stat b { font-size: 18px; }
+}
 </style>
 </head>
 <body>
@@ -454,11 +472,32 @@ textarea::placeholder { color: #8aa3c4; }
       <p class="sub" id="sp-streak"></p>
     </div>
     <div class="sp-stats" id="sp-stats"></div>
-    <div class="sp-bars" id="sp-bars" hidden></div>
     <div class="card">
-      <h2 id="sp-title">Lucid purchases this month</h2>
+      <h2>Spend by month</h2>
+      <p class="sub" id="sp-chart-note">Every month with an account purchase.</p>
+      <div class="sp-bars" id="sp-bars"></div>
+    </div>
+    <div class="card">
+      <h2>By firm</h2>
+      <p class="sub" id="sp-firm-note">Account purchases only.</p>
+      <div class="sp-bars" id="sp-firms"></div>
+    </div>
+    <div class="card">
+      <h2 id="sp-title">Account purchases</h2>
       <p class="sub" id="sp-note">Read from your purchase emails.</p>
+      <div class="sp-filters" id="sp-filters" role="group" aria-label="Filter by firm"></div>
       <div class="sp-list" id="sp-list"><p class="empty">Loading…</p></div>
+      <button type="button" id="sp-more" class="qa-btn" hidden>Show older purchases</button>
+    </div>
+    <div class="card" id="sp-refunds-card" hidden>
+      <h2>Refunds</h2>
+      <p class="sub" id="sp-refunds-note">Shown on their own. Not subtracted from the totals above.</p>
+      <div class="sp-list" id="sp-refunds"></div>
+    </div>
+    <div class="card" id="sp-tools-card" hidden>
+      <h2>Data and tools</h2>
+      <p class="sub" id="sp-tools-note">TradingView and other fees. Not counted as account purchases.</p>
+      <div class="sp-list" id="sp-tools"></div>
     </div>
   </section>
 
@@ -1141,34 +1180,231 @@ textarea::placeholder { color: #8aa3c4; }
     return out;
   };
   const money = (n) => { const v = Math.round(Number(n) * 100) / 100; return '$' + v.toLocaleString('en-US', { minimumFractionDigits: v % 1 ? 2 : 0, maximumFractionDigits: 2 }); };
-  const renderSpend = (sp) => {
-    if (!sp || !$('sp-list')) return;
-    const today0 = etDate(); const all = (sp.items || []).filter((x) => /lucid/i.test(x.firm || '')).sort((a, b) => String(b.date).localeCompare(String(a.date))); const items = all.filter((x) => String(x.date).startsWith(today0.slice(0, 7)));
-    const paid = (x) => (typeof x.paid === 'number' ? x.paid : 0);
-    const today = etDate(); const ym = today.slice(0, 7);
-    const total = items.reduce((t, x) => t + paid(x), 0);
-    const month = items.filter((x) => String(x.date).startsWith(ym)).reduce((t, x) => t + paid(x), 0);
-    const monthN = items.filter((x) => String(x.date).startsWith(ym)).length;
-    const last = all[0] ? all[0].date : null;
-    const days = last ? Math.round((Date.parse(today + 'T12:00:00Z') - Date.parse(last + 'T12:00:00Z')) / 86400000) : null;
-    const st = $('sp-stats'); st.replaceChildren();
-    const stat = (v, l, cls) => { const d = el('div', 'sp-stat' + (cls ? ' ' + cls : '')); d.append(el('b', null, v), el('span', null, l)); st.append(d); };
-    stat(money(month), 'Spent on Lucid in ' + pretty(today0.slice(0, 7) + '-15', { month: 'long' }), month > 0 ? 'bad' : 'good');
-    stat(String(items.length), items.length === 1 ? 'Account bought this month' : 'Accounts bought this month', items.length ? 'bad' : 'good');
-    stat(days === null ? '—' : days + (days === 1 ? ' day' : ' days'), 'Since your last purchase', days !== null && days >= 7 ? 'good' : 'bad');
-    $('sp-streak').textContent = last ? 'Last purchase: ' + pretty(last) + (all[0].product ? ' · ' + all[0].firm + ' ' + all[0].product : '') + '. Every day without buying an account is a win.' : 'No purchases found.';
-    const by = {}; items.forEach((x) => { const k = String(x.date).slice(0, 7); by[k] = (by[k] || 0) + paid(x); });
-    const ks = Object.keys(by).sort().reverse().slice(0, 12); const mx = Math.max(1, ...ks.map((k) => by[k]));
-    const bars = $('sp-bars'); bars.replaceChildren();
-    ks.forEach((k) => { const r = el('div', 'sp-bar'); const i = el('i'); i.style.width = Math.round((by[k] / mx) * 100) + '%'; const w = el('div'); w.append(i); r.append(el('span', null, pretty(k + '-15', { month: 'short', year: 'numeric' })), w, el('em', null, money(by[k]))); bars.append(r); });
-    $('sp-note').textContent = 'Read from your Lucid order emails. Prices before tax. Resets on the 1st of every month.';
-    const l = $('sp-list'); l.replaceChildren();
-    items.forEach((x) => { const r = el('div', 'sp-row'); const n = el('div'); n.append(document.createTextNode(x.firm + ' · ' + (x.product || ''))); if (x.discount) n.append(el('small', null, 'List ' + money(x.price) + ', discount ' + money(x.discount))); r.append(el('span', null, pretty(x.date, { month: 'short', day: 'numeric', year: 'numeric' })), n, el('span', 'amt', typeof x.paid === 'number' ? money(x.paid) : 'price not in email')); l.append(r); });
-    if (!items.length) l.append(el('p', 'empty', 'No Lucid purchases this month. Keep it that way.')); if ($('sp-title')) $('sp-title').textContent = 'Lucid purchases in ' + pretty(today0.slice(0, 7) + '-15', { month: 'long', year: 'numeric' });
+  let spendFirm = 'All';
+  let spendOpen = false;
+  let spendModel = null;
+  const SPEND_RECENT = 12;
+  const spendCents = (rows) => rows.reduce((t, x) => t + (typeof x.amount === 'number' ? Math.round(x.amount * 100) : 0), 0);
+  const spendNorm = (raw) => {
+    const amount = raw && raw.amount !== undefined ? raw.amount : raw && raw.paid;
+    return {
+      date: String((raw && raw.date) || ''),
+      firm: (raw && (raw.firm || raw.vendor)) || '',
+      product: (raw && (raw.product || raw.item)) || '',
+      order: raw && raw.order ? String(raw.order) : '',
+      amount: typeof amount === 'number' && !isNaN(amount) ? amount : null,
+      price: raw && typeof raw.price === 'number' ? raw.price : (raw && typeof raw.list_price === 'number' ? raw.list_price : null),
+      discount: raw && typeof raw.discount === 'number' ? raw.discount : null,
+      type: (raw && raw.type) || ''
+    };
   };
+  const spendName = (primary, fallback) => {
+    if (!primary) return fallback || '';
+    if (!fallback) return primary;
+    if (fallback.length > primary.length && fallback.toLowerCase().indexOf(primary.toLowerCase()) !== -1) return fallback;
+    return primary;
+  };
+  // Same order number: the file with the later updatedAt wins. Null never replaces a known price.
+  const spendOverlay = (base, incoming, incomingWins) => {
+    const primary = incomingWins ? incoming : base;
+    const other = incomingWins ? base : incoming;
+    return {
+      date: primary.date || other.date,
+      firm: primary.firm || other.firm,
+      product: spendName(primary.product, other.product),
+      order: primary.order || other.order,
+      amount: primary.amount != null ? primary.amount : other.amount,
+      price: primary.price != null ? primary.price : other.price,
+      discount: primary.amount != null ? primary.discount : (other.discount != null ? other.discount : primary.discount),
+      type: primary.type || other.type
+    };
+  };
+  const mergeSpend = (purchases, history) => {
+    const hAt = (history && history.updatedAt) || '';
+    const pAt = (purchases && purchases.updatedAt) || '';
+    const byOrder = new Map();
+    const loose = [];
+    const consider = (raw, at, fromPurchases) => {
+      const item = spendNorm(raw);
+      if (!item.date || !item.firm) return;
+      if (!item.order) {
+        if (fromPurchases && history && Array.isArray(history.purchases)) return;
+        loose.push(item);
+        return;
+      }
+      const prev = byOrder.get(item.order);
+      if (!prev) { byOrder.set(item.order, { item, at }); return; }
+      const wins = String(at) >= String(prev.at);
+      byOrder.set(item.order, { item: spendOverlay(prev.item, item, wins), at: wins ? at : prev.at });
+    };
+    ((purchases && purchases.items) || []).forEach((raw) => consider(raw, pAt, true));
+    ((history && (history.purchases || history.items)) || []).forEach((raw) => consider(raw, hAt, false));
+    const rows = [...byOrder.values()].map((x) => x.item).concat(loose);
+    rows.sort((a, b) => String(b.date).localeCompare(String(a.date)));
+    const refunds = ((history && history.refunds) || []).map(spendNorm).filter((r) => r.date && r.firm && typeof r.amount === 'number');
+    refunds.sort((a, b) => String(b.date).localeCompare(String(a.date)));
+    const tools = ((history && (history.tools || history.tools_and_data)) || []).map((t) => {
+      const n = spendNorm(t);
+      n.vendor = t.vendor || t.firm || n.firm;
+      n.refunded = typeof t.refunded === 'number' ? t.refunded : null;
+      return n;
+    }).filter((t) => t.date && (t.vendor || t.firm));
+    tools.sort((a, b) => String(b.date).localeCompare(String(a.date)));
+    return { rows, refunds, tools };
+  };
+  const spendDisc = (x) => {
+    if (typeof x.amount !== 'number' || typeof x.price !== 'number' || x.price <= x.amount) return 0;
+    if (typeof x.discount === 'number' && x.discount > 0) return x.discount;
+    return Math.round((x.price - x.amount) * 100) / 100;
+  };
+  const paintSpend = () => {
+    const model = spendModel;
+    if (!model || !$('sp-list') || !$('sp-stats')) return;
+    const rows = model.rows;
+    const today = etDate();
+    const ym = today.slice(0, 7);
+    const monthRows = rows.filter((x) => String(x.date).startsWith(ym));
+    const monthKnown = monthRows.some((x) => typeof x.amount === 'number');
+    const monthMissing = monthRows.filter((x) => x.amount == null).length;
+    const missing = rows.filter((x) => x.amount == null).length;
+    const last = rows[0] || null;
+    const days = last ? Math.round((Date.parse(today + 'T12:00:00Z') - Date.parse(last.date + 'T12:00:00Z')) / 86400000) : null;
+    const st = $('sp-stats');
+    st.replaceChildren();
+    const stat = (v, l, cls) => { const d = el('div', 'sp-stat' + (cls ? ' ' + cls : '')); d.append(el('b', null, v), el('span', null, l)); st.append(d); };
+    const monthValue = monthKnown ? money(spendCents(monthRows) / 100) : (monthRows.length ? 'no price' : money(0));
+    const monthLabel = 'Spent in ' + pretty(ym + '-15', { month: 'long' }) + (monthMissing ? ' · ' + monthMissing + (monthMissing === 1 ? ' price' : ' prices') + ' not in email' : '');
+    stat(monthValue, monthLabel, monthRows.length ? 'bad' : 'good');
+    stat(money(spendCents(rows) / 100), 'All-time account spend' + (missing ? ' · ' + missing + (missing === 1 ? ' price' : ' prices') + ' not in email' : ''), '');
+    stat(String(monthRows.length), monthRows.length === 1 ? 'Account bought this month' : 'Accounts bought this month', monthRows.length ? 'bad' : 'good');
+    stat(days === null ? '—' : days + (days === 1 ? ' day' : ' days'), 'Since your last purchase', days === null || days >= 7 ? 'good' : 'bad');
+    if ($('sp-streak')) $('sp-streak').textContent = last ? 'Last purchase: ' + pretty(last.date) + (last.product ? ' · ' + last.firm + ' ' + last.product : '') + '. Every day without buying an account is a win.' : 'No purchases found.';
+    const months = [...new Set(rows.map((x) => String(x.date).slice(0, 7)).filter((m) => m.length === 7))].sort().reverse();
+    const monthInfo = months.map((m) => {
+      const list = rows.filter((x) => String(x.date).startsWith(m));
+      const known = list.some((x) => typeof x.amount === 'number');
+      return { m, list, known, cents: known ? spendCents(list) : null, miss: list.filter((x) => x.amount == null).length };
+    });
+    const maxMonth = Math.max(1, ...monthInfo.filter((x) => x.cents != null).map((x) => x.cents));
+    const bars = $('sp-bars');
+    if (bars) {
+      bars.replaceChildren();
+      monthInfo.forEach((info) => {
+        const extra = !info.known ? info.list.length + (info.list.length === 1 ? ' account' : ' accounts') : (info.miss ? info.miss + ' no price' : '');
+        spendBar(bars, pretty(info.m + '-15', { month: 'short', year: 'numeric' }), info.cents, maxMonth, extra, false);
+      });
+      if (!monthInfo.length) bars.append(el('p', 'empty', 'No account purchases yet.'));
+    }
+    if ($('sp-chart-note')) $('sp-chart-note').textContent = missing ? 'Whole history. ' + missing + (missing === 1 ? ' purchase has' : ' purchases have') + ' no price in the email, so ' + (missing === 1 ? 'it is' : 'they are') + ' not counted as $0.' : 'Whole history of account purchases.';
+    const firmNames = [...new Set(rows.map((r) => r.firm).filter(Boolean))];
+    firmNames.sort((a, b) => spendCents(rows.filter((r) => r.firm === b)) - spendCents(rows.filter((r) => r.firm === a)) || a.localeCompare(b));
+    if (spendFirm !== 'All' && firmNames.indexOf(spendFirm) === -1) spendFirm = 'All';
+    const firms = $('sp-firms');
+    if (firms) {
+      firms.replaceChildren();
+      const maxFirm = Math.max(1, ...firmNames.map((name) => spendCents(rows.filter((r) => r.firm === name))));
+      firmNames.forEach((name) => {
+        const list = rows.filter((r) => r.firm === name);
+        const known = list.some((r) => typeof r.amount === 'number');
+        const miss = list.filter((r) => r.amount == null).length;
+        const extra = list.length + (list.length === 1 ? ' account' : ' accounts') + (known && miss ? ' · ' + miss + ' no price' : '');
+        spendBar(firms, name, known ? spendCents(list) : null, maxFirm, extra, true);
+      });
+    }
+    if ($('sp-firm-note')) $('sp-firm-note').textContent = 'Account purchases only. Refunds and tool fees are separate.';
+    const filters = $('sp-filters');
+    if (filters) {
+      filters.replaceChildren();
+      [['All', rows.length]].concat(firmNames.map((name) => [name, rows.filter((r) => r.firm === name).length])).forEach(([name, n]) => {
+        const b = el('button', null, (name === 'All' ? 'All firms' : name) + ' · ' + n);
+        b.type = 'button';
+        b.setAttribute('data-firm', name);
+        b.setAttribute('aria-pressed', String(spendFirm === name));
+        filters.append(b);
+      });
+    }
+    const filtered = spendFirm === 'All' ? rows : rows.filter((r) => r.firm === spendFirm);
+    const shown = spendOpen ? filtered : filtered.slice(0, SPEND_RECENT);
+    if ($('sp-title')) $('sp-title').textContent = spendFirm === 'All' ? 'Account purchases' : spendFirm;
+    if ($('sp-note')) $('sp-note').textContent = 'Newest first. ' + filtered.length + (spendFirm === 'All' ? ' account purchases.' : ' ' + spendFirm + ' purchases.') + (filtered.length > shown.length ? ' Showing ' + shown.length + ' of ' + filtered.length + '.' : '');
+    const l = $('sp-list');
+    l.replaceChildren();
+    shown.forEach((x) => l.append(spendRow(x)));
+    if (!shown.length) l.append(el('p', 'empty', 'No account purchases yet.'));
+    const more = $('sp-more');
+    if (more) {
+      more.hidden = filtered.length <= SPEND_RECENT;
+      more.textContent = spendOpen ? 'Show recent only' : 'Show older purchases (' + Math.max(0, filtered.length - SPEND_RECENT) + ')';
+      more.setAttribute('aria-expanded', String(spendOpen));
+    }
+    const refunds = model.refunds;
+    const rc = $('sp-refunds-card');
+    if (rc) {
+      rc.hidden = refunds.length === 0;
+      if ($('sp-refunds-note')) $('sp-refunds-note').textContent = 'Total ' + money(spendCents(refunds) / 100) + '. Shown on their own and not subtracted from the totals above.';
+      const rl = $('sp-refunds');
+      if (rl) { rl.replaceChildren(); refunds.forEach((x) => rl.append(spendRow(x, { back: true }))); }
+    }
+    const tools = model.tools;
+    const tc = $('sp-tools-card');
+    if (tc) {
+      tc.hidden = tools.length === 0;
+      const gross = spendCents(tools);
+      const back = tools.reduce((t, x) => t + (typeof x.refunded === 'number' ? Math.round(x.refunded * 100) : 0), 0);
+      if ($('sp-tools-note')) $('sp-tools-note').textContent = (back ? 'Net ' + money((gross - back) / 100) + ' after ' + money(back / 100) + ' refunded. Charges were ' + money(gross / 100) + '. ' : 'Total ' + money(gross / 100) + '. ') + 'Not included in account totals.';
+      const tl = $('sp-tools');
+      if (tl) { tl.replaceChildren(); tools.forEach((x) => tl.append(spendRow(x, { tool: true }))); }
+    }
+  };
+  const spendBar = (parent, label, cents, max, extra, firm) => {
+    const r = el('div', 'sp-bar' + (firm ? ' firm' : ''));
+    const i = el('i', cents == null ? 'off' : '');
+    if (cents == null) { i.style.width = '0'; i.style.minWidth = '0'; }
+    else i.style.width = Math.max(0, Math.round((cents / max) * 100)) + '%';
+    const w = el('div');
+    w.append(i);
+    const em = el('em', null, cents == null ? 'no price' : money(cents / 100));
+    if (extra) em.append(el('small', null, extra));
+    r.append(el('span', null, label), w, em);
+    parent.append(r);
+  };
+  const spendRow = (x, opt) => {
+    const r = el('div', 'sp-row');
+    const n = el('div', 'sp-name');
+    const who = (opt && opt.tool ? (x.vendor || x.firm) : x.firm) + (x.product ? ' · ' + x.product : '');
+    n.append(document.createTextNode(who));
+    if (x.order) n.append(el('small', null, 'Order ' + x.order));
+    const d = spendDisc(x);
+    if (d) n.append(el('small', null, 'List ' + money(x.price) + ', discount ' + money(d)));
+    if (x.type && x.type !== 'evaluation') n.append(el('small', null, x.type.charAt(0).toUpperCase() + x.type.slice(1)));
+    if (opt && opt.tool && typeof x.refunded === 'number') n.append(el('small', null, 'Refunded ' + money(x.refunded)));
+    const amt = el('span', 'amt' + (x.amount == null ? ' unk' : '') + (opt && opt.back ? ' back' : ''), x.amount == null ? 'price not in email' : money(x.amount));
+    r.append(el('span', 'sp-date', pretty(x.date, { month: 'short', day: 'numeric', year: 'numeric' })), n, amt);
+    return r;
+  };
+  const renderSpend = (purchases, history) => {
+    if (!$('sp-list')) return;
+    spendModel = mergeSpend(purchases || null, history || null);
+    paintSpend();
+  };
+  const readSpend = async (path) => {
+    try { const remote = await readFile(path); if (remote) return remote; } catch (e) {}
+    try { const rel = await fetch(path + '?t=' + Date.now(), { cache: 'no-store' }); if (rel.ok) return await rel.json(); } catch (e) {}
+    return null;
+  };
+  if ($('spending')) $('spending').addEventListener('click', (ev) => {
+    const node = ev.target && ev.target.nodeType === 1 ? ev.target : ev.target && ev.target.parentElement;
+    const btn = node && node.closest ? node.closest('button') : null;
+    if (!btn || !spendModel) return;
+    if (btn.id === 'sp-more') { spendOpen = !spendOpen; paintSpend(); return; }
+    if (btn.hasAttribute('data-firm')) { spendFirm = btn.getAttribute('data-firm'); spendOpen = false; paintSpend(); }
+  });
   const loadAll = async () => {
     try { const dsk = await readFile('data/desk/today.json'); const gk = await readFile('data/desk/grok.json').catch(() => null); if (dsk && gk && (!dsk.grok || !dsk.grok.at || String(gk.at || '') >= String(dsk.grok.at))) dsk.grok = gk; renderDesk(dsk || (gk ? { grok: gk } : null)); } catch (e) { $('stamp').textContent = 'Couldn’t load the news. Reload the page.'; }
-    try { renderSpend(await readFile('data/spend/purchases.json')); } catch (e) {}
+    try {
+      const [purchases, history] = await Promise.all([readSpend('data/spend/purchases.json'), readSpend('data/spend/history.json')]);
+      if (purchases || history) renderSpend(purchases, history);
+    } catch (e) {}
     treeP = null;
     const [rl, hb, rv, dd, jr] = await Promise.all(['rules', 'habits', 'reviews', 'deskdays', 'journal'].map((d) => loadDir(d).catch(() => ({}))));
     // anything saved on this device but not yet on GitHub wins
