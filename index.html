@@ -63,16 +63,6 @@ tr:last-child td { border-bottom: 0; }
 dl.kv { display: grid; grid-template-columns: max-content 1fr; gap: 6px 14px; margin: 0; }
 dl.kv dt { font-size: 12px; color: var(--muted); padding-top: 2px; }
 dl.kv dd { margin: 0; white-space: pre-line; overflow-wrap: anywhere; min-width: 0; }
-.strip { display: flex; gap: 5px; flex-wrap: wrap; }
-.sq { width: 30px; height: 30px; border-radius: 7px; display: grid; place-items: center; font: 600 12px var(--mono); }
-.sq.Win { background: var(--good-bg); color: var(--good); }
-.sq.Loss { background: var(--bad-bg); color: var(--bad); }
-.sq.BE { background: var(--warn-bg); color: var(--warn); }
-.sq.None { background: var(--none-bg); color: var(--muted); }
-.tally { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
-.tally div { display: grid; }
-.tally b { font: 600 24px var(--mono); }
-.tally span { font-size: 12px; color: var(--muted); }
 ol.fb { margin: 0; padding-left: 1.2em; display: grid; gap: 10px; }
 ol.fb li { overflow-wrap: anywhere; }
 .empty { color: var(--muted); font-size: 14px; margin: 0; }
@@ -140,7 +130,7 @@ ul.fb { margin: 0; padding-left: 1.2em; display: grid; gap: 8px; }
 .rlist li { display: flex; gap: 8px; align-items: baseline; }
 .rlist .ok { color: var(--good); font-weight: 700; } .rlist .broke { color: var(--bad); font-weight: 700; } .rlist .na { color: var(--muted); }
 .saved { font-size: 12px; color: var(--muted); min-height: 1em; }
-@media (max-width: 420px) { .tally, .stats { gap: 4px; } h1 { font-size: 24px; } }
+@media (max-width: 420px) { .stats { gap: 4px; } h1 { font-size: 24px; } }
 @media (prefers-reduced-motion: no-preference) { .check { transition: background .15s, border-color .15s; } }
 
 /* Kaixh look: gray page, dim blue cards, green = checked. Same in every theme. */
@@ -159,10 +149,10 @@ ul.fb { margin: 0; padding-left: 1.2em; display: grid; gap: 8px; }
 .rule[data-s="broke"] { background: var(--bad); border-color: #ffb3aa; }
 .rule[data-s="broke"] .box { background: #ffffff; border-color: #ffffff; color: var(--bad); }
 .pill.High { background: #ffe1dd; color: #b42318; } .pill.Medium { background: #fff2cf; color: #8a5a00; } .pill.Low { background: #e6efff; color: #24456e; }
-.sq.Win, .cal .chip.Win { background: #e3f6e9; color: #146c34; }
-.sq.Loss, .cal .chip.Loss { background: #ffe1dd; color: #b42318; }
-.sq.BE, .cal .chip.BE { background: #fff2cf; color: #8a5a00; }
-.sq.None, .cal .chip.None { background: #e6efff; color: #24456e; }
+.cal .chip.Win { background: #e3f6e9; color: #146c34; }
+.cal .chip.Loss { background: #ffe1dd; color: #b42318; }
+.cal .chip.BE { background: #fff2cf; color: #8a5a00; }
+.cal .chip.None { background: #e6efff; color: #24456e; }
 .cal .dot.ok { background: #3ee07a; } .cal .dot.broke { background: #ff6b5e; }
 .cal .day.today { border-color: #ffffff; border-width: 2px; }
 .cal .day.sel { background: var(--accent-soft); }
@@ -184,10 +174,10 @@ textarea::placeholder { color: #8aa3c4; }
 .pill.High { background: #ff1a1a; color: #ffffff; }
 .pill.Medium { background: #ffd500; color: #1a1a1a; }
 .pill.Low { background: #ffffff; color: #1a1a1a; }
-.sq.Win, .cal .chip.Win { background: #00c853; color: #ffffff; }
-.sq.Loss, .cal .chip.Loss { background: #ff1a1a; color: #ffffff; }
-.sq.BE, .cal .chip.BE { background: #ffd500; color: #1a1a1a; }
-.sq.None, .cal .chip.None { background: #ffffff; color: #1a1a1a; }
+.cal .chip.Win { background: #00c853; color: #ffffff; }
+.cal .chip.Loss { background: #ff1a1a; color: #ffffff; }
+.cal .chip.BE { background: #ffd500; color: #1a1a1a; }
+.cal .chip.None { background: #ffffff; color: #1a1a1a; }
 .move .pct { display: inline-block; justify-self: start; padding: 2px 12px; border-radius: 10px; }
 .move .pct.up { background: #00c853; color: #ffffff; }
 .move .pct.down { background: #ff1a1a; color: #ffffff; }
@@ -201,10 +191,10 @@ textarea::placeholder { color: #8aa3c4; }
 .pill.High { background: #a3302a; color: #f3f3f3; }
 .pill.Medium { background: #b8961e; color: #1b1b1b; }
 .pill.Low { background: #c4ccd6; color: #1b1b1b; }
-.sq.Win, .cal .chip.Win { background: #1e7a45; color: #f3f3f3; }
-.sq.Loss, .cal .chip.Loss { background: #a3302a; color: #f3f3f3; }
-.sq.BE, .cal .chip.BE { background: #b8961e; color: #1b1b1b; }
-.sq.None, .cal .chip.None { background: #c4ccd6; color: #1b1b1b; }
+.cal .chip.Win { background: #1e7a45; color: #f3f3f3; }
+.cal .chip.Loss { background: #a3302a; color: #f3f3f3; }
+.cal .chip.BE { background: #b8961e; color: #1b1b1b; }
+.cal .chip.None { background: #c4ccd6; color: #1b1b1b; }
 .move .pct.up { background: #1e7a45; color: #f3f3f3; }
 .move .pct.down { background: #a3302a; color: #f3f3f3; }
 .check[aria-pressed="true"], .rule[data-s="ok"] { background: #1e7a45; border-color: #3a9a63; }
@@ -256,8 +246,8 @@ textarea::placeholder { color: #8aa3c4; }
 .earn-why { font-size: 13px; color: #dbe5f3; }
 .senti { font: 800 11px var(--mono); padding: 2px 8px; border-radius: 999px; letter-spacing: .06em; }
 .senti.bull { background: #1e7a45; color: #f3f3f3; } .senti.bear { background: #a3302a; color: #f3f3f3; } .senti.neutral { background: #c4ccd6; color: #1b1b1b; }
-.sq.None, .cal .chip.None { background: #5b3f8c; color: #f3f3f3; }
-.sq { width: auto; min-width: 30px; padding: 0 4px; }
+.cal .chip.None { background: #5b3f8c; color: #f3f3f3; }
+.ab-note { margin: 0; white-space: pre-line; overflow-wrap: anywhere; font-size: 15px; line-height: 1.55; }
 @media (max-width: 420px) { .wday { grid-template-columns: 1fr; gap: 4px; } .q-text { font-size: 18px; } }
 .sp-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 160px), 1fr)); gap: 12px; }
 .sp-stat { background: var(--panel); border: 1px solid var(--line); border-radius: var(--r); padding: 14px; display: grid; gap: 4px; }
@@ -383,9 +373,9 @@ textarea::placeholder { color: #8aa3c4; }
         <p class="sub" id="fut-asof"></p>
       </div>
       <div class="card">
-        <h2>Your plan today</h2>
-        <p class="sub" id="plan-date">From your Live Journal 2026</p>
-        <div id="plan"><p class="empty">Loading your journal…</p></div>
+        <h2>AB's latest feedback</h2>
+        <p class="sub" id="ab-date">From your Live Journal</p>
+        <div id="fb"><p class="empty">Loading…</p></div>
       </div>
     </div>
 
@@ -406,20 +396,6 @@ textarea::placeholder { color: #8aa3c4; }
       <p class="news-delta" id="news-delta" hidden></p>
       <div class="news-filters" id="news-filters" role="toolbar" aria-label="Filter news by section"></div>
       <div class="news-board" id="news-board"><p class="empty">Loading…</p></div>
-    </div>
-
-    <div class="grid">
-      <div class="card">
-        <h2>Last 10 sessions</h2>
-        <p class="sub">Oldest on the left. W win · L loss · B break-even · NT no trade.</p>
-        <div class="strip" id="strip"></div>
-        <div class="tally" id="tally"></div>
-      </div>
-      <div class="card">
-        <h2>AB's latest feedback</h2>
-        <p class="sub">Read these before you take a trade.</p>
-        <div id="fb"><p class="empty">Loading…</p></div>
-      </div>
     </div>
 
     <div class="grid">
@@ -977,34 +953,17 @@ textarea::placeholder { color: #8aa3c4; }
     const rows = ((p && p.results) || []).map((r) => ({ date: r['date:Date 1:start'] || '', result: list(r['Results']), side: list(r['Long or Short']), rr: strip(r['RR']), premarket: strip(r['PRE MARKET']), dol: strip(r['DOL']), entry: strip(r['Entry type']), talk: strip(r['TALK']), feel: strip(r['Pre- Emotions']), during: strip(r['Emotions during ']), after: strip(r['Emotions after']), reflect: strip(r['Reflect']), improve: strip(r['What i can improve on']), ab: strip(r["AB's Feedback"]), url: r.url ? 'https://www.notion.so/' + ((String(r.url).match(/[0-9a-f]{32}/) || [''])[0]) : '' }));
     journalRows = {}; rows.forEach((r) => { if (r.date && !journalRows[r.date]) journalRows[r.date] = r; });
     try { renderCalendar(); } catch (e) {}
-    const today = etDate();
-    const t = rows.find((r) => r.date === today);
-    const plan = $('plan'); plan.replaceChildren();
-    if (t) {
-      $('plan-date').textContent = pretty(t.date) + ' · Live Journal 2026';
-      const dl = el('dl', 'kv');
-      [['Pre-market', t.premarket], ['DOL', t.dol], ['Entry', t.entry], ['Result', t.result], ['Feeling', t.feel]].forEach(([k, v]) => { dl.append(el('dt', null, k), el('dd', null, v || '—')); });
-      plan.append(dl);
-    } else if ([0, 6].includes(new Date(today + 'T12:00:00Z').getUTCDay())) {
-      const ph = $('plan-date').previousElementSibling; if (ph) ph.textContent = 'Weekend plan';
-      $('plan-date').textContent = pretty(today) + ' · No trading today';
-      plan.append(el('p', 'take', 'Complete your simple tasks, then rest.'));
-      const ul = el('ul', 'rlist'); ['10k steps', 'Personal journal', 'Bible, 30 min', 'Review your trading journal', 'Backtest (optional)'].forEach((x) => ul.append(el('li', null, x))); plan.append(ul);
-      plan.append(el('p', 'sub', 'Tick them in the Accountability tab. One Reset day is allowed: full rest, no charts.'));
+    const fb = $('fb'); if (!fb) return;
+    fb.replaceChildren();
+    const latest = rows.reduce((best, r) => (r.ab && (!best || String(r.date) > String(best.date)) ? r : best), null);
+    const abDate = $('ab-date');
+    if (latest) {
+      if (abDate) abDate.textContent = pretty(latest.date, { weekday: 'long', month: 'short', day: 'numeric', year: 'numeric' });
+      fb.append(el('p', 'ab-note', latest.ab));
     } else {
-      $('plan-date').textContent = pretty(today) + ' · Live Journal 2026';
-      plan.append(el('p', 'empty', 'No entry for today yet. Write your pre-market plan in Notion and it shows up here.'));
+      if (abDate) abDate.textContent = 'From your Live Journal';
+      fb.append(el('p', 'empty', 'No feedback from AB logged yet.'));
     }
-    const last = rows.filter((r) => kind(r.result)).slice(0, 10);
-    const s = $('strip'); s.replaceChildren();
-    last.slice().reverse().forEach((r) => { const k = kind(r.result); const d = el('div', 'sq ' + k, k === 'Win' ? 'W' : k === 'Loss' ? 'L' : k === 'BE' ? 'B' : 'NT'); d.title = pretty(r.date, { month: 'short', day: 'numeric' }) + ': ' + r.result; d.setAttribute('aria-label', d.title); s.append(d); });
-    const n = (k) => last.filter((r) => kind(r.result) === k).length;
-    const ta = $('tally'); ta.replaceChildren();
-    [['Win', 'Wins'], ['Loss', 'Losses'], ['BE', 'Break-even'], ['None', 'No trade']].forEach(([k, lab]) => { const d = el('div'); d.append(el('b', null, String(n(k))), el('span', null, lab)); ta.append(d); });
-    const fb = $('fb'); fb.replaceChildren();
-    const items = rows.filter((r) => r.ab).slice(0, 3);
-    if (items.length) { const ol = el('ol', 'fb'); items.forEach((r) => { const li = el('li', null, r.ab); li.append(el('span', 'meta', pretty(r.date, { weekday: 'short', month: 'short', day: 'numeric' }))); ol.append(li); }); fb.append(ol); }
-    else fb.append(el('p', 'empty', 'No feedback from AB logged yet.'));
   };
   const journalError = (code) => {
     const msg = code === 'needs_reauth' ? 'Notion needs to be reconnected. Reconnect it in claude.ai Settings → Connectors.'
@@ -1012,8 +971,8 @@ textarea::placeholder { color: #8aa3c4; }
       : code === 'not_in_manifest' || code === 'consent_required' ? 'Notion is turned off for this page. Allow it from the page’s Permissions menu.'
       : code === 'server_unavailable' ? 'Notion isn’t answering right now. It will retry on its own.'
       : 'Couldn’t load your journal from Notion.';
-    for (const id of ['plan', 'fb']) { $(id).replaceChildren(el('p', 'err', msg)); }
-    $('strip').replaceChildren(); $('tally').replaceChildren();
+    const fb = $('fb'); if (fb) fb.replaceChildren(el('p', 'err', msg));
+    const abDate = $('ab-date'); if (abDate) abDate.textContent = '';
   };
 
   // ---------- Accountability ----------
