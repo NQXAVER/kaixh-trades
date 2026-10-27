@@ -330,12 +330,12 @@ textarea::placeholder { color: #8aa3c4; }
 
   <nav class="tabs" role="tablist" aria-label="Sections">
     <button role="tab" id="tab-desk" aria-selected="true" aria-controls="desk">Desk</button>
-    <button role="tab" id="tab-earn" aria-selected="false" aria-controls="earnings">Earnings</button>
-    <button role="tab" id="tab-x" aria-selected="false" aria-controls="xpulse">X Pulse</button>
     <button role="tab" id="tab-acc" aria-selected="false" aria-controls="accountability">Accountability</button>
     <button role="tab" id="tab-jr" aria-selected="false" aria-controls="journal">Notion Journal</button>
     <button role="tab" id="tab-cal" aria-selected="false" aria-controls="calendar">Calendar</button>
     <button role="tab" id="tab-sp" aria-selected="false" aria-controls="spending">Spending</button>
+    <button role="tab" id="tab-earn" aria-selected="false" aria-controls="earnings">Earnings</button>
+    <button role="tab" id="tab-x" aria-selected="false" aria-controls="xpulse">X Pulse</button>
   </nav>
 
   <!-- DESK -->
@@ -570,7 +570,7 @@ textarea::placeholder { color: #8aa3c4; }
   const price = new Intl.NumberFormat('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 
   // Tabs
-  const tabs = { desk: $('tab-desk'), earnings: $('tab-earn'), xpulse: $('tab-x'), accountability: $('tab-acc'), journal: $('tab-jr'), calendar: $('tab-cal'), spending: $('tab-sp') };
+  const tabs = { desk: $('tab-desk'), accountability: $('tab-acc'), journal: $('tab-jr'), calendar: $('tab-cal'), spending: $('tab-sp'), earnings: $('tab-earn'), xpulse: $('tab-x') };
   const show = (name) => {
     for (const [k, b] of Object.entries(tabs)) {
       const on = k === name;
@@ -587,12 +587,12 @@ textarea::placeholder { color: #8aa3c4; }
     try { localStorage.setItem('nqdesk-tab', name); } catch (e) {}
   };
   tabs.desk.addEventListener('click', () => show('desk'));
-  tabs.earnings.addEventListener('click', () => show('earnings'));
-  tabs.xpulse.addEventListener('click', () => show('xpulse'));
   tabs.accountability.addEventListener('click', () => show('accountability'));
   tabs.journal.addEventListener('click', () => show('journal'));
   tabs.calendar.addEventListener('click', () => show('calendar'));
   tabs.spending.addEventListener('click', () => show('spending'));
+  tabs.earnings.addEventListener('click', () => show('earnings'));
+  tabs.xpulse.addEventListener('click', () => show('xpulse'));
   const h = location.hash.slice(1);
   let start = 'desk';
   if (h in tabs) start = h; else { try { start = localStorage.getItem('nqdesk-tab') || 'desk'; } catch (e) {} }
