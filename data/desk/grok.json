@@ -1,15 +1,15 @@
 {
-  "at": "2026-10-26T20:17:07Z",
-  "pulse": "Stocks closed higher with S&P +0.7% and Nasdaq +0.8% as oil retreated on Saudi-Iran de-escalation signals and Anthropic IPO filing lifted AI sentiment, setting a mixed tone into FOMC and earnings week.",
-  "bias": "mixed — cash session gains and oil ease tilt risk-on short-term, but yields near 5%, residual geopolitics, AI financing doubts, and FOMC tone uncertainty keep the overall bias cautious.",
+  "at": "2026-10-27T00:10:00Z",
+  "pulse": "US equities closed higher Monday with S&P +0.70% and Nasdaq +0.82% as Anthropic's IPO filing boosted AI/semiconductor sentiment and oil eased on Saudi-Iran de-escalation signals ahead of FOMC.",
+  "bias": "mixed — AI-led gains and oil retreat support risk-on near-term, but 10Y near 5%, residual geopolitics, high AI capex concerns, and FOMC tone uncertainty keep overall bias cautious.",
   "items": [
-    "Trade With Nori (~4:15 PM ET): Close — S&P 7,677 +0.70%, Nasdaq 26,169 +0.82%; oil retreated easing inflation pressure, Anthropic IPO boosted semis +2.85%, VIX down to 18.39.",
-    "Codrin Coman (~4:15 PM ET): Oil eased Brent -1.2% to $110.41, WTI -1.7% to $101.54; Saudi defense minister in Iran for de-escalation talks.",
-    "Reza Dilmaghani (~4:16 PM ET): #CL_F pausing as it awaits next developments involving Iran, US, Saudi Arabia, and Yemen; geopolitical headlines likely dictate the next move.",
-    "Raptor invest (~4:16 PM ET): Oil sliding ~2% after weekend Saudi-Iran diplomacy and Trump holding off strikes; Fed decision Wednesday with ~90% chance of hold.",
-    "Market Mono (~4:15 PM ET): Pretty good start to the week for a Monday; caught some mid-day chop expected with FOMC on Wednesday; momentum continuing."
+    "MikeCaymanTrades (~8:09 PM ET): Daily digest — S&P 7,676.77 +0.70%, Nasdaq 26,169.38 +0.82%; Anthropic S-1 IPO filing lifted NVDA/AMD/AVGO ~2-3% on GPU demand optimism.",
+    "Sameer Managoli (~7:49 PM ET): Midday Nasdaq +1.2% basically the Anthropic story (revenue +1,304% to $16.3B); oil cooling below $110 helps, AI bid back for today.",
+    "APEXTRADERBOT (~7:45 PM ET): Oct 26 close S&P +0.70%, Nasdaq +0.82%; Brent eased to $115.81, 10Y 5.00%; watch oil, AI earnings & Fed decision Oct 29.",
+    "xAiWorldNews (~8:09 PM ET): Anthropic files for Nasdaq IPO under ticker ANT; filing reports $16.3B revenue and $80.7B net loss for H1 2026.",
+    "Steven C. Welsh (~7:48 PM ET): Markets Monday 10.26.26 — NASDAQ, SP500, Dow bounce & climb; oil & 10Y yields fall yet still high."
   ],
   "trump": "none",
-  "watch": "Tuesday data (durable goods, consumer confidence), oil trajectory around $110 and 10Y near 5%, then Wednesday FOMC decision/Warsh presser and Mag7 earnings reaction.",
+  "watch": "Tuesday open into durable goods/consumer confidence, oil trajectory near $110-115 and 10Y at 5%, then Wednesday FOMC (Warsh) and Mag7 earnings (MSFT, GOOGL, AMZN) reactions.",
   "forSite": []
 }
