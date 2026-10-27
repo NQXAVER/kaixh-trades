@@ -6,7 +6,12 @@ data/desk/today.json. This script never edits today.json, grok.json,
 the economic calendar, or earnings.
 
 Impact and risk lean follow data/desk/news-rules.json. They are a
-keyword guess for NQ, not trading advice.
+keyword guess for NQ, not trading advice. The Desk keeps High and Medium
+headlines, plus an earnings report from a company that matters to NQ.
+Low-impact lines and stories with no market link are left out of the
+generated feed. Stored lean values stay risk-on / risk-off / mixed; the
+page shows those as Bullish / Bearish / Mixed, or Unclear when neither
+side matched.
 
   python3 scripts/refresh_desk_news.py --self-test
   python3 scripts/refresh_desk_news.py --dry-run
@@ -176,7 +181,7 @@ def pick_section(text: str, rules: dict) -> tuple[str | None, int]:
     return best_id, best_score
 
 
-def guess_impact(text: str, section: str, rules: dict) -> str:
+def guess_impact(text: str, section: str, rules: dict, from_keywords: bool = True) -> str:
     if any_hit(text, rules.get("highAny")):
         return "High"
     for rule in rules.get("highIf") or []:
@@ -188,7 +193,9 @@ def guess_impact(text: str, section: str, rules: dict) -> str:
     cap = rules.get("highCap") or {}
     if any_hit(text, cap.get("names")) and any_hit(text, cap.get("events")):
         return "High"
-    if section in (rules.get("mediumSections") or []):
+    # A feed default (Fed press, BLS, the earnings wire) is not itself a
+    # market move. Only a real keyword section promotes war, Fed, data, or oil.
+    if from_keywords and section in (rules.get("mediumSections") or []):
         return "Medium"
     if any_hit(text, rules.get("mediumAny")):
         return "Medium"
@@ -207,23 +214,53 @@ def guess_lean(text: str, rules: dict) -> str | None:
     return None
 
 
+def headline_text(title: str) -> str:
+    return html.unescape(title or "").lower().replace("\u2019", "'").replace("\u2018", "'")
+
+
+def is_nq_earnings(text: str, rules: dict) -> bool:
+    """An earnings-style report from a company that matters to NQ."""
+    names = rules.get("nqNames") or (rules.get("highCap") or {}).get("names") or []
+    events = rules.get("earningsEvents") or ["earnings", "guidance", "results", "eps", "revenue", "profit"]
+    return any_hit(text, names) and any_hit(text, events)
+
+
 def classify_text(title: str, rules: dict, default: str | None = None, keep: bool = False):
     """Return section/impact/lean, or None when the headline should be dropped."""
-    text = html.unescape(title or "").lower().replace("\u2019", "'").replace("\u2018", "'")
+    text = headline_text(title)
     if any_hit(text, rules.get("skip")) and not any_hit(text, rules.get("highAny")):
         return None
     section, score = pick_section(text, rules)
+    from_keywords = bool(section) and score > 0
     if section is None:
         if not keep:
             return None
         section = default or "markets"
+        from_keywords = False
     elif score <= 0:
         return None
     return {
         "section": section,
-        "impact": guess_impact(text, section, rules),
+        "impact": guess_impact(text, section, rules, from_keywords=from_keywords),
         "lean": guess_lean(text, rules),
     }
+
+
+def for_desk(title: str, rules: dict, default: str | None = None, keep: bool = False):
+    """Headline the Desk should show, or None.
+
+    High and Medium stay. A Low tag stays only when it is an NQ earnings
+    report, and that report is shown as Medium. Everything else is left out.
+    """
+    tagged = classify_text(title, rules, default=default, keep=keep)
+    if not tagged:
+        return None
+    if tagged["impact"] == "Low" and is_nq_earnings(headline_text(title), rules):
+        tagged = dict(tagged)
+        tagged["impact"] = "Medium"
+    if tagged["impact"] not in ("High", "Medium"):
+        return None
+    return tagged
 
 
 def self_test(rules: dict) -> int:
@@ -242,10 +279,30 @@ def self_test(rules: dict) -> int:
             failed += 1
         else:
             print(f"ok   {section:8} {impact:6} {str(lean):8} {title}")
+    extras = [
+        ("Apple shares drift ahead of next week", False, None),
+        ("Local theater announces a new season", False, None),
+        ("US weighs more strikes on Iran as Hormuz traffic stalls", True, "High"),
+        ("Microsoft earnings beat and the company raises guidance", True, "High"),
+        ("Nvidia posts quarterly results after the close", True, "High"),
+        ("45,000 Nvidia GPUs ship to a new data center", False, None),
+        ("Community bank picnic scheduled for June", False, "keep-fed"),
+    ]
+    for title, should_keep, note in extras:
+        if note == "keep-fed":
+            got = for_desk(title, rules, default="fed", keep=True)
+        else:
+            got = for_desk(title, rules)
+        kept = got is not None
+        if kept != should_keep or (should_keep and got and note and note != "keep-fed" and got["impact"] != note):
+            print(f"FAIL desk: {title}\n  want keep={should_keep} {note}\n  got  {got}")
+            failed += 1
+        else:
+            print(f"ok   desk {str(kept):5} {title}")
     if failed:
         print(f"{failed} case(s) failed")
         return 1
-    print(f"{len(CASES)} cases passed")
+    print(f"{len(CASES) + len(extras)} cases passed")
     return 0
 
 
@@ -410,7 +467,7 @@ def fresh(item: dict, now: datetime) -> bool:
 def tag_item(title: str, source: str, url: str, when: datetime | None, rules: dict, feed: dict | None) -> dict | None:
     default = (feed or {}).get("default")
     keep = bool((feed or {}).get("keep"))
-    tagged = classify_text(title, rules, default=default, keep=keep)
+    tagged = for_desk(title, rules, default=default, keep=keep)
     if not tagged:
         return None
     when_utc = when.astimezone(timezone.utc) if when else None
