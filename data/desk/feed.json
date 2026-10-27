@@ -1,0 +1,711 @@
+{
+  "updatedAt": "2026-10-27T17:27:54Z",
+  "generatedBy": "scripts/refresh_desk_news.py",
+  "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
+  "disclaimer": "Impact and the risk-on / risk-off lean are an automatic keyword guess, not trading advice.",
+  "note": "Automatic headlines only. The Desk page merges these with news, calendar, earnings, and grok from data/desk/today.json. Claude keeps writing that file.",
+  "sources": [
+    {
+      "id": "aj",
+      "label": "Al Jazeera",
+      "ok": true,
+      "items": 20,
+      "error": null
+    },
+    {
+      "id": "bbc-biz",
+      "label": "BBC",
+      "ok": true,
+      "items": 20,
+      "error": null
+    },
+    {
+      "id": "bbc-world",
+      "label": "BBC",
+      "ok": true,
+      "items": 20,
+      "error": null
+    },
+    {
+      "id": "bls",
+      "label": "BLS",
+      "ok": false,
+      "items": 0,
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "cnbc-earn",
+      "label": "CNBC",
+      "ok": true,
+      "items": 20,
+      "error": null
+    },
+    {
+      "id": "cnbc-econ",
+      "label": "CNBC",
+      "ok": true,
+      "items": 20,
+      "error": null
+    },
+    {
+      "id": "cnbc-energy",
+      "label": "CNBC",
+      "ok": true,
+      "items": 20,
+      "error": null
+    },
+    {
+      "id": "cnbc-finance",
+      "label": "CNBC",
+      "ok": true,
+      "items": 20,
+      "error": null
+    },
+    {
+      "id": "cnbc-tech",
+      "label": "CNBC",
+      "ok": true,
+      "items": 20,
+      "error": null
+    },
+    {
+      "id": "cnbc-top",
+      "label": "CNBC",
+      "ok": true,
+      "items": 20,
+      "error": null
+    },
+    {
+      "id": "cnbc-world",
+      "label": "CNBC",
+      "ok": true,
+      "items": 20,
+      "error": null
+    },
+    {
+      "id": "eia",
+      "label": "EIA",
+      "ok": true,
+      "items": 20,
+      "error": null
+    },
+    {
+      "id": "fed-all",
+      "label": "Federal Reserve",
+      "ok": true,
+      "items": 20,
+      "error": null
+    },
+    {
+      "id": "fed-monetary",
+      "label": "Federal Reserve",
+      "ok": true,
+      "items": 15,
+      "error": null
+    },
+    {
+      "id": "guard-biz",
+      "label": "The Guardian",
+      "ok": true,
+      "items": 19,
+      "error": null
+    },
+    {
+      "id": "guard-econ",
+      "label": "The Guardian",
+      "ok": true,
+      "items": 20,
+      "error": null
+    },
+    {
+      "id": "guard-world",
+      "label": "The Guardian",
+      "ok": true,
+      "items": 20,
+      "error": null
+    },
+    {
+      "id": "mw-live",
+      "label": "MarketWatch",
+      "ok": true,
+      "items": 10,
+      "error": null
+    },
+    {
+      "id": "mw-top",
+      "label": "MarketWatch",
+      "ok": true,
+      "items": 10,
+      "error": null
+    },
+    {
+      "id": "npr-biz",
+      "label": "NPR",
+      "ok": true,
+      "items": 10,
+      "error": null
+    },
+    {
+      "id": "npr-world",
+      "label": "NPR",
+      "ok": true,
+      "items": 10,
+      "error": null
+    },
+    {
+      "id": "nyt-biz",
+      "label": "New York Times",
+      "ok": true,
+      "items": 20,
+      "error": null
+    },
+    {
+      "id": "nyt-econ",
+      "label": "New York Times",
+      "ok": true,
+      "items": 20,
+      "error": null
+    },
+    {
+      "id": "nyt-world",
+      "label": "New York Times",
+      "ok": true,
+      "items": 20,
+      "error": null
+    },
+    {
+      "id": "oilprice",
+      "label": "OilPrice",
+      "ok": true,
+      "items": 15,
+      "error": null
+    },
+    {
+      "id": "un-peace",
+      "label": "UN News",
+      "ok": true,
+      "items": 20,
+      "error": null
+    },
+    {
+      "id": "wsj-biz",
+      "label": "WSJ",
+      "ok": true,
+      "items": 20,
+      "error": null
+    },
+    {
+      "id": "wsj-markets",
+      "label": "WSJ",
+      "ok": true,
+      "items": 20,
+      "error": null
+    }
+  ],
+  "items": [
+    {
+      "id": "f94bc25d6f3bb",
+      "headline": "Funeral held for family killed in Jordanian airstrikes in Syria",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/funeral-held-for-family-killed-in-jordanian-airstrikes-in-syria?traffic_source=rss",
+      "publishedAt": "2026-10-27T17:03:45Z",
+      "time": "Tue 1:03 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "f6228c9dc6fb8",
+      "headline": "Oil Markets Brace for a New Iran Escalation After U.S. Midterms",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Energy/Crude-Oil/Oil-Markets-Brace-for-a-New-Iran-Escalation-After-US-Midterms.html",
+      "publishedAt": "2026-10-27T16:37:35Z",
+      "time": "Tue 12:37 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "f8e63acf383ef",
+      "headline": "Iran’s calculations as US escalation looms: Trust, midterms, Hormuz",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/27/irans-calculations-as-us-escalation-looms-trust-midterms-hormuz?traffic_source=rss",
+      "publishedAt": "2026-10-27T15:26:59Z",
+      "time": "Tue 11:26 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "f82802ed230e7",
+      "headline": "Iran Turns to Russia for Nuclear Power as IAEA Oversight Falters",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Geopolitics/Middle-East/Iran-Turns-to-Russia-for-Nuclear-Power-as-IAEA-Oversight-Falters.html",
+      "publishedAt": "2026-10-27T14:00:00Z",
+      "time": "Tue 10:00 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fa91a7845629c",
+      "headline": "Melania or the pope: Who brokered Russia-Ukraine ceasefire in Oleshky?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/27/melania-or-the-pope-who-brokered-russia-ukraine-ceasefire-in-oleshky?traffic_source=rss",
+      "publishedAt": "2026-10-27T13:45:01Z",
+      "time": "Tue 9:45 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-on",
+      "auto": true
+    },
+    {
+      "id": "f6b523451f3d8",
+      "headline": "Russia strikes Kyiv ahead of localised ceasefire in Oleshky",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/russia-strikes-kyiv-ahead-of-localised-ceasefire-in-oleshky?traffic_source=rss",
+      "publishedAt": "2026-10-27T13:34:07Z",
+      "time": "Tue 9:34 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-on",
+      "auto": true
+    },
+    {
+      "id": "fc94c0937778e",
+      "headline": "Melania Trump-brokered local ceasefire begins as Russia continues attacks on Ukraine",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/27/russia-ukraine-zelenskyy-trump-putin-ceasefire.html",
+      "publishedAt": "2026-10-27T11:18:31Z",
+      "time": "Tue 7:18 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": "mixed",
+      "auto": true
+    },
+    {
+      "id": "f6e10507e4d6e",
+      "headline": "Local ceasefire brokered by Melania Trump starts in southern Ukraine",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/10/27/g-s1-150037/russia-ukraine-war",
+      "publishedAt": "2026-10-27T05:26:58Z",
+      "time": "Tue 1:26 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-on",
+      "auto": true
+    },
+    {
+      "id": "faee5281d414f",
+      "headline": "In Egypt, Guterres warns against Iran-US escalation",
+      "source": "UN News - Global perspective Human stories",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168669",
+      "publishedAt": "2026-10-26T12:00:00Z",
+      "time": "Mon 8:00 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "f844566a58ac1",
+      "headline": "Sudan paramilitary drone strikes cause mass power cuts in eastern states",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/26/sudan-paramilitary-drone-strikes-rapid-support-forces-power-cuts-eastern-states",
+      "publishedAt": "2026-10-26T09:59:27Z",
+      "time": "Mon 5:59 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "f3921f7549ee3",
+      "headline": "Fed expected to hold rates steady, but Warsh may point way to more hikes",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/27/federal-reserve-rates-kevin-warsh.html",
+      "publishedAt": "2026-10-27T15:52:26Z",
+      "time": "Tue 11:52 AM",
+      "section": "fed",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "ffa684b41fb05",
+      "headline": "Fed rate hikes are coming, but not this week: CNBC survey",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/27/federal-reserve-rate-hike-timing-expectations.html",
+      "publishedAt": "2026-10-27T15:51:00Z",
+      "time": "Tue 11:51 AM",
+      "section": "fed",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "fbebdcc1fef93",
+      "headline": "The Fed Is Expected to Hold Rates Steady. Warsh Will Have to Explain Why.",
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/2026/10/27/business/fed-interest-rates-warsh.html",
+      "publishedAt": "2026-10-27T09:03:48Z",
+      "time": "Tue 5:03 AM",
+      "section": "fed",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f1a2775f363a1",
+      "headline": "Tech's relief rally extends as attention turns to tough decisions for the Fed",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/27/tech-rally-fed-decision.html",
+      "publishedAt": "2026-10-27T12:09:19Z",
+      "time": "Tue 8:09 AM",
+      "section": "fed",
+      "impact": "Medium",
+      "lean": "risk-on",
+      "auto": true
+    },
+    {
+      "id": "f7c5f71e6cf80",
+      "headline": "Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html",
+      "publishedAt": "2026-10-26T18:33:51Z",
+      "time": "Mon 2:33 PM",
+      "section": "fed",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f2bccb5b4b803",
+      "headline": "Interest rates unlikely to reach 4.75% by next summer, say City economists",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/oct/25/interest-rates-bank-of-england-rises-summer-2027",
+      "publishedAt": "2026-10-25T12:00:05Z",
+      "time": "Sun 8:00 AM",
+      "section": "fed",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fa45d750fbebe",
+      "headline": "Honda warns 50% Canada auto tariffs would be catastrophic for auto industry",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/27/honda-warns-50percent-canada-auto-tariffs-would-be-catastrophic.html",
+      "publishedAt": "2026-10-27T16:49:39Z",
+      "time": "Tue 12:49 PM",
+      "section": "econ",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "feb98d84f485c",
+      "headline": "UK shop price inflation ‘highest since 2024’ as retailers struggle to limit price rises",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/oct/27/uk-shop-price-inflation-highest-since-2024-as-retailers-struggle-to-limit-price-rises",
+      "publishedAt": "2026-10-27T00:01:02Z",
+      "time": "Mon 8:01 PM",
+      "section": "econ",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f250a55576169",
+      "headline": "‘We don’t have inflation’? Five charts show the US economic reality of Trump’s second term so far",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/us-news/2026/oct/26/trump-second-term-economy-charts",
+      "publishedAt": "2026-10-26T11:00:42Z",
+      "time": "Mon 7:00 AM",
+      "section": "econ",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "faca8ad49b430",
+      "headline": "Trade tariffs cause whiplash at Port Milwaukee",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/10/24/nx-s1-6011193/trade-tariffs-cause-whiplash-at-port-milwaukee",
+      "publishedAt": "2026-10-24T21:20:55Z",
+      "time": "Sat 5:20 PM",
+      "section": "econ",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f41094056f899",
+      "headline": "When will Anthropic go public? Here’s what to know about the IPO timeline.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/when-will-anthropic-go-public-heres-what-to-know-about-the-ipo-timeline-431eca78?mod=mw_rss_topstories",
+      "publishedAt": "2026-10-27T16:38:00Z",
+      "time": "Tue 12:38 PM",
+      "section": "tech",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f902d9ea1a49d",
+      "headline": "Anthropic's IPO is risky business",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/27/anthropic-five-surprising-risks-s1.html",
+      "publishedAt": "2026-10-27T15:51:41Z",
+      "time": "Tue 11:51 AM",
+      "section": "tech",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f80cd85375bc4",
+      "headline": "With the Anthropic IPO, the devil is in the details",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/with-the-anthropic-ipo-the-devil-is-in-the-details-239d571d?mod=mw_rss_topstories",
+      "publishedAt": "2026-10-27T15:03:00Z",
+      "time": "Tue 11:03 AM",
+      "section": "tech",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f79d4257232cf",
+      "headline": "From Wall Street to Silicon Valley, Anthropic IPO poised to have massive 'trickle-down effect'",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/26/anthropic-ipo-might-trigger-tech-reset-if-ipo-underperforms.html",
+      "publishedAt": "2026-10-26T22:50:07Z",
+      "time": "Mon 6:50 PM",
+      "section": "tech",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fc514c4c89318",
+      "headline": "Anthropic files for stock market IPO; Meta announces $95bn fundraising drive to pay for AI expansion – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/oct/26/ai-cloud-computing-companies-guppy-level-death-elon-musk-stock-markets-dollar-oil-bond-yieds-latest-news-updates",
+      "publishedAt": "2026-10-26T15:33:24Z",
+      "time": "Mon 11:33 AM",
+      "section": "tech",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "ff3cbf6261e51",
+      "headline": "AI giant Anthropic files for an IPO that could break records",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/10/26/nx-s1-6014772/anthropic-ai-ipo-could-break-records",
+      "publishedAt": "2026-10-26T14:16:23Z",
+      "time": "Mon 10:16 AM",
+      "section": "tech",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fbfb54306ecab",
+      "headline": "UPS beats quarterly expectations, raises full-year guidance again",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/27/ups-ups-q3-2026-earnings.html",
+      "publishedAt": "2026-10-27T15:29:49Z",
+      "time": "Tue 11:29 AM",
+      "section": "tech",
+      "impact": "Medium",
+      "lean": "risk-on",
+      "auto": true
+    },
+    {
+      "id": "f55e207724ac0",
+      "headline": "Coca-Cola hikes earnings outlook, even as it sees lackluster demand in North America",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/27/coca-cola-ko-q3-2026-earnings.html",
+      "publishedAt": "2026-10-27T15:04:36Z",
+      "time": "Tue 11:04 AM",
+      "section": "tech",
+      "impact": "Medium",
+      "lean": "risk-on",
+      "auto": true
+    },
+    {
+      "id": "f9cdb02367f05",
+      "headline": "HSBC shares slump on revenue miss, lender announces share buyback of up to $1 billion",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/27/hsbc-third-quarter-profit-.html",
+      "publishedAt": "2026-10-27T08:28:01Z",
+      "time": "Tue 4:28 AM",
+      "section": "tech",
+      "impact": "Medium",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "f42b15fb02162",
+      "headline": "45,000 Nvidia Blackwell GPUs Cleared for Kazakhstan Data Center",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Energy/Energy-General/45000-Nvidia-Blackwell-GPUs-Cleared-for-Kazakhstan-Data-Center.html",
+      "publishedAt": "2026-10-27T17:00:00Z",
+      "time": "Tue 1:00 PM",
+      "section": "tech",
+      "impact": "Low",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fc0fc973711ef",
+      "headline": "Ras Tanura Fire Follows Attacks on Aramco Offices and Near Shaybah Field",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Ras-Tanura-Fire-Follows-Attacks-on-Aramco-Offices-and-Near-Shaybah-Field.html",
+      "publishedAt": "2026-10-27T12:30:00Z",
+      "time": "Tue 8:30 AM",
+      "section": "energy",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "fb04efbd3831a",
+      "headline": "OPEC+ Set to Keep Oil Quotas Unchanged",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/OPEC-Set-to-Keep-Oil-Quotas-Unchanged.html",
+      "publishedAt": "2026-10-27T14:30:00Z",
+      "time": "Tue 10:30 AM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fe618f51689fb",
+      "headline": "Investors From 119 Countries Pile Into Dangote’s Record Refinery IPO",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Investors-From-119-Countries-Pile-Into-Dangotes-Record-Refinery-IPO.html",
+      "publishedAt": "2026-10-27T13:30:00Z",
+      "time": "Tue 9:30 AM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "faefc6744cbe1",
+      "headline": "Diesel Drives India's Fuel Export Windfall as Earnings Reach $12.6 Billion",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Diesel-Drives-Indias-Fuel-Export-Windfall-as-Earnings-Reach-126-Billion.html",
+      "publishedAt": "2026-10-27T11:30:00Z",
+      "time": "Tue 7:30 AM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "ff9e609f0fade",
+      "headline": "India Rejects Claims of U.S. Pressure Over Russian Oil Purchases",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/India-Rejects-Claims-of-US-Pressure-Over-Russian-Oil-Purchases.html",
+      "publishedAt": "2026-10-27T10:30:00Z",
+      "time": "Tue 6:30 AM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f63804148604d",
+      "headline": "Trump Moves to Ease Methane Regulations for U.S. Oil Producers",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Moves-to-Ease-Methane-Regulations-for-US-Oil-Producers.html",
+      "publishedAt": "2026-10-27T09:35:00Z",
+      "time": "Tue 5:35 AM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fb22167a11e01",
+      "headline": "India’s Oil Buyers Squeezed by $123 Crude and Weak Rupee",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Oil-Buyers-Squeezed-by-123-Crude-and-Weak-Rupee.html",
+      "publishedAt": "2026-10-27T07:30:00Z",
+      "time": "Tue 3:30 AM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f97fa773a58e4",
+      "headline": "UK Weighs Scrapping Its Largest Untapped Oilfield With Oil Over $100",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Energy/Crude-Oil/UK-Weighs-Scrapping-Its-Largest-Untapped-Oilfield-With-Oil-Over-100.html",
+      "publishedAt": "2026-10-27T00:00:00Z",
+      "time": "Mon 8:00 PM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fcdaa0a1bd95d",
+      "headline": "GM Is Leaving NYSE for the Nasdaq After More Than 100 Years",
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/2026/10/27/business/general-motors-nasdaq-nyse.html",
+      "publishedAt": "2026-10-27T16:25:41Z",
+      "time": "Tue 12:25 PM",
+      "section": "markets",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fe455723bfcc6",
+      "headline": "A shock in Brazil sends stocks plunging, while neoclouds take another hit",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/26/brazil-stocks-neoclouds-selloff.html",
+      "publishedAt": "2026-10-26T10:39:46Z",
+      "time": "Mon 6:39 AM",
+      "section": "markets",
+      "impact": "Medium",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "f78f366b2c2d2",
+      "headline": "Ripple strikes deal with Robinhood to expand its RLUSD digital dollar",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/27/ripple-strikes-deal-with-robinhood-to-expand-its-rlusd-digital-dollar.html",
+      "publishedAt": "2026-10-27T16:35:45Z",
+      "time": "Tue 12:35 PM",
+      "section": "markets",
+      "impact": "Low",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f8fdf0d889aef",
+      "headline": "China Steps In to Rescue Stocks, But the Market Continues to Fall",
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/2026/10/27/business/china-stocks-losses-government-intervention.html",
+      "publishedAt": "2026-10-27T14:15:17Z",
+      "time": "Tue 10:15 AM",
+      "section": "markets",
+      "impact": "Low",
+      "lean": null,
+      "auto": true
+    }
+  ]
+}
