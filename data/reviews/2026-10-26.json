@@ -2,10 +2,10 @@
  "date": "2026-10-26",
  "discord": {
   "chartsOpened": "9:17 AM",
-  "plan": "\"Were ranging im only taking TP at internal liquidity not gonna hold to external liquidity in these conditions. Stay patient and follow our rules no over risking no over trading\"",
-  "risk": "Risk settings screenshot posted 9:19 AM and confirmed before 9:30.",
   "eod": "Done at 10:25 PM, screenshot confirmed. But it says \"no trades couldnt rlly see myself executing in these condition's\" and \"Rules Followed: Yes\", while Notion logs a -$1.2k short on 3 evals.",
-  "match": "Your check-in plan said internal targets only and no over-risking. The trade targeted the London low (external) and ran on 3 evals, so the trade didn't match the plan you posted. Your end-of-day card also doesn't match Notion."
+  "match": "Your check-in plan said internal targets only and no over-risking. The trade targeted the London low (external) and ran on 3 evals, so the trade didn't match the plan you posted. Your end-of-day card also doesn't match Notion.",
+  "plan": "\"Were ranging im only taking TP at internal liquidity not gonna hold to external liquidity in these conditions. Stay patient and follow our rules no over risking no over trading\"",
+  "risk": "Risk settings screenshot posted 9:19 AM and confirmed before 9:30."
  },
  "entryUrl": "https://app.notion.com/p/40560e8f5c458023b6e8d8a1755c27f3",
  "fix": [
@@ -27,9 +27,11 @@
  ],
  "questions": [
   {
-   "q": "Your entry says 'Bearish smt at the internal highs respected EQ on the 1min'. Which high was your stop above: the ~29,300 high your fib starts from, or a smaller high near the EQ? If the second one, why did you count that one as protected?",
    "answer": "the high at EQ and honestly it was not protected and i knew that but i was so focused on the PNL and new i needed to wait for more structure but i got inpatient and took the first 1min retrace before it left me to break the MO lows but than again thinking logically its FOMC week w no news monday why do i think wed pump alot than dump alot its just a improbable day and i need to be ok w no trades",
-   "answeredAt": "2026-10-27T03:38:30.031Z"
+   "answeredAt": "2026-10-27T03:38:30.031Z",
+   "q": "Your entry says 'Bearish smt at the internal highs respected EQ on the 1min'. Which high was your stop above: the ~29,300 high your fib starts from, or a smaller high near the EQ? If the second one, why did you count that one as protected?",
+   "repliedAt": "2026-10-27T20:20:00Z",
+   "reply": "That's the honest read: a high at the EQ that you already knew wasn't protected isn't a stop, it's a hope. The fix is the one you named. If the only stop available is internal, there's no trade yet, so wait for a protected high or pass. And on a no-news Monday in FOMC week, no trades is a fine outcome."
   },
   {
    "q": "RR says '-1.2k on 3 evals'. Is your $500 daily limit per account or total across everything you trade? And what made you run this one on all 3 evals instead of one?"
@@ -38,11 +40,20 @@
    "q": "AB asked 'if i was on a live acc would i really risk trading on a day like today'. What's your answer, and what would make you skip a day like this next time?"
   },
   {
-   "q": "Your end-of-day check-in on Discord says 'no trades couldnt rlly see myself executing in these condition's' and 'Rules Followed: Yes', but your Notion shows a -$1.2k short on 3 evals. Which one is right, and if you did take the trade, why did the check-in say no trades?",
    "answer": "Yeah i was undisciplined on taking off on funded and buying evals js to trade an ig feed the ego if im being honest but i blew all three for even trying to trade in asia i was being undsiciplined in real life and it correlated to the charts",
-   "answeredAt": "2026-10-27T03:41:33.946Z"
+   "answeredAt": "2026-10-27T03:41:33.946Z",
+   "q": "Your end-of-day check-in on Discord says 'no trades couldnt rlly see myself executing in these condition's' and 'Rules Followed: Yes', but your Notion shows a -$1.2k short on 3 evals. Which one is right, and if you did take the trade, why did the check-in say no trades?",
+   "repliedAt": "2026-10-27T20:20:00Z",
+   "reply": "Respect for owning it. Two separate problems there: buying new evals is off-plan (you trade the XFA only), and trading Asia breaks your NY-only rule, so those blown evals came from two broken rules before the setup even mattered. What's still unclear is the Discord check-in: it said 'no trades' and 'Rules Followed: Yes' while the evals were already down $1.2k."
+  },
+  {
+   "q": "Your Discord end-of-day on Monday said 'no trades' and 'Rules Followed: Yes'. Did you send that before the eval trades, or did you leave them out? Either way, what will you put in the check-in next time you break a rule?"
   }
  ],
+ "reflectedAt": "2026-10-27T03:42:14.613Z",
+ "reflection": "Honestly bad psych day for me but i got my self a journal to journal as much as i can to talk to myself to see if i can change cus its honestly just disappointing at this point",
+ "reflectionRepliedAt": "2026-10-27T20:20:00Z",
+ "reflectionReply": "Getting a real journal is a good move, and connecting the off-chart discipline to the charts is the most useful thing you wrote all week. Don't let it turn into beating yourself up, though. Pick 2-3 things you can check off every day: NY only, XFA only, no new evals. Tuesday's trade shows you can follow the plan when you wait for structure.",
  "reviewedAt": "2026-10-27T03:35:00Z",
  "rule": "On no-news days before FOMC with HTF in a range: size down or sit out, keep targets internal, and stop above the high that started the leg (the 1.0 of your fib).",
  "screenshots": [
@@ -68,7 +79,5 @@
   }
  ],
  "summary": "Bias made sense (NQ tagged PDH and the bearish gap while ES didn't, so bearish SMT at an external high), but it was a low-probability day to be shooting for a far target. You shorted at the 10:00 open inside a range, stop just above the 1min EQ instead of above the ~29,300 swing high, and targeted the London low ~200 pts away even though pre-market said internal only. AB's read lines up: no-news Monday in FOMC week, HTF in a range, so price was more likely to build liquidity than run it. Total damage was -$1.2k across 3 evals.",
- "trade": "Short · NY-AM · Eval x3 · Loss (-$1.2k total across 3 evals) · Entry ~29,200 right at 10:00, stop ~29,252, target London low ~29,025",
- "reflection": "Honestly bad psych day for me but i got my self a journal to journal as much as i can to talk to myself to see if i can change cus its honestly just disappointing at this point",
- "reflectedAt": "2026-10-27T03:42:14.613Z"
+ "trade": "Short · NY-AM · Eval x3 · Loss (-$1.2k total across 3 evals) · Entry ~29,200 right at 10:00, stop ~29,252, target London low ~29,025"
 }
