@@ -1,276 +1,387 @@
 {
-  "bias_note": "Expect a gap risk Monday on Iran/oil headlines. Size down Tue 10 AM, Wed 2 PM, Thu 8:30 AM.",
-  "calendar": [
-    {
-      "date": "2026-10-27",
-      "event": "Durable goods orders (Sep)",
-      "id": "c1",
-      "impact": "Medium",
-      "time": "8:30 AM"
-    },
-    {
-      "date": "2026-10-27",
-      "event": "Conference Board consumer confidence (Oct)",
-      "id": "c2",
-      "impact": "Medium",
-      "time": "10:00 AM"
-    },
-    {
-      "date": "2026-10-27",
-      "event": "New home sales (Sep)",
-      "id": "c3",
-      "impact": "Low",
-      "time": "10:00 AM"
-    },
-    {
-      "date": "2026-10-28",
-      "event": "FOMC rate decision (Warsh presser 2:30 PM)",
-      "id": "c4",
-      "impact": "High",
-      "time": "2:00 PM",
-      "code": "FOMC",
-      "note": "Fed rate decision · press conference 2:30 PM"
-    },
-    {
-      "date": "2026-10-29",
-      "event": "Advance GDP q/q (Q3)",
-      "id": "c5",
-      "impact": "High",
-      "time": "8:30 AM",
-      "code": "Advance GDP",
-      "note": "First read of Q3 economic growth"
-    },
-    {
-      "date": "2026-10-29",
-      "event": "Core PCE Price Index m/m (Sep)",
-      "id": "c6",
-      "impact": "High",
-      "time": "8:30 AM",
-      "code": "Core PCE",
-      "note": "Core PCE Price Index · the Fed's favorite inflation gauge"
-    },
-    {
-      "date": "2026-10-29",
-      "event": "Weekly jobless claims",
-      "id": "c7",
-      "impact": "Medium",
-      "time": "8:30 AM"
-    },
-    {
-      "date": "2026-10-30",
-      "event": "Employment Cost Index (Q3)",
-      "id": "c8",
-      "impact": "Medium",
-      "time": "8:30 AM"
-    },
-    {
-      "date": "2026-10-30",
-      "event": "Chicago PMI (Oct)",
-      "id": "c9",
-      "impact": "Medium",
-      "time": "9:45 AM"
-    }
-  ],
-  "earnings": [
-    {
-      "date": "2026-10-21",
-      "company": "Meta (META)",
-      "when": "AMC (reported)",
-      "status": "reported",
-      "reaction": "META about -7% next day",
-      "sentiment": "Bearish",
-      "why": "Raised its 2026 capex floor to $135-145B. AI spending fears hit chips and big tech and helped drag the Nasdaq to its worst day since June."
-    },
-    {
-      "date": "2026-10-21",
-      "company": "Tesla (TSLA)",
-      "when": "AMC (reported)",
-      "status": "reported",
-      "reaction": "TSLA about -5% premarket",
-      "sentiment": "Bearish",
-      "why": "Beat on earnings and cut capex to about $20B, but the stock still sold off with the rest of mega-cap tech."
-    },
-    {
-      "date": "2026-10-20",
-      "company": "Netflix (NFLX)",
-      "when": "AMC (reported)",
-      "status": "reported",
-      "reaction": "NFLX about -1%",
-      "sentiment": "Bearish",
-      "why": "Cut its full-year ad revenue outlook to about $2.7B from $3B. Small weight in NQ, so a minor drag."
-    },
-    {
-      "date": "2026-10-23",
-      "company": "American Express (AXP)",
-      "when": "BMO (reported)",
-      "status": "reported",
-      "reaction": "AXP about -3%",
-      "sentiment": "Bearish",
-      "why": "Revenue missed and it announced about 5% job cuts. Not an NQ name, but it added to the weak-consumer story."
-    },
-    {
-      "company": "Cadence Design (CDNS)",
-      "date": "2026-10-26",
-      "when": "AMC",
-      "why": "Chip design software read"
-    },
-    {
-      "company": "NXP, Seagate, Robinhood",
-      "date": "2026-10-27",
-      "when": "AMC",
-      "why": "Semis, storage and retail-trading read"
-    },
-    {
-      "company": "Visa (V)",
-      "date": "2026-10-27",
-      "when": "AMC",
-      "why": "Consumer spending read"
-    },
-    {
-      "company": "ADP (ADP)",
-      "date": "2026-10-28",
-      "when": "BMO",
-      "why": "Read on the jobs market"
-    },
-    {
-      "company": "Microsoft (MSFT)",
-      "date": "2026-10-28",
-      "when": "AMC",
-      "why": "Top NQ weight, AI/cloud capex"
-    },
-    {
-      "company": "Alphabet (GOOGL)",
-      "date": "2026-10-28",
-      "when": "AMC",
-      "why": "Top NQ weight, AI spend"
-    },
-    {
-      "company": "KLA, T-Mobile, Fortinet, Equinix",
-      "date": "2026-10-28",
-      "when": "AMC",
-      "why": "Chip-equipment, telecom, security, data centers"
-    },
-    {
-      "company": "Eli Lilly, Mastercard, Caterpillar",
-      "date": "2026-10-29",
-      "when": "BMO",
-      "why": "Big-cap movers before the open"
-    },
-    {
-      "company": "Amazon (AMZN)",
-      "date": "2026-10-29",
-      "when": "AMC",
-      "why": "Top NQ weight, AWS growth"
-    },
-    {
-      "company": "Intel, Coinbase, Strategy",
-      "date": "2026-10-29",
-      "when": "AMC",
-      "why": "Semis and crypto sentiment"
-    },
-    {
-      "company": "ExxonMobil, Chevron, AbbVie",
-      "date": "2026-10-30",
-      "when": "BMO",
-      "why": "Oil names with crude at 6-month highs"
-    }
-  ],
-  "grok": {
-    "at": "2026-10-23T20:52:00Z",
-    "bias": "risk-off — AI capex concerns plus Middle East headlines are still pressuring tech and supporting the defensive tone.",
-    "forSite": [],
-    "items": [
-      "Walter Bloomberg / DeItaone (~4:00 PM ET): Trump said he doubts Iran will say \"let's get down to business\" and floated another operation against Iran.",
-      "The Kobeissi Letter (~2:40 PM ET): US stock market value hit 350% of M2, the highest since the 2000 dot-com bubble.",
-      "Mario Nawfal (~4:40 AM ET): Nasdaq 100 dropped ~2.9% Thursday with chips down sharply as money rotated into Treasuries on AI return doubts and oil above $113.",
-      "Scott Redler (~8:55 AM ET): Many stocks already down 30–50% while SPY is only mildly off highs; $760 SPY is key support; failed breakouts in NVDA/META/AMZN.",
-      "plur daddy (~9:05 AM ET): Tight liquidity and AI financing limits into year-end, with the Anthropic IPO flagged as a possible headwind for AI stocks."
-    ],
-    "note": "Grok isn’t connected yet. Add an xAI API key and each update will pull what traders on X are saying about NQ.",
-    "pulse": "X is focused on AI-led weakness in NQ after Thursday's selloff, with rising oil and fresh Iran comments from Trump keeping risk appetite muted into the close.",
-    "trump": "Yes. Multiple comments this afternoon questioning Iran negotiations and suggesting possible further action, plus a side comment on Cuba.",
-    "watch": "Follow-through on Trump's Iran remarks (oil and risk-off flows), FOMC on Oct 28, and whether NQ/ES can hold or reclaim key levels after the AI-led dump."
+ "bias_note": "Lean: cautious bullish into Tuesday, with the AI trade back on and oil cooling. Fade strength if Brent pushes back above $115 or the 10Y reclaims 5%. Red folder Tue 8:30 AM (Core Durable Goods) and 10:00 AM (CB Confidence), so wait for the 10 AM print before committing in the NY AM window. Size down Wed 2:00-2:30 PM (FOMC) and Thu 8:30 AM (GDP + Core PCE + Claims). Wed and Thu after-close mega-cap prints mean overnight gaps.",
+ "calendar": [
+  {
+   "code": "Core Durables",
+   "date": "2026-10-27",
+   "event": "Core Durable Goods Orders m/m",
+   "id": "c1",
+   "impact": "High",
+   "note": "Business equipment demand ex-transport",
+   "time": "8:30 AM"
   },
-  "moves": [
-    {
-      "basis": "Nasdaq Composite cash close vs prior close (Yahoo); live futures quote unavailable",
-      "pct": -0.21,
-      "symbol": "NQ"
-    },
-    {
-      "basis": "S&P 500 cash close vs prior close (Yahoo); live futures quote unavailable",
-      "pct": -0.52,
-      "symbol": "ES"
-    }
-  ],
-  "news": [
-    {
-      "headline": "Nasdaq closed -0.21% and S&P -0.52%, both down for a 2nd straight week; Dow fell 654 points (-1.24%).",
-      "id": "n1",
-      "impact": "High",
-      "source": "Yahoo Finance",
-      "time": "Fri Oct 23"
-    },
-    {
-      "headline": "Oil jumped: WTI closed above $103 (+4%), Brent $116.72, highest since April, on Iran strike fears.",
-      "id": "n2",
-      "impact": "High",
-      "source": "Yahoo Finance / TheStreet",
-      "time": "Fri Oct 23"
-    },
-    {
-      "headline": "Iran threatened strikes on Gulf oil, data center and AI infrastructure if attacked again.",
-      "id": "n3",
-      "impact": "High",
-      "source": "TheStreet",
-      "time": "Fri Oct 23"
-    },
-    {
-      "headline": "Fed meets Wednesday; markets price only ~5% odds of a hike, but ~80% for December.",
-      "id": "n4",
-      "impact": "High",
-      "source": "Reuters via Kitco",
-      "time": "Fri Oct 23"
-    },
-    {
-      "headline": "10-year yield edged up to ~4.99%, staying under 5% after Thursday's big drop.",
-      "id": "n5",
-      "impact": "Medium",
-      "source": "Yahoo Finance",
-      "time": "Fri Oct 23"
-    },
-    {
-      "headline": "UMich sentiment at 48.0, second-lowest on record; 1-year inflation expectations rose to 4.7%.",
-      "id": "n6",
-      "impact": "Medium",
-      "source": "TheStreet",
-      "time": "Fri Oct 23"
-    },
-    {
-      "headline": "Cybersecurity rallied 5-7% (PANW, NET) on a strong budget survey; airlines fell 4%+ on fuel costs.",
-      "id": "n7",
-      "impact": "Low",
-      "source": "Yahoo Finance",
-      "time": "Fri Oct 23"
-    },
-    {
-      "headline": "Apple briefly passed Nvidia in market value (~$5.1T each) before Nvidia took the lead back.",
-      "id": "n8",
-      "impact": "Low",
-      "source": "Yahoo Finance",
-      "time": "Fri Oct 23"
-    },
-    {
-      "headline": "VIX rose 3.6% to 19.72 into next week's earnings and Fed cluster.",
-      "id": "n9",
-      "impact": "Medium",
-      "source": "Yahoo Finance",
-      "time": "Fri Oct 23"
-    }
-  ],
-  "takeaway": "Tech closed only slightly lower after Thursday's AI capex rout, but oil above $103 and a weak consumer kept pressure on. Next week decides direction: FOMC Wed 2 PM plus MSFT/GOOGL that night, then GDP/PCE and AMZN Thursday.",
-  "updatedAt": "2026-10-23T20:10:00Z",
-  "calendarWeek": {
-    "start": "2026-10-26"
+  {
+   "code": "CB Confidence",
+   "date": "2026-10-27",
+   "event": "CB Consumer Confidence",
+   "id": "c2",
+   "impact": "High",
+   "note": "Consumer mood · forecast 80.5 vs 81.9",
+   "time": "10:00 AM"
+  },
+  {
+   "code": "FOMC",
+   "date": "2026-10-28",
+   "event": "Federal Funds Rate / FOMC Statement",
+   "id": "c3",
+   "impact": "High",
+   "note": "Fed rate decision · press conference 2:30 PM",
+   "time": "2:00 PM"
+  },
+  {
+   "code": "Fed Chair Warsh speaks",
+   "date": "2026-10-28",
+   "event": "FOMC Press Conference",
+   "id": "c4",
+   "impact": "High",
+   "note": "Warsh presser · tone moves everything",
+   "time": "2:30 PM"
+  },
+  {
+   "code": "Advance GDP",
+   "date": "2026-10-29",
+   "event": "Advance GDP q/q",
+   "id": "c5",
+   "impact": "High",
+   "note": "First read of Q3 growth · fcst 3.2%",
+   "time": "8:30 AM"
+  },
+  {
+   "code": "Core PCE",
+   "date": "2026-10-29",
+   "event": "Core PCE Price Index m/m",
+   "id": "c6",
+   "impact": "High",
+   "note": "Core PCE Price Index · the Fed's favorite inflation gauge",
+   "time": "8:30 AM"
+  },
+  {
+   "code": "Unemployment Claims",
+   "date": "2026-10-29",
+   "event": "Unemployment Claims",
+   "id": "c7",
+   "impact": "High",
+   "note": "Weekly jobless claims · fcst 198K",
+   "time": "8:30 AM"
   }
+ ],
+ "calendarWeek": {
+  "start": "2026-10-26"
+ },
+ "earnings": [
+  {
+   "company": "Verizon (VZ)",
+   "date": "2026-10-26",
+   "name": "Verizon",
+   "reaction": "VZ ~flat premarket",
+   "sentiment": "Neutral",
+   "status": "reported",
+   "ticker": "VZ",
+   "time": "BMO",
+   "when": "BMO (reported)",
+   "why": "Big postpaid phone beat (406K adds), revenue miss, EPS guide raised. Not an NQ driver."
+  },
+  {
+   "company": "Meta (META)",
+   "date": "2026-10-21",
+   "name": "Meta",
+   "reaction": "META about -7% next day, -9% on the week",
+   "sentiment": "Bearish",
+   "status": "reported",
+   "ticker": "META",
+   "time": "AMC",
+   "when": "AMC (reported)",
+   "why": "Raised its 2026 capex floor to $135-145B. AI spending fears hit chips and big tech."
+  },
+  {
+   "company": "Tesla (TSLA)",
+   "date": "2026-10-21",
+   "name": "Tesla",
+   "reaction": "TSLA about -5% next day",
+   "sentiment": "Bearish",
+   "status": "reported",
+   "ticker": "TSLA",
+   "time": "AMC",
+   "when": "AMC (reported)",
+   "why": "EPS beat and capex cut to ~$20B, but it sold off with mega-cap tech."
+  },
+  {
+   "company": "Netflix (NFLX)",
+   "date": "2026-10-20",
+   "name": "Netflix",
+   "reaction": "NFLX about -1%",
+   "sentiment": "Bearish",
+   "status": "reported",
+   "ticker": "NFLX",
+   "time": "AMC",
+   "when": "AMC (reported)",
+   "why": "Cut the full-year ad revenue outlook to ~$2.7B. Minor NQ drag."
+  },
+  {
+   "company": "Texas Instruments / Lam Research (TXN)",
+   "date": "2026-10-20",
+   "name": "Texas Instruments / Lam Research",
+   "reaction": "Muted, SOXX -3% on the week",
+   "sentiment": "Neutral",
+   "status": "reported",
+   "ticker": "TXN",
+   "time": "AMC",
+   "when": "AMC (reported)",
+   "why": "Decent analog/equipment demand couldn't beat the AI-profitability worries."
+  },
+  {
+   "company": "American Express (AXP)",
+   "date": "2026-10-23",
+   "name": "American Express",
+   "reaction": "AXP about -3%",
+   "sentiment": "Bearish",
+   "status": "reported",
+   "ticker": "AXP",
+   "time": "BMO",
+   "when": "BMO (reported)",
+   "why": "Revenue miss plus ~5% job cuts added to the weak-consumer story."
+  },
+  {
+   "company": "Cadence Design (CDNS)",
+   "date": "2026-10-26",
+   "name": "Cadence Design",
+   "reaction": "CDNS ~+2.6% AH",
+   "sentiment": "Bullish",
+   "status": "reported",
+   "ticker": "CDNS",
+   "time": "AMC",
+   "when": "AMC (reported)",
+   "why": "Beat (EPS $2.11, rev $1.63B +22%), raised 2026 growth to 21%, record $8.2B backlog, $2.5B buyback. Positive AI-chip demand read."
+  },
+  {
+   "company": "NXP, Seagate, Robinhood (NXPI)",
+   "date": "2026-10-27",
+   "name": "NXP, Seagate, Robinhood",
+   "status": "upcoming",
+   "ticker": "NXPI",
+   "time": "AMC",
+   "when": "AMC",
+   "why": "Semis, storage, retail trading"
+  },
+  {
+   "company": "Visa (V)",
+   "date": "2026-10-27",
+   "name": "Visa",
+   "status": "upcoming",
+   "ticker": "V",
+   "time": "AMC",
+   "when": "AMC",
+   "why": "Consumer spending read"
+  },
+  {
+   "company": "Microsoft (MSFT)",
+   "date": "2026-10-28",
+   "name": "Microsoft",
+   "status": "upcoming",
+   "ticker": "MSFT",
+   "time": "AMC",
+   "when": "AMC",
+   "why": "Top NQ weight · Azure/AI capex"
+  },
+  {
+   "company": "Alphabet (GOOGL)",
+   "date": "2026-10-28",
+   "name": "Alphabet",
+   "status": "upcoming",
+   "ticker": "GOOGL",
+   "time": "AMC",
+   "when": "AMC",
+   "why": "Top NQ weight · AI spend, cloud"
+  },
+  {
+   "company": "KLA, ServiceNow, T-Mobile, Fortinet (KLAC)",
+   "date": "2026-10-28",
+   "name": "KLA, ServiceNow, T-Mobile, Fortinet",
+   "status": "upcoming",
+   "ticker": "KLAC",
+   "time": "AMC",
+   "when": "AMC",
+   "why": "Chip equipment, software, telecom, security"
+  },
+  {
+   "company": "Eli Lilly, Mastercard, Caterpillar (LLY)",
+   "date": "2026-10-29",
+   "name": "Eli Lilly, Mastercard, Caterpillar",
+   "status": "upcoming",
+   "ticker": "LLY",
+   "time": "BMO",
+   "when": "BMO",
+   "why": "Big-cap movers before the open"
+  },
+  {
+   "company": "Amazon (AMZN)",
+   "date": "2026-10-29",
+   "name": "Amazon",
+   "status": "upcoming",
+   "ticker": "AMZN",
+   "time": "AMC",
+   "when": "AMC",
+   "why": "Top NQ weight · AWS growth"
+  },
+  {
+   "company": "Intel, Sandisk, Coinbase, Strategy (INTC)",
+   "date": "2026-10-29",
+   "name": "Intel, Sandisk, Coinbase, Strategy",
+   "status": "upcoming",
+   "ticker": "INTC",
+   "time": "AMC",
+   "when": "AMC",
+   "why": "Semis and crypto sentiment"
+  },
+  {
+   "company": "ExxonMobil, Chevron, AbbVie (XOM)",
+   "date": "2026-10-30",
+   "name": "ExxonMobil, Chevron, AbbVie",
+   "status": "upcoming",
+   "ticker": "XOM",
+   "time": "BMO",
+   "when": "BMO",
+   "why": "Oil names with crude near $100+"
+  },
+  {
+   "company": "Apple (AAPL)",
+   "date": "2026-11-02",
+   "name": "Apple",
+   "status": "upcoming",
+   "ticker": "AAPL",
+   "time": "AMC",
+   "when": "AMC",
+   "why": "Top NQ weight · next Monday"
+  }
+ ],
+ "grok": {
+  "at": "2026-10-26T20:17:07Z",
+  "bias": "mixed — cash session gains and oil ease tilt risk-on short-term, but yields near 5%, residual geopolitics, AI financing doubts, and FOMC tone uncertainty keep the overall bias cautious.",
+  "forSite": [],
+  "items": [
+   "Trade With Nori (~4:15 PM ET): Close — S&P 7,677 +0.70%, Nasdaq 26,169 +0.82%; oil retreated easing inflation pressure, Anthropic IPO boosted semis +2.85%, VIX down to 18.39.",
+   "Codrin Coman (~4:15 PM ET): Oil eased Brent -1.2% to $110.41, WTI -1.7% to $101.54; Saudi defense minister in Iran for de-escalation talks.",
+   "Reza Dilmaghani (~4:16 PM ET): #CL_F pausing as it awaits next developments involving Iran, US, Saudi Arabia, and Yemen; geopolitical headlines likely dictate the next move.",
+   "Raptor invest (~4:16 PM ET): Oil sliding ~2% after weekend Saudi-Iran diplomacy and Trump holding off strikes; Fed decision Wednesday with ~90% chance of hold.",
+   "Market Mono (~4:15 PM ET): Pretty good start to the week for a Monday; caught some mid-day chop expected with FOMC on Wednesday; momentum continuing."
+  ],
+  "pulse": "Stocks closed higher with S&P +0.7% and Nasdaq +0.8% as oil retreated on Saudi-Iran de-escalation signals and Anthropic IPO filing lifted AI sentiment, setting a mixed tone into FOMC and earnings week.",
+  "trump": "none",
+  "watch": "Tuesday data (durable goods, consumer confidence), oil trajectory around $110 and 10Y near 5%, then Wednesday FOMC decision/Warsh presser and Mag7 earnings reaction."
+ },
+ "moves": [
+  {
+   "basis": "Nasdaq Composite cash close vs prior close, Mon Oct 26 (Yahoo); NDX ~+1.2% midday",
+   "pct": 0.82,
+   "symbol": "NQ"
+  },
+  {
+   "basis": "S&P 500 cash close vs prior close, Mon Oct 26 (Yahoo)",
+   "pct": 0.7,
+   "symbol": "ES"
+  }
+ ],
+ "news": [
+  {
+   "headline": "Overnight: NQ futures ~+0.4% (~29,560), ES ~+0.2%, YM flat. WTI Dec ~$101 (-0.7%).",
+   "id": "n0",
+   "impact": "High",
+   "source": "Yahoo Finance / Reuters",
+   "time": "Mon ~8:40 PM",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-edge-oil-100215774.html",
+   "why": "The bounce is holding overnight and CDNS AH adds a chip tailwind. Globex highs are the first liquidity target at 9:30."
+  },
+  {
+   "headline": "SOX +2.8% Monday but still -12.2% for October. CME FedWatch shows only a ~13% chance of a hike Wednesday. Nov 3 midterms are next week.",
+   "id": "n11",
+   "impact": "Medium",
+   "source": "Reuters via Yahoo",
+   "time": "Mon 4:24 PM",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-edge-oil-100215774.html",
+   "why": "Semis are deeply oversold, so short squeezes can run. Wednesday is a hold-vs-hike tone question, not a cut debate."
+  },
+  {
+   "headline": "Cadence (CDNS) beats and raises after the close: Q3 revenue $1.63B (+22%), 2026 growth guide lifted to 21%, record $8.2B backlog; shares ~+2.6% after hours.",
+   "id": "n1",
+   "impact": "Medium",
+   "source": "Investing.com",
+   "time": "Mon 4:44 PM",
+   "url": "https://ca.investing.com/news/stock-market-news/why-is-cadence-design-systems-stock-surging-today-93CH-4903990",
+   "why": "First AI-chip demand check of the week came in strong, a small tailwind for semis into Tuesday's open."
+  },
+  {
+   "headline": "Stocks snap the slide: Nasdaq +0.82% to 26,169, S&P +0.70% to 7,677, Dow +0.28%. NDX was up ~1.2% intraday.",
+   "id": "n2",
+   "impact": "High",
+   "source": "Yahoo Finance",
+   "time": "Mon 4:00 PM",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-october-26-dow-sp-500-nasdaq-101153035.html",
+   "why": "Relief bounce into Fed/earnings week. It needs MSFT/GOOGL to confirm, or it rolls over."
+  },
+  {
+   "headline": "Anthropic publicly files its S-1 for a Nasdaq IPO: $16.3B revenue in H1, $9B spent on AI infrastructure, and an $80.7B net loss, mostly non-cash.",
+   "id": "n3",
+   "impact": "High",
+   "source": "Yahoo Finance",
+   "time": "Mon 9:25 AM",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-october-26-dow-sp-500-nasdaq-101153035.html",
+   "why": "Revived the AI-demand story. Chips (NVDA, AVGO, MU) rallied and led NQ."
+  },
+  {
+   "headline": "Trump on Iran: 'There will not be a strike today.' Oil eases, with WTI ~$101-102 and Brent ~$110-112. Houthi attacks on Saudi Arabia keep supply risk alive.",
+   "id": "n4",
+   "impact": "High",
+   "source": "Benzinga",
+   "time": "Mon premarket",
+   "url": "https://benzinga.com/markets/equities/26/10/62583105/stock-market-today-dow-jones-sp-500-futures-rise-after-trump-rules-out-iran-strike-itub-non-cls-in-focus",
+   "why": "Cheaper oil eases inflation and yield pressure, which helps NQ. The 'today' wording leaves gap risk open."
+  },
+  {
+   "headline": "10Y Treasury slips back under 5% (4.99%); the 2Y is up to ~4.71%. Markets price a ~90% chance the Fed holds Wednesday.",
+   "id": "n5",
+   "impact": "High",
+   "source": "Benzinga",
+   "time": "Mon",
+   "url": "https://benzinga.com/markets/equities/26/10/62598326/nasdaq-100-chip-rebound-brazil-etf-ewz-stock-market-today",
+   "why": "Long-end relief supports tech multiples. The risk is a hawkish-hold tone from Warsh."
+  },
+  {
+   "headline": "Meta plans to raise up to $95B for its AI build-out, starting with a $35B stock sale.",
+   "id": "n6",
+   "impact": "Medium",
+   "source": "Yahoo Finance",
+   "time": "Mon 10:07 AM",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-october-26-dow-sp-500-nasdaq-101153035.html",
+   "why": "More AI capex supply. It's bullish for chips but keeps the AI-ROI and dilution worries alive for mega caps."
+  },
+  {
+   "headline": "Tesla +6% after Barclays upgrades it to Overweight with a $450 target. Lumentum +8-10% and Coherent +5.5% on optical-networking strength.",
+   "id": "n7",
+   "impact": "Medium",
+   "source": "Benzinga",
+   "time": "Mon midday",
+   "url": "https://benzinga.com/markets/equities/26/10/62598326/nasdaq-100-chip-rebound-brazil-etf-ewz-stock-market-today",
+   "why": "Broad tech participation beyond NVDA supported the NQ bounce."
+  },
+  {
+   "headline": "Microsoft offers voluntary buyouts to ~60,000 employees ahead of Wednesday's earnings; the stock edged higher.",
+   "id": "n8",
+   "impact": "Medium",
+   "source": "Yahoo Finance",
+   "time": "Mon 2:45 PM",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-october-26-dow-sp-500-nasdaq-101153035.html",
+   "why": "Cost-cutting while AI capex runs hot. Sets up Wednesday's MSFT print, the #1-weight driver."
+  },
+  {
+   "headline": "Brazil ETF (EWZ) crashes ~21% after Lula's reelection; the real loses 10%+.",
+   "id": "n9",
+   "impact": "Medium",
+   "source": "Benzinga",
+   "time": "Mon",
+   "url": "https://benzinga.com/markets/equities/26/10/62598326/nasdaq-100-chip-rebound-brazil-etf-ewz-stock-market-today",
+   "why": "EM shock that stayed contained. Watch for a dollar bid and risk-off spillover if it spreads."
+  }
+ ],
+ "takeaway": "NQ futures are holding Monday's bounce overnight (~+0.4%) after the Nasdaq closed +0.82% and the S&P +0.70%, snapping a 2-week slide. Chips led (SOX +2.8%, still -12% for the month) on Anthropic's S-1, and Cadence beat and raised AH (~+2.6%). Oil is softer (WTI ~$101) on Saudi-Iran talks, and the 10Y is ~4.99%. Today: red folder Core Durables 8:30 and CB Confidence 10:00. Wednesday decides the week: FOMC 2 PM (hold ~87%, small hike risk), Warsh 2:30, then MSFT/GOOGL AMC.",
+ "updatedAt": "2026-10-27T02:04:11Z"
 }
