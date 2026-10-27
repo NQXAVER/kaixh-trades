@@ -7,6 +7,7 @@
   "protected_stop": "ok",
   "external_be": "ok",
   "htf_bias": "ok",
-  "setup_not_pnl": "ok"
+  "setup_not_pnl": "ok",
+  "ny_only": "ok"
  }
 }
