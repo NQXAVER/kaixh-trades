@@ -521,7 +521,11 @@ textarea::placeholder { color: #8aa3c4; }
       warn.hidden = false;
       const parts = [];
       if (redToday.length) parts.push(redToday.map(r => (r.time ? r.time + ' · ' : '') + (r.code || r.event)).join(' · '));
-      if (earnToday.length) parts.push(earnToday.map(r => (r.when ? r.when + ' · ' : '') + r.company).join(' · '));
+      if (earnToday.length) parts.push(earnToday.map(r => {
+        const w = (r.when || '').toUpperCase();
+        const label = w === 'AMC' ? 'After close (~4 PM)' : w === 'BMO' ? 'Before open (~8 AM)' : (r.when || '');
+        return (label ? label + ' · ' : '') + r.company;
+      }).join(' · '));
       if (detail) detail.textContent = parts.join(' · ');
     } else if (warn) {
       warn.hidden = true;
