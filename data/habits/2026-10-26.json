@@ -1,5 +1,6 @@
 {
  "sleep": true,
  "date": "2026-10-26",
- "steps": true
+ "steps": true,
+ "clean": true
 }
