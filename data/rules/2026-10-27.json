@@ -3,6 +3,7 @@
  "r": {
   "win_lockout": "ok",
   "loss_limit": "ok",
-  "no_pre10": "ok"
+  "no_pre10": "ok",
+  "protected_stop": "ok"
  }
 }
