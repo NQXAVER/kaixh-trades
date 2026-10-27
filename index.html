@@ -32,7 +32,8 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 header.top { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 16px; }
 h1 { color: var(--on-page); font-family: var(--display); font-weight: 700; font-size: 28px; letter-spacing: -.01em; margin: 0; }
 .stamp { font-family: var(--mono); font-size: 12px; color: var(--on-page-muted); }
-nav.tabs { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--page-a); display: flex; gap: 6px; padding: 6px; border-radius: 999px; border: 1px solid rgba(255,255,255,.2); overflow-x: auto; scrollbar-width: none; }
+nav.tabs { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--page-a); display: flex; flex-wrap: nowrap; gap: 6px; padding: 6px; border-radius: 999px; border: 1px solid rgba(255,255,255,.2); overflow-x: auto; scrollbar-width: none; }
+nav.tabs::-webkit-scrollbar { display: none; }
 nav.tabs button { white-space: nowrap; flex: none; font: 600 14px var(--body); color: var(--on-page-muted); background: none; border: 0; padding: 8px 14px; border-radius: 999px; cursor: pointer; }
 nav.tabs button[aria-selected="true"] { color: #ffffff; background: var(--blue); }
 button:focus-visible, textarea:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
@@ -329,6 +330,8 @@ textarea::placeholder { color: #8aa3c4; }
 
   <nav class="tabs" role="tablist" aria-label="Sections">
     <button role="tab" id="tab-desk" aria-selected="true" aria-controls="desk">Desk</button>
+    <button role="tab" id="tab-earn" aria-selected="false" aria-controls="earnings">Earnings</button>
+    <button role="tab" id="tab-x" aria-selected="false" aria-controls="xpulse">X Pulse</button>
     <button role="tab" id="tab-acc" aria-selected="false" aria-controls="accountability">Accountability</button>
     <button role="tab" id="tab-jr" aria-selected="false" aria-controls="journal">Notion Journal</button>
     <button role="tab" id="tab-cal" aria-selected="false" aria-controls="calendar">Calendar</button>
@@ -398,19 +401,24 @@ textarea::placeholder { color: #8aa3c4; }
       <div class="news-board" id="news-board"><p class="empty">Loading…</p></div>
     </div>
 
-    <div class="grid">
-      <div class="card">
-        <h2>Earnings that moved the market</h2>
-        <p class="sub">The latest big reports and what they meant for NQ.</p>
-        <div class="earn-list" id="earn-recent"></div>
-      </div>
-      <div class="card">
-        <h2>Big earnings coming up</h2>
-        <p class="sub">AMC = after the close, BMO = before the open.</p>
-        <div class="earn-list" id="earn"></div>
-      </div>
+    <div class="card">
+      <h2>Earnings that moved the market</h2>
+      <p class="sub">The latest big reports and what they meant for NQ.</p>
+      <div class="earn-list" id="earn-recent"></div>
     </div>
+  </section>
 
+  <!-- EARNINGS -->
+  <section id="earnings" role="tabpanel" aria-labelledby="tab-earn" hidden style="display:grid;gap:16px">
+    <div class="card">
+      <h2>Big earnings coming up</h2>
+      <p class="sub">AMC = after the close, BMO = before the open.</p>
+      <div class="earn-list" id="earn"></div>
+    </div>
+  </section>
+
+  <!-- X PULSE -->
+  <section id="xpulse" role="tabpanel" aria-labelledby="tab-x" hidden style="display:grid;gap:16px">
     <div class="card">
       <h2>Grok / X pulse</h2>
       <p class="sub">What traders on X are saying about NQ.</p>
@@ -562,12 +570,25 @@ textarea::placeholder { color: #8aa3c4; }
   const price = new Intl.NumberFormat('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 
   // Tabs
-  const tabs = { desk: $('tab-desk'), accountability: $('tab-acc'), journal: $('tab-jr'), calendar: $('tab-cal'), spending: $('tab-sp') };
+  const tabs = { desk: $('tab-desk'), earnings: $('tab-earn'), xpulse: $('tab-x'), accountability: $('tab-acc'), journal: $('tab-jr'), calendar: $('tab-cal'), spending: $('tab-sp') };
   const show = (name) => {
-    for (const [k, b] of Object.entries(tabs)) { b.setAttribute('aria-selected', String(k === name)); $(k).hidden = k !== name; }
+    for (const [k, b] of Object.entries(tabs)) {
+      const on = k === name;
+      b.setAttribute('aria-selected', String(on));
+      $(k).hidden = !on;
+      if (on && b.parentElement) {
+        const nav = b.parentElement;
+        const left = b.offsetLeft;
+        const right = left + b.offsetWidth;
+        if (left < nav.scrollLeft) nav.scrollLeft = Math.max(0, left - 6);
+        else if (right > nav.scrollLeft + nav.clientWidth) nav.scrollLeft = right - nav.clientWidth + 6;
+      }
+    }
     try { localStorage.setItem('nqdesk-tab', name); } catch (e) {}
   };
   tabs.desk.addEventListener('click', () => show('desk'));
+  tabs.earnings.addEventListener('click', () => show('earnings'));
+  tabs.xpulse.addEventListener('click', () => show('xpulse'));
   tabs.accountability.addEventListener('click', () => show('accountability'));
   tabs.journal.addEventListener('click', () => show('journal'));
   tabs.calendar.addEventListener('click', () => show('calendar'));
