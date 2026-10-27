@@ -1,15 +1,15 @@
 {
-  "at": "2026-10-27T13:24:00Z",
-  "pulse": "US futures higher as Iran de-escalation signals and Anthropic AI financing lift risk appetite ahead of the FOMC meeting.",
-  "bias": "risk-on \u2014 futures bid on hopes Iran talks end hostilities and oil softens, with AI capex news supporting tech into Fed and earnings.",
+  "at": "2026-10-27T20:16:00Z",
+  "pulse": "Nasdaq and S&P close higher led by AI/chip rebound as oil slips below $100 on Iran diplomacy hopes ahead of FOMC.",
+  "bias": "risk-on — tech and semis driving gains with softer oil supporting risk appetite into Fed hold and Mag7 earnings.",
   "items": [
-    "K9Aasim (~9:24 ET): US futures surging, ES +0.40% NQ +0.60% after Iran security chief met Khamenei to discuss ending the war.",
-    "aspire_investin (~9:10 ET): Khamenei calls for end to neither-war-nor-peace if Iran conditions met; SPX futures +0.3%, oil down 1%.",
-    "L. Barrin Standard (~9:19 ET): Futures rising and oil falling on Iran; Broadcom $63B Anthropic compute deal, Fed two-day meeting starts.",
-    "TradeWithKelin (~6:57 ET): ES +0.3% NQ +0.5% on Khamenei terms to end war; WTI ~$101, FOMC starts today decision Wed, MU joins $1T club.",
-    "Stellium Tape (~9:24 ET): Oil quiet pre-bell, WTI ~$101.12 (-0.13%), Brent ~$110.14."
+    "Trade With Nori (~4:15 ET): Nasdaq Comp +1.18%, S&P +0.60%, SOXX +3.91%, WTI $99.98 -1.75%, VIX -4.7%; chips rebound on AI optimism, Fed tomorrow.",
+    "Kevin Omen (~4:16 ET): Nasdaq up 1.18% and VIX falling nearly 4.7%, tech shares driving strong rally.",
+    "xtrsk capital (~4:16 ET): Brent -1.67% to $113.88, WTI ~$99.90; Energy Sec on Iran war timing and Hormuz flows.",
+    "WOLF_Financial (~4:15 ET): ~200k Robinhood customers opened AI agent trading accounts driving $1.6B volume.",
+    "Market close notes: Oil below $100 on Khamenei conditions to end neither-war-nor-peace; 10Y near 5%."
   ],
-  "trump": "none",
-  "watch": "FOMC decision and guidance Wednesday 2PM ET; Iran headline follow-through and oil near $100; Mag7 earnings (MSFT/GOOGL) and AI sentiment.",
+  "trump": "\"decision time\" on Iran: deal or finish it off (Sunday Fox comments).",
+  "watch": "Wednesday FOMC decision and Warsh presser at 2PM ET; MSFT/GOOGL earnings AMC; Iran/oil headlines near $100.",
   "forSite": []
 }
