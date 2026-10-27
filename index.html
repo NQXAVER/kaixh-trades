@@ -259,6 +259,19 @@ textarea::placeholder { color: #8aa3c4; }
 .sq.None, .cal .chip.None { background: #5b3f8c; color: #f3f3f3; }
 .sq { width: auto; min-width: 30px; padding: 0 4px; }
 @media (max-width: 420px) { .wday { grid-template-columns: 1fr; gap: 4px; } .q-text { font-size: 18px; } }
+.sp-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 160px), 1fr)); gap: 12px; }
+.sp-stat { background: var(--panel); border: 1px solid var(--line); border-radius: var(--r); padding: 14px; display: grid; gap: 4px; }
+.sp-stat b { font: 600 22px var(--mono); }
+.sp-stat span { color: var(--muted); font-size: 12px; }
+.sp-stat.bad b { color: #e07a70; } .sp-stat.good b { color: #5cc98a; }
+.sp-bars { display: grid; gap: 6px; }
+.sp-bar { display: grid; grid-template-columns: 70px 1fr 80px; gap: 10px; align-items: center; font-size: 13px; }
+.sp-bar i { display: block; height: 14px; border-radius: 4px; background: #8a3b35; min-width: 2px; }
+.sp-bar em { font-style: normal; text-align: right; font-family: var(--mono); }
+.sp-list { display: grid; gap: 6px; }
+.sp-row { display: grid; grid-template-columns: 96px 1fr auto; gap: 10px; align-items: center; padding: 8px 10px; border: 1px solid var(--line); border-radius: 10px; background: var(--inner); font-size: 13px; }
+.sp-row .amt { font-family: var(--mono); }
+.sp-row small { display: block; color: var(--muted); font-size: 11px; }
 </style>
 </head>
 <body>
@@ -283,6 +296,7 @@ textarea::placeholder { color: #8aa3c4; }
     <button role="tab" id="tab-acc" aria-selected="false" aria-controls="accountability">Accountability</button>
     <button role="tab" id="tab-jr" aria-selected="false" aria-controls="journal">Notion Journal</button>
     <button role="tab" id="tab-cal" aria-selected="false" aria-controls="calendar">Calendar</button>
+    <button role="tab" id="tab-sp" aria-selected="false" aria-controls="spending">Spending</button>
   </nav>
 
   <!-- DESK -->
@@ -433,6 +447,21 @@ textarea::placeholder { color: #8aa3c4; }
   </section>
 
   <!-- CALENDAR -->
+  <section id="spending" role="tabpanel" aria-labelledby="tab-sp" hidden style="display:grid;gap:16px">
+    <div class="card brief center">
+      <p class="q-label">Account spending</p>
+      <p class="take">My rule: no new eval or reset purchases. Trade the XFA only, NY session only.</p>
+      <p class="sub" id="sp-streak"></p>
+    </div>
+    <div class="sp-stats" id="sp-stats"></div>
+    <div class="sp-bars" id="sp-bars" hidden></div>
+    <div class="card">
+      <h2 id="sp-title">Lucid purchases this month</h2>
+      <p class="sub" id="sp-note">Read from your purchase emails.</p>
+      <div class="sp-list" id="sp-list"><p class="empty">Loading…</p></div>
+    </div>
+  </section>
+
   <section id="calendar" role="tabpanel" aria-labelledby="tab-cal" hidden style="display:grid;gap:16px">
     <div class="card">
       <div class="dayhead">
@@ -483,7 +512,7 @@ textarea::placeholder { color: #8aa3c4; }
   const price = new Intl.NumberFormat('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 
   // Tabs
-  const tabs = { desk: $('tab-desk'), accountability: $('tab-acc'), journal: $('tab-jr'), calendar: $('tab-cal') };
+  const tabs = { desk: $('tab-desk'), accountability: $('tab-acc'), journal: $('tab-jr'), calendar: $('tab-cal'), spending: $('tab-sp') };
   const show = (name) => {
     for (const [k, b] of Object.entries(tabs)) { b.setAttribute('aria-selected', String(k === name)); $(k).hidden = k !== name; }
     try { localStorage.setItem('nqdesk-tab', name); } catch (e) {}
@@ -492,6 +521,7 @@ textarea::placeholder { color: #8aa3c4; }
   tabs.accountability.addEventListener('click', () => show('accountability'));
   tabs.journal.addEventListener('click', () => show('journal'));
   tabs.calendar.addEventListener('click', () => show('calendar'));
+  tabs.spending.addEventListener('click', () => show('spending'));
   const h = location.hash.slice(1);
   let start = 'desk';
   if (h in tabs) start = h; else { try { start = localStorage.getItem('nqdesk-tab') || 'desk'; } catch (e) {} }
@@ -764,7 +794,8 @@ textarea::placeholder { color: #8aa3c4; }
     { id: 'protected_stop', label: 'Stop at a protected high or low' },
     { id: 'external_be', label: 'Break-even at external highs or lows, not internal' },
     { id: 'htf_bias', label: 'Bias matched the current HTF narrative', hint: 'Re-checked after any HTF flip, not married to an old bias' },
-    { id: 'setup_not_pnl', label: 'Traded the setup, not the P&L' }
+    { id: 'setup_not_pnl', label: 'Traded the setup, not the P&L' },
+    { id: 'ny_only', label: 'Traded NY session only', hint: 'No Asia or London trades' }
   ];
   let ruleDocs = {};
   const renderRules = () => {
@@ -1109,8 +1140,35 @@ textarea::placeholder { color: #8aa3c4; }
     lastDirs[dir] = out;
     return out;
   };
+  const money = (n) => { const v = Math.round(Number(n) * 100) / 100; return '$' + v.toLocaleString('en-US', { minimumFractionDigits: v % 1 ? 2 : 0, maximumFractionDigits: 2 }); };
+  const renderSpend = (sp) => {
+    if (!sp || !$('sp-list')) return;
+    const today0 = etDate(); const all = (sp.items || []).filter((x) => /lucid/i.test(x.firm || '')).sort((a, b) => String(b.date).localeCompare(String(a.date))); const items = all.filter((x) => String(x.date).startsWith(today0.slice(0, 7)));
+    const paid = (x) => (typeof x.paid === 'number' ? x.paid : 0);
+    const today = etDate(); const ym = today.slice(0, 7);
+    const total = items.reduce((t, x) => t + paid(x), 0);
+    const month = items.filter((x) => String(x.date).startsWith(ym)).reduce((t, x) => t + paid(x), 0);
+    const monthN = items.filter((x) => String(x.date).startsWith(ym)).length;
+    const last = all[0] ? all[0].date : null;
+    const days = last ? Math.round((Date.parse(today + 'T12:00:00Z') - Date.parse(last + 'T12:00:00Z')) / 86400000) : null;
+    const st = $('sp-stats'); st.replaceChildren();
+    const stat = (v, l, cls) => { const d = el('div', 'sp-stat' + (cls ? ' ' + cls : '')); d.append(el('b', null, v), el('span', null, l)); st.append(d); };
+    stat(money(month), 'Spent on Lucid in ' + pretty(today0.slice(0, 7) + '-15', { month: 'long' }), month > 0 ? 'bad' : 'good');
+    stat(String(items.length), items.length === 1 ? 'Account bought this month' : 'Accounts bought this month', items.length ? 'bad' : 'good');
+    stat(days === null ? '—' : days + (days === 1 ? ' day' : ' days'), 'Since your last purchase', days !== null && days >= 7 ? 'good' : 'bad');
+    $('sp-streak').textContent = last ? 'Last purchase: ' + pretty(last) + (all[0].product ? ' · ' + all[0].firm + ' ' + all[0].product : '') + '. Every day without buying an account is a win.' : 'No purchases found.';
+    const by = {}; items.forEach((x) => { const k = String(x.date).slice(0, 7); by[k] = (by[k] || 0) + paid(x); });
+    const ks = Object.keys(by).sort().reverse().slice(0, 12); const mx = Math.max(1, ...ks.map((k) => by[k]));
+    const bars = $('sp-bars'); bars.replaceChildren();
+    ks.forEach((k) => { const r = el('div', 'sp-bar'); const i = el('i'); i.style.width = Math.round((by[k] / mx) * 100) + '%'; const w = el('div'); w.append(i); r.append(el('span', null, pretty(k + '-15', { month: 'short', year: 'numeric' })), w, el('em', null, money(by[k]))); bars.append(r); });
+    $('sp-note').textContent = 'Read from your Lucid order emails. Prices before tax. Resets on the 1st of every month.';
+    const l = $('sp-list'); l.replaceChildren();
+    items.forEach((x) => { const r = el('div', 'sp-row'); const n = el('div'); n.append(document.createTextNode(x.firm + ' · ' + (x.product || ''))); if (x.discount) n.append(el('small', null, 'List ' + money(x.price) + ', discount ' + money(x.discount))); r.append(el('span', null, pretty(x.date, { month: 'short', day: 'numeric', year: 'numeric' })), n, el('span', 'amt', typeof x.paid === 'number' ? money(x.paid) : 'price not in email')); l.append(r); });
+    if (!items.length) l.append(el('p', 'empty', 'No Lucid purchases this month. Keep it that way.')); if ($('sp-title')) $('sp-title').textContent = 'Lucid purchases in ' + pretty(today0.slice(0, 7) + '-15', { month: 'long', year: 'numeric' });
+  };
   const loadAll = async () => {
     try { const dsk = await readFile('data/desk/today.json'); const gk = await readFile('data/desk/grok.json').catch(() => null); if (dsk && gk && (!dsk.grok || !dsk.grok.at || String(gk.at || '') >= String(dsk.grok.at))) dsk.grok = gk; renderDesk(dsk || (gk ? { grok: gk } : null)); } catch (e) { $('stamp').textContent = 'Couldn’t load the news. Reload the page.'; }
+    try { renderSpend(await readFile('data/spend/purchases.json')); } catch (e) {}
     treeP = null;
     const [rl, hb, rv, dd, jr] = await Promise.all(['rules', 'habits', 'reviews', 'deskdays', 'journal'].map((d) => loadDir(d).catch(() => ({}))));
     // anything saved on this device but not yet on GitHub wins
