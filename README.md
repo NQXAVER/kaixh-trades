@@ -32,7 +32,8 @@ Weekdays, every 30 minutes from 09:00–23:59 UTC (about 5 AM–8 PM ET in dayli
 Each headline is tagged with the lists in `data/desk/news-rules.json`:
 
 - **Section.** The keyword group with the highest score wins (Geopolitics / War, Fed and Rates, Economic Data, Mega-cap Tech and Earnings, Energy and Oil, or Other Markets). Ties break in that priority order: war, then economic data, then the Fed, then energy, then tech, then other markets.
-- **Impact.** High if the headline hits a tier-1 word (FOMC, CPI, PCE, payrolls, GDP, missiles, Hormuz, a ceasefire, and similar), an oil-shock pair (oil or Brent plus jump, plunge, attack, or fire), or a mega-cap name plus earnings, guidance, or IPO. War plus "nuclear" is also High. Fed, war, economic-data, and energy headlines that are not High are Medium. Everything else kept is Low.
-- **Risk lean.** risk-off and risk-on phrases are counted separately. One side produces that lean. Both produce mixed. Neither produces no lean.
+- **Impact.** High if the headline hits a tier-1 word (FOMC, CPI, PCE, payrolls, GDP, missiles, Hormuz, a ceasefire, and similar), an oil-shock pair (oil or Brent plus jump, plunge, attack, or fire), or a mega-cap name plus earnings, guidance, or IPO. War plus "nuclear" is also High. Fed, war, economic-data, and energy headlines that matched a keyword and are not High are Medium. Everything else is Low.
+- **What the Desk shows.** High and Medium headlines, plus an earnings report from a company that matters to NQ (that report is shown as Medium if it would otherwise be Low). Low-impact lines, generic stories, and items with no market link are left out of the list. They are not deleted from `today.json`. The next feed refresh also leaves them out of `feed.json`.
+- **Direction for NQ.** risk-off and risk-on phrases are counted separately. One side is Bearish or Bullish. Both is Mixed. Neither is Unclear. The words stored in the feed stay `risk-off`, `risk-on`, and `mixed`.
 
 Those tags are an automatic guess, not advice. A headline Claude already rated keeps Claude's impact. The Grok pulse, economic calendar, earnings, and live NQ/ES quote are unchanged.

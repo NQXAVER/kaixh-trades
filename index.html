@@ -301,6 +301,7 @@ textarea::placeholder { color: #8aa3c4; }
 .pill.lean-off { background: #a3302a; color: #f3f3f3; }
 .pill.lean-on { background: #1e7a45; color: #f3f3f3; }
 .pill.lean-mix { background: #b8961e; color: #1b1b1b; }
+.pill.lean-unclear { background: #3d4f68; color: #d5e2f2; }
 .pill.new { background: #3d8bff; color: #ffffff; }
 @media (min-width: 840px) { .news-list { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 640px) {
@@ -392,7 +393,7 @@ textarea::placeholder { color: #8aa3c4; }
       <div class="news-head">
         <div>
           <h2>Market news</h2>
-          <p class="sub" id="news-sub">Grouped for NQ. Headlines refresh on their own through the US session, and less often overnight and on weekends. Claude's desk notes stay in the list. Impact and the risk-on / risk-off lean are an automatic keyword guess, not advice.</p>
+          <p class="sub" id="news-sub">Grouped for NQ. Earnings reports and headlines that can move the market. Bullish, Bearish, Mixed, and Unclear are a keyword guess for NQ, not advice.</p>
         </div>
         <p class="sub" id="news-updated"></p>
       </div>
@@ -649,6 +650,21 @@ textarea::placeholder { color: #8aa3c4; }
     if (on) return 'risk-on';
     return '';
   };
+  const nqEarnings = (text, rules) => {
+    const names = (rules && (rules.nqNames || (rules.highCap || {}).names)) || [];
+    const events = (rules && rules.earningsEvents) || ['earnings', 'guidance', 'results', 'eps', 'revenue', 'profit'];
+    return anyHit(text, names) && anyHit(text, events);
+  };
+  // High and Medium stay. Low stays only for an NQ earnings report.
+  // Claude's High/Medium flag is kept. A Desk note with no market impact uses the same rule.
+  const forDesk = (row, rules) => {
+    const text = String(row.headline || '').toLowerCase().replace(/[’‘]/g, "'");
+    const impact = row.impact || '';
+    if (!row.auto && (impact === 'High' || impact === 'Medium')) return row;
+    if (impact === 'High' || impact === 'Medium') return row;
+    if (nqEarnings(text, rules)) return Object.assign({}, row, { impact: 'Medium' });
+    return null;
+  };
   const normImpact = (v) => {
     const t = String(v || '').toLowerCase();
     return t === 'high' ? 'High' : t === 'medium' ? 'Medium' : t === 'low' ? 'Low' : '';
@@ -696,8 +712,8 @@ textarea::placeholder { color: #8aa3c4; }
       out.push(row);
       norms.push(n);
     };
-    (claude || []).forEach((row) => push(tagRow(row, rules, false)));
-    ((feed && feed.items) || []).forEach((row) => push(tagRow(row, rules, true)));
+    (claude || []).forEach((row) => { const tagged = forDesk(tagRow(row, rules, false), rules); if (tagged) push(tagged); });
+    ((feed && feed.items) || []).forEach((row) => { const tagged = forDesk(tagRow(row, rules, true), rules); if (tagged) push(tagged); });
     return out;
   };
   const newsId = (row) => row.id || ('c:' + normHead(row.headline));
@@ -719,12 +735,21 @@ textarea::placeholder { color: #8aa3c4; }
     return at.toLocaleString('en-US', { timeZone: 'America/New_York', weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' }) + ' ET';
   };
   const withEt = (time) => !time ? '' : (/\bet\b/i.test(time) ? time : time + ' ET');
+  const normLean = (lean) => {
+    const t = String(lean || '').toLowerCase();
+    if (t === 'risk-on' || t === 'bullish') return 'bullish';
+    if (t === 'risk-off' || t === 'bearish') return 'bearish';
+    if (t === 'mixed') return 'mixed';
+    return '';
+  };
   const leanPill = (lean) => {
-    if (lean !== 'risk-off' && lean !== 'risk-on' && lean !== 'mixed') return null;
-    const label = lean === 'risk-off' ? 'Risk-off' : lean === 'risk-on' ? 'Risk-on' : 'Mixed';
-    const cls = lean === 'risk-off' ? 'lean-off' : lean === 'risk-on' ? 'lean-on' : 'lean-mix';
+    const n = normLean(lean);
+    let label = 'Unclear', cls = 'lean-unclear', title = 'Unclear for NQ. No clear bullish or bearish keyword. Not advice.';
+    if (n === 'bullish') { label = 'Bullish'; cls = 'lean-on'; title = 'Bullish for NQ. Keyword guess, not advice.'; }
+    else if (n === 'bearish') { label = 'Bearish'; cls = 'lean-off'; title = 'Bearish for NQ. Keyword guess, not advice.'; }
+    else if (n === 'mixed') { label = 'Mixed'; cls = 'lean-mix'; title = 'Mixed for NQ. Both bullish and bearish keywords. Not advice.'; }
     const pill = el('span', 'pill ' + cls, label);
-    pill.title = 'Automatic keyword guess, not advice';
+    pill.title = title;
     return pill;
   };
   const newsCard = (row, isNew) => {
@@ -792,7 +817,7 @@ textarea::placeholder { color: #8aa3c4; }
       }
       board.append(block);
     });
-    if (!any) board.append(el('p', 'empty', 'No headlines yet.'));
+    if (!any) board.append(el('p', 'empty', 'No market-moving headlines right now.'));
   };
   const sentiment = (s) => { const t = String(s || '').toLowerCase(); return t.startsWith('bull') ? 'bull' : t.startsWith('bear') ? 'bear' : 'neutral'; };
   const weekStart = (d) => {

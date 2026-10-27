@@ -1,5 +1,5 @@
 {
-  "disclaimer": "Impact and the risk-on / risk-off lean are an automatic keyword guess, not trading advice.",
+  "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
   "priority": ["war", "econ", "fed", "energy", "tech", "markets"],
   "display": [
     {"id": "war", "label": "Geopolitics / War", "short": "War"},
@@ -115,6 +115,13 @@
     "names": ["nvidia", "nvda", "apple", "aapl", "microsoft", "msft", "amazon", "amzn", "alphabet", "google", "googl", "meta", "tesla", "tsla", "broadcom", "avgo", "anthropic"],
     "events": ["earnings", "guidance", "revenue", "profit", "results", "eps", "ipo"]
   },
+  "nqNames": [
+    "nvidia", "nvda", "apple", "aapl", "microsoft", "msft", "amazon", "amzn",
+    "alphabet", "google", "googl", "meta", "tesla", "tsla", "broadcom", "avgo",
+    "amd", "netflix", "nflx", "asml", "tsm", "tsmc", "qualcomm", "qcom",
+    "anthropic", "intel", "intc", "micron", "mu"
+  ],
+  "earningsEvents": ["earnings", "guidance", "results", "eps", "revenue", "profit", "outlook", "ipo"],
   "mediumAny": [
     "earnings", "guidance", "revenue", "semiconductor", "semiconductors", "inflation",
     "treasury", "yield", "yields", "sanction", "sanctions", "opec", "nasdaq", "vix",
