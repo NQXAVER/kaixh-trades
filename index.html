@@ -242,6 +242,8 @@ textarea::placeholder { color: #8aa3c4; }
 .evt { font: 600 13px var(--mono); }
 .evn { font-weight: 600; }
 .earn-list { display: grid; gap: 8px; }
+.earn-panes .earn-list { max-height: min(62vh, 560px); overflow-y: auto; overscroll-behavior: contain; scrollbar-width: thin; scrollbar-color: #6f8fb8 transparent; padding-right: 2px; }
+@media (max-width: 700px) { .earn-panes .earn-list { max-height: 52vh; } }
 .earn { border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; background: var(--inner); display: grid; gap: 3px; }
 .earn-top { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
 .earn-why { font-size: 13px; color: #dbe5f3; }
@@ -402,19 +404,21 @@ textarea::placeholder { color: #8aa3c4; }
       <div class="news-board" id="news-board"><p class="empty">Loading…</p></div>
     </div>
 
-    <div class="card">
-      <h2>Earnings that moved the market</h2>
-      <p class="sub">The latest big reports and what they meant for NQ.</p>
-      <div class="earn-list" id="earn-recent"></div>
-    </div>
   </section>
 
   <!-- EARNINGS -->
   <section id="earnings" role="tabpanel" aria-labelledby="tab-earn" hidden style="display:grid;gap:16px">
-    <div class="card">
-      <h2>Big earnings coming up</h2>
-      <p class="sub">AMC = after the close, BMO = before the open.</p>
-      <div class="earn-list" id="earn"></div>
+    <div class="grid earn-panes">
+      <div class="card">
+        <h2>Big earnings coming up</h2>
+        <p class="sub">AMC = after the close, BMO = before the open.</p>
+        <div class="earn-list" id="earn"></div>
+      </div>
+      <div class="card">
+        <h2>Earnings that moved the market</h2>
+        <p class="sub">The latest big reports and what they meant for NQ.</p>
+        <div class="earn-list" id="earn-recent"></div>
+      </div>
     </div>
   </section>
 
