@@ -1,15 +1,15 @@
 {
-  "at": "2026-10-28T02:05:51Z",
-  "pulse": "Nasdaq and S&P closed higher on AI/chip strength with oil easing below $100 on Iran de-escalation hopes, traders positioned for Wednesday's expected FOMC hold and Mag7 earnings.",
-  "bias": "risk-on — tech rebound and softer oil supporting risk appetite into Fed decision and Big Tech prints.",
+  "at": "2026-10-28T11:01:20Z",
+  "pulse": "Mixed pre-FOMC tape as AI/chip momentum (Anthropic financing, SK Hynix, Broadcom) sustains Nasdaq after Tuesday gains while oil rebounds above $115 on renewed Middle East tensions offsets risk appetite.",
+  "bias": "mixed — tech/AI strength supports risk but rising oil, geopolitical headlines, and potential hawkish Fed guidance create caution into the decision.",
   "items": [
-    "Market close (~4:00 PM ET): Nasdaq Comp +1.18% to ~26,478, S&P +0.60% to ~7,723; chips (AVGO, AMD, MU) led gains, WTI settled ~$99.90 on Iran talks.",
-    "Barchart (~6:27 AM ET): U.S. futures climb as oil falls on Iran peace hopes, chip stocks extend gains; FOMC meeting on tap.",
-    "Xpress (~1:23 PM ET): S&P +0.42%, Nasdaq 100 +0.92%, Dec ES +0.50%; crude eased as markets await FOMC.",
-    "Federal Reserve: Two-day FOMC underway (Oct 27-28), decision Wed 2:00 PM ET with Warsh presser 2:30; hold expected (~90%), low hike odds.",
-    "AFP/Trump (~10:05 PM ET): Trump rolls back Biden-era methane rules on oil and gas producers to unlock more production."
+    "Grok (~4:51 AM ET): AI momentum driver via Broadcom $63B Anthropic chip deal + SK Hynix; futures mixed as rising oil from ME tensions offsets tech; Fed hold 2pm ET then MSFT/GOOGL AMC.",
+    "WorldOrderWatcher (~5:39 AM ET): Yesterday Nasdaq +1.2% on AI heat/Broadcom; today oil snaps >$115 on Houthi Ras Tanura strike claim; India markets under pressure.",
+    "SPXSniper (~7:00 AM ET): FOMC Wednesday + major earnings; rates expected unchanged but Warsh comments/guidance the real mover; expect volatility and trade the reaction.",
+    "InvestAlphaPro (Tue close ~5:52 PM ET): AI trade runs back, Nasdaq +1.18%/S&P +0.60%; oil WTI -1.8% to ~$99.90 on Iran talks; Fed 93% hold, Dec hike odds 73%.",
+    "QuantAlgo: NQ/ES extending recovery toward 29.9k/7.76k on AI/Anthropic optimism; real test Fed decision + MSFT/GOOGL earnings; CL cooling then rebounding near $100-115."
   ],
-  "trump": "Rolls back methane emissions rules for oil/gas to boost output and save costs; prior comments on Iran 'decision time' (deal or finish it) and Venezuelan oil access.",
-  "watch": "Wednesday 2:00 PM ET FOMC decision (hold expected) and Warsh presser at 2:30; MSFT/GOOGL earnings AMC; any Iran/oil headline shifts near $100; overnight AMC reports (NXPI/STX/HOOD/TER/V).",
+  "trump": "Recent methane rule rollback for oil/gas producers to boost output; prior 'decision time' on Iran deal or resume attacks amid ongoing conflict and midterms context.",
+  "watch": "2:00 PM ET FOMC decision (hold expected at 3.75-4%) + Warsh presser 2:30; MSFT/GOOGL earnings AMC; oil/Iran/Saudi/Houthi headlines; any post-midterm policy shifts.",
   "forSite": []
 }
