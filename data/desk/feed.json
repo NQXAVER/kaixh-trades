@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T23:04:01Z",
+  "updatedAt": "2026-10-28T02:31:32Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -324,6 +324,18 @@
       "auto": true
     },
     {
+      "id": "f8fe07406e64a",
+      "headline": "Australia’s inflation rate rises to 4.3%, fuelling fears of fifth interest rate hike this year",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/australia-news/2026/oct/28/inflation-rate-australia-2026-number-data-consumer-price-index-cpi-release",
+      "publishedAt": "2026-10-28T02:17:32Z",
+      "time": "Tue 10:17 PM",
+      "section": "fed",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
       "id": "f3921f7549ee3",
       "headline": "Fed expected to hold rates steady, but Warsh may point way to more hikes",
       "source": "CNBC",
@@ -436,8 +448,8 @@
       "headline": "Anthropic's IPO is risky business",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/10/27/anthropic-five-surprising-risks-s1.html",
-      "publishedAt": "2026-10-27T21:17:27Z",
-      "time": "Tue 5:17 PM",
+      "publishedAt": "2026-10-28T00:43:59Z",
+      "time": "Tue 8:43 PM",
       "section": "tech",
       "impact": "High",
       "lean": null,
@@ -576,6 +588,18 @@
       "auto": true
     },
     {
+      "id": "f7f8487601894",
+      "headline": "Trump shows off tanker with ‘1m barrels of oil’ and floats Venezuela as 51st state",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/us-news/2026/oct/27/trump-oil-tanker-venezuela",
+      "publishedAt": "2026-10-27T23:07:06Z",
+      "time": "Tue 7:07 PM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "f40a60c74e54d",
       "headline": "Trump administration may let more Russian diesel onto market, energy secretary tells CNBC",
       "source": "CNBC",
@@ -590,6 +614,18 @@
     {
       "id": "f70937d62e010",
       "headline": "Trump showcases Venezuelan oil as he seeks to rally voters in Texas",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/27/trump-showcases-venezuelan-oil-as-he-seeks-to-rally-voters-in-texas?traffic_source=rss",
+      "publishedAt": "2026-10-27T21:28:33Z",
+      "time": "Tue 5:28 PM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": "risk-on",
+      "auto": true
+    },
+    {
+      "id": "fd072ef84ec47",
+      "headline": "Trump touts Venezuelan oil at Texas rally ahead of US midterms",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/10/27/trump-showcases-venezuelan-oil-as-he-seeks-to-rally-voters-in-texas?traffic_source=rss",
       "publishedAt": "2026-10-27T21:28:33Z",
@@ -642,30 +678,6 @@
       "url": "https://oilprice.com/Latest-Energy-News/World-News/Russias-Crude-Exports-Set-to-Fall-as-Diesel-Production-Rises.html",
       "publishedAt": "2026-10-27T18:30:00Z",
       "time": "Tue 2:30 PM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "ffa6f6736e470",
-      "headline": "Saudi Aramco Offers Discounted Oil to Europe as Exports Recover",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Aramco-Offers-Discounted-Oil-to-Europe-as-Exports-Recover.html",
-      "publishedAt": "2026-10-27T17:40:00Z",
-      "time": "Tue 1:40 PM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "fb04efbd3831a",
-      "headline": "OPEC+ Set to Keep Oil Quotas Unchanged",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/OPEC-Set-to-Keep-Oil-Quotas-Unchanged.html",
-      "publishedAt": "2026-10-27T14:30:00Z",
-      "time": "Tue 10:30 AM",
       "section": "energy",
       "impact": "Medium",
       "lean": null,
