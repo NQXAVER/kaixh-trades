@@ -1147,6 +1147,40 @@ textarea::placeholder { color: #8aa3c4; }
   };
   document.addEventListener('visibilitychange', () => { if (document.hidden && document.activeElement && document.activeElement.tagName === 'TEXTAREA') document.activeElement.blur(); });
   const listEl = (arr) => { const ul = el('ul', 'fb'); (arr || []).forEach((t) => ul.append(el('li', null, t))); if (!(arr || []).length) ul.append(el('li', 'empty', 'Nothing here.')); return ul; };
+  // Keep a local answer when it is newer, or when the copy just loaded has none.
+  const answerNewer = (localQ, remoteQ) => {
+    const localAns = String((localQ && localQ.answer) || '').trim();
+    const remoteAns = String((remoteQ && remoteQ.answer) || '').trim();
+    if (!localAns) return false;
+    if (!remoteAns) return true;
+    return String((localQ && localQ.answeredAt) || '') > String((remoteQ && remoteQ.answeredAt) || '');
+  };
+  const mergeReview = (local, remote) => {
+    if (!remote) return local ? JSON.parse(JSON.stringify(local)) : null;
+    const next = JSON.parse(JSON.stringify(remote));
+    if (!local) return next;
+    const localQs = local.questions || [];
+    next.questions = (next.questions || []).map((q) => {
+      const prev = localQs.find((x) => x && q && x.q === q.q);
+      if (!prev || !answerNewer(prev, q)) return q;
+      const copy = JSON.parse(JSON.stringify(q));
+      copy.answer = prev.answer;
+      if (prev.answeredAt) copy.answeredAt = prev.answeredAt;
+      return copy;
+    });
+    const localRef = String(local.reflection || '').trim();
+    const remoteRef = String(next.reflection || '').trim();
+    if (localRef && (!remoteRef || String(local.reflectedAt || '') > String(next.reflectedAt || ''))) {
+      next.reflection = local.reflection;
+      if (local.reflectedAt) next.reflectedAt = local.reflectedAt;
+    }
+    return next;
+  };
+  const mergeReviewMaps = (localMap, remoteMap) => {
+    const out = Object.assign({}, remoteMap || {});
+    Object.keys(localMap || {}).forEach((date) => { out[date] = mergeReview(localMap[date], out[date]); });
+    return out;
+  };
   const card = (title, cls) => { const c = el('div', 'card' + (cls ? ' ' + cls : '')); if (title) c.append(el('h2', null, title)); return c; };
   const buildReview = (r, prefix) => {
     const wrap = el('div'); wrap.style.cssText = 'display:grid;gap:16px';
@@ -1165,13 +1199,23 @@ textarea::placeholder { color: #8aa3c4; }
       const ta = el('textarea'); ta.id = prefix + '-a-' + r.date + '-' + i; ta.value = q.answer || ''; ta.placeholder = 'Explain it in your own words…'; ta.disabled = !db || !canWrite;
       const btn = el('button', null, q.answer ? 'Update answer' : 'Send answer'); btn.type = 'button'; btn.disabled = !db || !canWrite;
       const st = el('span', 'saved');
-      btn.addEventListener('click', () => {
+      btn.addEventListener('click', async () => {
         const v = ta.value.trim().slice(0, 3000); if (!v) return;
-        const cur = reviewsByDate[r.date] || r;
-        const next = JSON.parse(JSON.stringify(cur)); if (!next.questions[i]) return;
-        next.questions[i].answer = v; next.questions[i].answeredAt = new Date().toISOString();
+        const qText = (r.questions[i] && r.questions[i].q) || '';
+        const answeredAt = new Date().toISOString();
         btn.disabled = true;
-        (reviewsByDate[r.date] = next, db.doc('reviews/' + r.date).set(next)).then(() => { st.textContent = 'Saved ✓ I’ll reply at the next review.'; ta.dataset.saved = v; clearDraft(ta); btn.disabled = false; btn.textContent = 'Update answer'; }).catch(() => { st.textContent = 'Couldn’t save. Try again.'; btn.disabled = false; });
+        try {
+          let fresh = null;
+          try { fresh = await readFreshJson('data/reviews/' + r.date + '.json'); } catch (e) { fresh = null; }
+          const base = mergeReview(reviewsByDate[r.date] || r, fresh || reviewsByDate[r.date] || r);
+          const next = JSON.parse(JSON.stringify(base));
+          const slot = (next.questions || []).find((q) => q && q.q === qText) || (next.questions || [])[i];
+          if (!slot) { btn.disabled = false; return; }
+          slot.answer = v; slot.answeredAt = answeredAt;
+          reviewsByDate[r.date] = next;
+          await db.doc('reviews/' + r.date).set(next);
+          st.textContent = 'Saved ✓ I’ll reply at the next review.'; ta.dataset.saved = v; clearDraft(ta); btn.disabled = false; btn.textContent = 'Update answer';
+        } catch (e) { st.textContent = 'Couldn’t save. Try again.'; btn.disabled = false; }
       });
       ta.dataset.saved = q.answer || ''; autoSave(ta, btn, st);
       d.append(ta, btn, st);
@@ -1320,6 +1364,17 @@ textarea::placeholder { color: #8aa3c4; }
   const b64 = (str) => btoa(unescape(encodeURIComponent(str)));
   const unb64 = (s) => decodeURIComponent(escape(atob(s.replace(/\n/g, ''))));
   const shas = {};
+  // Contents API returns the bytes and the version id together, so a save
+  // never pairs a cached body with a newer id.
+  const readFreshJson = async (path) => {
+    const r = await api(`/repos/${GH.owner}/${GH.repo}/contents/${path}?ref=${GH.branch}`);
+    if (r.status === 404) return null;
+    if (!r.ok) throw new Error('read ' + r.status);
+    const j = await r.json();
+    if (!j.content) return null;
+    shas[path] = j.sha;
+    return JSON.parse(unb64(j.content));
+  };
   const readFile = async (path) => {
     if (getToken() && !badKey) {
       const r = await api(`/repos/${GH.owner}/${GH.repo}/contents/${path}?ref=${GH.branch}`);
@@ -1428,16 +1483,20 @@ textarea::placeholder { color: #8aa3c4; }
 
   // ---------- Load data ----------
   let treeP = null; const lastDirs = {};
-  const getTree = () => (treeP = treeP || api(`/repos/${GH.owner}/${GH.repo}/git/trees/${GH.branch}?recursive=1`).then((r) => (r.ok ? r.json() : Promise.reject(r.status))).then((j) => j.tree || []));
+  // One branch head per load. File bytes are read at that commit, and the
+  // version id comes from the same commit's tree, so the two cannot drift.
+  const getTree = () => (treeP = treeP || api(`/repos/${GH.owner}/${GH.repo}/commits/${GH.branch}`).then((r) => (r.ok ? r.json() : Promise.reject(r.status))).then((c) => api(`/repos/${GH.owner}/${GH.repo}/git/trees/${c.sha}?recursive=1`).then((r) => (r.ok ? r.json() : Promise.reject(r.status))).then((j) => ({ sha: c.sha, tree: j.tree || [] }))));
   const loadDir = async (dir) => {
-    let tree;
-    try { tree = await getTree(); } catch (e) { return lastDirs[dir] || {}; }
+    let pack;
+    try { pack = await getTree(); } catch (e) { return lastDirs[dir] || {}; }
+    const head = pack.sha;
+    const tree = pack.tree || [];
     const pre = 'data/' + dir + '/';
     const list = tree.filter((f) => f.type === 'blob' && f.path.startsWith(pre) && f.path.endsWith('.json') && !f.path.slice(pre.length).includes('/'));
     const out = {};
     await Promise.all(list.map(async (f) => {
       try {
-        const res = await fetch(`https://raw.githubusercontent.com/${GH.owner}/${GH.repo}/${GH.branch}/${f.path}?t=${Date.now()}`, { cache: 'no-store' });
+        const res = await fetch(`https://raw.githubusercontent.com/${GH.owner}/${GH.repo}/${head}/${f.path}`, { cache: 'no-store' });
         if (res.ok) { const v = await res.json(); shas[f.path] = f.sha; out[f.path.slice(pre.length).replace(/\.json$/, '')] = v; }
       } catch (e) {}
     }));
@@ -1702,7 +1761,7 @@ textarea::placeholder { color: #8aa3c4; }
     const typingNow = document.activeElement && /^(jr|cal)-a-|^note$/.test(document.activeElement.id || '');
     ruleDocs = rl; renderRules();
     if (!typingNow) { habitDocs = hb; renderChecks(); renderStats(); }
-    reviewsByDate = rv; deskDays = dd;
+    reviewsByDate = mergeReviewMaps(reviewsByDate, rv); deskDays = dd;
     const rows = Object.values(jr).flatMap((x) => Array.isArray(x) ? x : [x]).sort((a, b) => String(b['date:Date 1:start']).localeCompare(String(a['date:Date 1:start'])));
     renderJournal({ results: rows });
     if (!typingNow) { renderJournalTab(); renderDetail(); }
