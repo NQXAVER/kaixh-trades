@@ -1,8 +1,22 @@
 {
   "date": "2026-10-28",
-  "at": "2026-10-28T20:24:01Z",
-  "pulse": "NQ closed green for a 3rd day (Nasdaq Comp +0.21% to 26,533) on a 10-2 FOMC hold, but AH is a split Mag7 tape: MSFT +4-5% on Azure +48% vs GOOGL -7-8% on a Search/EPS miss, with 10Y ~5.03% and WTI $102.78 capping upside.",
+  "at": "2026-10-28T21:09:00Z",
+  "pulse": "NQ closed green for a 3rd day (Nasdaq Comp +0.21% to 26,533) on a 10-2 FOMC hold, but AH is a split Mag7 tape: MSFT +4% on Azure +48% vs GOOGL -8% on a Search/EPS miss, with 10Y ~5.03% and WTI $102.78 capping upside.",
   "bias": "mixed — MSFT beat and lower Mag7 capex support AI/NQ, offset by GOOGL miss, 10Y above 5%, hawkish Fed dissents (Dec hike priced) and oil +2.9% on Houthi/Saudi strike claims",
+  "earnings": [
+    {
+      "ticker": "MSFT",
+      "reaction": "+4% AH",
+      "sentiment": "Bullish",
+      "why": "Double beat (rev $92.28B, adj EPS $4.89) with Azure accelerating to +48% (ex-FX) and capex below estimates, validating AI ROI."
+    },
+    {
+      "ticker": "GOOGL",
+      "reaction": "-8% AH",
+      "sentiment": "Bearish",
+      "why": "Rev/EPS miss ($127.58B, $2.12) on Search/ads softness and equity losses; Cloud +103% and query growth strong but FCF negative on high AI capex."
+    }
+  ],
   "items": [
     "@FirstSquawk (~4:03 PM ET): Nasdaq unofficially +0.21% to 26,533, S&P +0.23% to 7,740.59, Dow +0.21% — Mixed NQ",
     "@FirstSquawk (~4:08 PM ET): MSFT cloud $63.9B vs $61.6B est, Azure ex-FX +48% vs 44.8%, capex $39.4B vs $45.9B est; stock +4-5% AH — Bullish NQ",
