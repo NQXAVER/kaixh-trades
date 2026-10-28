@@ -2,27 +2,27 @@
  "date": "2026-10-27",
  "entryUrl": "https://app.notion.com/p/40660e8f5c4580cc8937dd26fc520770",
  "summary": "Good day and a clean turnaround from Monday. Your pre-market said wait for a retrace and then long toward the 4hr UMG, and that's what you did: price pulled back into the 5min 0.5-0.618 zone at D OPEN right around 10:00, swept the internal low, and you longed off the 1min SMT with the stop under that low. One XFA account, NY-AM, logged as a win at 3.02R. The one real miss is the exit: you planned the 4hr UMG (~29,759), then cut it at NYAM.H because 1min volume faded, which AB called out too. Your own notes also show the old pull toward PNL (\"risked like 180 instead of 250\").",
- "trade": "Long \u00b7 NY-AM \u00b7 XFA x1 \u00b7 Win (3.02R) \u00b7 Entry ~29,543 just after 10:00, stop ~29,495 under the swept internal low, closed at NYAM.H (~29,688) instead of the planned 4hr UMG (~29,759)",
+ "trade": "Long · NY-AM · XFA x1 · Win (3.02R) · Entry ~29,543 just after 10:00, stop ~29,495 under the swept internal low, closed at NYAM.H (~29,688) instead of the planned 4hr UMG (~29,759)",
  "rule": "When the HTF target from pre-market is still valid, don't close early because 1min volume slows. Only exit early if price sweeps NYAM.H and then consolidates or rejects; otherwise take a partial at NYAM.H and leave the rest on the planned target.",
  "screenshots": [
   {
-   "label": "TimeFrame 1 \u00b7 4hr ES + NQ (9:27 AM)",
+   "label": "TimeFrame 1 · 4hr ES + NQ (9:27 AM)",
    "feedback": "Your fib runs from the ~30,080 high down to the ~28,975 low, and NQ is sitting right at the 0.5 with PD-H. The 29,759 line you call the 4hr UMG sits at about the 0.705, so a long to it is a long into premium of a bearish 4hr leg. That's a fair retrace target, but it explains why you got nervous holding it."
   },
   {
-   "label": "TimeFrame 2 \u00b7 1hr ES + NQ (9:27 AM)",
+   "label": "TimeFrame 2 · 1hr ES + NQ (9:27 AM)",
    "feedback": "Both ES and NQ are pushing into their PD-H at the same time, so there's no clear divergence up here yet. Price had a strong bullish leg off PD-EQ overnight, which matches your note that last night gave another bullish leg. A retrace before continuation was a reasonable read."
   },
   {
-   "label": "TimeFrame 3 \u00b7 15m ES + NQ (9:27 AM)",
+   "label": "TimeFrame 3 · 15m ES + NQ (9:27 AM)",
    "feedback": "NQ already took AS.H and poked above PD-H in the London/pre-market push, then dipped back under it by 9:27. D OPEN (~29,490) and LO.H are the obvious levels underneath, and that's exactly where the retrace you were waiting for ended up."
   },
   {
-   "label": "TimeFrame 4 \u00b7 5min ES + NQ (9:28 AM)",
+   "label": "TimeFrame 4 · 5min ES + NQ (9:28 AM)",
    "feedback": "Best prep chart of the day. You drew the fib on the overnight leg and shaded the 0.5-0.618 zone (~29,480-29,520) right on top of D OPEN before the open. That's a specific, pre-planned area, and price came back into it, so the entry wasn't a guess."
   },
   {
-   "label": "Execution \u00b7 1min NQ + ES (10:39 AM)",
+   "label": "Execution · 1min NQ + ES (10:39 AM)",
    "feedback": "Entry ~29,543, stop ~29,495 under the internal low that price swept right around 10:00 at the 0.618, and the position box still runs up to ~29,760, your original target. The chart backs up your notes: 0.618 held, internal low swept, ES and NQ diverged at that low (1min SMT), then a strong 1min displacement. At 10:39 price had already spiked toward NYAM.H and was at ~29,617."
   }
  ],
@@ -43,7 +43,9 @@
  ],
  "questions": [
   {
-   "q": "You wrote 'if this trade were to sweep NYAM with volume and closed strong it would've gave me more conviction to hold'. AB says it took NYAM.H and kept going. What exactly would you need to see at NYAM.H tomorrow to hold, and what would make you close?"
+   "q": "You wrote 'if this trade were to sweep NYAM with volume and closed strong it would've gave me more conviction to hold'. AB says it took NYAM.H and kept going. What exactly would you need to see at NYAM.H tomorrow to hold, and what would make you close?",
+   "answer": "well if it does not consolidate after sweeping the DOL than i can hold if theres a good HTF DOL above for us to target but today had a 4hr UMG above and OTE to hit",
+   "answeredAt": "2026-10-28T03:35:04.009Z"
   },
   {
    "q": "You're upset you risked ~$180 instead of $250 on a trade you won. If the same setup had lost, would you be glad it was $180? What does that tell you about whether size should change with how you feel?"
