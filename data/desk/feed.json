@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T13:12:42Z",
+  "updatedAt": "2026-10-28T15:48:18Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -23,7 +23,7 @@
       "id": "bbc-world",
       "label": "BBC",
       "ok": true,
-      "items": 20,
+      "items": 19,
       "error": null
     },
     {
@@ -183,9 +183,9 @@
     {
       "id": "un-peace",
       "label": "UN News",
-      "ok": false,
-      "items": 0,
-      "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+      "ok": true,
+      "items": 20,
+      "error": null
     },
     {
       "id": "wsj-biz",
@@ -504,6 +504,18 @@
       "auto": true
     },
     {
+      "id": "f199c4b1db583",
+      "headline": "Anthropic IPO filing warns some risks may be uninsurable. AI coverage will be issue for every company",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/28/anthropic-ipo-ai-risks-insurance.html",
+      "publishedAt": "2026-10-28T14:20:29Z",
+      "time": "Wed 10:20 AM",
+      "section": "tech",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "fb1a427414d6d",
       "headline": "Meta- and Google-backed Jio Platforms’ shares soar over 21% on trading debut after record IPO",
       "source": "CNBC",
@@ -600,24 +612,12 @@
       "auto": true
     },
     {
-      "id": "fedd5d2425ecd",
-      "headline": "Vertiv earnings just sent an upbeat signal about AI ahead of Big Tech results",
+      "id": "f76890150f2a9",
+      "headline": "These software stocks could be winners as earnings season kicks into high gear",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/vertiv-earnings-just-sent-an-upbeat-signal-about-ai-ahead-of-big-tech-results-5714a105?mod=mw_rss_topstories",
-      "publishedAt": "2026-10-28T12:48:00Z",
-      "time": "Wed 8:48 AM",
-      "section": "tech",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "fdb88b20f2319",
-      "headline": "Traders are betting big against this restaurant giant into earnings",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/28/traders-are-betting-big-against-chipotle-into-earnings.html",
-      "publishedAt": "2026-10-28T12:04:47Z",
-      "time": "Wed 8:04 AM",
+      "url": "https://www.marketwatch.com/story/these-software-stocks-could-be-winners-as-earnings-season-kicks-into-high-gear-8decddf7?mod=mw_rss_topstories",
+      "publishedAt": "2026-10-28T15:06:00Z",
+      "time": "Wed 11:06 AM",
       "section": "tech",
       "impact": "Medium",
       "lean": null,
@@ -672,72 +672,72 @@
       "auto": true
     },
     {
+      "id": "f0ec8bdc86489",
+      "headline": "Passengers stranded in Cambodia after cruise halted due to high fuel costs",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/travel/2026/oct/28/cruise-passengers-stranded-cambodia-suspends-operations",
+      "publishedAt": "2026-10-28T15:30:27Z",
+      "time": "Wed 11:30 AM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fe0c75c85dd81",
+      "headline": "Heating your home with oil could cost $750 more this winter. Read this before you pay the price.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/heating-your-home-with-oil-could-cost-750-more-this-winter-read-this-before-you-pay-the-price-e39f0d52?mod=mw_rss_topstories",
+      "publishedAt": "2026-10-28T15:03:00Z",
+      "time": "Wed 11:03 AM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f6fed8fe76827",
+      "headline": "US Oil Inventories Fall Again As Prices Rise",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Energy/Crude-Oil/US-Oil-Inventories-Fall-Again-As-Prices-Rise.html",
+      "publishedAt": "2026-10-28T14:44:00Z",
+      "time": "Wed 10:44 AM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fb959b086df5e",
+      "headline": "China’s Refiners Turn to Africa and Brazil Crude as Freight Rates Ease",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Refiners-Turn-to-Africa-and-Brazil-Crude-as-Freight-Rates-Ease.html",
+      "publishedAt": "2026-10-28T14:30:00Z",
+      "time": "Wed 10:30 AM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f7dda7cb8b891",
+      "headline": "QatarEnergy Extends LNG Force Majeure to End of 2026",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/QatarEnergy-Extends-LNG-Force-Majeure-to-End-of-2026.html",
+      "publishedAt": "2026-10-28T13:30:00Z",
+      "time": "Wed 9:30 AM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "f27cabe9f2db8",
       "headline": "U.S. Lawmakers Warn Banks Against Trump's Russian Diesel Deal",
       "source": "OilPrice",
       "url": "https://oilprice.com/Energy/Energy-General/US-Lawmakers-Warn-Banks-Against-Trumps-Russian-Diesel-Deal.html",
       "publishedAt": "2026-10-28T13:00:00Z",
       "time": "Wed 9:00 AM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f0bacc2a7a0c3",
-      "headline": "Luxury round-the-world cruise ends abruptly as fuel costs skyrocket",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/28/villa-vie-odyssey-fuel-costs.html",
-      "publishedAt": "2026-10-28T11:39:44Z",
-      "time": "Wed 7:39 AM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "febf12a8383a7",
-      "headline": "India's Gasoline Demand Could Peak by 2035 as EVs Gain Ground",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Gasoline-Demand-Could-Peak-by-2035-as-EVs-Gain-Ground.html",
-      "publishedAt": "2026-10-28T11:30:00Z",
-      "time": "Wed 7:30 AM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f763e3f7c8109",
-      "headline": "Luxury cruise passengers stranded in Cambodia due to soaring fuel costs",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cwj342k62exyo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-10-28T10:31:22Z",
-      "time": "Wed 6:31 AM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f7dddbf7c9533",
-      "headline": "Tanzania celebrates first natural gas discovery in more than 10 years",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c5m2dry2xwwvo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-10-28T10:18:40Z",
-      "time": "Wed 6:18 AM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f83e1700d3a5f",
-      "headline": "A U.S. cruise ship ends voyage due to fuel costs and passengers lose their homes",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/10/28/nx-s1-6020180/us-cruise-ship-ends-voyage-passengers-lose-homes",
-      "publishedAt": "2026-10-28T07:57:51Z",
-      "time": "Wed 3:57 AM",
       "section": "energy",
       "impact": "Medium",
       "lean": null,
