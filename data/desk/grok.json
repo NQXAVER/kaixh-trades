@@ -1,29 +1,15 @@
 {
-  "at": "2026-10-28T20:07:00Z",
-  "pulse": "MSFT beats on rev/EPS with Azure +48% lifting shares +4% AH; GOOGL misses rev and posts sharp EPS drop on equity losses, falling ~8% AH, mixed for NQ.",
-  "bias": "mixed — MSFT AI/cloud strength vs GOOGL miss and AI ROI concerns",
+  "at": "2026-10-28T20:14:50Z",
+  "pulse": "FOMC held rates at 3.75-4% with two hawkish dissents as MSFT Azure strength and GOOGL Search miss split AI sentiment amid rising oil on Iran risks.",
+  "bias": "mixed — Fed hold and MSFT cloud beat support vs GOOGL selloff and elevated oil/geopolitics",
   "items": [
-    "@mmonis (~9:18 AM ET): Fed hawkish hold expected at 2pm, oil risk premium with UBS Brent $110 YE, SK Hynix strength supporting AI",
-    "@RickBennettTT (~9:18 AM ET): NQ futures +0.4% vs lower Dow, staying selective until Fed and Big Tech AI spend clarity",
-    "@Briefingcom (~9:18 AM ET): AI trade rediscovered momentum with SOXX +6.5% this week on demand and financing deals",
-    "@KagiTrade (~9:18 AM ET): ES attempting higher pre-FOMC but not doing a great job of it",
-    "@official_lins (~9:18 AM ET): Running FOMC live trading room for Nasdaq futures into the decision"
+    "@VentureKCapital (~4:13 PM ET): Fed holds, market shrugs with S&P +0.28% and Nasdaq +0.27%; Dec hike odds ~85% as SK Hynix lit chips",
+    "@NextFinAI (~4:14 PM ET): $GOOGL down ~8% as Search stalled while Cloud roughly doubled, raising AI capex ROI questions",
+    "@Investingcom (~4:14 PM ET): Microsoft 1Q Azure revenue ex-FX rises +48% vs est +44.8%",
+    "@exfilnews (~4:13 PM ET): Fed held at 3.75-4% with Hammack and Cook dissenting for a hike",
+    "@Marketsurfer_Q (~3:56 PM ET): Hold above 30k on NQ would signal genuine momentum rather than head-fake for AI semis"
   ],
-  "trump": "Mentions of likely post-midterms Iran strikes that would further spike oil prices",
-  "watch": "MSFT and GOOGL AH reactions and calls, AMZN earnings Thursday, oil/Iran headlines",
-  "forSite": [],
-  "earnings": [
-    {
-      "ticker": "MSFT",
-      "reaction": "+4.4% AH",
-      "sentiment": "Bullish",
-      "why": "Beat on revenue $92.3B and non-GAAP EPS $4.89 with Azure growth accelerating to 48% and Cloud +30%."
-    },
-    {
-      "ticker": "GOOGL",
-      "reaction": "-7.7% AH",
-      "sentiment": "Bearish",
-      "why": "Missed revenue $127.58B and big EPS miss to $2.12 (equity losses) despite Cloud beat, raising AI spend ROI worries."
-    }
-  ]
+  "trump": "Mentions of Trump signaling possible short intense military campaign on Iran after midterms, supporting oil risk premium",
+  "watch": "MSFT/GOOGL after-hours reactions and calls, AMZN earnings Thursday, oil/Iran headlines into next session",
+  "forSite": []
 }
