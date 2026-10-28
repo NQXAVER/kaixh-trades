@@ -930,7 +930,7 @@ textarea::placeholder { color: #8aa3c4; }
     const all = d.earnings || [];
     fill('earn-recent', (n) => { const rs = all.filter(isRecent); rs.forEach((r) => n.append(earnItem(r, true))); if (!rs.length) n.append(el('p', 'empty', 'No recent reports yet.')); });
     fill('earn', (n) => { const up = all.filter((r) => !isRecent(r)); up.forEach((r) => n.append(earnItem(r, false))); if (!up.length) n.append(el('p', 'empty', 'No big reports scheduled.')); });
-    fill('grok', (g) => g.append(buildGrok(d.grok)));
+    fill('grok', (g) => g.append(buildGrok(d.grok, { today: true })));
   };
 
   // ---------- Daily mindset quote ----------
@@ -980,7 +980,7 @@ textarea::placeholder { color: #8aa3c4; }
   };
   showQuote(); setInterval(showQuote, 60000);
 
-  const buildGrok = (gk) => {
+  const buildOneGrok = (gk) => {
     const w = el('div'); w.style.cssText = 'display:grid;gap:8px';
     if (!gk || !(gk.pulse || (gk.items || []).length)) { w.append(el('p', 'empty', (gk && gk.note) || 'No Grok check-in yet.')); return w; }
     const at = gk.at ? new Date(gk.at) : null;
@@ -991,6 +991,24 @@ textarea::placeholder { color: #8aa3c4; }
     const dl = el('dl', 'kv'); [['Trump', gk.trump], ['Watch', gk.watch]].forEach(([k, v]) => { if (v) dl.append(el('dt', null, k), el('dd', null, v)); }); w.append(dl);
     (gk.forSite || []).forEach((t) => w.append(el('p', 'reply', t)));
     return w;
+  };
+  const buildGrok = (gk, opts) => {
+    const blank = () => { const w = el('div'); w.append(el('p', 'empty', (gk && gk.note) || 'No Grok check-in yet.')); return w; };
+    if (opts && opts.today) {
+      let day = gk && gk.date ? String(gk.date).slice(0, 10) : '';
+      if (!day && gk && gk.at) { const at = new Date(gk.at); if (!isNaN(at)) day = etDate(at); }
+      if (!gk || day !== etDate()) return blank();
+    }
+    const reports = (gk && Array.isArray(gk.reports) && gk.reports.length)
+      ? gk.reports.slice().sort((a, b) => String((b && b.at) || '').localeCompare(String((a && a.at) || '')))
+      : (gk ? [gk] : []);
+    if (reports.length <= 1) return buildOneGrok(reports[0]);
+    const wrap = el('div'); wrap.style.cssText = 'display:grid;gap:16px';
+    reports.forEach((rep, i) => {
+      if (i) { const line = el('div'); line.style.cssText = 'border-top:1px solid var(--line)'; wrap.append(line); }
+      wrap.append(buildOneGrok(rep));
+    });
+    return wrap;
   };
 
   // ---------- Desk: journal via Notion ----------
@@ -1340,7 +1358,7 @@ textarea::placeholder { color: #8aa3c4; }
   let lastDay = etDate();
   setInterval(() => {
     const t = etDate();
-    if (t !== lastDay) { if (viewDay === lastDay) viewDay = t; lastDay = t; renderChecks(); renderStats(); renderJournalTab(); renderCalendar(); }
+    if (t !== lastDay) { if (viewDay === lastDay) viewDay = t; lastDay = t; renderChecks(); renderStats(); renderJournalTab(); renderCalendar(); loadAll(); }
   }, 60000);
   renderJournalTab(); renderCalendar();
 
@@ -1496,8 +1514,10 @@ textarea::placeholder { color: #8aa3c4; }
     const out = {};
     await Promise.all(list.map(async (f) => {
       try {
+        const key = f.path.slice(pre.length).replace(/\.json$/, '');
+        if (dir === 'deskdays' && key === 'TODAY') return;
         const res = await fetch(`https://raw.githubusercontent.com/${GH.owner}/${GH.repo}/${head}/${f.path}`, { cache: 'no-store' });
-        if (res.ok) { const v = await res.json(); shas[f.path] = f.sha; out[f.path.slice(pre.length).replace(/\.json$/, '')] = v; }
+        if (res.ok) { const v = await res.json(); shas[f.path] = f.sha; out[key] = v; }
       } catch (e) {}
     }));
     lastDirs[dir] = out;
