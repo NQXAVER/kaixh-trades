@@ -1,7 +1,7 @@
 {
-  "at": "2026-10-28T13:19:04Z",
-  "pulse": "AI-led bid in NQ and semis ahead of expected FOMC hold and MSFT/GOOGL earnings, tempered by elevated oil on Iran risks.",
-  "bias": "mixed — AI momentum vs oil/Iran and hawkish Fed lean",
+  "at": "2026-10-28T20:07:00Z",
+  "pulse": "MSFT beats on rev/EPS with Azure +48% lifting shares +4% AH; GOOGL misses rev and posts sharp EPS drop on equity losses, falling ~8% AH, mixed for NQ.",
+  "bias": "mixed — MSFT AI/cloud strength vs GOOGL miss and AI ROI concerns",
   "items": [
     "@mmonis (~9:18 AM ET): Fed hawkish hold expected at 2pm, oil risk premium with UBS Brent $110 YE, SK Hynix strength supporting AI",
     "@RickBennettTT (~9:18 AM ET): NQ futures +0.4% vs lower Dow, staying selective until Fed and Big Tech AI spend clarity",
@@ -10,6 +10,20 @@
     "@official_lins (~9:18 AM ET): Running FOMC live trading room for Nasdaq futures into the decision"
   ],
   "trump": "Mentions of likely post-midterms Iran strikes that would further spike oil prices",
-  "watch": "FOMC decision and Warsh presser at 2pm ET, MSFT and GOOGL earnings after the close, oil/Iran headlines",
-  "forSite": []
+  "watch": "MSFT and GOOGL AH reactions and calls, AMZN earnings Thursday, oil/Iran headlines",
+  "forSite": [],
+  "earnings": [
+    {
+      "ticker": "MSFT",
+      "reaction": "+4.4% AH",
+      "sentiment": "Bullish",
+      "why": "Beat on revenue $92.3B and non-GAAP EPS $4.89 with Azure growth accelerating to 48% and Cloud +30%."
+    },
+    {
+      "ticker": "GOOGL",
+      "reaction": "-7.7% AH",
+      "sentiment": "Bearish",
+      "why": "Missed revenue $127.58B and big EPS miss to $2.12 (equity losses) despite Cloud beat, raising AI spend ROI worries."
+    }
+  ]
 }
