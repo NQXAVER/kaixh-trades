@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T02:31:32Z",
+  "updatedAt": "2026-10-28T05:55:12Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -204,6 +204,30 @@
   ],
   "items": [
     {
+      "id": "fe269a80254b2",
+      "headline": "Oil Prices Climb as Houthi Attacks Reignite Saudi Supply Fears",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Climb-as-Houthi-Attacks-Reignite-Saudi-Supply-Fears.html",
+      "publishedAt": "2026-10-28T03:53:00Z",
+      "time": "Tue 11:53 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "f43fad457175d",
+      "headline": "Syria-Jordan border reopens amid probe into deadly air strikes",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/28/syria-jordan-border-reopens-amid-probe-into-deadly-airstrikes?traffic_source=rss",
+      "publishedAt": "2026-10-28T03:10:17Z",
+      "time": "Tue 11:10 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
       "id": "f624e93575a02",
       "headline": "Ceasefire extended across Ukraine's Kherson region, officials say",
       "source": "BBC",
@@ -300,30 +324,6 @@
       "auto": true
     },
     {
-      "id": "f6e10507e4d6e",
-      "headline": "Local ceasefire brokered by Melania Trump starts in southern Ukraine",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/10/27/g-s1-150037/russia-ukraine-war",
-      "publishedAt": "2026-10-27T05:26:58Z",
-      "time": "Tue 1:26 AM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-on",
-      "auto": true
-    },
-    {
-      "id": "faee5281d414f",
-      "headline": "In Egypt, Guterres warns against Iran-US escalation",
-      "source": "UN News - Global perspective Human stories",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168669",
-      "publishedAt": "2026-10-26T12:00:00Z",
-      "time": "Mon 8:00 AM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
       "id": "f8fe07406e64a",
       "headline": "Australia’s inflation rate rises to 4.3%, fuelling fears of fifth interest rate hike this year",
       "source": "The Guardian",
@@ -408,6 +408,18 @@
       "auto": true
     },
     {
+      "id": "f718b9bb50b77",
+      "headline": "Inflation is ‘too high’, but RBA says Australia is not heading for recession – video",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/video/2026/oct/28/inflation-is-too-high-but-rba-says-australia-is-not-heading-for-recession-video",
+      "publishedAt": "2026-10-28T05:40:37Z",
+      "time": "Wed 1:40 AM",
+      "section": "econ",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "f517f58f9f3b9",
       "headline": "Honda warns 50% Canada auto tariffs would be catastrophic for industry",
       "source": "CNBC",
@@ -440,6 +452,18 @@
       "time": "Mon 7:00 AM",
       "section": "econ",
       "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fb1a427414d6d",
+      "headline": "Meta- and Google-backed Jio Platforms’ shares soar over 21% on trading debut after record IPO",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/28/jio-ipo-india-listing-.html",
+      "publishedAt": "2026-10-28T05:16:41Z",
+      "time": "Wed 1:16 AM",
+      "section": "tech",
+      "impact": "High",
       "lean": null,
       "auto": true
     },
@@ -552,15 +576,15 @@
       "auto": true
     },
     {
-      "id": "f975314286380",
-      "headline": "5 Data Center Power Stocks to Watch Before Earnings",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Energy/Energy-General/5-Data-Center-Power-Stocks-to-Watch-Before-Earnings.html",
-      "publishedAt": "2026-10-27T20:00:00Z",
-      "time": "Tue 4:00 PM",
-      "section": "tech",
-      "impact": "Medium",
-      "lean": null,
+      "id": "f38f0022c3353",
+      "headline": "Oil prices rise as Houthi attacks on Saudi Arabian refinery raise supply worries",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/28/oil-price-today-wti-brent-hormuz.html",
+      "publishedAt": "2026-10-28T05:52:51Z",
+      "time": "Wed 1:52 AM",
+      "section": "energy",
+      "impact": "High",
+      "lean": "risk-off",
       "auto": true
     },
     {
@@ -585,6 +609,18 @@
       "section": "energy",
       "impact": "High",
       "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "f763e3f7c8109",
+      "headline": "Luxury cruise passengers stranded in Cambodia due to soaring fuel costs",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cwj342k62exyo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-10-28T03:43:38Z",
+      "time": "Tue 11:43 PM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
       "auto": true
     },
     {
@@ -654,30 +690,6 @@
       "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Crude-Oil-Inventories-Buck-Analyst-Expectations.html",
       "publishedAt": "2026-10-27T20:56:11Z",
       "time": "Tue 4:56 PM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f0e9d9a151e1e",
-      "headline": "The Diesel Crisis Is Here To Stay",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Energy/Crude-Oil/The-Diesel-Crisis-Is-Here-To-Stay.html",
-      "publishedAt": "2026-10-27T19:00:00Z",
-      "time": "Tue 3:00 PM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f3643a1892ea2",
-      "headline": "Russia’s Crude Exports Set to Fall as Diesel Production Rises",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Russias-Crude-Exports-Set-to-Fall-as-Diesel-Production-Rises.html",
-      "publishedAt": "2026-10-27T18:30:00Z",
-      "time": "Tue 2:30 PM",
       "section": "energy",
       "impact": "Medium",
       "lean": null,
