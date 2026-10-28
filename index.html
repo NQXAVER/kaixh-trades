@@ -121,6 +121,11 @@ ul.fb { margin: 0; padding-left: 1.2em; display: grid; gap: 8px; }
 .cal .day.sel { background: var(--accent-soft); }
 .cal .day .n { font: 600 12px var(--mono); }
 .cal .day .marks { display: flex; flex-wrap: wrap; gap: 3px; align-items: center; }
+.cal .day { min-width: 0; overflow: hidden; }
+.cal .reds { display: grid; gap: 1px; width: 100%; min-width: 0; }
+.cal .red { display: block; max-width: 100%; font: 600 9px/1.25 var(--mono); color: #ffb4a8; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.cal .red.more { color: #f2b632; }
+@media (max-width: 560px) { .cal .day { padding: 3px; } .cal .red { font-size: 8px; } }
 .cal .chip { font: 800 15px var(--mono); padding: 1px 7px; border-radius: 5px; line-height: 1.3; }
 .cal .chip.Win { background: var(--good-bg); color: var(--good); } .cal .chip.Loss { background: var(--bad-bg); color: var(--bad); }
 .cal .chip.BE { background: var(--warn-bg); color: var(--warn); } .cal .chip.None { background: var(--none-bg); color: var(--muted); }
@@ -385,12 +390,6 @@ textarea::placeholder { color: #8aa3c4; }
       </div>
     </div>
 
-    <div class="card">
-      <h2>Red folder news this week</h2>
-      <p class="sub">High-impact USD news only (Forex Factory red folder). Times in ET. These move NQ the most.</p>
-      <div class="week" id="cal"></div>
-    </div>
-
     <div class="card" id="news-card">
       <div class="news-head">
         <div>
@@ -536,7 +535,7 @@ textarea::placeholder { color: #8aa3c4; }
         </div>
       </div>
       <div class="cal-wrap"><div class="cal" id="cal-grid"></div></div>
-      <p class="sub">W win · L loss · B break-even · NT no trade. Red dot: broke a rule. Green dot: no rules broken. ✎ review saved. n/7: habits done.</p>
+      <p class="sub">W win · L loss · B break-even · NT no trade. Red dot: broke a rule. Green dot: no rules broken. ✎ review saved. n/7: habits done. Red line: high-impact USD news, time in ET.</p>
     </div>
     <div id="cal-detail" style="display:grid;gap:16px"></div>
   </section>
@@ -824,13 +823,10 @@ textarea::placeholder { color: #8aa3c4; }
     if (!any) board.append(el('p', 'empty', 'No market-moving headlines right now.'));
   };
   const sentiment = (s) => { const t = String(s || '').toLowerCase(); return t.startsWith('bull') ? 'bull' : t.startsWith('bear') ? 'bear' : 'neutral'; };
-  const weekStart = (d) => {
-    if (d && d.calendarWeek && d.calendarWeek.start) return d.calendarWeek.start;
-    const t = etDate(); const wd = new Date(t + 'T12:00:00Z').getUTCDay();
-    return shift(t, wd === 0 ? 1 : wd === 6 ? 2 : 1 - wd);
-  };
+  let deskCalendar = [];
   const renderDesk = (d, feed, rules) => {
     d = d || {};
+    deskCalendar = Array.isArray(d.calendar) ? d.calendar : [];
     const at = d.updatedAt ? new Date(d.updatedAt) : null;
     const feedAt = feed && feed.updatedAt ? new Date(feed.updatedAt) : null;
     const hasNews = !!((d.news || []).length || (feed && (feed.items || []).length) || (at && !isNaN(at)) || (feedAt && !isNaN(feedAt)) || d.takeaway || d.grok);
@@ -903,19 +899,6 @@ textarea::placeholder { color: #8aa3c4; }
         maj.append(el('p', 'empty', 'No high-impact headlines yet.'));
       }
     }
-    fill('cal', (cl) => {
-      const ws = weekStart(d);
-      const red = (d.calendar || []).filter((r) => /high|red/i.test(r.impact || ''));
-      for (let i = 0; i < 5; i++) {
-        const day = shift(ws, i); const evs = red.filter((r) => r.date === day);
-        const row = el('div', 'wday' + (day === etDate() ? ' now' : ''));
-        row.append(el('span', 'wd', pretty(day, { weekday: 'short', month: 'short', day: 'numeric' })));
-        const box = el('div', 'wev');
-        if (!evs.length) box.append(el('span', 'none', 'No red folder news'));
-        evs.forEach((r) => { const it = el('div', 'ev'); it.append(el('span', 'folder', ''), el('span', 'evt', r.time || ''), (() => { const n = el('span', 'evn', r.code || r.event || ''); if (r.note) n.append(el('small', 'evnote', r.note)); return n; })()); box.append(it); });
-        row.append(box); cl.append(row);
-      }
-    });
     const isRecent = (r) => /reported/i.test(r.when || '') || r.status === 'reported' || !!r.reaction || !!r.sentiment;
     const earnItem = (r, recent) => {
       const it = el('div', 'earn');
@@ -1279,6 +1262,25 @@ textarea::placeholder { color: #8aa3c4; }
 
   // ---------- Calendar ----------
   let calMonth = etDate().slice(0, 7), selDay = null;
+  const redClock = (t) => { const m = String(t || '').match(/(\d{1,2}):(\d{2})\s*(AM|PM)?/i); if (!m) return 0; let h = Number(m[1]) % 12; if (/pm/i.test(m[3] || '')) h += 12; return h * 60 + Number(m[2]); };
+  const redShort = (r) => String(r.time || '').replace(/\s*(AM|PM)\s*/ig, '').trim() + ' ' + String(r.code || r.event || '').replace(/\s+/g, ' ').trim();
+  const redFolder = () => {
+    const isRed = (r) => r && r.date && /high|red/i.test(String(r.impact || ''));
+    const key = (r) => r.date + '|' + (r.time || '') + '|' + String(r.code || r.event || '').toLowerCase();
+    const fromToday = (deskCalendar || []).filter(isRed);
+    const covered = new Set(fromToday.map((r) => r.date));
+    const seen = new Set(fromToday.map(key));
+    const out = fromToday.slice();
+    Object.keys(deskDays || {}).forEach((k) => {
+      ((deskDays[k] || {}).calendar || []).forEach((r) => {
+        if (!isRed(r) || covered.has(r.date) || seen.has(key(r))) return;
+        seen.add(key(r));
+        out.push(r);
+      });
+    });
+    return out.sort((a, b) => String(a.date).localeCompare(String(b.date)) || redClock(a.time) - redClock(b.time));
+  };
+  const redOn = (iso) => redFolder().filter((r) => r.date === iso);
   const monthName = (ym) => new Date(ym + '-15T12:00:00Z').toLocaleDateString('en-US', { month: 'long', year: 'numeric', timeZone: 'UTC' });
   const addMonth = (ym, n) => { const [y, m] = ym.split('-').map(Number); const d = new Date(Date.UTC(y, m - 1 + n, 15)); return d.toISOString().slice(0, 7); };
   const renderCalendar = () => {
@@ -1301,7 +1303,14 @@ textarea::placeholder { color: #8aa3c4; }
       if (reviewsByDate[iso]) marks.append(el('span', 'tiny', '✎'));
       const hs = scoreOf(habitDocs[iso]); if (hs) marks.append(el('span', 'tiny', hs + '/' + required(iso)));
       b.append(marks);
-      b.setAttribute('aria-label', pretty(iso));
+      const reds = redOn(iso);
+      if (reds.length) {
+        const box = el('span', 'reds');
+        reds.slice(0, 2).forEach((r) => { const s = el('span', 'red', redShort(r).trim()); s.title = [r.time, r.event || r.code].filter(Boolean).join(' · '); box.append(s); });
+        if (reds.length > 2) box.append(el('span', 'red more', '+' + (reds.length - 2)));
+        b.append(box);
+      }
+      b.setAttribute('aria-label', [pretty(iso)].concat(reds.map((r) => redShort(r).trim())).filter(Boolean).join(', '));
       b.addEventListener('click', () => { selDay = iso; renderCalendar(); renderDetail(); $('cal-detail').scrollIntoView({ block: 'start' }); });
       g.append(b);
     }
@@ -1314,6 +1323,18 @@ textarea::placeholder { color: #8aa3c4; }
     const d = selDay;
     const head = card(null); head.append(el('p', 'dayname', pretty(d)));
     v.append(head);
+    const reds = redOn(d);
+    if (reds.length) {
+      const rf = card('Red folder');
+      rf.append(el('p', 'sub', 'High-impact USD news. Times in ET.'));
+      reds.forEach((r) => {
+        const line = el('p'); line.style.margin = '0';
+        line.textContent = [r.time, r.code || r.event].filter(Boolean).join(' · ') + (r.event && r.code && r.event !== r.code ? ' · ' + r.event : '');
+        rf.append(line);
+        if (r.note) rf.append(el('p', 'sub', r.note));
+      });
+      v.append(rf);
+    }
     // Notion entry
     const jr = journalRows[d];
     const jc = card('Live Journal entry');
