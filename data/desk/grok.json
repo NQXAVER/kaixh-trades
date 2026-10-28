@@ -1,15 +1,15 @@
 {
-  "at": "2026-10-27T20:16:00Z",
-  "pulse": "Nasdaq and S&P close higher led by AI/chip rebound as oil slips below $100 on Iran diplomacy hopes ahead of FOMC.",
-  "bias": "risk-on — tech and semis driving gains with softer oil supporting risk appetite into Fed hold and Mag7 earnings.",
+  "at": "2026-10-28T00:11:33Z",
+  "pulse": "Nasdaq and S&P closed higher on AI/chip strength and softer oil from Iran de-escalation signals, with traders positioned for Wednesday's FOMC hold and Mag7 earnings.",
+  "bias": "risk-on — tech rebound and oil under $100 supporting risk appetite into Fed decision and Big Tech prints.",
   "items": [
-    "Trade With Nori (~4:15 ET): Nasdaq Comp +1.18%, S&P +0.60%, SOXX +3.91%, WTI $99.98 -1.75%, VIX -4.7%; chips rebound on AI optimism, Fed tomorrow.",
-    "Kevin Omen (~4:16 ET): Nasdaq up 1.18% and VIX falling nearly 4.7%, tech shares driving strong rally.",
-    "xtrsk capital (~4:16 ET): Brent -1.67% to $113.88, WTI ~$99.90; Energy Sec on Iran war timing and Hormuz flows.",
-    "WOLF_Financial (~4:15 ET): ~200k Robinhood customers opened AI agent trading accounts driving $1.6B volume.",
-    "Market close notes: Oil below $100 on Khamenei conditions to end neither-war-nor-peace; 10Y near 5%."
+    "DJ Prop Firms (~1:26 PM ET): NQ +1.0%, ES +0.5%, CL -1.6% on Iran talk; Fed two-day meeting underway, decision tomorrow.",
+    "OptionsTrading101 (~7:26 AM ET): Futures bid ES +20 NQ +123; Anthropic IPO filing and $63B AVGO/Anthropic deal lift AI sentiment, oil still elevated but talks ongoing.",
+    "Market close (~4:00 PM ET): Nasdaq Comp +1.18% to 26,478, S&P +0.60% to 7,723; chips (AVGO, AMD, MU) extended gains, WTI settled ~$99.90.",
+    "Federal Reserve (~10:06 AM ET): Chairman Warsh to host FOMC press conference tomorrow at 2:30 PM ET.",
+    "X pulse: Oil eased second day on Khamenei conditions for ending conflict; 10Y near 5%, VIX lower."
   ],
-  "trump": "\"decision time\" on Iran: deal or finish it off (Sunday Fox comments).",
-  "watch": "Wednesday FOMC decision and Warsh presser at 2PM ET; MSFT/GOOGL earnings AMC; Iran/oil headlines near $100.",
+  "trump": "\"decision time\" on Iran deal or finish it off (recent Fox comments); rebuked Iran on mines while highlighting Venezuelan oil as hedge.",
+  "watch": "Wednesday 2:00 PM ET FOMC decision (hold expected ~90%) and Warsh presser at 2:30; MSFT/GOOGL earnings AMC; any Iran/oil headline shifts near $100; overnight AMC reports (NXPI/STX/HOOD/TER/V).",
   "forSite": []
 }
