@@ -1,0 +1,68 @@
+{
+ "date": "2026-10-28",
+ "entryUrl": "https://app.notion.com/p/40760e8f5c4580c3ac96dbb711dcdaee",
+ "summary": "Small loss, good damage control, but the trades went against your own plan. Pre-market you wrote you were playing defense until FOMC and were '90% sure' you wouldn't trade the AM session, then you took two 1min shorts inside a compressed range under LO.H. The first short (around 10:13) stopped out for about -$50 on 1 micro; the second (around 10:27, after 10:00 and the .786 rejected) you moved to break-even once the 5min showed chop, then locked out. Risk was tiny and you stopped yourself, which is the right instinct on FOMC day. The real lesson is the one you wrote: you only looked at the 1min, and the 5min would have told you to stay out.",
+ "trade": "Short x2 \u00b7 NY-AM \u00b7 XFA (1 micro) \u00b7 Loss (about -$50) \u00b7 Trade 1: entry ~29,819.5 around 10:13, stop ~29,844 above the 1min SMT high, target 4hr unfill ~29,755.75, stopped out \u00b7 Trade 2: entry ~29,830 around 10:27, stop 29,864, same target, closed at break-even \u00b7 Levels read from the 10:37 chart, so treat them as approximate",
+ "rule": "On FOMC or other red-folder days, if pre-market says 'defense until the news', no AM trade unless the 5min and 15min both show clean structure, checked and written down before entry. If the 5min looks like barcode, you're done for the morning.",
+ "screenshots": [
+  {
+   "label": "TimeFrame 1 \u00b7 4hr ES + NQ (9:29 AM)",
+   "feedback": "NQ bounced from the ~29,000 low back up to PD-H and the 4hr line, still well under PWH (~30,100) and the fib 0.5 (~30,300). ES is also sitting at its PD-H. It's a bounce inside a bearish 4hr leg, sitting right under resistance, which fits your 'compressed' read and gives no clear edge before FOMC."
+  },
+  {
+   "label": "TimeFrame 2 \u00b7 1hr ES + NQ (9:29 AM)",
+   "feedback": "Price ground up into the red dashed level under PWH and stalled with small overlapping candles. That's exactly the kind of tight, stair-step price action that tends to chop before a big news event. It supports your plan to wait, not to look for a 1min short."
+  },
+  {
+   "label": "TimeFrame 3 \u00b7 15m ES + NQ (9:29 AM)",
+   "feedback": "NQ swept AS.H and LO.H overnight, then drifted sideways under the red zone with a down-sloping trendline over the highs. LO.L and PD-H were the nearest liquidity below, with D OPEN and the 4hr line much lower. The range was obvious on the 15m before the open, so the AM session was likely to be a range."
+  },
+  {
+   "label": "TimeFrame 4 \u00b7 5min ES + NQ (9:40 AM)",
+   "feedback": "Your note on the chart says 'playing defense here till FOMC comes out', with the fib drawn on the overnight leg and price already dipping to NYAM.L and the 0.5 (~29,870). The 0.618 to 0.786 and D OPEN sat below as the deeper targets. Good prep, but the plan written here is the plan you didn't follow 35 minutes later."
+  },
+  {
+   "label": "Execution \u00b7 1min NQ + ES (10:37 AM)",
+   "feedback": "Two short boxes. The first: entry ~29,819.5, stop ~29,844 (about 25 points, which is the ~$50 loss on 1 micro), target 29,755.75 at the 4hr unfill. Its stop sat under the ~29,870 high printed just before 10:00, so it was above the 1min SMT high but still inside the range. The second: entry ~29,830, stop 29,864 just above the spike high, same target. At 10:37 price was ~29,829, chopping in the same box, which is what you saw on the 5min."
+  }
+ ],
+ "good": [
+  "Risk was one micro, so a bad read on a news day cost about $50, not an account.",
+  "You locked out after the break-even instead of taking a third trade. Bibz overtraded on the same day and said so in his EOD card; you didn't.",
+  "No entry before 10:00. The first short came about 10:13.",
+  "NY session only, XFA only, no copying across accounts, and no prop-firm purchase emails today.",
+  "Morning check-in was on time at 9:18 AM with the risk screenshot confirmed, and your note in the chart matched your Discord plan.",
+  "Honest notes: you wrote down that you wanted to close trade 1 early and didn't, and that you only checked the 1min."
+ ],
+ "fix": [
+  "Plan vs action: 'Calm bc im like 90% sure i wont trade AM session' and 'playing defense here till FOMC', then two AM shorts. Your Discord plan left room for an AM trade 'if theres something good', but a range under resistance before FOMC isn't something good.",
+  "Timeframes: you only looked at the 1min and checked the 5min after you were in. Make the 5min and 15min check part of your entry checklist, before the order, not after.",
+  "Stop placement on trade 1: ~29,844 was above the 1min SMT high but under the ~29,870 high from just before 10:00. In a range, an internal high like that gets taken easily.",
+  "Mixed lesson from AB: you held trade 1 because 'price delivery does not invalidate the trade idea'. That applies when HTF structure supports the trade, like yesterday. Today the 5min was chop, so the idea itself was weak.",
+  "Log the numbers: RR is empty and StopLoss just says 'SMT'd Highs'. Add the entry, stop and result in dollars or R for both trades.",
+  "Your FOMC PM page is still empty and there's no EOD card in the pair channel or post in xavier Journal yet. Fill those in tonight before the midnight EOD deadline."
+ ],
+ "questions": [
+  {
+   "q": "You wrote you were '90% sure' you wouldn't trade the AM, then took two shorts. What did you see at 10:13 that made it the 10%, and would it still look like an A+ setup if you'd checked the 5min first?"
+  },
+  {
+   "q": "You held trade 1 because AB says slow delivery doesn't invalidate the idea. What's the difference between yesterday, when that was true, and today, when the 5min was barcode?"
+  },
+  {
+   "q": "Your FOMC PM page is blank. Did you trade FOMC on the 2nd XFA? If yes, what was the setup and did you wait for the 2:00 to 2:30 PM chop to finish; if no, what kept you out?"
+  },
+  {
+   "q": "Bibz wrote 'I should've got off after a valid break even'. You did get off after your break-even. What made it easy to stop today, and how do you make that the default on a normal day?"
+  }
+ ],
+ "discord": {
+  "chartsOpened": "9:15 AM ET (Morning Check-in card posted 9:18 AM, streak 4 days).",
+  "plan": "\"Playing it safe in AM cus of FOMC i do plan to save my main XFA if theres nothing good for AM session but im going to use my 2nd XFA for after FOMC. Price looks very compressed w not much structure.\"",
+  "risk": "Risk settings screenshot posted and confirmed at 9:18 AM ET, before the 9:30 deadline.",
+  "eod": "No End of Day card from you for 10/28 as of about 4:15 PM ET (deadline 12:00 AM). Bibz filed his at 3:18 PM: 1 BE and 2 losses, Rules Followed No, overtraded.",
+  "match": "Partly. The check-in said play it safe in the AM and only trade if something good shows up; Notion shows two AM shorts in a range you called compressed yourself. The account (XFA) and the small risk match. No EOD card yet to compare against Notion.",
+  "journalChannel": "No post in xavier Journal today as of about 4:15 PM ET; the last one is 10/27 at 10:56 AM (the long, W)."
+ },
+ "reviewedAt": "2026-10-28T20:18:03Z"
+}
