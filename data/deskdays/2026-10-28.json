@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-28",
+  "grok": {
+    "at": "2026-10-28T13:19:04Z",
+    "pulse": "AI-led bid in NQ and semis ahead of expected FOMC hold and MSFT/GOOGL earnings, tempered by elevated oil on Iran risks.",
+    "bias": "mixed — AI momentum vs oil/Iran and hawkish Fed lean",
+    "items": [
+      "@mmonis (~9:18 AM ET): Fed hawkish hold expected at 2pm, oil risk premium with UBS Brent $110 YE, SK Hynix strength supporting AI",
+      "@RickBennettTT (~9:18 AM ET): NQ futures +0.4% vs lower Dow, staying selective until Fed and Big Tech AI spend clarity",
+      "@Briefingcom (~9:18 AM ET): AI trade rediscovered momentum with SOXX +6.5% this week on demand and financing deals",
+      "@KagiTrade (~9:18 AM ET): ES attempting higher pre-FOMC but not doing a great job of it",
+      "@official_lins (~9:18 AM ET): Running FOMC live trading room for Nasdaq futures into the decision"
+    ],
+    "trump": "Mentions of likely post-midterms Iran strikes that would further spike oil prices",
+    "watch": "FOMC decision and Warsh presser at 2pm ET, MSFT and GOOGL earnings after the close, oil/Iran headlines",
+    "forSite": []
+  }
+}
