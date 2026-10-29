@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-28",
+  "at": "2026-10-29T02:32:00Z",
+  "items": [
+    {
+      "ticker": "MSFT",
+      "company": "Microsoft (MSFT)",
+      "date": "2026-10-28",
+      "when": "AMC",
+      "status": "reported",
+      "reaction": "+4% AH",
+      "sentiment": "Bullish",
+      "why": "Rev $92.3B / EPS $4.89 beat, Azure +48% ex-FX, Q2 Azure guide +49%"
+    },
+    {
+      "ticker": "GOOGL",
+      "company": "Alphabet (GOOGL)",
+      "date": "2026-10-28",
+      "when": "AMC",
+      "status": "reported",
+      "reaction": "-8% AH",
+      "sentiment": "Bearish",
+      "why": "Rev $127.58B / EPS $2.12 miss; Cloud +103% but FCF negative on $51B capex"
+    }
+  ]
+}
