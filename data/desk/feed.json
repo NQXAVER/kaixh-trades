@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T00:39:44Z",
+  "updatedAt": "2026-10-29T05:59:12Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -183,9 +183,9 @@
     {
       "id": "un-peace",
       "label": "UN News",
-      "ok": true,
-      "items": 20,
-      "error": null
+      "ok": false,
+      "items": 0,
+      "error": "ParseError: not well-formed (invalid token): line 1, column 0"
     },
     {
       "id": "wsj-biz",
@@ -568,8 +568,20 @@
       "headline": "Why Alphabet’s stock could see its worst drop in years after the latest results",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/why-alphabets-stock-could-see-its-worst-drop-in-years-after-the-latest-results-6b64cf98?mod=mw_rss_topstories",
-      "publishedAt": "2026-10-29T00:17:00Z",
-      "time": "Wed 8:17 PM",
+      "publishedAt": "2026-10-29T01:58:00Z",
+      "time": "Wed 9:58 PM",
+      "section": "tech",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f9f1468e115ce",
+      "headline": "Our next steps for Alphabet stock after earnings disappoint at nearly every turn",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/investingclub/2026/10/28/our-next-steps-for-alphabet-stock-after-earnings-disappoint-at-nearly-every-turn.html",
+      "publishedAt": "2026-10-29T01:11:10Z",
+      "time": "Wed 9:11 PM",
       "section": "tech",
       "impact": "High",
       "lean": null,
@@ -672,18 +684,6 @@
       "auto": true
     },
     {
-      "id": "f41094056f899",
-      "headline": "When will Anthropic go public? Here’s what to know about the IPO timeline.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/when-will-anthropic-go-public-heres-what-to-know-about-the-ipo-timeline-431eca78?mod=mw_rss_topstories",
-      "publishedAt": "2026-10-27T16:38:00Z",
-      "time": "Tue 12:38 PM",
-      "section": "tech",
-      "impact": "High",
-      "lean": null,
-      "auto": true
-    },
-    {
       "id": "f93e1be746042",
       "headline": "Equinor Profits Triple as Oil and Gas Prices Surge",
       "source": "OilPrice",
@@ -729,6 +729,18 @@
       "section": "energy",
       "impact": "High",
       "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "f62dd10c92482",
+      "headline": "Trump methane policy rollback may have minimal impact on crude prices, EPA says",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/29/trump-methane-rollback-oil-prices-epa.html",
+      "publishedAt": "2026-10-29T04:00:51Z",
+      "time": "Thu 12:00 AM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
       "auto": true
     },
     {
@@ -786,18 +798,6 @@
       "url": "https://oilprice.com/Energy/Natural-Gas/US-Natural-Gas-Production-Hits-New-Records-as-Demand-Surges.html",
       "publishedAt": "2026-10-28T22:00:00Z",
       "time": "Wed 6:00 PM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f990ca3e2b434",
-      "headline": "U.S. oil-refinery stocks are up roughly 150% this year. How long could this historic run last?",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/u-s-oil-refinery-stocks-are-up-roughly-150-this-year-how-long-could-this-historic-run-last-f01c590f?mod=mw_rss_topstories",
-      "publishedAt": "2026-10-28T20:16:00Z",
-      "time": "Wed 4:16 PM",
       "section": "energy",
       "impact": "Medium",
       "lean": null,
