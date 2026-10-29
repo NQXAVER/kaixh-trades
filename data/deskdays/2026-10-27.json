@@ -1,5 +1,5 @@
 {
- "bias_note": "Lean: bullish but stretched into FOMC. Tuesday's high is the buy-side liquidity target; Tuesday's low/the 10 AM base is the sell-side draw if it reverses. Wed NY AM is pre-FOMC: expect a tighter range and avoid chasing; size down 2:00-2:30 PM. Watch tonight's NXPI/TER (semis) prints for the overnight gap. Upside risk: an Iran deal headline / oil under $95. Downside: 10Y above 5%, strike headlines, or hawkish Warsh. Thu 8:30 AM (Advance GDP + Core PCE + Claims) plus MSFT/GOOGL/AMZN gaps make Wed-Thu volatile.",
+ "bias_note": "Lean: bullish but stretched, with a soft overnight lean from the NXPI/TER/STX selloffs. Tuesday's high is the buy-side target; Tuesday's low / 10 AM base is the sell-side draw if semis reverse. Wed NY AM is pre-FOMC: expect a tighter, choppy range; don't chase, size down or flat 2:00-2:30 PM. Upside risk: Iran deal headline / WTI holding under $100. Downside: 10Y through 5%, Houthi/Saudi pipeline or strike headlines, hawkish Warsh. Thu 8:30 AM (Advance GDP + Core PCE + Claims) plus MSFT/GOOGL Wed and AMZN Thu gaps make Wed-Thu volatile.",
  "calendar": [
   {
    "code": "Core Durables",
@@ -130,6 +130,66 @@
    "why": "EPS and revenue beat, FY guide raised. Healthy economy read, not an NQ mover."
   },
   {
+   "company": "NXP, Seagate, Robinhood (NXPI)",
+   "date": "2026-10-27",
+   "name": "NXP, Seagate, Robinhood",
+   "reaction": "-7.6% AH",
+   "sentiment": "Bearish",
+   "status": "reported",
+   "ticker": "NXPI",
+   "time": "AMC",
+   "when": "AMC (reported)",
+   "why": "Beat Q3 but Q4 guide/capex step-up spooked; weighs on semis at the open."
+  },
+  {
+   "company": "Visa (V)",
+   "date": "2026-10-27",
+   "name": "Visa",
+   "reaction": "-1% AH",
+   "sentiment": "Neutral",
+   "status": "reported",
+   "ticker": "V",
+   "time": "AMC",
+   "when": "AMC (reported)",
+   "why": "FQ4 beat; FY27 renewal costs may pressure margins. Consumer still spending."
+  },
+  {
+   "company": "Seagate (STX)",
+   "date": "2026-10-27",
+   "name": "Seagate",
+   "reaction": "-5% to -6% AH",
+   "sentiment": "Bearish",
+   "status": "reported",
+   "ticker": "STX",
+   "time": "AMC",
+   "when": "AMC (reported)",
+   "why": "EPS $7.68 beat and strong guide, sold after a 140% YTD run. Profit-taking in AI storage."
+  },
+  {
+   "company": "Robinhood (HOOD)",
+   "date": "2026-10-27",
+   "name": "Robinhood",
+   "reaction": "-7% AH",
+   "sentiment": "Bearish",
+   "status": "reported",
+   "ticker": "HOOD",
+   "time": "AMC",
+   "when": "AMC (reported)",
+   "why": "Revenue $1.42B and EPS $0.60 missed; crypto revenue -55%."
+  },
+  {
+   "company": "Teradyne (TER)",
+   "date": "2026-10-27",
+   "name": "Teradyne",
+   "reaction": "~-6.6% AH",
+   "sentiment": "Bearish",
+   "status": "reported",
+   "ticker": "TER",
+   "time": "AMC",
+   "when": "AMC (reported)",
+   "why": "Beat and guided above consensus, but inventory days jumped to 98; AI-test 'priced in'."
+  },
+  {
    "company": "Amkor (AMKR)",
    "date": "2026-10-26",
    "name": "Amkor",
@@ -152,6 +212,30 @@
    "time": "BMO",
    "when": "BMO (reported)",
    "why": "Big postpaid phone beat (406K adds), revenue miss, EPS guide raised. Not an NQ driver."
+  },
+  {
+   "company": "Cadence Design (CDNS)",
+   "date": "2026-10-26",
+   "name": "Cadence Design",
+   "reaction": "CDNS ~+2.4% premarket",
+   "sentiment": "Bullish",
+   "status": "reported",
+   "ticker": "CDNS",
+   "time": "AMC",
+   "when": "AMC (reported)",
+   "why": "Q3 beat ($2.11 vs $2.04), 3rd FY raise, record $8.2B backlog, $2.5B buyback. Chip-design tailwind."
+  },
+  {
+   "company": "American Express (AXP)",
+   "date": "2026-10-23",
+   "name": "American Express",
+   "reaction": "AXP about -3%",
+   "sentiment": "Bearish",
+   "status": "reported",
+   "ticker": "AXP",
+   "time": "BMO",
+   "when": "BMO (reported)",
+   "why": "Revenue miss plus ~5% job cuts added to the weak-consumer story."
   },
   {
    "company": "Meta (META)",
@@ -200,77 +284,6 @@
    "time": "AMC",
    "when": "AMC (reported)",
    "why": "Decent analog/equipment demand couldn't beat the AI-profitability worries."
-  },
-  {
-   "company": "American Express (AXP)",
-   "date": "2026-10-23",
-   "name": "American Express",
-   "reaction": "AXP about -3%",
-   "sentiment": "Bearish",
-   "status": "reported",
-   "ticker": "AXP",
-   "time": "BMO",
-   "when": "BMO (reported)",
-   "why": "Revenue miss plus ~5% job cuts added to the weak-consumer story."
-  },
-  {
-   "company": "Cadence Design (CDNS)",
-   "date": "2026-10-26",
-   "name": "Cadence Design",
-   "reaction": "CDNS ~+2.4% premarket",
-   "sentiment": "Bullish",
-   "status": "reported",
-   "ticker": "CDNS",
-   "time": "AMC",
-   "when": "AMC (reported)",
-   "why": "Q3 beat ($2.11 vs $2.04), 3rd FY raise, record $8.2B backlog, $2.5B buyback. Chip-design tailwind."
-  },
-  {
-   "company": "NXP, Seagate, Robinhood (NXPI)",
-   "date": "2026-10-27",
-   "name": "NXP, Seagate, Robinhood",
-   "status": "upcoming",
-   "ticker": "NXPI",
-   "time": "AMC",
-   "when": "AMC",
-   "why": "Semis, storage, retail trading"
-  },
-  {
-   "company": "Visa (V)",
-   "date": "2026-10-27",
-   "name": "Visa",
-   "status": "upcoming",
-   "ticker": "V",
-   "time": "AMC",
-   "when": "AMC",
-   "why": "Consumer spending read"
-  },
-  {
-   "company": "Seagate (STX)",
-   "date": "2026-10-27",
-   "name": "Seagate",
-   "status": "upcoming",
-   "ticker": "STX",
-   "time": "AMC",
-   "when": "AMC"
-  },
-  {
-   "company": "Robinhood (HOOD)",
-   "date": "2026-10-27",
-   "name": "Robinhood",
-   "status": "upcoming",
-   "ticker": "HOOD",
-   "time": "AMC",
-   "when": "AMC"
-  },
-  {
-   "company": "Teradyne (TER)",
-   "date": "2026-10-27",
-   "name": "Teradyne",
-   "status": "upcoming",
-   "ticker": "TER",
-   "time": "AMC",
-   "when": "AMC"
   },
   {
    "company": "Microsoft (MSFT)",
@@ -389,134 +402,125 @@
    "why": "Top NQ weight · next Monday"
   }
  ],
- "grok": {
-  "at": "2026-10-28T00:11:33Z",
-  "pulse": "Nasdaq and S&P closed higher on AI/chip strength and softer oil from Iran de-escalation signals, with traders positioned for Wednesday's FOMC hold and Mag7 earnings.",
-  "bias": "risk-on — tech rebound and oil under $100 supporting risk appetite into Fed decision and Big Tech prints.",
-  "items": [
-    "DJ Prop Firms (~1:26 PM ET): NQ +1.0%, ES +0.5%, CL -1.6% on Iran talk; Fed two-day meeting underway, decision tomorrow.",
-    "OptionsTrading101 (~7:26 AM ET): Futures bid ES +20 NQ +123; Anthropic IPO filing and $63B AVGO/Anthropic deal lift AI sentiment, oil still elevated but talks ongoing.",
-    "Market close (~4:00 PM ET): Nasdaq Comp +1.18% to 26,478, S&P +0.60% to 7,723; chips (AVGO, AMD, MU) extended gains, WTI settled ~$99.90.",
-    "Federal Reserve (~10:06 AM ET): Chairman Warsh to host FOMC press conference tomorrow at 2:30 PM ET.",
-    "X pulse: Oil eased second day on Khamenei conditions for ending conflict; 10Y near 5%, VIX lower."
-  ],
-  "trump": "\"decision time\" on Iran deal or finish it off (recent Fox comments); rebuked Iran on mines while highlighting Venezuelan oil as hedge.",
-  "watch": "Wednesday 2:00 PM ET FOMC decision (hold expected ~90%) and Warsh presser at 2:30; MSFT/GOOGL earnings AMC; any Iran/oil headline shifts near $100; overnight AMC reports (NXPI/STX/HOOD/TER/V).",
-  "forSite": []
- },
  "moves": [
   {
-   "basis": "Nasdaq Composite late session vs prior close, Tue Oct 27 ~3:45 PM (Yahoo)",
-   "pct": 1.38,
+   "basis": "Nasdaq Composite close vs prior close, Tue Oct 27 (26,477.81)",
+   "pct": 1.18,
    "symbol": "NQ"
   },
   {
-   "basis": "S&P 500 late session vs prior close, Tue Oct 27 ~3:45 PM (Yahoo)",
-   "pct": 0.74,
+   "basis": "S&P 500 close vs prior close, Tue Oct 27 (7,722.60)",
+   "pct": 0.6,
    "symbol": "ES"
   }
  ],
  "news": [
   {
-   "headline": "Nasdaq ~+1.4% late session (~26,530), S&P ~+0.7%, Dow flat; tech up a 2nd straight day.",
+   "headline": "Nasdaq closes +1.18% at 26,478, S&P +0.60% at 7,723 (within 1.2% of ATH); Dow flat, Russell +1.2%.",
    "id": "n0",
    "impact": "High",
-   "source": "Yahoo Finance",
-   "time": "Tue ~3:45 PM",
-   "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-october-27-dow-sp-500-nasdaq-081901995.html",
-   "why": "Monday's bounce extended; NQ broke out of the Globex range after 10 AM."
+   "source": "Capp Notes",
+   "time": "Tue 4:00 PM",
+   "url": "https://cappnotes.substack.com/p/closing-look-tuesday-october-27-2026",
+   "why": "Second straight up day; NQ holds near the session high into FOMC."
   },
   {
-   "headline": "Chips lead: SOX up a 3rd day; Broadcom +4.6%, AMD +4%, WDC +6%, CoreWeave and Nebius higher.",
+   "headline": "NXP falls ~7.6% after hours despite a Q3 beat; Q4 guide ~$3.85B and capex rising to ~5% of revenue in 2027.",
    "id": "n1",
    "impact": "High",
-   "source": "HDFC Sky / Reuters",
-   "time": "Tue AM",
-   "url": "https://hdfcsky.com/news/nasdaq-composite-jumps-175-points-to-26344-as-chip-stocks-rally-ahead-of-fed-decision",
-   "why": "Semis are driving the NQ bid into MSFT/GOOGL Wed AMC."
+   "source": "Investing.com",
+   "time": "Tue AH",
+   "url": "https://www.investing.com/news/company-news/nxp-q3-2026-presentation-doubling-eps-goal-outlined-despite-stock-drop-93CH-4977106",
+   "why": "Semis bellwether gap down can cool the chip leadership at the Wed open."
   },
   {
-   "headline": "Oil slides: WTI ~$99.8 (-2%), Brent under $110 on Iran/Saudi/Turkey/Pakistan de-escalation talks.",
+   "headline": "Teradyne beats Q3 (rev +70% y/y) and guides above consensus, but shares drop ~6.6% after the release on inventory build.",
    "id": "n2",
-   "impact": "High",
-   "source": "Yahoo Finance",
-   "time": "Tue PM",
-   "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-october-27-dow-sp-500-nasdaq-081901995.html",
-   "why": "Crude back under $100 cuts inflation fear and supports the tech bid."
-  },
-  {
-   "headline": "Trump: 'decision time' on Iran, deal or more strikes; calls ceasefire a waste of time.",
-   "id": "n3",
-   "impact": "High",
-   "source": "X via Grok / ICYMI O/N",
-   "time": "Tue ~7:00 AM",
-   "url": "https://zackeiseman.substack.com/p/icymi-on-october-27th-2026",
-   "why": "Strike headlines spike oil and drop NQ fast; deal headlines do the opposite."
-  },
-  {
-   "headline": "FOMC day 1: hold expected Wed; CME ~10-11% hike odds; Fed hiked to 3.75-4% in Sept.",
-   "id": "n4",
-   "impact": "High",
-   "source": "HDFC Sky",
-   "time": "Tue",
-   "url": "https://hdfcsky.com/news/nasdaq-composite-jumps-175-points-to-26344-as-chip-stocks-rally-ahead-of-fed-decision",
-   "why": "Any hawkish surprise from Warsh at 2:30 PM Wed would hit NQ hardest."
-  },
-  {
-   "headline": "10Y ~4.99%, 2Y ~4.72%; VIX ~17.6 (-4%); gold ~$4,060.",
-   "id": "n5",
    "impact": "Medium",
-   "source": "Yahoo Finance / Motley Fool",
-   "time": "Tue PM",
-   "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-october-27-dow-sp-500-nasdaq-081901995.html",
-   "why": "Yields stuck at the 5% line; a break above is the main NQ headwind."
+   "source": "StockStory / FinancialContent",
+   "time": "Tue AH",
+   "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-10-27-teradyne-nasdaqter-exceeds-q3-expectations-but-stock-drops",
+   "why": "Second AI-chip print sold on 'priced in'; watch SOX at 9:30."
   },
   {
-   "headline": "Meta's record ~$97.5B equity raise for AI; Nvidia putting in $3B. META ~-1%.",
+   "headline": "Seagate -5% and Robinhood -7% after hours: STX beat-and-raise after a 140% YTD run; HOOD missed on revenue and EPS, crypto rev -55%.",
+   "id": "n3",
+   "impact": "Medium",
+   "source": "TipRanks",
+   "time": "Tue AH",
+   "url": "https://www.tipranks.com/news/whats-driving-the-selloff-in-robinhood-and-seagate-stocks-after-hours-and-what-wall-street-sees-next",
+   "why": "High-beta AI/retail names fading on good news = stretched positioning."
+  },
+  {
+   "headline": "Visa slips ~1% after hours: FQ4 beat, but FY27 renewal cycle may lift client incentives and pressure margins.",
+   "id": "n4",
+   "impact": "Low",
+   "source": "Investing.com",
+   "time": "Tue AH",
+   "url": "https://za.investing.com/news/stock-market-news/visa-q4-fy2026-slides-13-revenue-growth-shares-dip-on-outlook-93CH-4529587",
+   "why": "Consumer spending still resilient; small read-through for ES, not NQ."
+  },
+  {
+   "headline": "FOMC decision Wed 2:00 PM ET, Chair Warsh presser 2:30 PM; a hold is ~90% priced with small hike odds.",
+   "id": "n5",
+   "impact": "High",
+   "source": "Grok / X",
+   "time": "Wed 2:00 PM",
+   "url": "https://raw.githubusercontent.com/NQXAVER/kaixh-trades/main/data/desk/grok.json",
+   "why": "The day's main event; NY AM tends to range ahead of it."
+  },
+  {
+   "headline": "WTI settles $99.90 (-1.8%), Brent $113.88 as Saudi/Pakistan/Turkey-Iran talks continue; Houthis claim hits on Saudi pipeline.",
    "id": "n6",
    "impact": "High",
-   "source": "Kitco / Reuters",
-   "time": "Tue AM",
-   "url": "https://www.kitco.com/news/off-the-wire/2026-10-27/sp-500-nasdaq-advance-oil-eases-ahead-fed-decision",
-   "why": "AI capex funded by dilution: watch for capex-fatigue in MSFT/GOOGL calls."
+   "source": "Oil & Gas Middle East",
+   "time": "Tue",
+   "url": "https://www.oilandgasmiddleeast.com/news/brent-crude-tehran-talks-houthi",
+   "why": "Oil under $100 is the bull's tailwind; any strike headline flips it."
   },
   {
-   "headline": "Anthropic S-1: H1 revenue ~$16.3B; plans Nasdaq listing as ANT, up to $100B+ raise.",
+   "headline": "Trump says it's 'decision time' on an Iran deal and hints strikes could resume after the Nov 3 midterms.",
    "id": "n7",
-   "impact": "High",
-   "source": "HDFC Sky",
-   "time": "Mon-Tue",
-   "url": "https://hdfcsky.com/news/nasdaq-composite-jumps-175-points-to-26344-as-chip-stocks-rally-ahead-of-fed-decision",
-   "why": "The fuel for this week's AI/semis rally; supply of a mega IPO is a later risk."
+   "impact": "Medium",
+   "source": "Oil & Gas Middle East",
+   "time": "Tue",
+   "url": "https://www.oilandgasmiddleeast.com/news/brent-crude-tehran-talks-houthi",
+   "why": "Headline risk for overnight NQ gaps all week."
   },
   {
-   "headline": "Durable goods +1.8% in Sept vs 1.7% fcst; core durables in line.",
+   "headline": "10Y yield ends at 4.995%, just under 5%; VIX -4.7% to 17.5.",
    "id": "n8",
    "impact": "Medium",
-   "source": "HDFC Sky",
-   "time": "Tue 8:30 AM",
-   "url": "https://hdfcsky.com/news/nasdaq-composite-jumps-175-points-to-26344-as-chip-stocks-rally-ahead-of-fed-decision",
-   "why": "No growth scare from the 8:30 data; didn't move NQ much."
+   "source": "Capp Notes",
+   "time": "Tue close",
+   "url": "https://cappnotes.substack.com/p/closing-look-tuesday-october-27-2026",
+   "why": "A 5%+ break is the key rates risk for tech multiples into Warsh."
   },
   {
-   "headline": "GM to move its listing to Nasdaq (+5%); Tesla +3% extends Barclays-upgrade gains.",
+   "headline": "Other AH movers: Enphase -16% on a weak Q4 guide, CoStar -10%, PPG +8% on a raise.",
    "id": "n9",
-   "impact": "Medium",
-   "source": "Kitco / Reuters",
-   "time": "Tue AM",
-   "url": "https://www.kitco.com/news/off-the-wire/2026-10-27/sp-500-nasdaq-advance-oil-eases-ahead-fed-decision",
-   "why": "TSLA strength helps NQ breadth; GM adds to Nasdaq index weight later."
-  },
-  {
-   "headline": "SoFi +14% on beat-and-raise; Royal Caribbean +7.6%; Xylem -8.8%, Sherwin-Williams -3.4%.",
-   "id": "n10",
    "impact": "Low",
-   "source": "Motley Fool",
-   "time": "Tue midday",
-   "url": "https://www.fool.com/coverage/stock-market-today/2026/10/27/stock-market-midday-oct-27-tech-stocks-lead-as-nasdaq-climbs-on-market-momentum/",
-   "why": "Stock-specific; consumer-lending beat eases weak-consumer worry."
+   "source": "Capp Notes",
+   "time": "Tue AH",
+   "url": "https://cappnotes.substack.com/p/closing-look-tuesday-october-27-2026",
+   "why": "Minor NQ weight; ENPH adds to the soft AH tone."
   }
  ],
- "takeaway": "NQ trended higher all day: the Nasdaq was up ~1.4% late (~26,530) as chips led for a 3rd session (AVGO +4.6%, AMD +4%) on the Anthropic IPO/AI bid. Oil fell ~2% (WTI under $100, Brent under $110) on Iran de-escalation talks, and VIX slipped to ~17.6, but the 10Y is still pinned at ~5%. FOMC day 1 is done; the decision is Wed 2:00 PM with Warsh at 2:30 (hold expected, ~10% hike odds). NXPI, STX, HOOD, V and TER report tonight; MSFT/GOOGL Wed AMC.",
- "updatedAt": "2026-10-28T00:11:33Z"
+ "takeaway": "NQ closed strong Tue: Nasdaq +1.18% to 26,478, S&P +0.60% to 7,723 (1.2% from ATH) on a 3rd day of chip leadership (AVGO, AMD, MU) and the Anthropic/AI bid. WTI settled $99.90 (-1.8%), Brent $113.88, VIX 17.5, but the 10Y is still pinned at 4.995%. After hours the semis/AI-adjacent prints sold off: NXPI -7.6%, TER ~-6.6%, STX -5/-6% (beat-and-raise, priced in), HOOD -7% on a miss, V -1%. Expect a softer semis open Wed; FOMC 2:00 PM (hold expected) with Warsh at 2:30, then MSFT/GOOGL/NOW/KLAC after the bell.",
+ "updatedAt": "2026-10-28T02:15:00Z",
+ "grok": {
+  "at": "2026-10-28T00:11:33Z",
+  "pulse": "Nasdaq and S&P closed higher on AI/chip strength and softer oil from Iran de-escalation signals, with traders positioned for Wednesday's FOMC hold and Mag7 earnings.",
+  "bias": "risk-on — tech rebound and oil under $100 supporting risk appetite into Fed decision and Big Tech prints.",
+  "items": [
+   "DJ Prop Firms (~1:26 PM ET): NQ +1.0%, ES +0.5%, CL -1.6% on Iran talk; Fed two-day meeting underway, decision tomorrow.",
+   "OptionsTrading101 (~7:26 AM ET): Futures bid ES +20 NQ +123; Anthropic IPO filing and $63B AVGO/Anthropic deal lift AI sentiment, oil still elevated but talks ongoing.",
+   "Market close (~4:00 PM ET): Nasdaq Comp +1.18% to 26,478, S&P +0.60% to 7,723; chips (AVGO, AMD, MU) extended gains, WTI settled ~$99.90.",
+   "Federal Reserve (~10:06 AM ET): Chairman Warsh to host FOMC press conference tomorrow at 2:30 PM ET.",
+   "X pulse: Oil eased second day on Khamenei conditions for ending conflict; 10Y near 5%, VIX lower."
+  ],
+  "trump": "\"decision time\" on Iran deal or finish it off (recent Fox comments); rebuked Iran on mines while highlighting Venezuelan oil as hedge.",
+  "watch": "Wednesday 2:00 PM ET FOMC decision (hold expected ~90%) and Warsh presser at 2:30; MSFT/GOOGL earnings AMC; any Iran/oil headline shifts near $100; overnight AMC reports (NXPI/STX/HOOD/TER/V).",
+  "forSite": []
+ }
 }
