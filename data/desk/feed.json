@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T13:19:03Z",
+  "updatedAt": "2026-10-29T15:56:03Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -183,9 +183,9 @@
     {
       "id": "un-peace",
       "label": "UN News",
-      "ok": false,
-      "items": 0,
-      "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+      "ok": true,
+      "items": 20,
+      "error": null
     },
     {
       "id": "wsj-biz",
@@ -324,6 +324,18 @@
       "auto": true
     },
     {
+      "id": "f70125ae5fa7a",
+      "headline": "Analysis: Kevin Warsh is keeping Wall Street guessing. It may be his most powerful tool.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/29/kevin-warsh-fed-october-rate-decision-december-hike.html",
+      "publishedAt": "2026-10-29T13:51:17Z",
+      "time": "Thu 9:51 AM",
+      "section": "fed",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "f80e5f21f645c",
       "headline": "Analysis: Kevin Warsh is keeping his options open — and Wall Street guessing",
       "source": "CNBC",
@@ -432,27 +444,15 @@
       "auto": true
     },
     {
-      "id": "f3921f7549ee3",
-      "headline": "Fed expected to hold rates steady, but Warsh may point way to more hikes",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/27/federal-reserve-rates-kevin-warsh.html",
-      "publishedAt": "2026-10-27T15:52:26Z",
-      "time": "Tue 11:52 AM",
-      "section": "fed",
-      "impact": "High",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "fa4f04faf6b41",
-      "headline": "U.S. GDP Increased 3.4% in Third Quarter",
-      "source": "New York Times",
-      "url": "https://www.nytimes.com/2026/10/29/business/economy/us-economy-gdp.html",
-      "publishedAt": "2026-10-29T13:18:52Z",
-      "time": "Thu 9:18 AM",
+      "id": "faa5c57116ac4",
+      "headline": "Inflation surges, PCE shows. Fed pause on rate hikes unlikely to last with prices still rising.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/inflation-surges-pce-shows-fed-pause-on-rate-hikes-unlikely-to-last-long-with-prices-still-rising-79128886?mod=mw_rss_topstories",
+      "publishedAt": "2026-10-29T14:38:00Z",
+      "time": "Thu 10:38 AM",
       "section": "econ",
       "impact": "High",
-      "lean": null,
+      "lean": "risk-off",
       "auto": true
     },
     {
@@ -460,8 +460,8 @@
       "headline": "Inflation Accelerated in October, PCE Index Shows",
       "source": "New York Times",
       "url": "https://www.nytimes.com/2026/10/29/business/economy/pce-inflation-economy.html",
-      "publishedAt": "2026-10-29T13:11:39Z",
-      "time": "Thu 9:11 AM",
+      "publishedAt": "2026-10-29T14:31:57Z",
+      "time": "Thu 10:31 AM",
       "section": "econ",
       "impact": "High",
       "lean": null,
@@ -472,23 +472,23 @@
       "headline": "Third-quarter U.S. GDP increases a better-than-expected 3.4% as September inflation accelerates",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html",
-      "publishedAt": "2026-10-29T13:08:00Z",
-      "time": "Thu 9:08 AM",
+      "publishedAt": "2026-10-29T14:11:31Z",
+      "time": "Thu 10:11 AM",
       "section": "econ",
       "impact": "High",
       "lean": null,
       "auto": true
     },
     {
-      "id": "f16473523f9a8",
-      "headline": "Inflation surges, PCE shows. Fed pause on rate hikes unlikely to last long with prices still rising.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/inflation-surges-pce-shows-fed-pause-on-rate-hikes-unlikely-to-last-long-with-prices-still-rising-79128886?mod=mw_rss_topstories",
-      "publishedAt": "2026-10-29T12:36:00Z",
-      "time": "Thu 8:36 AM",
+      "id": "fa4f04faf6b41",
+      "headline": "U.S. GDP Increased 3.4% in Third Quarter",
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/2026/10/29/business/economy/us-economy-gdp.html",
+      "publishedAt": "2026-10-29T13:55:29Z",
+      "time": "Thu 9:55 AM",
       "section": "econ",
       "impact": "High",
-      "lean": "risk-off",
+      "lean": null,
       "auto": true
     },
     {
@@ -516,15 +516,39 @@
       "auto": true
     },
     {
-      "id": "fe592ca352168",
-      "headline": "Consumer spending flattens out after inflation surge",
+      "id": "fc7059b826493",
+      "headline": "Consumer spending flattens out after U.S. inflation surge",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/consumer-spending-flattens-out-after-inflation-surge-e7761d25?mod=mw_rss_topstories",
-      "publishedAt": "2026-10-29T13:01:00Z",
-      "time": "Thu 9:01 AM",
+      "publishedAt": "2026-10-29T15:04:00Z",
+      "time": "Thu 11:04 AM",
       "section": "econ",
       "impact": "Medium",
       "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f2f53dcb98009",
+      "headline": "In Moving Gradually, Fed Risks Having to Play Catch-Up to Quell Inflation",
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/2026/10/29/business/economy/federal-reserve-interest-rates.html",
+      "publishedAt": "2026-10-29T13:31:26Z",
+      "time": "Thu 9:31 AM",
+      "section": "econ",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f67596b4f0ac2",
+      "headline": "US economy grows faster than expected but inflation rises to 3.7%",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/oct/29/economy-growth-third-quarter",
+      "publishedAt": "2026-10-29T13:09:00Z",
+      "time": "Thu 9:09 AM",
+      "section": "econ",
+      "impact": "Medium",
+      "lean": "risk-off",
       "auto": true
     },
     {
@@ -540,48 +564,24 @@
       "auto": true
     },
     {
-      "id": "f2f53dcb98009",
-      "headline": "In Moving Gradually, Fed Risks Having to Play Catch-Up to Quell Inflation",
-      "source": "New York Times",
-      "url": "https://www.nytimes.com/2026/10/29/business/economy/federal-reserve-interest-rates.html",
-      "publishedAt": "2026-10-29T12:59:35Z",
-      "time": "Thu 8:59 AM",
-      "section": "econ",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "fdb09a5afe5e6",
-      "headline": "Tariffs, diesel and computer chips are driving up costs for automakers",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/10/29/nx-s1-6008066/automakers-inflation-tariffs-chips-diesel-earnings",
-      "publishedAt": "2026-10-29T09:00:00Z",
-      "time": "Thu 5:00 AM",
-      "section": "econ",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f21ea6bcf0500",
-      "headline": "Alphabet falls 11% in premarket, putting it on course for its biggest ever post-earnings drop",
+      "id": "f603fe7002808",
+      "headline": "Alphabet earnings miss reflects first real sign that AI is taking a bite out of search",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/29/alphabet-google-microsoft-msft-shares-today-earnings.html",
-      "publishedAt": "2026-10-29T12:43:03Z",
-      "time": "Thu 8:43 AM",
+      "url": "https://www.cnbc.com/2026/10/29/alphabet-google-search-ai-earnings.html",
+      "publishedAt": "2026-10-29T14:34:21Z",
+      "time": "Thu 10:34 AM",
       "section": "tech",
       "impact": "High",
       "lean": null,
       "auto": true
     },
     {
-      "id": "f603fe7002808",
-      "headline": "Alphabet earnings miss reflects first real sign that AI is taking a bite out of search",
+      "id": "fbbd570d395bd",
+      "headline": "Alphabet falls 13%, putting it on course for its biggest ever post-earnings drop",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/29/alphabet-google-search-ai-earnings.html",
-      "publishedAt": "2026-10-29T12:09:47Z",
-      "time": "Thu 8:09 AM",
+      "url": "https://www.cnbc.com/2026/10/29/alphabet-google-microsoft-msft-shares-today-earnings.html",
+      "publishedAt": "2026-10-29T13:46:52Z",
+      "time": "Thu 9:46 AM",
       "section": "tech",
       "impact": "High",
       "lean": null,
@@ -744,6 +744,18 @@
       "auto": true
     },
     {
+      "id": "fdfc94878cd6a",
+      "headline": "Rising fuel costs force passengers off cruise ship",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/29/rising-fuel-costs-force-passengers-off-cruise-ship?traffic_source=rss",
+      "publishedAt": "2026-10-29T13:26:38Z",
+      "time": "Thu 9:26 AM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "fbdb058d26b65",
       "headline": "I earn £30,000. I'm angry there was no fuel duty cut in the Budget",
       "source": "BBC",
@@ -786,18 +798,6 @@
       "url": "https://oilprice.com/Energy/Energy-General/Oil-Refineries-Become-Prime-Targets-as-Global-Fuel-Shortage-Worsens.html",
       "publishedAt": "2026-10-28T23:00:00Z",
       "time": "Wed 7:00 PM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f8e54a56c36e1",
-      "headline": "How Trump’s Russian Diesel Could End Up in Cuba Instead",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/How-Trumps-Russian-Diesel-Could-End-Up-in-Cuba-Instead.html",
-      "publishedAt": "2026-10-28T22:28:57Z",
-      "time": "Wed 6:28 PM",
       "section": "energy",
       "impact": "Medium",
       "lean": null,
