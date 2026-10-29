@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-29",
+  "grok": {
+    "at": "2026-10-29T13:27:00Z",
+    "pulse": "Nasdaq futures down ~1% premarket as Alphabet's earnings miss and negative free cash flow reignite AI spending fears, while oil retreats on Vance outreach to Iran after FOMC hold.",
+    "bias": "risk-off — GOOGL cash-burn miss and NQ futures weakness outweigh MSFT beat and oil dip, with persistent inflation and Dec hike odds.",
+    "items": [
+      "@MirgoTrades (~9:26 AM ET): NQ futures -1% as GOOGL miss (neg FCF $9B) splits AI trade from MSFT +3% beat; AMZN AMC test.",
+      "@HCFlowSniper (~9:26 AM ET): US futures lower NQ -1.25% on GOOGL; oil retreating on ME peace hopes; Fed hold, GDP 3.4% PCE sticky.",
+      "@DEVIDfloor (~9:26 AM ET): Premarket NQ ~-1%, SPX -0.3%; PCE 0.3% m/m in line, Q3 GDP 3.4% beat.",
+      "@wallstengine (~8:59 AM ET): Trump admin negotiating temp peace deal with Iran; VP Vance letter restarts talks.",
+      "@A_P_Capital (~9:21 AM ET): Positive Iran deal most sense pre-midterms for gas prices boost."
+    ],
+    "trump": "VP JD Vance sent letter to Iranian Security Council chief Mohsen Rezaei to restart peace talks; Trump admin negotiating temporary peace deal ahead of midterms, though Trump downplayed as humanitarian.",
+    "watch": "AMZN and INTC earnings after close; open reaction and follow-through on GOOGL selloff and AI ROI concerns; oil/Iran diplomacy headlines; 10Y yields and Dec FOMC hike pricing.",
+    "forSite": []
+  }
+}

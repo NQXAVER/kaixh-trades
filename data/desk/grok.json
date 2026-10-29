@@ -1,15 +1,15 @@
 {
-  "at": "2026-10-29T11:00:00Z",
-  "pulse": "NQ futures sink over 1% into the US open as GOOGL's AI cash-burn miss outweighs MSFT's Azure beat after yesterday's modest post-FOMC gains, with elevated oil on ongoing Iran risks.",
-  "bias": "mixed — MSFT cloud strength and the 10-2 Fed hold support NQ, but GOOGL negative FCF on massive AI spend, futures weakness, and Iran/oil premium lean risk-off overnight.",
+  "at": "2026-10-29T13:27:00Z",
+  "pulse": "Nasdaq futures down ~1% premarket as Alphabet's earnings miss and negative free cash flow reignite AI spending fears, while oil retreats on Vance outreach to Iran after FOMC hold.",
+  "bias": "risk-off — GOOGL cash-burn miss and NQ futures weakness outweigh MSFT beat and oil dip, with persistent inflation and Dec hike odds.",
   "items": [
-    "@business (~7:00 AM ET): Nasdaq Futures Sink as AI Trade Shows New Cracks",
-    "@EhTrader2 (~7:00 AM ET): AI report card MSFT A vs GOOGL spending ~$200B neg cash flow; Nasdaq futures -1.2%",
-    "@invxsecurities (~7:00 AM ET): Nasdaq Futures drop >1%; Warsh high rates press AI invest; Alphabet cash concern, MSFT Azure +48%",
-    "@sports_lamb (~6:57 AM ET): Premarket MSFT +3.5% Azure beat, GOOGL -10.5% AI cash burn; Nasdaq futures ~-1%, Fed held",
-    "@GameStockHQ (~6:49 AM ET): Oct 28: Fed held 10-2, AI hardware rallied; AH MSFT strong Azure +48%, GOOGL FCF negative"
+    "@MirgoTrades (~9:26 AM ET): NQ futures -1% as GOOGL miss (neg FCF $9B) splits AI trade from MSFT +3% beat; AMZN AMC test.",
+    "@HCFlowSniper (~9:26 AM ET): US futures lower NQ -1.25% on GOOGL; oil retreating on ME peace hopes; Fed hold, GDP 3.4% PCE sticky.",
+    "@DEVIDfloor (~9:26 AM ET): Premarket NQ ~-1%, SPX -0.3%; PCE 0.3% m/m in line, Q3 GDP 3.4% beat.",
+    "@wallstengine (~8:59 AM ET): Trump admin negotiating temp peace deal with Iran; VP Vance letter restarts talks.",
+    "@A_P_Capital (~9:21 AM ET): Positive Iran deal most sense pre-midterms for gas prices boost."
   ],
-  "trump": "Trump weighs renewed strikes on Iran in the eight-month war as Hegseth removes top planner; oil risk premium persists from Houthi/Saudi incidents.",
-  "watch": "US open reaction to GOOGL/MSFT follow-through; Q3 GDP and PCE 8:30 AM ET; AMZN earnings AMC; oil/Iran strike or diplomacy headlines; 10Y yields and Dec hike pricing.",
+  "trump": "VP JD Vance sent letter to Iranian Security Council chief Mohsen Rezaei to restart peace talks; Trump admin negotiating temporary peace deal ahead of midterms, though Trump downplayed as humanitarian.",
+  "watch": "AMZN and INTC earnings after close; open reaction and follow-through on GOOGL selloff and AI ROI concerns; oil/Iran diplomacy headlines; 10Y yields and Dec FOMC hike pricing.",
   "forSite": []
 }
