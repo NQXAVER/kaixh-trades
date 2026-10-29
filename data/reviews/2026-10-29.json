@@ -1,7 +1,7 @@
 {
  "date": "2026-10-29",
  "entryUrl": "https://app.notion.com/p/40860e8f5c45808db056f7e91fa20aaf",
- "summary": "The trade itself was decent and matched your plan: a long after the 9:30 dump swept below LO.L to NYAM.L, aimed at the Daily Open with the 'Daily no wick' as your DOL. You risked small, held through the chop, and moved to break-even after the bearish SMT at the internal high, so it closed BE. The day's real problem came after the trade: Gmail shows three new LucidFlex 50K evals bought at 11:33 AM, 1:14 PM and 2:39 PM ET ($80.50 each, $241.50 total), which breaks your rule of no more eval purchases. That came right after a BE you described as 'so so annoying', which looks like frustration being spent on new accounts. The journal is also thin: Entry type, StopLoss, RR and Emotions after are empty.",
+ "summary": "The trade itself was decent and matched your plan: a long after the 9:30 dump swept below LO.L to NYAM.L, aimed at the Daily Open with the 'Daily no wick' as your DOL. You risked small, held through the chop, and moved to break-even after the bearish SMT at the internal high, so it closed BE. The day's real problem came after the trade: Gmail shows three new LucidFlex 50K evals bought at 11:33 AM, 1:14 PM and 2:39 PM ET ($80.50 each, $241.50 total), which breaks your rule of no more eval purchases. That came right after a BE you described as 'so so annoying', which looks like frustration being spent on new accounts. The journal is also thin: Entry type, StopLoss, RR and Emotions after are empty. In the pair channel your End of Day card says 'Rules Followed: Yes', posted at 1:18 PM, between the second and third purchase.",
  "trade": "Long · NY-AM · XFA (risked low) · BreakEven · entry ~29,510.25 around 10:00 to 10:05 AM after the sweep of NYAM.L (~29,400) · stop ~29,442.25 (about 68 points) · target Daily Open ~29,790 (DOL 'Daily no wick') · stop moved to BE after the bearish SMT at ~29,625 · levels read from the 10:46 chart, so treat them as approximate",
  "rule": "No new eval or account purchases, on any day, for any reason. If you feel the urge after a trade, write down why in Notion and tell Bibz in the pair channel before you buy anything, and wait until the next morning.",
  "screenshots": [
@@ -39,6 +39,7 @@
  ],
  "fix": [
   "Three LucidFlex 50K Rithmic evals bought today (orders 11918616 at 11:33 AM, 11923546 at 1:14 PM, 11926401 at 2:39 PM ET, $80.50 each with the AB coupon, $241.50 total). This breaks your no-new-evals rule, and buying three in three hours after a frustrating BE is the pattern to stop.",
+  "Honesty on the EOD card: 'Rules Followed: Yes' at 1:18 PM, after buying two evals that day. Bibz and the syndicate only know what you tell them.",
   "Stop placement: ~29,442 was above NYAM.L (~29,400), the low that created the leg you were buying. If the idea is that the sweep low holds, the stop belongs under that low, with size cut to keep the dollar risk the same.",
   "Break-even rule: decide before entry where BE happens (for example, after price closes above the 15min unfill), and write it in the entry notes so you aren't choosing it while annoyed.",
   "Fill in the journal: Entry type, StopLoss, RR and Emotions after are empty, and TALK starts mid-sentence. Add the entry, stop, BE level and what you felt after.",
@@ -58,5 +59,13 @@
    "q": "You risked low because MO dumped 200 and then pumped 160, so you were 'a bit iffy'. If you didn't trust the idea, what made it worth taking instead of waiting for a cleaner one?"
   }
  ],
- "reviewedAt": "2026-10-29T20:18:09Z"
+ "reviewedAt": "2026-10-29T20:18:45Z",
+ "discord": {
+  "chartsOpened": "9:25 AM ET (Morning Check-in card posted 9:29 AM, streak 5 days).",
+  "plan": "\"i do want to see us dump but i cant ignore the no wick on the daily im going to stay patient today\"",
+  "risk": "Risk settings screenshot posted and confirmed at 9:29 AM ET, just inside the 9:30 deadline.",
+  "eod": "End of Day card filed at 1:18 PM ET (streak 6 days): trade summary listed the Daily no wick DOL, 15min rejection block midpoint, 1min OTE, 1hr bullish SMT and 1min internal SMT; Rules Followed: Yes; improvement: \"reading PA when it started to stall i could've managed my trade a bit better an trail\". Trade/PNL screenshot confirmed at 1:19 PM.",
+  "match": "The trade matches the plan: the check-in leaned toward the Daily no wick and staying patient, and the long to the Daily Open is that idea. But 'Rules Followed: Yes' at 1:18 PM doesn't hold up: Gmail shows one LucidFlex eval bought at 11:33 AM before the card, another at 1:14 PM four minutes before it, and a third at 2:39 PM after it. None of that is mentioned in the pair channel.",
+  "journalChannel": "Posted at 10:51 AM ET (edited 10:52): \"10/29/26 - BE i locked out after feeling all the emotions...\" with the 10:48 1min chart. It matches Notion (BE, went BE after the bearish SMT held and the internal high was swept)."
+ }
 }
