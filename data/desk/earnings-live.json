@@ -1,26 +1,102 @@
 {
-  "date": "2026-10-28",
-  "at": "2026-10-29T02:32:00Z",
+  "date": "2026-10-29",
+  "at": "2026-10-29T13:28:38Z",
   "items": [
-    {
-      "ticker": "MSFT",
-      "company": "Microsoft (MSFT)",
-      "date": "2026-10-28",
-      "when": "AMC",
-      "status": "reported",
-      "reaction": "+4% AH",
-      "sentiment": "Bullish",
-      "why": "Rev $92.3B / EPS $4.89 beat, Azure +48% ex-FX, Q2 Azure guide +49%"
-    },
     {
       "ticker": "GOOGL",
       "company": "Alphabet (GOOGL)",
       "date": "2026-10-28",
       "when": "AMC",
       "status": "reported",
-      "reaction": "-8% AH",
+      "reaction": "-11% premarket",
       "sentiment": "Bearish",
-      "why": "Rev $127.58B / EPS $2.12 miss; Cloud +103% but FCF negative on $51B capex"
+      "why": "Rev $127.58B vs $128.2B est / EPS $2.12 miss; Cloud +103% to $30.7B but Search +12% soft, FCF negative on heavy AI capex"
+    },
+    {
+      "ticker": "MSFT",
+      "company": "Microsoft (MSFT)",
+      "date": "2026-10-28",
+      "when": "AMC",
+      "status": "reported",
+      "reaction": "+1.7% premarket",
+      "sentiment": "Bullish",
+      "why": "Rev $92.3B / EPS $4.89 beat, Azure +48% ex-FX, Q2 Azure guide +49%"
+    },
+    {
+      "ticker": "NOW",
+      "company": "ServiceNow (NOW)",
+      "date": "2026-10-28",
+      "when": "AMC",
+      "status": "reported",
+      "reaction": "~-20% AH",
+      "sentiment": "Bearish",
+      "why": "Rev $4.106B (+20.5%) beat, adj EPS $1.00 vs $1.02 miss; Q4 cRPO guide slows to 18.5%; software/AI-app drag"
+    },
+    {
+      "ticker": "FTNT",
+      "company": "Fortinet (FTNT)",
+      "date": "2026-10-28",
+      "when": "AMC",
+      "status": "reported",
+      "reaction": "~-20% AH",
+      "sentiment": "Bearish",
+      "why": "Rev $2.08B (+20%) / adj EPS $0.91 beat, FY guide raised to $8.1-8.2B, but services +13% and trimmed services outlook; hit cyber peers"
+    },
+    {
+      "ticker": "AMZN",
+      "company": "Amazon (AMZN)",
+      "date": "2026-10-29",
+      "when": "AMC",
+      "status": "upcoming",
+      "why": "AWS growth and capex guide are the NQ swing factor after GOOGL/MSFT split"
+    },
+    {
+      "ticker": "INTC",
+      "company": "Intel (INTC)",
+      "date": "2026-10-29",
+      "when": "AMC",
+      "status": "upcoming",
+      "why": "Foundry/AI data-center read for semis"
+    },
+    {
+      "ticker": "SNDK",
+      "company": "SanDisk (SNDK)",
+      "date": "2026-10-29",
+      "when": "AMC",
+      "status": "upcoming",
+      "why": "Memory/NAND pricing read for semis"
+    },
+    {
+      "ticker": "MPWR",
+      "company": "Monolithic Power (MPWR)",
+      "date": "2026-10-29",
+      "when": "AMC",
+      "status": "upcoming",
+      "why": "AI server power supplier, semis read"
+    },
+    {
+      "ticker": "COIN",
+      "company": "Coinbase (COIN)",
+      "date": "2026-10-29",
+      "when": "AMC",
+      "status": "upcoming",
+      "why": "Crypto-equity read; earnings AMA 5 PM ET"
+    },
+    {
+      "ticker": "XOM",
+      "company": "Exxon Mobil (XOM)",
+      "date": "2026-10-30",
+      "when": "BMO",
+      "status": "upcoming",
+      "why": "Oil major read with crude elevated on Iran war"
+    },
+    {
+      "ticker": "AAPL",
+      "company": "Apple (AAPL)",
+      "date": "2026-11-02",
+      "when": "AMC",
+      "status": "upcoming",
+      "why": "Mag7 print; iPhone and services guide"
     }
   ]
 }

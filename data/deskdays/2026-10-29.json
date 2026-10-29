@@ -1,18 +1,66 @@
 {
   "date": "2026-10-29",
   "grok": {
-    "at": "2026-10-29T13:27:00Z",
-    "pulse": "Nasdaq futures down ~1% premarket as Alphabet's earnings miss and negative free cash flow reignite AI spending fears, while oil retreats on Vance outreach to Iran after FOMC hold.",
-    "bias": "risk-off — GOOGL cash-burn miss and NQ futures weakness outweigh MSFT beat and oil dip, with persistent inflation and Dec hike odds.",
+    "date": "2026-10-29",
+    "at": "2026-10-29T13:28:38Z",
+    "pulse": "NQ futures ~-1% into the open as GOOGL's -11% premarket hit (AI capex/FCF fears) drags mega-cap tech; hot-ish data (GDP 3.4% beat, PCE 3.6% in line) and a steady ECB keep yields in focus, offset by MSFT strength and Iran-talk hopes capping oil.",
+    "bias": "risk-off — GOOGL gap-down and AI ROI doubts lead NQ lower, with sticky 3.6% PCE and a strong GDP print keeping Dec hike odds alive; MSFT +1.7% and Iran diplomacy are the offsets.",
     "items": [
-      "@MirgoTrades (~9:26 AM ET): NQ futures -1% as GOOGL miss (neg FCF $9B) splits AI trade from MSFT +3% beat; AMZN AMC test.",
-      "@HCFlowSniper (~9:26 AM ET): US futures lower NQ -1.25% on GOOGL; oil retreating on ME peace hopes; Fed hold, GDP 3.4% PCE sticky.",
-      "@DEVIDfloor (~9:26 AM ET): Premarket NQ ~-1%, SPX -0.3%; PCE 0.3% m/m in line, Q3 GDP 3.4% beat.",
-      "@wallstengine (~8:59 AM ET): Trump admin negotiating temp peace deal with Iran; VP Vance letter restarts talks.",
-      "@A_P_Capital (~9:21 AM ET): Positive Iran deal most sense pre-midterms for gas prices boost."
+      "@zerohedge (~8:07 AM ET): Premarket Mag7 mixed, GOOGL -11% on search/ad miss, MSFT +1.7% on Azure — Bearish NQ",
+      "@DeItaone (~8:30 AM ET): Q3 GDP 3.4% vs 3.2% est, consumption 3.8%; claims 194K vs 198K — Mixed NQ",
+      "@LiveSquawk (~8:33 AM ET): Sep PCE 0.5% m/m / 3.6% y/y, core 0.3% / 3.1%, all in line; supercore 3.6% y/y up from 3.5% — Mixed NQ",
+      "@FirstSquawk (~9:15 AM ET): ECB holds depo 2.50% as expected, warns energy shock lifts inflation; EUR at lowest since May 2025 (strong USD) — Mixed NQ",
+      "@LiveSquawk (~5:25 AM ET): Iran agreed in principle to mechanisms but rejects nuclear concessions (N12) — Mixed NQ"
     ],
-    "trump": "VP JD Vance sent letter to Iranian Security Council chief Mohsen Rezaei to restart peace talks; Trump admin negotiating temporary peace deal ahead of midterms, though Trump downplayed as humanitarian.",
-    "watch": "AMZN and INTC earnings after close; open reaction and follow-through on GOOGL selloff and AI ROI concerns; oil/Iran diplomacy headlines; 10Y yields and Dec FOMC hike pricing.",
-    "forSite": []
+    "trump": "Trump focused on midterm rallies (claims record crowds, SC rally today); no new tariff or Fed headline. Iran peace-talk restart reports keep an oil-relief headline possible.",
+    "watch": "9:30 AM ET open: GOOGL gap follow-through vs MSFT; 9:45 AM ECB Lagarde presser; AMZN, INTC, COIN, SNDK, MPWR AMC today; XOM BMO Fri; AAPL AMC Mon Nov 2; oil/Iran headlines; 10Y and Dec FOMC hike pricing.",
+    "forSite": [],
+    "reports": [
+      {
+        "at": "2026-10-29T11:00:00Z",
+        "pulse": "NQ futures sink over 1% into the US open as GOOGL's AI cash-burn miss outweighs MSFT's Azure beat after yesterday's modest post-FOMC gains, with elevated oil on ongoing Iran risks.",
+        "bias": "mixed — MSFT cloud strength and the 10-2 Fed hold support NQ, but GOOGL negative FCF on massive AI spend, futures weakness, and Iran/oil premium lean risk-off overnight.",
+        "items": [
+          "@business (~7:00 AM ET): Nasdaq Futures Sink as AI Trade Shows New Cracks",
+          "@EhTrader2 (~7:00 AM ET): AI report card MSFT A vs GOOGL spending ~$200B neg cash flow; Nasdaq futures -1.2%",
+          "@invxsecurities (~7:00 AM ET): Nasdaq Futures drop >1%; Warsh high rates press AI invest; Alphabet cash concern, MSFT Azure +48%",
+          "@sports_lamb (~6:57 AM ET): Premarket MSFT +3.5% Azure beat, GOOGL -10.5% AI cash burn; Nasdaq futures ~-1%, Fed held",
+          "@GameStockHQ (~6:49 AM ET): Oct 28: Fed held 10-2, AI hardware rallied; AH MSFT strong Azure +48%, GOOGL FCF negative"
+        ],
+        "trump": "Trump weighs renewed strikes on Iran in the eight-month war as Hegseth removes top planner; oil risk premium persists from Houthi/Saudi incidents.",
+        "watch": "US open reaction to GOOGL/MSFT follow-through; Q3 GDP and PCE 8:30 AM ET; AMZN earnings AMC; oil/Iran strike or diplomacy headlines; 10Y yields and Dec hike pricing.",
+        "forSite": []
+      },
+      {
+        "at": "2026-10-29T13:27:00Z",
+        "pulse": "Nasdaq futures down ~1% premarket as Alphabet's earnings miss and negative free cash flow reignite AI spending fears, while oil retreats on Vance outreach to Iran after FOMC hold.",
+        "bias": "risk-off — GOOGL cash-burn miss and NQ futures weakness outweigh MSFT beat and oil dip, with persistent inflation and Dec hike odds.",
+        "items": [
+          "@MirgoTrades (~9:26 AM ET): NQ futures -1% as GOOGL miss (neg FCF $9B) splits AI trade from MSFT +3% beat; AMZN AMC test.",
+          "@HCFlowSniper (~9:26 AM ET): US futures lower NQ -1.25% on GOOGL; oil retreating on ME peace hopes; Fed hold, GDP 3.4% PCE sticky.",
+          "@DEVIDfloor (~9:26 AM ET): Premarket NQ ~-1%, SPX -0.3%; PCE 0.3% m/m in line, Q3 GDP 3.4% beat.",
+          "@wallstengine (~8:59 AM ET): Trump admin negotiating temp peace deal with Iran; VP Vance letter restarts talks.",
+          "@A_P_Capital (~9:21 AM ET): Positive Iran deal most sense pre-midterms for gas prices boost."
+        ],
+        "trump": "VP JD Vance sent letter to Iranian Security Council chief Mohsen Rezaei to restart peace talks; Trump admin negotiating temporary peace deal ahead of midterms, though Trump downplayed as humanitarian.",
+        "watch": "AMZN and INTC earnings after close; open reaction and follow-through on GOOGL selloff and AI ROI concerns; oil/Iran diplomacy headlines; 10Y yields and Dec FOMC hike pricing.",
+        "forSite": []
+      },
+      {
+        "at": "2026-10-29T13:28:38Z",
+        "pulse": "NQ futures ~-1% into the open as GOOGL's -11% premarket hit (AI capex/FCF fears) drags mega-cap tech; hot-ish data (GDP 3.4% beat, PCE 3.6% in line) and a steady ECB keep yields in focus, offset by MSFT strength and Iran-talk hopes capping oil.",
+        "bias": "risk-off — GOOGL gap-down and AI ROI doubts lead NQ lower, with sticky 3.6% PCE and a strong GDP print keeping Dec hike odds alive; MSFT +1.7% and Iran diplomacy are the offsets.",
+        "items": [
+          "@zerohedge (~8:07 AM ET): Premarket Mag7 mixed, GOOGL -11% on search/ad miss, MSFT +1.7% on Azure — Bearish NQ",
+          "@DeItaone (~8:30 AM ET): Q3 GDP 3.4% vs 3.2% est, consumption 3.8%; claims 194K vs 198K — Mixed NQ",
+          "@LiveSquawk (~8:33 AM ET): Sep PCE 0.5% m/m / 3.6% y/y, core 0.3% / 3.1%, all in line; supercore 3.6% y/y up from 3.5% — Mixed NQ",
+          "@FirstSquawk (~9:15 AM ET): ECB holds depo 2.50% as expected, warns energy shock lifts inflation; EUR at lowest since May 2025 (strong USD) — Mixed NQ",
+          "@LiveSquawk (~5:25 AM ET): Iran agreed in principle to mechanisms but rejects nuclear concessions (N12) — Mixed NQ"
+        ],
+        "trump": "Trump focused on midterm rallies (claims record crowds, SC rally today); no new tariff or Fed headline. Iran peace-talk restart reports keep an oil-relief headline possible.",
+        "watch": "9:30 AM ET open: GOOGL gap follow-through vs MSFT; 9:45 AM ECB Lagarde presser; AMZN, INTC, COIN, SNDK, MPWR AMC today; XOM BMO Fri; AAPL AMC Mon Nov 2; oil/Iran headlines; 10Y and Dec FOMC hike pricing.",
+        "forSite": []
+      }
+    ]
   }
 }
