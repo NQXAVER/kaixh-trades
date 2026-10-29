@@ -1,5 +1,5 @@
 {
- "bias_note": "Lean: bullish but stretched into FOMC. Tuesday's high is the buy-side liquidity target; Tuesday's low/the 10 AM base is the sell-side draw if it reverses. Wed NY AM is pre-FOMC: expect a tighter range and avoid chasing; size down 2:00-2:30 PM. Watch tonight's NXPI/TER (semis) prints for the overnight gap. Upside risk: an Iran deal headline / oil under $95. Downside: 10Y above 5%, strike headlines, or hawkish Warsh. Thu 8:30 AM (Advance GDP + Core PCE + Claims) plus MSFT/GOOGL/AMZN gaps make Wed-Thu volatile.",
+ "bias_note": "Lean: bearish NQ / relative weakness vs ES and YM. The overnight gap down is the draw. Watch whether the 9:30-10:00 open reclaims the overnight high or runs the Globex low; GOOGL/NOW selling into a strong-GDP plus hot-yields mix favors sell-side. Tuesday/Wednesday highs above are now buy-side targets only if MSFT strength leads a full gap fill. Upside risks: an Iran peace-deal headline, oil under $100, the 10Y back under 4.95%. Downside risks: the 10Y holding above 5%, Dec hike odds rising, AI capex fear spreading to NVDA/AVGO. AMZN/INTC AMC sets Friday's gap. Fri 8:30 AM ECI (labor costs) is the last red folder; next week brings AAPL (Mon AMC), ISM and NFP.",
  "calendar": [
   {
    "code": "Core Durables",
@@ -25,7 +25,7 @@
    "event": "Federal Funds Rate / FOMC Statement",
    "id": "c3",
    "impact": "High",
-   "note": "Fed rate decision · press conference 2:30 PM",
+   "note": "Held 3.75-4% · 10-2 vote, 2 wanted a hike",
    "time": "2:00 PM"
   },
   {
@@ -43,7 +43,7 @@
    "event": "Advance GDP q/q",
    "id": "c5",
    "impact": "High",
-   "note": "First read of Q3 growth · fcst 3.2%",
+   "note": "Actual 3.4% vs 3.2% fcst · strong",
    "time": "8:30 AM"
   },
   {
@@ -52,7 +52,7 @@
    "event": "Core PCE Price Index m/m",
    "id": "c6",
    "impact": "High",
-   "note": "Core PCE Price Index · the Fed's favorite inflation gauge",
+   "note": "Fed's favorite inflation gauge · 0.3% m/m, 3.1% y/y in line",
    "time": "8:30 AM"
   },
   {
@@ -61,7 +61,16 @@
    "event": "Unemployment Claims",
    "id": "c7",
    "impact": "High",
-   "note": "Weekly jobless claims · fcst 198K",
+   "note": "Weekly jobless claims · 194K vs 198K fcst",
+   "time": "8:30 AM"
+  },
+  {
+   "code": "ECI",
+   "date": "2026-10-30",
+   "event": "Employment Cost Index q/q",
+   "id": "c8",
+   "impact": "High",
+   "note": "Q3 labor cost inflation · Fed watches wages",
    "time": "8:30 AM"
   }
  ],
@@ -69,6 +78,78 @@
   "start": "2026-10-26"
  },
  "earnings": [
+  {
+   "company": "Alphabet (GOOGL)",
+   "date": "2026-10-28",
+   "name": "Alphabet",
+   "reaction": "~-10% premarket",
+   "sentiment": "Bearish",
+   "status": "reported",
+   "ticker": "GOOGL",
+   "time": "AMC",
+   "when": "AMC (reported)",
+   "why": "Record $51.4B capex, -$9.1B FCF, EPS miss ($2.12 vs $3.01) overshadow cloud +103%."
+  },
+  {
+   "company": "Microsoft (MSFT)",
+   "date": "2026-10-28",
+   "name": "Microsoft",
+   "reaction": "~+3.6% premarket",
+   "sentiment": "Bullish",
+   "status": "reported",
+   "ticker": "MSFT",
+   "time": "AMC",
+   "when": "AMC (reported)",
+   "why": "Azure-led beat and strong cash flow. Partial offset to GOOGL."
+  },
+  {
+   "company": "ServiceNow (NOW)",
+   "date": "2026-10-28",
+   "name": "ServiceNow",
+   "reaction": "~-18% premarket",
+   "sentiment": "Bearish",
+   "status": "reported",
+   "ticker": "NOW",
+   "time": "AMC",
+   "when": "AMC (reported)",
+   "why": "Q3 profit miss. Software sell-off spreading."
+  },
+  {
+   "company": "Fortinet (FTNT)",
+   "date": "2026-10-28",
+   "name": "Fortinet",
+   "reaction": "~-25% premarket",
+   "sentiment": "Bearish",
+   "status": "reported",
+   "ticker": "FTNT",
+   "time": "AMC",
+   "when": "AMC (reported)",
+   "why": "Beat and raise but billings worries. Cyber stocks hit."
+  },
+  {
+   "company": "Chipotle (CMG)",
+   "date": "2026-10-28",
+   "name": "Chipotle",
+   "reaction": "~+7% premarket",
+   "sentiment": "Neutral",
+   "status": "reported",
+   "ticker": "CMG",
+   "time": "AMC",
+   "when": "AMC (reported)",
+   "why": "Comparable sales better than feared. Small NQ weight."
+  },
+  {
+   "company": "Eli Lilly (LLY)",
+   "date": "2026-10-29",
+   "name": "Eli Lilly",
+   "reaction": "~+4% premarket",
+   "sentiment": "Neutral",
+   "status": "reported",
+   "ticker": "LLY",
+   "time": "BMO",
+   "when": "BMO (reported)",
+   "why": "Strong GLP-1 quarter. Helps SPX, not NQ."
+  },
   {
    "company": "Celestica (CLS)",
    "date": "2026-10-27",
@@ -154,66 +235,6 @@
    "why": "Big postpaid phone beat (406K adds), revenue miss, EPS guide raised. Not an NQ driver."
   },
   {
-   "company": "Meta (META)",
-   "date": "2026-10-21",
-   "name": "Meta",
-   "reaction": "META about -7% next day, -9% on the week",
-   "sentiment": "Bearish",
-   "status": "reported",
-   "ticker": "META",
-   "time": "AMC",
-   "when": "AMC (reported)",
-   "why": "Raised its 2026 capex floor to $135-145B. AI spending fears hit chips and big tech."
-  },
-  {
-   "company": "Tesla (TSLA)",
-   "date": "2026-10-21",
-   "name": "Tesla",
-   "reaction": "TSLA about -5% next day",
-   "sentiment": "Bearish",
-   "status": "reported",
-   "ticker": "TSLA",
-   "time": "AMC",
-   "when": "AMC (reported)",
-   "why": "EPS beat and capex cut to ~$20B, but it sold off with mega-cap tech."
-  },
-  {
-   "company": "Netflix (NFLX)",
-   "date": "2026-10-20",
-   "name": "Netflix",
-   "reaction": "NFLX about -1%",
-   "sentiment": "Bearish",
-   "status": "reported",
-   "ticker": "NFLX",
-   "time": "AMC",
-   "when": "AMC (reported)",
-   "why": "Cut the full-year ad revenue outlook to ~$2.7B. Minor NQ drag."
-  },
-  {
-   "company": "Texas Instruments / Lam Research (TXN)",
-   "date": "2026-10-20",
-   "name": "Texas Instruments / Lam Research",
-   "reaction": "Muted, SOXX -3% on the week",
-   "sentiment": "Neutral",
-   "status": "reported",
-   "ticker": "TXN",
-   "time": "AMC",
-   "when": "AMC (reported)",
-   "why": "Decent analog/equipment demand couldn't beat the AI-profitability worries."
-  },
-  {
-   "company": "American Express (AXP)",
-   "date": "2026-10-23",
-   "name": "American Express",
-   "reaction": "AXP about -3%",
-   "sentiment": "Bearish",
-   "status": "reported",
-   "ticker": "AXP",
-   "time": "BMO",
-   "when": "BMO (reported)",
-   "why": "Revenue miss plus ~5% job cuts added to the weak-consumer story."
-  },
-  {
    "company": "Cadence Design (CDNS)",
    "date": "2026-10-26",
    "name": "Cadence Design",
@@ -226,111 +247,6 @@
    "why": "Q3 beat ($2.11 vs $2.04), 3rd FY raise, record $8.2B backlog, $2.5B buyback. Chip-design tailwind."
   },
   {
-   "company": "NXP, Seagate, Robinhood (NXPI)",
-   "date": "2026-10-27",
-   "name": "NXP, Seagate, Robinhood",
-   "status": "upcoming",
-   "ticker": "NXPI",
-   "time": "AMC",
-   "when": "AMC",
-   "why": "Semis, storage, retail trading"
-  },
-  {
-   "company": "Visa (V)",
-   "date": "2026-10-27",
-   "name": "Visa",
-   "status": "upcoming",
-   "ticker": "V",
-   "time": "AMC",
-   "when": "AMC",
-   "why": "Consumer spending read"
-  },
-  {
-   "company": "Seagate (STX)",
-   "date": "2026-10-27",
-   "name": "Seagate",
-   "status": "upcoming",
-   "ticker": "STX",
-   "time": "AMC",
-   "when": "AMC"
-  },
-  {
-   "company": "Robinhood (HOOD)",
-   "date": "2026-10-27",
-   "name": "Robinhood",
-   "status": "upcoming",
-   "ticker": "HOOD",
-   "time": "AMC",
-   "when": "AMC"
-  },
-  {
-   "company": "Teradyne (TER)",
-   "date": "2026-10-27",
-   "name": "Teradyne",
-   "status": "upcoming",
-   "ticker": "TER",
-   "time": "AMC",
-   "when": "AMC"
-  },
-  {
-   "company": "Microsoft (MSFT)",
-   "date": "2026-10-28",
-   "name": "Microsoft",
-   "status": "upcoming",
-   "ticker": "MSFT",
-   "time": "AMC",
-   "when": "AMC",
-   "why": "Top NQ weight · Azure/AI capex"
-  },
-  {
-   "company": "Alphabet (GOOGL)",
-   "date": "2026-10-28",
-   "name": "Alphabet",
-   "status": "upcoming",
-   "ticker": "GOOGL",
-   "time": "AMC",
-   "when": "AMC",
-   "why": "Top NQ weight · AI spend, cloud"
-  },
-  {
-   "company": "KLA, ServiceNow, T-Mobile, Fortinet (KLAC)",
-   "date": "2026-10-28",
-   "name": "KLA, ServiceNow, T-Mobile, Fortinet",
-   "status": "upcoming",
-   "ticker": "KLAC",
-   "time": "AMC",
-   "when": "AMC",
-   "why": "Chip equipment, software, telecom, security"
-  },
-  {
-   "company": "ServiceNow (NOW)",
-   "date": "2026-10-28",
-   "name": "ServiceNow",
-   "status": "upcoming",
-   "ticker": "NOW",
-   "time": "AMC",
-   "when": "AMC"
-  },
-  {
-   "company": "Fortinet (FTNT)",
-   "date": "2026-10-28",
-   "name": "Fortinet",
-   "status": "upcoming",
-   "ticker": "FTNT",
-   "time": "AMC",
-   "when": "AMC"
-  },
-  {
-   "company": "Eli Lilly, Mastercard, Caterpillar (LLY)",
-   "date": "2026-10-29",
-   "name": "Eli Lilly, Mastercard, Caterpillar",
-   "status": "upcoming",
-   "ticker": "LLY",
-   "time": "BMO",
-   "when": "BMO",
-   "why": "Big-cap movers before the open"
-  },
-  {
    "company": "Amazon (AMZN)",
    "date": "2026-10-29",
    "name": "Amazon",
@@ -338,22 +254,31 @@
    "ticker": "AMZN",
    "time": "AMC",
    "when": "AMC",
-   "why": "Top NQ weight · AWS growth"
+   "why": "Top NQ weight · AWS growth vs AI capex"
   },
   {
-   "company": "Intel, Sandisk, Coinbase, Strategy (INTC)",
+   "company": "Intel (INTC)",
    "date": "2026-10-29",
-   "name": "Intel, Sandisk, Coinbase, Strategy",
+   "name": "Intel",
    "status": "upcoming",
    "ticker": "INTC",
    "time": "AMC",
    "when": "AMC",
-   "why": "Semis and crypto sentiment"
+   "why": "Foundry and chip read"
   },
   {
-   "company": "Sandisk (SNDK)",
+   "company": "Coinbase (COIN)",
    "date": "2026-10-29",
-   "name": "Sandisk",
+   "name": "Coinbase",
+   "status": "upcoming",
+   "ticker": "COIN",
+   "time": "AMC",
+   "when": "AMC"
+  },
+  {
+   "company": "SanDisk (SNDK)",
+   "date": "2026-10-29",
+   "name": "SanDisk",
    "status": "upcoming",
    "ticker": "SNDK",
    "time": "AMC",
@@ -369,14 +294,13 @@
    "when": "AMC"
   },
   {
-   "company": "ExxonMobil, Chevron, AbbVie (XOM)",
+   "company": "Exxon Mobil (XOM)",
    "date": "2026-10-30",
-   "name": "ExxonMobil, Chevron, AbbVie",
+   "name": "Exxon Mobil",
    "status": "upcoming",
    "ticker": "XOM",
    "time": "BMO",
-   "when": "BMO",
-   "why": "Oil names with crude near $100+"
+   "when": "BMO"
   },
   {
    "company": "Apple (AAPL)",
@@ -386,137 +310,176 @@
    "ticker": "AAPL",
    "time": "AMC",
    "when": "AMC",
-   "why": "Top NQ weight · next Monday"
+   "why": "Top NQ weight · iPhone and China"
   }
  ],
  "grok": {
-  "at": "2026-10-27T13:24:00Z",
-  "bias": "risk-on — futures bid on hopes Iran talks end hostilities and oil softens, with AI capex news supporting tech into Fed and earnings.",
-  "forSite": [],
+  "date": "2026-10-29",
+  "at": "2026-10-29T13:28:38Z",
+  "pulse": "NQ futures ~-1% into the open as GOOGL's -11% premarket hit (AI capex/FCF fears) drags mega-cap tech; hot-ish data (GDP 3.4% beat, PCE 3.6% in line) and a steady ECB keep yields in focus, offset by MSFT strength and Iran-talk hopes capping oil.",
+  "bias": "risk-off — GOOGL gap-down and AI ROI doubts lead NQ lower, with sticky 3.6% PCE and a strong GDP print keeping Dec hike odds alive; MSFT +1.7% and Iran diplomacy are the offsets.",
   "items": [
-   "K9Aasim (~9:24 ET): US futures surging, ES +0.40% NQ +0.60% after Iran security chief met Khamenei to discuss ending the war.",
-   "aspire_investin (~9:10 ET): Khamenei calls for end to neither-war-nor-peace if Iran conditions met; SPX futures +0.3%, oil down 1%.",
-   "L. Barrin Standard (~9:19 ET): Futures rising and oil falling on Iran; Broadcom $63B Anthropic compute deal, Fed two-day meeting starts.",
-   "TradeWithKelin (~6:57 ET): ES +0.3% NQ +0.5% on Khamenei terms to end war; WTI ~$101, FOMC starts today decision Wed, MU joins $1T club.",
-   "Stellium Tape (~9:24 ET): Oil quiet pre-bell, WTI ~$101.12 (-0.13%), Brent ~$110.14."
+   "@zerohedge (~8:07 AM ET): Premarket Mag7 mixed, GOOGL -11% on search/ad miss, MSFT +1.7% on Azure — Bearish NQ",
+   "@DeItaone (~8:30 AM ET): Q3 GDP 3.4% vs 3.2% est, consumption 3.8%; claims 194K vs 198K — Mixed NQ",
+   "@LiveSquawk (~8:33 AM ET): Sep PCE 0.5% m/m / 3.6% y/y, core 0.3% / 3.1%, all in line; supercore 3.6% y/y up from 3.5% — Mixed NQ",
+   "@FirstSquawk (~9:15 AM ET): ECB holds depo 2.50% as expected, warns energy shock lifts inflation; EUR at lowest since May 2025 (strong USD) — Mixed NQ",
+   "@LiveSquawk (~5:25 AM ET): Iran agreed in principle to mechanisms but rejects nuclear concessions (N12) — Mixed NQ"
   ],
-  "pulse": "US futures higher as Iran de-escalation signals and Anthropic AI financing lift risk appetite ahead of the FOMC meeting.",
-  "trump": "none",
-  "watch": "FOMC decision and guidance Wednesday 2PM ET; Iran headline follow-through and oil near $100; Mag7 earnings (MSFT/GOOGL) and AI sentiment."
+  "trump": "Trump focused on midterm rallies (claims record crowds, SC rally today); no new tariff or Fed headline. Iran peace-talk restart reports keep an oil-relief headline possible.",
+  "watch": "9:30 AM ET open: GOOGL gap follow-through vs MSFT; 9:45 AM ECB Lagarde presser; AMZN, INTC, COIN, SNDK, MPWR AMC today; XOM BMO Fri; AAPL AMC Mon Nov 2; oil/Iran headlines; 10Y and Dec FOMC hike pricing.",
+  "forSite": [],
+  "reports": [
+   {
+    "at": "2026-10-29T11:00:00Z",
+    "pulse": "NQ futures sink over 1% into the US open as GOOGL's AI cash-burn miss outweighs MSFT's Azure beat after yesterday's modest post-FOMC gains, with elevated oil on ongoing Iran risks.",
+    "bias": "mixed — MSFT cloud strength and the 10-2 Fed hold support NQ, but GOOGL negative FCF on massive AI spend, futures weakness, and Iran/oil premium lean risk-off overnight.",
+    "items": [
+     "@business (~7:00 AM ET): Nasdaq Futures Sink as AI Trade Shows New Cracks",
+     "@EhTrader2 (~7:00 AM ET): AI report card MSFT A vs GOOGL spending ~$200B neg cash flow; Nasdaq futures -1.2%",
+     "@invxsecurities (~7:00 AM ET): Nasdaq Futures drop >1%; Warsh high rates press AI invest; Alphabet cash concern, MSFT Azure +48%",
+     "@sports_lamb (~6:57 AM ET): Premarket MSFT +3.5% Azure beat, GOOGL -10.5% AI cash burn; Nasdaq futures ~-1%, Fed held",
+     "@GameStockHQ (~6:49 AM ET): Oct 28: Fed held 10-2, AI hardware rallied; AH MSFT strong Azure +48%, GOOGL FCF negative"
+    ],
+    "trump": "Trump weighs renewed strikes on Iran in the eight-month war as Hegseth removes top planner; oil risk premium persists from Houthi/Saudi incidents.",
+    "watch": "US open reaction to GOOGL/MSFT follow-through; Q3 GDP and PCE 8:30 AM ET; AMZN earnings AMC; oil/Iran strike or diplomacy headlines; 10Y yields and Dec hike pricing.",
+    "forSite": []
+   },
+   {
+    "at": "2026-10-29T13:27:00Z",
+    "pulse": "Nasdaq futures down ~1% premarket as Alphabet's earnings miss and negative free cash flow reignite AI spending fears, while oil retreats on Vance outreach to Iran after FOMC hold.",
+    "bias": "risk-off — GOOGL cash-burn miss and NQ futures weakness outweigh MSFT beat and oil dip, with persistent inflation and Dec hike odds.",
+    "items": [
+     "@MirgoTrades (~9:26 AM ET): NQ futures -1% as GOOGL miss (neg FCF $9B) splits AI trade from MSFT +3% beat; AMZN AMC test.",
+     "@HCFlowSniper (~9:26 AM ET): US futures lower NQ -1.25% on GOOGL; oil retreating on ME peace hopes; Fed hold, GDP 3.4% PCE sticky.",
+     "@DEVIDfloor (~9:26 AM ET): Premarket NQ ~-1%, SPX -0.3%; PCE 0.3% m/m in line, Q3 GDP 3.4% beat.",
+     "@wallstengine (~8:59 AM ET): Trump admin negotiating temp peace deal with Iran; VP Vance letter restarts talks.",
+     "@A_P_Capital (~9:21 AM ET): Positive Iran deal most sense pre-midterms for gas prices boost."
+    ],
+    "trump": "VP JD Vance sent letter to Iranian Security Council chief Mohsen Rezaei to restart peace talks; Trump admin negotiating temporary peace deal ahead of midterms, though Trump downplayed as humanitarian.",
+    "watch": "AMZN and INTC earnings after close; open reaction and follow-through on GOOGL selloff and AI ROI concerns; oil/Iran diplomacy headlines; 10Y yields and Dec FOMC hike pricing.",
+    "forSite": []
+   },
+   {
+    "at": "2026-10-29T13:28:38Z",
+    "pulse": "NQ futures ~-1% into the open as GOOGL's -11% premarket hit (AI capex/FCF fears) drags mega-cap tech; hot-ish data (GDP 3.4% beat, PCE 3.6% in line) and a steady ECB keep yields in focus, offset by MSFT strength and Iran-talk hopes capping oil.",
+    "bias": "risk-off — GOOGL gap-down and AI ROI doubts lead NQ lower, with sticky 3.6% PCE and a strong GDP print keeping Dec hike odds alive; MSFT +1.7% and Iran diplomacy are the offsets.",
+    "items": [
+     "@zerohedge (~8:07 AM ET): Premarket Mag7 mixed, GOOGL -11% on search/ad miss, MSFT +1.7% on Azure — Bearish NQ",
+     "@DeItaone (~8:30 AM ET): Q3 GDP 3.4% vs 3.2% est, consumption 3.8%; claims 194K vs 198K — Mixed NQ",
+     "@LiveSquawk (~8:33 AM ET): Sep PCE 0.5% m/m / 3.6% y/y, core 0.3% / 3.1%, all in line; supercore 3.6% y/y up from 3.5% — Mixed NQ",
+     "@FirstSquawk (~9:15 AM ET): ECB holds depo 2.50% as expected, warns energy shock lifts inflation; EUR at lowest since May 2025 (strong USD) — Mixed NQ",
+     "@LiveSquawk (~5:25 AM ET): Iran agreed in principle to mechanisms but rejects nuclear concessions (N12) — Mixed NQ"
+    ],
+    "trump": "Trump focused on midterm rallies (claims record crowds, SC rally today); no new tariff or Fed headline. Iran peace-talk restart reports keep an oil-relief headline possible.",
+    "watch": "9:30 AM ET open: GOOGL gap follow-through vs MSFT; 9:45 AM ECB Lagarde presser; AMZN, INTC, COIN, SNDK, MPWR AMC today; XOM BMO Fri; AAPL AMC Mon Nov 2; oil/Iran headlines; 10Y and Dec FOMC hike pricing.",
+    "forSite": []
+   }
+  ]
  },
  "moves": [
   {
-   "basis": "Nasdaq Composite late session vs prior close, Tue Oct 27 ~3:45 PM (Yahoo)",
-   "pct": 1.38,
+   "basis": "Nasdaq futures premarket, Thu Oct 29 ~8:23 AM ET (Yahoo)",
+   "pct": -1.25,
    "symbol": "NQ"
   },
   {
-   "basis": "S&P 500 late session vs prior close, Tue Oct 27 ~3:45 PM (Yahoo)",
-   "pct": 0.74,
+   "basis": "S&P 500 futures premarket, Thu Oct 29 ~8:23 AM ET (Yahoo)",
+   "pct": -0.4,
    "symbol": "ES"
   }
  ],
  "news": [
   {
-   "headline": "Nasdaq ~+1.4% late session (~26,530), S&P ~+0.7%, Dow flat; tech up a 2nd straight day.",
+   "headline": "Nasdaq futures -1.25%, S&P -0.4%, Dow -0.2%, Russell +0.3% as Alphabet sell-off revives AI jitters",
    "id": "n0",
    "impact": "High",
    "source": "Yahoo Finance",
-   "time": "Tue ~3:45 PM",
-   "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-october-27-dow-sp-500-nasdaq-081901995.html",
-   "why": "Monday's bounce extended; NQ broke out of the Globex range after 10 AM."
+   "time": "Thu 8:23 AM",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-29-dow-sp-500-nasdaq-alphabet-microsoft-081708101.html",
+   "why": "NQ-specific weakness: a rotation out of mega-cap tech, not broad risk-off."
   },
   {
-   "headline": "Chips lead: SOX up a 3rd day; Broadcom +4.6%, AMD +4%, WDC +6%, CoreWeave and Nebius higher.",
+   "headline": "Alphabet ~-10% premarket: Q3 sales miss, -$9.07B free cash flow, capex kept at $195-205B; on pace to lose $400B+ in market cap",
    "id": "n1",
    "impact": "High",
-   "source": "HDFC Sky / Reuters",
-   "time": "Tue AM",
-   "url": "https://hdfcsky.com/news/nasdaq-composite-jumps-175-points-to-26344-as-chip-stocks-rally-ahead-of-fed-decision",
-   "why": "Semis are driving the NQ bid into MSFT/GOOGL Wed AMC."
+   "source": "Reuters / Yahoo",
+   "time": "Thu 5:18 AM",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-slide-mixed-big-083556706.html",
+   "why": "GOOGL is a top-3 NQ weight; AI return-on-investment fear is back."
   },
   {
-   "headline": "Oil slides: WTI ~$99.8 (-2%), Brent under $110 on Iran/Saudi/Turkey/Pakistan de-escalation talks.",
+   "headline": "Microsoft +3.6% premarket on an Azure-led beat and big cash-flow upside",
    "id": "n2",
    "impact": "High",
-   "source": "Yahoo Finance",
-   "time": "Tue PM",
-   "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-october-27-dow-sp-500-nasdaq-081901995.html",
-   "why": "Crude back under $100 cuts inflation fear and supports the tech bid."
+   "source": "Reuters / Yahoo",
+   "time": "Thu 5:18 AM",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-slide-mixed-big-083556706.html",
+   "why": "Top NQ weight is cushioning the GOOGL hit; watch whether MSFT holds green after the open."
   },
   {
-   "headline": "Trump: 'decision time' on Iran, deal or more strikes; calls ceasefire a waste of time.",
+   "headline": "Q3 GDP 3.4% vs 3.2% expected; AI equipment and software investment added 1.16 points",
    "id": "n3",
    "impact": "High",
-   "source": "X via Grok / ICYMI O/N",
-   "time": "Tue ~7:00 AM",
-   "url": "https://zackeiseman.substack.com/p/icymi-on-october-27th-2026",
-   "why": "Strike headlines spike oil and drop NQ fast; deal headlines do the opposite."
+   "source": "HuggingNews / BEA",
+   "time": "Thu 8:30 AM",
+   "url": "https://huggingnews.com/us-markets/us-economy-grows-34percent-in-q3-as-ai-spending-boosts-business-investme-ac247136",
+   "why": "A strong economy backs the Fed's hawkish lean; yields stay pinned near 5%."
   },
   {
-   "headline": "FOMC day 1: hold expected Wed; CME ~10-11% hike odds; Fed hiked to 3.75-4% in Sept.",
+   "headline": "September core PCE +0.3% m/m, 3.1% y/y, in line; headline PCE 3.6%",
    "id": "n4",
    "impact": "High",
-   "source": "HDFC Sky",
-   "time": "Tue",
-   "url": "https://hdfcsky.com/news/nasdaq-composite-jumps-175-points-to-26344-as-chip-stocks-rally-ahead-of-fed-decision",
-   "why": "Any hawkish surprise from Warsh at 2:30 PM Wed would hit NQ hardest."
+   "source": "FX Tribune",
+   "time": "Thu 8:30 AM",
+   "url": "https://fxtribune.com/news/us-core-pce-inflation-rises-to-3-1-in-september-2026/",
+   "why": "No inflation surprise, but 3%+ core keeps a December hike (~81%) in play."
   },
   {
-   "headline": "10Y ~4.99%, 2Y ~4.72%; VIX ~17.6 (-4%); gold ~$4,060.",
+   "headline": "Initial jobless claims fall to 194K for the week ending Oct 24",
    "id": "n5",
-   "impact": "Medium",
-   "source": "Yahoo Finance / Motley Fool",
-   "time": "Tue PM",
-   "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-october-27-dow-sp-500-nasdaq-081901995.html",
-   "why": "Yields stuck at the 5% line; a break above is the main NQ headwind."
+   "impact": "High",
+   "source": "FX Tribune",
+   "time": "Thu 8:30 AM",
+   "url": "https://fxtribune.com/news/us-initial-jobless-claims-fall-to-194-000-in-the-week-ending-24-october-2026/",
+   "why": "Tight labor market adds to the hawkish-Fed and high-yields pressure on growth stocks."
   },
   {
-   "headline": "Meta's record ~$97.5B equity raise for AI; Nvidia putting in $3B. META ~-1%.",
+   "headline": "Software crushed: ServiceNow -18% on a profit miss, Fortinet -25% despite a beat and raise, Tenable and Zscaler hit too",
    "id": "n6",
    "impact": "High",
-   "source": "Kitco / Reuters",
-   "time": "Tue AM",
-   "url": "https://www.kitco.com/news/off-the-wire/2026-10-27/sp-500-nasdaq-advance-oil-eases-ahead-fed-decision",
-   "why": "AI capex funded by dilution: watch for capex-fatigue in MSFT/GOOGL calls."
+   "source": "Kalkine / SiliconANGLE",
+   "time": "Thu premarket",
+   "url": "https://siliconangle.com/2026/10/28/fortinet-plunges-26-after-hours-and-takes-tenable-with-it-as-gen-digital-rises/",
+   "why": "The software sell-off spreads into NQ's software and cyber names."
   },
   {
-   "headline": "Anthropic S-1: H1 revenue ~$16.3B; plans Nasdaq listing as ANT, up to $100B+ raise.",
+   "headline": "Marvell -10% on reported talks to buy Lumentum; MU -3%, AMD -3%, INTC -4%, NVDA -0.7%",
    "id": "n7",
    "impact": "High",
-   "source": "HDFC Sky",
-   "time": "Mon-Tue",
-   "url": "https://hdfcsky.com/news/nasdaq-composite-jumps-175-points-to-26344-as-chip-stocks-rally-ahead-of-fed-decision",
-   "why": "The fuel for this week's AI/semis rally; supply of a mega IPO is a later risk."
+   "source": "Reuters / Yahoo",
+   "time": "Thu 5:18 AM",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-slide-mixed-big-083556706.html",
+   "why": "Semis are no longer the cushion; SOX weakness amplifies NQ downside."
   },
   {
-   "headline": "Durable goods +1.8% in Sept vs 1.7% fcst; core durables in line.",
+   "headline": "Fed held at 3.75-4.00% (10-2, Cook and Hammack wanted a hike); markets price ~81% odds of a December hike",
    "id": "n8",
-   "impact": "Medium",
-   "source": "HDFC Sky",
-   "time": "Tue 8:30 AM",
-   "url": "https://hdfcsky.com/news/nasdaq-composite-jumps-175-points-to-26344-as-chip-stocks-rally-ahead-of-fed-decision",
-   "why": "No growth scare from the 8:30 data; didn't move NQ much."
+   "impact": "High",
+   "source": "Reuters / StockTitan",
+   "time": "Wed 2:00 PM",
+   "url": "https://www.stocktitan.net/articles/stock-market-today-live-october-28-2026",
+   "why": "The hawkish backdrop is why the 10Y near 5% caps NQ rallies."
   },
   {
-   "headline": "GM to move its listing to Nasdaq (+5%); Tesla +3% extends Barclays-upgrade gains.",
+   "headline": "Oil eases (WTI ~$101-102) on US-Iran peace-talk outreach; Trump pledged no strikes before the midterms",
    "id": "n9",
-   "impact": "Medium",
-   "source": "Kitco / Reuters",
-   "time": "Tue AM",
-   "url": "https://www.kitco.com/news/off-the-wire/2026-10-27/sp-500-nasdaq-advance-oil-eases-ahead-fed-decision",
-   "why": "TSLA strength helps NQ breadth; GM adds to Nasdaq index weight later."
-  },
-  {
-   "headline": "SoFi +14% on beat-and-raise; Royal Caribbean +7.6%; Xylem -8.8%, Sherwin-Williams -3.4%.",
-   "id": "n10",
-   "impact": "Low",
-   "source": "Motley Fool",
-   "time": "Tue midday",
-   "url": "https://www.fool.com/coverage/stock-market-today/2026/10/27/stock-market-midday-oct-27-tech-stocks-lead-as-nasdaq-climbs-on-market-momentum/",
-   "why": "Stock-specific; consumer-lending beat eases weak-consumer worry."
+   "impact": "High",
+   "source": "NBC News / investingLive",
+   "time": "Thu AM",
+   "url": "https://www.nbcnews.com/business/energy/oil-prices-stocks-trump-iran-rcna602248",
+   "why": "Lower oil is the main upside catalyst; a strike headline would flip it."
   }
  ],
- "takeaway": "NQ trended higher all day: the Nasdaq was up ~1.4% late (~26,530) as chips led for a 3rd session (AVGO +4.6%, AMD +4%) on the Anthropic IPO/AI bid. Oil fell ~2% (WTI under $100, Brent under $110) on Iran de-escalation talks, and VIX slipped to ~17.6, but the 10Y is still pinned at ~5%. FOMC day 1 is done; the decision is Wed 2:00 PM with Warsh at 2:30 (hold expected, ~10% hike odds). NXPI, STX, HOOD, V and TER report tonight; MSFT/GOOGL Wed AMC.",
- "updatedAt": "2026-10-27T20:15:00Z"
+ "takeaway": "NQ is down ~1.2% premarket while ES is only ~-0.4% and the Dow is green: the AI trade cracked overnight. GOOGL is ~-10% (Q3 miss, -$9B free cash flow on $195-205B capex) and outweighs MSFT +3-4% on an Azure beat. Software is getting crushed (NOW -18%, FTNT -25%) and chips are soft (MRVL -10%, MU/AMD/INTC -3%). 8:30 AM data was hot for growth, in line for inflation: Q3 GDP 3.4% vs 3.2%, core PCE 3.1% y/y (0.3% m/m), claims 194K. That backs the Fed's hawkish lean (~81% December hike odds) with the 10Y at ~5%. Oil is easing on US-Iran talk headlines (WTI ~$101-102). AMZN and INTC report after the close.",
+ "updatedAt": "2026-10-29T13:35:00Z"
 }
