@@ -1,11 +1,11 @@
 {
   "date": "2026-10-29",
-  "at": "2026-10-29T20:29:09Z",
-  "pulse": "NQ closed weak with the Nasdaq -1.4% as the GOOGL/NOW-led AI capex and software selloff dragged, and AMC prints made it worse with AMZN ~-11% and INTC ~-20% AH, offset only by SNDK's big memory beat and a slight Brent dip.",
+  "at": "2026-10-29T21:10:00Z",
+  "pulse": "NQ closed weak with the Nasdaq -1.4% as the GOOGL/NOW-led AI capex and software selloff dragged, and AMC prints made it worse with AMZN ~-8% and INTC ~-20% AH, offset only by SNDK's big memory beat and a slight Brent dip.",
   "bias": "risk-off — Mag7 AI-spend doubts (GOOGL, AMZN) plus an INTC guide cut point to more NQ downside into Friday; Brent ~$115 on Iran and a Fed that won't cut keep the backdrop tight.",
   "items": [
     "@FirstSquawk (~4:02 PM ET): Nasdaq unofficially -1.40% to 26,177.91, S&P -0.33% to 7,718.38, Dow -0.28% — Bearish NQ",
-    "@WatcherGuru (~4:05 PM ET): $AMZN ~-11% AH; EPS $1.89 vs $1.97 est, rev $201.9B in line, AWS $45.98B (+39% ex-FX) beat, 2026 capex ~$220B — Bearish NQ",
+    "@WatcherGuru (~4:05 PM ET): $AMZN ~-8% AH; EPS $1.89 vs $1.96 est, rev $201.9B slight miss, AWS ~$46B (+39%) beat, 2026 capex ~$220B — Bearish NQ",
     "@FirstSquawk (~4:06 PM ET): $INTC Q4 guide rev $15-16B vs $17.05B est, adj EPS $0.25 vs $0.43, sees PC market declining into H2 2027; @WatcherGuru (~4:16 PM ET) INTC -20% AH — Bearish NQ",
     "@LiveSquawk (~4:16 PM ET): $SNDK rev $11.03B vs $10.64B est, adj EPS $49.51 vs $46.2, GM 85.1%, 8-for-1 split Nov 19 — Bullish NQ (memory/semis)",
     "@FirstSquawk (~2:51 PM ET): Brent settles -0.38% at $114.88; DOE says five firms incl. Trafigura, Gunvor, Vitol taking SPR oil loans (~3:59 PM ET) — Mixed NQ"
@@ -13,6 +13,26 @@
   "trump": "Trump said the Federal Reserve \"hates\" cutting interest rates (@WatcherGuru ~1:25 PM ET); his administration is lending SPR oil to traders to cap prices after the Iran war outbreak.",
   "watch": "AMZN call 5 PM ET (AWS/capex tone) and INTC AH follow-through into Fri open; MPWR AMC results; XOM BMO Fri; ECI Fri 8:30 AM ET; oil/Iran/Houthi headlines; AAPL AMC Mon Nov 2.",
   "forSite": [],
+  "earnings": [
+    {
+      "ticker": "AMZN",
+      "reaction": "-8% AH",
+      "sentiment": "Bearish",
+      "why": "Missed EPS $1.89 vs ~$1.96 and slight rev miss despite AWS +39% beat; soft Q4 guide and $220B capex fuel AI ROI doubts."
+    },
+    {
+      "ticker": "GOOGL",
+      "reaction": "-13% session",
+      "sentiment": "Bearish",
+      "why": "Revenue/EPS miss with negative FCF ~$9B on heavy AI capex; Cloud +103% not enough to offset search softness and cash burn."
+    },
+    {
+      "ticker": "MSFT",
+      "reaction": "flat/slight up",
+      "sentiment": "Neutral",
+      "why": "Beat on rev $92.3B and Azure +48% with positive FCF; AI demand strong but broader tech selloff limited gains."
+    }
+  ],
   "reports": [
     {
       "at": "2026-10-29T11:00:00Z",
