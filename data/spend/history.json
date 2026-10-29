@@ -1,7 +1,34 @@
 {
-  "updatedAt": "2026-10-27T16:20:00.000Z",
-  "source": "Order emails across Lucid Trading, Topstep and Alpha Futures",
+  "updatedAt": "2026-10-29T20:54:28.541Z",
+  "source": "Gmail order/receipt emails (ajjh5529@gmail.com) via Grok Account spending watch",
   "purchases": [
+    {
+      "date": "2026-10-29",
+      "firm": "Lucid Trading",
+      "product": "LucidFlex 50K Rithmic",
+      "order": "11918616",
+      "amount": 80.5,
+      "price": 115,
+      "type": "evaluation"
+    },
+    {
+      "date": "2026-10-29",
+      "firm": "Lucid Trading",
+      "product": "LucidFlex 50K Rithmic",
+      "order": "11923546",
+      "amount": 80.5,
+      "price": 115,
+      "type": "evaluation"
+    },
+    {
+      "date": "2026-10-29",
+      "firm": "Lucid Trading",
+      "product": "LucidFlex 50K Rithmic",
+      "order": "11926401",
+      "amount": 80.5,
+      "price": 115,
+      "type": "evaluation"
+    },
     {
       "date": "2026-10-26",
       "firm": "Lucid Trading",
@@ -321,35 +348,45 @@
       "date": "2026-07-24",
       "firm": "Alpha Futures",
       "product": "Evaluation challenge",
+      "order": null,
       "amount": null,
+      "price": null,
       "type": "evaluation"
     },
     {
       "date": "2026-07-24",
       "firm": "Alpha Futures",
       "product": "Evaluation challenge",
+      "order": null,
       "amount": null,
+      "price": null,
       "type": "evaluation"
     },
     {
       "date": "2026-07-24",
       "firm": "Alpha Futures",
       "product": "Evaluation challenge",
+      "order": null,
       "amount": null,
+      "price": null,
       "type": "evaluation"
     },
     {
       "date": "2026-07-24",
       "firm": "Alpha Futures",
       "product": "Evaluation (Zero Plan 50K, monthly)",
+      "order": null,
       "amount": null,
+      "price": null,
       "type": "evaluation"
     },
     {
       "date": "2026-07-17",
       "firm": "Alpha Futures",
       "product": "Evaluation challenge",
+      "order": null,
       "amount": null,
+      "price": null,
       "type": "evaluation"
     },
     {
@@ -419,7 +456,9 @@
       "date": "2026-06-05",
       "firm": "Alpha Futures",
       "product": "Evaluation challenge",
+      "order": null,
       "amount": null,
+      "price": null,
       "type": "evaluation"
     },
     {
@@ -435,14 +474,18 @@
       "date": "2026-05-21",
       "firm": "Alpha Futures",
       "product": "Evaluation challenge",
+      "order": null,
       "amount": null,
+      "price": null,
       "type": "evaluation"
     },
     {
       "date": "2026-05-18",
       "firm": "Topstep",
       "product": "Trading Combine (new)",
+      "order": null,
       "amount": 90.1,
+      "price": null,
       "type": "evaluation"
     },
     {
@@ -485,77 +528,99 @@
       "date": "2026-02-13",
       "firm": "Alpha Futures",
       "product": "Evaluation challenge",
+      "order": null,
       "amount": null,
+      "price": null,
       "type": "evaluation"
     },
     {
       "date": "2026-02-02",
       "firm": "Alpha Futures",
       "product": "Evaluation (Zero Plan 50K)",
+      "order": null,
       "amount": null,
+      "price": null,
       "type": "evaluation"
     },
     {
       "date": "2025-11-19",
       "firm": "Topstep",
       "product": "Trading Combine (new)",
+      "order": null,
       "amount": 31.17,
+      "price": null,
       "type": "evaluation"
     },
     {
       "date": "2025-08-19",
       "firm": "Topstep",
       "product": "Express Funded Account activation fee",
+      "order": null,
       "amount": 149,
+      "price": null,
       "type": "activation"
     },
     {
       "date": "2025-07-17",
       "firm": "Topstep",
       "product": "Trading Combine monthly rebill",
+      "order": null,
       "amount": 49,
+      "price": null,
       "type": "subscription"
     },
     {
       "date": "2025-06-17",
       "firm": "Topstep",
       "product": "Trading Combine (new, TopstepX)",
+      "order": null,
       "amount": 49,
+      "price": null,
       "type": "evaluation"
     },
     {
       "date": "2025-05-27",
       "firm": "Topstep",
       "product": "Trading Combine monthly rebill",
+      "order": null,
       "amount": 49,
+      "price": null,
       "type": "subscription"
     },
     {
       "date": "2025-04-27",
       "firm": "Topstep",
       "product": "Trading Combine monthly rebill",
+      "order": null,
       "amount": 49,
+      "price": null,
       "type": "subscription"
     },
     {
       "date": "2025-03-27",
       "firm": "Topstep",
       "product": "Trading Combine monthly rebill",
+      "order": null,
       "amount": 49,
+      "price": null,
       "type": "subscription"
     },
     {
       "date": "2025-02-27",
       "firm": "Topstep",
       "product": "Trading Combine (Tradovate creds, 'charged $49.00')",
+      "order": null,
       "amount": 49,
+      "price": null,
       "type": "evaluation"
     },
     {
       "date": "2025-02-26",
       "firm": "Topstep",
       "product": "Trading Combine (new subscription)",
+      "order": null,
       "amount": 49,
+      "price": null,
       "type": "evaluation"
     }
   ],
@@ -577,77 +642,88 @@
       "vendor": "TradingView",
       "product": "CME Group market data",
       "amount": 7.42,
-      "type": "data"
+      "type": "data",
+      "refunded": null
     },
     {
       "date": "2026-09-16",
       "vendor": "TradingView",
       "product": "CME Group market data",
       "amount": 7.42,
-      "type": "data"
+      "type": "data",
+      "refunded": null
     },
     {
       "date": "2026-08-16",
       "vendor": "TradingView",
       "product": "CME Group market data",
       "amount": 7.42,
-      "type": "data"
+      "type": "data",
+      "refunded": null
     },
     {
       "date": "2026-07-16",
       "vendor": "TradingView",
       "product": "CME Group market data",
       "amount": 7.42,
-      "type": "data"
+      "type": "data",
+      "refunded": null
     },
     {
       "date": "2026-06-16",
       "vendor": "TradingView",
       "product": "CME Group market data",
       "amount": 7.21,
-      "type": "data"
+      "type": "data",
+      "refunded": null
     },
     {
       "date": "2026-05-16",
       "vendor": "TradingView",
       "product": "CME Group market data",
       "amount": 7.21,
-      "type": "data"
+      "type": "data",
+      "refunded": null
     },
     {
       "date": "2026-04-16",
       "vendor": "TradingView",
       "product": "CME Group market data",
       "amount": 7.21,
-      "type": "data"
+      "type": "data",
+      "refunded": null
     },
     {
       "date": "2026-03-16",
       "vendor": "TradingView",
       "product": "CME Group market data",
       "amount": 7.21,
-      "type": "data"
+      "type": "data",
+      "refunded": null
     },
     {
       "date": "2026-02-16",
       "vendor": "TradingView",
       "product": "CME Group market data",
       "amount": 7.21,
-      "type": "data"
+      "type": "data",
+      "refunded": null
     },
     {
       "date": "2026-02-10",
       "vendor": "Tradeful",
       "product": "Premium (monthly)",
       "amount": 32,
-      "type": "platform"
+      "type": "platform",
+      "refunded": null
     },
     {
       "date": "2026-01-16",
       "vendor": "TradingView",
       "product": "CME Group market data",
       "amount": 7.21,
-      "type": "data"
+      "type": "data",
+      "refunded": null
     },
     {
       "date": "2026-01-09",
@@ -662,91 +738,104 @@
       "vendor": "TradingView",
       "product": "Essential plan",
       "amount": 94.77,
-      "type": "platform"
+      "type": "platform",
+      "refunded": null
     },
     {
       "date": "2025-11-24",
       "vendor": "TradingView",
       "product": "Essential plan",
       "amount": 23.06,
-      "type": "platform"
+      "type": "platform",
+      "refunded": null
     },
     {
       "date": "2025-05-20",
       "vendor": "TradingView",
       "product": "CME Group market data",
       "amount": 7,
-      "type": "data"
+      "type": "data",
+      "refunded": null
     },
     {
       "date": "2025-05-20",
       "vendor": "TradingView",
       "product": "Essential plan",
       "amount": 15.85,
-      "type": "platform"
+      "type": "platform",
+      "refunded": null
     },
     {
       "date": "2025-04-19",
       "vendor": "TradingView",
       "product": "CME Group market data",
       "amount": 7,
-      "type": "data"
+      "type": "data",
+      "refunded": null
     },
     {
       "date": "2025-04-19",
       "vendor": "TradingView",
       "product": "Essential plan",
       "amount": 15.85,
-      "type": "platform"
+      "type": "platform",
+      "refunded": null
     },
     {
       "date": "2025-03-19",
       "vendor": "TradingView",
       "product": "CME Group market data",
       "amount": 7,
-      "type": "data"
+      "type": "data",
+      "refunded": null
     },
     {
       "date": "2025-03-19",
       "vendor": "TradingView",
       "product": "Essential plan",
       "amount": 15.85,
-      "type": "platform"
+      "type": "platform",
+      "refunded": null
     },
     {
       "date": "2025-02-26",
       "vendor": "Tradovate",
       "product": "TradingView add-on (monthly)",
       "amount": 9.99,
-      "type": "platform"
+      "type": "platform",
+      "refunded": null
     },
     {
       "date": "2025-02-19",
       "vendor": "TradingView",
       "product": "CME Group market data",
       "amount": 7,
-      "type": "data"
+      "type": "data",
+      "refunded": null
     },
     {
       "date": "2025-02-19",
       "vendor": "TradingView",
       "product": "Essential plan",
       "amount": 15.85,
-      "type": "platform"
+      "type": "platform",
+      "refunded": null
     },
     {
       "date": "2025-01-19",
       "vendor": "TradingView",
       "product": "Essential plan",
       "amount": 15.85,
-      "type": "platform"
+      "type": "platform",
+      "refunded": null
     },
     {
       "date": "2025-01-19",
       "vendor": "TradingView",
       "product": "CME Group market data",
       "amount": 7,
-      "type": "data"
+      "type": "data",
+      "refunded": null
     }
   ]
 }
