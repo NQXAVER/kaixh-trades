@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "at": "2026-10-29T13:28:38Z",
+  "at": "2026-10-29T20:29:09Z",
   "items": [
     {
       "ticker": "GOOGL",
@@ -8,7 +8,7 @@
       "date": "2026-10-28",
       "when": "AMC",
       "status": "reported",
-      "reaction": "-11% premarket",
+      "reaction": "~-13% Thu (>$500B wiped)",
       "sentiment": "Bearish",
       "why": "Rev $127.58B vs $128.2B est / EPS $2.12 miss; Cloud +103% to $30.7B but Search +12% soft, FCF negative on heavy AI capex"
     },
@@ -28,7 +28,7 @@
       "date": "2026-10-28",
       "when": "AMC",
       "status": "reported",
-      "reaction": "~-20% AH",
+      "reaction": "as much as -25% Thu (worst day since IPO)",
       "sentiment": "Bearish",
       "why": "Rev $4.106B (+20.5%) beat, adj EPS $1.00 vs $1.02 miss; Q4 cRPO guide slows to 18.5%; software/AI-app drag"
     },
@@ -47,24 +47,38 @@
       "company": "Amazon (AMZN)",
       "date": "2026-10-29",
       "when": "AMC",
-      "status": "upcoming",
-      "why": "AWS growth and capex guide are the NQ swing factor after GOOGL/MSFT split"
+      "status": "reported",
+      "reaction": "~-11% AH",
+      "sentiment": "Bearish",
+      "why": "EPS $1.89 vs $1.97 est miss, rev $201.9B in line; AWS $45.98B (+39% ex-FX) beat, op income $28.1B beat; Q4 op income guide $28.5-33.5B vs $33B est, 2026 capex ~$220B"
     },
     {
       "ticker": "INTC",
       "company": "Intel (INTC)",
       "date": "2026-10-29",
       "when": "AMC",
-      "status": "upcoming",
-      "why": "Foundry/AI data-center read for semis"
+      "status": "reported",
+      "reaction": "~-20% AH",
+      "sentiment": "Bearish",
+      "why": "Adj EPS $0.52 vs $0.41 beat, rev $16.51B in line, DCAI $7.32B beat; Q4 guide rev $15-16B vs $17.05B, EPS $0.25 vs $0.43, GM 38%; PC market seen declining into H2 2027"
     },
     {
       "ticker": "SNDK",
       "company": "SanDisk (SNDK)",
       "date": "2026-10-29",
       "when": "AMC",
-      "status": "upcoming",
-      "why": "Memory/NAND pricing read for semis"
+      "status": "reported",
+      "sentiment": "Bullish",
+      "why": "Rev $11.03B vs $10.64B est, adj EPS $49.51 vs $46.2 beat, adj GM 85.1%; 8-for-1 split effective Nov 19"
+    },
+    {
+      "ticker": "COIN",
+      "company": "Coinbase (COIN)",
+      "date": "2026-10-29",
+      "when": "AMC",
+      "status": "reported",
+      "sentiment": "Mixed",
+      "why": "Rev $1.22B in line, adj EBITDA $332.9M vs $282.9M beat; Q4 S&S rev guide $550-630M, soft crypto conditions in Q3"
     },
     {
       "ticker": "MPWR",
@@ -73,14 +87,6 @@
       "when": "AMC",
       "status": "upcoming",
       "why": "AI server power supplier, semis read"
-    },
-    {
-      "ticker": "COIN",
-      "company": "Coinbase (COIN)",
-      "date": "2026-10-29",
-      "when": "AMC",
-      "status": "upcoming",
-      "why": "Crypto-equity read; earnings AMA 5 PM ET"
     },
     {
       "ticker": "XOM",
