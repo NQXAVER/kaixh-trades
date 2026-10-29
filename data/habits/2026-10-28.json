@@ -2,5 +2,6 @@
  "sleep": true,
  "date": "2026-10-28",
  "clean": true,
- "social": true
+ "social": true,
+ "steps": true
 }
