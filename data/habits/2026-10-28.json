@@ -3,5 +3,6 @@
  "date": "2026-10-28",
  "clean": true,
  "social": true,
- "steps": true
+ "steps": true,
+ "journal": true
 }
