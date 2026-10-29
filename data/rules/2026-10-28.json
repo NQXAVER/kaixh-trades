@@ -1,6 +1,7 @@
 {
  "date": "2026-10-28",
  "r": {
-  "loss_limit": "ok"
+  "loss_limit": "ok",
+  "no_pre10": "ok"
  }
 }
