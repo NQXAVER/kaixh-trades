@@ -1,8 +1,8 @@
 {
   "date": "2026-10-29",
-  "at": "2026-10-29T13:28:38Z",
-  "pulse": "NQ futures ~-1% into the open as GOOGL's -11% premarket hit (AI capex/FCF fears) drags mega-cap tech; hot-ish data (GDP 3.4% beat, PCE 3.6% in line) and a steady ECB keep yields in focus, offset by MSFT strength and Iran-talk hopes capping oil.",
-  "bias": "risk-off — GOOGL gap-down and AI ROI doubts lead NQ lower, with sticky 3.6% PCE and a strong GDP print keeping Dec hike odds alive; MSFT +1.7% and Iran diplomacy are the offsets.",
+  "at": "2026-10-29T20:08:30Z",
+  "pulse": "NQ under pressure into the close as AMZN drops ~10% AH on EPS/revenue miss and AI capex/FCF fears, extending GOOGL's AI-spend selloff despite solid AWS growth; MSFT remains the offset.",
+  "bias": "risk-off / Bearish NQ — Mag7 earnings split continues with AMZN joining GOOGL lower on cash-flow and spend concerns while AWS/Azure strength fails to fully offset.",
   "items": [
     "@zerohedge (~8:07 AM ET): Premarket Mag7 mixed, GOOGL -11% on search/ad miss, MSFT +1.7% on Azure — Bearish NQ",
     "@DeItaone (~8:30 AM ET): Q3 GDP 3.4% vs 3.2% est, consumption 3.8%; claims 194K vs 198K — Mixed NQ",
@@ -11,8 +11,16 @@
     "@LiveSquawk (~5:25 AM ET): Iran agreed in principle to mechanisms but rejects nuclear concessions (N12) — Mixed NQ"
   ],
   "trump": "Trump focused on midterm rallies (claims record crowds, SC rally today); no new tariff or Fed headline. Iran peace-talk restart reports keep an oil-relief headline possible.",
-  "watch": "9:30 AM ET open: GOOGL gap follow-through vs MSFT; 9:45 AM ECB Lagarde presser; AMZN, INTC, COIN, SNDK, MPWR AMC today; XOM BMO Fri; AAPL AMC Mon Nov 2; oil/Iran headlines; 10Y and Dec FOMC hike pricing.",
+  "watch": "AMZN AH reaction follow-through; INTC, COIN, SNDK AMC; XOM BMO Fri; AAPL AMC Mon Nov 2; oil/Iran headlines; 10Y and Dec FOMC hike pricing.",
   "forSite": [],
+  "earnings": [
+    {
+      "ticker": "AMZN",
+      "reaction": "-10% AH",
+      "sentiment": "Bearish",
+      "why": "EPS miss ($1.89 vs ~$1.96) and in-line revenue with heavy AI capex driving negative FCF, overshadowing strong 39% AWS growth."
+    }
+  ],
   "reports": [
     {
       "at": "2026-10-29T11:00:00Z",
