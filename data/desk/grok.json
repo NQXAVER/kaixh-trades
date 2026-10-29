@@ -1,107 +1,15 @@
 {
-  "date": "2026-10-28",
-  "at": "2026-10-28T21:09:00Z",
-  "pulse": "NQ closed green for a 3rd day (Nasdaq Comp +0.21% to 26,533) on a 10-2 FOMC hold, but AH is a split Mag7 tape: MSFT +4% on Azure +48% vs GOOGL -8% on a Search/EPS miss, with 10Y ~5.03% and WTI $102.78 capping upside.",
-  "bias": "mixed — MSFT beat and lower Mag7 capex support AI/NQ, offset by GOOGL miss, 10Y above 5%, hawkish Fed dissents (Dec hike priced) and oil +2.9% on Houthi/Saudi strike claims",
-  "earnings": [
-    {
-      "ticker": "MSFT",
-      "reaction": "+4% AH",
-      "sentiment": "Bullish",
-      "why": "Double beat (rev $92.28B, adj EPS $4.89) with Azure accelerating to +48% (ex-FX) and capex below estimates, validating AI ROI."
-    },
-    {
-      "ticker": "GOOGL",
-      "reaction": "-8% AH",
-      "sentiment": "Bearish",
-      "why": "Rev/EPS miss ($127.58B, $2.12) on Search/ads softness and equity losses; Cloud +103% and query growth strong but FCF negative on high AI capex."
-    }
-  ],
+  "at": "2026-10-29T00:09:00Z",
+  "pulse": "Stocks closed modestly higher after a 10-2 FOMC hold but AH tape splits with MSFT +3-4% on Azure +48% beat versus GOOGL -8-9% on Search/EPS miss and high AI capex, while oil remains elevated on Iran/Houthi risks.",
+  "bias": "mixed — MSFT cloud/AI strength supports NQ, offset by GOOGL selloff, hawkish Fed dissents pricing Dec hike, and WTI ~$103 on geopolitical tensions",
   "items": [
-    "@FirstSquawk (~4:03 PM ET): Nasdaq unofficially +0.21% to 26,533, S&P +0.23% to 7,740.59, Dow +0.21% — Mixed NQ",
-    "@FirstSquawk (~4:08 PM ET): MSFT cloud $63.9B vs $61.6B est, Azure ex-FX +48% vs 44.8%, capex $39.4B vs $45.9B est; stock +4-5% AH — Bullish NQ",
-    "@DeItaone (~4:04 PM ET): GOOGL Q3 rev $127.58B vs $127.93B est MISS, op inc $40.58B vs $43.16B MISS, Cloud $30.71B (+103%) BEAT; stock -7-8% AH — Bearish NQ",
-    "@OrkhanShrnzade/CNBC (~4:17 PM ET): WTI settles +2.9% at $102.78, Brent +1.3% $115.32 after Houthi claim on Ras Tanura refinery; EIA crude -1.9M bbl — Bearish NQ",
-    "@DeItaone (~3:04 PM ET): 10Y up 4bp to 5.034% after Warsh presser; Gundlach base case Dec hike — Bearish NQ"
+    "@Samso_Insights (~8:10 PM ET): Fed held rates at 3.75-4.00% in 10-2 vote; AH Alphabet fell ~9%, Microsoft rose ~3%",
+    "@Un_Tal_Juan (~8:10 PM ET): MSFT +3-4% AH on $92.3B rev and Azure +48%; GOOGL ~-8% as Cloud doubled but FCF negative on $51B capex",
+    "@Tradeontv (~8:08 PM ET): Asia opened higher after Wall Street closed up Wednesday on the FOMC hold",
+    "@TheLovelace_AI (~8:07 PM ET): SPX closed +0.28% at 7743.98 post-FOMC; adjust for IV crush",
+    "@DrewsCapital (~8:10 PM ET): GOOGL AH drop overdone given Cloud backlog $561B, margin expansion to 36%, and strong Gemini adoption"
   ],
-  "trump": "No new Trump posts today. Bessent on CNBC (~4:12-4:22 PM ET): 'he and Trump have a lot of confidence in Warsh', expects a 'strong GDP number for third quarter', says 'Fed should have an open mind' on the energy supply shock, and Iran 'is not able to get dollars'. WSJ (~4:02 PM ET): VP Vance reached out to an Iranian hard-liner to restart peace talks before possible US strikes.",
-  "watch": "GOOGL call 4:30 PM ET and MSFT call tonight for capex/AI guidance; NOW -13% AH on cRPO guide; Q3 GDP advance print (Bessent expects strong); oil/Iran headlines overnight (Houthi Ras Tanura claim, Vance-Iran channel); 10Y holding above 5% into the Dec hike debate.",
-  "forSite": [],
-  "reports": [
-    {
-      "at": "2026-10-28T11:01:20Z",
-      "pulse": "Mixed pre-FOMC tape as AI/chip momentum (Anthropic financing, SK Hynix, Broadcom) sustains Nasdaq after Tuesday gains while oil rebounds above $115 on renewed Middle East tensions offsets risk appetite.",
-      "bias": "mixed — tech/AI strength supports risk but rising oil, geopolitical headlines, and potential hawkish Fed guidance create caution into the decision.",
-      "items": [
-        "Grok (~4:51 AM ET): AI momentum driver via Broadcom $63B Anthropic chip deal + SK Hynix; futures mixed as rising oil from ME tensions offsets tech; Fed hold 2pm ET then MSFT/GOOGL AMC.",
-        "WorldOrderWatcher (~5:39 AM ET): Yesterday Nasdaq +1.2% on AI heat/Broadcom; today oil snaps >$115 on Houthi Ras Tanura strike claim; India markets under pressure.",
-        "SPXSniper (~7:00 AM ET): FOMC Wednesday + major earnings; rates expected unchanged but Warsh comments/guidance the real mover; expect volatility and trade the reaction.",
-        "InvestAlphaPro (Tue close ~5:52 PM ET): AI trade runs back, Nasdaq +1.18%/S&P +0.60%; oil WTI -1.8% to ~$99.90 on Iran talks; Fed 93% hold, Dec hike odds 73%.",
-        "QuantAlgo: NQ/ES extending recovery toward 29.9k/7.76k on AI/Anthropic optimism; real test Fed decision + MSFT/GOOGL earnings; CL cooling then rebounding near $100-115."
-      ],
-      "trump": "Recent methane rule rollback for oil/gas producers to boost output; prior 'decision time' on Iran deal or resume attacks amid ongoing conflict and midterms context.",
-      "watch": "2:00 PM ET FOMC decision (hold expected at 3.75-4%) + Warsh presser 2:30; MSFT/GOOGL earnings AMC; oil/Iran/Saudi/Houthi headlines; any post-midterm policy shifts.",
-      "forSite": []
-    },
-    {
-      "at": "2026-10-28T13:19:04Z",
-      "pulse": "AI-led bid in NQ and semis ahead of expected FOMC hold and MSFT/GOOGL earnings, tempered by elevated oil on Iran risks.",
-      "bias": "mixed — AI momentum vs oil/Iran and hawkish Fed lean",
-      "items": [
-        "@mmonis (~9:18 AM ET): Fed hawkish hold expected at 2pm, oil risk premium with UBS Brent $110 YE, SK Hynix strength supporting AI",
-        "@RickBennettTT (~9:18 AM ET): NQ futures +0.4% vs lower Dow, staying selective until Fed and Big Tech AI spend clarity",
-        "@Briefingcom (~9:18 AM ET): AI trade rediscovered momentum with SOXX +6.5% this week on demand and financing deals",
-        "@KagiTrade (~9:18 AM ET): ES attempting higher pre-FOMC but not doing a great job of it",
-        "@official_lins (~9:18 AM ET): Running FOMC live trading room for Nasdaq futures into the decision"
-      ],
-      "trump": "Mentions of likely post-midterms Iran strikes that would further spike oil prices",
-      "watch": "FOMC decision and Warsh presser at 2pm ET, MSFT and GOOGL earnings after the close, oil/Iran headlines",
-      "forSite": []
-    },
-    {
-      "at": "2026-10-28T20:07:00Z",
-      "pulse": "MSFT beats on rev/EPS with Azure +48% lifting shares +4% AH; GOOGL misses rev and posts sharp EPS drop on equity losses, falling ~8% AH, mixed for NQ.",
-      "bias": "mixed — MSFT AI/cloud strength vs GOOGL miss and AI ROI concerns",
-      "items": [
-        "@mmonis (~9:18 AM ET): Fed hawkish hold expected at 2pm, oil risk premium with UBS Brent $110 YE, SK Hynix strength supporting AI",
-        "@RickBennettTT (~9:18 AM ET): NQ futures +0.4% vs lower Dow, staying selective until Fed and Big Tech AI spend clarity",
-        "@Briefingcom (~9:18 AM ET): AI trade rediscovered momentum with SOXX +6.5% this week on demand and financing deals",
-        "@KagiTrade (~9:18 AM ET): ES attempting higher pre-FOMC but not doing a great job of it",
-        "@official_lins (~9:18 AM ET): Running FOMC live trading room for Nasdaq futures into the decision"
-      ],
-      "trump": "Mentions of likely post-midterms Iran strikes that would further spike oil prices",
-      "watch": "MSFT and GOOGL AH reactions and calls, AMZN earnings Thursday, oil/Iran headlines",
-      "forSite": []
-    },
-    {
-      "at": "2026-10-28T20:14:50Z",
-      "pulse": "FOMC held rates at 3.75-4% with two hawkish dissents as MSFT Azure strength and GOOGL Search miss split AI sentiment amid rising oil on Iran risks.",
-      "bias": "mixed — Fed hold and MSFT cloud beat support vs GOOGL selloff and elevated oil/geopolitics",
-      "items": [
-        "@VentureKCapital (~4:13 PM ET): Fed holds, market shrugs with S&P +0.28% and Nasdaq +0.27%; Dec hike odds ~85% as SK Hynix lit chips",
-        "@NextFinAI (~4:14 PM ET): $GOOGL down ~8% as Search stalled while Cloud roughly doubled, raising AI capex ROI questions",
-        "@Investingcom (~4:14 PM ET): Microsoft 1Q Azure revenue ex-FX rises +48% vs est +44.8%",
-        "@exfilnews (~4:13 PM ET): Fed held at 3.75-4% with Hammack and Cook dissenting for a hike",
-        "@Marketsurfer_Q (~3:56 PM ET): Hold above 30k on NQ would signal genuine momentum rather than head-fake for AI semis"
-      ],
-      "trump": "Mentions of Trump signaling possible short intense military campaign on Iran after midterms, supporting oil risk premium",
-      "watch": "MSFT/GOOGL after-hours reactions and calls, AMZN earnings Thursday, oil/Iran headlines into next session",
-      "forSite": []
-    },
-    {
-      "at": "2026-10-28T20:24:01Z",
-      "pulse": "NQ closed green for a 3rd day (Nasdaq Comp +0.21% to 26,533) on a 10-2 FOMC hold, but AH is a split Mag7 tape: MSFT +4-5% on Azure +48% vs GOOGL -7-8% on a Search/EPS miss, with 10Y ~5.03% and WTI $102.78 capping upside.",
-      "bias": "mixed — MSFT beat and lower Mag7 capex support AI/NQ, offset by GOOGL miss, 10Y above 5%, hawkish Fed dissents (Dec hike priced) and oil +2.9% on Houthi/Saudi strike claims",
-      "items": [
-        "@FirstSquawk (~4:03 PM ET): Nasdaq unofficially +0.21% to 26,533, S&P +0.23% to 7,740.59, Dow +0.21% — Mixed NQ",
-        "@FirstSquawk (~4:08 PM ET): MSFT cloud $63.9B vs $61.6B est, Azure ex-FX +48% vs 44.8%, capex $39.4B vs $45.9B est; stock +4-5% AH — Bullish NQ",
-        "@DeItaone (~4:04 PM ET): GOOGL Q3 rev $127.58B vs $127.93B est MISS, op inc $40.58B vs $43.16B MISS, Cloud $30.71B (+103%) BEAT; stock -7-8% AH — Bearish NQ",
-        "@OrkhanShrnzade/CNBC (~4:17 PM ET): WTI settles +2.9% at $102.78, Brent +1.3% $115.32 after Houthi claim on Ras Tanura refinery; EIA crude -1.9M bbl — Bearish NQ",
-        "@DeItaone (~3:04 PM ET): 10Y up 4bp to 5.034% after Warsh presser; Gundlach base case Dec hike — Bearish NQ"
-      ],
-      "trump": "No new Trump posts today. Bessent on CNBC (~4:12-4:22 PM ET): 'he and Trump have a lot of confidence in Warsh', expects a 'strong GDP number for third quarter', says 'Fed should have an open mind' on the energy supply shock, and Iran 'is not able to get dollars'. WSJ (~4:02 PM ET): VP Vance reached out to an Iranian hard-liner to restart peace talks before possible US strikes.",
-      "watch": "GOOGL call 4:30 PM ET and MSFT call tonight for capex/AI guidance; NOW -13% AH on cRPO guide; Q3 GDP advance print (Bessent expects strong); oil/Iran headlines overnight (Houthi Ras Tanura claim, Vance-Iran channel); 10Y holding above 5% into the Dec hike debate.",
-      "forSite": []
-    }
-  ]
+  "trump": "none",
+  "watch": "MSFT and GOOGL earnings calls for AI capex/ROI guidance; Q3 GDP and PCE data Thursday; oil/Iran/Houthi headlines and 10Y above 5% into Dec hike debate",
+  "forSite": []
 }

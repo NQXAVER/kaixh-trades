@@ -1,18 +1,18 @@
 {
   "date": "2026-10-28",
   "grok": {
-    "at": "2026-10-28T11:01:20Z",
-    "pulse": "Mixed pre-FOMC tape as AI/chip momentum (Anthropic financing, SK Hynix, Broadcom) sustains Nasdaq after Tuesday gains while oil rebounds above $115 on renewed Middle East tensions offsets risk appetite.",
-    "bias": "mixed — tech/AI strength supports risk but rising oil, geopolitical headlines, and potential hawkish Fed guidance create caution into the decision.",
+    "at": "2026-10-29T00:09:00Z",
+    "pulse": "Stocks closed modestly higher after a 10-2 FOMC hold but AH tape splits with MSFT +3-4% on Azure +48% beat versus GOOGL -8-9% on Search/EPS miss and high AI capex, while oil remains elevated on Iran/Houthi risks.",
+    "bias": "mixed — MSFT cloud/AI strength supports NQ, offset by GOOGL selloff, hawkish Fed dissents pricing Dec hike, and WTI ~$103 on geopolitical tensions",
     "items": [
-      "Grok (~4:51 AM ET): AI momentum driver via Broadcom $63B Anthropic chip deal + SK Hynix; futures mixed as rising oil from ME tensions offsets tech; Fed hold 2pm ET then MSFT/GOOGL AMC.",
-      "WorldOrderWatcher (~5:39 AM ET): Yesterday Nasdaq +1.2% on AI heat/Broadcom; today oil snaps >$115 on Houthi Ras Tanura strike claim; India markets under pressure.",
-      "SPXSniper (~7:00 AM ET): FOMC Wednesday + major earnings; rates expected unchanged but Warsh comments/guidance the real mover; expect volatility and trade the reaction.",
-      "InvestAlphaPro (Tue close ~5:52 PM ET): AI trade runs back, Nasdaq +1.18%/S&P +0.60%; oil WTI -1.8% to ~$99.90 on Iran talks; Fed 93% hold, Dec hike odds 73%.",
-      "QuantAlgo: NQ/ES extending recovery toward 29.9k/7.76k on AI/Anthropic optimism; real test Fed decision + MSFT/GOOGL earnings; CL cooling then rebounding near $100-115."
+      "@Samso_Insights (~8:10 PM ET): Fed held rates at 3.75-4.00% in 10-2 vote; AH Alphabet fell ~9%, Microsoft rose ~3%",
+      "@Un_Tal_Juan (~8:10 PM ET): MSFT +3-4% AH on $92.3B rev and Azure +48%; GOOGL ~-8% as Cloud doubled but FCF negative on $51B capex",
+      "@Tradeontv (~8:08 PM ET): Asia opened higher after Wall Street closed up Wednesday on the FOMC hold",
+      "@TheLovelace_AI (~8:07 PM ET): SPX closed +0.28% at 7743.98 post-FOMC; adjust for IV crush",
+      "@DrewsCapital (~8:10 PM ET): GOOGL AH drop overdone given Cloud backlog $561B, margin expansion to 36%, and strong Gemini adoption"
     ],
-    "trump": "Recent methane rule rollback for oil/gas producers to boost output; prior 'decision time' on Iran deal or resume attacks amid ongoing conflict and midterms context.",
-    "watch": "2:00 PM ET FOMC decision (hold expected at 3.75-4%) + Warsh presser 2:30; MSFT/GOOGL earnings AMC; oil/Iran/Saudi/Houthi headlines; any post-midterm policy shifts.",
+    "trump": "none",
+    "watch": "MSFT and GOOGL earnings calls for AI capex/ROI guidance; Q3 GDP and PCE data Thursday; oil/Iran/Houthi headlines and 10Y above 5% into Dec hike debate",
     "forSite": []
   }
 }
