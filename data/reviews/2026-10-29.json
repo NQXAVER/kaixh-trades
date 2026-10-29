@@ -1,0 +1,62 @@
+{
+ "date": "2026-10-29",
+ "entryUrl": "https://app.notion.com/p/40860e8f5c45808db056f7e91fa20aaf",
+ "summary": "The trade itself was decent and matched your plan: a long after the 9:30 dump swept below LO.L to NYAM.L, aimed at the Daily Open with the 'Daily no wick' as your DOL. You risked small, held through the chop, and moved to break-even after the bearish SMT at the internal high, so it closed BE. The day's real problem came after the trade: Gmail shows three new LucidFlex 50K evals bought at 11:33 AM, 1:14 PM and 2:39 PM ET ($80.50 each, $241.50 total), which breaks your rule of no more eval purchases. That came right after a BE you described as 'so so annoying', which looks like frustration being spent on new accounts. The journal is also thin: Entry type, StopLoss, RR and Emotions after are empty.",
+ "trade": "Long · NY-AM · XFA (risked low) · BreakEven · entry ~29,510.25 around 10:00 to 10:05 AM after the sweep of NYAM.L (~29,400) · stop ~29,442.25 (about 68 points) · target Daily Open ~29,790 (DOL 'Daily no wick') · stop moved to BE after the bearish SMT at ~29,625 · levels read from the 10:46 chart, so treat them as approximate",
+ "rule": "No new eval or account purchases, on any day, for any reason. If you feel the urge after a trade, write down why in Notion and tell Bibz in the pair channel before you buy anything, and wait until the next morning.",
+ "screenshots": [
+  {
+   "label": "TimeFrame 1 · 1W NQ + 4hr ES (9:21 AM)",
+   "feedback": "The weekly candle wicked up into the red weekly bearish gap and got pushed back down, which is the 'weekly bearish gap holds' idea from your pre-market. Price was sitting around PD-EQ (~29,700) with PD-L (~28,987) well below. ES on the 4hr was sitting on its PD-L. The weekly picture says the bigger move is still down, so any long today is a counter-trend pullback trade."
+  },
+  {
+   "label": "TimeFrame 2 · 1D NQ + ES (9:22 AM)",
+   "feedback": "You marked the 'No Wick' on today's daily candle around ~29,800 and the small green daily bullish gap just under PD-L. That's a clear, written reason for a long toward the Daily Open and it matches your DOL. Price still sat below the large red daily bearish gap, so the upside was limited to the open area."
+  },
+  {
+   "label": "TimeFrame 3 · 4hr NQ + ES (9:22 AM)",
+   "feedback": "Price was at ~29,672 inside the green 4hr zone (~29,560 to ~29,640) right under PD-L, with the 'No Wick' line above. The 4hr shows a bounce off the 29,000 area lows into resistance, so the zone below was the place to look for a long, not the middle of the range."
+  },
+  {
+   "label": "TimeFrame 4 · 1hr NQ + ES (9:22 AM)",
+   "feedback": "The same green zone on the 1hr (~29,560 to ~29,650) with price chopping inside it and the No Wick level (~29,770) overhead. Good prep: the level you ended up buying from was already marked before the open."
+  },
+  {
+   "label": "TimeFrame 5 · 15m NQ + ES (9:23 AM)",
+   "feedback": "Fib drawn on the overnight leg with 0.5 to 0.786 at about ~29,650 to ~29,600, LO.L ~29,560 and AS.L lower, and D OPEN at ~29,790 as the obvious draw above. The 9:30 open then dumped through all of that to NYAM.L, which is the 200 points you mentioned in TALK."
+  },
+  {
+   "label": "Execution 1 · 1min NQ + ES (10:46 AM)",
+   "feedback": "Long box with entry ~29,510.25 and stop ~29,442.25, target up at D OPEN (~29,790), so roughly 4R on paper. Your notes list the 15min rejection block midpoint, 1min bullish leg OTE, a 1hr bullish SMT and a 1min internal SMT, which is a solid list. The stop sat about 40 points above NYAM.L (~29,400), inside the leg rather than under the protected low, which is likely why it 'almost got stopped out'. By 10:46 price had swept the internal high near the 15min unfill (~29,625), printed a bearish SMT and started consolidating at ~29,568, and you went to BE. Your own note, 'i dont know where to go BE at', is the gap to close."
+  }
+ ],
+ "good": [
+  "The trade matched the pre-market plan: long to the Daily Open off the 'Daily no wick' idea, with the levels marked before 9:30.",
+  "No entry before 10:00. The long came at about 10:00 to 10:05 after the open dumped into NYAM.L.",
+  "NY session only, one XFA, and you sized down because you were unsure.",
+  "You moved to BE on a real reason (bearish SMT at the internal high and consolidation), not on fear, and the trade didn't turn into a loss.",
+  "Honest chart notes, including that you were annoyed and didn't know where to put BE."
+ ],
+ "fix": [
+  "Three LucidFlex 50K Rithmic evals bought today (orders 11918616 at 11:33 AM, 11923546 at 1:14 PM, 11926401 at 2:39 PM ET, $80.50 each with the AB coupon, $241.50 total). This breaks your no-new-evals rule, and buying three in three hours after a frustrating BE is the pattern to stop.",
+  "Stop placement: ~29,442 was above NYAM.L (~29,400), the low that created the leg you were buying. If the idea is that the sweep low holds, the stop belongs under that low, with size cut to keep the dollar risk the same.",
+  "Break-even rule: decide before entry where BE happens (for example, after price closes above the 15min unfill), and write it in the entry notes so you aren't choosing it while annoyed.",
+  "Fill in the journal: Entry type, StopLoss, RR and Emotions after are empty, and TALK starts mid-sentence. Add the entry, stop, BE level and what you felt after.",
+  "'So so annoyed' at a BE is worth noticing. A break-even on a trade you weren't sure about is a fine outcome, not something to make up for."
+ ],
+ "questions": [
+  {
+   "q": "You bought three LucidFlex evals between 11:33 AM and 2:39 PM, after a BE that made you 'so so annoyed'. What were you feeling when you placed the second and third orders, and what were you planning to do with them?"
+  },
+  {
+   "q": "Your stop was ~29,442, about 40 points above NYAM.L. If the idea was that the sweep low holds, why wasn't the stop under it, and would you have been 'almost stopped out' if it had been?"
+  },
+  {
+   "q": "You wrote 'i dont know where to go BE at, if at the 15min unfil or the external high'. What rule will you use next time, and will you write it down before you enter?"
+  },
+  {
+   "q": "You risked low because MO dumped 200 and then pumped 160, so you were 'a bit iffy'. If you didn't trust the idea, what made it worth taking instead of waiting for a cleaner one?"
+  }
+ ],
+ "reviewedAt": "2026-10-29T20:18:09Z"
+}
