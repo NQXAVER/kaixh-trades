@@ -4,5 +4,6 @@
  "clean": true,
  "social": true,
  "steps": true,
- "journal": true
+ "journal": true,
+ "workout": true
 }
