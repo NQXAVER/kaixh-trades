@@ -100,6 +100,14 @@ textarea { width: 100%; box-sizing: border-box; min-height: 84px; font: 14px var
 .qa-btn { justify-self: start; font: 600 14px var(--body); background: var(--panel); color: var(--accent); border: 1px solid var(--accent); border-radius: 8px; padding: 7px 14px; cursor: pointer; }
 .qa button { justify-self: start; font: 600 14px var(--body); background: var(--accent); color: var(--panel); border: 0; border-radius: 8px; padding: 7px 14px; cursor: pointer; }
 .qa button:disabled { opacity: .5; cursor: default; }
+.ans-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.qa .mic-btn { width: 44px; height: 44px; min-width: 44px; min-height: 44px; padding: 0; border-radius: 999px; border: 1px solid #6f8fb8; background: var(--inner); color: #fff; display: grid; place-items: center; cursor: pointer; flex: none; }
+.qa .mic-btn[aria-pressed="true"] { background: #a3302a; border-color: #ff8a7a; color: #fff; animation: mic-pulse 1.1s ease-in-out infinite; }
+.qa .mic-btn svg { display: block; }
+.mic-msg { flex-basis: 100%; margin: 0; font-size: 12px; color: #ffb4a8; }
+.mic-msg:empty { display: none; }
+@keyframes mic-pulse { 0%, 100% { box-shadow: 0 0 0 0 rgba(255, 90, 70, .65); } 70% { box-shadow: 0 0 0 10px rgba(255, 90, 70, 0); } }
+@media (prefers-reduced-motion: reduce) { .qa .mic-btn[aria-pressed="true"] { animation: none; } }
 .shot { border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; display: grid; gap: 4px; }
 .shot b { font-size: 13px; color: var(--muted); font-weight: 600; }
 ul.fb { margin: 0; padding-left: 1.2em; display: grid; gap: 8px; }
@@ -1185,6 +1193,64 @@ textarea::placeholder { color: #8aa3c4; }
     return out;
   };
   const card = (title, cls) => { const c = el('div', 'card' + (cls ? ' ' + cls : '')); if (title) c.append(el('h2', null, title)); return c; };
+  const SpeechRec = window.SpeechRecognition || window.webkitSpeechRecognition;
+  let liveRec = null;
+  const MIC_SVG = '<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="3" width="6" height="11" rx="3"></rect><path d="M6 11a6 6 0 0 0 12 0"></path><path d="M12 17v4"></path><path d="M8 21h8"></path></svg>';
+  const writeAnswer = (ta, next) => {
+    if (ta.value === next) return;
+    ta.value = next;
+    ta.dispatchEvent(new Event('input', { bubbles: true }));
+    try { ta.setSelectionRange(ta.value.length, ta.value.length); } catch (e) {}
+  };
+  const attachMic = (ta) => {
+    if (!SpeechRec) return null;
+    const mic = el('button', 'mic-btn'); mic.type = 'button'; mic.disabled = ta.disabled;
+    mic.setAttribute('aria-label', 'Dictate answer'); mic.setAttribute('aria-pressed', 'false');
+    mic.innerHTML = MIC_SVG;
+    const msg = el('span', 'mic-msg');
+    mic.addEventListener('click', () => {
+      if (ta.disabled) return;
+      if (mic.getAttribute('aria-pressed') === 'true') { try { if (liveRec) liveRec.stop(); } catch (e) {} return; }
+      if (liveRec) { try { liveRec.stop(); } catch (e) {} }
+      msg.textContent = '';
+      const rec = new SpeechRec();
+      rec.continuous = true; rec.interimResults = true; rec.lang = 'en-US';
+      const prefix = ta.value;
+      rec.onresult = (ev) => {
+        let finalText = '', interim = '';
+        const res = (ev && ev.results) || [];
+        for (let i = 0; i < res.length; i++) {
+          const piece = (res[i][0] && res[i][0].transcript) || '';
+          if (res[i].isFinal) finalText += piece; else interim += piece;
+        }
+        const spoken = (finalText + interim).replace(/\s+/g, ' ').trim();
+        const gap = prefix && spoken && !/\s$/.test(prefix) ? ' ' : '';
+        writeAnswer(ta, spoken ? prefix + gap + spoken : prefix);
+      };
+      rec.onerror = (ev) => {
+        const code = (ev && ev.error) || '';
+        if (code === 'not-allowed' || code === 'service-not-allowed') msg.textContent = 'Mic is blocked. Allow the microphone for this site.';
+        else if (code !== 'no-speech' && code !== 'aborted') msg.textContent = 'Couldn’t hear you. Try again.';
+      };
+      rec.onend = () => {
+        if (liveRec === rec) liveRec = null;
+        mic.setAttribute('aria-pressed', 'false');
+        mic.setAttribute('aria-label', 'Dictate answer');
+      };
+      liveRec = rec;
+      mic.setAttribute('aria-pressed', 'true');
+      mic.setAttribute('aria-label', 'Stop dictating');
+      try { rec.start(); } catch (e) {
+        liveRec = null;
+        mic.setAttribute('aria-pressed', 'false');
+        mic.setAttribute('aria-label', 'Dictate answer');
+        msg.textContent = 'Couldn’t start the mic. Try again.';
+      }
+    });
+    const hold = el('span'); hold.style.display = 'contents';
+    hold.append(mic, msg);
+    return hold;
+  };
   const buildReview = (r, prefix) => {
     const wrap = el('div'); wrap.style.cssText = 'display:grid;gap:16px';
     const top = card(null, 'brief'); top.append(el('p', 'take', r.summary || ''), el('p', 'sub', r.trade || ''));
@@ -1197,6 +1263,7 @@ textarea::placeholder { color: #8aa3c4; }
     sh.append(shl);
     const qc = card('Questions for you'); qc.append(el('p', 'sub', 'I wasn’t sure what you meant here. Answer below and I’ll reply at the next review.'));
     const ql = el('div', 'checks');
+    if (!SpeechRec && (r.questions || []).length) ql.append(el('p', 'sub', 'Voice typing isn’t available in this browser.'));
     (r.questions || []).forEach((q, i) => {
       const d = el('div', 'qa'); d.append(el('p', 'q', q.q));
       const ta = el('textarea'); ta.id = prefix + '-a-' + r.date + '-' + i; ta.value = q.answer || ''; ta.placeholder = 'Explain it in your own words…'; ta.disabled = !db || !canWrite;
@@ -1221,7 +1288,11 @@ textarea::placeholder { color: #8aa3c4; }
         } catch (e) { st.textContent = 'Couldn’t save. Try again.'; btn.disabled = false; }
       });
       ta.dataset.saved = q.answer || ''; autoSave(ta, btn, st);
-      d.append(ta, btn, st);
+      const actions = el('div', 'ans-actions');
+      const mic = attachMic(ta);
+      if (mic) actions.append(mic);
+      actions.append(btn, st);
+      d.append(ta, actions);
       if (q.reply) d.append(el('p', 'reply', q.reply));
       ql.append(d);
     });
