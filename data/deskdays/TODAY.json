@@ -1,18 +1,18 @@
 {
   "date": "2026-10-29",
   "grok": {
-    "at": "2026-10-30T00:10:34Z",
-    "pulse": "Nasdaq closed down 1.38% as Alphabet's AI capex miss and negative free cash flow sparked a tech selloff, outweighing the FOMC hold and MSFT cloud strength while oil stayed elevated on Iran risks.",
-    "bias": "risk-off — GOOGL's ~12% drop on massive AI spending and cash burn dragged NQ hard into the close despite a benign Fed pause; Iran/oil premium and selective earnings keep the tape defensive.",
+    "at": "2026-10-30T02:05:23Z",
+    "pulse": "NQ futures under pressure overnight after Thursday's Nasdaq close down ~1.4% on Alphabet's AI cash-burn selloff, with AMZN and INTC after-hours misses adding to the drag while Iran diplomacy talk provides only modest oil relief.",
+    "bias": "risk-off — mega-cap AI-capex sustainability fears from GOOGL's record drop and AMZN/INTC AH weakness dominate over the FOMC hold and any Middle East deal hopes; Asia tech selling confirms the defensive setup.",
     "items": [
-      "@kyookine (~8:00 PM ET): CNBC wrap: Nasdaq -1.38% to 26,184, S&P -0.3%, GOOGL -12% on AI FCF negative $9B, MSFT modestly lower after Azure beat",
-      "@elceo__ (~8:09 PM ET): Alphabet reported negative free cash flow of $9.07B in Q3 vs expected positive, largest drop since 2008",
-      "@CryptoBullRon (~2:03 PM ET): Alphabet miss rattles: rev/EPS short, FCF -9B on $205B AI infra; NQ futures -1%, crypto risk-off, Fed hold with 2 hike dissents",
-      "@Micheal_Gilson (~8:05 PM ET): Market snapshot: GOOGL -12.6%, CAT -9%, ServiceNow -27%; gainers in healthcare/industrials while tech bleeds",
-      "@InstaNewsAlerts (~8:07 PM ET): Ukraine paused Russian oil refinery strikes after Trump pressure, per WSJ — potential supply relief for crude"
+      "@YaBoiCDaY (~10:03 PM ET): Nasdaq -1.37% S&P -0.30% close; GOOGL AI cash burn rattled mega-caps but Russell +1% suggests rotation not full breakdown",
+      "@Kalshi_Finance (~8:06 PM ET): GOOGL sank ~12% on $9B negative FCF AI spend fears, software NOW -26% FTNT -21%; AMZN AH slide on miss, oil eased on Vance-Iran outreach WTI~$102",
+      "@TheAppr70070031 (~10:04 PM ET): QQQ in buy zone after hit 700 fast; load AI/chips with low VIX but dump NQ near 30300/30400 as bearish FVG unfilled",
+      "@FuturesWire (~9:45 PM ET): Asian stocks fall as Alphabet slide weighs on tech; Middle East supply constraints support elevated oil",
+      "@preetkailon (~10:04 PM ET): Buy-the-dip caution after 2000-style risks; watching if GOOGL AMZN AAPL NVDA META MSFT hold levels vs slide"
     ],
-    "trump": "Trump told Axios Iran talks underway via mediators but unsure of success; WSJ reported VP Vance reached out to Iranian security officials (Trump downplayed as medical supplies), amid lingering post-midterm strike threats and oil premium.",
-    "watch": "AMZN earnings reaction and AI capex follow-through into Friday open; oil/Iran diplomacy or escalation headlines; 10Y yields and Dec hike pricing after sticky PCE; any further tech selective selling.",
+    "trump": "none",
+    "watch": "Friday Oct 30 open: follow-through on AMZN/INTC AH weakness and GOOGL AI fears into NQ; ECI at 8:30 AM ET; XOM BMO oil read; Iran deal or escalation headlines; any further Asia tech pressure overnight.",
     "forSite": []
   }
 }
