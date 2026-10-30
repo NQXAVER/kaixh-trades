@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T00:47:20Z",
+  "updatedAt": "2026-10-30T06:00:23Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -183,9 +183,9 @@
     {
       "id": "un-peace",
       "label": "UN News",
-      "ok": false,
-      "items": 0,
-      "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+      "ok": true,
+      "items": 20,
+      "error": null
     },
     {
       "id": "wsj-biz",
@@ -516,6 +516,18 @@
       "auto": true
     },
     {
+      "id": "fca440aae6e28",
+      "headline": "BOJ holds rates as underlying inflation aligns with 2% target for first time since 2013",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/30/boj-inflation-target-rates.html",
+      "publishedAt": "2026-10-30T04:19:38Z",
+      "time": "Fri 12:19 AM",
+      "section": "econ",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "f57f8e538c823",
       "headline": "Our church has a $1.5 million bequest earning 3.75% in a bank account. Is inflation eroding it?",
       "source": "MarketWatch",
@@ -549,18 +561,6 @@
       "section": "econ",
       "impact": "Medium",
       "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f67596b4f0ac2",
-      "headline": "US economy grows faster than expected but inflation rises to 3.7%",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/oct/29/economy-growth-third-quarter",
-      "publishedAt": "2026-10-29T13:09:00Z",
-      "time": "Thu 9:09 AM",
-      "section": "econ",
-      "impact": "Medium",
-      "lean": "risk-off",
       "auto": true
     },
     {
@@ -756,6 +756,18 @@
       "auto": true
     },
     {
+      "id": "fc8b9ea08bb99",
+      "headline": "Why are Detroit gas stations selling discounted fuel in Trump’s name?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/why-are-detroit-gas-stations-selling-discounted-fuel-in-trumps-name?traffic_source=rss",
+      "publishedAt": "2026-10-30T03:31:30Z",
+      "time": "Thu 11:31 PM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "fac72868636cc",
       "headline": "What’s Next for Global Natural Gas Demand?",
       "source": "OilPrice",
@@ -786,18 +798,6 @@
       "url": "https://oilprice.com/Latest-Energy-News/World-News/Exxon-Chevron-Executives-Cancel-Gulf-Visit-Over-Security-Concerns.html",
       "publishedAt": "2026-10-29T20:00:00Z",
       "time": "Thu 4:00 PM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f9936b1b104ed",
-      "headline": "Cruise companies aim to keep fuel costs down. Their strategies for doing so differ",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/29/royal-caribbean-carnival-norwegian-fuel-costs.html",
-      "publishedAt": "2026-10-29T19:36:04Z",
-      "time": "Thu 3:36 PM",
       "section": "energy",
       "impact": "Medium",
       "lean": null,
