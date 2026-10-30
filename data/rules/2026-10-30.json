@@ -3,6 +3,7 @@
  "r": {
   "loss_limit": "ok",
   "no_pre10": "ok",
-  "protected_stop": "ok"
+  "protected_stop": "ok",
+  "external_be": "ok"
  }
 }
