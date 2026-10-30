@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#172a45"/>
+      <stop offset="48%" stop-color="#0d1524"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="#0a0a0a"/>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <g fill="none" stroke="#2e4a70" stroke-width="3" stroke-linecap="round" opacity="0.95">
+    <path d="M48 148H464"/>
+    <path d="M48 228H464"/>
+    <path d="M48 308H464"/>
+    <path d="M48 388H464"/>
+  </g>
+  <g fill="none" stroke-linecap="round">
+    <path d="M58 414C150 378 186 292 248 236S352 132 462 86" stroke="#006FFF" stroke-width="18" opacity="0.22"/>
+    <path d="M58 414C150 378 186 292 248 236S352 132 462 86" stroke="#3d8bff" stroke-width="7" opacity="0.92"/>
+  </g>
+  <g>
+    <!-- wick, then body. Green #1e7a45 / #5cc98a, red #a3302a / #ffb3aa -->
+    <rect x="101" y="286" width="14" height="124" rx="7" fill="#5cc98a"/>
+    <rect x="78" y="314" width="60" height="66" rx="6" fill="#1e7a45"/>
+
+    <rect x="199" y="178" width="14" height="176" rx="7" fill="#5cc98a"/>
+    <rect x="176" y="206" width="60" height="112" rx="6" fill="#1e7a45"/>
+
+    <rect x="297" y="148" width="14" height="146" rx="7" fill="#ffb3aa"/>
+    <rect x="274" y="172" width="60" height="82" rx="6" fill="#a3302a"/>
+
+    <rect x="395" y="72" width="14" height="168" rx="7" fill="#5cc98a"/>
+    <rect x="372" y="98" width="60" height="104" rx="6" fill="#1e7a45"/>
+  </g>
+</svg>
