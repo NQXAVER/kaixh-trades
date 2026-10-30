@@ -7,6 +7,6 @@
   "external_be": "",
   "htf_bias": "ok",
   "setup_not_pnl": "ok",
-  "ny_only": "ok"
+  "ny_only": "broke"
  }
 }
