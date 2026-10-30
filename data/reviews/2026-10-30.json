@@ -1,0 +1,59 @@
+{
+ "date": "2026-10-30",
+ "entryUrl": "https://app.notion.com/p/40960e8f5c45805a8a40fc44335a8546",
+ "summary": "Today's NY trade was small and controlled: one micro short at about 10:45 to 10:50 AM after the sweep of the internal high, stop above the SMT'd high, and it went BE before price dropped further. The bigger story is last night, which you wrote up yourself: after tilting on your 2nd XFA yesterday, you traded the Asia session on the Amazon earnings miss, copied trades across two evals plus an XFA paired with an eval, flipped short, long and short again, and blew both the XFA and the eval. That breaks three rules at once (NY only, no copy trading, no revenge trading), and you named the reason yourself: 'wanting to make back the DD'. Today's short also went against your own pre-market, which said that if London high held there was no DOL lower and you'd stay off. Gmail shows no new eval purchases today, which is good after yesterday's three.",
+ "trade": "Short · NY-AM · XFA (1 micro) · BreakEven · entry 28,793.50 around 10:45 to 10:50 AM after the sweep of the internal high (~28,825) · stop 28,834.00 (about 40.5 points) above the SMT'd high · target box down to ~28,610 (NYAM.L, about 4.5R) toward the August Low DOL · plan to go BE at 11:00 / the '5min unfill' line · levels read from the 10:57 chart. Separately, overnight Asia trades on 2 evals + XFA/eval pair ended with the XFA and an eval blown.",
+ "rule": "NY session only, one account, one idea. The moment you notice yourself wanting to 'make back' drawdown, you're done for the day: close the platform and post it in the pair channel before doing anything else.",
+ "screenshots": [
+  {
+   "label": "TimeFrame 1 · 4hr NQ + ES (9:28 AM)",
+   "feedback": "The 4hr shows the overnight dump of about 400 points (-1.39%) to ~28,811, well below PD-L, with an 'smt' line drawn under the lows and ES also below its PD-L. That's a market that already delivered hard lower before 9:30, so the clean idea was a retrace, not chasing more downside."
+  },
+  {
+   "label": "TimeFrame 2 · 1hr NQ + ES (9:28 AM)",
+   "feedback": "PD-H, PD-EQ and PD-L marked above (roughly 29,790 / 29,470 / 29,150) and price at ~28,814 just under the 'smt' trendline from the Oct 22 lows. This supports your pre-market lean: lows swept, look for a flip back up."
+  },
+  {
+   "label": "TimeFrame 3 · 1hr NQ + ES (9:29 AM)",
+   "feedback": "Same picture with a line at the fresh low (~28,755). You had the low marked that your long idea depended on, which is good prep."
+  },
+  {
+   "label": "TimeFrame 4 · 15m NQ + ES (9:29 AM)",
+   "feedback": "Clear session map: NYAM.L above, AS.H ~29,140, D OPEN with your 'NO WICK' note ~29,180, PD-L, LO.H ~29,060, LO.L ~28,930 and AS.L ~28,850, with price already below AS.L. Your pre-market target (NDOG / no-wick daily open) was about 370 points above, and your own note said there was no DOL lower. That's why the later short needed a strong reason."
+  },
+  {
+   "label": "Execution 1 · 1min NQ + ES (10:57 AM)",
+   "feedback": "Short box: entry 28,793.50, stop 28,834.00, target down to ~28,610 at NYAM.L, so about 4.5R on 1 micro. Your notes list a sweep of the internal high, rejection of OTE (0.705 to 0.786), the 5min rejection block and a 1min internal bearish SMT, and you waited for the stall instead of shorting the first rejection. The stop sits just a few points above the SMT'd high, which is the right place but tight. You planned BE at 11:00 / the 5min unfill, got poked out at BE, and price then went lower. The setup is clean on its own, but it is a short on a day your pre-market leaned long."
+  }
+ ],
+ "good": [
+  "Only 1 micro on the NY trade, sized down on purpose because the entry is still new to you.",
+  "Waited until well after 10:00 and for the stall after the internal-high sweep, with the reasons written on the chart.",
+  "Stop was above the SMT'd high (28,834), not inside the leg.",
+  "No new eval or account purchases in Gmail today.",
+  "Your TALK is brutally honest about last night, including that you were thinking about PNL too much. That honesty is the starting point."
+ ],
+ "fix": [
+  "Asia session trading last night on the Amazon earnings miss. Your rule is NY only, and earnings-night volatility is exactly the trap.",
+  "Copy trading: two evals copied plus an XFA paired with an eval. One idea was multiplied across four accounts, so one bad flip hit all of them.",
+  "Revenge trading: 'wanting to make back the DD on the evals an XFA' after tilting yesterday. Both the XFA and an eval got blown.",
+  "Flipping short, long, short in the same session is a sign the plan was gone. Once you've flipped once, the session is over.",
+  "Today's short went against your pre-market ('if we retest london high an fail to break it than most like stay off cus there no DOL lower'). If the plan changes, write the new reason in PRE MARKET before entering.",
+  "Log the overnight session as its own Notion entry (Session Asia, Results BLOWN) so the journal and the Calendar show what really happened, not only today's BE."
+ ],
+ "questions": [
+  {
+   "q": "Your pre-market said if London high held 'stay off cus there no DOL lower'. You then shorted toward the August Low. What changed between 9:29 and 10:45 that made a lower DOL valid?"
+  },
+  {
+   "q": "You wrote that you were 'wanting to make back the DD on the evals an XFA' when you traded Asia last night. What would have had to happen for you to close the platform instead?"
+  },
+  {
+   "q": "You flipped short, long, then short again before both accounts blew. At which flip did the plan stop being a plan, and how will you catch that moment next time?"
+  },
+  {
+   "q": "You said 'if i just had a month of me not dealing w BS i would be able to become super disciplined'. What's one rule you can follow this week without waiting for that month?"
+  }
+ ],
+ "reviewedAt": "2026-10-30T20:18:41Z"
+}
