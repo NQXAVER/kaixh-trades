@@ -3,5 +3,6 @@
  "date": "2026-10-30",
  "social": true,
  "clean": true,
- "steps": true
+ "steps": true,
+ "sleep": true
 }
