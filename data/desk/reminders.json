@@ -1,0 +1,25 @@
+{
+  "updatedAt": "2026-10-30T12:30:00Z",
+  "reminders": [
+    { "text": "Stop chasing dopamine.", "tag": "Dopamine" },
+    { "text": "Think long term.", "tag": "Long term" },
+    { "text": "One payout won't change anything. Being disciplined will.", "tag": "Payout" },
+    { "text": "Slow down. The process is the edge.", "tag": "Process" },
+    { "text": "Do not buy another account.", "tag": "Accounts" },
+    { "text": "Another eval is not a fresh start. It is the same habit with a new bill.", "tag": "Accounts" },
+    { "text": "A reset does not fix the thing that blew the last one.", "tag": "Accounts" },
+    { "text": "You already have an account. Trade that one.", "tag": "Accounts" },
+    { "text": "The checkout page is the dopamine. Close it.", "tag": "Dopamine" },
+    { "text": "If you feel the rush to buy, that is the signal to stop.", "tag": "Pace" },
+    { "text": "Rushing the next trade gives the last one back.", "tag": "Pace" },
+    { "text": "If you are in a hurry, you are not ready. Wait.", "tag": "Pace" },
+    { "text": "One clean session is worth more than a stack of new accounts.", "tag": "Process" },
+    { "text": "The payout follows the discipline. It never leads it.", "tag": "Payout" },
+    { "text": "Do not shop for a firm while the market is open.", "tag": "Accounts" },
+    { "text": "Boredom is not a reason to click buy.", "tag": "Dopamine" },
+    { "text": "Protect the account you have. That is the work today.", "tag": "Accounts" },
+    { "text": "Long term is just the days you refused to rush.", "tag": "Long term" },
+    { "text": "Your edge is repetition, not a new login.", "tag": "Process" },
+    { "text": "Trade the XFA you have. No new eval. No reset.", "tag": "Accounts" }
+  ]
+}
