@@ -1,18 +1,18 @@
 {
   "date": "2026-10-29",
   "grok": {
-    "at": "2026-10-29T11:00:00Z",
-    "pulse": "NQ futures sink over 1% into the US open as GOOGL's AI cash-burn miss outweighs MSFT's Azure beat after yesterday's modest post-FOMC gains, with elevated oil on ongoing Iran risks.",
-    "bias": "mixed — MSFT cloud strength and the 10-2 Fed hold support NQ, but GOOGL negative FCF on massive AI spend, futures weakness, and Iran/oil premium lean risk-off overnight.",
+    "at": "2026-10-30T00:10:34Z",
+    "pulse": "Nasdaq closed down 1.38% as Alphabet's AI capex miss and negative free cash flow sparked a tech selloff, outweighing the FOMC hold and MSFT cloud strength while oil stayed elevated on Iran risks.",
+    "bias": "risk-off — GOOGL's ~12% drop on massive AI spending and cash burn dragged NQ hard into the close despite a benign Fed pause; Iran/oil premium and selective earnings keep the tape defensive.",
     "items": [
-      "@business (~7:00 AM ET): Nasdaq Futures Sink as AI Trade Shows New Cracks",
-      "@EhTrader2 (~7:00 AM ET): AI report card MSFT A vs GOOGL spending ~$200B neg cash flow; Nasdaq futures -1.2%",
-      "@invxsecurities (~7:00 AM ET): Nasdaq Futures drop >1%; Warsh high rates press AI invest; Alphabet cash concern, MSFT Azure +48%",
-      "@sports_lamb (~6:57 AM ET): Premarket MSFT +3.5% Azure beat, GOOGL -10.5% AI cash burn; Nasdaq futures ~-1%, Fed held",
-      "@GameStockHQ (~6:49 AM ET): Oct 28: Fed held 10-2, AI hardware rallied; AH MSFT strong Azure +48%, GOOGL FCF negative"
+      "@kyookine (~8:00 PM ET): CNBC wrap: Nasdaq -1.38% to 26,184, S&P -0.3%, GOOGL -12% on AI FCF negative $9B, MSFT modestly lower after Azure beat",
+      "@elceo__ (~8:09 PM ET): Alphabet reported negative free cash flow of $9.07B in Q3 vs expected positive, largest drop since 2008",
+      "@CryptoBullRon (~2:03 PM ET): Alphabet miss rattles: rev/EPS short, FCF -9B on $205B AI infra; NQ futures -1%, crypto risk-off, Fed hold with 2 hike dissents",
+      "@Micheal_Gilson (~8:05 PM ET): Market snapshot: GOOGL -12.6%, CAT -9%, ServiceNow -27%; gainers in healthcare/industrials while tech bleeds",
+      "@InstaNewsAlerts (~8:07 PM ET): Ukraine paused Russian oil refinery strikes after Trump pressure, per WSJ — potential supply relief for crude"
     ],
-    "trump": "Trump weighs renewed strikes on Iran in the eight-month war as Hegseth removes top planner; oil risk premium persists from Houthi/Saudi incidents.",
-    "watch": "US open reaction to GOOGL/MSFT follow-through; Q3 GDP and PCE 8:30 AM ET; AMZN earnings AMC; oil/Iran strike or diplomacy headlines; 10Y yields and Dec hike pricing.",
+    "trump": "Trump told Axios Iran talks underway via mediators but unsure of success; WSJ reported VP Vance reached out to Iranian security officials (Trump downplayed as medical supplies), amid lingering post-midterm strike threats and oil premium.",
+    "watch": "AMZN earnings reaction and AI capex follow-through into Friday open; oil/Iran diplomacy or escalation headlines; 10Y yields and Dec hike pricing after sticky PCE; any further tech selective selling.",
     "forSite": []
   }
 }
