@@ -1210,27 +1210,49 @@ textarea::placeholder { color: #8aa3c4; }
     const msg = el('span', 'mic-msg');
     mic.addEventListener('click', () => {
       if (ta.disabled) return;
-      if (mic.getAttribute('aria-pressed') === 'true') { try { if (liveRec) liveRec.stop(); } catch (e) {} return; }
-      if (liveRec) { try { liveRec.stop(); } catch (e) {} }
+      // Stop if already recording
+      if (mic.getAttribute('aria-pressed') === 'true') {
+        try { if (liveRec) { liveRec.onend = null; liveRec.stop(); liveRec.abort(); } } catch (e) {}
+        liveRec = null;
+        mic.setAttribute('aria-pressed', 'false');
+        mic.setAttribute('aria-label', 'Dictate answer');
+        return;
+      }
+      // Clean any leftover recognition
+      if (liveRec) { try { liveRec.stop(); liveRec.abort(); } catch (e) {} liveRec = null; }
       msg.textContent = '';
       const rec = new SpeechRec();
-      rec.continuous = true; rec.interimResults = true; rec.lang = 'en-US';
+      rec.continuous = true;
+      rec.interimResults = true;
+      rec.lang = 'en-US';
       const prefix = ta.value;
+      let lastSpoken = '';
       rec.onresult = (ev) => {
         let finalText = '', interim = '';
         const res = (ev && ev.results) || [];
         for (let i = 0; i < res.length; i++) {
           const piece = (res[i][0] && res[i][0].transcript) || '';
-          if (res[i].isFinal) finalText += piece; else interim += piece;
+          if (res[i].isFinal) finalText += piece + ' ';
+          else interim += piece;
         }
         const spoken = (finalText + interim).replace(/\s+/g, ' ').trim();
+        if (spoken === lastSpoken) return;
+        lastSpoken = spoken;
         const gap = prefix && spoken && !/\s$/.test(prefix) ? ' ' : '';
         writeAnswer(ta, spoken ? prefix + gap + spoken : prefix);
       };
       rec.onerror = (ev) => {
         const code = (ev && ev.error) || '';
-        if (code === 'not-allowed' || code === 'service-not-allowed') msg.textContent = 'Mic is blocked. Allow the microphone for this site.';
-        else if (code !== 'no-speech' && code !== 'aborted') msg.textContent = 'Couldn’t hear you. Try again.';
+        if (code === 'not-allowed' || code === 'service-not-allowed') {
+          msg.textContent = 'Mic is blocked. Allow the microphone for this site.';
+        } else if (code !== 'no-speech' && code !== 'aborted') {
+          msg.textContent = 'Couldn’t hear you. Try again.';
+        }
+        if (liveRec === rec) {
+          liveRec = null;
+          mic.setAttribute('aria-pressed', 'false');
+          mic.setAttribute('aria-label', 'Dictate answer');
+        }
       };
       rec.onend = () => {
         if (liveRec === rec) liveRec = null;
@@ -1240,7 +1262,9 @@ textarea::placeholder { color: #8aa3c4; }
       liveRec = rec;
       mic.setAttribute('aria-pressed', 'true');
       mic.setAttribute('aria-label', 'Stop dictating');
-      try { rec.start(); } catch (e) {
+      try {
+        rec.start();
+      } catch (e) {
         liveRec = null;
         mic.setAttribute('aria-pressed', 'false');
         mic.setAttribute('aria-label', 'Dictate answer');
