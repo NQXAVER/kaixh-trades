@@ -1,15 +1,48 @@
 {
-  "at": "2026-10-30T11:00:00Z",
-  "pulse": "NQ futures down over 2% (~28,860) into the US session as AMZN (AI capex miss) and INTC (weak guide, ~-25% pre) amplify GOOGL's AI-spend selloff, with Asia tech (Kospi -3%) confirming and oil rising on Iran risks.",
-  "bias": "risk-off — mega-cap AI capex/FCF sustainability fears from AMZN/INTC/GOOGL earnings, Asia rout, and crude bid on Middle East tensions outweigh lower yields and recent FOMC hold; Dec hike odds keep rates a headwind.",
+  "date": "2026-10-30",
+  "at": "2026-10-30T11:26:30Z",
+  "pulse": "NQ futures -2.1% to -2.4% (QQQ ~698 pre vs 715 close) as AMZN (-7% pre, $77B capex, negative FCF) and INTC (~-25% pre, weak Q4 guide) extend GOOGL's AI-spend selloff and Asia tech (Kospi -5%, Nikkei -2.5%) follows; only offsets are a flat 10Y (~4.99%) and Qatar-Iran peace-talk headlines.",
+  "bias": "risk-off — AI capex/FCF fears from AMZN/INTC/GOOGL plus semis weakness (AMD -7%, AVGO -4%, NVDA -2.5% pre) and Brent at new highs on Hormuz tanker incident outweigh softer dollar and peace-talk hopes.",
   "items": [
-    "@DTradingToolkit (~7:00 AM ET): Nasdaq futures down about 2% and Asia got hit harder; Kospi off about 3%. Tech weakness started overseas — let $NQ show first 30 minutes before dip.",
-    "@djsoldier88 (~7:00 AM ET): Nasdaq futures fell more than 2%. Amazon's rising AI investment and Intel's cash-burn warning put the infrastructure spending tab back under the microscope.",
-    "@Alistair_Drum (~7:00 AM ET): Nasdaq-Futures fallen um 2,16 %! KI-Aktien geraten erneut unter Druck. $QQQ $NVDA $AMD",
-    "@business / @BloombergRadio (~7:00 AM ET): Tech Stock Selloff Deepens on Earnings, Oil Rises.",
-    "@orusrock (~6:58 AM ET): Brent is pushing $117 while Nasdaq futures slide 2%, risk-off finally found a bid that is not just fear."
+    "@FIowStateofMind (~6:23 AM ET): NQ ~-2.4%, ES ~-1.1%, small caps < -1%; QQQ $698 pre vs $715 close; 10Y flat 4.99%, WTI near $104, VIX 18.5 — Bearish NQ",
+    "@Rakane87 (~6:40 AM ET): AMZN -7.2%, INTC -25% premarket on AI-spend worries; chips follow: NVDA -2.5%, AMD -7%, AVGO -4% — Bearish NQ",
+    "@FirstSquawk (~6:50 AM ET): IRGC Navy stopped two tankers south of the Strait of Hormuz; @zerohedge (~6:57 AM ET): Brent Jan futures at new highs — Bearish NQ",
+    "@FirstSquawk (~7:10 AM ET): Qatari mediators in Tehran to discuss latest US peace proposal (Axios) — Bullish NQ if it cools crude",
+    "@DeItaone (~6:55 AM ET): Binance working with FBI/Secret Service after $6.3B hack, reserves $6.34B to cover users — Mixed NQ (crypto-equity risk: COIN, MSTR)"
   ],
-  "trump": "none",
-  "watch": "Fri Oct 30 open: follow-through on NQ gap-down vs overnight low ~28,821; ECI q/q 8:30 AM ET (wage inflation vs Dec hike odds); XOM BMO oil read; AMZN/INTC open gaps; Iran deal vs strike/Hormuz headlines for crude; month-end flows. Next week: AAPL Mon Nov 2 AMC, midterms Tue Nov 3.",
-  "forSite": []
+  "trump": "@WatcherGuru (~6:35 AM ET): Trump says inflation is \"way down\" and income for people and companies is \"way up\" — no new policy or tariff news.",
+  "watch": "Fri Oct 30: ECI q/q 8:30 AM ET (wage inflation vs Dec hike odds after 10-2 FOMC hold); cash open 9:30 AM ET (AMZN/INTC/GOOGL gaps, semis); month-end flows; Iran peace talks vs Hormuz headlines for crude. Next: AAPL Mon Nov 2 AMC, midterms Tue Nov 3, IREN Nov 5, jobs report Fri Nov 6.",
+  "forSite": [],
+  "reports": [
+    {
+      "at": "2026-10-30T11:00:00Z",
+      "pulse": "NQ futures down over 2% (~28,860) into the US session as AMZN (AI capex miss) and INTC (weak guide, ~-25% pre) amplify GOOGL's AI-spend selloff, with Asia tech (Kospi -3%) confirming and oil rising on Iran risks.",
+      "bias": "risk-off — mega-cap AI capex/FCF sustainability fears from AMZN/INTC/GOOGL earnings, Asia rout, and crude bid on Middle East tensions outweigh lower yields and recent FOMC hold; Dec hike odds keep rates a headwind.",
+      "items": [
+        "@DTradingToolkit (~7:00 AM ET): Nasdaq futures down about 2% and Asia got hit harder; Kospi off about 3%. Tech weakness started overseas — let $NQ show first 30 minutes before dip.",
+        "@djsoldier88 (~7:00 AM ET): Nasdaq futures fell more than 2%. Amazon's rising AI investment and Intel's cash-burn warning put the infrastructure spending tab back under the microscope.",
+        "@Alistair_Drum (~7:00 AM ET): Nasdaq-Futures fallen um 2,16 %! KI-Aktien geraten erneut unter Druck. $QQQ $NVDA $AMD",
+        "@business / @BloombergRadio (~7:00 AM ET): Tech Stock Selloff Deepens on Earnings, Oil Rises.",
+        "@orusrock (~6:58 AM ET): Brent is pushing $117 while Nasdaq futures slide 2%, risk-off finally found a bid that is not just fear."
+      ],
+      "trump": "none",
+      "watch": "Fri Oct 30 open: follow-through on NQ gap-down vs overnight low ~28,821; ECI q/q 8:30 AM ET (wage inflation vs Dec hike odds); XOM BMO oil read; AMZN/INTC open gaps; Iran deal vs strike/Hormuz headlines for crude; month-end flows. Next week: AAPL Mon Nov 2 AMC, midterms Tue Nov 3.",
+      "forSite": []
+    },
+    {
+      "at": "2026-10-30T11:26:30Z",
+      "pulse": "NQ futures -2.1% to -2.4% (QQQ ~698 pre vs 715 close) as AMZN (-7% pre, $77B capex, negative FCF) and INTC (~-25% pre, weak Q4 guide) extend GOOGL's AI-spend selloff and Asia tech (Kospi -5%, Nikkei -2.5%) follows; only offsets are a flat 10Y (~4.99%) and Qatar-Iran peace-talk headlines.",
+      "bias": "risk-off — AI capex/FCF fears from AMZN/INTC/GOOGL plus semis weakness (AMD -7%, AVGO -4%, NVDA -2.5% pre) and Brent at new highs on Hormuz tanker incident outweigh softer dollar and peace-talk hopes.",
+      "items": [
+        "@FIowStateofMind (~6:23 AM ET): NQ ~-2.4%, ES ~-1.1%, small caps < -1%; QQQ $698 pre vs $715 close; 10Y flat 4.99%, WTI near $104, VIX 18.5 — Bearish NQ",
+        "@Rakane87 (~6:40 AM ET): AMZN -7.2%, INTC -25% premarket on AI-spend worries; chips follow: NVDA -2.5%, AMD -7%, AVGO -4% — Bearish NQ",
+        "@FirstSquawk (~6:50 AM ET): IRGC Navy stopped two tankers south of the Strait of Hormuz; @zerohedge (~6:57 AM ET): Brent Jan futures at new highs — Bearish NQ",
+        "@FirstSquawk (~7:10 AM ET): Qatari mediators in Tehran to discuss latest US peace proposal (Axios) — Bullish NQ if it cools crude",
+        "@DeItaone (~6:55 AM ET): Binance working with FBI/Secret Service after $6.3B hack, reserves $6.34B to cover users — Mixed NQ (crypto-equity risk: COIN, MSTR)"
+      ],
+      "trump": "@WatcherGuru (~6:35 AM ET): Trump says inflation is \"way down\" and income for people and companies is \"way up\" — no new policy or tariff news.",
+      "watch": "Fri Oct 30: ECI q/q 8:30 AM ET (wage inflation vs Dec hike odds after 10-2 FOMC hold); cash open 9:30 AM ET (AMZN/INTC/GOOGL gaps, semis); month-end flows; Iran peace talks vs Hormuz headlines for crude. Next: AAPL Mon Nov 2 AMC, midterms Tue Nov 3, IREN Nov 5, jobs report Fri Nov 6.",
+      "forSite": []
+    }
+  ]
 }
