@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "at": "2026-10-30T11:26:30Z",
+  "at": "2026-10-30T13:26:22Z",
   "items": [
     {
       "ticker": "XOM",
@@ -12,12 +12,30 @@
       "why": "Adj EPS $4.23 vs $4.13 beat, rev $113.16B vs $105.36B beat, production 4,496 KOEBD vs 4,440, dividend raised to $1.07; energy bid as tech sells, small NQ weight"
     },
     {
+      "ticker": "CVX",
+      "company": "Chevron (CVX)",
+      "date": "2026-10-30",
+      "when": "BMO",
+      "status": "reported",
+      "sentiment": "Mixed",
+      "why": "Adj EPS $5.28 vs $4.93 beat, rev $67.80B vs $62.55B beat, CFO $16B vs $15.08B, production 3,980 MBOE/D vs 3,926; upstream $5.70B vs $6.19B miss; energy rotation, small NQ weight"
+    },
+    {
+      "ticker": "ABBV",
+      "company": "AbbVie (ABBV)",
+      "date": "2026-10-30",
+      "when": "BMO",
+      "status": "reported",
+      "sentiment": "Mixed",
+      "why": "Adj EPS $3.82 vs $3.74 beat, rev $17.40B vs $17.34B beat, Skyrizi $5.78B beat; FY EPS guide raised to $13.95-13.99; defensive rotation, not in NQ"
+    },
+    {
       "ticker": "AMZN",
       "company": "Amazon (AMZN)",
       "date": "2026-10-29",
       "when": "AMC",
       "status": "reported",
-      "reaction": "~-7% premarket",
+      "reaction": "~-6.5% to -7% premarket",
       "sentiment": "Bearish",
       "why": "EPS $1.89 vs $1.96 est miss, rev $201.9B vs $202.3B slight miss; AWS $46B (+39%) beat, op income $28.1B; $77.3B quarterly capex, TTM FCF -$42.4B; Q4 rev guide $240-247B, higher 2027 spend"
     },
@@ -27,7 +45,7 @@
       "date": "2026-10-29",
       "when": "AMC",
       "status": "reported",
-      "reaction": "~-25% to -27% premarket",
+      "reaction": "~-25% premarket",
       "sentiment": "Bearish",
       "why": "Adj EPS $0.52 vs $0.41 beat, rev $16.51B, DCAI +78% to $7.3B; Q4 guide rev $15-16B vs $17.05B, EPS $0.25 vs $0.43, $300M Israel fab hit; PC softness; biggest drop since 1974 if it holds"
     },
