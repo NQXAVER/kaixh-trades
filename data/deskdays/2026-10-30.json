@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-30",
+  "grok": {
+    "at": "2026-10-30T11:00:00Z",
+    "pulse": "NQ futures down over 2% (~28,860) into the US session as AMZN (AI capex miss) and INTC (weak guide, ~-25% pre) amplify GOOGL's AI-spend selloff, with Asia tech (Kospi -3%) confirming and oil rising on Iran risks.",
+    "bias": "risk-off — mega-cap AI capex/FCF sustainability fears from AMZN/INTC/GOOGL earnings, Asia rout, and crude bid on Middle East tensions outweigh lower yields and recent FOMC hold; Dec hike odds keep rates a headwind.",
+    "items": [
+      "@DTradingToolkit (~7:00 AM ET): Nasdaq futures down about 2% and Asia got hit harder; Kospi off about 3%. Tech weakness started overseas — let $NQ show first 30 minutes before dip.",
+      "@djsoldier88 (~7:00 AM ET): Nasdaq futures fell more than 2%. Amazon's rising AI investment and Intel's cash-burn warning put the infrastructure spending tab back under the microscope.",
+      "@Alistair_Drum (~7:00 AM ET): Nasdaq-Futures fallen um 2,16 %! KI-Aktien geraten erneut unter Druck. $QQQ $NVDA $AMD",
+      "@business / @BloombergRadio (~7:00 AM ET): Tech Stock Selloff Deepens on Earnings, Oil Rises.",
+      "@orusrock (~6:58 AM ET): Brent is pushing $117 while Nasdaq futures slide 2%, risk-off finally found a bid that is not just fear."
+    ],
+    "trump": "none",
+    "watch": "Fri Oct 30 open: follow-through on NQ gap-down vs overnight low ~28,821; ECI q/q 8:30 AM ET (wage inflation vs Dec hike odds); XOM BMO oil read; AMZN/INTC open gaps; Iran deal vs strike/Hormuz headlines for crude; month-end flows. Next week: AAPL Mon Nov 2 AMC, midterms Tue Nov 3.",
+    "forSite": []
+  }
+}
