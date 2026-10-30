@@ -317,18 +317,18 @@
   ],
   "grok": {
     "date": "2026-10-29",
-    "at": "2026-10-30T00:26:47Z",
-    "pulse": "NQ futures -1.4% to -1.7% overnight as AMZN (EPS miss, ~$220B capex) and INTC (weak Q4 guide) slide AH on top of GOOGL's record drop, with a Binance hack hitting crypto; offset only by US-Iran deal talk easing oil and NVDA backing more AI compute deals.",
-    "bias": "risk-off — mega-cap AI-capex payback scare (GOOGL, AMZN) plus INTC guide cut has NQ gapping lower into Friday; Asia tech selling (Kospi -3%) confirms, Iran diplomacy and softer crude are the only cushions.",
+    "at": "2026-10-30T02:28:26Z",
+    "pulse": "NQ futures down ~2% (~28,900, session low 28,863) in Asia as AMZN (EPS miss, negative FCF on AI capex) and INTC (weak Q4 guide, ~-21% AH) pile onto GOOGL's AI-spend selloff, with Nikkei -3% and Taiex -3.5% confirming; a Treasury rally offers the only cushion while oil rebounds on Iran deal doubts.",
+    "bias": "risk-off — mega-cap AI capex/FCF fears plus AMZN/INTC AH misses, Asia tech rout, crude bid on Iran risk and a $5.7B Binance hack hitting crypto outweigh lower yields; Dec Fed hike odds ~77% keep rates a headwind.",
     "items": [
-      "@WatcherGuru (~4:05 PM ET): AMZN Q3 rev $201.9B miss, EPS $1.89 vs ~$1.96, AWS +39%, 2026 capex ~$220B; stock -6 to -11% AH — Bearish NQ",
-      "@WatcherGuru (~4:16 PM ET): INTC crashes 20%+ AH after Q4 guide $15-16B rev / $0.25 EPS vs ~$17B / $0.43 — Bearish NQ",
-      "@WatcherGuru (~5:42 PM ET): Binance hacked, $5.6B+ stolen; $2.54B frozen per Binance, BTC under $78K at ~7:48 PM — Bearish NQ",
-      "@FirstSquawk (~7:04 PM ET): US envoy Barrack says US 'very close' to Iran de-escalation deal; Brent -0.4% to $114.88, WTI -0.8% to $102 (~7:21 PM) — Bullish NQ",
-      "@FirstSquawk (~8:08 PM ET): Kospi -3%, SK Hynix ~-5%, SoftBank -5.7%; Asia tech under pressure; Hormuz outbound vessel on fire (~7:59 PM) — Bearish NQ"
+      "@Rickz1022 (~9:18 PM ET): $NQ 28,890 -671 pts (-2.27%), session low 28,863; every bounce sold after the earnings-driven tech selloff — Bearish NQ",
+      "@FirstSquawk (~9:53 PM ET): Nikkei -3%, Taiwan Taiex -3.5% to 44,726 (lowest since Aug 25) on the tech selloff — Bearish NQ",
+      "@FirstSquawk (~10:12 PM ET): Crude rebounds as doubts grow over a peace deal (WSJ); Brent/WTI +$2 on rising US-Iran risk at ~9:40 PM — Bearish NQ",
+      "@WatcherGuru (~9:20 PM ET): Binance hacked, ~$5.7B stolen (largest crypto hack ever), $1.3B leveraged longs liquidated in 5h; COIN/crypto equities at risk — Bearish NQ",
+      "@LiveSquawk (~9:30 PM ET): Treasuries extend rally with global peers on the tech selloff (BBG); @unusual_whales ~10:01 PM: Polymarket 77% odds of a Dec Fed hike — Mixed NQ"
     ],
-    "trump": "Trump briefed by CENTCOM's Adm. Cooper on Iran military options and leaves force on the table if diplomacy fails (FirstSquawk ~7:32 PM ET), while envoy Barrack says a deal is 'very close'; WSJ says Ukraine paused Russian refinery strikes after Trump pressure (~7:59 PM ET).",
-    "watch": "Fri Oct 30: XOM BMO (oil read); NQ gap-down vs Thursday low at 9:30 AM ET open; Iran deal/strike headlines and Hormuz shipping overnight; BOJ decision in Asia session; BTC/Binance hack fallout; AAPL AMC Mon Nov 2.",
+    "trump": "No new Trump posts tonight; Bessent says Trump's 'Operation Economic Outcast' sanctions have left no Iranian oil barrels on the water, and reports say Trump-directed strikes on Iran could resume after next week's midterms, keeping crude bid.",
+    "watch": "Fri Oct 30: ECI q/q 8:30 AM ET (red folder, wage inflation vs Dec hike odds); XOM BMO; NQ 28,860 overnight low and Asia/Europe follow-through; AMZN/INTC open gaps; Iran deal vs strike headlines for crude; Binance hack fallout for COIN/crypto. Next week: AAPL Mon Nov 2 AMC, midterms Tue Nov 3.",
     "forSite": [],
     "reports": [
       {
@@ -434,6 +434,36 @@
         ],
         "trump": "Trump briefed by CENTCOM's Adm. Cooper on Iran military options and leaves force on the table if diplomacy fails (FirstSquawk ~7:32 PM ET), while envoy Barrack says a deal is 'very close'; WSJ says Ukraine paused Russian refinery strikes after Trump pressure (~7:59 PM ET).",
         "watch": "Fri Oct 30: XOM BMO (oil read); NQ gap-down vs Thursday low at 9:30 AM ET open; Iran deal/strike headlines and Hormuz shipping overnight; BOJ decision in Asia session; BTC/Binance hack fallout; AAPL AMC Mon Nov 2.",
+        "forSite": []
+      },
+      {
+        "at": "2026-10-30T02:05:23Z",
+        "pulse": "NQ futures under pressure overnight after Thursday's Nasdaq close down ~1.4% on Alphabet's AI cash-burn selloff, with AMZN and INTC after-hours misses adding to the drag while Iran diplomacy talk provides only modest oil relief.",
+        "bias": "risk-off — mega-cap AI-capex sustainability fears from GOOGL's record drop and AMZN/INTC AH weakness dominate over the FOMC hold and any Middle East deal hopes; Asia tech selling confirms the defensive setup.",
+        "items": [
+          "@YaBoiCDaY (~10:03 PM ET): Nasdaq -1.37% S&P -0.30% close; GOOGL AI cash burn rattled mega-caps but Russell +1% suggests rotation not full breakdown",
+          "@Kalshi_Finance (~8:06 PM ET): GOOGL sank ~12% on $9B negative FCF AI spend fears, software NOW -26% FTNT -21%; AMZN AH slide on miss, oil eased on Vance-Iran outreach WTI~$102",
+          "@TheAppr70070031 (~10:04 PM ET): QQQ in buy zone after hit 700 fast; load AI/chips with low VIX but dump NQ near 30300/30400 as bearish FVG unfilled",
+          "@FuturesWire (~9:45 PM ET): Asian stocks fall as Alphabet slide weighs on tech; Middle East supply constraints support elevated oil",
+          "@preetkailon (~10:04 PM ET): Buy-the-dip caution after 2000-style risks; watching if GOOGL AMZN AAPL NVDA META MSFT hold levels vs slide"
+        ],
+        "trump": "none",
+        "watch": "Friday Oct 30 open: follow-through on AMZN/INTC AH weakness and GOOGL AI fears into NQ; ECI at 8:30 AM ET; XOM BMO oil read; Iran deal or escalation headlines; any further Asia tech pressure overnight.",
+        "forSite": []
+      },
+      {
+        "at": "2026-10-30T02:28:26Z",
+        "pulse": "NQ futures down ~2% (~28,900, session low 28,863) in Asia as AMZN (EPS miss, negative FCF on AI capex) and INTC (weak Q4 guide, ~-21% AH) pile onto GOOGL's AI-spend selloff, with Nikkei -3% and Taiex -3.5% confirming; a Treasury rally offers the only cushion while oil rebounds on Iran deal doubts.",
+        "bias": "risk-off — mega-cap AI capex/FCF fears plus AMZN/INTC AH misses, Asia tech rout, crude bid on Iran risk and a $5.7B Binance hack hitting crypto outweigh lower yields; Dec Fed hike odds ~77% keep rates a headwind.",
+        "items": [
+          "@Rickz1022 (~9:18 PM ET): $NQ 28,890 -671 pts (-2.27%), session low 28,863; every bounce sold after the earnings-driven tech selloff — Bearish NQ",
+          "@FirstSquawk (~9:53 PM ET): Nikkei -3%, Taiwan Taiex -3.5% to 44,726 (lowest since Aug 25) on the tech selloff — Bearish NQ",
+          "@FirstSquawk (~10:12 PM ET): Crude rebounds as doubts grow over a peace deal (WSJ); Brent/WTI +$2 on rising US-Iran risk at ~9:40 PM — Bearish NQ",
+          "@WatcherGuru (~9:20 PM ET): Binance hacked, ~$5.7B stolen (largest crypto hack ever), $1.3B leveraged longs liquidated in 5h; COIN/crypto equities at risk — Bearish NQ",
+          "@LiveSquawk (~9:30 PM ET): Treasuries extend rally with global peers on the tech selloff (BBG); @unusual_whales ~10:01 PM: Polymarket 77% odds of a Dec Fed hike — Mixed NQ"
+        ],
+        "trump": "No new Trump posts tonight; Bessent says Trump's 'Operation Economic Outcast' sanctions have left no Iranian oil barrels on the water, and reports say Trump-directed strikes on Iran could resume after next week's midterms, keeping crude bid.",
+        "watch": "Fri Oct 30: ECI q/q 8:30 AM ET (red folder, wage inflation vs Dec hike odds); XOM BMO; NQ 28,860 overnight low and Asia/Europe follow-through; AMZN/INTC open gaps; Iran deal vs strike headlines for crude; Binance hack fallout for COIN/crypto. Next week: AAPL Mon Nov 2 AMC, midterms Tue Nov 3.",
         "forSite": []
       }
     ]
