@@ -1388,7 +1388,7 @@ textarea::placeholder { color: #8aa3c4; }
     (r.screenshots || []).forEach((s) => { const d = el('div', 'shot'); d.append(el('b', null, s.label || 'Screenshot'), el('span', null, s.feedback || '')); shl.append(d); });
     if (!(r.screenshots || []).length) shl.append(el('p', 'empty', 'No screenshots reviewed for this day.'));
     sh.append(shl);
-    const qc = card('Questions for you'); qc.append(el('p', 'sub', 'I wasn’t sure what you meant here. Answer below and I’ll reply at the next review.'));
+    const qc = card('Questions for you'); qc.append(el('p', 'sub', 'Answer below and I’ll reply with feedback shortly.'));
     const ql = el('div', 'checks');
     if (!SpeechRec && (r.questions || []).length) ql.append(el('p', 'sub', 'Voice typing isn’t available in this browser.'));
     (r.questions || []).forEach((q, i) => {
@@ -1411,7 +1411,7 @@ textarea::placeholder { color: #8aa3c4; }
           slot.answer = v; slot.answeredAt = answeredAt;
           reviewsByDate[r.date] = next;
           await db.doc('reviews/' + r.date).set(next);
-          st.textContent = 'Saved ✓ I’ll reply at the next review.'; ta.dataset.saved = v; clearDraft(ta); btn.disabled = false; btn.textContent = 'Update answer';
+          st.textContent = 'Saved ✓ I’ll reply with feedback shortly.'; ta.dataset.saved = v; clearDraft(ta); btn.disabled = false; btn.textContent = 'Update answer';
         } catch (e) { st.textContent = 'Couldn’t save. Try again.'; btn.disabled = false; }
       });
       ta.dataset.saved = q.answer || ''; autoSave(ta, btn, st);
@@ -1425,7 +1425,9 @@ textarea::placeholder { color: #8aa3c4; }
     });
     if (!(r.questions || []).length) ql.append(el('p', 'empty', 'No questions this day.'));
     qc.append(ql);
-    const rc = card('Rule for tomorrow', 'brief'); rc.append(el('p', 'take', r.rule || ''));
+    const ruleYmd = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(r.date || ''));
+    const ruleDow = ruleYmd ? new Date(Number(ruleYmd[1]), Number(ruleYmd[2]) - 1, Number(ruleYmd[3])).getDay() : -1;
+    const rc = card(ruleDow === 5 || ruleDow === 6 || ruleDow === 0 ? 'Rules for Monday' : 'Rule for tomorrow', 'brief'); rc.append(el('p', 'take', r.rule || ''));
     const rf = card('Your reflection');
     rf.append(el('p', 'sub', 'Reflect here while you read the review: what you see now, what you\u2019d do differently, what clicked. I read it at the next review.'));
     const rta = el('textarea'); rta.id = prefix + '-a-' + r.date + '-reflect'; rta.value = r.reflection || ''; rta.placeholder = 'Talk it out\u2026'; rta.style.minHeight = '120px'; rta.disabled = !db || !canWrite;
