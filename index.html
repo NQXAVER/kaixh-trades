@@ -336,6 +336,11 @@ textarea::placeholder { color: #8aa3c4; }
   .news-filters { flex-wrap: wrap; overflow: visible; }
   .news-filters button { font-size: 12px; padding: 6px 10px; }
 }
+.remind-top { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.remind-text { font-family: var(--display); font-weight: 500; font-size: 18px; line-height: 1.35; margin: 0; text-wrap: balance; max-width: 62ch; }
+.remind-meta { display: flex; align-items: center; gap: 8px; margin: 0; min-height: 1.2em; }
+.remind-meta .count { font-size: 12px; color: var(--muted); }
+.pill.remind { background: #3d4f68; color: #d5e2f2; font-weight: 600; letter-spacing: .04em; }
 </style>
 </head>
 <body>
@@ -377,6 +382,15 @@ textarea::placeholder { color: #8aa3c4; }
     <div class="card" id="warn-banner" hidden style="background:#a3302a;border-color:#ff6b5e;color:#fff;text-align:center;font-weight:800;font-size:18px;letter-spacing:.04em;">
       ⚠️ NEW TODAY — TRADE CAUTIOUS ⚠️
       <p class="sub" id="warn-detail" style="color:#ffe1dd;font-weight:600;margin-top:6px;"></p>
+    </div>
+
+    <div class="card" id="remind-card">
+      <div class="remind-top">
+        <p class="q-label">Discipline reminders</p>
+        <button type="button" id="remind-next" class="qa-btn" aria-label="Next reminder">Next</button>
+      </div>
+      <p class="remind-text" id="remind-text" aria-live="polite"></p>
+      <p class="remind-meta" id="remind-meta"></p>
     </div>
 
     <div class="grid">
@@ -983,6 +997,84 @@ textarea::placeholder { color: #8aa3c4; }
     if ($('q-mean')) $('q-mean').textContent = q[2] || '';
   };
   showQuote(); setInterval(showQuote, 60000);
+
+  // Discipline reminders. One per New York day; Next steps through the list.
+  // File is Grok-owned: data/desk/reminders.json on main. Fallback if that fetch fails.
+  const REMINDERS_FALLBACK = [
+    { text: 'Stop chasing dopamine.', tag: 'Dopamine' },
+    { text: 'Think long term.', tag: 'Long term' },
+    { text: 'One payout won\'t change anything. Being disciplined will.', tag: 'Payout' },
+    { text: 'Slow down. The process is the edge.', tag: 'Process' },
+    { text: 'Do not buy another account.', tag: 'Accounts' },
+    { text: 'Another eval is not a fresh start. It is the same habit with a new bill.', tag: 'Accounts' },
+    { text: 'A reset does not fix the thing that blew the last one.', tag: 'Accounts' },
+    { text: 'You already have an account. Trade that one.', tag: 'Accounts' },
+    { text: 'The checkout page is the dopamine. Close it.', tag: 'Dopamine' },
+    { text: 'If you feel the rush to buy, that is the signal to stop.', tag: 'Pace' },
+    { text: 'Rushing the next trade gives the last one back.', tag: 'Pace' },
+    { text: 'If you are in a hurry, you are not ready. Wait.', tag: 'Pace' },
+    { text: 'One clean session is worth more than a stack of new accounts.', tag: 'Process' },
+    { text: 'The payout follows the discipline. It never leads it.', tag: 'Payout' },
+    { text: 'Do not shop for a firm while the market is open.', tag: 'Accounts' },
+    { text: 'Boredom is not a reason to click buy.', tag: 'Dopamine' },
+    { text: 'Protect the account you have. That is the work today.', tag: 'Accounts' },
+    { text: 'Long term is just the days you refused to rush.', tag: 'Long term' },
+    { text: 'Your edge is repetition, not a new login.', tag: 'Process' },
+    { text: 'Trade the XFA you have. No new eval. No reset.', tag: 'Accounts' }
+  ];
+  const remindState = { list: REMINDERS_FALLBACK, i: 0, day: '' };
+  const remindIndexForDay = (len) => {
+    const n = Math.floor(Date.parse(etDate() + 'T12:00:00Z') / 86400000);
+    return ((n % len) + len) % len;
+  };
+  const showReminder = () => {
+    const list = remindState.list;
+    const text = $('remind-text');
+    const meta = $('remind-meta');
+    if (!list.length || !text || !meta) return;
+    const i = ((remindState.i % list.length) + list.length) % list.length;
+    remindState.i = i;
+    const item = list[i];
+    text.textContent = item.text;
+    meta.replaceChildren();
+    if (item.tag) meta.append(el('span', 'pill remind', item.tag));
+    meta.append(el('span', 'count', (i + 1) + ' of ' + list.length));
+  };
+  const loadReminders = async () => {
+    const url = 'https://raw.githubusercontent.com/NQXAVER/kaixh-trades/main/data/desk/reminders.json?t=' + Date.now();
+    try {
+      const r = await fetch(url, { cache: 'no-store' });
+      if (!r.ok) throw new Error(String(r.status));
+      const data = await r.json();
+      const list = (Array.isArray(data.reminders) ? data.reminders : []).map((x) => ({
+        text: String((x && x.text) || '').trim(),
+        tag: String((x && x.tag) || '').trim()
+      })).filter((x) => x.text);
+      if (!list.length) throw new Error('empty');
+      remindState.list = list;
+    } catch (e) {
+      remindState.list = REMINDERS_FALLBACK;
+    }
+    remindState.day = etDate();
+    remindState.i = remindIndexForDay(remindState.list.length);
+    showReminder();
+  };
+  const remindNext = $('remind-next');
+  if (remindNext) remindNext.addEventListener('click', () => {
+    remindState.i = (remindState.i + 1) % remindState.list.length;
+    showReminder();
+  });
+  remindState.day = etDate();
+  remindState.i = remindIndexForDay(remindState.list.length);
+  showReminder();
+  loadReminders();
+  setInterval(() => {
+    const t = etDate();
+    if (t === remindState.day) return;
+    remindState.day = t;
+    remindState.i = remindIndexForDay(remindState.list.length);
+    showReminder();
+  }, 60000);
 
   const buildOneGrok = (gk) => {
     const w = el('div'); w.style.cssText = 'display:grid;gap:8px';
