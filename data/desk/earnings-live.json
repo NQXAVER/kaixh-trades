@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "at": "2026-10-30T13:26:22Z",
+  "at": "2026-10-30T20:26:09Z",
   "items": [
     {
       "ticker": "XOM",
@@ -45,7 +45,7 @@
       "date": "2026-10-29",
       "when": "AMC",
       "status": "reported",
-      "reaction": "~-25% premarket",
+      "reaction": "~-29% Fri close (worst day in 4+ decades)",
       "sentiment": "Bearish",
       "why": "Adj EPS $0.52 vs $0.41 beat, rev $16.51B, DCAI +78% to $7.3B; Q4 guide rev $15-16B vs $17.05B, EPS $0.25 vs $0.43, $300M Israel fab hit; PC softness; biggest drop since 1974 if it holds"
     },
