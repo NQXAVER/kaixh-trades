@@ -45,22 +45,30 @@
   {
    "q": "You wrote 'if this trade were to sweep NYAM with volume and closed strong it would've gave me more conviction to hold'. AB says it took NYAM.H and kept going. What exactly would you need to see at NYAM.H tomorrow to hold, and what would make you close?",
    "answer": "well if it does not consolidate after sweeping the DOL than i can hold if theres a good HTF DOL above for us to target but today had a 4hr UMG above and OTE to hit",
-   "answeredAt": "2026-10-28T03:35:04.009Z"
+   "answeredAt": "2026-10-28T03:35:04.009Z",
+   "reply": "That's a workable hold rule: if price sweeps the level and doesn't consolidate, and a higher timeframe draw like the 4hr UMG is still above, you stay in. On the 27th both of those were true, so by your own rule the trade should have been held to 29,759. Write the close condition just as clearly before entry, for example consolidation or rejection after the sweep, so the exit comes from the chart and not from nerves.",
+   "repliedAt": "2026-10-30T21:08:25.555Z"
   },
   {
    "q": "You're upset you risked ~$180 instead of $250 on a trade you won. If the same setup had lost, would you be glad it was $180? What does that tell you about whether size should change with how you feel?",
    "answer": "yes it would have made me feel a bit better than losing 250 but idk why im letting 250 affect me ig i just dont want to lose",
-   "answeredAt": "2026-10-28T03:35:43.232Z"
+   "answeredAt": "2026-10-28T03:35:43.232Z",
+   "reply": "You answered it yourself: the smaller size felt better because you don't want to lose, which means fear is choosing your size, not the setup. Size should be set before the session and stay the same on every A setup, win or lose. Pick your number, keep it fixed for the week, and judge each trade on whether you followed the plan, not on the dollars.",
+   "repliedAt": "2026-10-30T21:08:25.555Z"
   },
   {
    "q": "'After taking a big L last week on my account i decided to play it safe.' Is last week's loss going to decide how you manage FOMC tomorrow? What's your plan for FOMC, and will you wait until after 2:30 PM like AB suggested?",
    "answer": "im going to trade my xfa tmr morning an if theres no setup than ima lock out an look for a setup on my 2nd XFA acc instead of the main bc theyre both XFA and ima stay disciplined but mentally i would be ALOT less stress on the 2nd acc cus the main would mentally set me back if i lost on FOMC",
-   "answeredAt": "2026-10-28T03:37:06.522Z"
+   "answeredAt": "2026-10-28T03:37:06.522Z",
+   "reply": "Trading one XFA in the morning and locking out if there's no setup is a solid, disciplined plan. Moving to the 2nd XFA because a loss there would hurt less is still letting last week's loss decide your risk, and it edges toward one idea on more than one account. On FOMC days, one account and one idea, and if the morning gives nothing, the day is done.",
+   "repliedAt": "2026-10-30T21:08:25.555Z"
   },
   {
    "q": "Would a partial at NYAM.H and a runner to 29,759 have solved both the nerves and the early exit? If yes, why wasn't that the plan before entry?",
    "answer": "Yeah i thought about it but AB always says whats the point if we need to be targetting DOL an if we are partialing were basically saying our TP is at a area we are uncertain itll hit when we need to be executing with certainty",
-   "answeredAt": "2026-10-28T03:38:15.018Z"
+   "answeredAt": "2026-10-28T03:38:15.018Z",
+   "reply": "AB's point is fair: if you trust the draw, a partial is just doubt built into the trade. But on the 27th you didn't hold full size to the DOL either, you closed everything at NYAM.H, which is the worst of both. Either commit fully to the target as AB teaches, or decide on a partial before entry, and make that choice in pre-market, not when the 1min slows down.",
+   "repliedAt": "2026-10-30T21:08:25.555Z"
   }
  ],
  "reviewedAt": "2026-10-27T20:15:33Z",
@@ -72,5 +80,7 @@
   "match": "Matches Notion: long, one trade, rules followed, locked out, same entry checklist and NYAM.H/29,759 targets. The EOD card doesn't state the result (win, 3.02R) or the account, so nothing contradicts Notion."
  },
  "reflection": "i feel like i need to stop being so attached to the PNL and just risk 250 each trade well so be it if i lose but i also need to practice my discipline when i lose",
- "reflectedAt": "2026-10-28T03:39:10.275Z"
+ "reflectedAt": "2026-10-28T03:39:10.275Z",
+ "reflectionReply": "That's the right takeaway: a fixed $250 on your A setups means a loss is just the cost of the plan, not something to fix. The second half matters just as much, because your blown accounts came from what you did after losses, not from the size. Set the risk once, and when a loss comes, close the platform and log it before anything else.",
+ "reflectionRepliedAt": "2026-10-30T21:08:25.555Z"
 }
