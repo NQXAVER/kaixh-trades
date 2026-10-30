@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T13:10:52Z",
+  "updatedAt": "2026-10-30T15:41:41Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -564,6 +564,18 @@
       "auto": true
     },
     {
+      "id": "f785434d00583",
+      "headline": "Amazon falls 2%, Intel dives 29%, as tech stocks sell off in post-earnings rout",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html",
+      "publishedAt": "2026-10-30T14:03:21Z",
+      "time": "Fri 10:03 AM",
+      "section": "tech",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
       "id": "f94ea64e5493c",
       "headline": "The big questions remaining after Anthropic’s blockbuster IPO prospectus",
       "source": "CNBC",
@@ -672,18 +684,6 @@
       "auto": true
     },
     {
-      "id": "f76d018b04a9a",
-      "headline": "Why Alphabet’s stock could see its worst drop in years after the latest results",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/why-alphabets-stock-could-see-its-worst-drop-in-years-after-the-latest-results-6b64cf98?mod=mw_rss_topstories",
-      "publishedAt": "2026-10-29T01:58:00Z",
-      "time": "Wed 9:58 PM",
-      "section": "tech",
-      "impact": "High",
-      "lean": null,
-      "auto": true
-    },
-    {
       "id": "fb5bf11a35a3d",
       "headline": "Russian oil refinery struck as Ukraine renews drone attacks",
       "source": "Al Jazeera",
@@ -768,37 +768,61 @@
       "auto": true
     },
     {
+      "id": "f67f806e41f13",
+      "headline": "Japan to Overtake China As World’s Top LNG Importer This Year",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Japan-to-Overtake-China-As-Worlds-Top-LNG-Importer-This-Year.html",
+      "publishedAt": "2026-10-30T15:30:00Z",
+      "time": "Fri 11:30 AM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "f443aae208649",
       "headline": "This one chart tells you everything you need to know about Exxon, Chevron and BP’s forecast-beating earnings",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/this-one-chart-tells-you-everything-you-need-to-know-about-exxon-chevron-and-bps-forecasting-beating-earnings-24babdfc?mod=mw_rss_topstories",
-      "publishedAt": "2026-10-30T12:35:00Z",
-      "time": "Fri 8:35 AM",
+      "publishedAt": "2026-10-30T14:17:00Z",
+      "time": "Fri 10:17 AM",
       "section": "energy",
       "impact": "Medium",
       "lean": null,
       "auto": true
     },
     {
-      "id": "f9ba8385b2803",
-      "headline": "Chevron and Exxon beat earnings expectations as refining profits soar on high diesel fuel prices",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/30/chevron-exxon-cvx-xom-earnings-q3-2026.html",
-      "publishedAt": "2026-10-30T11:35:51Z",
-      "time": "Fri 7:35 AM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f436e5d6a0d85",
-      "headline": "Wall Street Banks Raise Oil Price Forecasts as Supply Fears Deepen",
+      "id": "f3f28f487eca8",
+      "headline": "Japan to Tap $7 Billion from Government Fund to Subsidize Gasoline Prices",
       "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Wall-Street-Banks-Raise-Oil-Price-Forecasts-as-Supply-Fears-Deepen.html",
-      "publishedAt": "2026-10-30T10:00:00Z",
-      "time": "Fri 6:00 AM",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Japan-to-Tap-7-Billion-from-Government-Fund-to-Subsidize-Gasoline-Prices.html",
+      "publishedAt": "2026-10-30T13:30:00Z",
+      "time": "Fri 9:30 AM",
       "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f69a2087b2eeb",
+      "headline": "Treasury Department announces new Series I bond rate of 5.51% for the next six months",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/30/treasury-i-bond-rate-through-april-2027.html",
+      "publishedAt": "2026-10-30T14:53:12Z",
+      "time": "Fri 10:53 AM",
+      "section": "markets",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fcb4322eca8aa",
+      "headline": "This strategist correctly recommended shorting Big Tech debt last year. Now he says the yields make it attractive.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/this-strategist-correctly-recommended-shorting-big-tech-debt-last-year-now-he-says-the-yields-make-it-attractive-3ec2e0fe?mod=mw_rss_topstories",
+      "publishedAt": "2026-10-30T14:30:00Z",
+      "time": "Fri 10:30 AM",
+      "section": "markets",
       "impact": "Medium",
       "lean": null,
       "auto": true
