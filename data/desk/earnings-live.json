@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "at": "2026-10-29T20:29:09Z",
+  "at": "2026-10-30T00:26:47Z",
   "items": [
     {
       "ticker": "GOOGL",
@@ -48,7 +48,7 @@
       "date": "2026-10-29",
       "when": "AMC",
       "status": "reported",
-      "reaction": "~-11% AH",
+      "reaction": "~-6% to -11% AH",
       "sentiment": "Bearish",
       "why": "EPS $1.89 vs $1.97 est miss, rev $201.9B in line; AWS $45.98B (+39% ex-FX) beat, op income $28.1B beat; Q4 op income guide $28.5-33.5B vs $33B est, 2026 capex ~$220B"
     },
@@ -69,7 +69,7 @@
       "when": "AMC",
       "status": "reported",
       "sentiment": "Bullish",
-      "why": "Rev $11.03B vs $10.64B est, adj EPS $49.51 vs $46.2 beat, adj GM 85.1%; 8-for-1 split effective Nov 19"
+      "why": "Rev $11.03B vs $10.64B est, adj EPS $49.51 vs $46.2 beat, data center +61% to $4.80B, adj GM 85.1%, Q2 rev guide $12.2-12.6B; 8-for-1 split effective Nov 19"
     },
     {
       "ticker": "COIN",
@@ -79,14 +79,6 @@
       "status": "reported",
       "sentiment": "Mixed",
       "why": "Rev $1.22B in line, adj EBITDA $332.9M vs $282.9M beat; Q4 S&S rev guide $550-630M, soft crypto conditions in Q3"
-    },
-    {
-      "ticker": "MPWR",
-      "company": "Monolithic Power (MPWR)",
-      "date": "2026-10-29",
-      "when": "AMC",
-      "status": "upcoming",
-      "why": "AI server power supplier, semis read"
     },
     {
       "ticker": "XOM",

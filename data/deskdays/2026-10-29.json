@@ -317,18 +317,18 @@
   ],
   "grok": {
     "date": "2026-10-29",
-    "at": "2026-10-29T20:29:09Z",
-    "pulse": "NQ closed weak with the Nasdaq -1.4% as the GOOGL/NOW-led AI capex and software selloff dragged, and AMC prints made it worse with AMZN ~-11% and INTC ~-20% AH, offset only by SNDK's big memory beat and a slight Brent dip.",
-    "bias": "risk-off — Mag7 AI-spend doubts (GOOGL, AMZN) plus an INTC guide cut point to more NQ downside into Friday; Brent ~$115 on Iran and a Fed that won't cut keep the backdrop tight.",
+    "at": "2026-10-30T00:26:47Z",
+    "pulse": "NQ futures -1.4% to -1.7% overnight as AMZN (EPS miss, ~$220B capex) and INTC (weak Q4 guide) slide AH on top of GOOGL's record drop, with a Binance hack hitting crypto; offset only by US-Iran deal talk easing oil and NVDA backing more AI compute deals.",
+    "bias": "risk-off — mega-cap AI-capex payback scare (GOOGL, AMZN) plus INTC guide cut has NQ gapping lower into Friday; Asia tech selling (Kospi -3%) confirms, Iran diplomacy and softer crude are the only cushions.",
     "items": [
-      "@FirstSquawk (~4:02 PM ET): Nasdaq unofficially -1.40% to 26,177.91, S&P -0.33% to 7,718.38, Dow -0.28% — Bearish NQ",
-      "@WatcherGuru (~4:05 PM ET): $AMZN ~-11% AH; EPS $1.89 vs $1.97 est, rev $201.9B in line, AWS $45.98B (+39% ex-FX) beat, 2026 capex ~$220B — Bearish NQ",
-      "@FirstSquawk (~4:06 PM ET): $INTC Q4 guide rev $15-16B vs $17.05B est, adj EPS $0.25 vs $0.43, sees PC market declining into H2 2027; @WatcherGuru (~4:16 PM ET) INTC -20% AH — Bearish NQ",
-      "@LiveSquawk (~4:16 PM ET): $SNDK rev $11.03B vs $10.64B est, adj EPS $49.51 vs $46.2, GM 85.1%, 8-for-1 split Nov 19 — Bullish NQ (memory/semis)",
-      "@FirstSquawk (~2:51 PM ET): Brent settles -0.38% at $114.88; DOE says five firms incl. Trafigura, Gunvor, Vitol taking SPR oil loans (~3:59 PM ET) — Mixed NQ"
+      "@WatcherGuru (~4:05 PM ET): AMZN Q3 rev $201.9B miss, EPS $1.89 vs ~$1.96, AWS +39%, 2026 capex ~$220B; stock -6 to -11% AH — Bearish NQ",
+      "@WatcherGuru (~4:16 PM ET): INTC crashes 20%+ AH after Q4 guide $15-16B rev / $0.25 EPS vs ~$17B / $0.43 — Bearish NQ",
+      "@WatcherGuru (~5:42 PM ET): Binance hacked, $5.6B+ stolen; $2.54B frozen per Binance, BTC under $78K at ~7:48 PM — Bearish NQ",
+      "@FirstSquawk (~7:04 PM ET): US envoy Barrack says US 'very close' to Iran de-escalation deal; Brent -0.4% to $114.88, WTI -0.8% to $102 (~7:21 PM) — Bullish NQ",
+      "@FirstSquawk (~8:08 PM ET): Kospi -3%, SK Hynix ~-5%, SoftBank -5.7%; Asia tech under pressure; Hormuz outbound vessel on fire (~7:59 PM) — Bearish NQ"
     ],
-    "trump": "Trump said the Federal Reserve \"hates\" cutting interest rates (@WatcherGuru ~1:25 PM ET); his administration is lending SPR oil to traders to cap prices after the Iran war outbreak.",
-    "watch": "AMZN call 5 PM ET (AWS/capex tone) and INTC AH follow-through into Fri open; MPWR AMC results; XOM BMO Fri; ECI Fri 8:30 AM ET; oil/Iran/Houthi headlines; AAPL AMC Mon Nov 2.",
+    "trump": "Trump briefed by CENTCOM's Adm. Cooper on Iran military options and leaves force on the table if diplomacy fails (FirstSquawk ~7:32 PM ET), while envoy Barrack says a deal is 'very close'; WSJ says Ukraine paused Russian refinery strikes after Trump pressure (~7:59 PM ET).",
+    "watch": "Fri Oct 30: XOM BMO (oil read); NQ gap-down vs Thursday low at 9:30 AM ET open; Iran deal/strike headlines and Hormuz shipping overnight; BOJ decision in Asia session; BTC/Binance hack fallout; AAPL AMC Mon Nov 2.",
     "forSite": [],
     "reports": [
       {
@@ -404,6 +404,36 @@
         ],
         "trump": "Trump said the Federal Reserve \"hates\" cutting interest rates (@WatcherGuru ~1:25 PM ET); his administration is lending SPR oil to traders to cap prices after the Iran war outbreak.",
         "watch": "AMZN call 5 PM ET (AWS/capex tone) and INTC AH follow-through into Fri open; MPWR AMC results; XOM BMO Fri; ECI Fri 8:30 AM ET; oil/Iran/Houthi headlines; AAPL AMC Mon Nov 2.",
+        "forSite": []
+      },
+      {
+        "at": "2026-10-30T00:10:34Z",
+        "pulse": "Nasdaq closed down 1.38% as Alphabet's AI capex miss and negative free cash flow sparked a tech selloff, outweighing the FOMC hold and MSFT cloud strength while oil stayed elevated on Iran risks.",
+        "bias": "risk-off — GOOGL's ~12% drop on massive AI spending and cash burn dragged NQ hard into the close despite a benign Fed pause; Iran/oil premium and selective earnings keep the tape defensive.",
+        "items": [
+          "@kyookine (~8:00 PM ET): CNBC wrap: Nasdaq -1.38% to 26,184, S&P -0.3%, GOOGL -12% on AI FCF negative $9B, MSFT modestly lower after Azure beat",
+          "@elceo__ (~8:09 PM ET): Alphabet reported negative free cash flow of $9.07B in Q3 vs expected positive, largest drop since 2008",
+          "@CryptoBullRon (~2:03 PM ET): Alphabet miss rattles: rev/EPS short, FCF -9B on $205B AI infra; NQ futures -1%, crypto risk-off, Fed hold with 2 hike dissents",
+          "@Micheal_Gilson (~8:05 PM ET): Market snapshot: GOOGL -12.6%, CAT -9%, ServiceNow -27%; gainers in healthcare/industrials while tech bleeds",
+          "@InstaNewsAlerts (~8:07 PM ET): Ukraine paused Russian oil refinery strikes after Trump pressure, per WSJ — potential supply relief for crude"
+        ],
+        "trump": "Trump told Axios Iran talks underway via mediators but unsure of success; WSJ reported VP Vance reached out to Iranian security officials (Trump downplayed as medical supplies), amid lingering post-midterm strike threats and oil premium.",
+        "watch": "AMZN earnings reaction and AI capex follow-through into Friday open; oil/Iran diplomacy or escalation headlines; 10Y yields and Dec hike pricing after sticky PCE; any further tech selective selling.",
+        "forSite": []
+      },
+      {
+        "at": "2026-10-30T00:26:47Z",
+        "pulse": "NQ futures -1.4% to -1.7% overnight as AMZN (EPS miss, ~$220B capex) and INTC (weak Q4 guide) slide AH on top of GOOGL's record drop, with a Binance hack hitting crypto; offset only by US-Iran deal talk easing oil and NVDA backing more AI compute deals.",
+        "bias": "risk-off — mega-cap AI-capex payback scare (GOOGL, AMZN) plus INTC guide cut has NQ gapping lower into Friday; Asia tech selling (Kospi -3%) confirms, Iran diplomacy and softer crude are the only cushions.",
+        "items": [
+          "@WatcherGuru (~4:05 PM ET): AMZN Q3 rev $201.9B miss, EPS $1.89 vs ~$1.96, AWS +39%, 2026 capex ~$220B; stock -6 to -11% AH — Bearish NQ",
+          "@WatcherGuru (~4:16 PM ET): INTC crashes 20%+ AH after Q4 guide $15-16B rev / $0.25 EPS vs ~$17B / $0.43 — Bearish NQ",
+          "@WatcherGuru (~5:42 PM ET): Binance hacked, $5.6B+ stolen; $2.54B frozen per Binance, BTC under $78K at ~7:48 PM — Bearish NQ",
+          "@FirstSquawk (~7:04 PM ET): US envoy Barrack says US 'very close' to Iran de-escalation deal; Brent -0.4% to $114.88, WTI -0.8% to $102 (~7:21 PM) — Bullish NQ",
+          "@FirstSquawk (~8:08 PM ET): Kospi -3%, SK Hynix ~-5%, SoftBank -5.7%; Asia tech under pressure; Hormuz outbound vessel on fire (~7:59 PM) — Bearish NQ"
+        ],
+        "trump": "Trump briefed by CENTCOM's Adm. Cooper on Iran military options and leaves force on the table if diplomacy fails (FirstSquawk ~7:32 PM ET), while envoy Barrack says a deal is 'very close'; WSJ says Ukraine paused Russian refinery strikes after Trump pressure (~7:59 PM ET).",
+        "watch": "Fri Oct 30: XOM BMO (oil read); NQ gap-down vs Thursday low at 9:30 AM ET open; Iran deal/strike headlines and Hormuz shipping overnight; BOJ decision in Asia session; BTC/Binance hack fallout; AAPL AMC Mon Nov 2.",
         "forSite": []
       }
     ]
