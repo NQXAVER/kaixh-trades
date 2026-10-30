@@ -1,248 +1,347 @@
 {
-  "updatedAt": "2026-10-30T23:53:10Z",
+  "updatedAt": "2026-10-30T23:53:36Z",
   "source": "Gmail order/receipt emails (ajjh5529@gmail.com) via Grok Account spending watch",
   "purchases": [
     {
-      "date": "2025-02-26",
-      "firm": "Topstep",
-      "product": "Trading Combine (new subscription)",
-      "order": null,
-      "amount": 49.0,
-      "price": null,
-      "type": "evaluation"
-    },
-    {
-      "date": "2025-02-27",
-      "firm": "Topstep",
-      "product": "Trading Combine (Tradovate creds, 'charged $49.00')",
-      "order": null,
-      "amount": 49.0,
-      "price": null,
-      "type": "evaluation"
-    },
-    {
-      "date": "2025-03-27",
-      "firm": "Topstep",
-      "product": "Trading Combine monthly rebill",
-      "order": null,
-      "amount": 49.0,
-      "price": null,
-      "type": "subscription"
-    },
-    {
-      "date": "2025-04-27",
-      "firm": "Topstep",
-      "product": "Trading Combine monthly rebill",
-      "order": null,
-      "amount": 49.0,
-      "price": null,
-      "type": "subscription"
-    },
-    {
-      "date": "2025-05-27",
-      "firm": "Topstep",
-      "product": "Trading Combine monthly rebill",
-      "order": null,
-      "amount": 49.0,
-      "price": null,
-      "type": "subscription"
-    },
-    {
-      "date": "2025-06-17",
-      "firm": "Topstep",
-      "product": "Trading Combine (new, TopstepX)",
-      "order": null,
-      "amount": 49.0,
-      "price": null,
-      "type": "evaluation"
-    },
-    {
-      "date": "2025-07-17",
-      "firm": "Topstep",
-      "product": "Trading Combine monthly rebill",
-      "order": null,
-      "amount": 49.0,
-      "price": null,
-      "type": "subscription"
-    },
-    {
-      "date": "2025-08-19",
-      "firm": "Topstep",
-      "product": "Express Funded Account activation fee",
-      "order": null,
-      "amount": 149.0,
-      "price": null,
-      "type": "activation"
-    },
-    {
-      "date": "2025-11-19",
-      "firm": "Topstep",
-      "product": "Trading Combine (new)",
-      "order": null,
-      "amount": 31.17,
-      "price": null,
-      "type": "evaluation"
-    },
-    {
-      "date": "2026-02-02",
-      "firm": "Alpha Futures",
-      "product": "Evaluation (Zero Plan 50K)",
-      "order": null,
-      "amount": null,
-      "price": null,
-      "type": "evaluation"
-    },
-    {
-      "date": "2026-02-13",
-      "firm": "Alpha Futures",
-      "product": "Evaluation challenge",
-      "order": null,
-      "amount": null,
-      "price": null,
-      "type": "evaluation"
-    },
-    {
-      "date": "2026-03-10",
-      "firm": "Lucid Trading",
-      "product": "LucidPro EVAL 50K NT_TDV",
-      "order": "1858111",
-      "amount": 92.5,
-      "price": 185.0,
-      "type": "evaluation"
-    },
-    {
-      "date": "2026-03-11",
-      "firm": "Lucid Trading",
-      "product": "LucidPro EVAL 25K NT_TDV",
-      "order": "1874520",
-      "amount": 67.5,
-      "price": 135.0,
-      "type": "evaluation"
-    },
-    {
-      "date": "2026-03-18",
-      "firm": "Lucid Trading",
-      "product": "LucidPro EVAL 25K NT_TDV",
-      "order": "2097907",
-      "amount": 81.0,
-      "price": 135.0,
-      "type": "evaluation"
-    },
-    {
-      "date": "2026-04-16",
-      "firm": "Lucid Trading",
-      "product": "LucidPro EVAL 50K",
-      "order": "3162473",
-      "amount": 111.0,
-      "price": 185.0,
-      "type": "evaluation"
-    },
-    {
-      "date": "2026-05-18",
-      "firm": "Topstep",
-      "product": "Trading Combine (new)",
-      "order": null,
-      "amount": 90.1,
-      "price": null,
-      "type": "evaluation"
-    },
-    {
-      "date": "2026-05-21",
-      "firm": "Alpha Futures",
-      "product": "Evaluation challenge",
-      "order": null,
-      "amount": null,
-      "price": null,
-      "type": "evaluation"
-    },
-    {
-      "date": "2026-06-04",
+      "date": "2026-10-29",
       "firm": "Lucid Trading",
       "product": "LucidFlex 50K Rithmic",
-      "order": "4947640",
-      "amount": 70.0,
-      "price": 140.0,
+      "order": "11926401",
+      "amount": 80.5,
+      "price": 115,
       "type": "evaluation"
     },
     {
-      "date": "2026-06-05",
-      "firm": "Alpha Futures",
-      "product": "Evaluation challenge",
-      "order": null,
-      "amount": null,
-      "price": null,
-      "type": "evaluation"
-    },
-    {
-      "date": "2026-06-25",
+      "date": "2026-10-29",
       "firm": "Lucid Trading",
       "product": "LucidFlex 50K Rithmic",
-      "order": "5937485",
-      "amount": 70.0,
-      "price": 140.0,
+      "order": "11923546",
+      "amount": 80.5,
+      "price": 115,
       "type": "evaluation"
     },
     {
-      "date": "2026-06-26",
+      "date": "2026-10-29",
       "firm": "Lucid Trading",
-      "product": "LucidFlex 50K Reset Rithmic",
-      "order": "5969901",
-      "amount": 95.0,
-      "price": 95.0,
+      "product": "LucidFlex 50K Rithmic",
+      "order": "11918616",
+      "amount": 80.5,
+      "price": 115,
+      "type": "evaluation"
+    },
+    {
+      "date": "2026-10-26",
+      "firm": "Lucid Trading",
+      "product": "LucidFlex 50K Rithmic",
+      "order": "11735264",
+      "amount": 80.5,
+      "price": 115,
+      "type": "evaluation"
+    },
+    {
+      "date": "2026-10-22",
+      "firm": "Lucid Trading",
+      "product": "LucidPro 50K Rithmic",
+      "order": "11580018",
+      "amount": 103.2,
+      "price": 172,
+      "type": "evaluation"
+    },
+    {
+      "date": "2026-10-21",
+      "firm": "Lucid Trading",
+      "product": "LucidFlex 50K Rithmic",
+      "order": "11498086",
+      "amount": 69,
+      "price": 115,
+      "type": "evaluation"
+    },
+    {
+      "date": "2026-09-30",
+      "firm": "Lucid Trading",
+      "product": "LucidPro Reset 50K",
+      "order": "10466914",
+      "amount": 115,
+      "price": 120,
       "type": "reset"
     },
     {
-      "date": "2026-07-06",
+      "date": "2026-09-29",
+      "firm": "Lucid Trading",
+      "product": "LucidPro Reset 50K",
+      "order": "10417852",
+      "amount": 115,
+      "price": 120,
+      "type": "reset"
+    },
+    {
+      "date": "2026-09-29",
+      "firm": "Lucid Trading",
+      "product": "LucidPro Reset 50K",
+      "order": "10410708",
+      "amount": 115,
+      "price": 120,
+      "type": "reset"
+    },
+    {
+      "date": "2026-09-25",
+      "firm": "Lucid Trading",
+      "product": "LucidPro Reset 50K",
+      "order": "10276148",
+      "amount": 115,
+      "price": 120,
+      "type": "reset"
+    },
+    {
+      "date": "2026-09-24",
+      "firm": "Lucid Trading",
+      "product": "LucidPro Reset 50K Rithmic",
+      "order": "10205011",
+      "amount": 115,
+      "price": 120,
+      "type": "reset"
+    },
+    {
+      "date": "2026-09-24",
+      "firm": "Lucid Trading",
+      "product": "LucidPro 50K",
+      "order": "10192775",
+      "amount": 115.4,
+      "price": 172,
+      "type": "evaluation"
+    },
+    {
+      "date": "2026-09-23",
+      "firm": "Lucid Trading",
+      "product": "LucidPro 50K",
+      "order": "10176251",
+      "amount": 115.4,
+      "price": 172,
+      "type": "evaluation"
+    },
+    {
+      "date": "2026-09-23",
+      "firm": "Lucid Trading",
+      "product": "LucidPro 50K",
+      "order": "10176221",
+      "amount": 115.4,
+      "price": 172,
+      "type": "evaluation"
+    },
+    {
+      "date": "2026-09-23",
+      "firm": "Lucid Trading",
+      "product": "LucidPro 50K",
+      "order": "10173320",
+      "amount": 115.4,
+      "price": 172,
+      "type": "evaluation"
+    },
+    {
+      "date": "2026-09-18",
+      "firm": "Lucid Trading",
+      "product": "LucidPro 50K",
+      "order": "9946224",
+      "amount": 115.4,
+      "price": 172,
+      "type": "evaluation"
+    },
+    {
+      "date": "2026-09-11",
       "firm": "Lucid Trading",
       "product": "LucidFlex 50K",
-      "order": "6363003",
-      "amount": 63.0,
-      "price": 140.0,
+      "order": "9673922",
+      "amount": 90.2,
+      "price": 136,
       "type": "evaluation"
     },
     {
-      "date": "2026-07-09",
+      "date": "2026-09-08",
       "firm": "Lucid Trading",
-      "product": "LucidFlex 50K Reset",
-      "order": "6564088",
-      "amount": 95.0,
-      "price": 95.0,
-      "type": "reset"
-    },
-    {
-      "date": "2026-07-09",
-      "firm": "Lucid Trading",
-      "product": "LucidFlex 50K Reset",
-      "order": "6587201",
-      "amount": 95.0,
-      "price": 95.0,
-      "type": "reset"
-    },
-    {
-      "date": "2026-07-13",
-      "firm": "Lucid Trading",
-      "product": "LucidPro EVAL 50K",
-      "order": "6771676",
-      "amount": 111.0,
-      "price": 185.0,
+      "product": "LucidPro 50K Rithmic",
+      "order": "9491711",
+      "amount": 115.4,
+      "price": 172,
       "type": "evaluation"
     },
     {
-      "date": "2026-07-15",
+      "date": "2026-09-06",
+      "firm": "Lucid Trading",
+      "product": "LucidFlex 25K Rithmic",
+      "order": "9436833",
+      "amount": 0,
+      "price": 79,
+      "type": "evaluation"
+    },
+    {
+      "date": "2026-09-02",
       "firm": "Lucid Trading",
       "product": "LucidFlex 50K",
-      "order": "6848857",
-      "amount": 98.0,
-      "price": 140.0,
+      "order": "9321328",
+      "amount": 90.2,
+      "price": 136,
       "type": "evaluation"
     },
     {
-      "date": "2026-07-17",
-      "firm": "Alpha Futures",
-      "product": "Evaluation challenge",
-      "order": null,
-      "amount": null,
-      "price": null,
+      "date": "2026-09-02",
+      "firm": "Lucid Trading",
+      "product": "LucidFlex Reset 50K",
+      "order": "9320562",
+      "amount": 90,
+      "price": 95,
+      "type": "reset"
+    },
+    {
+      "date": "2026-09-02",
+      "firm": "Lucid Trading",
+      "product": "LucidFlex 50K",
+      "order": "9319519",
+      "amount": 90.2,
+      "price": 136,
+      "type": "evaluation"
+    },
+    {
+      "date": "2026-09-02",
+      "firm": "Lucid Trading",
+      "product": "LucidFlex Reset 50K",
+      "order": "9317689",
+      "amount": 90,
+      "price": 95,
+      "type": "reset"
+    },
+    {
+      "date": "2026-09-02",
+      "firm": "Lucid Trading",
+      "product": "LucidFlex 50K",
+      "order": "9316107",
+      "amount": 90.2,
+      "price": 136,
+      "type": "evaluation"
+    },
+    {
+      "date": "2026-09-02",
+      "firm": "Lucid Trading",
+      "product": "LucidFlex 50K",
+      "order": "9283617",
+      "amount": 90.2,
+      "price": 136,
+      "type": "evaluation"
+    },
+    {
+      "date": "2026-09-02",
+      "firm": "Lucid Trading",
+      "product": "LucidFlex 50K",
+      "order": "9283143",
+      "amount": 90.2,
+      "price": 136,
+      "type": "evaluation"
+    },
+    {
+      "date": "2026-09-01",
+      "firm": "Lucid Trading",
+      "product": "LucidFlex 50K",
+      "order": "9241636",
+      "amount": 90.2,
+      "price": 136,
+      "type": "evaluation"
+    },
+    {
+      "date": "2026-08-31",
+      "firm": "Lucid Trading",
+      "product": "LucidFlex 50K",
+      "order": "9152345",
+      "amount": 90.2,
+      "price": 136,
+      "type": "evaluation"
+    },
+    {
+      "date": "2026-08-26",
+      "firm": "Lucid Trading",
+      "product": "LucidFlex 50K",
+      "order": "8963936",
+      "amount": 90.2,
+      "price": 136,
+      "type": "evaluation"
+    },
+    {
+      "date": "2026-08-24",
+      "firm": "Lucid Trading",
+      "product": "LucidFlex 50K",
+      "order": "8829868",
+      "amount": 90.2,
+      "price": 136,
+      "type": "evaluation"
+    },
+    {
+      "date": "2026-08-21",
+      "firm": "Lucid Trading",
+      "product": "LucidFlex 50K",
+      "order": "8753475",
+      "amount": 90.2,
+      "price": 136,
+      "type": "evaluation"
+    },
+    {
+      "date": "2026-08-18",
+      "firm": "Lucid Trading",
+      "product": "LucidFlex 50K",
+      "order": "8555014",
+      "amount": 90.2,
+      "price": 136,
+      "type": "evaluation"
+    },
+    {
+      "date": "2026-08-13",
+      "firm": "Lucid Trading",
+      "product": "LucidFlex 50K",
+      "order": "8402567",
+      "amount": 90.2,
+      "price": 136,
+      "type": "evaluation"
+    },
+    {
+      "date": "2026-08-13",
+      "firm": "Lucid Trading",
+      "product": "LucidFlex 50K",
+      "order": "8399062",
+      "amount": 90.2,
+      "price": 136,
+      "type": "evaluation"
+    },
+    {
+      "date": "2026-08-08",
+      "firm": "Lucid Trading",
+      "product": "LucidFlex 50K",
+      "order": "8155217",
+      "amount": 0,
+      "price": 136,
+      "type": "evaluation"
+    },
+    {
+      "date": "2026-08-07",
+      "firm": "Lucid Trading",
+      "product": "LucidFlex 50K",
+      "order": "8142528",
+      "amount": 90.2,
+      "price": 136,
+      "type": "evaluation"
+    },
+    {
+      "date": "2026-08-07",
+      "firm": "Lucid Trading",
+      "product": "LucidFlex 50K",
+      "order": "8114440",
+      "amount": 90.2,
+      "price": 136,
+      "type": "evaluation"
+    },
+    {
+      "date": "2026-08-07",
+      "firm": "Lucid Trading",
+      "product": "LucidFlex 50K",
+      "order": "8114411",
+      "amount": 90.2,
+      "price": 136,
       "type": "evaluation"
     },
     {
@@ -282,345 +381,246 @@
       "type": "evaluation"
     },
     {
-      "date": "2026-08-07",
-      "firm": "Lucid Trading",
-      "product": "LucidFlex 50K",
-      "order": "8114411",
-      "amount": 90.2,
-      "price": 136.0,
+      "date": "2026-07-17",
+      "firm": "Alpha Futures",
+      "product": "Evaluation challenge",
+      "order": null,
+      "amount": null,
+      "price": null,
       "type": "evaluation"
     },
     {
-      "date": "2026-08-07",
+      "date": "2026-07-15",
       "firm": "Lucid Trading",
       "product": "LucidFlex 50K",
-      "order": "8114440",
-      "amount": 90.2,
-      "price": 136.0,
+      "order": "6848857",
+      "amount": 98,
+      "price": 140,
       "type": "evaluation"
     },
     {
-      "date": "2026-08-07",
+      "date": "2026-07-13",
       "firm": "Lucid Trading",
-      "product": "LucidFlex 50K",
-      "order": "8142528",
-      "amount": 90.2,
-      "price": 136.0,
+      "product": "LucidPro EVAL 50K",
+      "order": "6771676",
+      "amount": 111,
+      "price": 185,
       "type": "evaluation"
     },
     {
-      "date": "2026-08-08",
+      "date": "2026-07-09",
       "firm": "Lucid Trading",
-      "product": "LucidFlex 50K",
-      "order": "8155217",
-      "amount": 0.0,
-      "price": 136.0,
-      "type": "evaluation"
-    },
-    {
-      "date": "2026-08-13",
-      "firm": "Lucid Trading",
-      "product": "LucidFlex 50K",
-      "order": "8399062",
-      "amount": 90.2,
-      "price": 136.0,
-      "type": "evaluation"
-    },
-    {
-      "date": "2026-08-13",
-      "firm": "Lucid Trading",
-      "product": "LucidFlex 50K",
-      "order": "8402567",
-      "amount": 90.2,
-      "price": 136.0,
-      "type": "evaluation"
-    },
-    {
-      "date": "2026-08-18",
-      "firm": "Lucid Trading",
-      "product": "LucidFlex 50K",
-      "order": "8555014",
-      "amount": 90.2,
-      "price": 136.0,
-      "type": "evaluation"
-    },
-    {
-      "date": "2026-08-21",
-      "firm": "Lucid Trading",
-      "product": "LucidFlex 50K",
-      "order": "8753475",
-      "amount": 90.2,
-      "price": 136.0,
-      "type": "evaluation"
-    },
-    {
-      "date": "2026-08-24",
-      "firm": "Lucid Trading",
-      "product": "LucidFlex 50K",
-      "order": "8829868",
-      "amount": 90.2,
-      "price": 136.0,
-      "type": "evaluation"
-    },
-    {
-      "date": "2026-08-26",
-      "firm": "Lucid Trading",
-      "product": "LucidFlex 50K",
-      "order": "8963936",
-      "amount": 90.2,
-      "price": 136.0,
-      "type": "evaluation"
-    },
-    {
-      "date": "2026-08-31",
-      "firm": "Lucid Trading",
-      "product": "LucidFlex 50K",
-      "order": "9152345",
-      "amount": 90.2,
-      "price": 136.0,
-      "type": "evaluation"
-    },
-    {
-      "date": "2026-09-01",
-      "firm": "Lucid Trading",
-      "product": "LucidFlex 50K",
-      "order": "9241636",
-      "amount": 90.2,
-      "price": 136.0,
-      "type": "evaluation"
-    },
-    {
-      "date": "2026-09-02",
-      "firm": "Lucid Trading",
-      "product": "LucidFlex 50K",
-      "order": "9283143",
-      "amount": 90.2,
-      "price": 136.0,
-      "type": "evaluation"
-    },
-    {
-      "date": "2026-09-02",
-      "firm": "Lucid Trading",
-      "product": "LucidFlex 50K",
-      "order": "9283617",
-      "amount": 90.2,
-      "price": 136.0,
-      "type": "evaluation"
-    },
-    {
-      "date": "2026-09-02",
-      "firm": "Lucid Trading",
-      "product": "LucidFlex 50K",
-      "order": "9316107",
-      "amount": 90.2,
-      "price": 136.0,
-      "type": "evaluation"
-    },
-    {
-      "date": "2026-09-02",
-      "firm": "Lucid Trading",
-      "product": "LucidFlex Reset 50K",
-      "order": "9317689",
-      "amount": 90.0,
-      "price": 95.0,
+      "product": "LucidFlex 50K Reset",
+      "order": "6587201",
+      "amount": 95,
+      "price": 95,
       "type": "reset"
     },
     {
-      "date": "2026-09-02",
+      "date": "2026-07-09",
+      "firm": "Lucid Trading",
+      "product": "LucidFlex 50K Reset",
+      "order": "6564088",
+      "amount": 95,
+      "price": 95,
+      "type": "reset"
+    },
+    {
+      "date": "2026-07-06",
       "firm": "Lucid Trading",
       "product": "LucidFlex 50K",
-      "order": "9319519",
-      "amount": 90.2,
-      "price": 136.0,
+      "order": "6363003",
+      "amount": 63,
+      "price": 140,
       "type": "evaluation"
     },
     {
-      "date": "2026-09-02",
+      "date": "2026-06-26",
       "firm": "Lucid Trading",
-      "product": "LucidFlex Reset 50K",
-      "order": "9320562",
-      "amount": 90.0,
-      "price": 95.0,
+      "product": "LucidFlex 50K Reset Rithmic",
+      "order": "5969901",
+      "amount": 95,
+      "price": 95,
       "type": "reset"
     },
     {
-      "date": "2026-09-02",
-      "firm": "Lucid Trading",
-      "product": "LucidFlex 50K",
-      "order": "9321328",
-      "amount": 90.2,
-      "price": 136.0,
-      "type": "evaluation"
-    },
-    {
-      "date": "2026-09-06",
-      "firm": "Lucid Trading",
-      "product": "LucidFlex 25K Rithmic",
-      "order": "9436833",
-      "amount": 0.0,
-      "price": 79.0,
-      "type": "evaluation"
-    },
-    {
-      "date": "2026-09-08",
-      "firm": "Lucid Trading",
-      "product": "LucidPro 50K Rithmic",
-      "order": "9491711",
-      "amount": 115.4,
-      "price": 172.0,
-      "type": "evaluation"
-    },
-    {
-      "date": "2026-09-11",
-      "firm": "Lucid Trading",
-      "product": "LucidFlex 50K",
-      "order": "9673922",
-      "amount": 90.2,
-      "price": 136.0,
-      "type": "evaluation"
-    },
-    {
-      "date": "2026-09-18",
-      "firm": "Lucid Trading",
-      "product": "LucidPro 50K",
-      "order": "9946224",
-      "amount": 115.4,
-      "price": 172.0,
-      "type": "evaluation"
-    },
-    {
-      "date": "2026-09-23",
-      "firm": "Lucid Trading",
-      "product": "LucidPro 50K",
-      "order": "10173320",
-      "amount": 115.4,
-      "price": 172.0,
-      "type": "evaluation"
-    },
-    {
-      "date": "2026-09-23",
-      "firm": "Lucid Trading",
-      "product": "LucidPro 50K",
-      "order": "10176221",
-      "amount": 115.4,
-      "price": 172.0,
-      "type": "evaluation"
-    },
-    {
-      "date": "2026-09-23",
-      "firm": "Lucid Trading",
-      "product": "LucidPro 50K",
-      "order": "10176251",
-      "amount": 115.4,
-      "price": 172.0,
-      "type": "evaluation"
-    },
-    {
-      "date": "2026-09-24",
-      "firm": "Lucid Trading",
-      "product": "LucidPro 50K",
-      "order": "10192775",
-      "amount": 115.4,
-      "price": 172.0,
-      "type": "evaluation"
-    },
-    {
-      "date": "2026-09-24",
-      "firm": "Lucid Trading",
-      "product": "LucidPro Reset 50K Rithmic",
-      "order": "10205011",
-      "amount": 115.0,
-      "price": 120.0,
-      "type": "reset"
-    },
-    {
-      "date": "2026-09-25",
-      "firm": "Lucid Trading",
-      "product": "LucidPro Reset 50K",
-      "order": "10276148",
-      "amount": 115.0,
-      "price": 120.0,
-      "type": "reset"
-    },
-    {
-      "date": "2026-09-29",
-      "firm": "Lucid Trading",
-      "product": "LucidPro Reset 50K",
-      "order": "10410708",
-      "amount": 115.0,
-      "price": 120.0,
-      "type": "reset"
-    },
-    {
-      "date": "2026-09-29",
-      "firm": "Lucid Trading",
-      "product": "LucidPro Reset 50K",
-      "order": "10417852",
-      "amount": 115.0,
-      "price": 120.0,
-      "type": "reset"
-    },
-    {
-      "date": "2026-09-30",
-      "firm": "Lucid Trading",
-      "product": "LucidPro Reset 50K",
-      "order": "10466914",
-      "amount": 115.0,
-      "price": 120.0,
-      "type": "reset"
-    },
-    {
-      "date": "2026-10-21",
+      "date": "2026-06-25",
       "firm": "Lucid Trading",
       "product": "LucidFlex 50K Rithmic",
-      "order": "11498086",
-      "amount": 69.0,
-      "price": 115.0,
+      "order": "5937485",
+      "amount": 70,
+      "price": 140,
       "type": "evaluation"
     },
     {
-      "date": "2026-10-22",
-      "firm": "Lucid Trading",
-      "product": "LucidPro 50K Rithmic",
-      "order": "11580018",
-      "amount": 103.2,
-      "price": 172.0,
+      "date": "2026-06-05",
+      "firm": "Alpha Futures",
+      "product": "Evaluation challenge",
+      "order": null,
+      "amount": null,
+      "price": null,
       "type": "evaluation"
     },
     {
-      "date": "2026-10-26",
-      "firm": "Lucid Trading",
-      "product": "LucidFlex 50K Rithmic",
-      "order": "11735264",
-      "amount": 80.5,
-      "price": 115.0,
-      "type": "evaluation"
-    },
-    {
-      "date": "2026-10-29",
+      "date": "2026-06-04",
       "firm": "Lucid Trading",
       "product": "LucidFlex 50K Rithmic",
-      "order": "11918616",
-      "amount": 80.5,
-      "price": 115.0,
+      "order": "4947640",
+      "amount": 70,
+      "price": 140,
       "type": "evaluation"
     },
     {
-      "date": "2026-10-29",
-      "firm": "Lucid Trading",
-      "product": "LucidFlex 50K Rithmic",
-      "order": "11923546",
-      "amount": 80.5,
-      "price": 115.0,
+      "date": "2026-05-21",
+      "firm": "Alpha Futures",
+      "product": "Evaluation challenge",
+      "order": null,
+      "amount": null,
+      "price": null,
       "type": "evaluation"
     },
     {
-      "date": "2026-10-29",
+      "date": "2026-05-18",
+      "firm": "Topstep",
+      "product": "Trading Combine (new)",
+      "order": null,
+      "amount": 90.1,
+      "price": null,
+      "type": "evaluation"
+    },
+    {
+      "date": "2026-04-16",
       "firm": "Lucid Trading",
-      "product": "LucidFlex 50K Rithmic",
-      "order": "11926401",
-      "amount": 80.5,
-      "price": 115.0,
+      "product": "LucidPro EVAL 50K",
+      "order": "3162473",
+      "amount": 111,
+      "price": 185,
+      "type": "evaluation"
+    },
+    {
+      "date": "2026-03-18",
+      "firm": "Lucid Trading",
+      "product": "LucidPro EVAL 25K NT_TDV",
+      "order": "2097907",
+      "amount": 81,
+      "price": 135,
+      "type": "evaluation"
+    },
+    {
+      "date": "2026-03-11",
+      "firm": "Lucid Trading",
+      "product": "LucidPro EVAL 25K NT_TDV",
+      "order": "1874520",
+      "amount": 67.5,
+      "price": 135,
+      "type": "evaluation"
+    },
+    {
+      "date": "2026-03-10",
+      "firm": "Lucid Trading",
+      "product": "LucidPro EVAL 50K NT_TDV",
+      "order": "1858111",
+      "amount": 92.5,
+      "price": 185,
+      "type": "evaluation"
+    },
+    {
+      "date": "2026-02-13",
+      "firm": "Alpha Futures",
+      "product": "Evaluation challenge",
+      "order": null,
+      "amount": null,
+      "price": null,
+      "type": "evaluation"
+    },
+    {
+      "date": "2026-02-02",
+      "firm": "Alpha Futures",
+      "product": "Evaluation (Zero Plan 50K)",
+      "order": null,
+      "amount": null,
+      "price": null,
+      "type": "evaluation"
+    },
+    {
+      "date": "2025-11-19",
+      "firm": "Topstep",
+      "product": "Trading Combine (new)",
+      "order": null,
+      "amount": 31.17,
+      "price": null,
+      "type": "evaluation"
+    },
+    {
+      "date": "2025-08-19",
+      "firm": "Topstep",
+      "product": "Express Funded Account activation fee",
+      "order": null,
+      "amount": 149,
+      "price": null,
+      "type": "activation"
+    },
+    {
+      "date": "2025-07-17",
+      "firm": "Topstep",
+      "product": "Trading Combine monthly rebill",
+      "order": null,
+      "amount": 49,
+      "price": null,
+      "type": "subscription"
+    },
+    {
+      "date": "2025-06-17",
+      "firm": "Topstep",
+      "product": "Trading Combine (new, TopstepX)",
+      "order": null,
+      "amount": 49,
+      "price": null,
+      "type": "evaluation"
+    },
+    {
+      "date": "2025-05-27",
+      "firm": "Topstep",
+      "product": "Trading Combine monthly rebill",
+      "order": null,
+      "amount": 49,
+      "price": null,
+      "type": "subscription"
+    },
+    {
+      "date": "2025-04-27",
+      "firm": "Topstep",
+      "product": "Trading Combine monthly rebill",
+      "order": null,
+      "amount": 49,
+      "price": null,
+      "type": "subscription"
+    },
+    {
+      "date": "2025-03-27",
+      "firm": "Topstep",
+      "product": "Trading Combine monthly rebill",
+      "order": null,
+      "amount": 49,
+      "price": null,
+      "type": "subscription"
+    },
+    {
+      "date": "2025-02-27",
+      "firm": "Topstep",
+      "product": "Trading Combine (Tradovate creds, 'charged $49.00')",
+      "order": null,
+      "amount": 49,
+      "price": null,
+      "type": "evaluation"
+    },
+    {
+      "date": "2025-02-26",
+      "firm": "Topstep",
+      "product": "Trading Combine (new subscription)",
+      "order": null,
+      "amount": 49,
+      "price": null,
       "type": "evaluation"
     }
   ],
@@ -649,7 +649,7 @@
       "date": "2025-01-19",
       "vendor": "TradingView",
       "product": "CME Group market data",
-      "amount": 7.0,
+      "amount": 7,
       "type": "data",
       "refunded": null
     },
@@ -657,7 +657,7 @@
       "date": "2025-02-19",
       "vendor": "TradingView",
       "product": "CME Group market data",
-      "amount": 7.0,
+      "amount": 7,
       "type": "data",
       "refunded": null
     },
@@ -681,7 +681,7 @@
       "date": "2025-03-19",
       "vendor": "TradingView",
       "product": "CME Group market data",
-      "amount": 7.0,
+      "amount": 7,
       "type": "data",
       "refunded": null
     },
@@ -697,7 +697,7 @@
       "date": "2025-04-19",
       "vendor": "TradingView",
       "product": "CME Group market data",
-      "amount": 7.0,
+      "amount": 7,
       "type": "data",
       "refunded": null
     },
@@ -713,7 +713,7 @@
       "date": "2025-05-20",
       "vendor": "TradingView",
       "product": "CME Group market data",
-      "amount": 7.0,
+      "amount": 7,
       "type": "data",
       "refunded": null
     },
@@ -761,7 +761,7 @@
       "date": "2026-02-10",
       "vendor": "Tradeful",
       "product": "Premium (monthly)",
-      "amount": 32.0,
+      "amount": 32,
       "type": "platform",
       "refunded": null
     },
