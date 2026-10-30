@@ -47,7 +47,9 @@
  ],
  "questions": [
   {
-   "q": "You bought three LucidFlex evals between 11:33 AM and 2:39 PM, after a BE that made you 'so so annoyed'. What were you feeling when you placed the second and third orders, and what were you planning to do with them?"
+   "q": "You bought three LucidFlex evals between 11:33 AM and 2:39 PM, after a BE that made you 'so so annoyed'. What were you feeling when you placed the second and third orders, and what were you planning to do with them?",
+   "answer": "you bought",
+   "answeredAt": "2026-10-30T01:12:14.562Z"
   },
   {
    "q": "Your stop was ~29,442, about 40 points above NYAM.L. If the idea was that the sweep low holds, why wasn't the stop under it, and would you have been 'almost stopped out' if it had been?"
