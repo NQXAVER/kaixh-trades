@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T20:31:33Z",
+  "updatedAt": "2026-10-31T00:32:17Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -204,6 +204,30 @@
   ],
   "items": [
     {
+      "id": "faf190f7b2b05",
+      "headline": "Iran war live: Oil tankers hit in Hormuz; Trump says conflict will end soon",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/31/iran-war-live-oil-tankers-hit-in-hormuz-trump-says-conflict-will-end-soon?traffic_source=rss",
+      "publishedAt": "2026-10-31T00:00:00Z",
+      "time": "Fri 8:00 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "fc39ffa51f073",
+      "headline": "US approves sale of 500 Patriot missiles to Ukraine",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-10-30T22:20:52Z",
+      "time": "Fri 6:20 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "ffcee04953833",
       "headline": "Oman rescues 25 from burning oil tanker in Strait of Hormuz",
       "source": "Al Jazeera",
@@ -276,6 +300,18 @@
       "auto": true
     },
     {
+      "id": "f9fc08c502306",
+      "headline": "Ukraine: Oleshky ceasefire offers ‘hope’ for civilians as attacks on aid vehicles continue",
+      "source": "UN News - Global perspective Human stories",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168712",
+      "publishedAt": "2026-10-30T12:00:00Z",
+      "time": "Fri 8:00 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": "mixed",
+      "auto": true
+    },
+    {
       "id": "f596db541ca93",
       "headline": "Russian strikes plunge Ukrainian city into blackout as Zelenskyy warns of more missile attacks",
       "source": "CNBC",
@@ -288,39 +324,15 @@
       "auto": true
     },
     {
-      "id": "fcf48ae25e6e7",
-      "headline": "Iran claims four tankers struck mines in Hormuz as strike fears grow after U.S. midterms",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/30/iran-trump-hormuz-oil-middle-east-.html",
-      "publishedAt": "2026-10-30T07:12:49Z",
-      "time": "Fri 3:12 AM",
-      "section": "war",
+      "id": "f78d18cca2eb6",
+      "headline": "Warsh wants the Fed to say less. Two officials are pushing for more transparency.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/the-fed-held-interest-rates-steady-but-these-officials-see-more-hikes-coming-soon-2098bbd8?mod=mw_rss_topstories",
+      "publishedAt": "2026-10-30T21:23:00Z",
+      "time": "Fri 5:23 PM",
+      "section": "fed",
       "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "f358950b72249",
-      "headline": "Houthi forces claim six attacks on Saudi airports, oil facilities",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/30/houthi-forces-claim-six-attacks-on-saudi-airports-oil-facilities?traffic_source=rss",
-      "publishedAt": "2026-10-30T00:11:20Z",
-      "time": "Thu 8:11 PM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "fb16443e77254",
-      "headline": "Iran war live: IRGC says four tankers struck mines in Strait of Hormuz",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/10/30/iran-war-live-irgc-says-four-tankers-struck-mines-in-strait-of-hormuz?traffic_source=rss",
-      "publishedAt": "2026-10-30T00:00:00Z",
-      "time": "Thu 8:00 PM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
+      "lean": null,
       "auto": true
     },
     {
@@ -429,18 +441,6 @@
       "section": "fed",
       "impact": "High",
       "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f8fe07406e64a",
-      "headline": "Australia’s inflation rate rises to 4.3%, fuelling fears of fifth interest rate hike this year",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/australia-news/2026/oct/28/inflation-rate-australia-2026-number-data-consumer-price-index-cpi-release",
-      "publishedAt": "2026-10-28T02:17:32Z",
-      "time": "Tue 10:17 PM",
-      "section": "fed",
-      "impact": "High",
-      "lean": "risk-off",
       "auto": true
     },
     {
@@ -780,25 +780,37 @@
       "auto": true
     },
     {
-      "id": "f59b34e81555b",
-      "headline": "Chevron Profits Nearly Triple to $9.9 Billion",
+      "id": "fed89c0125eb1",
+      "headline": "Europe Is Now Seriously Rethinking Its Oil Refinery Phase Down",
       "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Chevron-Profits-Nearly-Triple-to-99-Billion.html",
-      "publishedAt": "2026-10-30T18:30:00Z",
-      "time": "Fri 2:30 PM",
+      "url": "https://oilprice.com/Energy/Crude-Oil/Europe-Is-Now-Seriously-Rethinking-Its-Oil-Refinery-Phase-Down.html",
+      "publishedAt": "2026-10-30T23:00:00Z",
+      "time": "Fri 7:00 PM",
       "section": "energy",
       "impact": "Medium",
       "lean": null,
       "auto": true
     },
     {
-      "id": "fd0d9e3e782a7",
-      "headline": "U.S. Oil, Gas Drillers Still on Hold",
+      "id": "f9b1fed9d8481",
+      "headline": "Gasoline Up 34% and Heating Oil Up 74% as Voters Head to the Midterms",
       "source": "OilPrice",
-      "url": "https://oilprice.com/Energy/Energy-General/US-Oil-Gas-Drillers-Still-on-Hold.html",
-      "publishedAt": "2026-10-30T17:09:57Z",
-      "time": "Fri 1:09 PM",
+      "url": "https://oilprice.com/Energy/Gas-Prices/Gasoline-Up-34-and-Heating-Oil-Up-74-as-Voters-Head-to-the-Midterms.html",
+      "publishedAt": "2026-10-30T22:00:00Z",
+      "time": "Fri 6:00 PM",
       "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fcb2bfcaa5ed3",
+      "headline": "Has the tech bubble burst? Why the Nasdaq’s rough ride looks eerily like 2000.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/has-the-tech-bubble-burst-why-the-nasdaqs-rough-ride-looks-eerily-like-2000-5bcefcb2?mod=mw_rss_topstories",
+      "publishedAt": "2026-10-30T23:14:00Z",
+      "time": "Fri 7:14 PM",
+      "section": "markets",
       "impact": "Medium",
       "lean": null,
       "auto": true
@@ -816,8 +828,8 @@
       "auto": true
     },
     {
-      "id": "f173e59840b73",
-      "headline": "Wall Street closes sharply lower as AI cash burn fears spark tech selloff – business live",
+      "id": "f2d1e136da253",
+      "headline": "Wall Street closes sharply lower as AI cash burn fears spark tech selloff – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/oct/30/uk-house-price-growth-crypto-industry-6bn-binance-hack-eurozone-france-gdp-latest-news-updates",
       "publishedAt": "2026-10-30T20:24:25Z",
