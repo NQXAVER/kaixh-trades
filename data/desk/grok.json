@@ -1,17 +1,17 @@
 {
   "date": "2026-10-31",
-  "at": "2026-10-31T11:23:16Z",
-  "pulse": "NQ sits on Friday's -2.9% Nasdaq rout (AI capex/FCF fears, NVDA -4%) with a weekend Iran escalation tone as Khamenei orders a target list of 'all US and Israeli assets' after a US Navy strike on boats near Qeshm; offset is Qatar-brokered US-Iran talks moving to Doha and oversold-bounce odds into Sunday's open.",
-  "bias": "risk-off — Iranian escalation rhetoric, Hormuz incident and post-midterm strike plans keep CL bid and pressure NQ after a correction week; Doha talks are the only real offset before Sun 6 PM ET futures open.",
+  "at": "2026-10-31T13:21:28Z",
+  "pulse": "NQ weekend tape still leans on Friday's -2.9% Nasdaq rout, but Iran FM Araghchi told Al Jazeera the US Vance message was a 'positive step' and mediators' nuclear proposals are under review, with Iran's team in Doha; offset is Tehran's hard conditions (sanctions relief, fewer US forces, its own Hormuz route) and no direct US meeting planned.",
+  "bias": "mixed — constructive Doha/Vance-letter headlines lift de-escalation odds into Sun 6 PM ET open, but Iran's Hormuz-on-our-terms demands, Friday's tanker mine hits and post-Nov 3 strike plans keep CL risk and NQ pressure alive.",
   "items": [
-    "@FirstSquawk (~6:41 AM ET): Khamenei orders armed forces to update target list to bring 'all US and Israeli assets' within range, orders 'geographically unrestricted response' to any threat — Bearish NQ",
-    "@FirstSquawk (~5:39 AM ET): Tasnim says US Navy attacked Iranian fishing boats near Qeshm (Hormuz); Saudi civil defense alerts in Najran/Jizan overnight — Bearish NQ",
-    "@FirstSquawk (~2:32 AM ET): Qatari mediators held 12+ hrs of talks in Tehran to revive US-Iran negotiations; X News (~7:00 AM ET) says Iranian team headed to Doha, possible US delegation — Bullish NQ",
-    "@FirstSquawk (~7:02 AM ET): Russia extends diesel export ban through January; Ukraine hits Ufa refinery — Bearish NQ (energy/inflation)",
-    "X News (~9:06 PM ET Fri): NVDA -4% to $204.64 Fri on AI spending worries, testing 200-day ~$204; NVDA earnings Nov 17 — Bearish NQ"
+    "@DeItaone (~9:10 AM ET): Araghchi to Al Jazeera: Tehran studied Vance message, US effort to open broader dialogue a 'positive step'; mediators' nuclear proposals under review — Bullish NQ",
+    "@FirstSquawk (~9:17 AM ET): Iran conditions include lifting post-Islamabad MOU sanctions, cutting US forces in region, recognizing its Oman-agreed Hormuz route and closing others; Hormuz reopening on Tehran's terms would pave way for talks — Bearish NQ (oil)",
+    "@FirstSquawk (~9:03 AM ET): Araghchi: no plans to meet US officials for now; Iran delegation in Doha with Qatari mediators, who consult US negotiators throughout (~8:26 AM ET) — Mixed NQ",
+    "X News (~6:46 AM ET): 4 tankers hit naval mines Fri in Hormuz after ignoring IRGC route warnings, supertanker left burning — Bearish NQ (CL bid)",
+    "@FirstSquawk (~9:03 AM ET): FT: crypto exchanges tighten security after $6.3B Binance heist — Mixed NQ (COIN/crypto beta)"
   ],
-  "trump": "No new Trump posts overnight; at Fri's Daytona rally he said the US can't afford daycare/Medicaid/Medicare 'We're fighting wars. It's not possible', while senators were briefed on post-Nov 3 strike plans on Iranian missile and energy sites.",
-  "watch": "Weekend Iran/Hormuz and Doha-talks headlines; Sun 6 PM ET futures open; Sun 8:45 PM ET China Caixin mfg PMI; Mon 10:00 AM ET ISM Manufacturing; Mon AMC AAPL, PLTR; Tue Nov 3 Election Day, SHOP BMO, AMD/ANET AMC; Wed UBER BMO; possible Iran strikes from Nov 4; Fri 8:30 AM ET jobs report.",
+  "trump": "No new Trump posts this morning; X News (~9:19 AM ET) says he claimed Venezuela oil gains covered Iran war costs 'many, many times' over (Pentagon puts war cost ~$47.1B), keeping war spending in focus before Nov 3.",
+  "watch": "Weekend Doha talks and Hormuz/Iran headlines; Sun 6 PM ET futures open; Sun 8:45 PM ET China Caixin mfg PMI; Mon 10:00 AM ET ISM Manufacturing; Mon AMC AAPL, PLTR; Tue Nov 3 Election Day, SHOP BMO, AMD/ANET AMC; Wed UBER BMO; possible Iran strikes from Nov 4; Fri 8:30 AM ET jobs report.",
   "forSite": [],
   "reports": [
     {
@@ -27,6 +27,21 @@
       ],
       "trump": "No new Trump posts overnight; at Fri's Daytona rally he said the US can't afford daycare/Medicaid/Medicare 'We're fighting wars. It's not possible', while senators were briefed on post-Nov 3 strike plans on Iranian missile and energy sites.",
       "watch": "Weekend Iran/Hormuz and Doha-talks headlines; Sun 6 PM ET futures open; Sun 8:45 PM ET China Caixin mfg PMI; Mon 10:00 AM ET ISM Manufacturing; Mon AMC AAPL, PLTR; Tue Nov 3 Election Day, SHOP BMO, AMD/ANET AMC; Wed UBER BMO; possible Iran strikes from Nov 4; Fri 8:30 AM ET jobs report.",
+      "forSite": []
+    },
+    {
+      "at": "2026-10-31T13:21:28Z",
+      "pulse": "NQ weekend tape still leans on Friday's -2.9% Nasdaq rout, but Iran FM Araghchi told Al Jazeera the US Vance message was a 'positive step' and mediators' nuclear proposals are under review, with Iran's team in Doha; offset is Tehran's hard conditions (sanctions relief, fewer US forces, its own Hormuz route) and no direct US meeting planned.",
+      "bias": "mixed — constructive Doha/Vance-letter headlines lift de-escalation odds into Sun 6 PM ET open, but Iran's Hormuz-on-our-terms demands, Friday's tanker mine hits and post-Nov 3 strike plans keep CL risk and NQ pressure alive.",
+      "items": [
+        "@DeItaone (~9:10 AM ET): Araghchi to Al Jazeera: Tehran studied Vance message, US effort to open broader dialogue a 'positive step'; mediators' nuclear proposals under review — Bullish NQ",
+        "@FirstSquawk (~9:17 AM ET): Iran conditions include lifting post-Islamabad MOU sanctions, cutting US forces in region, recognizing its Oman-agreed Hormuz route and closing others; Hormuz reopening on Tehran's terms would pave way for talks — Bearish NQ (oil)",
+        "@FirstSquawk (~9:03 AM ET): Araghchi: no plans to meet US officials for now; Iran delegation in Doha with Qatari mediators, who consult US negotiators throughout (~8:26 AM ET) — Mixed NQ",
+        "X News (~6:46 AM ET): 4 tankers hit naval mines Fri in Hormuz after ignoring IRGC route warnings, supertanker left burning — Bearish NQ (CL bid)",
+        "@FirstSquawk (~9:03 AM ET): FT: crypto exchanges tighten security after $6.3B Binance heist — Mixed NQ (COIN/crypto beta)"
+      ],
+      "trump": "No new Trump posts this morning; X News (~9:19 AM ET) says he claimed Venezuela oil gains covered Iran war costs 'many, many times' over (Pentagon puts war cost ~$47.1B), keeping war spending in focus before Nov 3.",
+      "watch": "Weekend Doha talks and Hormuz/Iran headlines; Sun 6 PM ET futures open; Sun 8:45 PM ET China Caixin mfg PMI; Mon 10:00 AM ET ISM Manufacturing; Mon AMC AAPL, PLTR; Tue Nov 3 Election Day, SHOP BMO, AMD/ANET AMC; Wed UBER BMO; possible Iran strikes from Nov 4; Fri 8:30 AM ET jobs report.",
       "forSite": []
     }
   ]
