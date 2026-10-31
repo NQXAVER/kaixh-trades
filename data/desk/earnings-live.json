@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "at": "2026-10-30T20:26:09Z",
+  "at": "2026-10-31T00:22:28Z",
   "items": [
     {
       "ticker": "XOM",
@@ -133,6 +133,14 @@
       "when": "AMC",
       "status": "upcoming",
       "why": "AI cloud/GPU data-center read after -9% Thu on capex doubts"
+    },
+    {
+      "ticker": "PLTR",
+      "company": "Palantir (PLTR)",
+      "date": "2026-11-02",
+      "when": "AMC",
+      "status": "upcoming",
+      "why": "AI software bellwether reports after Monday's close alongside AAPL"
     }
   ]
 }
