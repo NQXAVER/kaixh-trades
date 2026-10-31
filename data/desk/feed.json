@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T12:30:16Z",
+  "updatedAt": "2026-10-31T19:18:46Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -183,9 +183,9 @@
     {
       "id": "un-peace",
       "label": "UN News",
-      "ok": false,
-      "items": 0,
-      "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+      "ok": true,
+      "items": 20,
+      "error": null
     },
     {
       "id": "wsj-biz",
@@ -768,6 +768,18 @@
       "auto": true
     },
     {
+      "id": "f57584b4f8d2d",
+      "headline": "Trump promised to slash energy costs — but gasoline, diesel and jet fuel all soared instead",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/31/trump-gas-diesel-price-midterm-election.html",
+      "publishedAt": "2026-10-31T12:49:58Z",
+      "time": "Sat 8:49 AM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "f01cce4764a8a",
       "headline": "Oil company earnings skyrocket — again",
       "source": "NPR",
@@ -792,13 +804,13 @@
       "auto": true
     },
     {
-      "id": "fed89c0125eb1",
-      "headline": "Europe Is Now Seriously Rethinking Its Oil Refinery Phase Down",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Energy/Crude-Oil/Europe-Is-Now-Seriously-Rethinking-Its-Oil-Refinery-Phase-Down.html",
-      "publishedAt": "2026-10-30T23:00:00Z",
-      "time": "Fri 7:00 PM",
-      "section": "energy",
+      "id": "f90acfbb7838a",
+      "headline": "We’re in our 70s. Should we pay off our 2.5% mortgage — or put the money in a high-yield savings account?",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/we-are-in-our-70s-should-we-pay-off-our-2-5-mortgage-or-build-up-our-savings-5a35e9c1?mod=mw_rss_topstories",
+      "publishedAt": "2026-10-31T19:00:00Z",
+      "time": "Sat 3:00 PM",
+      "section": "markets",
       "impact": "Medium",
       "lean": null,
       "auto": true
@@ -858,18 +870,6 @@
       "url": "https://www.marketwatch.com/story/this-strategist-correctly-recommended-shorting-big-tech-debt-last-year-now-he-says-the-yields-make-it-attractive-3ec2e0fe?mod=mw_rss_topstories",
       "publishedAt": "2026-10-30T14:30:00Z",
       "time": "Fri 10:30 AM",
-      "section": "markets",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f90acfbb7838a",
-      "headline": "We’re in our 70s. Should we pay off our 2.5% mortgage — or put the money in a high-yield savings account?",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/we-are-in-our-70s-should-we-pay-off-our-2-5-mortgage-or-build-up-our-savings-5a35e9c1?mod=mw_rss_topstories",
-      "publishedAt": "2026-10-30T11:01:00Z",
-      "time": "Fri 7:01 AM",
       "section": "markets",
       "impact": "Medium",
       "lean": null,
