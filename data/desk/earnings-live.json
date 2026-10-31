@@ -1,6 +1,6 @@
 {
   "date": "2026-10-31",
-  "at": "2026-10-31T13:21:28Z",
+  "at": "2026-10-31T20:21:20Z",
   "items": [
     {
       "ticker": "XOM",
@@ -173,6 +173,30 @@
       "when": "BMO",
       "status": "upcoming",
       "why": "Confirmed Wed BMO, 8 AM ET call; gross bookings guide $58.25-60.25B"
+    },
+    {
+      "ticker": "QCOM",
+      "company": "Qualcomm (QCOM)",
+      "date": "2026-11-04",
+      "when": "AMC",
+      "status": "upcoming",
+      "why": "FQ4/FY26 print Wed AMC, 4:45 PM ET call; consensus EPS ~$2.16; handset and AI PC/data-center read"
+    },
+    {
+      "ticker": "ARM",
+      "company": "Arm Holdings (ARM)",
+      "date": "2026-11-04",
+      "when": "AMC",
+      "status": "upcoming",
+      "why": "FQ2 FY27 Wed AMC, 5 PM ET call; consensus EPS ~$0.48; royalty/AI chip read for semis"
+    },
+    {
+      "ticker": "APP",
+      "company": "AppLovin (APP)",
+      "date": "2026-11-04",
+      "when": "AMC",
+      "status": "upcoming",
+      "why": "High-beta NQ name Wed AMC; consensus EPS ~$4.03"
     }
   ]
 }
