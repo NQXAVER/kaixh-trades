@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T00:32:17Z",
+  "updatedAt": "2026-10-31T05:42:00Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -183,9 +183,9 @@
     {
       "id": "un-peace",
       "label": "UN News",
-      "ok": true,
-      "items": 20,
-      "error": null
+      "ok": false,
+      "items": 0,
+      "error": "ParseError: not well-formed (invalid token): line 1, column 0"
     },
     {
       "id": "wsj-biz",
@@ -204,15 +204,39 @@
   ],
   "items": [
     {
-      "id": "faf190f7b2b05",
-      "headline": "Iran war live: Oil tankers hit in Hormuz; Trump says conflict will end soon",
+      "id": "f87837e3103e3",
+      "headline": "US greenlights $2.1bn Patriot missile sale to Ukraine",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/10/31/iran-war-live-oil-tankers-hit-in-hormuz-trump-says-conflict-will-end-soon?traffic_source=rss",
-      "publishedAt": "2026-10-31T00:00:00Z",
-      "time": "Fri 8:00 PM",
+      "url": "https://www.aljazeera.com/news/2026/10/31/us-greenlights-2-1bn-patriot-missile-sale-to-ukraine?traffic_source=rss",
+      "publishedAt": "2026-10-31T04:51:25Z",
+      "time": "Sat 12:51 AM",
       "section": "war",
       "impact": "High",
       "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "f669a55fd100e",
+      "headline": "Iran says four tankers on fire after striking mines in Hormuz",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/iran-says-four-tankers-on-fire-after-striking-mines-in-hormuz?traffic_source=rss",
+      "publishedAt": "2026-10-31T03:55:48Z",
+      "time": "Fri 11:55 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "f7a6c290e250c",
+      "headline": "Hundreds evacuated from Melania-brokered ceasefire town of Oleshky",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/hundreds-evacuated-from-melania-brokered-ceasefire-town-of-oleshky?traffic_source=rss",
+      "publishedAt": "2026-10-31T02:44:38Z",
+      "time": "Fri 10:44 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-on",
       "auto": true
     },
     {
@@ -220,11 +244,23 @@
       "headline": "US approves sale of 500 Patriot missiles to Ukraine",
       "source": "BBC",
       "url": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-10-30T22:20:52Z",
-      "time": "Fri 6:20 PM",
+      "publishedAt": "2026-10-31T00:40:43Z",
+      "time": "Fri 8:40 PM",
       "section": "war",
       "impact": "High",
       "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f299916659105",
+      "headline": "Iran war live: 4 tankers hit in Hormuz; Trump says conflict will end ‘soon’",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/31/iran-war-live-oil-tankers-hit-in-hormuz-trump-says-conflict-will-end-soon?traffic_source=rss",
+      "publishedAt": "2026-10-31T00:00:00Z",
+      "time": "Fri 8:00 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
       "auto": true
     },
     {
@@ -288,37 +324,13 @@
       "auto": true
     },
     {
-      "id": "f7b57cec2b83f",
-      "headline": "Qatari officials in Iran in bid to revive ceasefire deal with US",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/30/qatari-officials-in-iran-in-bid-to-revive-ceasefire-deal-with-us?traffic_source=rss",
-      "publishedAt": "2026-10-30T12:26:56Z",
-      "time": "Fri 8:26 AM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-on",
-      "auto": true
-    },
-    {
-      "id": "f9fc08c502306",
-      "headline": "Ukraine: Oleshky ceasefire offers ‘hope’ for civilians as attacks on aid vehicles continue",
-      "source": "UN News - Global perspective Human stories",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168712",
-      "publishedAt": "2026-10-30T12:00:00Z",
-      "time": "Fri 8:00 AM",
-      "section": "war",
-      "impact": "High",
-      "lean": "mixed",
-      "auto": true
-    },
-    {
-      "id": "f596db541ca93",
-      "headline": "Russian strikes plunge Ukrainian city into blackout as Zelenskyy warns of more missile attacks",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/30/russia-ukraine-putin-zelenskyy-energy-strikes.html",
-      "publishedAt": "2026-10-30T11:29:59Z",
-      "time": "Fri 7:29 AM",
-      "section": "war",
+      "id": "f6ab30edfb9a7",
+      "headline": "Albanese looks for reset on world stage as ‘spot fires burn’ domestically and likely interest rate hike looms",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/australia-news/2026/oct/31/albanese-reset-world-stage-economic-spot-fires-rba-interest-rate-decision",
+      "publishedAt": "2026-10-31T02:24:10Z",
+      "time": "Fri 10:24 PM",
+      "section": "fed",
       "impact": "High",
       "lean": "risk-off",
       "auto": true
@@ -432,18 +444,6 @@
       "auto": true
     },
     {
-      "id": "f5252f9edfac6",
-      "headline": "The Federal Reserve Will Release Its Interest Rate Decision Today. Here’s What to Watch.",
-      "source": "New York Times",
-      "url": "https://www.nytimes.com/2026/10/28/business/federal-reserve-interest-rates.html",
-      "publishedAt": "2026-10-28T16:36:07Z",
-      "time": "Wed 12:36 PM",
-      "section": "fed",
-      "impact": "High",
-      "lean": null,
-      "auto": true
-    },
-    {
       "id": "fa4f04faf6b41",
       "headline": "U.S. GDP Increased 3.4% in Third Quarter",
       "source": "New York Times",
@@ -516,6 +516,18 @@
       "auto": true
     },
     {
+      "id": "f825c98ca3817",
+      "headline": "Trump's tariffs could shutter this Canadian town - its residents are fighting to save it",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cmly016ep243o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-10-31T02:39:25Z",
+      "time": "Fri 10:39 PM",
+      "section": "econ",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "fe20becb47968",
       "headline": "Trump vowed to reduce prices, but his policies have fueled US inflation | Steven Greenhouse",
       "source": "The Guardian",
@@ -546,18 +558,6 @@
       "url": "https://www.marketwatch.com/story/there-may-be-better-investment-options-my-church-received-1-5-million-from-a-parishioner-is-3-75-interest-enough-5164d790?mod=mw_rss_topstories",
       "publishedAt": "2026-10-30T00:05:00Z",
       "time": "Thu 8:05 PM",
-      "section": "econ",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f2f53dcb98009",
-      "headline": "In Moving Gradually, Fed Risks Having to Play Catch-Up to Quell Inflation",
-      "source": "New York Times",
-      "url": "https://www.nytimes.com/2026/10/29/business/economy/federal-reserve-interest-rates.html",
-      "publishedAt": "2026-10-29T18:55:42Z",
-      "time": "Thu 2:55 PM",
       "section": "econ",
       "impact": "Medium",
       "lean": null,
