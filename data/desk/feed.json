@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T05:42:00Z",
+  "updatedAt": "2026-10-31T12:30:16Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -204,6 +204,18 @@
   ],
   "items": [
     {
+      "id": "fc39ffa51f073",
+      "headline": "US approves sale of 500 Patriot missiles to Ukraine",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-10-31T12:21:25Z",
+      "time": "Sat 8:21 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "f87837e3103e3",
       "headline": "US greenlights $2.1bn Patriot missile sale to Ukraine",
       "source": "Al Jazeera",
@@ -237,18 +249,6 @@
       "section": "war",
       "impact": "High",
       "lean": "risk-on",
-      "auto": true
-    },
-    {
-      "id": "fc39ffa51f073",
-      "headline": "US approves sale of 500 Patriot missiles to Ukraine",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-10-31T00:40:43Z",
-      "time": "Fri 8:40 PM",
-      "section": "war",
-      "impact": "High",
-      "lean": null,
       "auto": true
     },
     {
@@ -516,6 +516,18 @@
       "auto": true
     },
     {
+      "id": "f76d3375ac655",
+      "headline": "The fight to save Canadian town threatened by Trump's tariffs",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cmly016ep243o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-10-31T02:39:25Z",
+      "time": "Fri 10:39 PM",
+      "section": "econ",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "f825c98ca3817",
       "headline": "Trump's tariffs could shutter this Canadian town - its residents are fighting to save it",
       "source": "BBC",
@@ -546,18 +558,6 @@
       "url": "https://www.cnbc.com/2026/10/30/boj-inflation-target-rates.html",
       "publishedAt": "2026-10-30T04:19:38Z",
       "time": "Fri 12:19 AM",
-      "section": "econ",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f57f8e538c823",
-      "headline": "Our church has a $1.5 million bequest earning 3.75% in a bank account. Is inflation eroding it?",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/there-may-be-better-investment-options-my-church-received-1-5-million-from-a-parishioner-is-3-75-interest-enough-5164d790?mod=mw_rss_topstories",
-      "publishedAt": "2026-10-30T00:05:00Z",
-      "time": "Thu 8:05 PM",
       "section": "econ",
       "impact": "Medium",
       "lean": null,
@@ -768,15 +768,27 @@
       "auto": true
     },
     {
-      "id": "fc0fc973711ef",
-      "headline": "Ras Tanura Fire Follows Attacks on Aramco Offices and Near Shaybah Field",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Ras-Tanura-Fire-Follows-Attacks-on-Aramco-Offices-and-Near-Shaybah-Field.html",
-      "publishedAt": "2026-10-27T12:30:00Z",
-      "time": "Tue 8:30 AM",
+      "id": "f01cce4764a8a",
+      "headline": "Oil company earnings skyrocket — again",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/10/31/nx-s1-6008072/oil-company-profits-gasoline-diesel-prices",
+      "publishedAt": "2026-10-31T09:00:00Z",
+      "time": "Sat 5:00 AM",
       "section": "energy",
-      "impact": "High",
-      "lean": "risk-off",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fdaddb9c253e9",
+      "headline": "Trump called out Big Oil profits. Here’s how much their refining earnings have surged since",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/31/trump-big-oil-refining-profits.html",
+      "publishedAt": "2026-10-31T06:00:02Z",
+      "time": "Sat 2:00 AM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
       "auto": true
     },
     {
@@ -786,18 +798,6 @@
       "url": "https://oilprice.com/Energy/Crude-Oil/Europe-Is-Now-Seriously-Rethinking-Its-Oil-Refinery-Phase-Down.html",
       "publishedAt": "2026-10-30T23:00:00Z",
       "time": "Fri 7:00 PM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f9b1fed9d8481",
-      "headline": "Gasoline Up 34% and Heating Oil Up 74% as Voters Head to the Midterms",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Energy/Gas-Prices/Gasoline-Up-34-and-Heating-Oil-Up-74-as-Voters-Head-to-the-Midterms.html",
-      "publishedAt": "2026-10-30T22:00:00Z",
-      "time": "Fri 6:00 PM",
       "section": "energy",
       "impact": "Medium",
       "lean": null,
