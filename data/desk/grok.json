@@ -1,15 +1,168 @@
 {
-  "at": "2026-10-31T02:06:44Z",
-  "pulse": "Nasdaq closed down nearly 3% on AI capex and free-cash-flow fears after Intel's record drop and Amazon results, while oil stayed elevated on repeated Hormuz tanker incidents and fresh reports of possible US strikes on Iran as early as Nov 4.",
-  "bias": "risk-off — AI spending sustainability doubts and Middle East oil/Iran escalation risks keep pressure on tech and risk assets into the weekend.",
+  "date": "2026-10-30",
+  "at": "2026-10-31T02:20:35Z",
+  "pulse": "NQ heads into the weekend after a ~2.9% Nasdaq drop on AI capex/FCF fears (INTC -29%, AMZN, GOOGL), with weak China PMIs and US-Iran strike talk adding pressure; only offset is oversold bounce odds and a weekend for headlines to cool.",
+  "bias": "risk-off — AI spending doubts, China factory contraction and Iran strike risk (CL ~$100+) outweigh oversold-bounce hopes into Sunday 6 PM ET futures open.",
   "items": [
-    "@GlobalFinNet (~10:04 PM ET): AI spending binge crushed Wall Street; Nasdaq fell nearly 3% today, Intel crashed ~29%, Big Tech plans $700B+ AI spend this year",
-    "@fgchiu (~10:04 PM ET): Market only asking if AI earnings cover the spend; GOOGL FCF negative, AMZN 12m FCF -$42B, INTC -28.6% worst day since 1974, Nasdaq Oct -5.3%",
-    "@houseperu (~10:04 PM ET): Gulf officials say US warned attacks on Iran could start Nov 4; Qatar spent >12 hours in Tehran Friday trying to stop them",
-    "@MarioNawfal (~10:01 PM ET): WSJ: Iran hit 274 buildings on 24 US bases in six months; base damage estimated $5-15B on top of $47B war bill",
-    "@FirstSquawk (earlier ~8:21 PM ET): Trump says US forces deployed across areas surrounding Iran; 'there are talks' ongoing via mediators"
+    "@FirstSquawk (~9:30 PM ET): China official Oct factory PMI 49.3 (Sep 50.1), non-mfg 49.7 (from 50.2), composite 49.7 in contraction — Bearish NQ",
+    "X News (~9:46 PM ET): Reports US could strike Iran as early as Nov 4, right after Election Day; Gulf states urging de-escalation, more carriers in region — Bearish NQ",
+    "X News (~8:56 PM ET): S&P 500 closed 7,580.07 (-1.82%), Nasdaq Comp -2.9% (worst since June), NDX in correction for 3rd time in 2026 — Bearish NQ",
+    "@FirstSquawk (~9:24 PM ET): Alaska Air CEO warns of possible $700M loss on rising fuel prices and geopolitics; oil stress spreading to earnings — Bearish NQ",
+    "X News (~4:57 PM ET): Apple and Palantir report Mon AMC, then AMD, Shopify, Uber later in the week plus Fri jobs report — Mixed NQ"
   ],
-  "trump": "@FirstSquawk (~8:21 PM ET): Trump says US forces have been deployed across areas surrounding Iran (Al Arabiya); he has said 'there are talks' and called it 'a war, but not a typical war'.",
-  "watch": "Weekend Iran/Hormuz strike or talks headlines into Sunday 6 PM ET futures open; AAPL and PLTR AMC Mon Nov 2; midterms Tue Nov 3 (reported strike window Nov 4); residual Dec hike odds and any Fed speak.",
-  "forSite": []
+  "trump": "Reports say Trump pledged no attack on Iran before the Nov 3 vote and said the war is near an end, while CENTCOM strike options for as early as Nov 4 were briefed to Gulf allies; earlier (~8:21 PM ET via @FirstSquawk) he said US forces are deployed around Iran and 'there are talks'.",
+  "watch": "Weekend Iran/Hormuz headlines; Sun 6 PM ET futures open; Sun 8:45 PM ET China Caixin mfg PMI; Mon 10:00 AM ET ISM Manufacturing; Mon AMC AAPL, PLTR; Tue Nov 3 Election Day; possible Iran strikes from Nov 4; AMD, SHOP, UBER later in week; Fri 8:30 AM ET jobs report.",
+  "forSite": [],
+  "reports": [
+    {
+      "at": "2026-10-30T11:00:00Z",
+      "pulse": "NQ futures down over 2% (~28,860) into the US session as AMZN (AI capex miss) and INTC (weak guide, ~-25% pre) amplify GOOGL's AI-spend selloff, with Asia tech (Kospi -3%) confirming and oil rising on Iran risks.",
+      "bias": "risk-off — mega-cap AI capex/FCF sustainability fears from AMZN/INTC/GOOGL earnings, Asia rout, and crude bid on Middle East tensions outweigh lower yields and recent FOMC hold; Dec hike odds keep rates a headwind.",
+      "items": [
+        "@DTradingToolkit (~7:00 AM ET): Nasdaq futures down about 2% and Asia got hit harder; Kospi off about 3%. Tech weakness started overseas — let $NQ show first 30 minutes before dip.",
+        "@djsoldier88 (~7:00 AM ET): Nasdaq futures fell more than 2%. Amazon's rising AI investment and Intel's cash-burn warning put the infrastructure spending tab back under the microscope.",
+        "@Alistair_Drum (~7:00 AM ET): Nasdaq-Futures fallen um 2,16 %! KI-Aktien geraten erneut unter Druck. $QQQ $NVDA $AMD",
+        "@business / @BloombergRadio (~7:00 AM ET): Tech Stock Selloff Deepens on Earnings, Oil Rises.",
+        "@orusrock (~6:58 AM ET): Brent is pushing $117 while Nasdaq futures slide 2%, risk-off finally found a bid that is not just fear."
+      ],
+      "trump": "none",
+      "watch": "Fri Oct 30 open: follow-through on NQ gap-down vs overnight low ~28,821; ECI q/q 8:30 AM ET (wage inflation vs Dec hike odds); XOM BMO oil read; AMZN/INTC open gaps; Iran deal vs strike/Hormuz headlines for crude; month-end flows. Next week: AAPL Mon Nov 2 AMC, midterms Tue Nov 3.",
+      "forSite": []
+    },
+    {
+      "at": "2026-10-30T11:26:30Z",
+      "pulse": "NQ futures -2.1% to -2.4% (QQQ ~698 pre vs 715 close) as AMZN (-7% pre, $77B capex, negative FCF) and INTC (~-25% pre, weak Q4 guide) extend GOOGL's AI-spend selloff and Asia tech (Kospi -5%, Nikkei -2.5%) follows; only offsets are a flat 10Y (~4.99%) and Qatar-Iran peace-talk headlines.",
+      "bias": "risk-off — AI capex/FCF fears from AMZN/INTC/GOOGL plus semis weakness (AMD -7%, AVGO -4%, NVDA -2.5% pre) and Brent at new highs on Hormuz tanker incident outweigh softer dollar and peace-talk hopes.",
+      "items": [
+        "@FIowStateofMind (~6:23 AM ET): NQ ~-2.4%, ES ~-1.1%, small caps < -1%; QQQ $698 pre vs $715 close; 10Y flat 4.99%, WTI near $104, VIX 18.5 — Bearish NQ",
+        "@Rakane87 (~6:40 AM ET): AMZN -7.2%, INTC -25% premarket on AI-spend worries; chips follow: NVDA -2.5%, AMD -7%, AVGO -4% — Bearish NQ",
+        "@FirstSquawk (~6:50 AM ET): IRGC Navy stopped two tankers south of the Strait of Hormuz; @zerohedge (~6:57 AM ET): Brent Jan futures at new highs — Bearish NQ",
+        "@FirstSquawk (~7:10 AM ET): Qatari mediators in Tehran to discuss latest US peace proposal (Axios) — Bullish NQ if it cools crude",
+        "@DeItaone (~6:55 AM ET): Binance working with FBI/Secret Service after $6.3B hack, reserves $6.34B to cover users — Mixed NQ (crypto-equity risk: COIN, MSTR)"
+      ],
+      "trump": "@WatcherGuru (~6:35 AM ET): Trump says inflation is \"way down\" and income for people and companies is \"way up\" — no new policy or tariff news.",
+      "watch": "Fri Oct 30: ECI q/q 8:30 AM ET (wage inflation vs Dec hike odds after 10-2 FOMC hold); cash open 9:30 AM ET (AMZN/INTC/GOOGL gaps, semis); month-end flows; Iran peace talks vs Hormuz headlines for crude. Next: AAPL Mon Nov 2 AMC, midterms Tue Nov 3, IREN Nov 5, jobs report Fri Nov 6.",
+      "forSite": []
+    },
+    {
+      "at": "2026-10-30T13:25:00Z",
+      "pulse": "NQ futures down ~2.3% and ES ~1% into the open as AMZN -7% and INTC -25% after earnings spotlight AI spending concerns, with oil higher on Saudi attacks and Hormuz tanker mine strikes.",
+      "bias": "risk-off — mega-cap tech earnings misses and AI capex/FCF fears drag Nasdaq and S&P futures, compounded by Middle East oil supply risks from Hormuz incidents.",
+      "items": [
+        "@foxburg12 (~9:24 AM ET): Futures weak Nasdaq -2.3%, S&P -1%, Dow flat. AMZN -7%, INTC -25% after earnings; oil up on Saudi attacks. ES under 7,740",
+        "@stockcram (~9:23 AM ET): Amazon and Intel earnings spotlight AI spending concerns. Nasdaq futures down about 2%. Energy names reporting beats. Rotation out of tech is picking up",
+        "@advfn (~9:24 AM ET): US Stock Futures Tumble as Intel and Amazon Lead Tech Rout, Oil Jumps on Middle East Risks",
+        "@globalbrief_now (~9:23 AM ET): Supertanker carrying >2M barrels exploded after striking naval mine in Strait of Hormuz; third oil tanker to explode Friday on unauthorized route",
+        "@pitbulltraders (~9:24 AM ET): After the bell ES moved 43 points in 15 minutes, biggest post-close 15-min move in last 30 days"
+      ],
+      "trump": "none",
+      "watch": "Fri Oct 30 cash open: reaction to AMZN/INTC gaps and tech weakness; further Hormuz/ME oil headlines or Saudi attacks; ES support near 7740; month-end flows and any ECI residual impact.",
+      "forSite": []
+    },
+    {
+      "at": "2026-10-30T13:26:22Z",
+      "pulse": "NQ ~-2.6% premarket (~28,770) on an AI-capex tech liquidation led by INTC -25% and AMZN -7%, partly offset by 10Y yields dipping to ~4.93% after an in-line ECI and Qatar-mediated US-Iran peace progress.",
+      "bias": "risk-off — mega-cap/semis gap down (SMH ~-5%, AMD ~-8%, NVDA ~-3%) and Hormuz tanker mine strikes keep oil bid; breadth outside tech holding (RSP flat) and lower yields are the only cushion.",
+      "items": [
+        "@SlaughterYacht (~9:24 AM ET): ES 7,667 (-1.1%), NQ 28,773 (-2.7%), VIX 18.6 (+8%), QQQ 696.85 watch 700, SMH -5.1%, RSP +0.1% — Bearish NQ",
+        "@DeItaone (~8:30 AM ET): US Q3 ECI +0.8% vs +0.8% est, wages +0.7% vs +0.9% prior; 10Y -6bp to 4.927%, 2Y 4.586% (8:37 AM) — Bullish NQ",
+        "@FirstSquawk (~8:27 AM ET): Iran IRGC says third oil tanker hit a mine in Hormuz Friday; Oman evacuates crew off Musandam — Bearish NQ",
+        "@DeItaone (~8:04 AM ET): Qatari mediators in Tehran with revised terms as US-Iran peace talks show signs of progress (CBS) — Bullish NQ",
+        "@WatcherGuru (~7:30 AM ET): Binance working with FBI/Secret Service after record $6.3B hack; BTC ~-3%, COIN PT cuts — Bearish NQ"
+      ],
+      "trump": "@WatcherGuru (~6:36 AM ET): Trump says inflation is \"way down\" and income for people and companies is \"way up\"; Kremlin says Ukraine is ignoring Trump's request to stop refinery strikes (~8:02 AM ET).",
+      "watch": "9:30 AM cash open (INTC/AMZN gap reaction, QQQ 700, ES 7,650/7,635); 9:45 AM Chicago PMI; Fed Musalem ~12:30 PM; Hormuz/Iran-talks headlines; month-end flows; AAPL AMC Mon Nov 2.",
+      "forSite": []
+    },
+    {
+      "at": "2026-10-30T20:16:00Z",
+      "pulse": "Nasdaq closed -2.85% and S&P -1.84% on AI capex/ROI doubts after Intel -28% and Amazon weakness, while oil stayed bid on a fourth Hormuz tanker mine strike amid ongoing US-Iran talks.",
+      "bias": "risk-off — tech/AI liquidation and elevated crude from Iran/Hormuz risks dominate despite the recent FOMC hold and some peace-talk headlines.",
+      "items": [
+        "@FirstSquawk (~4:01 PM ET): NASDAQ unofficially closes down 2.85% at 25,438.40; S&P 500 -1.84% at 7,578.14; Dow -1.11%",
+        "@Worldsource24 (~4:16 PM ET): Iran's IRGC Navy says a fourth oil tanker carrying more than 2 million barrels exploded after striking a mine in the Strait of Hormuz",
+        "@SedarZan52448 (~4:15 PM ET): WALL STREET CLOSE | NASDAQ -2.9%, S&P -1.8%; INTC -28.6%, NVDA -5.3%; money rotates out of AI/tech into energy; WTI $104",
+        "@FirstSquawk (~4:01 PM ET): TRUMP ON IRAN: THERE ARE TALKS",
+        "@Hide_K123 (~4:16 PM ET): S&P500 -1.80%, Nasdaq -2.84%, SOX ~-9%; AI demand intact but FCF scrutiny intensifies — currently Risk-Off"
+      ],
+      "trump": "@FirstSquawk (~4:01 PM ET): TRUMP ON IRAN: THERE ARE TALKS; @DeItaone (~4:11 PM ET): TRUMP: LOOKING AT BINANCE HACK",
+      "watch": "Next session follow-through on NQ/ES after the tech-led close; further Hormuz/Iran oil headlines; midterms Tue Nov 3; AAPL AMC Mon Nov 2; any residual Fed commentary.",
+      "forSite": []
+    },
+    {
+      "at": "2026-10-30T20:26:09Z",
+      "pulse": "NQ closed in a Nasdaq 100 technical correction (Comp -2.85% to 25,438; SPX -1.84%) on AI capex/ROI fears led by INTC's ~-29% worst day in four decades plus AMZN/GOOGL weakness, with only Trump's 'there are talks' on Iran offsetting a fourth Hormuz tanker mine strike that keeps crude bid.",
+      "bias": "risk-off — AI/semis liquidation (~$1.8T wiped from US stocks) and Hormuz oil risk dominate into the weekend; Iran-talks headlines are the only offset.",
+      "items": [
+        "@FirstSquawk (~4:01 PM ET): Nasdaq unofficially closes -2.85% at 25,438.40; S&P 500 -1.84% at 7,578.14; Dow -1.11% at 51,763.41 — Bearish NQ",
+        "@zerohedge (~4:10 PM ET): INTC shares plunge 29% for worst day in at least four decades (Q4 rev guide $15-16B vs ~$17B est) — Bearish NQ",
+        "@unusual_whales (~3:36 PM ET): Nasdaq 100 in technical correction after shedding nearly $5T in three weeks — Bearish NQ",
+        "@FirstSquawk (~4:10 PM ET): IRGC says a fourth tanker exploded after hitting a mine in the Strait of Hormuz — Bearish NQ",
+        "@WatcherGuru (~4:08 PM ET): $1.8 trillion wiped out from the US stock market today — Bearish NQ"
+      ],
+      "trump": "@FirstSquawk (~4:01 PM ET): 'TRUMP ON IRAN: THERE ARE TALKS'; @WatcherGuru (~4:02 PM ET): Trump says he is looking into the $6.3B Binance crypto hack (zerohedge: checking whether North Korea is behind it); also 'I think we have a shot' at GOP doing well in midterms.",
+      "watch": "Weekend Iran/Hormuz tanker headlines and Sunday 6 PM ET futures open; AAPL AMC Mon Nov 2; midterms Tue Nov 3; IREN AMC Thu Nov 5; NVDA earnings Nov 17; Treasury borrowed a record $839B this week, so watch yields.",
+      "forSite": []
+    },
+    {
+      "at": "2026-10-31T00:11:31Z",
+      "pulse": "Nasdaq closed down ~2.9% and S&P ~1.8% on AI cash-burn fears after Intel and Amazon results, with oil elevated near multi-year highs on repeated Hormuz tanker mine strikes.",
+      "bias": "risk-off — AI capex/ROI sustainability concerns from mega-cap earnings and Middle East oil supply risks from Hormuz dominate into the weekend.",
+      "items": [
+        "@quantalg0 (~8:10 PM ET): NQ dropped to ~28,200 and ES near 7,600 as AI unwind accelerated into month-end after Intel/Amazon, CL holding ~$103",
+        "@14wolvesrecon (~8:10 PM ET): Intel -31%, S&P -2.5%, Nasdaq 100 -4% on AI cash worries; Dec hike odds ~76%, Hormuz tanker hit, Brent near $117",
+        "@MacroAlphaHQ (~8:08 PM ET): S&P cuts Meta credit outlook to negative on heavy AI capex and slow monetization",
+        "@grok (~8:09 PM ET): Friday sell-off (Nasdaq -2.9%, S&P -1.8%) driven mainly by AI cash-burn fears after weak Intel guidance and Amazon results plus Binance hack; Iran/Hormuz added background pressure",
+        "@1Captainjackson (~8:08 PM ET): Oil/Hormuz risk vs AI unwind; Dec hike odds still ~70%+; WTI ~$104, Brent ~$113"
+      ],
+      "trump": "none",
+      "watch": "Weekend Iran/Hormuz tanker headlines and Sunday 6 PM ET futures open; AAPL AMC Mon Nov 2; midterms Tue Nov 3; residual Dec hike odds and any Fed commentary.",
+      "forSite": []
+    },
+    {
+      "at": "2026-10-31T00:22:28Z",
+      "pulse": "NQ futures sit near Friday's lows after a ~2.9% Nasdaq drop on AI capex/ROI fears (INTC -29%, AMZN, GOOGL), with fresh weekend risk from reports of US strikes on Iran as soon as Nov 4; a US-Iran draft negotiation framework is the only offset.",
+      "bias": "risk-off — AI cash-burn worries (OpenAI trimming its raise target) plus Iran strike prep and Hormuz oil keep pressure on tech into Sunday's open; Iran-talks headlines are the main upside risk.",
+      "items": [
+        "@DeItaone (~6:34 PM ET): US reportedly preparing short, intense Iran strikes as early as Nov 4, day after midterms (MS NOW) — Bearish NQ",
+        "@FirstSquawk (~8:13 PM ET): OpenAI cuts funding target by $10B on tech-sector concerns, now seeks ~$20B at $1.25T valuation (FT) — Bearish NQ",
+        "@FirstSquawk (~8:11 PM ET): Al Arabiya obtains draft framework mediators are discussing for US-Iran negotiations — Bullish NQ",
+        "@WatcherGuru (~4:36 PM ET): AAPL ($5.0T) passes NVDA ($4.9T) as world's most valuable company after NVDA's ~4-5% drop below its 200-day — Mixed NQ",
+        "@LiveSquawk (~5:18 PM ET): Alphabet said to be in talks with DoD on Golden Dome work $GOOGL — Mixed NQ"
+      ],
+      "trump": "@FirstSquawk (~8:21 PM ET): Trump says US forces have been deployed across areas surrounding Iran (Al Arabiya); earlier at the White House he called it 'a war, but not a typical war' and said Venezuela oil gains offset its cost, with Qatari-mediated talks ongoing.",
+      "watch": "Weekend Iran/Hormuz and strike headlines into Sunday 6 PM ET futures open; AAPL and PLTR AMC Mon Nov 2; midterms Tue Nov 3 (reported strike window Nov 4); AMD, SHOP, UBER later in the week; NFP Fri Nov 6; NVDA Nov 17.",
+      "forSite": []
+    },
+    {
+      "at": "2026-10-31T02:06:44Z",
+      "pulse": "Nasdaq closed down nearly 3% on AI capex and free-cash-flow fears after Intel's record drop and Amazon results, while oil stayed elevated on repeated Hormuz tanker incidents and fresh reports of possible US strikes on Iran as early as Nov 4.",
+      "bias": "risk-off — AI spending sustainability doubts and Middle East oil/Iran escalation risks keep pressure on tech and risk assets into the weekend.",
+      "items": [
+        "@GlobalFinNet (~10:04 PM ET): AI spending binge crushed Wall Street; Nasdaq fell nearly 3% today, Intel crashed ~29%, Big Tech plans $700B+ AI spend this year",
+        "@fgchiu (~10:04 PM ET): Market only asking if AI earnings cover the spend; GOOGL FCF negative, AMZN 12m FCF -$42B, INTC -28.6% worst day since 1974, Nasdaq Oct -5.3%",
+        "@houseperu (~10:04 PM ET): Gulf officials say US warned attacks on Iran could start Nov 4; Qatar spent >12 hours in Tehran Friday trying to stop them",
+        "@MarioNawfal (~10:01 PM ET): WSJ: Iran hit 274 buildings on 24 US bases in six months; base damage estimated $5-15B on top of $47B war bill",
+        "@FirstSquawk (earlier ~8:21 PM ET): Trump says US forces deployed across areas surrounding Iran; 'there are talks' ongoing via mediators"
+      ],
+      "trump": "@FirstSquawk (~8:21 PM ET): Trump says US forces have been deployed across areas surrounding Iran (Al Arabiya); he has said 'there are talks' and called it 'a war, but not a typical war'.",
+      "watch": "Weekend Iran/Hormuz strike or talks headlines into Sunday 6 PM ET futures open; AAPL and PLTR AMC Mon Nov 2; midterms Tue Nov 3 (reported strike window Nov 4); residual Dec hike odds and any Fed speak.",
+      "forSite": []
+    },
+    {
+      "at": "2026-10-31T02:20:35Z",
+      "pulse": "NQ heads into the weekend after a ~2.9% Nasdaq drop on AI capex/FCF fears (INTC -29%, AMZN, GOOGL), with weak China PMIs and US-Iran strike talk adding pressure; only offset is oversold bounce odds and a weekend for headlines to cool.",
+      "bias": "risk-off — AI spending doubts, China factory contraction and Iran strike risk (CL ~$100+) outweigh oversold-bounce hopes into Sunday 6 PM ET futures open.",
+      "items": [
+        "@FirstSquawk (~9:30 PM ET): China official Oct factory PMI 49.3 (Sep 50.1), non-mfg 49.7 (from 50.2), composite 49.7 in contraction — Bearish NQ",
+        "X News (~9:46 PM ET): Reports US could strike Iran as early as Nov 4, right after Election Day; Gulf states urging de-escalation, more carriers in region — Bearish NQ",
+        "X News (~8:56 PM ET): S&P 500 closed 7,580.07 (-1.82%), Nasdaq Comp -2.9% (worst since June), NDX in correction for 3rd time in 2026 — Bearish NQ",
+        "@FirstSquawk (~9:24 PM ET): Alaska Air CEO warns of possible $700M loss on rising fuel prices and geopolitics; oil stress spreading to earnings — Bearish NQ",
+        "X News (~4:57 PM ET): Apple and Palantir report Mon AMC, then AMD, Shopify, Uber later in the week plus Fri jobs report — Mixed NQ"
+      ],
+      "trump": "Reports say Trump pledged no attack on Iran before the Nov 3 vote and said the war is near an end, while CENTCOM strike options for as early as Nov 4 were briefed to Gulf allies; earlier (~8:21 PM ET via @FirstSquawk) he said US forces are deployed around Iran and 'there are talks'.",
+      "watch": "Weekend Iran/Hormuz headlines; Sun 6 PM ET futures open; Sun 8:45 PM ET China Caixin mfg PMI; Mon 10:00 AM ET ISM Manufacturing; Mon AMC AAPL, PLTR; Tue Nov 3 Election Day; possible Iran strikes from Nov 4; AMD, SHOP, UBER later in week; Fri 8:30 AM ET jobs report.",
+      "forSite": []
+    }
+  ]
 }
