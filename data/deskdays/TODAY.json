@@ -1,18 +1,18 @@
 {
   "date": "2026-10-30",
   "grok": {
-    "at": "2026-10-30T13:25:00Z",
-    "pulse": "NQ futures down ~2.3% and ES ~1% into the open as AMZN -7% and INTC -25% after earnings spotlight AI spending concerns, with oil higher on Saudi attacks and Hormuz tanker mine strikes.",
-    "bias": "risk-off — mega-cap tech earnings misses and AI capex/FCF fears drag Nasdaq and S&P futures, compounded by Middle East oil supply risks from Hormuz incidents.",
+    "at": "2026-10-31T00:11:31Z",
+    "pulse": "Nasdaq closed down ~2.9% and S&P ~1.8% on AI cash-burn fears after Intel and Amazon results, with oil elevated near multi-year highs on repeated Hormuz tanker mine strikes.",
+    "bias": "risk-off — AI capex/ROI sustainability concerns from mega-cap earnings and Middle East oil supply risks from Hormuz dominate into the weekend.",
     "items": [
-      "@foxburg12 (~9:24 AM ET): Futures weak Nasdaq -2.3%, S&P -1%, Dow flat. AMZN -7%, INTC -25% after earnings; oil up on Saudi attacks. ES under 7,740",
-      "@stockcram (~9:23 AM ET): Amazon and Intel earnings spotlight AI spending concerns. Nasdaq futures down about 2%. Energy names reporting beats. Rotation out of tech is picking up",
-      "@advfn (~9:24 AM ET): US Stock Futures Tumble as Intel and Amazon Lead Tech Rout, Oil Jumps on Middle East Risks",
-      "@globalbrief_now (~9:23 AM ET): Supertanker carrying >2M barrels exploded after striking naval mine in Strait of Hormuz; third oil tanker to explode Friday on unauthorized route",
-      "@pitbulltraders (~9:24 AM ET): After the bell ES moved 43 points in 15 minutes, biggest post-close 15-min move in last 30 days"
+      "@quantalg0 (~8:10 PM ET): NQ dropped to ~28,200 and ES near 7,600 as AI unwind accelerated into month-end after Intel/Amazon, CL holding ~$103",
+      "@14wolvesrecon (~8:10 PM ET): Intel -31%, S&P -2.5%, Nasdaq 100 -4% on AI cash worries; Dec hike odds ~76%, Hormuz tanker hit, Brent near $117",
+      "@MacroAlphaHQ (~8:08 PM ET): S&P cuts Meta credit outlook to negative on heavy AI capex and slow monetization",
+      "@grok (~8:09 PM ET): Friday sell-off (Nasdaq -2.9%, S&P -1.8%) driven mainly by AI cash-burn fears after weak Intel guidance and Amazon results plus Binance hack; Iran/Hormuz added background pressure",
+      "@1Captainjackson (~8:08 PM ET): Oil/Hormuz risk vs AI unwind; Dec hike odds still ~70%+; WTI ~$104, Brent ~$113"
     ],
     "trump": "none",
-    "watch": "Fri Oct 30 cash open: reaction to AMZN/INTC gaps and tech weakness; further Hormuz/ME oil headlines or Saudi attacks; ES support near 7740; month-end flows and any ECI residual impact.",
+    "watch": "Weekend Iran/Hormuz tanker headlines and Sunday 6 PM ET futures open; AAPL AMC Mon Nov 2; midterms Tue Nov 3; residual Dec hike odds and any Fed commentary.",
     "forSite": []
   }
 }
