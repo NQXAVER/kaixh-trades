@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-30",
-  "at": "2026-10-31T02:20:35Z",
+  "date": "2026-10-31",
+  "at": "2026-10-31T11:23:16Z",
   "items": [
     {
       "ticker": "XOM",
@@ -124,7 +124,7 @@
       "date": "2026-11-02",
       "when": "AMC",
       "status": "upcoming",
-      "why": "Mag7 print; iPhone and services guide"
+      "why": "Mag7 print Mon AMC (5 PM ET call); consensus EPS ~$1.98 vs $1.85 yr ago; iPhone and services guide"
     },
     {
       "ticker": "IREN",
@@ -140,7 +140,39 @@
       "date": "2026-11-02",
       "when": "AMC",
       "status": "upcoming",
-      "why": "AI software bellwether reports after Monday's close alongside AAPL"
+      "why": "AI software bellwether Mon AMC (5 PM ET call); consensus EPS ~$0.33 vs $0.18 yr ago"
+    },
+    {
+      "ticker": "SHOP",
+      "company": "Shopify (SHOP)",
+      "date": "2026-11-03",
+      "when": "BMO",
+      "status": "upcoming",
+      "why": "Confirmed Tue BMO, 8:30 AM ET call; consensus EPS ~$0.33"
+    },
+    {
+      "ticker": "AMD",
+      "company": "AMD (AMD)",
+      "date": "2026-11-03",
+      "when": "AMC",
+      "status": "upcoming",
+      "why": "Week's big chip print, Tue AMC 5 PM ET call; guided Q3 rev ~$13B +/- $300M; consensus EPS ~$1.68"
+    },
+    {
+      "ticker": "ANET",
+      "company": "Arista Networks (ANET)",
+      "date": "2026-11-03",
+      "when": "AMC",
+      "status": "upcoming",
+      "why": "AI networking read Tue AMC; consensus EPS ~$0.99"
+    },
+    {
+      "ticker": "UBER",
+      "company": "Uber (UBER)",
+      "date": "2026-11-04",
+      "when": "BMO",
+      "status": "upcoming",
+      "why": "Confirmed Wed BMO, 8 AM ET call; gross bookings guide $58.25-60.25B"
     }
   ]
 }

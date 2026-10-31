@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-31",
+  "grok": {
+    "date": "2026-10-31",
+    "at": "2026-10-31T11:23:16Z",
+    "pulse": "NQ sits on Friday's -2.9% Nasdaq rout (AI capex/FCF fears, NVDA -4%) with a weekend Iran escalation tone as Khamenei orders a target list of 'all US and Israeli assets' after a US Navy strike on boats near Qeshm; offset is Qatar-brokered US-Iran talks moving to Doha and oversold-bounce odds into Sunday's open.",
+    "bias": "risk-off — Iranian escalation rhetoric, Hormuz incident and post-midterm strike plans keep CL bid and pressure NQ after a correction week; Doha talks are the only real offset before Sun 6 PM ET futures open.",
+    "items": [
+      "@FirstSquawk (~6:41 AM ET): Khamenei orders armed forces to update target list to bring 'all US and Israeli assets' within range, orders 'geographically unrestricted response' to any threat — Bearish NQ",
+      "@FirstSquawk (~5:39 AM ET): Tasnim says US Navy attacked Iranian fishing boats near Qeshm (Hormuz); Saudi civil defense alerts in Najran/Jizan overnight — Bearish NQ",
+      "@FirstSquawk (~2:32 AM ET): Qatari mediators held 12+ hrs of talks in Tehran to revive US-Iran negotiations; X News (~7:00 AM ET) says Iranian team headed to Doha, possible US delegation — Bullish NQ",
+      "@FirstSquawk (~7:02 AM ET): Russia extends diesel export ban through January; Ukraine hits Ufa refinery — Bearish NQ (energy/inflation)",
+      "X News (~9:06 PM ET Fri): NVDA -4% to $204.64 Fri on AI spending worries, testing 200-day ~$204; NVDA earnings Nov 17 — Bearish NQ"
+    ],
+    "trump": "No new Trump posts overnight; at Fri's Daytona rally he said the US can't afford daycare/Medicaid/Medicare 'We're fighting wars. It's not possible', while senators were briefed on post-Nov 3 strike plans on Iranian missile and energy sites.",
+    "watch": "Weekend Iran/Hormuz and Doha-talks headlines; Sun 6 PM ET futures open; Sun 8:45 PM ET China Caixin mfg PMI; Mon 10:00 AM ET ISM Manufacturing; Mon AMC AAPL, PLTR; Tue Nov 3 Election Day, SHOP BMO, AMD/ANET AMC; Wed UBER BMO; possible Iran strikes from Nov 4; Fri 8:30 AM ET jobs report.",
+    "forSite": [],
+    "reports": [
+      {
+        "at": "2026-10-31T11:23:16Z",
+        "pulse": "NQ sits on Friday's -2.9% Nasdaq rout (AI capex/FCF fears, NVDA -4%) with a weekend Iran escalation tone as Khamenei orders a target list of 'all US and Israeli assets' after a US Navy strike on boats near Qeshm; offset is Qatar-brokered US-Iran talks moving to Doha and oversold-bounce odds into Sunday's open.",
+        "bias": "risk-off — Iranian escalation rhetoric, Hormuz incident and post-midterm strike plans keep CL bid and pressure NQ after a correction week; Doha talks are the only real offset before Sun 6 PM ET futures open.",
+        "items": [
+          "@FirstSquawk (~6:41 AM ET): Khamenei orders armed forces to update target list to bring 'all US and Israeli assets' within range, orders 'geographically unrestricted response' to any threat — Bearish NQ",
+          "@FirstSquawk (~5:39 AM ET): Tasnim says US Navy attacked Iranian fishing boats near Qeshm (Hormuz); Saudi civil defense alerts in Najran/Jizan overnight — Bearish NQ",
+          "@FirstSquawk (~2:32 AM ET): Qatari mediators held 12+ hrs of talks in Tehran to revive US-Iran negotiations; X News (~7:00 AM ET) says Iranian team headed to Doha, possible US delegation — Bullish NQ",
+          "@FirstSquawk (~7:02 AM ET): Russia extends diesel export ban through January; Ukraine hits Ufa refinery — Bearish NQ (energy/inflation)",
+          "X News (~9:06 PM ET Fri): NVDA -4% to $204.64 Fri on AI spending worries, testing 200-day ~$204; NVDA earnings Nov 17 — Bearish NQ"
+        ],
+        "trump": "No new Trump posts overnight; at Fri's Daytona rally he said the US can't afford daycare/Medicaid/Medicare 'We're fighting wars. It's not possible', while senators were briefed on post-Nov 3 strike plans on Iranian missile and energy sites.",
+        "watch": "Weekend Iran/Hormuz and Doha-talks headlines; Sun 6 PM ET futures open; Sun 8:45 PM ET China Caixin mfg PMI; Mon 10:00 AM ET ISM Manufacturing; Mon AMC AAPL, PLTR; Tue Nov 3 Election Day, SHOP BMO, AMD/ANET AMC; Wed UBER BMO; possible Iran strikes from Nov 4; Fri 8:30 AM ET jobs report.",
+        "forSite": []
+      }
+    ]
+  }
+}
