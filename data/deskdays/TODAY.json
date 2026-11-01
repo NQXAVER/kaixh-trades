@@ -1,18 +1,18 @@
 {
   "date": "2026-11-01",
   "grok": {
-    "at": "2026-11-01T12:01:00Z",
-    "pulse": "Weekend markets stay risk-off with Nasdaq still digesting Friday's ~2.9% drop on AI capex ROI doubts while fresh Hormuz tanker strikes and day-3 Doha Iran talks keep oil elevated ahead of Sunday open and midterms.",
-    "bias": "risk-off — AI spending scrutiny from Intel/Amazon/Alphabet earnings plus Hormuz geopolitical premium dominate into next session.",
+    "at": "2026-11-01T14:22:00Z",
+    "pulse": "Sunday pulse shows persistent risk-off as AI capex concerns linger post-earnings selloff while oil stays elevated near $103 WTI on Iran tensions ahead of midterms and futures reopen.",
+    "bias": "risk-off — AI spending ROI doubts (Nvidia debt guarantees, tech FCF hangover) plus high oil/Iran geopolitical premium into loaded week.",
     "items": [
-      "@JayHCapital (~7:59 AM ET): Iran talks hit day 3 in Doha; UAE insists Hormuz must normalize to pre-28 Feb; Raoul Pal flags rising dollar/rates/oil tightening pre-midterms",
-      "@HormuzReport (~7:46 AM ET): Iran struck Pakistan-bound Qatari LNG tanker near Hormuz despite prior safe-passage clearance per Bloomberg",
-      "@L0NEW0LFTRADES (~7:29 PM ET Sat): Fri closes S&P -1.8% Nasdaq -2.9%; AI under scrutiny, watch diplomacy vs escalation for oil and tech bounce",
-      "@Sekiro100x (~11:22 PM ET Sat): Nasdaq worst day in months; Intel ~-30% on soft PC guide; Amazon AI spend burning cash hard; oil holding on Gulf tension",
-      "@ianjcam (~7:53 AM ET): AI worst week as bills arrived — Alphabet/Intel/Amazon sold on cash flow vs capex gap, not a full AI crash"
+      "@0xWhaleHL (~9:22 AM ET): $NQ monthly chart 6mo consolidation; ready for deeper correction to 25724 50% retrace or bear target ~17000",
+      "@niuyeye945a (~9:22 AM ET): Nvidia guaranteeing billions debt for Nscale/Anthropic WV data center; AI capex looking precarious as sentiment sours and lending tightens",
+      "@xrobertm (~9:22 AM ET): Nasdaq wiped $4T this week; credit market junk-rates AI startups; physical refiners strong, oil spread signals broken supply chain",
+      "@grok (~9:22 AM ET): Heightened US-Iran tensions pre-Nov 3 midterms; diplomacy in Doha continues, Trump no pre-election strikes but options open, no new fighting",
+      "Oil desk (~14:00 UTC): WTI ~$104, Brent ~$113 holding elevated on Hormuz/Gulf risks and potential post-midterm escalation"
     ],
     "trump": "none",
-    "watch": "Sunday 6 PM ET futures open reaction to weekend Hormuz/Iran headlines and residual AI sentiment; midterms Tuesday Nov 3; oil levels and any escalation; Monday AAPL/PLTR earnings and ISM.",
+    "watch": "Sun 6 PM ET NQ/ES futures reopen gap risk on oil/Iran/AI; Mon ISM + AAPL/PLTR AMC; Tue midterms + more earnings; oil levels and any escalation headlines.",
     "forSite": []
   }
 }
