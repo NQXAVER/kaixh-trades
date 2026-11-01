@@ -2,18 +2,18 @@
   "date": "2026-10-31",
   "grok": {
     "date": "2026-10-31",
-    "at": "2026-10-31T20:21:20Z",
-    "pulse": "NQ weekend tape still nursing Friday's -2.9% Nasdaq rout into Sun 6 PM ET open; Iran talk tone improved (Rubio 'open to a diplomatic solution', Iran NSC chief calls Vance letter tone 'a good sign'), offset by another Hormuz tanker mine fire and Axios reporting Trump could strike Iran after a Nov 3 midterm loss.",
-    "bias": "mixed — Qatar-mediated Doha progress and softer US/Iran rhetoric lift de-escalation odds, but fresh Hormuz mine hits, post-midterm strike chatter and a heavy week (AAPL/PLTR Mon, AMD Tue, ARM/QCOM Wed, election Tue, jobs Fri) keep CL risk and NQ two-way.",
+    "at": "2026-11-01T00:20:28Z",
+    "pulse": "NQ weekend tape still carries Friday's -2.86% Nasdaq Comp (25,437, worst month since Mar 2025) into Sun 6 PM ET open; Iran headlines turned hawkish again with a third US carrier reportedly heading toward Iran and Tehran banning a major S. Korean tanker operator from Nov 1, offset by Bessent saying non-Iranian Hormuz flows are back to normal and OPEC+ holding output steady.",
+    "bias": "mixed — Hormuz-flow normalization claims and steady OPEC+ ease CL pressure, but carrier buildup, Iran shipping bans and post-Nov 3 strike chatter keep oil spike risk alive into a heavy AAPL/PLTR/AMD + election + jobs week.",
     "items": [
-      "@FirstSquawk (~12:41 PM ET): Rubio: US 'open to a diplomatic solution' with Iran; Trump has not decided on military action; no timeline for Qatar-led talks — Bullish NQ",
-      "@FirstSquawk (~2:23 PM ET): Iran NSC Secretary: reviewed Vance letter, not answered yet, US tone 'completely changed' and 'a good sign'; no new decision on nuclear doctrine — Bullish NQ",
-      "@DeItaone (~1:05 PM ET): Iran navy says oil tanker on fire in Strait of Hormuz after hitting naval mines (state media); Iran army warns a new war would not stay in West Asia (~2:23 PM ET) — Bearish NQ (CL bid)",
-      "X News (~4:11 PM ET): Axios: US official says Trump may launch a major Iran operation if GOP loses big on Nov 3; White House denies midterms drive decisions; prediction markets ~90% Dem House, ~70% Senate — Bearish NQ",
-      "@WatcherGuru (~10:38 AM ET) / @DeItaone: Binance says 90% of $6.3B hack losses replenished, withdrawals back Sun Nov 1; October recap: INTC -45%, AMD -17.5%, MU -17%, META -15%, NVDA -10% — Mixed NQ"
+      "@FirstSquawk (~7:59 PM ET): Daily Mail: Trump deploys third aircraft carrier toward Iran — Bearish NQ (CL bid)",
+      "@zerohedge (~5:00 PM ET): Iran issues Nov 1 blanket ban on South Korean tanker giant moving ~1/3 of Persian Gulf oil exports — Bearish NQ (oil)",
+      "X News (~7:54 PM ET update): Bessent says Hormuz oil transit back to pre-conflict levels ex-Iran, 1.5B bbl escorted; Brent still ~$113 — Mixed NQ",
+      "Reuters (~6:20 PM ET): OPEC+ agrees in principle to keep December output targets steady — Mixed NQ",
+      "@WatcherGuru (~5:30 PM ET): FBI confirms North Korea behind $6.3B Binance hack; Binance withdrawals reopen Sun — Mixed NQ (crypto-equity risk)"
     ],
-    "trump": "No market posts today, only midterm TeleRallies (PA, OH, FL, NY, MI). From Fri's Florida rally: on oil 'We're making a freaking fortune' and Venezuela gains covered Iran war costs; Rubio (~12:41 PM ET) says Trump has not decided on Iran strikes, with no action expected before Nov 3.",
-    "watch": "Weekend Doha/Qatar talks and Hormuz headlines; Binance withdrawals reopen Sun; Sun 6 PM ET futures open; Sun 8:45 PM ET China Caixin mfg PMI; Mon 10:00 AM ET ISM Manufacturing; Mon AMC AAPL, PLTR; Tue Nov 3 Election Day, SHOP BMO, AMD/ANET AMC; Wed UBER BMO, ARM/QCOM/APP AMC; possible Iran strikes from Nov 4; Thu IREN AMC; Fri 8:30 AM ET jobs report.",
+    "trump": "No market-moving posts; only a Michigan TeleRally plug (~4:20 PM ET). Daily Mail (~7:59 PM ET via @FirstSquawk) says he is sending a third carrier toward Iran; Rubio earlier said no decision on strikes and diplomacy continues via Qatar.",
+    "watch": "Weekend Doha/Qatar talks, carrier and Hormuz headlines; Binance withdrawals reopen Sun; Sun 6 PM ET futures open; Sun 8:45 PM ET China Caixin mfg PMI; Mon 10:00 AM ET ISM Manufacturing; Mon AMC AAPL, PLTR; Tue Nov 3 Election Day, SHOP BMO, AMD/ANET AMC; Wed UBER BMO, ARM/QCOM/APP AMC; possible Iran strikes from Nov 4; Thu IREN AMC; Fri 8:30 AM ET jobs report.",
     "forSite": [],
     "reports": [
       {
@@ -59,6 +59,21 @@
         ],
         "trump": "No market posts today, only midterm TeleRallies (PA, OH, FL, NY, MI). From Fri's Florida rally: on oil 'We're making a freaking fortune' and Venezuela gains covered Iran war costs; Rubio (~12:41 PM ET) says Trump has not decided on Iran strikes, with no action expected before Nov 3.",
         "watch": "Weekend Doha/Qatar talks and Hormuz headlines; Binance withdrawals reopen Sun; Sun 6 PM ET futures open; Sun 8:45 PM ET China Caixin mfg PMI; Mon 10:00 AM ET ISM Manufacturing; Mon AMC AAPL, PLTR; Tue Nov 3 Election Day, SHOP BMO, AMD/ANET AMC; Wed UBER BMO, ARM/QCOM/APP AMC; possible Iran strikes from Nov 4; Thu IREN AMC; Fri 8:30 AM ET jobs report.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-01T00:20:28Z",
+        "pulse": "NQ weekend tape still carries Friday's -2.86% Nasdaq Comp (25,437, worst month since Mar 2025) into Sun 6 PM ET open; Iran headlines turned hawkish again with a third US carrier reportedly heading toward Iran and Tehran banning a major S. Korean tanker operator from Nov 1, offset by Bessent saying non-Iranian Hormuz flows are back to normal and OPEC+ holding output steady.",
+        "bias": "mixed — Hormuz-flow normalization claims and steady OPEC+ ease CL pressure, but carrier buildup, Iran shipping bans and post-Nov 3 strike chatter keep oil spike risk alive into a heavy AAPL/PLTR/AMD + election + jobs week.",
+        "items": [
+          "@FirstSquawk (~7:59 PM ET): Daily Mail: Trump deploys third aircraft carrier toward Iran — Bearish NQ (CL bid)",
+          "@zerohedge (~5:00 PM ET): Iran issues Nov 1 blanket ban on South Korean tanker giant moving ~1/3 of Persian Gulf oil exports — Bearish NQ (oil)",
+          "X News (~7:54 PM ET update): Bessent says Hormuz oil transit back to pre-conflict levels ex-Iran, 1.5B bbl escorted; Brent still ~$113 — Mixed NQ",
+          "Reuters (~6:20 PM ET): OPEC+ agrees in principle to keep December output targets steady — Mixed NQ",
+          "@WatcherGuru (~5:30 PM ET): FBI confirms North Korea behind $6.3B Binance hack; Binance withdrawals reopen Sun — Mixed NQ (crypto-equity risk)"
+        ],
+        "trump": "No market-moving posts; only a Michigan TeleRally plug (~4:20 PM ET). Daily Mail (~7:59 PM ET via @FirstSquawk) says he is sending a third carrier toward Iran; Rubio earlier said no decision on strikes and diplomacy continues via Qatar.",
+        "watch": "Weekend Doha/Qatar talks, carrier and Hormuz headlines; Binance withdrawals reopen Sun; Sun 6 PM ET futures open; Sun 8:45 PM ET China Caixin mfg PMI; Mon 10:00 AM ET ISM Manufacturing; Mon AMC AAPL, PLTR; Tue Nov 3 Election Day, SHOP BMO, AMD/ANET AMC; Wed UBER BMO, ARM/QCOM/APP AMC; possible Iran strikes from Nov 4; Thu IREN AMC; Fri 8:30 AM ET jobs report.",
         "forSite": []
       }
     ]
