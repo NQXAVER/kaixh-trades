@@ -1,0 +1,99 @@
+{
+ "weekStart": "2026-10-26",
+ "weekEnd": "2026-10-30",
+ "updatedAt": "2026-11-01T17:30:04Z",
+ "best": {
+  "date": "2026-10-27",
+  "title": "Patient retrace long from the 5min OTE at D OPEN",
+  "result": "Win 3.02R",
+  "trade": "Long · NY-AM · XFA x1 · entry ~29,543 · stop ~29,495 (under the swept, SMT'd internal low) · target 4hr UMG ~29,759 planned, closed at NYAM.H ~29,688",
+  "reasoning": "PRE MARKET: \"Last night gave us another bullish leg after retracing, but now I want to see us retrace again to long up to the 4hr UMG above.\"\nTALK: \"I want to see a deeper retrace on the HTF 'cus the last 2 weeks we've only dumped, and I wanna see us continue to generate liquidity for FOMC to take out. Wanted longs since MO, but I need a deep pullback to the 4hr UMG.\"\nEntry type: \"Accumulated, manipulated to the 1hr gap, got a displacement to distribute higher to NYAM.H. Depending on volume I might hold to 27,759 [29,759].\" Checklist: 0.618 rejected · swept internal low · 5min rejection block midpoint respected · 1min bullish SMT · failed to take out the low · 1min displacement. Stop: \"SMT'd low.\"\nOn the exit: \"If this trade were to sweep NYAM with volume and closed strong it would've given me more conviction to hold, but after taking a big L last week on my account I decided to play it safe and just target NYAM.H. It does look like we're going to the 4hr UMG, which does hurt a little, but I'm happy.\"\nEmotions during: \"A bit nervous, I don't want to get BE since HTF is bearish.\" After: \"Happy but upset I risked like 180 instead of 250, but I tell myself I'm thinking about the PNL way too much. But I did lock out.\"",
+  "feedback": "This is what your model looks like when you let it come to you. You wrote the plan before 9:30 (wait for the retrace, then long toward the 4hr UMG), shaded the 5min 0.5-0.618 zone (~29,480-29,520) right on D OPEN, and then waited for price to actually get there. The low printed around 10:00 at the 0.618, swept the internal low, ES and NQ split for the 1min SMT, and you entered ~29,543 only after the displacement. The stop at ~29,495 sat under the low that made the SMT, a protected low, not an internal level like Monday's. One XFA, NY-AM, one trade, locked out. Every rule on the list was followed.\nThe one leak is the exit. Your target was the 4hr UMG at ~29,759 and price went there, but you closed everything at NYAM.H (~29,688) because the 1min volume faded and last week's loss was in your head. By your own hold rule (it swept NYAM.H and didn't consolidate, and the HTF draw was still above), this was a hold. That's about 1.5R left on the table on a trade you read correctly. Next time decide in pre-market, before entry, either full size to the DOL or a set partial at NYAM.H with a runner, and write the close condition down (consolidation or rejection after the sweep) so the exit comes from the chart, not from nerves. Keep the size fixed at your $250 too, so fear isn't choosing it.",
+  "good": [
+   "Plan written before the open and the trade matched it: wait for a retrace, then long toward the 4hr UMG.",
+   "Entry zone was pre-drawn: the 5min 0.5-0.618 (~29,480-29,520) on top of D OPEN, and price came back into it.",
+   "No entry before 10:00; you waited for the internal-low sweep, the 1min SMT and the displacement before buying ~29,543.",
+   "Stop ~29,495 under the swept, SMT'd low: a protected level.",
+   "One XFA account, NY-AM only, one trade, then locked out. No copy trading, no new evals."
+  ],
+  "fix": [
+   "Exit vs plan: target was the 4hr UMG ~29,759, you closed at NYAM.H ~29,688 on fading 1min volume. Price kept going to the target.",
+   "Decide the exit before entry: full size to the DOL, or a pre-planned partial at NYAM.H with a runner. Not a feeling mid-trade.",
+   "Write the close condition in advance (consolidation or rejection after the NYAM.H sweep); otherwise you hold.",
+   "Keep risk fixed at $250 on A setups. Shrinking to ~$180 because of last week's loss is fear choosing your size.",
+   "Log the stop as a price (~29,495), not just \"SMT'd low\", so the R can be checked from your own numbers."
+  ],
+  "screenshots": [
+   {
+    "label": "TimeFrame 1 · 4hr ES + NQ (9:27 AM)",
+    "src": "data/weekly/2026-10-26/best-1.png",
+    "note": "The 29,759 4hr UMG sits at about the 0.705 of the ~30,080 to ~28,975 leg, so the long was into premium of a bearish 4hr leg, which explains the nerves holding it."
+   },
+   {
+    "label": "TimeFrame 2 · 1hr ES + NQ (9:27 AM)",
+    "src": "data/weekly/2026-10-26/best-2.png",
+    "note": "ES and NQ were both pushing into PD-H after a strong overnight bullish leg off PD-EQ, so a retrace before continuation was a reasonable read."
+   },
+   {
+    "label": "TimeFrame 3 · 15m ES + NQ (9:27 AM)",
+    "src": "data/weekly/2026-10-26/best-3.png",
+    "note": "NQ had taken AS.H and poked above PD-H, then dipped back under it; D OPEN (~29,490) and LO.H underneath are exactly where the retrace ended."
+   },
+   {
+    "label": "TimeFrame 4 · 5min ES + NQ (9:28 AM)",
+    "src": "data/weekly/2026-10-26/best-4.png",
+    "note": "Best prep chart of the day: the 0.5-0.618 zone (~29,480-29,520) was shaded on top of D OPEN before the open, and price came back into it."
+   },
+   {
+    "label": "Execution · 1min NQ + ES (10:39 AM)",
+    "src": "data/weekly/2026-10-26/best-5.png",
+    "note": "Entry ~29,543, stop ~29,495 under the internal low swept at the 0.618 around 10:00, with the box still running to ~29,760; the chart shows the sweep, 1min SMT and displacement you listed."
+   }
+  ]
+ },
+ "worst": {
+  "date": "2026-10-26",
+  "title": "10:00 range short on 3 evals with an internal stop",
+  "result": "Loss -$1.2k (3 evals)",
+  "trade": "Short · NY-AM · Eval x3 · entry ~29,200 at 10:00 · stop ~29,252 (just above the 1min EQ) · target London low ~29,025",
+  "reasoning": "PRE MARKET: \"We're ranging coming out of the daily bearish FVG. I want to see ES sweep PDL, but since NQ swept and tapped PDH/Daily bearish UMG we formed bearish SMT at the external high. I'm expecting this range to send us lower, but for me I would only target internal liquidity.\"\nEntry type: \"Bearish SMT at the internal highs, respected EQ on the 1min, respected 1min bearish FVG.\" DOL: London low.\nTALK: \"SMT at external high (PDH). ES swept MO high and all the other highs except PDH. I'm remaining bearish due to HTF bearish gap. We got nice lows to target on the HTF; we also inversed the 1hr bullish FVG once 10am hit. Looks like we're rejecting 10am open.\"\nEmotions: \"calmmmm\" before, calm during and after.",
+  "feedback": "Your read wasn't crazy. NQ tagging PD-H (~29,320) and the bottom of the 4hr bearish gap while ES stayed under its PD-H was a real bearish SMT, and you waited for 10:00 instead of jumping in early. But the trade broke the plan you wrote 40 minutes earlier. You said internal targets only, then aimed at the London low (~29,025), an external low on the other side of a range about 175 points away. Your stop at ~29,252 sat at the 0.5 of your 1min fib, not above the ~29,300 high that started the leg, so it was an internal level. You told me afterwards you knew it wasn't protected. Price took it within about 10 minutes and then ripped ~300 points up to ~29,560, so the range broke up, not down. And it ran on 3 evals at once, so one idea cost $1.2k instead of ~$400. On a no-news Monday in FOMC week with the HTF in a range, as AB said, the best trade was probably no trade.\nThe positive: one loss and you stopped, no revenge entries in the NY session. The pattern to watch is what came later in the week. On the night of Oct 29-30 you traded the Asia session on several copied accounts after a frustrating day, and that blew an XFA and an eval. It isn't journaled with charts, so it isn't the pick here, but it's the same chain as Monday: off-plan accounts, more than one account per idea, trading to make something back. Keep it simple: NY only, one account, stop above the high that started the leg, target and exit decided before entry, and if the only stop available is internal, there's no trade yet.",
+  "good": [
+   "Clear HTF read written before the open: ranging out of the daily bearish FVG, NQ tapped PD-H/bearish UMG while ES didn't (bearish SMT at the external high).",
+   "Waited for the 10:00 open instead of entering in the minutes before it.",
+   "Bias matched the HTF story: bearish 4hr gap above, price under it.",
+   "Clean 15m prep: PD-H/EQ/L, session highs and lows, D OPEN and the 10:00 line all marked.",
+   "One loss and you stopped. No revenge entries in the NY session, and you logged AB's feedback in detail the same day."
+  ],
+  "fix": [
+   "Target broke your own plan: pre-market said internal liquidity only, but the DOL was the London low (~29,025), external and ~175 pts away inside a range.",
+   "Stop ~29,252 sat at the 1min EQ/0.5, below the ~29,300 high that started the leg. Not protected, and gone in ~10 minutes.",
+   "One idea on 3 evals turned a ~$400 loss into $1.2k. One account per idea, and trade the XFA, not new evals.",
+   "Day selection: no-news Monday, FOMC week, HTF ranging. That's a size-down or sit-out day; \"looks like we're rejecting 10am open\" was a guess, not a confirmed rejection.",
+   "Your Discord EOD said \"no trades\" and \"Rules Followed: Yes\". The check-in has to match what actually happened.",
+   "Fill in StopLoss with the price (~29,252) so the trade can be graded from your own numbers."
+  ],
+  "screenshots": [
+   {
+    "label": "TimeFrame 1 · 1hr ES + NQ (9:22 AM)",
+    "src": "data/weekly/2026-10-26/worst-1.png",
+    "note": "NQ wicked through PD-H (~29,320) while ES stayed under its PD-H (~7,712), which is the bearish SMT, but both sat in the top half of a range, not a breakdown."
+   },
+   {
+    "label": "TimeFrame 2 · 4hr ES + NQ (9:23 AM)",
+    "src": "data/weekly/2026-10-26/worst-2.png",
+    "note": "The 4hr bearish gap (~29,330 to ~29,720) is marked and NQ tapped its bottom edge, while price had chopped between PD-L and PD-H for days, so Range was the right tag."
+   },
+   {
+    "label": "TimeFrame 3 · 15m ES + NQ (9:23 AM)",
+    "src": "data/weekly/2026-10-26/worst-3.png",
+    "note": "Best chart of the set, and it shows the London low (~29,030) and PD-L sitting about 300 points below, a big ask from inside a range on an internal-targets-only morning."
+   },
+   {
+    "label": "Execution · 1min NQ + ES (10:10 AM)",
+    "src": "data/weekly/2026-10-26/worst-4.png",
+    "note": "Entry ~29,200, stop ~29,252 at the 0.5 of the ~29,300 to ~29,190 fib rather than above the 1.0 high, and by 10:10 NQ was back over D OPEN at ~29,268 and the stop was gone."
+   }
+  ]
+ }
+}
