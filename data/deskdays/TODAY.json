@@ -1,18 +1,18 @@
 {
-  "date": "2026-10-30",
+  "date": "2026-11-01",
   "grok": {
-    "at": "2026-10-31T00:11:31Z",
-    "pulse": "Nasdaq closed down ~2.9% and S&P ~1.8% on AI cash-burn fears after Intel and Amazon results, with oil elevated near multi-year highs on repeated Hormuz tanker mine strikes.",
-    "bias": "risk-off — AI capex/ROI sustainability concerns from mega-cap earnings and Middle East oil supply risks from Hormuz dominate into the weekend.",
+    "at": "2026-11-01T12:01:00Z",
+    "pulse": "Weekend markets stay risk-off with Nasdaq still digesting Friday's ~2.9% drop on AI capex ROI doubts while fresh Hormuz tanker strikes and day-3 Doha Iran talks keep oil elevated ahead of Sunday open and midterms.",
+    "bias": "risk-off — AI spending scrutiny from Intel/Amazon/Alphabet earnings plus Hormuz geopolitical premium dominate into next session.",
     "items": [
-      "@quantalg0 (~8:10 PM ET): NQ dropped to ~28,200 and ES near 7,600 as AI unwind accelerated into month-end after Intel/Amazon, CL holding ~$103",
-      "@14wolvesrecon (~8:10 PM ET): Intel -31%, S&P -2.5%, Nasdaq 100 -4% on AI cash worries; Dec hike odds ~76%, Hormuz tanker hit, Brent near $117",
-      "@MacroAlphaHQ (~8:08 PM ET): S&P cuts Meta credit outlook to negative on heavy AI capex and slow monetization",
-      "@grok (~8:09 PM ET): Friday sell-off (Nasdaq -2.9%, S&P -1.8%) driven mainly by AI cash-burn fears after weak Intel guidance and Amazon results plus Binance hack; Iran/Hormuz added background pressure",
-      "@1Captainjackson (~8:08 PM ET): Oil/Hormuz risk vs AI unwind; Dec hike odds still ~70%+; WTI ~$104, Brent ~$113"
+      "@JayHCapital (~7:59 AM ET): Iran talks hit day 3 in Doha; UAE insists Hormuz must normalize to pre-28 Feb; Raoul Pal flags rising dollar/rates/oil tightening pre-midterms",
+      "@HormuzReport (~7:46 AM ET): Iran struck Pakistan-bound Qatari LNG tanker near Hormuz despite prior safe-passage clearance per Bloomberg",
+      "@L0NEW0LFTRADES (~7:29 PM ET Sat): Fri closes S&P -1.8% Nasdaq -2.9%; AI under scrutiny, watch diplomacy vs escalation for oil and tech bounce",
+      "@Sekiro100x (~11:22 PM ET Sat): Nasdaq worst day in months; Intel ~-30% on soft PC guide; Amazon AI spend burning cash hard; oil holding on Gulf tension",
+      "@ianjcam (~7:53 AM ET): AI worst week as bills arrived — Alphabet/Intel/Amazon sold on cash flow vs capex gap, not a full AI crash"
     ],
     "trump": "none",
-    "watch": "Weekend Iran/Hormuz tanker headlines and Sunday 6 PM ET futures open; AAPL AMC Mon Nov 2; midterms Tue Nov 3; residual Dec hike odds and any Fed commentary.",
+    "watch": "Sunday 6 PM ET futures open reaction to weekend Hormuz/Iran headlines and residual AI sentiment; midterms Tuesday Nov 3; oil levels and any escalation; Monday AAPL/PLTR earnings and ISM.",
     "forSite": []
   }
 }
