@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T13:25:18Z",
+  "updatedAt": "2026-11-01T19:40:50Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -408,38 +408,38 @@
       "auto": true
     },
     {
-      "id": "fc3599afd5504",
-      "headline": "Trump’s Push to Fire Fed Governor Lisa Cook Looms Over Warsh",
-      "source": "New York Times",
-      "url": "https://www.nytimes.com/2026/10/28/business/economy/trump-lisa-cook-warsh.html",
-      "publishedAt": "2026-10-28T18:14:16Z",
-      "time": "Wed 2:14 PM",
+      "id": "f4719b4a2576a",
+      "headline": "Home values fall for seventh consecutive month as interest rates dent demand",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/02/home-values-fall-for-seventh-month-interest-rates-dent-property-demand",
+      "publishedAt": "2026-11-01T14:00:18Z",
+      "time": "Sun 9:00 AM",
       "section": "fed",
-      "impact": "High",
+      "impact": "Medium",
       "lean": null,
       "auto": true
     },
     {
-      "id": "f31dc1d6ac7f4",
-      "headline": "How the Fed’s Interest Rate Decision Affects Credit Cards, Loans and More",
+      "id": "fa9b8a3fd6536",
+      "headline": "Wanted: New Central Bank Chief. Expertise and Political Acumen Required.",
       "source": "New York Times",
-      "url": "https://www.nytimes.com/2026/10/28/business/economy/fed-interest-rates-credit-cards-loans.html",
-      "publishedAt": "2026-10-28T18:09:22Z",
-      "time": "Wed 2:09 PM",
+      "url": "https://www.nytimes.com/2026/10/31/business/european-central-bank-lagarde-succession.html",
+      "publishedAt": "2026-10-31T04:01:06Z",
+      "time": "Sat 12:01 AM",
       "section": "fed",
-      "impact": "High",
+      "impact": "Medium",
       "lean": null,
       "auto": true
     },
     {
-      "id": "f1fd9dba15325",
-      "headline": "Federal Reserve issues FOMC statement",
+      "id": "f31606f11df4c",
+      "headline": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
       "source": "Federal Reserve",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
-      "publishedAt": "2026-10-28T18:00:00Z",
-      "time": "Wed 2:00 PM",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261029a.htm",
+      "publishedAt": "2026-10-29T20:30:00Z",
+      "time": "Thu 4:30 PM",
       "section": "fed",
-      "impact": "High",
+      "impact": "Medium",
       "lean": null,
       "auto": true
     },
@@ -564,6 +564,18 @@
       "auto": true
     },
     {
+      "id": "f192382f72931",
+      "headline": "Apple’s new earnings era begins at a critical time for Big Tech",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/apples-new-earnings-era-begins-at-a-critical-time-for-big-tech-2236a44e?mod=mw_rss_topstories",
+      "publishedAt": "2026-11-01T15:00:00Z",
+      "time": "Sun 10:00 AM",
+      "section": "tech",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "f785434d00583",
       "headline": "Amazon falls 2%, Intel dives 29%, as tech stocks sell off in post-earnings rout",
       "source": "CNBC",
@@ -672,18 +684,6 @@
       "auto": true
     },
     {
-      "id": "f5435dfff6bfd",
-      "headline": "Microsoft stock jumps 4% as cloud growth drives earnings and revenue beat",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/28/microsoft-msft-q1-earnings-report-2027.html",
-      "publishedAt": "2026-10-29T06:03:35Z",
-      "time": "Thu 2:03 AM",
-      "section": "tech",
-      "impact": "High",
-      "lean": null,
-      "auto": true
-    },
-    {
       "id": "f79f778829a14",
       "headline": "Tankers defy sharp escalation of Iranian attacks to keep crude oil flowing through Strait of Hormuz",
       "source": "CNBC",
@@ -732,6 +732,18 @@
       "auto": true
     },
     {
+      "id": "fbed584e2096e",
+      "headline": "Everything changed for the oil, AI and bond trades over the past month",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/01/oil-bond-yields-ai-market.html",
+      "publishedAt": "2026-11-01T15:58:24Z",
+      "time": "Sun 10:58 AM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "f183699115946",
       "headline": "Qatar LNG carrier struck by ‘unidentified objects’ in Gulf",
       "source": "Al Jazeera",
@@ -748,7 +760,7 @@
       "headline": "How a Little-Known Company Dominated the Persian Gulf Oil Trade",
       "source": "New York Times",
       "url": "https://www.nytimes.com/2026/11/01/business/sinokor-oil-tankers-strait-hormuz-shipping-iran.html",
-      "publishedAt": "2026-11-01T10:02:29Z",
+      "publishedAt": "2026-11-01T10:02:30Z",
       "time": "Sun 5:02 AM",
       "section": "energy",
       "impact": "Medium",
@@ -786,18 +798,6 @@
       "url": "https://www.cnbc.com/2026/10/31/trump-gas-diesel-price-midterm-election.html",
       "publishedAt": "2026-10-31T12:49:58Z",
       "time": "Sat 8:49 AM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f01cce4764a8a",
-      "headline": "Oil company earnings skyrocket — again",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/10/31/nx-s1-6008072/oil-company-profits-gasoline-diesel-prices",
-      "publishedAt": "2026-10-31T09:00:00Z",
-      "time": "Sat 5:00 AM",
       "section": "energy",
       "impact": "Medium",
       "lean": null,
@@ -849,30 +849,6 @@
       "section": "markets",
       "impact": "Medium",
       "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "f69a2087b2eeb",
-      "headline": "Treasury Department announces new Series I bond rate of 5.51% for the next six months",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/30/treasury-i-bond-rate-through-april-2027.html",
-      "publishedAt": "2026-10-30T17:15:53Z",
-      "time": "Fri 1:15 PM",
-      "section": "markets",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "fcb4322eca8aa",
-      "headline": "This strategist correctly recommended shorting Big Tech debt last year. Now he says the yields make it attractive.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/this-strategist-correctly-recommended-shorting-big-tech-debt-last-year-now-he-says-the-yields-make-it-attractive-3ec2e0fe?mod=mw_rss_topstories",
-      "publishedAt": "2026-10-30T14:30:00Z",
-      "time": "Fri 10:30 AM",
-      "section": "markets",
-      "impact": "Medium",
-      "lean": null,
       "auto": true
     }
   ]
