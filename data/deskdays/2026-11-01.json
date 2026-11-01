@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-01",
+  "grok": {
+    "date": "2026-11-01",
+    "at": "2026-11-01T12:21:20Z",
+    "pulse": "NQ heads into Sunday 6 PM ET reopen on the back foot after Fri's -2.9% Nasdaq / worst month since Mar 2025 on AI capex doubts; fresh Gulf risk (Dammam industrial fire, LNG tanker hit) keeps oil bid, offset by day-3 US-Iran talks in Doha, Hormuz traffic back near pre-war levels and record TQQQ dip-buying.",
+    "bias": "risk-off — AI capex/FCF hangover (GOOGL/AMZN/INTC) plus weekend Gulf energy headlines into a loaded week (AAPL/PLTR Mon AMC, midterms Tue, AMD Tue AMC, NFP Fri); Iran deal progress is the main upside offset.",
+    "items": [
+      "Gulf footage via X (~7:14 AM ET): huge fire/black smoke over Dammam industrial area, Saudi Eastern Province; unverified claims of a Houthi drone on an oil site, no Saudi statement yet — Bearish NQ (oil spike risk at open)",
+      "@FirstSquawk (~6:18 AM ET): Iranian negotiators in Doha for 3rd day of talks with Qatari mediators; Iran signals Hormuz could reopen in 48h if sanctions/funds demands met — Bullish NQ",
+      "@FirstSquawk (~6:02 AM ET): UAE's Gargash says trust with Iran 'shaken', Hormuz must return to pre-Feb 28 status quo, doesn't want new military round — Mixed NQ",
+      "Nakilat via X (Sun AM): Qatari LNG carrier Al Mayeda struck by unidentified objects in Gulf Fri evening, crew safe — Bearish NQ (energy premium)",
+      "Morgan Stanley via X (Sat): hedge funds de-grossed 7.8% from peak, biggest since 2016, net sold AI names 5 straight sessions; ~$1B into TQQQ after QQQ -3.5% — Mixed NQ (washout vs. AI trade cracks)"
+    ],
+    "trump": "No market posts overnight (Sat was midterm TeleRallies). Per @WatcherGuru (~8:20 PM ET Sat): Trump 'not concerned' about the $6.3B Binance hack — 'We'll talk to North Korea about it.' Says Iran talks continue with no rush; military options still on the table.",
+    "watch": "Sun 6 PM ET futures reopen (gap risk on Dammam/Hormuz/oil); Mon 10 AM ET ISM Mfg; Mon AMC AAPL & PLTR; Tue Nov 3 midterms + SHOP BMO, AMD/ANET AMC, JOLTS; Wed UBER BMO, QCOM/ARM/APP AMC + Iran decision headlines; Thu jobless claims, IREN AMC; Fri 8:30 AM ET NFP.",
+    "forSite": [],
+    "reports": [
+      {
+        "at": "2026-11-01T12:01:00Z",
+        "pulse": "Weekend markets stay risk-off with Nasdaq still digesting Friday's ~2.9% drop on AI capex ROI doubts while fresh Hormuz tanker strikes and day-3 Doha Iran talks keep oil elevated ahead of Sunday open and midterms.",
+        "bias": "risk-off — AI spending scrutiny from Intel/Amazon/Alphabet earnings plus Hormuz geopolitical premium dominate into next session.",
+        "items": [
+          "@JayHCapital (~7:59 AM ET): Iran talks hit day 3 in Doha; UAE insists Hormuz must normalize to pre-28 Feb; Raoul Pal flags rising dollar/rates/oil tightening pre-midterms",
+          "@HormuzReport (~7:46 AM ET): Iran struck Pakistan-bound Qatari LNG tanker near Hormuz despite prior safe-passage clearance per Bloomberg",
+          "@L0NEW0LFTRADES (~7:29 PM ET Sat): Fri closes S&P -1.8% Nasdaq -2.9%; AI under scrutiny, watch diplomacy vs escalation for oil and tech bounce",
+          "@Sekiro100x (~11:22 PM ET Sat): Nasdaq worst day in months; Intel ~-30% on soft PC guide; Amazon AI spend burning cash hard; oil holding on Gulf tension",
+          "@ianjcam (~7:53 AM ET): AI worst week as bills arrived — Alphabet/Intel/Amazon sold on cash flow vs capex gap, not a full AI crash"
+        ],
+        "trump": "none",
+        "watch": "Sunday 6 PM ET futures open reaction to weekend Hormuz/Iran headlines and residual AI sentiment; midterms Tuesday Nov 3; oil levels and any escalation; Monday AAPL/PLTR earnings and ISM.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-01T12:21:20Z",
+        "pulse": "NQ heads into Sunday 6 PM ET reopen on the back foot after Fri's -2.9% Nasdaq / worst month since Mar 2025 on AI capex doubts; fresh Gulf risk (Dammam industrial fire, LNG tanker hit) keeps oil bid, offset by day-3 US-Iran talks in Doha, Hormuz traffic back near pre-war levels and record TQQQ dip-buying.",
+        "bias": "risk-off — AI capex/FCF hangover (GOOGL/AMZN/INTC) plus weekend Gulf energy headlines into a loaded week (AAPL/PLTR Mon AMC, midterms Tue, AMD Tue AMC, NFP Fri); Iran deal progress is the main upside offset.",
+        "items": [
+          "Gulf footage via X (~7:14 AM ET): huge fire/black smoke over Dammam industrial area, Saudi Eastern Province; unverified claims of a Houthi drone on an oil site, no Saudi statement yet — Bearish NQ (oil spike risk at open)",
+          "@FirstSquawk (~6:18 AM ET): Iranian negotiators in Doha for 3rd day of talks with Qatari mediators; Iran signals Hormuz could reopen in 48h if sanctions/funds demands met — Bullish NQ",
+          "@FirstSquawk (~6:02 AM ET): UAE's Gargash says trust with Iran 'shaken', Hormuz must return to pre-Feb 28 status quo, doesn't want new military round — Mixed NQ",
+          "Nakilat via X (Sun AM): Qatari LNG carrier Al Mayeda struck by unidentified objects in Gulf Fri evening, crew safe — Bearish NQ (energy premium)",
+          "Morgan Stanley via X (Sat): hedge funds de-grossed 7.8% from peak, biggest since 2016, net sold AI names 5 straight sessions; ~$1B into TQQQ after QQQ -3.5% — Mixed NQ (washout vs. AI trade cracks)"
+        ],
+        "trump": "No market posts overnight (Sat was midterm TeleRallies). Per @WatcherGuru (~8:20 PM ET Sat): Trump 'not concerned' about the $6.3B Binance hack — 'We'll talk to North Korea about it.' Says Iran talks continue with no rush; military options still on the table.",
+        "watch": "Sun 6 PM ET futures reopen (gap risk on Dammam/Hormuz/oil); Mon 10 AM ET ISM Mfg; Mon AMC AAPL & PLTR; Tue Nov 3 midterms + SHOP BMO, AMD/ANET AMC, JOLTS; Wed UBER BMO, QCOM/ARM/APP AMC + Iran decision headlines; Thu jobless claims, IREN AMC; Fri 8:30 AM ET NFP.",
+        "forSite": []
+      }
+    ]
+  }
+}

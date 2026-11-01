@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-31",
-  "at": "2026-11-01T02:24:49Z",
+  "date": "2026-11-01",
+  "at": "2026-11-01T12:21:20Z",
   "items": [
     {
       "ticker": "XOM",
@@ -79,60 +79,12 @@
       "why": "Rev $1.22B in line, adj EBITDA $332.9M vs $282.9M beat; Q4 S&S rev guide $550-630M; Binance $6.3B hack adds crypto risk"
     },
     {
-      "ticker": "GOOGL",
-      "company": "Alphabet (GOOGL)",
-      "date": "2026-10-28",
-      "when": "AMC",
-      "status": "reported",
-      "reaction": "~-13% Thu (worst day ever, ~$500B wiped); Citi PT cut to $375",
-      "sentiment": "Bearish",
-      "why": "Rev $127.58B vs $128.2B est / EPS $2.12 miss; Cloud +103% to $30.7B but Search +12% soft; $51.4B capex, FCF negative"
-    },
-    {
-      "ticker": "MSFT",
-      "company": "Microsoft (MSFT)",
-      "date": "2026-10-28",
-      "when": "AMC",
-      "status": "reported",
-      "reaction": "+3% premarket Thu, faded to ~-0.6%",
-      "sentiment": "Mixed",
-      "why": "Rev $92.3B / EPS $4.89 beat, Azure +48% ex-FX, Q2 Azure guide +49%; gains faded with tech selloff"
-    },
-    {
-      "ticker": "NOW",
-      "company": "ServiceNow (NOW)",
-      "date": "2026-10-28",
-      "when": "AMC",
-      "status": "reported",
-      "reaction": "as much as -25% Thu",
-      "sentiment": "Bearish",
-      "why": "Rev $4.106B (+20.5%) beat, adj EPS $1.00 vs $1.02 miss; Q4 cRPO guide slows to 18.5%; software drag"
-    },
-    {
-      "ticker": "FTNT",
-      "company": "Fortinet (FTNT)",
-      "date": "2026-10-28",
-      "when": "AMC",
-      "status": "reported",
-      "reaction": "~-21% Thu",
-      "sentiment": "Bearish",
-      "why": "Rev $2.08B (+20%) / adj EPS $0.91 beat, FY guide raised, but services +13% and trimmed services outlook; hit cyber peers"
-    },
-    {
       "ticker": "AAPL",
       "company": "Apple (AAPL)",
       "date": "2026-11-02",
       "when": "AMC",
       "status": "upcoming",
       "why": "Mag7 print Mon AMC (5 PM ET call); consensus EPS ~$1.98 vs $1.85 yr ago; iPhone and services guide"
-    },
-    {
-      "ticker": "IREN",
-      "company": "IREN (IREN)",
-      "date": "2026-11-05",
-      "when": "AMC",
-      "status": "upcoming",
-      "why": "AI cloud/GPU data-center read after -9% Thu on capex doubts"
     },
     {
       "ticker": "PLTR",
@@ -197,6 +149,14 @@
       "when": "AMC",
       "status": "upcoming",
       "why": "High-beta NQ name Wed AMC; consensus EPS ~$4.03"
+    },
+    {
+      "ticker": "IREN",
+      "company": "IREN (IREN)",
+      "date": "2026-11-05",
+      "when": "AMC",
+      "status": "upcoming",
+      "why": "AI cloud/GPU data-center read after -9% Thu on capex doubts"
     }
   ]
 }
