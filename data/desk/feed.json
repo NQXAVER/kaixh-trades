@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T00:08:42Z",
+  "updatedAt": "2026-11-01T06:05:26Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -216,6 +216,18 @@
       "auto": true
     },
     {
+      "id": "f026ef2e413c2",
+      "headline": "Iran war live: Tehran eyes 2-day Hormuz plan; Trump says talks ‘going fine’",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/1/iran-war-live-araghchi-says-talks-under-way-on-2-day-plan-to-reopen-hormuz?traffic_source=rss",
+      "publishedAt": "2026-11-01T00:00:51Z",
+      "time": "Sat 8:00 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
       "id": "fc39ffa51f073",
       "headline": "US approves sale of 500 Patriot missiles to Ukraine",
       "source": "BBC",
@@ -309,18 +321,6 @@
       "section": "war",
       "impact": "High",
       "lean": "risk-on",
-      "auto": true
-    },
-    {
-      "id": "f0d968561f34c",
-      "headline": "‘Need a Plan B’: Yemenis in Aden prepare for another war as missiles fall",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/30/need-a-plan-b-yemenis-in-aden-prepare-for-another-war-as-missiles-fall?traffic_source=rss",
-      "publishedAt": "2026-10-30T15:26:00Z",
-      "time": "Fri 11:26 AM",
-      "section": "war",
-      "impact": "High",
-      "lean": null,
       "auto": true
     },
     {
@@ -744,18 +744,6 @@
       "auto": true
     },
     {
-      "id": "f38f0022c3353",
-      "headline": "Oil prices rise as Houthi attacks on Saudi Arabian refinery raise supply worries",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/28/oil-price-today-wti-brent-hormuz.html",
-      "publishedAt": "2026-10-28T05:52:51Z",
-      "time": "Wed 1:52 AM",
-      "section": "energy",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
       "id": "fd55bcbbce9da",
       "headline": "Chevron Raises Exploration Spending By 50%",
       "source": "OilPrice",
@@ -798,6 +786,18 @@
       "url": "https://www.cnbc.com/2026/10/31/trump-big-oil-refining-profits.html",
       "publishedAt": "2026-10-31T06:00:02Z",
       "time": "Sat 2:00 AM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fed89c0125eb1",
+      "headline": "Europe Is Now Seriously Rethinking Its Oil Refinery Phase Down",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Energy/Crude-Oil/Europe-Is-Now-Seriously-Rethinking-Its-Oil-Refinery-Phase-Down.html",
+      "publishedAt": "2026-10-30T23:00:00Z",
+      "time": "Fri 7:00 PM",
       "section": "energy",
       "impact": "Medium",
       "lean": null,
