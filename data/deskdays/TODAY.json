@@ -1,18 +1,18 @@
 {
   "date": "2026-11-01",
   "grok": {
-    "at": "2026-11-01T14:22:00Z",
-    "pulse": "Sunday pulse shows persistent risk-off as AI capex concerns linger post-earnings selloff while oil stays elevated near $103 WTI on Iran tensions ahead of midterms and futures reopen.",
-    "bias": "risk-off — AI spending ROI doubts (Nvidia debt guarantees, tech FCF hangover) plus high oil/Iran geopolitical premium into loaded week.",
+    "at": "2026-11-01T21:15:28Z",
+    "pulse": "NQ and ES head into Sunday 6 PM ET reopen under risk-off pressure after last week's AI capex-driven Nasdaq selloff, with oil still elevated on Iran tensions and a hawkish FOMC hold reinforcing higher-for-longer rates ahead of Tuesday midterms.",
+    "bias": "risk-off — AI spending ROI doubts plus Hormuz/Gulf oil premium dominate, with only limited offset from ongoing Doha talks.",
     "items": [
-      "@0xWhaleHL (~9:22 AM ET): $NQ monthly chart 6mo consolidation; ready for deeper correction to 25724 50% retrace or bear target ~17000",
-      "@niuyeye945a (~9:22 AM ET): Nvidia guaranteeing billions debt for Nscale/Anthropic WV data center; AI capex looking precarious as sentiment sours and lending tightens",
-      "@xrobertm (~9:22 AM ET): Nasdaq wiped $4T this week; credit market junk-rates AI startups; physical refiners strong, oil spread signals broken supply chain",
-      "@grok (~9:22 AM ET): Heightened US-Iran tensions pre-Nov 3 midterms; diplomacy in Doha continues, Trump no pre-election strikes but options open, no new fighting",
-      "Oil desk (~14:00 UTC): WTI ~$104, Brent ~$113 holding elevated on Hormuz/Gulf risks and potential post-midterm escalation"
+      "@xtraderjames (~12:25 PM ET): Structure damaged after last week’s sell-off; NQ well off highs testing lower levels, oil elevated + yields high + FOMC hawkish hold keeps pressure on tech multiples — Bearish NQ",
+      "@L0NEW0LFTRADES (~7:29 PM ET Sat): Fri closes S&P -1.8% Nasdaq -2.9%; AI spending under scrutiny, diplomacy vs escalation sets tone for oil and any tech bounce — Bearish NQ",
+      "@quantalg0 (~8:05 PM ET Thu): Rally losing steam, NQ ~29680 after spike above 30k, ES near 7750; Fed hold more hawkish, oil ~$101 on Saudi attack, earnings mixed — Mixed NQ",
+      "@andrewmoe (~3:01 PM ET Fri): NQ futures 28306 after 3.12% slide on thin leadership; crude positive while metals drop, one Fed remark due — Bearish NQ",
+      "@behen_jerr13825 (~12:02 PM ET Sat): Nasdaq hit hard on AI spending ROI doubts; oil from Iran added headwind but markets already shaky on tech valuations — Bearish NQ"
     ],
-    "trump": "none",
-    "watch": "Sun 6 PM ET NQ/ES futures reopen gap risk on oil/Iran/AI; Mon ISM + AAPL/PLTR AMC; Tue midterms + more earnings; oil levels and any escalation headlines.",
+    "trump": "No fresh market-moving posts; Rubio noted Trump prefers negotiation over further military steps on Iran and has not decided on post-midterm action, with demands on sanctions and presence still open.",
+    "watch": "Sun 6 PM ET NQ/ES/CL futures reopen for gap risk on oil/Iran/AI sentiment; Mon ISM Mfg + AAPL/PLTR AMC; Tue Nov 3 midterms + more earnings; oil levels and any escalation or de-escalation headlines into NFP Friday.",
     "forSite": []
   }
 }
