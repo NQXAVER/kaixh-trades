@@ -341,6 +341,43 @@ textarea::placeholder { color: #8aa3c4; }
 .remind-meta { display: flex; align-items: center; gap: 8px; margin: 0; min-height: 1.2em; }
 .remind-meta .count { font-size: 12px; color: var(--muted); }
 .pill.remind { background: #3d4f68; color: #d5e2f2; font-weight: 600; letter-spacing: .04em; }
+/* Best & Worst */
+.bw-picker { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+.bw-picker button { font: 600 14px var(--body); background: var(--panel); color: var(--ink); border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; cursor: pointer; }
+.bw-picker button:disabled { opacity: .4; cursor: default; }
+.bw-select { flex: 1 1 140px; min-width: 0; font: 600 14px var(--body); color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 8px 6px; }
+.card.bw-card.best { border-top: 4px solid #3ee07a; }
+.card.bw-card.worst { border-top: 4px solid #ff6b5e; }
+.card.bw-card.best > h2 { color: #3ee07a; }
+.card.bw-card.worst > h2 { color: #ff8a7a; }
+.bw-head { display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between; gap: 8px 10px; }
+.bw-titles { display: grid; gap: 2px; min-width: 0; flex: 1; }
+.bw-title { font-family: var(--display); font-weight: 700; font-size: 18px; line-height: 1.3; margin: 0; text-wrap: balance; overflow-wrap: anywhere; }
+.pill.bw-chip { flex: none; }
+.pill.bw-chip.best { background: #e3f6e9; color: #146c34; }
+.pill.bw-chip.worst { background: #ffe1dd; color: #b42318; }
+.bw-trade { margin: 0; font: 500 13px/1.45 var(--mono); color: var(--ink); background: var(--bg); border-radius: 8px; padding: 8px 10px; overflow-wrap: anywhere; }
+.bw-shots { display: grid; gap: 12px; }
+.bw-shot { margin: 0; display: grid; gap: 6px; }
+.bw-shot-btn { display: block; width: 100%; padding: 0; border: 0; background: none; cursor: zoom-in; border-radius: 10px; }
+.bw-shot-btn img { display: block; width: 100%; height: auto; border-radius: 10px; border: 1px solid var(--line); background: var(--bg); }
+.bw-shot figcaption { font-size: 13px; font-weight: 600; overflow-wrap: anywhere; }
+.bw-h { font-family: var(--display); font-weight: 500; font-size: 13px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin: 0; }
+.bw-copy { margin: 0; white-space: pre-line; overflow-wrap: anywhere; }
+.bw-list { display: grid; gap: 6px; }
+.bw-list ul { margin: 0; padding-left: 1.15em; display: grid; gap: 6px; }
+.bw-list li { overflow-wrap: anywhere; }
+.bw-kicker { margin: 0; font-size: 12px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; }
+.bw-kicker.good { color: #3ee07a; }
+.bw-kicker.fix { color: #ff8a7a; }
+.bw-zoom { position: fixed; inset: 0; z-index: 40; background: #000; display: flex; flex-direction: column; }
+.bw-zoom[hidden] { display: none !important; }
+.bw-zoom-bar { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: max(10px, env(safe-area-inset-top)) 12px 10px; color: #fff; }
+.bw-zoom-cap { flex: 1; min-width: 0; margin: 0; font: 600 14px var(--body); overflow-wrap: anywhere; }
+.bw-zoom-close { flex: none; min-height: 44px; font: 600 14px var(--body); color: #fff; background: transparent; border: 1px solid rgba(255,255,255,.45); border-radius: 8px; padding: 8px 14px; cursor: pointer; }
+.bw-zoom-stage { flex: 1; overflow: auto; -webkit-overflow-scrolling: touch; padding: 0 8px max(16px, env(safe-area-inset-bottom)); }
+.bw-zoom-stage img { display: block; width: 100%; height: auto; margin: 0 auto; cursor: zoom-in; }
+.bw-zoom-stage img.zoomed { width: 200%; max-width: none; cursor: zoom-out; }
 </style>
 </head>
 <body>
@@ -368,6 +405,7 @@ textarea::placeholder { color: #8aa3c4; }
     <button role="tab" id="tab-sp" aria-selected="false" aria-controls="spending">Spending</button>
     <button role="tab" id="tab-earn" aria-selected="false" aria-controls="earnings">Earnings</button>
     <button role="tab" id="tab-x" aria-selected="false" aria-controls="xpulse">X Pulse</button>
+    <button role="tab" id="tab-bw" aria-selected="false" aria-controls="bestworst">Best &amp; Worst</button>
   </nav>
 
   <!-- DESK -->
@@ -460,6 +498,20 @@ textarea::placeholder { color: #8aa3c4; }
       <h2>Grok / X pulse</h2>
       <p class="sub">What traders on X are saying about NQ.</p>
       <div id="grok"><p class="empty">Grok isn't connected yet.</p></div>
+    </div>
+  </section>
+
+  <!-- BEST & WORST -->
+  <section id="bestworst" role="tabpanel" aria-labelledby="tab-bw" hidden style="display:grid;gap:16px">
+    <div class="card bw-pick">
+      <div class="bw-picker">
+        <button type="button" id="bw-prev" aria-label="Older week">‹ Older</button>
+        <select id="bw-select" class="bw-select" aria-label="Choose a week"></select>
+        <button type="button" id="bw-next" aria-label="Newer week">Newer ›</button>
+      </div>
+    </div>
+    <div id="bw-body" style="display:grid;gap:16px" aria-live="polite">
+      <p class="empty">Loading…</p>
     </div>
   </section>
 
@@ -607,7 +659,7 @@ textarea::placeholder { color: #8aa3c4; }
   const price = new Intl.NumberFormat('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 
   // Tabs
-  const tabs = { desk: $('tab-desk'), accountability: $('tab-acc'), journal: $('tab-jr'), calendar: $('tab-cal'), spending: $('tab-sp'), earnings: $('tab-earn'), xpulse: $('tab-x') };
+  const tabs = { desk: $('tab-desk'), accountability: $('tab-acc'), journal: $('tab-jr'), calendar: $('tab-cal'), spending: $('tab-sp'), earnings: $('tab-earn'), xpulse: $('tab-x'), bestworst: $('tab-bw') };
   const show = (name) => {
     for (const [k, b] of Object.entries(tabs)) {
       const on = k === name;
@@ -630,6 +682,7 @@ textarea::placeholder { color: #8aa3c4; }
   tabs.spending.addEventListener('click', () => show('spending'));
   tabs.earnings.addEventListener('click', () => show('earnings'));
   tabs.xpulse.addEventListener('click', () => show('xpulse'));
+  tabs.bestworst.addEventListener('click', () => show('bestworst'));
   const h = location.hash.slice(1);
   let start = 'desk';
   if (h in tabs) start = h; else { try { start = localStorage.getItem('nqdesk-tab') || 'desk'; } catch (e) {} }
@@ -1975,6 +2028,249 @@ textarea::placeholder { color: #8aa3c4; }
     if (btn.id === 'sp-more') { spendOpen = !spendOpen; paintSpend(); return; }
     if (btn.hasAttribute('data-firm')) { spendFirm = btn.getAttribute('data-firm'); spendOpen = false; paintSpend(); }
   });
+
+  // ---------- Best & Worst ----------
+  // Same read order as Spending: local preview (file or localhost) uses the JSON beside index.html.
+  // The live site reads GitHub main first, then falls back to a site-relative file.
+  let bwWeeks = [];
+  let bwAt = 0;
+  let bwToken = 0;
+  let bwSyncing = false;
+  let bwLoaded = false;
+  const bwIso = (v) => (/^\d{4}-\d{2}-\d{2}$/.test(String(v || '')) ? String(v) : '');
+  const bwText = (v) => (typeof v === 'string' ? v.trim() : (typeof v === 'number' ? String(v) : ''));
+  const bwList = (v) => (Array.isArray(v) ? v.map(bwText).filter(Boolean) : []);
+  const bwObj = (v) => !!v && typeof v === 'object' && !Array.isArray(v);
+  const weeklyHostLocal = () => {
+    const host = location.hostname || '';
+    return location.protocol === 'file:' || host === 'localhost' || host === '127.0.0.1';
+  };
+  const readWeeklyJson = async (path) => {
+    const preferLocal = weeklyHostLocal();
+    const fromRel = async () => {
+      try { const rel = await fetch(path + '?t=' + Date.now(), { cache: 'no-store' }); if (rel.ok) return await rel.json(); } catch (e) {}
+      return null;
+    };
+    const fromRemote = async () => { try { return await readFile(path); } catch (e) { return null; } };
+    if (preferLocal) { const rel = await fromRel(); if (rel) return { data: rel, local: true }; }
+    const remote = await fromRemote();
+    if (remote) return { data: remote, local: false };
+    if (!preferLocal) { const rel = await fromRel(); if (rel) return { data: rel, local: true }; }
+    return { data: null, local: preferLocal };
+  };
+  const bwBust = (url) => url + (url.indexOf('?') >= 0 ? '&' : '?') + 't=' + Date.now();
+  const weeklyShot = (src, local) => {
+    const raw = typeof src === 'string' ? src.trim() : '';
+    if (!raw || raw.length > 500 || /[\0\r\n]/.test(raw) || /^javascript:/i.test(raw) || raw.indexOf('//') === 0) return null;
+    if (/^https?:\/\//i.test(raw)) return { primary: bwBust(raw), fallback: '' };
+    if (/^data:image\//i.test(raw)) return { primary: raw, fallback: '' };
+    if (/^[a-z][a-z0-9+.-]*:/i.test(raw)) return null;
+    const rel = raw.replace(/^\/+/, '');
+    if (!rel || rel.indexOf('..') >= 0) return null;
+    const site = bwBust(rel);
+    const remote = bwBust('https://raw.githubusercontent.com/' + GH.owner + '/' + GH.repo + '/' + GH.branch + '/' + rel);
+    return local ? { primary: site, fallback: remote } : { primary: remote, fallback: site };
+  };
+  const weekLabel = (monday) => pretty(monday, { month: 'short', day: 'numeric' }) + ' \u2013 ' + pretty(shift(monday, 6), { month: 'short', day: 'numeric', year: 'numeric' });
+  const paintWeekPicker = () => {
+    const sel = $('bw-select');
+    if (!sel) return;
+    bwSyncing = true;
+    sel.replaceChildren();
+    if (!bwWeeks.length) {
+      const o = el('option', null, bwLoaded ? 'Not ready yet' : 'Loading\u2026');
+      o.value = '';
+      sel.append(o);
+      sel.disabled = true;
+    } else {
+      sel.disabled = false;
+      bwWeeks.forEach((monday) => {
+        const o = el('option', null, weekLabel(monday));
+        o.value = monday;
+        sel.append(o);
+      });
+      sel.value = bwWeeks[bwAt] || bwWeeks[0];
+    }
+    bwSyncing = false;
+    if ($('bw-prev')) $('bw-prev').disabled = !bwWeeks.length || bwAt >= bwWeeks.length - 1;
+    if ($('bw-next')) $('bw-next').disabled = !bwWeeks.length || bwAt <= 0;
+  };
+  const renderWeeklyMissing = () => {
+    const body = $('bw-body');
+    if (!body) return;
+    body.replaceChildren();
+    const c = el('div', 'card');
+    c.append(el('h2', null, 'Best & Worst'));
+    c.append(el('p', 'empty', 'Not ready yet.'));
+    body.append(c);
+  };
+  let bwZoom = null;
+  let bwZoomReturn = null;
+  const closeZoom = () => {
+    if (!bwZoom || bwZoom.root.hidden) return;
+    bwZoom.root.hidden = true;
+    bwZoom.img.removeAttribute('src');
+    bwZoom.img.classList.remove('zoomed');
+    bwZoom.img.style.width = '';
+    document.body.style.overflow = '';
+    const back = bwZoomReturn;
+    bwZoomReturn = null;
+    if (back && back.focus) back.focus();
+  };
+  const openZoom = (src, label, opener) => {
+    if (!src) return;
+    if (!bwZoom) {
+      const root = el('div', 'bw-zoom');
+      root.hidden = true;
+      root.setAttribute('role', 'dialog');
+      root.setAttribute('aria-modal', 'true');
+      const bar = el('div', 'bw-zoom-bar');
+      const cap = el('p', 'bw-zoom-cap');
+      const close = el('button', 'bw-zoom-close', 'Close');
+      close.type = 'button';
+      close.addEventListener('click', closeZoom);
+      bar.append(cap, close);
+      const stage = el('div', 'bw-zoom-stage');
+      const img = el('img');
+      img.alt = '';
+      img.addEventListener('click', () => {
+        const on = img.classList.toggle('zoomed');
+        if (!on) { img.style.width = ''; return; }
+        const natural = img.naturalWidth || 0;
+        const wide = Math.max(natural, (stage.clientWidth || 320) * 2);
+        img.style.width = wide + 'px';
+      });
+      stage.addEventListener('click', (ev) => { if (ev.target === stage) closeZoom(); });
+      stage.append(img);
+      root.append(bar, stage);
+      document.body.append(root);
+      document.addEventListener('keydown', (ev) => { if (ev.key === 'Escape' && bwZoom && !bwZoom.root.hidden) { ev.preventDefault(); closeZoom(); } });
+      bwZoom = { root, cap, close, img };
+    }
+    bwZoomReturn = opener || null;
+    bwZoom.cap.textContent = label || 'Screenshot';
+    bwZoom.root.setAttribute('aria-label', label || 'Screenshot');
+    bwZoom.img.alt = label || 'Screenshot';
+    bwZoom.img.classList.remove('zoomed');
+    bwZoom.img.style.width = '';
+    bwZoom.img.src = src;
+    bwZoom.root.hidden = false;
+    document.body.style.overflow = 'hidden';
+    bwZoom.close.focus();
+  };
+  const fillShot = (img, src, local) => {
+    const urls = weeklyShot(src, local);
+    if (!urls) return false;
+    img.src = urls.primary;
+    if (urls.fallback) {
+      img.addEventListener('error', function onErr() {
+        img.removeEventListener('error', onErr);
+        img.src = urls.fallback;
+      });
+    }
+    return true;
+  };
+  const renderTrade = (kind, trade, local) => {
+    const card = el('div', 'card bw-card ' + kind);
+    card.append(el('h2', null, kind === 'best' ? 'Best execution of the week' : 'Worst execution of the week'));
+    if (!bwObj(trade)) {
+      card.append(el('p', 'empty', 'Not ready yet.'));
+      return card;
+    }
+    const head = el('div', 'bw-head');
+    const titles = el('div', 'bw-titles');
+    titles.append(el('p', 'bw-title', bwText(trade.title) || 'Untitled'));
+    const date = bwIso(trade.date);
+    if (date) titles.append(el('p', 'sub', pretty(date, { weekday: 'short', month: 'short', day: 'numeric' })));
+    head.append(titles);
+    const result = bwText(trade.result);
+    if (result) head.append(el('span', 'pill bw-chip ' + kind, result));
+    card.append(head);
+    const line = bwText(trade.trade);
+    if (line) card.append(el('p', 'bw-trade', line));
+    const shots = (Array.isArray(trade.screenshots) ? trade.screenshots : []).filter((s) => bwObj(s) && bwText(s.src));
+    if (shots.length) {
+      const wrap = el('div', 'bw-shots');
+      shots.forEach((s) => {
+        const fig = el('figure', 'bw-shot');
+        const btn = el('button', 'bw-shot-btn');
+        btn.type = 'button';
+        const label = bwText(s.label);
+        const note = bwText(s.note);
+        btn.setAttribute('aria-label', label ? 'Open screenshot: ' + label : 'Open screenshot');
+        const img = el('img');
+        img.alt = label || 'Trade screenshot';
+        const ok = fillShot(img, bwText(s.src), local);
+        if (ok) {
+          btn.append(img);
+          btn.addEventListener('click', () => openZoom(img.currentSrc || img.src, label, btn));
+          fig.append(btn);
+        }
+        if (label) fig.append(el('figcaption', null, label));
+        if (note) fig.append(el('p', 'sub', note));
+        if (fig.childNodes.length) wrap.append(fig);
+      });
+      if (wrap.childNodes.length) card.append(wrap);
+    }
+    const reasoning = typeof trade.reasoning === 'string' ? trade.reasoning.trim() : '';
+    if (reasoning) {
+      card.append(el('h3', 'bw-h', 'My reasoning'));
+      card.append(el('p', 'bw-copy', reasoning));
+    }
+    const feedback = typeof trade.feedback === 'string' ? trade.feedback.trim() : '';
+    const good = bwList(trade.good);
+    const fix = bwList(trade.fix);
+    if (feedback || good.length || fix.length) {
+      card.append(el('h3', 'bw-h', 'Grok\u2019s feedback'));
+      if (feedback) card.append(el('p', 'bw-copy', feedback));
+      const addList = (name, items, cls) => {
+        if (!items.length) return;
+        const block = el('div', 'bw-list');
+        block.append(el('p', 'bw-kicker ' + cls, name));
+        const ul = el('ul');
+        items.forEach((item) => ul.append(el('li', null, item)));
+        block.append(ul);
+        card.append(block);
+      };
+      addList('Good', good, 'good');
+      addList('Fix', fix, 'fix');
+    }
+    return card;
+  };
+  const renderWeekly = (week, local) => {
+    const body = $('bw-body');
+    if (!body) return;
+    body.replaceChildren();
+    if (!bwObj(week)) { renderWeeklyMissing(); return; }
+    body.append(renderTrade('best', week.best, !!local));
+    body.append(renderTrade('worst', week.worst, !!local));
+  };
+  const loadWeekly = async () => {
+    const token = ++bwToken;
+    const selected = bwWeeks[bwAt] || '';
+    const idx = await readWeeklyJson('data/weekly/index.json');
+    if (token !== bwToken) return;
+    const weeks = (bwObj(idx.data) && Array.isArray(idx.data.weeks) ? idx.data.weeks : []).map(bwIso).filter(Boolean);
+    bwWeeks = weeks;
+    const keep = selected ? weeks.indexOf(selected) : -1;
+    bwAt = keep >= 0 ? keep : 0;
+    bwLoaded = true;
+    paintWeekPicker();
+    if (!weeks.length) { renderWeekly(null, idx.local); return; }
+    const id = weeks[bwAt];
+    const file = await readWeeklyJson('data/weekly/' + id + '.json');
+    if (token !== bwToken || bwWeeks[bwAt] !== id) return;
+    renderWeekly(bwObj(file.data) ? file.data : null, file.local);
+  };
+  if ($('bw-prev')) $('bw-prev').addEventListener('click', () => { if (bwAt < bwWeeks.length - 1) { bwAt += 1; loadWeekly(); } });
+  if ($('bw-next')) $('bw-next').addEventListener('click', () => { if (bwAt > 0) { bwAt -= 1; loadWeekly(); } });
+  if ($('bw-select')) $('bw-select').addEventListener('change', () => {
+    if (bwSyncing) return;
+    const i = bwWeeks.indexOf($('bw-select').value);
+    if (i >= 0 && i !== bwAt) { bwAt = i; loadWeekly(); }
+  });
+  paintWeekPicker();
+
   const loadAll = async () => {
     try {
       const readDeskExtra = async (path) => {
@@ -2012,6 +2308,7 @@ textarea::placeholder { color: #8aa3c4; }
       const [purchases, history] = await Promise.all([readSpend('data/spend/purchases.json'), readSpend('data/spend/history.json')]);
       if (purchases || history) renderSpend(purchases, history);
     } catch (e) {}
+    try { await loadWeekly(); } catch (e) { renderWeeklyMissing(); }
     treeP = null;
     const [rl, hb, rv, dd, jr] = await Promise.all(['rules', 'habits', 'reviews', 'deskdays', 'journal'].map((d) => loadDir(d).catch(() => ({}))));
     // anything saved on this device but not yet on GitHub wins
