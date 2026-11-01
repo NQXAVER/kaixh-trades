@@ -1,17 +1,17 @@
 {
   "date": "2026-10-31",
-  "at": "2026-11-01T00:20:28Z",
-  "pulse": "NQ weekend tape still carries Friday's -2.86% Nasdaq Comp (25,437, worst month since Mar 2025) into Sun 6 PM ET open; Iran headlines turned hawkish again with a third US carrier reportedly heading toward Iran and Tehran banning a major S. Korean tanker operator from Nov 1, offset by Bessent saying non-Iranian Hormuz flows are back to normal and OPEC+ holding output steady.",
-  "bias": "mixed — Hormuz-flow normalization claims and steady OPEC+ ease CL pressure, but carrier buildup, Iran shipping bans and post-Nov 3 strike chatter keep oil spike risk alive into a heavy AAPL/PLTR/AMD + election + jobs week.",
+  "at": "2026-11-01T02:24:49Z",
+  "pulse": "NQ heads into the Sun 6 PM ET open still under Friday's -2.86% Nasdaq Comp hit, with Iran's Rezaei vowing to keep Hormuz shut until demands are met and Axios reporting Trump could launch a major Iran op after bad midterms, offset by Qatar-brokered phased deal reports, Binance covering ~$6B of hack losses and a huge S. Korea export beat (AI/memory demand).",
+  "bias": "risk-off — Hormuz-closure vows, post-election strike chatter and Brent ~$113 keep CL/inflation risk bid into Sunday's open, only partly offset by Doha deal hopes and strong Korean chip-driven exports.",
   "items": [
-    "@FirstSquawk (~7:59 PM ET): Daily Mail: Trump deploys third aircraft carrier toward Iran — Bearish NQ (CL bid)",
-    "@zerohedge (~5:00 PM ET): Iran issues Nov 1 blanket ban on South Korean tanker giant moving ~1/3 of Persian Gulf oil exports — Bearish NQ (oil)",
-    "X News (~7:54 PM ET update): Bessent says Hormuz oil transit back to pre-conflict levels ex-Iran, 1.5B bbl escorted; Brent still ~$113 — Mixed NQ",
-    "Reuters (~6:20 PM ET): OPEC+ agrees in principle to keep December output targets steady — Mixed NQ",
-    "@WatcherGuru (~5:30 PM ET): FBI confirms North Korea behind $6.3B Binance hack; Binance withdrawals reopen Sun — Mixed NQ (crypto-equity risk)"
+    "@FirstSquawk (~9:41 PM ET): Iran security chief Rezaei vows to keep Strait of Hormuz shut until Tehran's demands are met; ~10:15 PM adds war must end with no future attacks, NPT nuclear rights must be respected — Bearish NQ (CL bid)",
+    "X News (~10:15 PM ET update): Axios: US official says Trump may pursue major Iran military op if GOP suffers big midterm losses; WH denies link; Qatari mediators held 12h+ Tehran talks — Bearish NQ",
+    "@FirstSquawk (~9:40 PM ET): S. Korea Oct exports +93.7% y/y vs 93.2% est — Bullish NQ (semis/AI memory demand)",
+    "@FirstSquawk (~10:13 PM ET): Reuters: Binance says it has already covered $6B of losses from the $6.3B N. Korea-linked hack — Mixed NQ (eases crypto-equity contagion)",
+    "@FirstSquawk (~9:29 PM ET): FT: AI-related concerns over US economy weigh on investors' growth outlook — Bearish NQ"
   ],
-  "trump": "No market-moving posts; only a Michigan TeleRally plug (~4:20 PM ET). Daily Mail (~7:59 PM ET via @FirstSquawk) says he is sending a third carrier toward Iran; Rubio earlier said no decision on strikes and diplomacy continues via Qatar.",
-  "watch": "Weekend Doha/Qatar talks, carrier and Hormuz headlines; Binance withdrawals reopen Sun; Sun 6 PM ET futures open; Sun 8:45 PM ET China Caixin mfg PMI; Mon 10:00 AM ET ISM Manufacturing; Mon AMC AAPL, PLTR; Tue Nov 3 Election Day, SHOP BMO, AMD/ANET AMC; Wed UBER BMO, ARM/QCOM/APP AMC; possible Iran strikes from Nov 4; Thu IREN AMC; Fri 8:30 AM ET jobs report.",
+  "trump": "No market-moving posts tonight. Axios (via X News, ~10:15 PM ET) cites a US official saying he might pursue a major Iran operation if Republicans take big midterm losses (WH denies). At his Daytona rally he said the Iran war has cost over $47B and America can't fund programs like Medicaid amid wars. A judge threw out his WSJ lawsuit (~10:09 PM ET, not market-moving).",
+  "watch": "Doha/Qatar Iran talks and Hormuz/carrier headlines over the weekend; Sun 6 PM ET futures open; Sun 8:45 PM ET China Caixin mfg PMI; Mon 10:00 AM ET ISM Manufacturing; Mon AMC AAPL, PLTR; Tue Nov 3 Election Day + JOLTS, SHOP BMO, AMD/ANET AMC; Wed ADP, UBER BMO, ARM/QCOM/APP AMC; possible Iran strikes from Nov 4; Thu IREN AMC; Fri 8:30 AM ET jobs report.",
   "forSite": [],
   "reports": [
     {
@@ -72,6 +72,21 @@
       ],
       "trump": "No market-moving posts; only a Michigan TeleRally plug (~4:20 PM ET). Daily Mail (~7:59 PM ET via @FirstSquawk) says he is sending a third carrier toward Iran; Rubio earlier said no decision on strikes and diplomacy continues via Qatar.",
       "watch": "Weekend Doha/Qatar talks, carrier and Hormuz headlines; Binance withdrawals reopen Sun; Sun 6 PM ET futures open; Sun 8:45 PM ET China Caixin mfg PMI; Mon 10:00 AM ET ISM Manufacturing; Mon AMC AAPL, PLTR; Tue Nov 3 Election Day, SHOP BMO, AMD/ANET AMC; Wed UBER BMO, ARM/QCOM/APP AMC; possible Iran strikes from Nov 4; Thu IREN AMC; Fri 8:30 AM ET jobs report.",
+      "forSite": []
+    },
+    {
+      "at": "2026-11-01T02:24:49Z",
+      "pulse": "NQ heads into the Sun 6 PM ET open still under Friday's -2.86% Nasdaq Comp hit, with Iran's Rezaei vowing to keep Hormuz shut until demands are met and Axios reporting Trump could launch a major Iran op after bad midterms, offset by Qatar-brokered phased deal reports, Binance covering ~$6B of hack losses and a huge S. Korea export beat (AI/memory demand).",
+      "bias": "risk-off — Hormuz-closure vows, post-election strike chatter and Brent ~$113 keep CL/inflation risk bid into Sunday's open, only partly offset by Doha deal hopes and strong Korean chip-driven exports.",
+      "items": [
+        "@FirstSquawk (~9:41 PM ET): Iran security chief Rezaei vows to keep Strait of Hormuz shut until Tehran's demands are met; ~10:15 PM adds war must end with no future attacks, NPT nuclear rights must be respected — Bearish NQ (CL bid)",
+        "X News (~10:15 PM ET update): Axios: US official says Trump may pursue major Iran military op if GOP suffers big midterm losses; WH denies link; Qatari mediators held 12h+ Tehran talks — Bearish NQ",
+        "@FirstSquawk (~9:40 PM ET): S. Korea Oct exports +93.7% y/y vs 93.2% est — Bullish NQ (semis/AI memory demand)",
+        "@FirstSquawk (~10:13 PM ET): Reuters: Binance says it has already covered $6B of losses from the $6.3B N. Korea-linked hack — Mixed NQ (eases crypto-equity contagion)",
+        "@FirstSquawk (~9:29 PM ET): FT: AI-related concerns over US economy weigh on investors' growth outlook — Bearish NQ"
+      ],
+      "trump": "No market-moving posts tonight. Axios (via X News, ~10:15 PM ET) cites a US official saying he might pursue a major Iran operation if Republicans take big midterm losses (WH denies). At his Daytona rally he said the Iran war has cost over $47B and America can't fund programs like Medicaid amid wars. A judge threw out his WSJ lawsuit (~10:09 PM ET, not market-moving).",
+      "watch": "Doha/Qatar Iran talks and Hormuz/carrier headlines over the weekend; Sun 6 PM ET futures open; Sun 8:45 PM ET China Caixin mfg PMI; Mon 10:00 AM ET ISM Manufacturing; Mon AMC AAPL, PLTR; Tue Nov 3 Election Day + JOLTS, SHOP BMO, AMD/ANET AMC; Wed ADP, UBER BMO, ARM/QCOM/APP AMC; possible Iran strikes from Nov 4; Thu IREN AMC; Fri 8:30 AM ET jobs report.",
       "forSite": []
     }
   ]
