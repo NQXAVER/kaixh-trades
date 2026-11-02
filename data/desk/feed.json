@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T18:32:05Z",
+  "updatedAt": "2026-11-02T19:17:35Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -208,11 +208,35 @@
       "headline": "Iran Says It Would Reopen Strait of Hormuz in 2 Days as Part of U.S. Deal",
       "source": "New York Times",
       "url": "https://www.nytimes.com/2026/11/02/world/middleeast/iran-deal-strait-of-hormuz.html",
-      "publishedAt": "2026-11-02T18:21:13Z",
-      "time": "Mon 1:21 PM",
+      "publishedAt": "2026-11-02T19:01:04Z",
+      "time": "Mon 2:01 PM",
       "section": "war",
       "impact": "High",
       "lean": "mixed",
+      "auto": true
+    },
+    {
+      "id": "fe68211329a91",
+      "headline": "Iran pushing accelerated plan for ceasefire talks with US",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/2/iran-pushing-accelerated-plan-for-ceasefire-talks-with-us?traffic_source=rss",
+      "publishedAt": "2026-11-02T18:49:26Z",
+      "time": "Mon 1:49 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-on",
+      "auto": true
+    },
+    {
+      "id": "f7358c6c51900",
+      "headline": "Fake nuclear warning from hacked app sparks unease but not panic in Ukraine",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cwx28mngxz8do?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-11-02T18:34:24Z",
+      "time": "Mon 1:34 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": null,
       "auto": true
     },
     {
@@ -297,30 +321,6 @@
       "section": "war",
       "impact": "High",
       "lean": null,
-      "auto": true
-    },
-    {
-      "id": "fb3b0684418a1",
-      "headline": "Hundreds evacuate city during temporary ceasefire between Russia and Ukraine",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/11/02/nx-s1-6022261/hundreds-evacuate-city-during-temporary-ceasefire-between-russia-and-ukraine",
-      "publishedAt": "2026-11-02T09:42:11Z",
-      "time": "Mon 4:42 AM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-on",
-      "auto": true
-    },
-    {
-      "id": "f82a563d43657",
-      "headline": "Iran war live: Tankers hit in Hormuz; Trump again says conflict to end soon",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/11/2/iran-war-live-tankers-hit-in-hormuz-trump-again-says-conflict-to-end-soon?traffic_source=rss",
-      "publishedAt": "2026-11-02T00:00:00Z",
-      "time": "Sun 7:00 PM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
       "auto": true
     },
     {
@@ -472,8 +472,8 @@
       "headline": "Anthropic Reveals $17 Billion in Revenue as I.P.O. Approaches",
       "source": "New York Times",
       "url": "https://www.nytimes.com/2026/11/02/business/anthropic-earnings-ai.html",
-      "publishedAt": "2026-11-02T18:23:28Z",
-      "time": "Mon 1:23 PM",
+      "publishedAt": "2026-11-02T18:55:09Z",
+      "time": "Mon 1:55 PM",
       "section": "tech",
       "impact": "High",
       "lean": null,
@@ -717,18 +717,6 @@
       "section": "markets",
       "impact": "Medium",
       "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "f90acfbb7838a",
-      "headline": "We’re in our 70s. Should we pay off our 2.5% mortgage — or put the money in a high-yield savings account?",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/we-are-in-our-70s-should-we-pay-off-our-2-5-mortgage-or-build-up-our-savings-5a35e9c1?mod=mw_rss_topstories",
-      "publishedAt": "2026-10-31T19:00:00Z",
-      "time": "Sat 3:00 PM",
-      "section": "markets",
-      "impact": "Medium",
-      "lean": null,
       "auto": true
     }
   ]
