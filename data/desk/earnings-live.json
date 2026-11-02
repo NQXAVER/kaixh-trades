@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "at": "2026-11-02T14:27:32Z",
+  "at": "2026-11-02T21:24:28Z",
   "items": [
     {
       "ticker": "XOM",
@@ -35,15 +35,17 @@
       "date": "2026-11-02",
       "when": "AMC",
       "status": "upcoming",
-      "why": "Mag7 print Mon AMC (5 PM ET call); consensus EPS ~$1.98 vs $1.85 yr ago; iPhone and services guide"
+      "why": "Mag7 print Mon AMC (~4:30 PM ET release, 5 PM ET call, new CEO's first call); cons EPS ~$1.98, rev ~$113.3B; trades ~37x fwd P/E; iPhone and services guide"
     },
     {
       "ticker": "PLTR",
       "company": "Palantir (PLTR)",
       "date": "2026-11-02",
       "when": "AMC",
-      "status": "upcoming",
-      "why": "AI software bellwether Mon AMC (5 PM ET call); consensus EPS ~$0.33 vs $0.18 yr ago"
+      "status": "reported",
+      "why": "Rev $2.31B vs $2.18B beat (+96% y/y), adj EPS $0.44 vs $0.41 beat, US commercial +148% to $984M (tops US gov for first time), FY26 guide raised to ~$8.53B vs $8.2B est; AH bid after -3.1% close",
+      "reaction": "+1.7% AH",
+      "sentiment": "Bullish"
     },
     {
       "ticker": "SHOP",
