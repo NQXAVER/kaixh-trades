@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T19:40:50Z",
+  "updatedAt": "2026-11-02T00:45:17Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -204,6 +204,42 @@
   ],
   "items": [
     {
+      "id": "f82a563d43657",
+      "headline": "Iran war live: Tankers hit in Hormuz; Trump again says conflict to end soon",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/2/iran-war-live-tankers-hit-in-hormuz-trump-again-says-conflict-to-end-soon?traffic_source=rss",
+      "publishedAt": "2026-11-02T00:00:00Z",
+      "time": "Sun 7:00 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "fa62e8044860b",
+      "headline": "Gulf leaders meet in Qatar in effort to stave off new escalation in U.S and Iran war",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/11/01/nx-s1-6023237/gulf-leaders-meet-in-qatar-in-effort-to-stave-off-new-escalation-in-u-s-and-iran-war",
+      "publishedAt": "2026-11-01T22:19:13Z",
+      "time": "Sun 5:19 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "fe35bfa2c8896",
+      "headline": "Russian strikes cut power to thousands in Ukraine as Kherson ceasefire ends",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c64g1y90p71eo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-11-01T21:55:01Z",
+      "time": "Sun 4:55 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-on",
+      "auto": true
+    },
+    {
       "id": "f9081054f4d82",
       "headline": "Iran war live: Araghchi says talks under way on 2-day plan to reopen Hormuz",
       "source": "Al Jazeera",
@@ -276,18 +312,6 @@
       "auto": true
     },
     {
-      "id": "f299916659105",
-      "headline": "Iran war live: 4 tankers hit in Hormuz; Trump says conflict will end ‘soon’",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/10/31/iran-war-live-oil-tankers-hit-in-hormuz-trump-says-conflict-will-end-soon?traffic_source=rss",
-      "publishedAt": "2026-10-31T00:00:00Z",
-      "time": "Fri 8:00 PM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
       "id": "ffcee04953833",
       "headline": "Oman rescues 25 from burning oil tanker in Strait of Hormuz",
       "source": "Al Jazeera",
@@ -297,30 +321,6 @@
       "section": "war",
       "impact": "High",
       "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "f00a880de9a14",
-      "headline": "How crypto hacking funds isolated North Korea’s nuclear programme",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/oct/30/how-crypto-hacking-funds-isolated-north-korea-nuclear-programme",
-      "publishedAt": "2026-10-30T17:37:46Z",
-      "time": "Fri 1:37 PM",
-      "section": "war",
-      "impact": "High",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f160db7d20cbf",
-      "headline": "Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-10-30T16:26:11Z",
-      "time": "Fri 12:26 PM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-on",
       "auto": true
     },
     {
@@ -372,44 +372,20 @@
       "auto": true
     },
     {
-      "id": "feb753f46e0dc",
-      "headline": "Here are five key takeaways from the Fed rate decision and Warsh news conference",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/28/fed-rate-decision-warsh-takeaways.html",
-      "publishedAt": "2026-10-28T21:31:46Z",
-      "time": "Wed 5:31 PM",
-      "section": "fed",
-      "impact": "High",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f0ea40389cae0",
-      "headline": "Why did the Fed hold off on raising interest rates? Warsh says it’s because an ‘information rich’ period is coming.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/why-did-the-fed-hold-off-on-raising-interest-rates-warsh-says-its-because-an-information-rich-period-is-coming-098ced8d?mod=mw_rss_topstories",
-      "publishedAt": "2026-10-28T19:56:00Z",
-      "time": "Wed 3:56 PM",
-      "section": "fed",
-      "impact": "High",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "fa5c9b9a64863",
-      "headline": "Takeaways from Warsh’s news conference.",
-      "source": "New York Times",
-      "url": "https://www.nytimes.com/live/2026/10/28/business/fed-meeting-warsh-interest-rates/takeaways-from-warshs-news-conference",
-      "publishedAt": "2026-10-28T19:43:35Z",
-      "time": "Wed 3:43 PM",
-      "section": "fed",
-      "impact": "High",
-      "lean": null,
-      "auto": true
-    },
-    {
       "id": "f4719b4a2576a",
       "headline": "Home values fall for seventh consecutive month as interest rates dent demand",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/02/home-values-fall-for-seventh-month-interest-rates-dent-property-demand",
+      "publishedAt": "2026-11-01T14:00:18Z",
+      "time": "Sun 9:00 AM",
+      "section": "fed",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f1b5dc1e01ca4",
+      "headline": "House prices fall for seventh consecutive month as interest rates dent demand",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/australia-news/2026/nov/02/home-values-fall-for-seventh-month-interest-rates-dent-property-demand",
       "publishedAt": "2026-11-01T14:00:18Z",
@@ -426,18 +402,6 @@
       "url": "https://www.nytimes.com/2026/10/31/business/european-central-bank-lagarde-succession.html",
       "publishedAt": "2026-10-31T04:01:06Z",
       "time": "Sat 12:01 AM",
-      "section": "fed",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f31606f11df4c",
-      "headline": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
-      "source": "Federal Reserve",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261029a.htm",
-      "publishedAt": "2026-10-29T20:30:00Z",
-      "time": "Thu 4:30 PM",
       "section": "fed",
       "impact": "Medium",
       "lean": null,
@@ -568,8 +532,8 @@
       "headline": "Apple’s new earnings era begins at a critical time for Big Tech",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/apples-new-earnings-era-begins-at-a-critical-time-for-big-tech-2236a44e?mod=mw_rss_topstories",
-      "publishedAt": "2026-11-01T15:00:00Z",
-      "time": "Sun 10:00 AM",
+      "publishedAt": "2026-11-02T00:21:00Z",
+      "time": "Sun 7:21 PM",
       "section": "tech",
       "impact": "High",
       "lean": null,
@@ -732,12 +696,24 @@
       "auto": true
     },
     {
+      "id": "f850c63492d3f",
+      "headline": "Oil Prices No Longer Follow Headlines",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Energy/Oil-Prices/Oil-Prices-No-Longer-Follow-Headlines.html",
+      "publishedAt": "2026-11-02T00:00:00Z",
+      "time": "Sun 7:00 PM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "fbed584e2096e",
       "headline": "Everything changed for the oil, AI and bond trades over the past month",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/11/01/oil-bond-yields-ai-market.html",
-      "publishedAt": "2026-11-01T15:58:24Z",
-      "time": "Sun 10:58 AM",
+      "publishedAt": "2026-11-01T22:27:40Z",
+      "time": "Sun 5:27 PM",
       "section": "energy",
       "impact": "Medium",
       "lean": null,
@@ -792,18 +768,6 @@
       "auto": true
     },
     {
-      "id": "f57584b4f8d2d",
-      "headline": "Trump promised to slash energy costs — but gasoline, diesel and jet fuel all soared instead",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/31/trump-gas-diesel-price-midterm-election.html",
-      "publishedAt": "2026-10-31T12:49:58Z",
-      "time": "Sat 8:49 AM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
       "id": "f90acfbb7838a",
       "headline": "We’re in our 70s. Should we pay off our 2.5% mortgage — or put the money in a high-yield savings account?",
       "source": "MarketWatch",
@@ -813,42 +777,6 @@
       "section": "markets",
       "impact": "Medium",
       "lean": null,
-      "auto": true
-    },
-    {
-      "id": "fcb2bfcaa5ed3",
-      "headline": "Has the tech bubble burst? Why the Nasdaq’s rough ride looks eerily like 2000.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/has-the-tech-bubble-burst-why-the-nasdaqs-rough-ride-looks-eerily-like-2000-5bcefcb2?mod=mw_rss_topstories",
-      "publishedAt": "2026-10-30T23:14:00Z",
-      "time": "Fri 7:14 PM",
-      "section": "markets",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "fa7f2a1ffe62b",
-      "headline": "The selloff in tech stocks is shifting into overdrive",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/the-selloff-in-tech-stocks-is-shifting-into-overdrive-afb50975?mod=mw_rss_topstories",
-      "publishedAt": "2026-10-30T20:26:00Z",
-      "time": "Fri 4:26 PM",
-      "section": "markets",
-      "impact": "Medium",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "f2d1e136da253",
-      "headline": "Wall Street closes sharply lower as AI cash burn fears spark tech selloff – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/oct/30/uk-house-price-growth-crypto-industry-6bn-binance-hack-eurozone-france-gdp-latest-news-updates",
-      "publishedAt": "2026-10-30T20:24:25Z",
-      "time": "Fri 4:24 PM",
-      "section": "markets",
-      "impact": "Medium",
-      "lean": "risk-off",
       "auto": true
     }
   ]
