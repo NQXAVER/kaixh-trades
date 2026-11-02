@@ -2,18 +2,18 @@
   "date": "2026-11-01",
   "grok": {
     "date": "2026-11-01",
-    "at": "2026-11-01T21:24:00Z",
-    "pulse": "NQ heads into the 6 PM ET reopen still heavy after Fri's -2.9% Nasdaq on AI capex/FCF doubts; fresh Hormuz mine strikes on tankers and Iran/Israel strike-readiness keep CL (~$103 Fri) bid, offset by Axios/diplomat saying US-Iran Doha talks 'progressed positively' and Trump touting a near Canada trade deal.",
-    "bias": "risk-off — Hormuz tanker mines plus AI capex hangover into midterms week dominate; Iran deal-progress headlines and Canada deal talk are the upside offsets for a possible gap fill.",
+    "at": "2026-11-02T01:25:10Z",
+    "pulse": "NQ futures bounce ~+0.4-0.6% on the Sunday reopen after Fri's -3.5% NDX / -7.2% SOX rout, helped by oil sliding ~$2 on Doha US-Iran talk progress; offset by hedge funds going underweight AI for the first time since 2023, Asia opening lower and Hormuz tanker/strike-prep risk.",
+    "bias": "mixed — relief bid plus softer CL (Brent ~$111.6) supports a gap-fill attempt, but AI capex/FCF de-grossing, US/Israel strike readiness and midterms keep rallies suspect into ISM, AAPL/PLTR and NFP.",
     "items": [
-      "@DeItaone (~3:06 PM ET): Two oil tankers hit mines on 'unauthorized route' in Strait of Hormuz, per Iran state media — Bearish NQ (CL gap-up risk at open)",
-      "@FirstSquawk (~3:55 PM ET): Axios, citing diplomat: US-Iran talks 'progressed positively', mediators bridging remaining gaps — Bullish NQ",
-      "@FirstSquawk (~3:57 PM ET): Trump says US 'very near' a deal with Canada, 'very good deal'; had productive call with Netanyahu covering Iran — Mixed NQ",
-      "X News (~2:57 PM ET): Khamenei orders target lists updated for immediate response; Israel on highest alert for joint ops with US within hours — Bearish NQ",
-      "@zerohedge (~3:00 PM ET): Wall St maps 70 GW US grid shortfall vs AI demand — Mixed NQ (AI power bottleneck vs. capex beneficiaries)"
+      "@FirstSquawk (~7:50 PM ET): Asia stocks fall less than Wall St after NDX -3.5% / SOX -7.2% Fri; US equity futures rebound at least +0.3%, KOSPI recovers, Brent -1.6% to $111.60 — Bullish NQ",
+      "@FirstSquawk (~7:58 PM ET): Oil slides further, Brent and WTI down ~$2/bbl — Bullish NQ (yields/inflation relief)",
+      "@zerohedge (~8:00 PM ET): Hedge funds go underweight AI for first time since 2023 as record de-grossing meets record-low correlation — Mixed NQ (washout vs. AI trade unwind)",
+      "X News (~8:00 PM ET): S&P futures +0.3%, NDX futures +0.4%, Dow +0.2% at reopen ahead of AAPL Mon, midterms Tue, NFP Fri — Bullish NQ",
+      "X News (~6:46 PM ET): US Air Force tankers lined up at Israel's Ramon Airport; Netanyahu urged quick Iran strikes post-midterms while Doha talks inch forward — Bearish NQ (oil spike tail risk)"
     ],
-    "trump": "Trump on Canada: 'We have the concept of a very good deal' and US is 'very near' securing it; says he had a productive discussion with Netanyahu on Iran (Sun ~3:37-3:57 PM ET). At a rally he bragged on oil profits: 'We're making a freaking fortune.'",
-    "watch": "Sun 6 PM ET NQ/ES/CL reopen (Hormuz mine gap risk vs. Doha deal headlines); Mon 10 AM ET ISM Mfg; Mon AMC AAPL & PLTR; Tue Nov 3 midterms + SHOP BMO, AMD/ANET AMC, JOLTS; Wed UBER BMO, QCOM/ARM/APP AMC; Thu claims, IREN AMC; Fri 8:30 AM ET NFP.",
+    "trump": "No market-moving posts tonight (only an untitled link post ~7:33 PM ET; White House posts are midterm messaging). Earlier: told Netanyahu Iran is unreliable; 'very near' a Canada deal; 'We're making a freaking fortune' on oil.",
+    "watch": "Overnight CL/Hormuz and Doha headlines; Mon 10 AM ET ISM Mfg; Mon AMC AAPL & PLTR (5 PM ET calls); Tue Nov 3 midterms + SHOP BMO, AMD/ANET AMC, JOLTS; Wed UBER BMO, QCOM/ARM/APP AMC; Thu claims, IREN AMC; Fri 8:30 AM ET NFP (~60-65K est, 4.2% UE).",
     "forSite": [],
     "reports": [
       {
@@ -104,6 +104,36 @@
         ],
         "trump": "Trump on Canada: 'We have the concept of a very good deal' and US is 'very near' securing it; says he had a productive discussion with Netanyahu on Iran (Sun ~3:37-3:57 PM ET). At a rally he bragged on oil profits: 'We're making a freaking fortune.'",
         "watch": "Sun 6 PM ET NQ/ES/CL reopen (Hormuz mine gap risk vs. Doha deal headlines); Mon 10 AM ET ISM Mfg; Mon AMC AAPL & PLTR; Tue Nov 3 midterms + SHOP BMO, AMD/ANET AMC, JOLTS; Wed UBER BMO, QCOM/ARM/APP AMC; Thu claims, IREN AMC; Fri 8:30 AM ET NFP.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-02T01:10:00Z",
+        "pulse": "Sunday night futures open green with NQ and ES modestly higher after last week's AI-driven Nasdaq selloff, as oil eases on Iran-Qatar talks headlines while midterms, Apple/AMD earnings, and NFP loom.",
+        "bias": "mixed — futures bounce and oil dip on diplomacy provide relief, but AI capex ROI doubts and midterm uncertainty keep caution elevated.",
+        "items": [
+          "@Investingcom (~6:36 PM ET): US stock futures rise: S&P 500 futures +0.3%, Nasdaq futures +0.4%",
+          "@ShadowAlphaX (~8:08 PM ET): Futures remain green, Nasdaq leading +0.63%, oil $102.34 (-1.7%)",
+          "@EllisInvest (~6:47 PM ET): Futures looking green ahead of Monday, Nasdaq +0.56%, S&P +0.40%, oil heading the other way",
+          "@FuturesWire (~8:08 PM ET): Asia shares bend under AI stress; Apple earnings loom, S&P futures +0.4%, Nasdaq +0.6%",
+          "@CNBCTV18Live (~8:10 PM ET): Dow Jones, Nasdaq futures rebound after brutal sell-off"
+        ],
+        "trump": "none",
+        "watch": "Monday open reaction to weekend futures strength and oil ease; ISM manufacturing 10 AM ET; Apple earnings AMC; Tuesday midterms and AMD; Friday NFP; any Iran/oil headline shifts.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-02T01:25:10Z",
+        "pulse": "NQ futures bounce ~+0.4-0.6% on the Sunday reopen after Fri's -3.5% NDX / -7.2% SOX rout, helped by oil sliding ~$2 on Doha US-Iran talk progress; offset by hedge funds going underweight AI for the first time since 2023, Asia opening lower and Hormuz tanker/strike-prep risk.",
+        "bias": "mixed — relief bid plus softer CL (Brent ~$111.6) supports a gap-fill attempt, but AI capex/FCF de-grossing, US/Israel strike readiness and midterms keep rallies suspect into ISM, AAPL/PLTR and NFP.",
+        "items": [
+          "@FirstSquawk (~7:50 PM ET): Asia stocks fall less than Wall St after NDX -3.5% / SOX -7.2% Fri; US equity futures rebound at least +0.3%, KOSPI recovers, Brent -1.6% to $111.60 — Bullish NQ",
+          "@FirstSquawk (~7:58 PM ET): Oil slides further, Brent and WTI down ~$2/bbl — Bullish NQ (yields/inflation relief)",
+          "@zerohedge (~8:00 PM ET): Hedge funds go underweight AI for first time since 2023 as record de-grossing meets record-low correlation — Mixed NQ (washout vs. AI trade unwind)",
+          "X News (~8:00 PM ET): S&P futures +0.3%, NDX futures +0.4%, Dow +0.2% at reopen ahead of AAPL Mon, midterms Tue, NFP Fri — Bullish NQ",
+          "X News (~6:46 PM ET): US Air Force tankers lined up at Israel's Ramon Airport; Netanyahu urged quick Iran strikes post-midterms while Doha talks inch forward — Bearish NQ (oil spike tail risk)"
+        ],
+        "trump": "No market-moving posts tonight (only an untitled link post ~7:33 PM ET; White House posts are midterm messaging). Earlier: told Netanyahu Iran is unreliable; 'very near' a Canada deal; 'We're making a freaking fortune' on oil.",
+        "watch": "Overnight CL/Hormuz and Doha headlines; Mon 10 AM ET ISM Mfg; Mon AMC AAPL & PLTR (5 PM ET calls); Tue Nov 3 midterms + SHOP BMO, AMD/ANET AMC, JOLTS; Wed UBER BMO, QCOM/ARM/APP AMC; Thu claims, IREN AMC; Fri 8:30 AM ET NFP (~60-65K est, 4.2% UE).",
         "forSite": []
       }
     ]
