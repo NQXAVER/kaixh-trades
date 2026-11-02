@@ -1,18 +1,18 @@
 {
   "date": "2026-11-01",
   "grok": {
-    "at": "2026-11-01T21:15:28Z",
-    "pulse": "NQ and ES head into Sunday 6 PM ET reopen under risk-off pressure after last week's AI capex-driven Nasdaq selloff, with oil still elevated on Iran tensions and a hawkish FOMC hold reinforcing higher-for-longer rates ahead of Tuesday midterms.",
-    "bias": "risk-off — AI spending ROI doubts plus Hormuz/Gulf oil premium dominate, with only limited offset from ongoing Doha talks.",
+    "at": "2026-11-02T01:10:00Z",
+    "pulse": "Sunday night futures open green with NQ and ES modestly higher after last week's AI-driven Nasdaq selloff, as oil eases on Iran-Qatar talks headlines while midterms, Apple/AMD earnings, and NFP loom.",
+    "bias": "mixed — futures bounce and oil dip on diplomacy provide relief, but AI capex ROI doubts and midterm uncertainty keep caution elevated.",
     "items": [
-      "@xtraderjames (~12:25 PM ET): Structure damaged after last week’s sell-off; NQ well off highs testing lower levels, oil elevated + yields high + FOMC hawkish hold keeps pressure on tech multiples — Bearish NQ",
-      "@L0NEW0LFTRADES (~7:29 PM ET Sat): Fri closes S&P -1.8% Nasdaq -2.9%; AI spending under scrutiny, diplomacy vs escalation sets tone for oil and any tech bounce — Bearish NQ",
-      "@quantalg0 (~8:05 PM ET Thu): Rally losing steam, NQ ~29680 after spike above 30k, ES near 7750; Fed hold more hawkish, oil ~$101 on Saudi attack, earnings mixed — Mixed NQ",
-      "@andrewmoe (~3:01 PM ET Fri): NQ futures 28306 after 3.12% slide on thin leadership; crude positive while metals drop, one Fed remark due — Bearish NQ",
-      "@behen_jerr13825 (~12:02 PM ET Sat): Nasdaq hit hard on AI spending ROI doubts; oil from Iran added headwind but markets already shaky on tech valuations — Bearish NQ"
+      "@Investingcom (~6:36 PM ET): US stock futures rise: S&P 500 futures +0.3%, Nasdaq futures +0.4%",
+      "@ShadowAlphaX (~8:08 PM ET): Futures remain green, Nasdaq leading +0.63%, oil $102.34 (-1.7%)",
+      "@EllisInvest (~6:47 PM ET): Futures looking green ahead of Monday, Nasdaq +0.56%, S&P +0.40%, oil heading the other way",
+      "@FuturesWire (~8:08 PM ET): Asia shares bend under AI stress; Apple earnings loom, S&P futures +0.4%, Nasdaq +0.6%",
+      "@CNBCTV18Live (~8:10 PM ET): Dow Jones, Nasdaq futures rebound after brutal sell-off"
     ],
-    "trump": "No fresh market-moving posts; Rubio noted Trump prefers negotiation over further military steps on Iran and has not decided on post-midterm action, with demands on sanctions and presence still open.",
-    "watch": "Sun 6 PM ET NQ/ES/CL futures reopen for gap risk on oil/Iran/AI sentiment; Mon ISM Mfg + AAPL/PLTR AMC; Tue Nov 3 midterms + more earnings; oil levels and any escalation or de-escalation headlines into NFP Friday.",
+    "trump": "none",
+    "watch": "Monday open reaction to weekend futures strength and oil ease; ISM manufacturing 10 AM ET; Apple earnings AMC; Tuesday midterms and AMD; Friday NFP; any Iran/oil headline shifts.",
     "forSite": []
   }
 }
