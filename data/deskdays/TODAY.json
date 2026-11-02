@@ -1,18 +1,18 @@
 {
   "date": "2026-11-01",
   "grok": {
-    "at": "2026-11-02T01:10:00Z",
-    "pulse": "Sunday night futures open green with NQ and ES modestly higher after last week's AI-driven Nasdaq selloff, as oil eases on Iran-Qatar talks headlines while midterms, Apple/AMD earnings, and NFP loom.",
-    "bias": "mixed — futures bounce and oil dip on diplomacy provide relief, but AI capex ROI doubts and midterm uncertainty keep caution elevated.",
+    "at": "2026-11-02T03:05:45Z",
+    "pulse": "NQ and ES futures open modestly higher on the Sunday reopen after Friday's AI-capex driven Nasdaq -2.9% / S&P -1.8% rout, as oil eases more than 1% on progress in Doha US-Iran talks with Qatari mediators while midterm uncertainty lingers.",
+    "bias": "mixed — oil dip and futures bounce offer relief from AI ROI doubts and Hormuz premium, but residual geopolitics and midterms keep caution elevated.",
     "items": [
-      "@Investingcom (~6:36 PM ET): US stock futures rise: S&P 500 futures +0.3%, Nasdaq futures +0.4%",
-      "@ShadowAlphaX (~8:08 PM ET): Futures remain green, Nasdaq leading +0.63%, oil $102.34 (-1.7%)",
-      "@EllisInvest (~6:47 PM ET): Futures looking green ahead of Monday, Nasdaq +0.56%, S&P +0.40%, oil heading the other way",
-      "@FuturesWire (~8:08 PM ET): Asia shares bend under AI stress; Apple earnings loom, S&P futures +0.4%, Nasdaq +0.6%",
-      "@CNBCTV18Live (~8:10 PM ET): Dow Jones, Nasdaq futures rebound after brutal sell-off"
+      "@NodeWire (~7:05 PM ET): US equity futures marginally higher at reopen; oil futures retreat following Iran talks with Qatari mediators in Doha",
+      "@marko_vrecko (~8:06 PM ET): Risk-on start to the week with futures green while oil drops 1%+ on Iran-Qatar talks headline; thin liquidity so confirm into London",
+      "@Riz_Capitaledge (~10:03 PM ET): AI bubble or reality check? Over $2T wiped off Nasdaq 100 in October; spending without clear returns is the issue, not the tech itself",
+      "@iVyasa (~10:03 PM ET): Fri close Nasdaq Composite -2.86%, S&P 500 -1.82% on AI-capex burn; Asia mixed with GIFT Nifty higher, Brent softens toward $111.8",
+      "@JustDario (~11:44 AM ET): Wall Street cares more about AI stocks and credit not blowing up before year-end than Iran or energy; tough decisions at the open"
     ],
     "trump": "none",
-    "watch": "Monday open reaction to weekend futures strength and oil ease; ISM manufacturing 10 AM ET; Apple earnings AMC; Tuesday midterms and AMD; Friday NFP; any Iran/oil headline shifts.",
+    "watch": "Monday cash open reaction to futures strength and oil ease; ISM manufacturing 10 AM ET; AAPL and PLTR earnings AMC; Tuesday Nov 3 midterms plus more earnings; oil/Iran headline risk; Friday NFP.",
     "forSite": []
   }
 }
