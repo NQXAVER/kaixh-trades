@@ -1,15 +1,15 @@
 {
-  "at": "2026-11-02T14:30:12Z",
-  "pulse": "NQ and ES futures rebound 0.5-0.8% premarket as oil plunges 4%+ on hopes for US-Iran diplomatic progress in Qatar-mediated talks that could reopen Hormuz, providing relief after Friday's AI-driven Nasdaq selloff ahead of midterms and key earnings.",
-  "bias": "risk-on — crude collapse and Hormuz-deal headlines lift tech futures after the AI rout, but residual geopolitics, midterm uncertainty and AI spending doubts cap conviction into the cash open.",
+  "at": "2026-11-02T21:16:25Z",
+  "pulse": "NQ/ES morning futures bounce on sharp oil drop from US-Iran Qatar-mediated talks faded into the close as tech sold again on persistent AI ROI fears, with Apple earnings and midterms ahead.",
+  "bias": "mixed — oil relief and early bounce supported risk-on, but tech fade, AI doubts and geopolitical residual keep it fragile into AAPL/PLTR and midterms.",
   "items": [
-    "@Tyngsguy (~9:29 AM ET): Bullish bias on QQQ/SPY/IWM with gap-up; QQQ 700 key break/hold targets 702-710, watching Iran headlines and midterms — Bullish NQ",
-    "@PshavaP (~9:29 AM ET): Oil sliding may confirm Trump-Iran deal theory as market prices the story ahead of headlines — Bullish NQ",
-    "@MatthewCStocks (~9:28 AM ET): Rubio says Trump prefers diplomacy over military action in Iran; Iranian officials note possible agreement after Qatar talks if demands met — Bullish NQ",
-    "AP/Bloomberg (~9:15 AM ET): S&P futures +0.5%, Nasdaq +0.8% as Brent -4.2% to ~$108.7 and WTI ~$99.7 on Iran diplomat confirming Qatar talks for potential Hormuz reopen in days — Bullish NQ",
-    "@Sharekhan (~7:38 AM ET): Nasdaq futures +0.9% on Middle East hopes and cooler oil after Friday -2.86% close; AAPL and PLTR report next — Bullish NQ"
+    "@FIowStateofMind (~6:03 AM ET): Brent down 3% overnight after Iran proposed reopening Hormuz within 48 hours; Nasdaq futures +0.8%, S&P +0.4% — Bullish NQ",
+    "@ozzy_livin (~9:15 AM ET): ES +0.5%, NQ +0.8% after Friday AI selloff; oil tumbling 6% on Iran supreme leader peace talks authority — Bullish NQ",
+    "@GammaSqueezer (~4:15 PM ET): Monday close — morning rebound faded; QQQ -1.4%, XLK -2.9%, SPY -0.5%; oil slid on US-Iran Doha talks — Mixed NQ",
+    "@invertario_es (~4:15 PM ET): Mixed Monday: Dow up, tech sold; S&P -0.51%, Nasdaq >1% down; Brent $104.77 -7.6% on US-Iran talks — Mixed NQ",
+    "@KKidd95706 (~4:15 PM ET): Trump says oil prices are dropping like a rock, down almost $10 bbl — Bullish NQ"
   ],
-  "trump": "Reports indicate Trump prefers a diplomatic solution and wants more time for Iran talks, helping ease oil and support futures; no new direct market-moving posts found, with final midterm pitch ongoing.",
-  "watch": "Cash open reaction 9:30 AM ET; ISM Manufacturing 10 AM ET; Iran/Hormuz deal headlines and crude path; AAPL + PLTR AMC tonight; Tuesday Nov 3 midterms plus more earnings; residual AI ROI concerns and Friday NFP.",
+  "trump": "Trump noted oil prices dropping like a rock (~$10); reports he prefers more time for Iran diplomacy over strikes, aiding the oil slide.",
+  "watch": "AAPL and PLTR earnings reaction after close tonight; Tuesday midterms results; ongoing Iran/Hormuz headlines and crude; residual AI spending skepticism; Friday NFP.",
   "forSite": []
 }
