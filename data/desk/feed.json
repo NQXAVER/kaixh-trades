@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T00:45:17Z",
+  "updatedAt": "2026-11-02T06:24:48Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -372,6 +372,18 @@
       "auto": true
     },
     {
+      "id": "f5b0b80c367a8",
+      "headline": "The RBA may be about to hike interest rates. Use our loan calculator to check how it may affect you",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/australia-news/2026/may/04/interest-rates-rba-rate-hike-mortgage-calculator",
+      "publishedAt": "2026-11-02T02:01:46Z",
+      "time": "Sun 9:01 PM",
+      "section": "fed",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "f4719b4a2576a",
       "headline": "Home values fall for seventh consecutive month as interest rates dent demand",
       "source": "The Guardian",
@@ -510,18 +522,6 @@
       "url": "https://www.theguardian.com/commentisfree/2026/oct/30/trump-tariffs-inflation-election-promise",
       "publishedAt": "2026-10-30T10:00:50Z",
       "time": "Fri 6:00 AM",
-      "section": "econ",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "fca440aae6e28",
-      "headline": "BOJ holds rates as underlying inflation aligns with 2% target for first time since 2013",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/30/boj-inflation-target-rates.html",
-      "publishedAt": "2026-10-30T04:19:38Z",
-      "time": "Fri 12:19 AM",
       "section": "econ",
       "impact": "Medium",
       "lean": null,
