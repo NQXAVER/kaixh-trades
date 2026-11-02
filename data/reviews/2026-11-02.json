@@ -1,0 +1,65 @@
+{
+ "date": "2026-11-02",
+ "entryUrl": "https://app.notion.com/p/40c60e8f5c45808ca233db257785918f",
+ "summary": "A patient, plan-aligned win: your pre-market and check-in both said you wanted NWOG filled once price failed to continue higher, and you shorted only after the manipulation into the 4hr unfill and a 5min displacement flip, then held it into lunch on 1 XFA. Before that you missed the long off the Asia-low SMT and 4hr rejection block because you were waiting for a manipulation that never came, and you wrote that down honestly. Your entry was also late: by your own Discord post you missed the ideal entry because you were in the restroom, so you took a wider stop than the setup needed. The accountability side slipped. The risk screenshot came in at 9:31 after the bot's 9:30 warning, and there is still no End of Day card in the pair channel. Gmail shows no new eval or account purchases today.",
+ "trade": "Short · NY-AM · XFA · Win (RR 1.53 logged) · entry about 28,753 around 10:55 to 11:00 AM after the manipulation into the 4hr unfill (NYAM.H about 28,890) · stop about 28,899 above the 5min highs (about 146 pts) · target about 28,541.75 toward the NWOG fill (about 211 pts, roughly 1.45R) · levels read from the 11:01 5min chart posted in Discord, which is blurry, so they're approximate. Missed long earlier: CISD about 28,719, stop about 28,665, 4hr unfill about 28,859 (about 2.6R) on the 10:49 chart.",
+ "rule": "Tomorrow, upload the actual execution chart to Notion with the entry, stop and target box visible before you close the trade. Post your risk screenshot together with the check-in before 9:30, and file the End of Day card right after you're flat.",
+ "screenshots": [
+  {
+   "label": "TimeFrame 1 · 4hr NQ + ES (9:26 AM)",
+   "feedback": "You marked PD-H, PD-EQ and PD-L, and price was sitting just above PD-EQ around 28,745 after Friday's big drop to the August Low. A small 4hr box with 0.786 / 0.618 / 0.5 sits right above price. This is the HTF gap you later shorted out of, so you had the map before the open."
+  },
+  {
+   "label": "TimeFrame 2 · 1hr NQ + ES (9:26 AM)",
+   "feedback": "Same picture on the 1hr: a recovery leg off the PD-L low, with price pressing into the 4hr box and holding PD-EQ. It supports both sides of your pre-market, either respecting bullish structure up into the 4hr gap or failing there for NWOG. The plan was really conditional, which is good."
+  },
+  {
+   "label": "TimeFrame 3 · 15m NQ + ES (9:26 AM)",
+   "feedback": "This is a clean session map: AS.H, LO.H, LO.L, AS.L, NYAM.H/L, NYPM.H and D OPEN, plus the 4hr line around 28,850 and a red box from 10:00 up to about 28,840. Price was ranging between LO.L and LO.H. The London-low sweep you later called the long trigger is visible here, so the long was a prepared idea, not a random one."
+  },
+  {
+   "label": "TimeFrame 4 · 5m NQ + ES (9:27 AM)",
+   "feedback": "On the 5min, the London range (LO.H about 28,800, LO.L about 28,715) was swept on the low side right before the open, and the 4hr box sits above at 28,840 to 28,860. You had both draws marked: the 4hr unfill above and D OPEN / NWOG below."
+  },
+  {
+   "label": "Execution 1 · 1min NQ + ES (10:49 AM, the missed long)",
+   "feedback": "The long box shows entry about 28,719 at the CISD, stop about 28,665 under the swept lows, and target about 28,859 at the 4hr unfill. That's roughly 2.6R, and price went past it to about 28,890 (NYAM.H). Your listed confluences were real. You missed it because you wanted a manipulation below first, and the market gave you the accumulation and then expanded without it. This is the only execution screenshot in Notion, and it doesn't show the short you actually took."
+  }
+ ],
+ "good": [
+  "The trade matched your plan: the check-in said you'd wait for NWOG to fill once price failed to continue higher, and the short came only after the manipulation into the 4hr unfill.",
+  "You stayed in NY-AM on one XFA, with no Asia trading and no copy trading after Friday's blown accounts.",
+  "Your stop was above the 5min highs and the manipulation high (about 28,890 to 28,899), not inside the leg.",
+  "You held a higher-timeframe trade into lunch while calm, instead of cutting it early.",
+  "You wrote up the missed long honestly, with the exact reason ('overthinked... wanted to see manipulation').",
+  "No new eval or account purchases in Gmail today."
+ ],
+ "fix": [
+  "The risk-settings screenshot was late: the bot warned at 9:30 and you posted 'oops' at 9:31. It's the mandatory part of the check-in, so post it together with the card.",
+  "No End of Day card in the pair channel yet, even though you won. File it today before the 12 AM deadline.",
+  "The Notion Execution property only has the missed long. Add the 11:01 short chart with the box so the journal shows the trade you actually took.",
+  "You missed the ideal entry because you were in the restroom, so you took a wider stop of about 146 pts for about 1.5R. Handle breaks before 9:30 or after you're in, not while you're waiting for the setup.",
+  "Waiting for a specific manipulation cost you a 2.6R long. If the confluences are stacked and the CISD prints, the CISD is the confirmation; don't require an extra sweep you didn't write into the plan.",
+  "You slept a lot less than usual. On short sleep, cut size or the number of ideas ahead of time, not after a loss."
+ ],
+ "questions": [
+  {
+   "q": "You wrote you 'wanted to see manipulation for me to long but we only accumulated an than manipulated higher.' Was a sweep below actually part of your written plan, or did you add that requirement in the moment?"
+  },
+  {
+   "q": "You said you 'did lowkey miss the IDEAL entry bc i was in the restroom.' Where would the stop and RR have been from the ideal entry, and what will you do about breaks during the 10:00 to 11:00 window?"
+  },
+  {
+   "q": "You won today but haven't filed the End of Day card, and the risk screenshot came after the 9:30 warning. Why does the check-in routine slip on a good day?"
+  }
+ ],
+ "discord": {
+  "chartsOpened": "9:23 AM ET (Morning Check-in card posted 9:24 AM, streak 7 days).",
+  "plan": "\"i want to see us fill in the NWOG i just need to see us fail to continue higher i plan on staying patient if theres nothing its cool\"",
+  "risk": "Late: the bot asked for the risk screenshot at 9:24, issued a warning at 9:30 AM ET ('No risk settings screenshot', strikes 0 of 3), and Kaixh posted 'oops' with the screenshot at 9:31 AM, which the bot then confirmed.",
+  "eod": "Missing: the bot posted the End of Day prompt at 11:00 AM ET (deadline 12:00 AM). As of about 4:16 PM ET there's no End of Day card and no trade-screenshot confirmation from Kaixh. No pair-channel messages from Kaixh or Bibz after 11:00 AM or over the weekend.",
+  "match": "The trade matches the morning plan: the check-in said to wait for NWOG to fill after a failure to continue higher, and the short targeted the NWOG fill after the manipulation into the 4hr unfill. The EOD honesty check can't be done yet because no card has been filed.",
+  "journalChannel": "10:51 AM ET: the 'Missed:' write-up of the long, with the 10:49 1min chart, which matches the Notion TALK. 11:02 AM ET (edited 11:03): 'In a trade - this one was what i have been waiting for... did lowkey miss the IDEAL entry... bc i was in the restroom' with the 11:01 5min short box (entry about 28,753, stop about 28,899, target about 28,541.75). This matches Notion (Short, Win, NWOG fill, 4hr unfill)."
+ },
+ "reviewedAt": "2026-11-02T21:18:31Z"
+}
