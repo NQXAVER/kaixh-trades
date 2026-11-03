@@ -1,18 +1,18 @@
 {
   "date": "2026-11-02",
   "grok": {
-    "at": "2026-11-03T01:10:00Z",
-    "pulse": "NQ closed mixed as the oil-relief bounce faded into a tech-led selloff (Nasdaq -1.07%, S&P -0.51%) on AI ROI doubts; AAPL beat but fell ~3% AH on cautious guidance while PLTR beat-and-raised.",
-    "bias": "mixed — crude ~7% plunge on US-Iran diplomacy hopes and select beats support risk-on, but persistent AI spending skepticism, AAPL AH fade and midterm uncertainty keep the tape fragile.",
+    "at": "2026-11-03T03:05:59Z",
+    "pulse": "NQ futures stay soft overnight after Monday's mixed close (Nasdaq -1.07%, S&P -0.51%) as AI spending fears offset a ~7% oil plunge on US-Iran diplomacy hopes, with Qeshm Island strike reports adding back some risk premium to crude and AAPL AH pressure on margin guidance.",
+    "bias": "mixed — crude collapse and PLTR beat support risk-on, but persistent AI ROI skepticism, AAPL AH fade, Qeshm headlines and Tuesday midterms keep the tape fragile.",
     "items": [
-      "@silentmax (~7:54 PM ET): Nasdaq 100 -1.4% into correction, oil >7% drop on Iran diplomacy; AAPL beat but slipped on 7-10% Dec guide, PLTR raised outlook — Mixed NQ",
-      "@9to5mac (~8:07 PM ET): Apple stock drops nearly 3% after hours following Q4 results — Bearish NQ",
-      "@mktboxapp (~8:10 PM ET): XLK bled into the close even as oil crashed 7%; AAPL and PLTR both beat AH, reaction barely a shrug — Mixed NQ",
-      "@Morpheu5Watcher (~7:53 PM ET): Oil lost 7%, SPY -0.48%; AAPL AH down on thinner margin forecast after the beat — Mixed NQ",
-      "@tyrovirtuoso (~8:09 PM ET): Wall St mixed close S&P -0.51% Nasdaq -1.07%; Iran says Hormuz could reopen in two days if US meets conditions — Mixed NQ"
+      "@SwingTr13847854 (~10:04 PM ET): Oil crashed 7% on US–Iran talk progress while AI selloff hit Nasdaq (-1.1%); India Nifty outperformed — Mixed NQ",
+      "@LeNhan54 (~10:04 PM ET): Brent -7.6% Monday to $104.77 then flat; peace hopes crashed it, strike report bounced it — Mixed NQ",
+      "@WallStreetXHQ (~10:04 PM ET): Apple Q4 rev $114.48B / EPS $2.10 beat; AH declined on AI-driven memory chip supply caution — Bearish NQ",
+      "@ztraderAI (~10:04 PM ET): Oil fell 7.6% on peace talks then Qeshm strike report hit; Brent rebounded to ~$105.25 in early Asia — Bearish NQ",
+      "WSJ (~4:00 PM ET): Dow +0.41% to 51984, S&P -0.51% to 7541, Nasdaq -1.07% to 25164; WTI -7.4% to $96.46 on Hormuz reopening talks — Mixed NQ"
     ],
-    "trump": "No major new market-moving posts; earlier noted oil prices 'dropping like a rock' (~$10/bbl) on Iran talks and prefers diplomacy over further strikes.",
-    "watch": "AAPL AH/overnight reaction and open; Tuesday Nov 3 midterm results and volatility; Iran/Hormuz and crude headlines; AMD and ANET Tue AMC; Fri NFP.",
+    "trump": "none",
+    "watch": "Overnight crude reaction to Qeshm/Iran/Hormuz headlines; AAPL premarket and open; Tuesday Nov 3 midterm results and volatility; AMD and ANET Tue AMC; residual AI spending skepticism; Fri NFP.",
     "forSite": []
   }
 }
