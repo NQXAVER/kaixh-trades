@@ -1,117 +1,117 @@
 {
-  "date": "2026-11-02",
-  "at": "2026-11-03T01:23:54Z",
-  "items": [
-    {
-      "ticker": "XOM",
-      "company": "Exxon Mobil (XOM)",
-      "date": "2026-10-30",
-      "when": "BMO",
-      "status": "reported",
-      "sentiment": "Mixed",
-      "why": "Adj EPS $4.23 vs $4.13 beat, rev $113.16B vs $105.36B beat, production 4,496 KOEBD vs 4,440, dividend raised to $1.07; energy bid as tech sells, small NQ weight"
-    },
-    {
-      "ticker": "CVX",
-      "company": "Chevron (CVX)",
-      "date": "2026-10-30",
-      "when": "BMO",
-      "status": "reported",
-      "sentiment": "Mixed",
-      "why": "Adj EPS $5.28 vs $4.93 beat, rev $67.80B vs $62.55B beat, CFO $16B vs $15.08B, production 3,980 MBOE/D vs 3,926; upstream $5.70B vs $6.19B miss; energy rotation, small NQ weight"
-    },
-    {
-      "ticker": "ABBV",
-      "company": "AbbVie (ABBV)",
-      "date": "2026-10-30",
-      "when": "BMO",
-      "status": "reported",
-      "sentiment": "Mixed",
-      "why": "Adj EPS $3.82 vs $3.74 beat, rev $17.40B vs $17.34B beat, Skyrizi $5.78B beat; FY EPS guide raised to $13.95-13.99; defensive rotation, not in NQ"
-    },
-    {
-      "ticker": "AAPL",
-      "company": "Apple (AAPL)",
-      "date": "2026-11-02",
-      "when": "AMC",
-      "status": "reported",
-      "why": "Rev $114.48B vs $113.4B beat, EPS $2.10 vs ~$1.99 beat, iPhone $57.58B +17%, Services record $31.57B +10%; Greater China $17.54B miss, Dec-qtr GM guide 45-46% (memory costs) vs 47.9%, 7-10% growth guide; closed -1.83% at $338.32 then lower AH",
-      "reaction": "~-2% to -4% AH",
-      "sentiment": "Bearish"
-    },
-    {
-      "ticker": "PLTR",
-      "company": "Palantir (PLTR)",
-      "date": "2026-11-02",
-      "when": "AMC",
-      "status": "reported",
-      "why": "Rev $2.31B vs $2.18B beat (+96% y/y), adj EPS $0.44 vs $0.41 beat, US commercial +148% to $984M (tops US gov for first time), FY26 guide raised to ~$8.53B vs $8.2B est; AH bid after -3.1% close",
-      "reaction": "+1.7% AH",
-      "sentiment": "Bullish"
-    },
-    {
-      "ticker": "SHOP",
-      "company": "Shopify (SHOP)",
-      "date": "2026-11-03",
-      "when": "BMO",
-      "status": "upcoming",
-      "why": "Confirmed Tue BMO, 8:30 AM ET call; consensus EPS ~$0.33"
-    },
-    {
-      "ticker": "AMD",
-      "company": "AMD (AMD)",
-      "date": "2026-11-03",
-      "when": "AMC",
-      "status": "upcoming",
-      "why": "Week's big chip print, Tue AMC 5 PM ET call; guided Q3 rev ~$13B +/- $300M; consensus EPS ~$1.68"
-    },
-    {
-      "ticker": "ANET",
-      "company": "Arista Networks (ANET)",
-      "date": "2026-11-03",
-      "when": "AMC",
-      "status": "upcoming",
-      "why": "AI networking read Tue AMC; consensus EPS ~$0.99"
-    },
-    {
-      "ticker": "UBER",
-      "company": "Uber (UBER)",
-      "date": "2026-11-04",
-      "when": "BMO",
-      "status": "upcoming",
-      "why": "Confirmed Wed BMO, 8 AM ET call; gross bookings guide $58.25-60.25B"
-    },
-    {
-      "ticker": "QCOM",
-      "company": "Qualcomm (QCOM)",
-      "date": "2026-11-04",
-      "when": "AMC",
-      "status": "upcoming",
-      "why": "FQ4/FY26 print Wed AMC, 4:45 PM ET call; consensus EPS ~$2.16; handset and AI PC/data-center read"
-    },
-    {
-      "ticker": "ARM",
-      "company": "Arm Holdings (ARM)",
-      "date": "2026-11-04",
-      "when": "AMC",
-      "status": "upcoming",
-      "why": "FQ2 FY27 Wed AMC, 5 PM ET call; consensus EPS ~$0.48; royalty/AI chip read for semis"
-    },
-    {
-      "ticker": "APP",
-      "company": "AppLovin (APP)",
-      "date": "2026-11-04",
-      "when": "AMC",
-      "status": "upcoming",
-      "why": "High-beta NQ name Wed AMC; consensus EPS ~$4.03"
-    },
-    {
-      "ticker": "IREN",
-      "company": "IREN (IREN)",
-      "date": "2026-11-05",
-      "when": "AMC",
-      "status": "upcoming",
-      "why": "AI cloud/GPU data-center read after -9% Thu on capex doubts"
-    }
-  ]
+ "date": "2026-11-02",
+ "at": "2026-11-03T03:21:12Z",
+ "items": [
+  {
+   "ticker": "XOM",
+   "company": "Exxon Mobil (XOM)",
+   "date": "2026-10-30",
+   "when": "BMO",
+   "status": "reported",
+   "sentiment": "Mixed",
+   "why": "Adj EPS $4.23 vs $4.13 beat, rev $113.16B vs $105.36B beat, production 4,496 KOEBD vs 4,440, dividend raised to $1.07; energy bid as tech sells, small NQ weight"
+  },
+  {
+   "ticker": "CVX",
+   "company": "Chevron (CVX)",
+   "date": "2026-10-30",
+   "when": "BMO",
+   "status": "reported",
+   "sentiment": "Mixed",
+   "why": "Adj EPS $5.28 vs $4.93 beat, rev $67.80B vs $62.55B beat, CFO $16B vs $15.08B, production 3,980 MBOE/D vs 3,926; upstream $5.70B vs $6.19B miss; energy rotation, small NQ weight"
+  },
+  {
+   "ticker": "ABBV",
+   "company": "AbbVie (ABBV)",
+   "date": "2026-10-30",
+   "when": "BMO",
+   "status": "reported",
+   "sentiment": "Mixed",
+   "why": "Adj EPS $3.82 vs $3.74 beat, rev $17.40B vs $17.34B beat, Skyrizi $5.78B beat; FY EPS guide raised to $13.95-13.99; defensive rotation, not in NQ"
+  },
+  {
+   "ticker": "AAPL",
+   "company": "Apple (AAPL)",
+   "date": "2026-11-02",
+   "when": "AMC",
+   "status": "reported",
+   "why": "Rev $114.48B vs $113.4B beat, EPS $2.10 vs ~$1.99 beat, iPhone $57.58B +17%, Services record $31.57B +10%; Greater China $17.54B miss, Dec-qtr GM guide 45-46% (memory costs) vs 47.9%, 7-10% growth guide; closed -1.83% at $338.32 then lower AH",
+   "reaction": "~-2% to -4% AH",
+   "sentiment": "Bearish"
+  },
+  {
+   "ticker": "PLTR",
+   "company": "Palantir (PLTR)",
+   "date": "2026-11-02",
+   "when": "AMC",
+   "status": "reported",
+   "why": "Rev $2.31B vs $2.18B beat (+96% y/y), adj EPS $0.44 vs $0.41 beat, US commercial +148% to $984M (tops US gov for first time), FY26 guide raised to ~$8.53B vs $8.2B est; AH bid after -3.1% close",
+   "reaction": "+1.7% AH",
+   "sentiment": "Bullish"
+  },
+  {
+   "ticker": "SHOP",
+   "company": "Shopify (SHOP)",
+   "date": "2026-11-03",
+   "when": "BMO",
+   "status": "upcoming",
+   "why": "Confirmed Tue BMO, 8:30 AM ET call; consensus EPS ~$0.33"
+  },
+  {
+   "ticker": "AMD",
+   "company": "AMD (AMD)",
+   "date": "2026-11-03",
+   "when": "AMC",
+   "status": "upcoming",
+   "why": "Week's big chip print, Tue AMC 5 PM ET call; guided Q3 rev ~$13B +/- $300M; consensus EPS ~$1.68"
+  },
+  {
+   "ticker": "ANET",
+   "company": "Arista Networks (ANET)",
+   "date": "2026-11-03",
+   "when": "AMC",
+   "status": "upcoming",
+   "why": "AI networking read Tue AMC; consensus EPS ~$0.99"
+  },
+  {
+   "ticker": "UBER",
+   "company": "Uber (UBER)",
+   "date": "2026-11-04",
+   "when": "BMO",
+   "status": "upcoming",
+   "why": "Confirmed Wed BMO, 8 AM ET call; gross bookings guide $58.25-60.25B"
+  },
+  {
+   "ticker": "QCOM",
+   "company": "Qualcomm (QCOM)",
+   "date": "2026-11-04",
+   "when": "AMC",
+   "status": "upcoming",
+   "why": "FQ4/FY26 print Wed AMC, 4:45 PM ET call; consensus EPS ~$2.16; handset and AI PC/data-center read"
+  },
+  {
+   "ticker": "ARM",
+   "company": "Arm Holdings (ARM)",
+   "date": "2026-11-04",
+   "when": "AMC",
+   "status": "upcoming",
+   "why": "FQ2 FY27 Wed AMC, 5 PM ET call; consensus EPS ~$0.48; royalty/AI chip read for semis"
+  },
+  {
+   "ticker": "APP",
+   "company": "AppLovin (APP)",
+   "date": "2026-11-04",
+   "when": "AMC",
+   "status": "upcoming",
+   "why": "High-beta NQ name Wed AMC; consensus EPS ~$4.03"
+  },
+  {
+   "ticker": "IREN",
+   "company": "IREN (IREN)",
+   "date": "2026-11-05",
+   "when": "AMC",
+   "status": "upcoming",
+   "why": "AI cloud/GPU data-center read after -9% Thu on capex doubts"
+  }
+ ]
 }
