@@ -1,15 +1,48 @@
 {
-  "at": "2026-11-03T12:01:00Z",
-  "pulse": "Election day opens with defensive premarket after Monday's Nasdaq -1.07%/S&P -0.51% close as AI capex/ROI doubts (Oracle $20B raise, Marvell-Lumentum deal, AAPL AH margin fade) offset a ~7% oil plunge on US-Iran diplomacy hopes, with Qeshm strike reports adding residual risk premium.",
-  "bias": "mixed \u2014 cheaper oil and midterm relief hopes support risk, but persistent AI spending skepticism, Hormuz strike headlines and election volatility keep the tape fragile.",
+  "date": "2026-11-03",
+  "at": "2026-11-03T12:27:55Z",
+  "pulse": "NQ heads into Election Day cash open heavy after Monday's Nasdaq 100 correction close, with AAPL -5.1% premarket on its margin guide and NVDA's China-exposure order to cloud clients weighing on AI, while Qatar's new US-Iran proposal and oil holding below $100 offset some of it.",
+  "bias": "mixed — de-escalation headlines (Qatar wants US/Iran feedback within 36h) and WTI still ~$98 support risk, but AAPL's premarket gap, AI ROI fear, IRGC tanker/drone claims and midterm volatility keep NQ pressured into AMD AMC.",
   "items": [
-    "@MJBurrows (~7:00 AM ET): A rally that belongs to oil is not much of a vote of confidence in AI; ~$3T off Nasdaq peak since highs, Intel continues weak after gloomy forecast \u2014 Bearish NQ",
-    "@wyzbeng (~7:00 AM ET): Midterm election day, premarket defensive (Dow futures -0.5%, NQ flat/slightly red); AI financing scrutiny on ORCL/MRVL, QQQ testing 200dma \u2014 Mixed NQ",
-    "AFP (~4:22 AM ET): Stocks mostly down on AI concerns as oil bounces after plunge; Trump says 'very good chance we'll make a deal' with Iran \u2014 Mixed NQ",
-    "@SophieGeet (~7:00 AM ET): IRGC claims three oil tankers hit sea mines in Strait of Hormuz overnight after switching off systems \u2014 Bearish NQ",
-    "Seoul Economic (~prior close): Oil plunged ~7% on US-Iran talks hopes; Dow +0.41%, S&P -0.51%, Nasdaq -1.07% on AI spending concerns \u2014 Mixed NQ"
+    "@FirstSquawk (~4:06 AM ET): Apple falls 5.1% premarket after slower sales growth and Dec-qtr margin guide — Bearish NQ",
+    "@FirstSquawk (~12:05 AM ET): Nvidia tells cloud providers to sell at least 51% of services to non-Chinese customers, limit China exposure (FT) — Bearish NQ",
+    "@DeItaone (~7:17 AM ET): Qatari mediators expect US and Iran feedback within 36 hours on new proposal; Iran president says Leader allowed talks on non-negotiable issues — Bullish NQ",
+    "IRGC via X News (~7:15 AM ET): Claims 3 tankers hit mines in Hormuz and 2 US LUCAS drones downed near Qeshm; CL +$2.14 to $98.60 overnight — Bearish NQ",
+    "@LiveSquawk (~7:03 AM ET): SHOP Q3 rev $3.74B vs $3.75B, EPS 49c vs 48c, GMV $119.15B miss, Q4 rev growth low-30s% — Mixed NQ"
   ],
-  "trump": "Told Fox News host Sean Hannity 'there's a very good chance we'll make a deal' with Iran.",
-  "watch": "Midterm election results after polls close tonight; overnight/crude reaction to Hormuz/Iran deal or strike headlines; AAPL premarket and open reaction to AH fade; AMD AMC (call 5 PM ET); residual AI ROI skepticism; Fri NFP.",
-  "forSite": []
+  "trump": "No new market-moving posts overnight; still leaning on Monday's 'Oil Prices are DROPPING LIKE A ROCK, down almost $10 a Barrel' and 'very good chance we'll make a deal' with Iran.",
+  "watch": "9:30 AM ET cash open (AAPL gap, QQQ ~681 / 660-670 lows); Iran/Qatar response within 36h and Hormuz headlines for CL; AMD and ANET AMC (AMD call 5 PM ET); midterm results after polls close tonight; Wed UBER BMO, QCOM/ARM/APP AMC; Fri NFP 8:30 AM ET.",
+  "forSite": [],
+  "reports": [
+    {
+      "at": "2026-11-03T12:01:00Z",
+      "pulse": "Election day opens with defensive premarket after Monday's Nasdaq -1.07%/S&P -0.51% close as AI capex/ROI doubts (Oracle $20B raise, Marvell-Lumentum deal, AAPL AH margin fade) offset a ~7% oil plunge on US-Iran diplomacy hopes, with Qeshm strike reports adding residual risk premium.",
+      "bias": "mixed — cheaper oil and midterm relief hopes support risk, but persistent AI spending skepticism, Hormuz strike headlines and election volatility keep the tape fragile.",
+      "items": [
+        "@MJBurrows (~7:00 AM ET): A rally that belongs to oil is not much of a vote of confidence in AI; ~$3T off Nasdaq peak since highs, Intel continues weak after gloomy forecast — Bearish NQ",
+        "@wyzbeng (~7:00 AM ET): Midterm election day, premarket defensive (Dow futures -0.5%, NQ flat/slightly red); AI financing scrutiny on ORCL/MRVL, QQQ testing 200dma — Mixed NQ",
+        "AFP (~4:22 AM ET): Stocks mostly down on AI concerns as oil bounces after plunge; Trump says 'very good chance we'll make a deal' with Iran — Mixed NQ",
+        "@SophieGeet (~7:00 AM ET): IRGC claims three oil tankers hit sea mines in Strait of Hormuz overnight after switching off systems — Bearish NQ",
+        "Seoul Economic (~prior close): Oil plunged ~7% on US-Iran talks hopes; Dow +0.41%, S&P -0.51%, Nasdaq -1.07% on AI spending concerns — Mixed NQ"
+      ],
+      "trump": "Told Fox News host Sean Hannity 'there's a very good chance we'll make a deal' with Iran.",
+      "watch": "Midterm election results after polls close tonight; overnight/crude reaction to Hormuz/Iran deal or strike headlines; AAPL premarket and open reaction to AH fade; AMD AMC (call 5 PM ET); residual AI ROI skepticism; Fri NFP.",
+      "forSite": []
+    },
+    {
+      "at": "2026-11-03T12:27:55Z",
+      "pulse": "NQ heads into Election Day cash open heavy after Monday's Nasdaq 100 correction close, with AAPL -5.1% premarket on its margin guide and NVDA's China-exposure order to cloud clients weighing on AI, while Qatar's new US-Iran proposal and oil holding below $100 offset some of it.",
+      "bias": "mixed — de-escalation headlines (Qatar wants US/Iran feedback within 36h) and WTI still ~$98 support risk, but AAPL's premarket gap, AI ROI fear, IRGC tanker/drone claims and midterm volatility keep NQ pressured into AMD AMC.",
+      "items": [
+        "@FirstSquawk (~4:06 AM ET): Apple falls 5.1% premarket after slower sales growth and Dec-qtr margin guide — Bearish NQ",
+        "@FirstSquawk (~12:05 AM ET): Nvidia tells cloud providers to sell at least 51% of services to non-Chinese customers, limit China exposure (FT) — Bearish NQ",
+        "@DeItaone (~7:17 AM ET): Qatari mediators expect US and Iran feedback within 36 hours on new proposal; Iran president says Leader allowed talks on non-negotiable issues — Bullish NQ",
+        "IRGC via X News (~7:15 AM ET): Claims 3 tankers hit mines in Hormuz and 2 US LUCAS drones downed near Qeshm; CL +$2.14 to $98.60 overnight — Bearish NQ",
+        "@LiveSquawk (~7:03 AM ET): SHOP Q3 rev $3.74B vs $3.75B, EPS 49c vs 48c, GMV $119.15B miss, Q4 rev growth low-30s% — Mixed NQ"
+      ],
+      "trump": "No new market-moving posts overnight; still leaning on Monday's 'Oil Prices are DROPPING LIKE A ROCK, down almost $10 a Barrel' and 'very good chance we'll make a deal' with Iran.",
+      "watch": "9:30 AM ET cash open (AAPL gap, QQQ ~681 / 660-670 lows); Iran/Qatar response within 36h and Hormuz headlines for CL; AMD and ANET AMC (AMD call 5 PM ET); midterm results after polls close tonight; Wed UBER BMO, QCOM/ARM/APP AMC; Fri NFP 8:30 AM ET.",
+      "forSite": []
+    }
+  ]
 }
