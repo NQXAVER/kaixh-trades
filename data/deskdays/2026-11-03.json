@@ -47,5 +47,31 @@
         "forSite": []
       }
     ]
-  }
+  },
+  "calendar": [
+    {
+      "code": "Midterms",
+      "date": "2026-11-03",
+      "event": "Congressional Elections",
+      "id": "elect-1103",
+      "impact": "High",
+      "note": "US midterm elections · results after polls close tonight",
+      "time": "All Day",
+      "ff": "red",
+      "source": "Forex Factory (ET)"
+    },
+    {
+      "code": "JOLTS",
+      "date": "2026-11-03",
+      "event": "JOLTS Job Openings",
+      "id": "jolts-1103",
+      "impact": "High",
+      "note": "Job openings · fcst 7.15M vs 7.08M prev",
+      "time": "10:00 AM",
+      "ff": "orange",
+      "source": "Forex Factory (ET)",
+      "forecast": "7.15M",
+      "previous": "7.08M"
+    }
+  ]
 }
