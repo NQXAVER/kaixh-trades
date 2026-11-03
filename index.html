@@ -341,35 +341,49 @@ textarea::placeholder { color: #8aa3c4; }
 .remind-meta { display: flex; align-items: center; gap: 8px; margin: 0; min-height: 1.2em; }
 .remind-meta .count { font-size: 12px; color: var(--muted); }
 .pill.remind { background: #3d4f68; color: #d5e2f2; font-weight: 600; letter-spacing: .04em; }
-/* Best & Worst */
-.bw-picker { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
-.bw-picker button { font: 600 14px var(--body); background: var(--panel); color: var(--ink); border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; cursor: pointer; }
+/* Best and Worst: one trade per tab, charts full width, then reasoning, then feedback. */
+.bw-page { display: grid; gap: 18px; }
+.bw-page[hidden] { display: none !important; }
+.bw-body { display: grid; gap: 18px; }
+.card.bw-pick { padding: 12px; }
+.bw-picker { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.bw-picker button { min-height: 44px; font: 600 14px var(--body); background: var(--inner); color: var(--ink); border: 1px solid var(--line); border-radius: 8px; padding: 8px 12px; cursor: pointer; }
 .bw-picker button:disabled { opacity: .4; cursor: default; }
-.bw-select { flex: 1 1 140px; min-width: 0; font: 600 14px var(--body); color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 8px 6px; }
-.card.bw-card.best { border-top: 4px solid #3ee07a; }
-.card.bw-card.worst { border-top: 4px solid #ff6b5e; }
-.card.bw-card.best > h2 { color: #3ee07a; }
-.card.bw-card.worst > h2 { color: #ff8a7a; }
-.bw-head { display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between; gap: 8px 10px; }
-.bw-titles { display: grid; gap: 2px; min-width: 0; flex: 1; }
-.bw-title { font-family: var(--display); font-weight: 700; font-size: 18px; line-height: 1.3; margin: 0; text-wrap: balance; overflow-wrap: anywhere; }
-.pill.bw-chip { flex: none; }
+.bw-select { flex: 1 1 160px; min-width: 0; min-height: 44px; font: 600 14px var(--body); color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; }
+.card.bw-hero, .card.bw-block { gap: 14px; padding: 20px 18px 22px; }
+.card.bw-hero.best { border-top: 4px solid #3ee07a; }
+.card.bw-hero.worst { border-top: 4px solid #ff6b5e; }
+.card.bw-hero.best > h2 { color: #3ee07a; }
+.card.bw-hero.worst > h2 { color: #ff8a7a; }
+.bw-head { display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between; gap: 10px 14px; }
+.bw-titles { display: grid; gap: 4px; min-width: 0; flex: 1 1 12rem; }
+.bw-title { font-family: var(--display); font-weight: 700; font-size: 22px; line-height: 1.25; margin: 0; text-wrap: balance; overflow-wrap: anywhere; }
+.pill.bw-chip { flex: none; align-self: flex-start; font-size: 13px; padding: 4px 10px; }
 .pill.bw-chip.best { background: #e3f6e9; color: #146c34; }
 .pill.bw-chip.worst { background: #ffe1dd; color: #b42318; }
-.bw-trade { margin: 0; font: 500 13px/1.45 var(--mono); color: var(--ink); background: var(--bg); border-radius: 8px; padding: 8px 10px; overflow-wrap: anywhere; }
-.bw-shots { display: grid; gap: 12px; }
-.bw-shot { margin: 0; display: grid; gap: 6px; }
-.bw-shot-btn { display: block; width: 100%; padding: 0; border: 0; background: none; cursor: zoom-in; border-radius: 10px; }
-.bw-shot-btn img { display: block; width: 100%; height: auto; border-radius: 10px; border: 1px solid var(--line); background: var(--bg); }
-.bw-shot figcaption { font-size: 13px; font-weight: 600; overflow-wrap: anywhere; }
-.bw-h { font-family: var(--display); font-weight: 500; font-size: 13px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin: 0; }
-.bw-copy { margin: 0; white-space: pre-line; overflow-wrap: anywhere; }
-.bw-list { display: grid; gap: 6px; }
-.bw-list ul { margin: 0; padding-left: 1.15em; display: grid; gap: 6px; }
-.bw-list li { overflow-wrap: anywhere; }
-.bw-kicker { margin: 0; font-size: 12px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; }
+.bw-trade { margin: 0; font: 500 13.5px/1.55 var(--mono); color: var(--ink); background: var(--bg); border-radius: 8px; padding: 12px 14px; overflow-wrap: anywhere; }
+.bw-shot { margin: 0; display: grid; background: var(--panel); border: 1px solid var(--line); border-radius: var(--r); overflow: hidden; min-width: 0; }
+.bw-shot-btn { display: block; width: 100%; padding: 0; border: 0; background: #0b1524; cursor: zoom-in; }
+.bw-shot-btn img { display: block; width: 100%; height: auto; border: 0; border-radius: 0; background: #0b1524; }
+.bw-shot-copy { display: grid; gap: 6px; padding: 14px 16px 16px; }
+.bw-shot-label { margin: 0; font-size: 15px; font-weight: 600; line-height: 1.35; overflow-wrap: anywhere; }
+.bw-copy { margin: 0; max-width: 68ch; white-space: pre-line; overflow-wrap: anywhere; font-size: 16px; line-height: 1.6; }
+.bw-list { display: grid; gap: 8px; max-width: 68ch; }
+.bw-list ul { margin: 0; padding-left: 1.2em; display: grid; gap: 10px; }
+.bw-list li { overflow-wrap: anywhere; line-height: 1.5; }
+.bw-kicker { margin: 4px 0 0; font-size: 12px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
 .bw-kicker.good { color: #3ee07a; }
 .bw-kicker.fix { color: #ff8a7a; }
+@media (min-width: 840px) {
+  .bw-page, .bw-body { gap: 22px; }
+  .bw-title { font-size: 28px; }
+  .card.bw-hero, .card.bw-block { padding: 24px 26px 26px; }
+  .bw-shot-copy { padding: 16px 18px 18px; }
+}
+@media (max-width: 560px) {
+  .bw-title { font-size: 20px; }
+  .bw-copy { font-size: 15.5px; }
+}
 .bw-zoom { position: fixed; inset: 0; z-index: 40; background: #000; display: flex; flex-direction: column; }
 .bw-zoom[hidden] { display: none !important; }
 .bw-zoom-bar { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: max(10px, env(safe-area-inset-top)) 12px 10px; color: #fff; }
@@ -405,7 +419,8 @@ textarea::placeholder { color: #8aa3c4; }
     <button role="tab" id="tab-sp" aria-selected="false" aria-controls="spending">Spending</button>
     <button role="tab" id="tab-earn" aria-selected="false" aria-controls="earnings">Earnings</button>
     <button role="tab" id="tab-x" aria-selected="false" aria-controls="xpulse">X Pulse</button>
-    <button role="tab" id="tab-bw" aria-selected="false" aria-controls="bestworst">Best &amp; Worst</button>
+    <button role="tab" id="tab-best" aria-selected="false" aria-controls="best">Best</button>
+    <button role="tab" id="tab-worst" aria-selected="false" aria-controls="worst">Worst</button>
   </nav>
 
   <!-- DESK -->
@@ -501,16 +516,30 @@ textarea::placeholder { color: #8aa3c4; }
     </div>
   </section>
 
-  <!-- BEST & WORST -->
-  <section id="bestworst" role="tabpanel" aria-labelledby="tab-bw" hidden style="display:grid;gap:16px">
+  <!-- BEST -->
+  <section id="best" class="bw-page" role="tabpanel" aria-labelledby="tab-best" hidden>
     <div class="card bw-pick">
       <div class="bw-picker">
-        <button type="button" id="bw-prev" aria-label="Older week">‹ Older</button>
-        <select id="bw-select" class="bw-select" aria-label="Choose a week"></select>
-        <button type="button" id="bw-next" aria-label="Newer week">Newer ›</button>
+        <button type="button" class="bw-prev" aria-label="Older week">‹ Older</button>
+        <select class="bw-select" aria-label="Choose a week"></select>
+        <button type="button" class="bw-next" aria-label="Newer week">Newer ›</button>
       </div>
     </div>
-    <div id="bw-body" style="display:grid;gap:16px" aria-live="polite">
+    <div class="bw-body" data-kind="best" aria-live="polite">
+      <p class="empty">Loading…</p>
+    </div>
+  </section>
+
+  <!-- WORST -->
+  <section id="worst" class="bw-page" role="tabpanel" aria-labelledby="tab-worst" hidden>
+    <div class="card bw-pick">
+      <div class="bw-picker">
+        <button type="button" class="bw-prev" aria-label="Older week">‹ Older</button>
+        <select class="bw-select" aria-label="Choose a week"></select>
+        <button type="button" class="bw-next" aria-label="Newer week">Newer ›</button>
+      </div>
+    </div>
+    <div class="bw-body" data-kind="worst" aria-live="polite">
       <p class="empty">Loading…</p>
     </div>
   </section>
@@ -659,7 +688,7 @@ textarea::placeholder { color: #8aa3c4; }
   const price = new Intl.NumberFormat('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 
   // Tabs
-  const tabs = { desk: $('tab-desk'), accountability: $('tab-acc'), journal: $('tab-jr'), calendar: $('tab-cal'), spending: $('tab-sp'), earnings: $('tab-earn'), xpulse: $('tab-x'), bestworst: $('tab-bw') };
+  const tabs = { desk: $('tab-desk'), accountability: $('tab-acc'), journal: $('tab-jr'), calendar: $('tab-cal'), spending: $('tab-sp'), earnings: $('tab-earn'), xpulse: $('tab-x'), best: $('tab-best'), worst: $('tab-worst') };
   const show = (name) => {
     for (const [k, b] of Object.entries(tabs)) {
       const on = k === name;
@@ -682,10 +711,13 @@ textarea::placeholder { color: #8aa3c4; }
   tabs.spending.addEventListener('click', () => show('spending'));
   tabs.earnings.addEventListener('click', () => show('earnings'));
   tabs.xpulse.addEventListener('click', () => show('xpulse'));
-  tabs.bestworst.addEventListener('click', () => show('bestworst'));
+  tabs.best.addEventListener('click', () => show('best'));
+  tabs.worst.addEventListener('click', () => show('worst'));
+  // #bestworst is the old combined tab. It opens Best.
+  const openTab = (name) => (name === 'bestworst' ? 'best' : name);
   const h = location.hash.slice(1);
   let start = 'desk';
-  if (h in tabs) start = h; else { try { start = localStorage.getItem('nqdesk-tab') || 'desk'; } catch (e) {} }
+  if (openTab(h) in tabs) start = openTab(h); else { try { start = openTab(localStorage.getItem('nqdesk-tab') || 'desk'); } catch (e) {} }
   show(start in tabs ? start : 'desk');
 
   // ---------- Desk: news doc ----------
@@ -2029,7 +2061,7 @@ textarea::placeholder { color: #8aa3c4; }
     if (btn.hasAttribute('data-firm')) { spendFirm = btn.getAttribute('data-firm'); spendOpen = false; paintSpend(); }
   });
 
-  // ---------- Best & Worst ----------
+  // ---------- Best and Worst ----------
   // Same read order as Spending: local preview (file or localhost) uses the JSON beside index.html.
   // The live site reads GitHub main first, then falls back to a site-relative file.
   let bwWeeks = [];
@@ -2073,36 +2105,41 @@ textarea::placeholder { color: #8aa3c4; }
   };
   const weekLabel = (monday) => pretty(monday, { month: 'short', day: 'numeric' }) + ' \u2013 ' + pretty(shift(monday, 6), { month: 'short', day: 'numeric', year: 'numeric' });
   const paintWeekPicker = () => {
-    const sel = $('bw-select');
-    if (!sel) return;
+    const sels = document.querySelectorAll('.bw-select');
+    if (!sels.length) return;
     bwSyncing = true;
-    sel.replaceChildren();
-    if (!bwWeeks.length) {
-      const o = el('option', null, bwLoaded ? 'Not ready yet' : 'Loading\u2026');
-      o.value = '';
-      sel.append(o);
-      sel.disabled = true;
-    } else {
-      sel.disabled = false;
-      bwWeeks.forEach((monday) => {
-        const o = el('option', null, weekLabel(monday));
-        o.value = monday;
+    sels.forEach((sel) => {
+      sel.replaceChildren();
+      if (!bwWeeks.length) {
+        const o = el('option', null, bwLoaded ? 'Not ready yet' : 'Loading\u2026');
+        o.value = '';
         sel.append(o);
-      });
-      sel.value = bwWeeks[bwAt] || bwWeeks[0];
-    }
+        sel.disabled = true;
+      } else {
+        sel.disabled = false;
+        bwWeeks.forEach((monday) => {
+          const o = el('option', null, weekLabel(monday));
+          o.value = monday;
+          sel.append(o);
+        });
+        sel.value = bwWeeks[bwAt] || bwWeeks[0];
+      }
+    });
     bwSyncing = false;
-    if ($('bw-prev')) $('bw-prev').disabled = !bwWeeks.length || bwAt >= bwWeeks.length - 1;
-    if ($('bw-next')) $('bw-next').disabled = !bwWeeks.length || bwAt <= 0;
+    const older = !bwWeeks.length || bwAt >= bwWeeks.length - 1;
+    const newer = !bwWeeks.length || bwAt <= 0;
+    document.querySelectorAll('.bw-prev').forEach((btn) => { btn.disabled = older; });
+    document.querySelectorAll('.bw-next').forEach((btn) => { btn.disabled = newer; });
   };
   const renderWeeklyMissing = () => {
-    const body = $('bw-body');
-    if (!body) return;
-    body.replaceChildren();
-    const c = el('div', 'card');
-    c.append(el('h2', null, 'Best & Worst'));
-    c.append(el('p', 'empty', 'Not ready yet.'));
-    body.append(c);
+    document.querySelectorAll('.bw-body').forEach((body) => {
+      const kind = body.getAttribute('data-kind') === 'worst' ? 'Worst' : 'Best';
+      body.replaceChildren();
+      const c = el('div', 'card');
+      c.append(el('h2', null, kind));
+      c.append(el('p', 'empty', 'Not ready yet.'));
+      body.append(c);
+    });
   };
   let bwZoom = null;
   let bwZoomReturn = null;
@@ -2171,79 +2208,88 @@ textarea::placeholder { color: #8aa3c4; }
     return true;
   };
   const renderTrade = (kind, trade, local) => {
-    const card = el('div', 'card bw-card ' + kind);
-    card.append(el('h2', null, kind === 'best' ? 'Best execution of the week' : 'Worst execution of the week'));
+    const nodes = [];
+    const hero = el('div', 'card bw-hero ' + kind);
+    hero.append(el('h2', null, kind === 'best' ? 'Best execution of the week' : 'Worst execution of the week'));
     if (!bwObj(trade)) {
-      card.append(el('p', 'empty', 'Not ready yet.'));
-      return card;
+      hero.append(el('p', 'empty', 'Not ready yet.'));
+      nodes.push(hero);
+      return nodes;
     }
     const head = el('div', 'bw-head');
     const titles = el('div', 'bw-titles');
     titles.append(el('p', 'bw-title', bwText(trade.title) || 'Untitled'));
     const date = bwIso(trade.date);
-    if (date) titles.append(el('p', 'sub', pretty(date, { weekday: 'short', month: 'short', day: 'numeric' })));
+    if (date) titles.append(el('p', 'sub', pretty(date, { weekday: 'long', month: 'long', day: 'numeric' })));
     head.append(titles);
     const result = bwText(trade.result);
     if (result) head.append(el('span', 'pill bw-chip ' + kind, result));
-    card.append(head);
+    hero.append(head);
     const line = bwText(trade.trade);
-    if (line) card.append(el('p', 'bw-trade', line));
+    if (line) hero.append(el('p', 'bw-trade', line));
     const shots = (Array.isArray(trade.screenshots) ? trade.screenshots : []).filter((s) => bwObj(s) && bwText(s.src));
-    if (shots.length) {
-      const wrap = el('div', 'bw-shots');
-      shots.forEach((s) => {
-        const fig = el('figure', 'bw-shot');
-        const btn = el('button', 'bw-shot-btn');
-        btn.type = 'button';
-        const label = bwText(s.label);
-        const note = bwText(s.note);
-        btn.setAttribute('aria-label', label ? 'Open screenshot: ' + label : 'Open screenshot');
-        const img = el('img');
-        img.alt = label || 'Trade screenshot';
-        const ok = fillShot(img, bwText(s.src), local);
-        if (ok) {
-          btn.append(img);
-          btn.addEventListener('click', () => openZoom(img.currentSrc || img.src, label, btn));
-          fig.append(btn);
-        }
-        if (label) fig.append(el('figcaption', null, label));
-        if (note) fig.append(el('p', 'sub', note));
-        if (fig.childNodes.length) wrap.append(fig);
-      });
-      if (wrap.childNodes.length) card.append(wrap);
-    }
+    if (shots.length) hero.append(el('p', 'sub', 'Tap a chart to zoom.'));
+    nodes.push(hero);
+    shots.forEach((s) => {
+      const fig = el('figure', 'bw-shot');
+      const btn = el('button', 'bw-shot-btn');
+      btn.type = 'button';
+      const label = bwText(s.label);
+      const note = bwText(s.note);
+      btn.setAttribute('aria-label', label ? 'Open screenshot: ' + label : 'Open screenshot');
+      const img = el('img');
+      img.alt = label || 'Trade screenshot';
+      const ok = fillShot(img, bwText(s.src), local);
+      if (ok) {
+        btn.append(img);
+        btn.addEventListener('click', () => openZoom(img.currentSrc || img.src, label, btn));
+        fig.append(btn);
+      }
+      if (label || note) {
+        const cap = el('figcaption', 'bw-shot-copy');
+        if (label) cap.append(el('p', 'bw-shot-label', label));
+        if (note) cap.append(el('p', 'sub', note));
+        fig.append(cap);
+      }
+      if (fig.childNodes.length) nodes.push(fig);
+    });
     const reasoning = typeof trade.reasoning === 'string' ? trade.reasoning.trim() : '';
     if (reasoning) {
-      card.append(el('h3', 'bw-h', 'My reasoning'));
-      card.append(el('p', 'bw-copy', reasoning));
+      const block = el('div', 'card bw-block');
+      block.append(el('h2', null, 'My reasoning'));
+      block.append(el('p', 'bw-copy', reasoning));
+      nodes.push(block);
     }
     const feedback = typeof trade.feedback === 'string' ? trade.feedback.trim() : '';
     const good = bwList(trade.good);
     const fix = bwList(trade.fix);
     if (feedback || good.length || fix.length) {
-      card.append(el('h3', 'bw-h', 'Grok\u2019s feedback'));
-      if (feedback) card.append(el('p', 'bw-copy', feedback));
+      const block = el('div', 'card bw-block');
+      block.append(el('h2', null, 'Grok\u2019s feedback'));
+      if (feedback) block.append(el('p', 'bw-copy', feedback));
       const addList = (name, items, cls) => {
         if (!items.length) return;
-        const block = el('div', 'bw-list');
-        block.append(el('p', 'bw-kicker ' + cls, name));
+        const list = el('div', 'bw-list');
+        list.append(el('p', 'bw-kicker ' + cls, name));
         const ul = el('ul');
         items.forEach((item) => ul.append(el('li', null, item)));
-        block.append(ul);
-        card.append(block);
+        list.append(ul);
+        block.append(list);
       };
       addList('Good', good, 'good');
       addList('Fix', fix, 'fix');
+      nodes.push(block);
     }
-    return card;
+    return nodes;
   };
   const renderWeekly = (week, local) => {
-    const body = $('bw-body');
-    if (!body) return;
-    body.replaceChildren();
+    const bodies = document.querySelectorAll('.bw-body');
+    if (!bodies.length) return;
     if (!bwObj(week)) { renderWeeklyMissing(); return; }
-    body.append(renderTrade('best', week.best, !!local));
-    body.append(renderTrade('worst', week.worst, !!local));
+    bodies.forEach((body) => {
+      const kind = body.getAttribute('data-kind') === 'worst' ? 'worst' : 'best';
+      body.replaceChildren(...renderTrade(kind, week[kind], !!local));
+    });
   };
   const loadWeekly = async () => {
     const token = ++bwToken;
@@ -2262,13 +2308,13 @@ textarea::placeholder { color: #8aa3c4; }
     if (token !== bwToken || bwWeeks[bwAt] !== id) return;
     renderWeekly(bwObj(file.data) ? file.data : null, file.local);
   };
-  if ($('bw-prev')) $('bw-prev').addEventListener('click', () => { if (bwAt < bwWeeks.length - 1) { bwAt += 1; loadWeekly(); } });
-  if ($('bw-next')) $('bw-next').addEventListener('click', () => { if (bwAt > 0) { bwAt -= 1; loadWeekly(); } });
-  if ($('bw-select')) $('bw-select').addEventListener('change', () => {
+  document.querySelectorAll('.bw-prev').forEach((btn) => btn.addEventListener('click', () => { if (bwAt < bwWeeks.length - 1) { bwAt += 1; loadWeekly(); } }));
+  document.querySelectorAll('.bw-next').forEach((btn) => btn.addEventListener('click', () => { if (bwAt > 0) { bwAt -= 1; loadWeekly(); } }));
+  document.querySelectorAll('.bw-select').forEach((sel) => sel.addEventListener('change', () => {
     if (bwSyncing) return;
-    const i = bwWeeks.indexOf($('bw-select').value);
+    const i = bwWeeks.indexOf(sel.value);
     if (i >= 0 && i !== bwAt) { bwAt = i; loadWeekly(); }
-  });
+  }));
   paintWeekPicker();
 
   const loadAll = async () => {
