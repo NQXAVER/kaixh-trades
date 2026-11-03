@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T16:20:46Z",
+  "updatedAt": "2026-11-03T16:52:52Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -183,9 +183,9 @@
     {
       "id": "un-peace",
       "label": "UN News",
-      "ok": true,
-      "items": 20,
-      "error": null
+      "ok": false,
+      "items": 0,
+      "error": "ParseError: not well-formed (invalid token): line 1, column 0"
     },
     {
       "id": "wsj-biz",
@@ -203,6 +203,18 @@
     }
   ],
   "items": [
+    {
+      "id": "fd453a98b9d13",
+      "headline": "Iran Says It Would Reopen Strait of Hormuz in 2 Days as Part of U.S. Deal",
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/2026/11/02/world/middleeast/iran-deal-strait-of-hormuz.html",
+      "publishedAt": "2026-11-03T16:32:56Z",
+      "time": "Tue 11:32 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": "mixed",
+      "auto": true
+    },
     {
       "id": "fa9f72f31074c",
       "headline": "For Ukraine's Kherson region, a short ceasefire meant a momentary return to normal life",
@@ -249,18 +261,6 @@
       "section": "war",
       "impact": "High",
       "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "fd453a98b9d13",
-      "headline": "Iran Says It Would Reopen Strait of Hormuz in 2 Days as Part of U.S. Deal",
-      "source": "New York Times",
-      "url": "https://www.nytimes.com/2026/11/02/world/middleeast/iran-deal-strait-of-hormuz.html",
-      "publishedAt": "2026-11-02T20:25:34Z",
-      "time": "Mon 3:25 PM",
-      "section": "war",
-      "impact": "High",
-      "lean": "mixed",
       "auto": true
     },
     {
@@ -616,8 +616,8 @@
       "headline": "Saudi Aramco Profit Jumps Despite Damaging Attacks on Pipelines and Refineries",
       "source": "New York Times",
       "url": "https://www.nytimes.com/2026/11/03/business/saudi-aramco-q3-earnings.html",
-      "publishedAt": "2026-11-03T13:56:44Z",
-      "time": "Tue 8:56 AM",
+      "publishedAt": "2026-11-03T16:38:42Z",
+      "time": "Tue 11:38 AM",
       "section": "energy",
       "impact": "High",
       "lean": "risk-off",
@@ -736,8 +736,8 @@
       "headline": "Shopify’s stock slides after earnings. This is what’s worrying Wall Street.",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/shopifys-stock-slides-after-earnings-this-is-whats-worrying-wall-street-e2e8d52b?mod=mw_rss_topstories",
-      "publishedAt": "2026-11-03T13:26:00Z",
-      "time": "Tue 8:26 AM",
+      "publishedAt": "2026-11-03T16:31:00Z",
+      "time": "Tue 11:31 AM",
       "section": "markets",
       "impact": "Medium",
       "lean": null,
