@@ -1,15 +1,138 @@
 {
-  "at": "2026-11-03T01:10:00Z",
-  "pulse": "NQ closed mixed as the oil-relief bounce faded into a tech-led selloff (Nasdaq -1.07%, S&P -0.51%) on AI ROI doubts; AAPL beat but fell ~3% AH on cautious guidance while PLTR beat-and-raised.",
-  "bias": "mixed — crude ~7% plunge on US-Iran diplomacy hopes and select beats support risk-on, but persistent AI spending skepticism, AAPL AH fade and midterm uncertainty keep the tape fragile.",
+  "date": "2026-11-02",
+  "at": "2026-11-03T01:23:54Z",
+  "pulse": "NQ futures off ~1% in the evening session as WSJ reports a US strike on Iran's Qeshm Island by Hormuz, reversing today's oil-relief trade, with AAPL's beat-but-light margin guide dragging AH; PLTR's beat-and-raise is the lone offset.",
+  "bias": "risk-off — Qeshm strike and IRGC drone claims threaten the Hormuz reopening that crushed crude ~7% today, while AAPL slides up to ~4% AH on a 45-46% Dec-qtr margin guide; midterms Tuesday add event risk.",
   "items": [
-    "@silentmax (~7:54 PM ET): Nasdaq 100 -1.4% into correction, oil >7% drop on Iran diplomacy; AAPL beat but slipped on 7-10% Dec guide, PLTR raised outlook — Mixed NQ",
-    "@9to5mac (~8:07 PM ET): Apple stock drops nearly 3% after hours following Q4 results — Bearish NQ",
-    "@mktboxapp (~8:10 PM ET): XLK bled into the close even as oil crashed 7%; AAPL and PLTR both beat AH, reaction barely a shrug — Mixed NQ",
-    "@Morpheu5Watcher (~7:53 PM ET): Oil lost 7%, SPY -0.48%; AAPL AH down on thinner margin forecast after the beat — Mixed NQ",
-    "@tyrovirtuoso (~8:09 PM ET): Wall St mixed close S&P -0.51% Nasdaq -1.07%; Iran says Hormuz could reopen in two days if US meets conditions — Mixed NQ"
+    "@FirstSquawk (~7:42 PM ET): US military launches strikes against Iran's Qeshm Island (WSJ) — Bearish NQ",
+    "@FirstSquawk (~8:20 PM ET): IRGC says it seized two US MQM-170 drones over Qeshm and shot down an MQ-9 near Hormuz (Press TV) — Bearish NQ",
+    "@TheFlowHorse (~8:12 PM ET): AAPL rev $114.48B vs $113.39B est, EPS $2.10 vs $1.99, iPhone $57.58B +17%, Services $31.57B +10%; Dec-qtr GM guided 45-46% — Mixed NQ",
+    "@Toyou1071530 (~8:18 PM ET): AAPL fell up to ~4% AH as the margin guide (memory costs) overshadowed the beat — Bearish NQ",
+    "@getalphacharts (~8:16 PM ET): NQ futures off about 1% tonight — Bearish NQ"
   ],
-  "trump": "No major new market-moving posts; earlier noted oil prices 'dropping like a rock' (~$10/bbl) on Iran talks and prefers diplomacy over further strikes.",
-  "watch": "AAPL AH/overnight reaction and open; Tuesday Nov 3 midterm results and volatility; Iran/Hormuz and crude headlines; AMD and ANET Tue AMC; Fri NFP.",
-  "forSite": []
+  "trump": "No new market-moving Trump posts tonight (only midterm get-out-the-vote endorsements); earlier he backed Iran diplomacy and said oil is 'dropping like a rock', which the reported Qeshm strike now undercuts.",
+  "watch": "Iran/Hormuz and CENTCOM confirmation overnight (crude reopen reaction); AAPL overnight/premarket; Tue Nov 3 midterms; SHOP Tue BMO (8:30 AM ET call); AMD and ANET Tue AMC (AMD call 5 PM ET); Wed QCOM/ARM/APP AMC; Fri NFP 8:30 AM ET.",
+  "forSite": [],
+  "reports": [
+    {
+      "at": "2026-11-02T12:00:29Z",
+      "pulse": "NQ and ES futures rise 0.5-0.9% as oil drops 3-4% on hopes for US-Iran diplomacy and Trump giving talks more time, offsetting Friday's AI-capex selloff ahead of midterms and key earnings.",
+      "bias": "mixed — softer oil and futures bounce favor risk-on relief after tech rout, but lingering AI spending doubts, midterm uncertainty and Hormuz/Iran headline risk keep the tape fragile.",
+      "items": [
+        "@FlowStateOfMind (~6:03 AM ET): Brent down 3% overnight after Iran proposed reopening Hormuz within 48 hours; Nasdaq futures +0.8%, S&P +0.4% — Bullish NQ",
+        "@quantalg0 (~4:39 AM ET): NQ bounced from ~28,233 to 28,785, ES from ~7,558 to 7,651; CL slid from above $104 to ~$99.56 on US-Iran diplomacy hopes — Bullish NQ",
+        "@summitcapitnews (~7:00 AM ET): Brent crude slides to $112 as falling Treasury yields lift Nasdaq futures and AAPL/AMD/QCOM; 10y at 4.92% — Bullish NQ",
+        "@skyatido (~6:47 AM ET): NQ futures daily AI call SELL (11 of 20 models); entry 7:00 AM ET, TP +74, SL -77 — Bearish NQ",
+        "Morningstar/Bloomberg (~7:00 AM ET): Stock futures higher (Nasdaq +0.7-0.9%), oil lower on Trump diplomacy preference post-midterms; AI stocks rallying after Friday rout — Mixed NQ"
+      ],
+      "trump": "Reports indicate President Trump wants to give diplomacy with Iran more time, helping ease oil prices and support equity futures ahead of midterms.",
+      "watch": "Monday cash open and ISM Manufacturing 10 AM ET; AAPL and PLTR earnings AMC; Tuesday Nov 3 midterms plus AMD/ANET; oil/Iran Hormuz headlines; Friday NFP.",
+      "forSite": []
+    },
+    {
+      "at": "2026-11-02T12:27:34Z",
+      "pulse": "NQ futures holding the overnight bounce as Brent slides ~4% toward $109 on Iran-Qatar Doha talks and Iran's offer to reopen Hormuz in two days, with the Marvell-Lumentum AI deal helping semis; Netanyahu pushing Trump for new Iran strikes and an NVDA target cut keep the bid fragile into midterms.",
+      "bias": "risk-on — falling crude and AI-connectivity M&A lift semis after Friday's rout, but Iran strike talk, NVDA PT cut and Tuesday's midterms cap conviction; ISM 10 AM and AAPL/PLTR AMC are the tests.",
+      "items": [
+        "@StrikeNerai (~7:25 AM ET): Brent -4% near $109, WTI near $100 as Iran-Qatar Doha talks lift hopes; Tehran says Hormuz could reopen in 2 days if US meets demands — Bullish NQ",
+        "@DeItaone (~6:58 AM ET): Netanyahu presses Trump for renewed strikes against Iran (FT) — Bearish NQ",
+        "@LiveSquawk (~7:08 AM ET): Marvell to acquire Lumentum in all-stock deal valued at $115B, AI connectivity leader (MRVL/LITE) — Bullish NQ",
+        "@DeItaone (~6:37 AM ET): Trump says US could soon control 50% of global chip business, leads China in AI by wide margin — Bullish NQ",
+        "@DeItaone (~6:48 AM ET): $NVDA Melius cuts PT to $315 from $420 — Bearish NQ"
+      ],
+      "trump": "\"I will veto everything if Democrats win in midterms\"; on Iran: \"We'll see about a deal, they want to make one\"; says US could soon control 50% of the global chip business and predicts gas below $2; asked if elections will be secure: \"No\".",
+      "watch": "ISM Manufacturing 10:00 AM ET; AAPL + PLTR AMC tonight; Tue Nov 3 midterms + AMD/ANET/SHOP; Wed QCOM/ARM/APP/UBER; oil/Hormuz and Iran-strike headlines; Fri NFP 8:30 AM ET.",
+      "forSite": []
+    },
+    {
+      "at": "2026-11-02T14:27:32Z",
+      "pulse": "NQ futures up ~1% premarket as WTI drops ~7% below $98 and Brent ~5% on US-Iran deal hopes, with Araghchi saying Hormuz reopens if the US accepts Tehran's terms; Iran's warning of a stronger military response, SOXX still below its 200-day and AAPL/PLTR AMC keep it a relief bounce until proven.",
+      "bias": "risk-on — crude collapse and Hormuz-deal headlines pull yields and lift tech after Friday's AI rout, but Iran conditions/military warnings, ORCL's $20B raise and midterms Tuesday cap conviction; ISM 10 AM and AAPL tonight decide follow-through.",
+      "items": [
+        "@FirstSquawk (~8:40 AM ET): NASDAQ 100 futures gain 1% — Bullish NQ",
+        "@WatcherGuru (~9:00 AM ET): Brent crude crashes 5% on reports US and Iran nearing a deal; WTI -7% below $98 — Bullish NQ",
+        "@DeItaone (~9:22 AM ET): Araghchi: if US accepts our conditions Hormuz will be reopened and talks resume; mediation via Qatar/Pakistan 'very intense', but warns of stronger military response — Mixed NQ",
+        "X News/Reuters (~9:15 AM ET): Oracle files $10B stock + $10B bond sale to fund AI buildout, shares slide (-18% over 4 days); Stephens upgrades to Overweight — Bearish NQ",
+        "@DeItaone (~9:19 AM ET): Morgan Stanley downgrades $COIN to Underweight, PT $120 from $258 — Bearish NQ"
+      ],
+      "trump": "No new market-moving Trump remarks since 7 AM; he gives his final midterm pitch at the Lincoln Memorial Reflecting Pool (zerohedge ~9:10 AM ET). Earlier: reportedly wants more time for Iran diplomacy; \"I will veto everything if Democrats win in midterms\".",
+      "watch": "Cash open 9:30 AM ET; ISM Manufacturing 10:00 AM ET; Iran/Hormuz deal headlines and crude; AAPL + PLTR AMC tonight; Tue Nov 3 midterms + SHOP BMO, AMD/ANET AMC; Wed UBER BMO, QCOM/ARM/APP AMC; Fri NFP 8:30 AM ET (fcst ~60K).",
+      "forSite": []
+    },
+    {
+      "at": "2026-11-02T14:30:12Z",
+      "pulse": "NQ and ES futures rebound 0.5-0.8% premarket as oil plunges 4%+ on hopes for US-Iran diplomatic progress in Qatar-mediated talks that could reopen Hormuz, providing relief after Friday's AI-driven Nasdaq selloff ahead of midterms and key earnings.",
+      "bias": "risk-on — crude collapse and Hormuz-deal headlines lift tech futures after the AI rout, but residual geopolitics, midterm uncertainty and AI spending doubts cap conviction into the cash open.",
+      "items": [
+        "@Tyngsguy (~9:29 AM ET): Bullish bias on QQQ/SPY/IWM with gap-up; QQQ 700 key break/hold targets 702-710, watching Iran headlines and midterms — Bullish NQ",
+        "@PshavaP (~9:29 AM ET): Oil sliding may confirm Trump-Iran deal theory as market prices the story ahead of headlines — Bullish NQ",
+        "@MatthewCStocks (~9:28 AM ET): Rubio says Trump prefers diplomacy over military action in Iran; Iranian officials note possible agreement after Qatar talks if demands met — Bullish NQ",
+        "AP/Bloomberg (~9:15 AM ET): S&P futures +0.5%, Nasdaq +0.8% as Brent -4.2% to ~$108.7 and WTI ~$99.7 on Iran diplomat confirming Qatar talks for potential Hormuz reopen in days — Bullish NQ",
+        "@Sharekhan (~7:38 AM ET): Nasdaq futures +0.9% on Middle East hopes and cooler oil after Friday -2.86% close; AAPL and PLTR report next — Bullish NQ"
+      ],
+      "trump": "Reports indicate Trump prefers a diplomatic solution and wants more time for Iran talks, helping ease oil and support futures; no new direct market-moving posts found, with final midterm pitch ongoing.",
+      "watch": "Cash open reaction 9:30 AM ET; ISM Manufacturing 10 AM ET; Iran/Hormuz deal headlines and crude path; AAPL + PLTR AMC tonight; Tuesday Nov 3 midterms plus more earnings; residual AI ROI concerns and Friday NFP.",
+      "forSite": []
+    },
+    {
+      "at": "2026-11-02T21:16:25Z",
+      "pulse": "NQ/ES morning futures bounce on sharp oil drop from US-Iran Qatar-mediated talks faded into the close as tech sold again on persistent AI ROI fears, with Apple earnings and midterms ahead.",
+      "bias": "mixed — oil relief and early bounce supported risk-on, but tech fade, AI doubts and geopolitical residual keep it fragile into AAPL/PLTR and midterms.",
+      "items": [
+        "@FIowStateofMind (~6:03 AM ET): Brent down 3% overnight after Iran proposed reopening Hormuz within 48 hours; Nasdaq futures +0.8%, S&P +0.4% — Bullish NQ",
+        "@ozzy_livin (~9:15 AM ET): ES +0.5%, NQ +0.8% after Friday AI selloff; oil tumbling 6% on Iran supreme leader peace talks authority — Bullish NQ",
+        "@GammaSqueezer (~4:15 PM ET): Monday close — morning rebound faded; QQQ -1.4%, XLK -2.9%, SPY -0.5%; oil slid on US-Iran Doha talks — Mixed NQ",
+        "@invertario_es (~4:15 PM ET): Mixed Monday: Dow up, tech sold; S&P -0.51%, Nasdaq >1% down; Brent $104.77 -7.6% on US-Iran talks — Mixed NQ",
+        "@KKidd95706 (~4:15 PM ET): Trump says oil prices are dropping like a rock, down almost $10 bbl — Bullish NQ"
+      ],
+      "trump": "Trump noted oil prices dropping like a rock (~$10); reports he prefers more time for Iran diplomacy over strikes, aiding the oil slide.",
+      "watch": "AAPL and PLTR earnings reaction after close tonight; Tuesday midterms results; ongoing Iran/Hormuz headlines and crude; residual AI spending skepticism; Friday NFP.",
+      "forSite": []
+    },
+    {
+      "at": "2026-11-02T21:24:28Z",
+      "pulse": "NQ closed red as the morning oil-relief bounce faded into a tech-led selloff (Nasdaq -1.07%, S&P -0.51%), with PLTR's beat-and-raise lifting AH sentiment while AAPL's print is still pending.",
+      "bias": "mixed — PLTR beat/raise and crude down ~8% on US-Iran talks help, but persistent AI ROI selling into the close and AAPL at ~37x fwd keep tech fragile into midterms.",
+      "items": [
+        "@moving_markets (~4:23 PM ET): Green open faded into tech-led selloff; S&P -0.51%, Nasdaq -1.07% — Bearish NQ",
+        "@NoctizXIII (~4:17 PM ET): PLTR Q3 rev $2.313B +96% y/y, US commercial +148% to $984M, FY26 guide raised to ~$8.53B; ~$181 AH (+1.7%) after -3.1% close — Bullish NQ",
+        "@TheStalwart (~4:20 PM ET): PLTR boosted revenue outlook, AH at highest level since 3 PM — Bullish NQ",
+        "@DV_Memetics (~4:18 PM ET): QQQ ~$684 +0.4% AH as PLTR beats; AAPL print still pending — Mixed NQ",
+        "@TheLocusAlpha (~4:20 PM ET): Oil fell 7.9% on a draft US-Iran peace proposal nobody has signed; WTI 95 the pivot — Bullish NQ"
+      ],
+      "trump": "No new market-moving Trump headline since the close; earlier he said oil prices are 'dropping like a rock,' down almost $10/bbl, backing the Iran diplomacy oil slide.",
+      "watch": "AAPL Q4 results ~4:30 PM ET, call 5 PM ET (cons EPS ~$1.98, rev ~$113.3B; new CEO's first call); PLTR follow-through overnight; Tue midterms; SHOP Tue BMO; AMD and ANET Tue AMC; Iran/Hormuz and crude headlines; Fri NFP.",
+      "forSite": []
+    },
+    {
+      "at": "2026-11-03T01:10:00Z",
+      "pulse": "NQ closed mixed as the oil-relief bounce faded into a tech-led selloff (Nasdaq -1.07%, S&P -0.51%) on AI ROI doubts; AAPL beat but fell ~3% AH on cautious guidance while PLTR beat-and-raised.",
+      "bias": "mixed — crude ~7% plunge on US-Iran diplomacy hopes and select beats support risk-on, but persistent AI spending skepticism, AAPL AH fade and midterm uncertainty keep the tape fragile.",
+      "items": [
+        "@silentmax (~7:54 PM ET): Nasdaq 100 -1.4% into correction, oil >7% drop on Iran diplomacy; AAPL beat but slipped on 7-10% Dec guide, PLTR raised outlook — Mixed NQ",
+        "@9to5mac (~8:07 PM ET): Apple stock drops nearly 3% after hours following Q4 results — Bearish NQ",
+        "@mktboxapp (~8:10 PM ET): XLK bled into the close even as oil crashed 7%; AAPL and PLTR both beat AH, reaction barely a shrug — Mixed NQ",
+        "@Morpheu5Watcher (~7:53 PM ET): Oil lost 7%, SPY -0.48%; AAPL AH down on thinner margin forecast after the beat — Mixed NQ",
+        "@tyrovirtuoso (~8:09 PM ET): Wall St mixed close S&P -0.51% Nasdaq -1.07%; Iran says Hormuz could reopen in two days if US meets conditions — Mixed NQ"
+      ],
+      "trump": "No major new market-moving posts; earlier noted oil prices 'dropping like a rock' (~$10/bbl) on Iran talks and prefers diplomacy over further strikes.",
+      "watch": "AAPL AH/overnight reaction and open; Tuesday Nov 3 midterm results and volatility; Iran/Hormuz and crude headlines; AMD and ANET Tue AMC; Fri NFP.",
+      "forSite": []
+    },
+    {
+      "at": "2026-11-03T01:23:54Z",
+      "pulse": "NQ futures off ~1% in the evening session as WSJ reports a US strike on Iran's Qeshm Island by Hormuz, reversing today's oil-relief trade, with AAPL's beat-but-light margin guide dragging AH; PLTR's beat-and-raise is the lone offset.",
+      "bias": "risk-off — Qeshm strike and IRGC drone claims threaten the Hormuz reopening that crushed crude ~7% today, while AAPL slides up to ~4% AH on a 45-46% Dec-qtr margin guide; midterms Tuesday add event risk.",
+      "items": [
+        "@FirstSquawk (~7:42 PM ET): US military launches strikes against Iran's Qeshm Island (WSJ) — Bearish NQ",
+        "@FirstSquawk (~8:20 PM ET): IRGC says it seized two US MQM-170 drones over Qeshm and shot down an MQ-9 near Hormuz (Press TV) — Bearish NQ",
+        "@TheFlowHorse (~8:12 PM ET): AAPL rev $114.48B vs $113.39B est, EPS $2.10 vs $1.99, iPhone $57.58B +17%, Services $31.57B +10%; Dec-qtr GM guided 45-46% — Mixed NQ",
+        "@Toyou1071530 (~8:18 PM ET): AAPL fell up to ~4% AH as the margin guide (memory costs) overshadowed the beat — Bearish NQ",
+        "@getalphacharts (~8:16 PM ET): NQ futures off about 1% tonight — Bearish NQ"
+      ],
+      "trump": "No new market-moving Trump posts tonight (only midterm get-out-the-vote endorsements); earlier he backed Iran diplomacy and said oil is 'dropping like a rock', which the reported Qeshm strike now undercuts.",
+      "watch": "Iran/Hormuz and CENTCOM confirmation overnight (crude reopen reaction); AAPL overnight/premarket; Tue Nov 3 midterms; SHOP Tue BMO (8:30 AM ET call); AMD and ANET Tue AMC (AMD call 5 PM ET); Wed QCOM/ARM/APP AMC; Fri NFP 8:30 AM ET.",
+      "forSite": []
+    }
+  ]
 }

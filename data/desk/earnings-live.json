@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "at": "2026-11-02T21:24:28Z",
+  "at": "2026-11-03T01:23:54Z",
   "items": [
     {
       "ticker": "XOM",
@@ -34,8 +34,10 @@
       "company": "Apple (AAPL)",
       "date": "2026-11-02",
       "when": "AMC",
-      "status": "upcoming",
-      "why": "Mag7 print Mon AMC (~4:30 PM ET release, 5 PM ET call, new CEO's first call); cons EPS ~$1.98, rev ~$113.3B; trades ~37x fwd P/E; iPhone and services guide"
+      "status": "reported",
+      "why": "Rev $114.48B vs $113.4B beat, EPS $2.10 vs ~$1.99 beat, iPhone $57.58B +17%, Services record $31.57B +10%; Greater China $17.54B miss, Dec-qtr GM guide 45-46% (memory costs) vs 47.9%, 7-10% growth guide; closed -1.83% at $338.32 then lower AH",
+      "reaction": "~-2% to -4% AH",
+      "sentiment": "Bearish"
     },
     {
       "ticker": "PLTR",
