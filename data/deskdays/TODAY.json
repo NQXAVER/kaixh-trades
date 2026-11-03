@@ -1,18 +1,18 @@
 {
   "date": "2026-11-02",
   "grok": {
-    "at": "2026-11-02T14:30:12Z",
-    "pulse": "NQ and ES futures rebound 0.5-0.8% premarket as oil plunges 4%+ on hopes for US-Iran diplomatic progress in Qatar-mediated talks that could reopen Hormuz, providing relief after Friday's AI-driven Nasdaq selloff ahead of midterms and key earnings.",
-    "bias": "risk-on — crude collapse and Hormuz-deal headlines lift tech futures after the AI rout, but residual geopolitics, midterm uncertainty and AI spending doubts cap conviction into the cash open.",
+    "at": "2026-11-03T01:10:00Z",
+    "pulse": "NQ closed mixed as the oil-relief bounce faded into a tech-led selloff (Nasdaq -1.07%, S&P -0.51%) on AI ROI doubts; AAPL beat but fell ~3% AH on cautious guidance while PLTR beat-and-raised.",
+    "bias": "mixed — crude ~7% plunge on US-Iran diplomacy hopes and select beats support risk-on, but persistent AI spending skepticism, AAPL AH fade and midterm uncertainty keep the tape fragile.",
     "items": [
-      "@Tyngsguy (~9:29 AM ET): Bullish bias on QQQ/SPY/IWM with gap-up; QQQ 700 key break/hold targets 702-710, watching Iran headlines and midterms — Bullish NQ",
-      "@PshavaP (~9:29 AM ET): Oil sliding may confirm Trump-Iran deal theory as market prices the story ahead of headlines — Bullish NQ",
-      "@MatthewCStocks (~9:28 AM ET): Rubio says Trump prefers diplomacy over military action in Iran; Iranian officials note possible agreement after Qatar talks if demands met — Bullish NQ",
-      "AP/Bloomberg (~9:15 AM ET): S&P futures +0.5%, Nasdaq +0.8% as Brent -4.2% to ~$108.7 and WTI ~$99.7 on Iran diplomat confirming Qatar talks for potential Hormuz reopen in days — Bullish NQ",
-      "@Sharekhan (~7:38 AM ET): Nasdaq futures +0.9% on Middle East hopes and cooler oil after Friday -2.86% close; AAPL and PLTR report next — Bullish NQ"
+      "@silentmax (~7:54 PM ET): Nasdaq 100 -1.4% into correction, oil >7% drop on Iran diplomacy; AAPL beat but slipped on 7-10% Dec guide, PLTR raised outlook — Mixed NQ",
+      "@9to5mac (~8:07 PM ET): Apple stock drops nearly 3% after hours following Q4 results — Bearish NQ",
+      "@mktboxapp (~8:10 PM ET): XLK bled into the close even as oil crashed 7%; AAPL and PLTR both beat AH, reaction barely a shrug — Mixed NQ",
+      "@Morpheu5Watcher (~7:53 PM ET): Oil lost 7%, SPY -0.48%; AAPL AH down on thinner margin forecast after the beat — Mixed NQ",
+      "@tyrovirtuoso (~8:09 PM ET): Wall St mixed close S&P -0.51% Nasdaq -1.07%; Iran says Hormuz could reopen in two days if US meets conditions — Mixed NQ"
     ],
-    "trump": "Reports indicate Trump prefers a diplomatic solution and wants more time for Iran talks, helping ease oil and support futures; no new direct market-moving posts found, with final midterm pitch ongoing.",
-    "watch": "Cash open reaction 9:30 AM ET; ISM Manufacturing 10 AM ET; Iran/Hormuz deal headlines and crude path; AAPL + PLTR AMC tonight; Tuesday Nov 3 midterms plus more earnings; residual AI ROI concerns and Friday NFP.",
+    "trump": "No major new market-moving posts; earlier noted oil prices 'dropping like a rock' (~$10/bbl) on Iran talks and prefers diplomacy over further strikes.",
+    "watch": "AAPL AH/overnight reaction and open; Tuesday Nov 3 midterm results and volatility; Iran/Hormuz and crude headlines; AMD and ANET Tue AMC; Fri NFP.",
     "forSite": []
   }
 }
