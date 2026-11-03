@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T01:44:00Z",
+  "updatedAt": "2026-11-03T06:58:29Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -204,6 +204,30 @@
   ],
   "items": [
     {
+      "id": "f033bd381f0fe",
+      "headline": "Explosions hit Iran’s Qeshm Island as US media report US strikes in Hormuz",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/3/explosions-hit-irans-qeshm-island-as-us-media-report-us-strikes-in-hormuz?traffic_source=rss",
+      "publishedAt": "2026-11-03T02:25:02Z",
+      "time": "Mon 9:25 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "f99e6a1023ab1",
+      "headline": "Iran war live: US carries out ‘defensive’ strikes in Strait of Hormuz",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/3/iran-war-live-vance-sees-progress-in-talks-tehran-says-ball-in-us-court?traffic_source=rss",
+      "publishedAt": "2026-11-03T00:00:00Z",
+      "time": "Mon 7:00 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
       "id": "fd453a98b9d13",
       "headline": "Iran Says It Would Reopen Strait of Hormuz in 2 Days as Part of U.S. Deal",
       "source": "New York Times",
@@ -300,30 +324,6 @@
       "auto": true
     },
     {
-      "id": "f87277fa01728",
-      "headline": "Binance releases proof of reserves data for ten cryptocurrencies; oil tumbles amid hopes of Iran war breakthrough – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/nov/02/crypto-scam-binance-billion-hack-business-live-latest-updates-news",
-      "publishedAt": "2026-11-02T15:07:29Z",
-      "time": "Mon 10:07 AM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "fed09f60b864b",
-      "headline": "Oil Prices Plunge as Draft Proposal to End U.S.-Iran War is Circulated",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Plunge-as-Draft-Proposal-to-End-US-Iran-War-is-Circulated.html",
-      "publishedAt": "2026-11-02T14:30:00Z",
-      "time": "Mon 9:30 AM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
       "id": "f08d123153e20",
       "headline": "‘Sharper, longer slowdown’ predicted for Australian economy as fifth interest rate hike looms",
       "source": "The Guardian",
@@ -360,12 +360,36 @@
       "auto": true
     },
     {
+      "id": "feb97b77e270f",
+      "headline": "RBA interest rates: Bullock says ‘some pain now’ will prevent worse pain later as Reserve Bank hikes rates for fifth time",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/03/rba-interest-rates-decision-cash-rate-november-reserve-bank-australia",
+      "publishedAt": "2026-11-03T06:14:08Z",
+      "time": "Tue 1:14 AM",
+      "section": "fed",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f36f17014a2a1",
+      "headline": "The RBA has hiked interest rates. Use our loan calculator to check how it could affect you",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/australia-news/2026/may/04/interest-rates-rba-rate-hike-mortgage-calculator",
+      "publishedAt": "2026-11-03T03:40:04Z",
+      "time": "Mon 10:40 PM",
+      "section": "fed",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "fd23e82753571",
       "headline": "Feeling isolated? Half of in-office workers describe their desk jobs as 'remote,' NY Fed survey finds",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/11/02/remote-work-in-office-mandate-new-york-fed.html",
-      "publishedAt": "2026-11-02T22:34:07Z",
-      "time": "Mon 5:34 PM",
+      "publishedAt": "2026-11-03T02:31:00Z",
+      "time": "Mon 9:31 PM",
       "section": "fed",
       "impact": "Medium",
       "lean": null,
@@ -420,13 +444,13 @@
       "auto": true
     },
     {
-      "id": "fa9b8a3fd6536",
-      "headline": "Wanted: New Central Bank Chief. Expertise and Political Acumen Required.",
-      "source": "New York Times",
-      "url": "https://www.nytimes.com/2026/10/31/business/european-central-bank-lagarde-succession.html",
-      "publishedAt": "2026-10-31T04:01:06Z",
-      "time": "Sat 12:01 AM",
-      "section": "fed",
+      "id": "fc510229034e6",
+      "headline": "Australia hikes rates to 18-year high to fight inflation",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/03/australia-hikes-rates-18-year-high-finflation.html",
+      "publishedAt": "2026-11-03T03:46:20Z",
+      "time": "Mon 10:46 PM",
+      "section": "econ",
       "impact": "Medium",
       "lean": null,
       "auto": true
@@ -456,35 +480,11 @@
       "auto": true
     },
     {
-      "id": "f76d3375ac655",
-      "headline": "The fight to save Canadian town threatened by Trump's tariffs",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cmly016ep243o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-10-31T02:39:25Z",
-      "time": "Fri 10:39 PM",
-      "section": "econ",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f825c98ca3817",
-      "headline": "Trump's tariffs could shutter this Canadian town - its residents are fighting to save it",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cmly016ep243o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-10-31T02:39:25Z",
-      "time": "Fri 10:39 PM",
-      "section": "econ",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
       "id": "fee960a3b21c6",
       "headline": "Anthropic Reveals $17 Billion in Revenue as I.P.O. Approaches",
       "source": "New York Times",
       "url": "https://www.nytimes.com/2026/11/02/business/anthropic-earnings-ai.html",
-      "publishedAt": "2026-11-02T18:55:09Z",
+      "publishedAt": "2026-11-02T18:55:10Z",
       "time": "Mon 1:55 PM",
       "section": "tech",
       "impact": "High",
