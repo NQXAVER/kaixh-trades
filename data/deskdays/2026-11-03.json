@@ -2,18 +2,18 @@
   "date": "2026-11-03",
   "grok": {
     "date": "2026-11-03",
-    "at": "2026-11-03T14:26:00Z",
-    "pulse": "NQ bid ~+0.6% premarket (ES +0.2%) as oil slides on US-Iran MOU/deal reports and semis try to rebound into AMD AMC, offset by NVDA China-exposure curbs, SHOP -15% and election-night uncertainty.",
-    "bias": "risk-on — cheaper crude (WTI ~$94.7, Brent ~$101.8) and Iran de-escalation headlines lift futures, NQ outperforming ES; midterm results and AMD print are the swing risks.",
+    "at": "2026-11-03T21:20:46Z",
+    "pulse": "NQ closed green (Nasdaq +0.87% to 25,382, S&P +0.38% to 7,570, Dow -0.42%) as chips bounced and crude held ~$96.5 WTI, with AMD's beat-and-raise lifting semis AH; offset by AAPL margin angst, a tanker strike off Oman and midterm-result risk tonight.",
+    "bias": "risk-on — AMD Q4 guide ~$17B vs ~$16.2B est, SMCI FY raise and ANET pop AH give AI/semis a bid into tomorrow; midterm results and Hormuz headlines are the overnight risk.",
     "items": [
-      "@DeItaone (~9:02 AM ET): Oil/gas slide on US-Iran deal reports — Brent -2.8% $101.80, WTI -1.8% $94.73; US approved Qatari MOU draft, Iran nuclear concession for frozen funds — Bullish NQ",
-      "@WatcherGuru (~8:21 AM ET): NVDA orders data-center partners to cut business with Chinese customers (FT) — Bearish NQ",
-      "@BubbleAnalytics (~9:25 AM ET): Premarket — NQ +0.62%, ES +0.20%, YM -0.08%, VIX -0.7%, gold +0.8%, WTI -1.5% — Bullish NQ",
-      "@DeItaone (~7:28 AM ET): Goldman — hedge funds cut net leverage at fastest pace since March, ~$20B tech sold over two weeks (positioning washed out) — Mixed NQ",
-      "X/news (~9:11 AM ET): SHOP ~-15% premarket after first rev miss since 2022 (Rev $3.74B vs $3.75B, GMV miss); PLTR also lower despite beat-and-raise — Bearish NQ"
+      "@FirstSquawk (~4:02 PM ET): Nasdaq closes +0.87% at 25,382.02, S&P +0.38% at 7,570.04, Dow -0.42% at 51,766.83 — Bullish NQ",
+      "@zerohedge (~4:17 PM ET): AMD sees Q4 rev ~$17B ±3% (Street ~$16.2B); Q3 rev $13.38B vs $13.08B, adj EPS $2.09 vs $1.97 (@LiveSquawk); AMD ~+6% AH — Bullish NQ",
+      "@FirstSquawk (~4:13 PM ET): SMCI sees Q2 sales $19.5-21.5B vs $16.53B est, raises FY view to $72-82B from $65-72B; ~+5% AH — Bullish NQ",
+      "@FirstSquawk (~3:53 PM ET): UKMTO says tanker struck by two projectiles 14 NM NE of Lima, Oman; WTI still closed ~$96.5 — Bearish NQ",
+      "@FirstSquawk (~4:08 PM ET): BKNG Q3 rev $8.89B vs $9.54B miss, gross bookings beat, says travel demand moderated late Q3 on Middle East — Mixed NQ"
     ],
-    "trump": "Fox interview ~8:15 AM ET: on Iran facility \"we hit it last night very nicely\", \"if US has to kill people in Iran, it has to\", on Iran after elections \"we'll see\"; Israel's $4B aid \"gets cut off at end of year\" (crude turned negative on it); \"US should pay lowest interest rates in world\"; Republican midterm results \"may be better than expected\"; close to no-tariff fertilizer deal with Canada.",
-    "watch": "9:30 AM cash open; Qatari mediators expect US/Iran feedback within ~36h; AMD + ANET AMC (AMD call 5 PM ET); midterm results after polls close tonight (~7 PM ET onward); Wed UBER BMO, QCOM/ARM/APP AMC; Fri NFP 8:30 AM ET.",
+    "trump": "No market-moving Trump posts this afternoon; White House circulated Election Day talking points as Republicans brace for possibly disappointing midterm results (Axios via @FirstSquawk ~3:56 PM ET).",
+    "watch": "AMD call 5 PM ET (AI GPU/Helios commentary); midterm results after polls close tonight (zerohedge flags 'Dem sweep' pricing); overnight Hormuz/Oman tanker headlines for CL; Wed UBER BMO (8 AM call), QCOM AMC (4:45 PM call), ARM AMC (5 PM call), APP AMC; Fri NFP.",
     "forSite": [],
     "reports": [
       {
@@ -74,6 +74,36 @@
         ],
         "trump": "Fox interview ~8:15 AM ET: on Iran facility \"we hit it last night very nicely\", \"if US has to kill people in Iran, it has to\", on Iran after elections \"we'll see\"; Israel's $4B aid \"gets cut off at end of year\" (crude turned negative on it); \"US should pay lowest interest rates in world\"; Republican midterm results \"may be better than expected\"; close to no-tariff fertilizer deal with Canada.",
         "watch": "9:30 AM cash open; Qatari mediators expect US/Iran feedback within ~36h; AMD + ANET AMC (AMD call 5 PM ET); midterm results after polls close tonight (~7 PM ET onward); Wed UBER BMO, QCOM/ARM/APP AMC; Fri NFP 8:30 AM ET.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-03T21:17:29Z",
+        "pulse": "Election-day session closed mixed with Nasdaq +0.8% and S&P +0.3% as oil held near $96 WTI on lingering US-Iran deal hopes, while AI ROI skepticism and AAPL margin fade limited upside ahead of midterm results and AMD AMC.",
+        "bias": "mixed — cheaper crude and de-escalation headlines support risk, but persistent AI spending doubts, AAPL weakness and election volatility keep the tape balanced.",
+        "items": [
+          "@Portfolio_Times (~4:16 PM ET): Closing mixed — Nasdaq +0.83%, S&P +0.36%, Dow -0.38%; oil ~$96.72, gold $3931; midterms and AMD AMC next — Mixed NQ",
+          "CNBC (~4:00 PM ET): Nasdaq rebounds as chip stocks bounce, Dow dragged by Apple; NQ still ~10% off peak in correction territory — Bullish NQ",
+          "@Petey_Money (~prior): NQ green-to-red earlier on Iran threats after peace hopes; midterms key — Mixed NQ",
+          "Reuters/open: S&P and Nasdaq opened higher as oil extended declines into midterms; AAPL among Big Tech missing on margins — Mixed NQ",
+          "X traders (~session): Oil slide on Trump Iran deal comments cushions futures; semis try rebound into AMD — Bullish NQ"
+        ],
+        "trump": "No fresh market posts today (endorsements for midterms); prior: 'very good chance we'll make a deal' with Iran and oil 'dropping like a rock' on winning with Iran.",
+        "watch": "Midterm election results after polls close tonight and any post-election rotation; AMD + ANET AMC earnings (AI demand commentary); overnight Hormuz/Iran headline risk for oil; Wed UBER BMO, QCOM/ARM/APP AMC; Fri NFP.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-03T21:20:46Z",
+        "pulse": "NQ closed green (Nasdaq +0.87% to 25,382, S&P +0.38% to 7,570, Dow -0.42%) as chips bounced and crude held ~$96.5 WTI, with AMD's beat-and-raise lifting semis AH; offset by AAPL margin angst, a tanker strike off Oman and midterm-result risk tonight.",
+        "bias": "risk-on — AMD Q4 guide ~$17B vs ~$16.2B est, SMCI FY raise and ANET pop AH give AI/semis a bid into tomorrow; midterm results and Hormuz headlines are the overnight risk.",
+        "items": [
+          "@FirstSquawk (~4:02 PM ET): Nasdaq closes +0.87% at 25,382.02, S&P +0.38% at 7,570.04, Dow -0.42% at 51,766.83 — Bullish NQ",
+          "@zerohedge (~4:17 PM ET): AMD sees Q4 rev ~$17B ±3% (Street ~$16.2B); Q3 rev $13.38B vs $13.08B, adj EPS $2.09 vs $1.97 (@LiveSquawk); AMD ~+6% AH — Bullish NQ",
+          "@FirstSquawk (~4:13 PM ET): SMCI sees Q2 sales $19.5-21.5B vs $16.53B est, raises FY view to $72-82B from $65-72B; ~+5% AH — Bullish NQ",
+          "@FirstSquawk (~3:53 PM ET): UKMTO says tanker struck by two projectiles 14 NM NE of Lima, Oman; WTI still closed ~$96.5 — Bearish NQ",
+          "@FirstSquawk (~4:08 PM ET): BKNG Q3 rev $8.89B vs $9.54B miss, gross bookings beat, says travel demand moderated late Q3 on Middle East — Mixed NQ"
+        ],
+        "trump": "No market-moving Trump posts this afternoon; White House circulated Election Day talking points as Republicans brace for possibly disappointing midterm results (Axios via @FirstSquawk ~3:56 PM ET).",
+        "watch": "AMD call 5 PM ET (AI GPU/Helios commentary); midterm results after polls close tonight (zerohedge flags 'Dem sweep' pricing); overnight Hormuz/Oman tanker headlines for CL; Wed UBER BMO (8 AM call), QCOM AMC (4:45 PM call), ARM AMC (5 PM call), APP AMC; Fri NFP.",
         "forSite": []
       }
     ]

@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "at": "2026-11-03T14:26:00Z",
+  "at": "2026-11-03T21:20:46Z",
   "items": [
     {
       "ticker": "AAPL",
@@ -37,16 +37,30 @@
       "company": "AMD (AMD)",
       "date": "2026-11-03",
       "when": "AMC",
-      "status": "upcoming",
-      "why": "Week's big chip print, Tue AMC 5 PM ET call; guided Q3 rev ~$13B +/- $300M; consensus EPS ~$1.68"
+      "status": "reported",
+      "reaction": "~+6% AH",
+      "sentiment": "Bullish",
+      "why": "Rev $13.38B vs $13.08B beat (+45% y/y), adj EPS $2.09 vs $1.97 beat, data center $8.5B +97%, adj GM 56%; Q4 guide ~$17B ±3% vs ~$16.2B est"
+    },
+    {
+      "ticker": "SMCI",
+      "company": "Super Micro (SMCI)",
+      "date": "2026-11-03",
+      "when": "AMC",
+      "status": "reported",
+      "reaction": "~+5% AH",
+      "sentiment": "Bullish",
+      "why": "Adj EPS $1.81 vs ~$1.06-1.24 est, sales ~$19.9B vs ~$16.2B est; Q2 guide $19.5-21.5B vs $16.53B, FY raised to $72-82B from $65-72B"
     },
     {
       "ticker": "ANET",
       "company": "Arista Networks (ANET)",
       "date": "2026-11-03",
       "when": "AMC",
-      "status": "upcoming",
-      "why": "AI networking read Tue AMC; consensus EPS ~$0.99"
+      "status": "reported",
+      "reaction": "~+7% AH",
+      "sentiment": "Bullish",
+      "why": "Rev $3.66B; shares ~$182 AH vs $169.91 close on AI networking demand (fuller details pending)"
     },
     {
       "ticker": "UBER",
