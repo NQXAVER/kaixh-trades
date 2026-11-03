@@ -1,0 +1,71 @@
+{
+ "date": "2026-11-03",
+ "entryUrl": "https://app.notion.com/p/40d60e8f5c4580558b43c824bb40548d",
+ "summary": "The idea was right and the plan called it: your pre-market wanted 9:30 to go lower to send price higher, your 5min Scenario A drew the retrace into the OTE and the push through the high, and that's exactly what happened. You went long around 10:00 at 28,308.75 with the stop at 28,248.00 under the 0.786 / internal low and the target at 28,441.25 (2.18R, matching your logged RR), and price hit that target at about 11:03 AM. On the XFA you closed at breakeven around 10:40 AM because the chop got to you ('my cortisol is spiking'), and price ran a couple of minutes later. The bigger issue is that you copied the same trade onto your evals and treated them as accounts you 'did not care if i lost on', then filed the End of Day card with 'Rules Followed: Yes'. Check-in was on time at 9:18 with the risk screenshot confirmed, there was no Asia trading, and Gmail shows no new eval or account purchases today.",
+ "trade": "Long · NY-AM · XFA + Eval (copied) · XFA BreakEven, Eval Win · entry 28,308.75 around 10:00 AM after the OTE .786 rejection · stop 28,248.00 under the 1min internal low near the 0.786 (60.75 pts, later trailed) · target 28,441.25 at NYAM.H / toward the 4hr UMG (132.5 pts, 2.18R, matching the logged RR) · XFA closed at BE about 10:40 AM, target hit about 11:03 AM. Risk 1 micro.",
+ "rule": "Tomorrow, trade one account only: no copying the trade onto evals. Before entering, write where you'd move to BE (a specific level or structure break, not a feeling), and if price is still between entry and stop in chop, leave the stop alone.",
+ "screenshots": [
+  {
+   "label": "Execution 1 · 1min NQ + ES (10:39 AM, after going BE)",
+   "feedback": "The box reads entry 28,308.75, stop 28,248.00 and target about 28,441, which is 60.75 pts risk for about 132 pts, your 2.18R. The stop sits just under the 0.786 wick low, with only a couple of points of buffer. Price was chopping between roughly 28,290 and 28,365 and never came back near the stop, and your note says you went BE because you were annoyed, not because structure broke. ES still hadn't taken its external high, which by your own note was the condition for going BE."
+  },
+  {
+   "label": "Execution 2 · 1min NQ + ES (11:04 AM, target hit)",
+   "feedback": "This shows the trade working to the full target: price ran from the 10:00 area through the SMT high and tagged NYAM.H at 28,441.25, with the TradingView alert 'NQ1! Crossing 28,443.25' at 11:04. ES made a fresh high into NYAM.H at the same time, so the bearish SMT that bothered you got invalidated. The 'Trailed' marks show the eval stop was trailed up under the lows, which is how it got paid."
+  },
+  {
+   "label": "TimeFrame 1 · 4hr NQ + ES (9:20 AM)",
+   "feedback": "PD-H, PD-EQ and PD-L are marked, price was sitting around 28,310 after bouncing off PD-L, and a small 4hr box sits just above price. It's the HTF context AB pointed to: rebalancing the range after the drop."
+  },
+  {
+   "label": "TimeFrame 2 · 1hr NQ + ES (9:20 AM)",
+   "feedback": "The 1hr shows the recovery leg off PD-L into the 4hr levels around 28,450, with PD-EQ above. The 4hr UMG you named as the DOL is up there, so the long had room."
+  },
+  {
+   "label": "TimeFrame 3 · 15m NQ + ES (9:20 AM)",
+   "feedback": "A clean session map: AS.H/AS.L, LO.H/LO.L, NYPM.L, D OPEN and the 4hr lines. Price had swept the London low and was pushing back above D OPEN before the open, which supports looking for longs after a 9:30 dip."
+  },
+  {
+   "label": "TimeFrame 4 · 5m NQ + ES (9:23 AM)",
+   "feedback": "This is the best pre-market chart you've posted: Scenario A draws the pullback into the 0.618 to 0.786 OTE and then a run through the 4hr high, and Scenario B draws the short. Scenario A is almost exactly what price did, so the plan was right; only the management didn't trust it."
+  }
+ ],
+ "good": [
+  "Your pre-market Scenario A called the move: a 9:30 dip into the OTE, then up to the 4hr levels.",
+  "The entry was patient and at the planned spot, around 10:00 off the .786, with a stop under real structure.",
+  "Your logged RR matches the chart box exactly (60.75 pts risk, 132.5 pts reward, 2.18R).",
+  "Risk was kept to 1 micro on a news-heavy election day, and you stayed in NY-AM with no Asia trading.",
+  "The morning check-in was on time at 9:18 AM with charts opened 9:16 and the risk screenshot confirmed, and the EOD card went in at 11:06 AM.",
+  "No new eval or account purchases in Gmail today."
+ ],
+ "fix": [
+  "You copied the trade onto your evals and wrote you 'did not care if i lost on it'. That's two sets of rules for one idea, and it's the copy-trading pattern that blew accounts last week. One account, one plan.",
+  "Your EOD card says 'Rules Followed: Yes' but doesn't mention the eval copy trade or the emotional BE. The card only works if it's honest; the improvement line ('not to sure yet') should have said what actually happened.",
+  "You went BE on the XFA because of chop and annoyance, not because your own BE condition (ES taking its external high) happened. Decide the BE trigger before entry and stick to it.",
+  "The stop at 28,248.00 is only a couple of points under the 0.786 wick low. Give it a few ticks more buffer below the protected low.",
+  "Reflect and What i can improve on are empty in Notion. Fill them in tonight while the 'two minutes later' feeling is fresh."
+ ],
+ "questions": [
+  {
+   "q": "You wrote you 'did not care if i lost on' the evals but went BE on the XFA. If you didn't trust the trade enough to hold it on the account that matters, why was it good enough to put on the evals at all?"
+  },
+  {
+   "q": "Your own chart note said 'i need to see ES hit external high to go BE', but you closed because 'it was chopping' and your 'cortisol is spiking'. Did ES actually hit that high before you closed?"
+  },
+  {
+   "q": "Your EOD card says 'Rules Followed: Yes'. Which of your rules covers copying one trade onto several accounts, and would AB agree it was followed?"
+  },
+  {
+   "q": "Your improvement line says 'Holding my trade even if we chop i guess not to sure yet'. What specifically would have had to happen for you to exit the XFA trade early, written as a level or a structure break?"
+  }
+ ],
+ "discord": {
+  "chartsOpened": "9:16 AM ET (Morning Check-in card submitted 9:18 AM, streak 8 days).",
+  "plan": "\"just tapped a 4hr if i want us to go lower i need lower TF bearish structure to form but we also have a 2nd UMG above us for longs\"",
+  "risk": "On time: Kaixh posted the risk-settings screenshot at 9:18 AM ET and the bot confirmed the check-in complete, before the 9:30 deadline.",
+  "eod": "Filed at 11:06 AM ET (streak 9 days): trade summary listed the long's confluences ('took bc we were respecting bullish structure to rebalance HTF'), Rules Followed: Yes, improvement 'Holding my trade even if we chop i guess not to sure yet'. No result or PnL on the card; trade screenshot posted and confirmed at 11:07 AM.",
+  "match": "The trade matches the morning plan (the 2nd UMG above for longs) and the Notion entry. The EOD card's 'Rules Followed: Yes' leaves out that the trade was copied onto the evals and that the XFA was closed at BE out of frustration, so it's less complete than the journal.",
+  "journalChannel": "10:43 AM ET: '11/03/2026 - BE i just pissed myself off, i closed my trade for BE cus it was chopping...' with the 10:39 1min NQ/ES chart (entry box about 28,308, stop zone under the 0.786, 'i went BE' note). This matches the Notion entry."
+ },
+ "reviewedAt": "2026-11-03T21:22:34Z"
+}
