@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "at": "2026-11-03T12:27:55Z",
+  "at": "2026-11-03T14:26:00Z",
   "items": [
     {
       "ticker": "AAPL",
@@ -18,9 +18,9 @@
       "date": "2026-11-02",
       "when": "AMC",
       "status": "reported",
-      "why": "Rev $2.31B vs $2.18B beat (+96% y/y), adj EPS $0.44 vs $0.41 beat, US commercial +148% to $984M (tops US gov for first time), FY26 guide raised to ~$8.53B vs $8.2B est; AH bid after -3.1% close",
-      "reaction": "+1.7% AH",
-      "sentiment": "Bullish"
+      "why": "Rev $2.31B vs $2.18B beat (+96% y/y), adj EPS $0.44 vs $0.41 beat, US commercial +148% to $984M (tops US gov for first time), FY26 guide raised to ~$8.53B vs $8.2B est; slid AH/premarket on valuation and tech weakness despite beat-and-raise",
+      "reaction": "lower premarket (one X tally ~-9%)",
+      "sentiment": "Mixed"
     },
     {
       "ticker": "SHOP",
@@ -28,8 +28,9 @@
       "date": "2026-11-03",
       "when": "BMO",
       "status": "reported",
-      "why": "Rev $3.74B vs $3.75B slight miss, adj EPS 49c vs 48c beat, op income $568M vs $523.9M beat, GMV $119.15B vs $120.08B miss, MRR $230M in line; Q4 rev growth guided low-30s %",
-      "sentiment": "Mixed"
+      "why": "Rev $3.74B vs $3.75B slight miss, adj EPS 49c vs 48c beat, op income $568M vs $523.9M beat, GMV $119.15B vs $120.08B miss, MRR $230M in line; Q4 rev growth guided low-30s %; first revenue miss since 2022, GMV growth slowed to 29%, GM 47.6%; stock ~$156 to ~$130 premarket",
+      "sentiment": "Bearish",
+      "reaction": "~-15% premarket"
     },
     {
       "ticker": "AMD",
