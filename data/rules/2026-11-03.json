@@ -6,6 +6,7 @@
   "no_pre10": "ok",
   "protected_stop": "ok",
   "external_be": "ok",
-  "htf_bias": "ok"
+  "htf_bias": "ok",
+  "setup_not_pnl": "ok"
  }
 }
