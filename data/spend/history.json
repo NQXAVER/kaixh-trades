@@ -1,7 +1,16 @@
 {
-  "updatedAt": "2026-10-30T23:53:36Z",
+  "updatedAt": "2026-11-04T16:55:41Z",
   "source": "Gmail order/receipt emails (ajjh5529@gmail.com) via Grok Account spending watch",
   "purchases": [
+    {
+      "date": "2026-11-04",
+      "firm": "Lucid Trading",
+      "product": "LucidPro 50K Rithmic",
+      "order": "12179038",
+      "amount": 120.4,
+      "price": 172,
+      "type": "evaluation"
+    },
     {
       "date": "2026-10-29",
       "firm": "Lucid Trading",
@@ -347,34 +356,34 @@
     {
       "date": "2026-07-24",
       "firm": "Alpha Futures",
-      "product": "Evaluation challenge",
-      "order": null,
-      "amount": null,
-      "price": null,
-      "type": "evaluation"
-    },
-    {
-      "date": "2026-07-24",
-      "firm": "Alpha Futures",
-      "product": "Evaluation challenge",
-      "order": null,
-      "amount": null,
-      "price": null,
-      "type": "evaluation"
-    },
-    {
-      "date": "2026-07-24",
-      "firm": "Alpha Futures",
-      "product": "Evaluation challenge",
-      "order": null,
-      "amount": null,
-      "price": null,
-      "type": "evaluation"
-    },
-    {
-      "date": "2026-07-24",
-      "firm": "Alpha Futures",
       "product": "Evaluation (Zero Plan 50K, monthly)",
+      "order": null,
+      "amount": null,
+      "price": null,
+      "type": "evaluation"
+    },
+    {
+      "date": "2026-07-24",
+      "firm": "Alpha Futures",
+      "product": "Evaluation challenge",
+      "order": null,
+      "amount": null,
+      "price": null,
+      "type": "evaluation"
+    },
+    {
+      "date": "2026-07-24",
+      "firm": "Alpha Futures",
+      "product": "Evaluation challenge",
+      "order": null,
+      "amount": null,
+      "price": null,
+      "type": "evaluation"
+    },
+    {
+      "date": "2026-07-24",
+      "firm": "Alpha Futures",
+      "product": "Evaluation challenge",
       "order": null,
       "amount": null,
       "price": null,
