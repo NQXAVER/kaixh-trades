@@ -1,0 +1,67 @@
+{
+ "date": "2026-11-04",
+ "entryUrl": "https://app.notion.com/p/40e60e8f5c45801eb77fc455fc3fd2ca",
+ "summary": "The read was solid: pre-market wanted the overnight high retested and failing inside the 4hr bearish gap, and you had real confluence (ES into its daily bearish FVG, bearish SMT at the external high, 1hr FVG, OTE reaction). But you shorted at 28,443.25 around 9:35 AM before the 1min had actually failed to break the high, which is the exact confirmation you said you wanted, and price ran through your 28,554.25 stop to about 28,582 by 9:38. The stop sat at the internal high inside the 0.705 area, under NYAM.H and the swing high, so it wasn't above a protected high. Morning check-in was on time at 9:24 with the risk screenshot confirmed, the trade stayed in NY-AM on one XFA, and the journal post matches Notion. The serious problem is Gmail: a new LucidPro 50K Rithmic account was ordered at 9:04 AM today ($120.40 with the AB coupon), twenty minutes before you told Bibz consistency stopped you from buying accounts.",
+ "trade": "Short · NY-AM · XFA · Loss · entry 28,443.25 around 9:35 AM after the first OTE rejection · stop 28,554.25 at the internal high near the 0.705 (111 pts) · target 28,178.00 at the London low (265.25 pts, about 2.4R; RR left blank in Notion) · stopped out by about 9:38 AM as price ran to roughly 28,582 at the 0.786.",
+ "rule": "Tomorrow, no entry until the 1min actually fails to break the high you're shorting against (a lower high plus displacement closing back under it), and the stop goes above that protected high, not the internal one. And no new account or eval purchases: if the urge hits, write it in Notion instead of checking out.",
+ "screenshots": [
+  {
+   "label": "Execution 1 · 1min NQ + ES (9:38 AM)",
+   "feedback": "The position box reads entry 28,443.25, stop 28,554.25 and target 28,178.00, so 111 pts of risk for 265 pts, about 2.4R. Entry was taken off the first push down from the OTE near the 0.5 / PD-H, before the 1min had made a lower high. By 9:38 price had come back through the 0.705 and your stop and was printing about 28,582 at the 0.786 with ES spiking into its NYAM.H zone. Your own note on the chart says you wanted to see the 1min fail to break the high and entered anyway. The stop was at the internal high, under the swing high marked '1', so a normal wick into the 0.786 took you out."
+  },
+  {
+   "label": "TimeFrame 1 · 4hr NQ + ES (9:26 AM)",
+   "feedback": "Price had pushed back up into the 4hr bearish gap between the 0.618 and 0.786 of the leg from the late-October high, with PD-H, PD-EQ and PD-L marked and the projection pointing toward the lows. This supports the short bias in your pre-market, but it also shows price was mid-gap, not yet rejecting its top."
+  },
+  {
+   "label": "TimeFrame 2 · 1hr NQ + ES (9:27 AM)",
+   "feedback": "The 1hr shows the big overnight rally from the lows into the 0.786 near 28,600, with PD-H around 28,480 just under it. It's a good map for a short from the 0.705 to 0.786, but the high at the 0.786 is the level that needed to hold, and the stop belonged above it."
+  },
+  {
+   "label": "TimeFrame 3 · 15m NQ + ES (9:27 AM)",
+   "feedback": "You marked AS, LO and NYPM highs and lows, D OPEN, the 10:00 line and the red 4hr gap zone. The London low sits well below, which makes it a fair DOL, and the 0.618 to 0.786 band at 28,500 to 28,570 is where the real rejection needed to happen."
+  },
+  {
+   "label": "TimeFrame 4 · 5m NQ + ES (9:28 AM)",
+   "feedback": "The 5m shows price retracing back into the red bearish gap after the early-morning drop, sitting around the 0.5 just above PD-H at 9:28. The high you wanted retested and failed is the 0.618 to 0.786 above, so on this chart price hadn't reached the area you planned to sell from yet."
+  }
+ ],
+ "good": [
+  "Pre-market had a clear, specific idea: hold the SMT high, retest it, fail, push lower toward the London low.",
+  "The confluence list was real (ES at its daily bearish FVG, SMT at the external high, 1hr FVG, OTE), and AB said he took the same entry.",
+  "You held your stop instead of moving it, took one trade, and stopped after the loss.",
+  "One XFA account, NY-AM only, no Asia trading, and no copying to evals this time.",
+  "Morning check-in was on time at 9:24 AM ET with the risk screenshot confirmed, and the journal post at 11:03 AM matches Notion."
+ ],
+ "fix": [
+  "A new LucidPro 50K Rithmic account was ordered at 9:04 AM ET today ($120.40 after the AB coupon, order 12179038, activated 9:10). That breaks the no-new-accounts rule, and it happened twenty minutes before you told Bibz you'd stopped buying accounts.",
+  "You entered before your own trigger. You wrote you wanted to see the 1min fail to break the high and then entered because you 'thought volume would just carry us lower'. That's anticipation, and your 'Emotions after' calls it FOMO.",
+  "The stop was at the internal high near the 0.705, under NYAM.H and the swing high. If the idea is 'this high holds', the stop goes above that high.",
+  "The EOD card says 'Rules Followed: Yes' and lists only the confluences. It leaves out the early entry and the account purchase, so it's less honest than your Notion entry.",
+  "RR is blank in Notion even though the box shows about 2.4R. Log it every time.",
+  "Gmail also shows a QQQ put option bought on Robinhood at 1:27 PM ET. That's outside NQ futures, so if it's part of your trading, journal it; if it's not, ask yourself why you reached for it after an annoying loss."
+ ],
+ "questions": [
+  {
+   "q": "At 9:22 you told Bibz consistency 'kept me from buying accounts', but a LucidPro 50K was ordered at 9:04 this morning. What was going on in your head when you bought it, and what was it for?"
+  },
+  {
+   "q": "You wrote you 'did want to see the 1min fail to break the high but decided to enter now'. What exactly would the 1min have had to print for the entry to be valid, and did any of it happen before 9:35?"
+  },
+  {
+   "q": "Your stop was the internal high, under NYAM.H and the 0.786. If the whole idea was that the high holds, why wasn't the stop above that high?"
+  },
+  {
+   "q": "Your EOD card says 'followed my rules took one trade an did not force anything'. Was entering before your confirmation forcing it, by your own definition?"
+  }
+ ],
+ "discord": {
+  "chartsOpened": "9:20 AM ET (Morning Check-in card submitted 9:24 AM, streak 9 days).",
+  "plan": "\"Pretty bearish this looks good for shorts but we did pump up alotttt 1k+ pts\"",
+  "risk": "On time: Kaixh posted the risk-settings screenshot at 9:24 AM ET and the bot confirmed the check-in complete, before the 9:30 deadline.",
+  "eod": "Filed at 12:17 PM ET (streak 10 days): trade summary listed the short's confluences (DOL London Low, ES daily bearish FVG, SMT at external high, 1hr FVG, OTE, 1min displacement), Rules Followed: Yes, improvement 'followed my rules took one trade an did not force anything'. No result field; trade screenshot confirmed.",
+  "match": "The short matches the bearish morning plan and the Notion entry. The EOD card's 'Rules Followed: Yes' leaves out the entry before confirmation, and in chat at 9:22 you said you'd stopped buying accounts, but Gmail shows a LucidPro 50K order at 9:04 AM today.",
+  "journalChannel": "11:03 AM ET: '11/04/26 - L DOL: London Low' with the confluence list and the 9:38 1min NQ/ES chart (fib 0.5 to 0.786, position box with the target near 28,178, the emotions note). This matches the Notion entry."
+ },
+ "reviewedAt": "2026-11-04T21:24:38Z"
+}
