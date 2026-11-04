@@ -1,7 +1,7 @@
 {
   "date": "2026-11-04",
-  "at": "2026-11-04T21:25:43Z",
-  "pulse": "NQ closed +1.4% (Nasdaq 25,733) on the post-midterm gridlock relief bid and an oil collapse, but AI-infra/memory names (MU -6%, SNDK -9%, CIFR/IREN) lagged on Dem data-center fears; AH it's split with APP +17% vs QCOM -6% and ARM -3%.",
+  "at": "2026-11-04T22:10:00Z",
+  "pulse": "NQ closed +1.4% (Nasdaq 25,733) on the post-midterm gridlock relief bid and an oil collapse, but AI-infra/memory names (MU -6%, SNDK -9%, CIFR/IREN) lagged on Dem data-center fears; AH split with APP +20% on strong beat/guide vs QCOM -6% and ARM -3%.",
   "bias": "mixed — gridlock relief, WTI dump and VIX crush are risk-on, but data-center regulation fears and weak AH semis (QCOM/ARM) keep NQ lagging ES/YM.",
   "items": [
     "@FirstSquawk (~4:10 PM ET): Close — Nasdaq +1.42% to 25,732.53, S&P +1.61% to 7,690.79, Dow +3.03% to 53,357.52 (YM leading, NQ lagging) — Bullish NQ",
@@ -13,6 +13,26 @@
   "trump": "Per CNBC (via @FirstSquawk ~3:36 PM ET): Trump won't pare back tariffs — \"If I took tariffs off? We have 3,000 plants under construction right now. Every single plant would stop building\" — and says he can work with Democrats on \"financial ideas\" but declined comment on a credit-card rate cap.",
   "watch": "AH semis tone (QCOM/ARM red vs APP green) into Thu open; oil follow-through after WTI's war-premium dump and EIA distillates at 2003 lows; IREN AMC Thu plus AI-infra reaction to Dem data-center pause talk; MSFT $25B bond deal (AI capex funding); Thu 8:30 AM ET jobless claims.",
   "forSite": [],
+  "earnings": [
+    {
+      "ticker": "APP",
+      "reaction": "+20% AH",
+      "sentiment": "Bullish",
+      "why": "Record Q3 rev $2.18B (+55% y/y) and EPS $4.30 beat, strong Q4 guide $2.365-2.395B, $1.4B FCF and expanded buyback."
+    },
+    {
+      "ticker": "QCOM",
+      "reaction": "-6% AH",
+      "sentiment": "Bearish",
+      "why": "Beat on Q4 EPS/rev but handset sales -26% y/y and soft Q1 EPS guide midpoint on memory/supply costs and weak smartphone demand."
+    },
+    {
+      "ticker": "ARM",
+      "reaction": "-3% AH",
+      "sentiment": "Neutral",
+      "why": "Beat on adj EPS and rev with guide above, but royalty revenue missed expectations."
+    }
+  ],
   "reports": [
     {
       "at": "2026-11-04T12:00:00Z",
