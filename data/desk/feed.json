@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T22:13:33Z",
+  "updatedAt": "2026-11-04T02:35:15Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -183,9 +183,9 @@
     {
       "id": "un-peace",
       "label": "UN News",
-      "ok": false,
-      "items": 0,
-      "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+      "ok": true,
+      "items": 20,
+      "error": null
     },
     {
       "id": "wsj-biz",
@@ -208,8 +208,8 @@
       "headline": "U.S. Assisted Venezuela in Deadly Drone Strike, Officials Say",
       "source": "New York Times",
       "url": "https://www.nytimes.com/2026/11/03/world/americas/us-venezuela-strike-eln-drug-trafficking.html",
-      "publishedAt": "2026-11-03T21:56:15Z",
-      "time": "Tue 4:56 PM",
+      "publishedAt": "2026-11-03T23:03:45Z",
+      "time": "Tue 6:03 PM",
       "section": "war",
       "impact": "High",
       "lean": "risk-off",
@@ -330,18 +330,6 @@
       "url": "https://www.theguardian.com/australia-news/2026/nov/02/australia-economy-fifth-interest-rate-hike-looms",
       "publishedAt": "2026-11-02T06:57:29Z",
       "time": "Mon 1:57 AM",
-      "section": "fed",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "f6ab30edfb9a7",
-      "headline": "Albanese looks for reset on world stage as ‘spot fires burn’ domestically and likely interest rate hike looms",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/australia-news/2026/oct/31/albanese-reset-world-stage-economic-spot-fires-rba-interest-rate-decision",
-      "publishedAt": "2026-10-31T02:24:10Z",
-      "time": "Fri 10:24 PM",
       "section": "fed",
       "impact": "High",
       "lean": "risk-off",
@@ -480,6 +468,18 @@
       "auto": true
     },
     {
+      "id": "ff1dd4a683461",
+      "headline": "What analysts are telling us while Apple’s stock falls after earnings report",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/what-analysts-are-saying-as-apples-stock-falls-after-earnings-report-f0afa357?mod=mw_rss_topstories",
+      "publishedAt": "2026-11-03T22:48:00Z",
+      "time": "Tue 5:48 PM",
+      "section": "tech",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "f75ece5c44327",
       "headline": "Anthropic’s IPO is a high-stakes referendum on Big Tech — and this chart proves it",
       "source": "MarketWatch",
@@ -564,36 +564,24 @@
       "auto": true
     },
     {
-      "id": "f2790d6aaac42",
-      "headline": "AMD stock jumps 8% on earnings as data center revenue nearly doubles",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/03/amd-amd-q3-earnings-report-2026-.html",
-      "publishedAt": "2026-11-03T22:10:55Z",
-      "time": "Tue 5:10 PM",
-      "section": "tech",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "fd2fe13616c63",
-      "headline": "Palantir sinks after earnings as analysts point to slowdown in total contract value",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/03/apple-palantir-stock-earnings.html",
-      "publishedAt": "2026-11-03T21:23:58Z",
-      "time": "Tue 4:23 PM",
-      "section": "tech",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
       "id": "f52406cef4e5d",
       "headline": "Super Micro’s stock pops as earnings show booming demand for AI servers",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/super-micros-stock-pops-as-earnings-show-booming-demand-for-ai-servers-2d179658?mod=mw_rss_topstories",
-      "publishedAt": "2026-11-03T21:13:00Z",
-      "time": "Tue 4:13 PM",
+      "publishedAt": "2026-11-04T01:12:00Z",
+      "time": "Tue 8:12 PM",
+      "section": "tech",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f2790d6aaac42",
+      "headline": "AMD stock jumps 8% on earnings as data center revenue nearly doubles",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/03/amd-amd-q3-earnings-report-2026-.html",
+      "publishedAt": "2026-11-03T23:04:37Z",
+      "time": "Tue 6:04 PM",
       "section": "tech",
       "impact": "Medium",
       "lean": null,
@@ -636,6 +624,42 @@
       "auto": true
     },
     {
+      "id": "f0a0f62ab24ec",
+      "headline": "Global Diesel Crunch Set to Last Well Into 2027",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Energy/Crude-Oil/Global-Diesel-Crunch-Set-to-Last-Well-Into-2027.html",
+      "publishedAt": "2026-11-04T00:00:00Z",
+      "time": "Tue 7:00 PM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f49a4d08fe7fa",
+      "headline": "Big Oil Puts Debt Reduction Ahead of New Investments",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Puts-Debt-Reduction-Ahead-of-New-Investments.html",
+      "publishedAt": "2026-11-03T23:00:00Z",
+      "time": "Tue 6:00 PM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fabd575055f46",
+      "headline": "JetBlue raises bag fees for third time in a year as fuel costs bite",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/03/jetblue-checked-bag-fee.html",
+      "publishedAt": "2026-11-03T22:26:20Z",
+      "time": "Tue 5:26 PM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "fcd641dd7a8c0",
       "headline": "US Crude Oil Inventories Still in Freefall",
       "source": "OilPrice",
@@ -672,18 +696,6 @@
       "auto": true
     },
     {
-      "id": "fabd575055f46",
-      "headline": "JetBlue raises bag fees for third time in a year as fuel costs bite",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/03/jetblue-checked-bag-fee.html",
-      "publishedAt": "2026-11-03T20:07:50Z",
-      "time": "Tue 3:07 PM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
       "id": "ffb43fef0896a",
       "headline": "Crude oil prices fall for second day as market hopes for diplomatic resolution to Iran war",
       "source": "CNBC",
@@ -696,39 +708,27 @@
       "auto": true
     },
     {
-      "id": "f4a305d419cf5",
-      "headline": "Why Higher Oil Prices Aren't Solving Saudi Aramco's Biggest Problems",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Energy/Crude-Oil/Why-Higher-Oil-Prices-Arent-Solving-Saudi-Aramcos-Biggest-Problems.html",
-      "publishedAt": "2026-11-03T19:00:00Z",
-      "time": "Tue 2:00 PM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "f880bebc40031",
-      "headline": "Syria says it foiled Hezbollah plot to target Homs oil refinery",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/11/3/syria-arrests-cell-it-links-to-isis-over-plot-against-oil-refinery?traffic_source=rss",
-      "publishedAt": "2026-11-03T15:47:34Z",
-      "time": "Tue 10:47 AM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
       "id": "f08f38c2749ff",
       "headline": "Shopify’s stock slides after earnings. This is what’s worrying Wall Street.",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/shopifys-stock-slides-after-earnings-this-is-whats-worrying-wall-street-e2e8d52b?mod=mw_rss_topstories",
-      "publishedAt": "2026-11-03T16:31:00Z",
-      "time": "Tue 11:31 AM",
+      "publishedAt": "2026-11-03T22:45:00Z",
+      "time": "Tue 5:45 PM",
       "section": "markets",
       "impact": "Medium",
       "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f1c84a648ce36",
+      "headline": "US tech stocks recover after selloff spooks investors over AI spending",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/nov/03/us-tech-stocks-recovery-ai-spending",
+      "publishedAt": "2026-11-03T22:18:45Z",
+      "time": "Tue 5:18 PM",
+      "section": "markets",
+      "impact": "Medium",
+      "lean": "risk-off",
       "auto": true
     },
     {
