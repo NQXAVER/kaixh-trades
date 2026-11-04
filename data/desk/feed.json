@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T06:40:36Z",
+  "updatedAt": "2026-11-04T16:24:32Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -92,9 +92,9 @@
     {
       "id": "fed-all",
       "label": "Federal Reserve",
-      "ok": false,
-      "items": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "ok": true,
+      "items": 20,
+      "error": null
     },
     {
       "id": "fed-monetary",
@@ -183,9 +183,9 @@
     {
       "id": "un-peace",
       "label": "UN News",
-      "ok": false,
-      "items": 0,
-      "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+      "ok": true,
+      "items": 20,
+      "error": null
     },
     {
       "id": "wsj-biz",
@@ -203,6 +203,30 @@
     }
   ],
   "items": [
+    {
+      "id": "feb912df98dbc",
+      "headline": "Zelensky gives Melania Trump Ukraine's highest award after Oleshky ceasefire",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cm87zvpzwq0no?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-11-04T15:01:10Z",
+      "time": "Wed 10:01 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-on",
+      "auto": true
+    },
+    {
+      "id": "f3b8e83c22c3e",
+      "headline": "Iran Says Four Oil Tankers Destroyed by Mines Near Strait of Hormuz",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Says-Four-Oil-Tankers-Destroyed-by-Mines-Near-Strait-of-Hormuz.html",
+      "publishedAt": "2026-11-04T10:15:00Z",
+      "time": "Wed 5:15 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
     {
       "id": "f61391a463175",
       "headline": "N Korea fires multiple missiles, denies US claims on Binance hack",
@@ -288,39 +312,27 @@
       "auto": true
     },
     {
-      "id": "f033bd381f0fe",
-      "headline": "Explosions hit Iran’s Qeshm Island as US media report US strikes in Hormuz",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/11/3/explosions-hit-irans-qeshm-island-as-us-media-report-us-strikes-in-hormuz?traffic_source=rss",
-      "publishedAt": "2026-11-03T02:25:02Z",
-      "time": "Mon 9:25 PM",
+      "id": "fb80e3c5f1780",
+      "headline": "‘This is not about politics. This is about people’: UN warns of impact of deadly drone strikes in Sudan",
+      "source": "UN News - Global perspective Human stories",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168731",
+      "publishedAt": "2026-11-03T12:00:00Z",
+      "time": "Tue 7:00 AM",
       "section": "war",
       "impact": "High",
       "lean": "risk-off",
       "auto": true
     },
     {
-      "id": "f99e6a1023ab1",
-      "headline": "Iran war live: US carries out ‘defensive’ strikes in Strait of Hormuz",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/11/3/iran-war-live-vance-sees-progress-in-talks-tehran-says-ball-in-us-court?traffic_source=rss",
-      "publishedAt": "2026-11-03T00:00:00Z",
-      "time": "Mon 7:00 PM",
-      "section": "war",
+      "id": "f219f8545161e",
+      "headline": "Euro zone inflation hits 4% for first time in three years as interest rate hike looms",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/04/euro-zone-cpi-inflation-october-ecb-rate-hike.html",
+      "publishedAt": "2026-11-04T10:47:30Z",
+      "time": "Wed 5:47 AM",
+      "section": "fed",
       "impact": "High",
       "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "fe68211329a91",
-      "headline": "Iran pushing accelerated plan for ceasefire talks with US",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/11/2/iran-pushing-accelerated-plan-for-ceasefire-talks-with-us?traffic_source=rss",
-      "publishedAt": "2026-11-02T18:49:26Z",
-      "time": "Mon 1:49 PM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-on",
       "auto": true
     },
     {
@@ -333,6 +345,30 @@
       "section": "fed",
       "impact": "High",
       "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "fc6ea27ec24db",
+      "headline": "10-year Treasury yield is little changed as traders mull over Democrats' midterm victories",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/03/treasury-yields-fall-as-democrats-win-big-in-us-midterm-elections.html",
+      "publishedAt": "2026-11-04T16:23:53Z",
+      "time": "Wed 11:23 AM",
+      "section": "fed",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fc36581655324",
+      "headline": "UK interest rates increase expected after services sector activity accelerates",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/nov/04/uk-interest-rates-increase-expected-service-sector-activity-accelerates-pmi",
+      "publishedAt": "2026-11-04T13:53:38Z",
+      "time": "Wed 8:53 AM",
+      "section": "fed",
+      "impact": "Medium",
+      "lean": null,
       "auto": true
     },
     {
@@ -408,30 +444,6 @@
       "auto": true
     },
     {
-      "id": "f4719b4a2576a",
-      "headline": "Home values fall for seventh consecutive month as interest rates dent demand",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/02/home-values-fall-for-seventh-month-interest-rates-dent-property-demand",
-      "publishedAt": "2026-11-01T14:00:18Z",
-      "time": "Sun 9:00 AM",
-      "section": "fed",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f1b5dc1e01ca4",
-      "headline": "House prices fall for seventh consecutive month as interest rates dent demand",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/02/home-values-fall-for-seventh-month-interest-rates-dent-property-demand",
-      "publishedAt": "2026-11-01T14:00:18Z",
-      "time": "Sun 9:00 AM",
-      "section": "fed",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
       "id": "f8d13ae1e01c2",
       "headline": "Job openings posted big September gain in positive sign for labor market ahead of payrolls report",
       "source": "CNBC",
@@ -440,6 +452,30 @@
       "time": "Tue 2:15 PM",
       "section": "econ",
       "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fc344af6d21ea",
+      "headline": "Australia has an especially bad inflation problem. So why are we only middle-of-the pack on the misery index?",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/nov/05/australian-economy-inflation-cost-of-living-misery-index",
+      "publishedAt": "2026-11-04T14:00:37Z",
+      "time": "Wed 9:00 AM",
+      "section": "econ",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f5e6c8405e0bc",
+      "headline": "Private companies added 86,000 jobs in October, slightly higher than expected, ADP says",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/04/private-companies-added-86000-jobs-in-october-slightly-higher-than-expected-adp-says.html",
+      "publishedAt": "2026-11-04T13:49:48Z",
+      "time": "Wed 8:49 AM",
+      "section": "econ",
+      "impact": "Medium",
       "lean": null,
       "auto": true
     },
@@ -576,27 +612,27 @@
       "auto": true
     },
     {
-      "id": "fcee51df9de74",
-      "headline": "McDonald's is about to report earnings. Here's what to expect",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/04/mcdonalds-is-about-to-report-earnings-heres-what-to-expect.html",
-      "publishedAt": "2026-11-04T05:01:01Z",
-      "time": "Wed 12:01 AM",
+      "id": "f73dbe96e3c45",
+      "headline": "Datadog’s stock extends steep declines in the wake of earnings",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/datadogs-stock-extends-steep-declines-in-the-wake-of-earnings-af412874?mod=mw_rss_topstories",
+      "publishedAt": "2026-11-04T15:16:00Z",
+      "time": "Wed 10:16 AM",
       "section": "tech",
       "impact": "Medium",
       "lean": null,
       "auto": true
     },
     {
-      "id": "f52406cef4e5d",
-      "headline": "Super Micro’s stock pops as earnings show booming demand for AI servers",
+      "id": "fff02d70efffc",
+      "headline": "Qualcomm sat out the semiconductor rally. Can a SpaceX partnership change that?",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/super-micros-stock-pops-as-earnings-show-booming-demand-for-ai-servers-2d179658?mod=mw_rss_topstories",
-      "publishedAt": "2026-11-04T01:12:00Z",
-      "time": "Tue 8:12 PM",
+      "url": "https://www.marketwatch.com/story/qualcomm-sat-out-the-semiconductor-rally-can-a-spacex-partnership-change-that-5bb4c0b2?mod=mw_rss_topstories",
+      "publishedAt": "2026-11-04T15:13:00Z",
+      "time": "Wed 10:13 AM",
       "section": "tech",
       "impact": "Medium",
-      "lean": null,
+      "lean": "risk-on",
       "auto": true
     },
     {
@@ -632,6 +668,54 @@
       "time": "Mon 5:00 AM",
       "section": "energy",
       "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f651832af7f24",
+      "headline": "US Oil Inventories Fall Further As Demand Holds",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Energy/Crude-Oil/US-Oil-Inventories-Fall-Further-As-Demand-Holds.html",
+      "publishedAt": "2026-11-04T15:37:00Z",
+      "time": "Wed 10:37 AM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "ffb43fef0896a",
+      "headline": "Crude oil prices fall for second day as market hopes for diplomatic resolution to Iran war",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html",
+      "publishedAt": "2026-11-04T15:31:17Z",
+      "time": "Wed 10:31 AM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f8b76388f0822",
+      "headline": "Democrats Win Texas Oil Regulator Seat for First Time Since 1990",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Energy/Crude-Oil/Democrats-Win-Texas-Oil-Regulator-Seat-for-First-Time-Since-1990.html",
+      "publishedAt": "2026-11-04T14:00:00Z",
+      "time": "Wed 9:00 AM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fda8c98ec5cf8",
+      "headline": "Nigeria's Oil and Gas Output Rises to 3.04 Million Boepd",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Nigerias-Oil-and-Gas-Output-Rises-to-304-Million-Boepd.html",
+      "publishedAt": "2026-11-04T12:30:00Z",
+      "time": "Wed 7:30 AM",
+      "section": "energy",
+      "impact": "Medium",
       "lean": null,
       "auto": true
     },
@@ -672,49 +756,13 @@
       "auto": true
     },
     {
-      "id": "fcd641dd7a8c0",
-      "headline": "US Crude Oil Inventories Still in Freefall",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Crude-Oil-Inventories-Still-in-Freefall.html",
-      "publishedAt": "2026-11-03T22:00:47Z",
-      "time": "Tue 5:00 PM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f19df05d8e09d",
-      "headline": "Why Supplying Europe With LNG Has a Best-Before Date",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Energy/Natural-Gas/Why-Supplying-Europe-With-LNG-Has-a-Best-Before-Date.html",
-      "publishedAt": "2026-11-03T21:00:00Z",
-      "time": "Tue 4:00 PM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f726e75233fd0",
-      "headline": "The Soaring Cost of Diesel Is Bankrupting Small Trucking Companies",
-      "source": "New York Times",
-      "url": "https://www.nytimes.com/2026/11/03/business/trucking-diesel-prices.html",
-      "publishedAt": "2026-11-03T20:28:37Z",
-      "time": "Tue 3:28 PM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "ffb43fef0896a",
-      "headline": "Crude oil prices fall for second day as market hopes for diplomatic resolution to Iran war",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html",
-      "publishedAt": "2026-11-03T20:02:10Z",
-      "time": "Tue 3:02 PM",
-      "section": "energy",
+      "id": "f2255e07bd430",
+      "headline": "Micron and other chip stocks slip as election results strike at the core of data-center optimism",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/micron-and-other-chip-stocks-slip-as-election-results-strike-at-the-core-of-data-center-optimism-b55d19b3?mod=mw_rss_topstories",
+      "publishedAt": "2026-11-04T15:17:00Z",
+      "time": "Wed 10:17 AM",
+      "section": "markets",
       "impact": "Medium",
       "lean": null,
       "auto": true
