@@ -1,6 +1,6 @@
 {
   "date": "2026-11-04",
-  "at": "2026-11-04T14:28:46Z",
+  "at": "2026-11-04T21:25:43Z",
   "items": [
     {
       "ticker": "AAPL",
@@ -77,16 +77,20 @@
       "company": "AppLovin (APP)",
       "date": "2026-11-04",
       "when": "AMC",
-      "status": "upcoming",
-      "why": "High-beta NQ name Wed AMC; consensus EPS ~$4.03"
+      "status": "reported",
+      "why": "Rev ~$2.185B vs ~$2.07-2.08B est (+55% y/y, first re-acceleration in 4 qtrs), EPS $4.30 vs ~$4.03; Q4 rev guide $2.365-2.395B; adj EBITDA ~$1.84B (84% margin), $1.4B buybacks",
+      "reaction": "~+17% AH (~$318)",
+      "sentiment": "Bullish"
     },
     {
       "ticker": "ARM",
       "company": "Arm Holdings (ARM)",
       "date": "2026-11-04",
       "when": "AMC",
-      "status": "upcoming",
-      "why": "FQ2 FY27 Wed AMC, 5 PM ET call; consensus EPS ~$0.48; royalty/AI chip read for semis"
+      "status": "reported",
+      "why": "Adj EPS $0.52 vs $0.47, rev $1.44B vs $1.38B (+27%), license +50% to $773M, but royalties $670M (+8%) missed ~$712-721M est; Q3 guide $1.49-1.59B rev, EPS $0.52-0.60, midpoints slightly above est",
+      "reaction": "~-3% AH (~$186)",
+      "sentiment": "Mixed"
     },
     {
       "ticker": "GFS",
@@ -102,8 +106,10 @@
       "company": "Qualcomm (QCOM)",
       "date": "2026-11-04",
       "when": "AMC",
-      "status": "upcoming",
-      "why": "FQ4/FY26 print Wed AMC, 4:45 PM ET call; consensus EPS ~$2.16; handset and AI PC/data-center read"
+      "status": "reported",
+      "why": "Adj EPS $2.17 vs $2.16, adj rev $10.44B vs $10.12B (down y/y); Q1 guide rev $10.4-11.2B (mid above $10.55B est), EPS $2.15-2.35 (mid ~in line); handset chip revenue missed, auto/IoT strong",
+      "reaction": "~-6% AH (~$162)",
+      "sentiment": "Bearish"
     },
     {
       "ticker": "UBER",

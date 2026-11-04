@@ -2,18 +2,18 @@
   "date": "2026-11-04",
   "grok": {
     "date": "2026-11-04",
-    "at": "2026-11-04T14:28:46Z",
-    "pulse": "NQ is the laggard into the open (~+0.4% to +1% vs Dow +1.5-2.2%) as the post-Dem-sweep gridlock bid rotates into old economy, with AMD fading from +7% pre and Musk names (TSLA ~-5%, SpaceX -8%) dragging, offset by WTI -3% to ~$93 and a hot ADP print.",
-    "bias": "mixed — gridlock relief, oil down $2-3 and solid data are risk-on, but tech is lagging the rotation, AI/data-center regulation fear persists (39 of 40 local data-center ballot measures restricted) and the Iran drone headline keeps it two-way.",
+    "at": "2026-11-04T21:25:43Z",
+    "pulse": "NQ closed +1.4% (Nasdaq 25,733) on the post-midterm gridlock relief bid and an oil collapse, but AI-infra/memory names (MU -6%, SNDK -9%, CIFR/IREN) lagged on Dem data-center fears; AH it's split with APP +17% vs QCOM -6% and ARM -3%.",
+    "bias": "mixed — gridlock relief, WTI dump and VIX crush are risk-on, but data-center regulation fears and weak AH semis (QCOM/ARM) keep NQ lagging ES/YM.",
     "items": [
-      "@FirstSquawk (~8:15 AM ET): ADP Oct private payrolls +86K vs +67K est; Sep trade deficit -$105B vs -$107.9B est — Mixed NQ",
-      "@DeItaone (~9:04 AM ET): WTI crude falls 3% to $93.25 as Pakistan touts positive Iran diplomacy; Brent/CL down >$2 — Bullish NQ",
-      "@DeItaone (~9:10 AM ET): IRGC says it shot down a US MQ-1 drone over Qeshm Island; Houthis claim missile strike on Riyadh airport (~9:03 AM) — Bearish NQ",
-      "@FirstSquawk (~8:09 AM ET): SpaceX shares extend drop to >8%, TSLA ~-5.6% on Dem regulatory/Musk political exposure fears — Bearish NQ",
-      "@MacroSentimentt (~9:25 AM ET): Dow futures +2.2% vs Nasdaq futures +0.4%, rally is old economy not tech; AMD faded from +7% pre, DDOG -15% pre on in-line guide — Mixed NQ"
+      "@FirstSquawk (~4:10 PM ET): Close — Nasdaq +1.42% to 25,732.53, S&P +1.61% to 7,690.79, Dow +3.03% to 53,357.52 (YM leading, NQ lagging) — Bullish NQ",
+      "@FirstSquawk (~3:36 PM ET): Trump rules out paring back tariffs (\"we have 3,000 plants under construction\"), says he can work with Dems on \"financial ideas\" — Mixed NQ",
+      "@FirstSquawk (~4:14 PM ET): QCOM Q4 adj EPS $2.17 vs $2.16, rev $10.44B vs $10.12B, Q1 guide $10.4-11.2B; stock ~-6% AH on handset weakness — Bearish NQ",
+      "@FirstSquawk (~4:14 PM ET): ARM Q2 adj EPS $0.52 vs $0.47, rev $1.44B vs $1.38B, guide midpoint above; ~-3% AH as royalties ($670M) missed — Mixed NQ",
+      "@Sam_Badawi (~4:21 PM ET): APP Q3 rev $2.2B vs $2.1B (+55% y/y), EPS $4.30 vs $4.04; +17% AH ~$318 — Bullish NQ"
     ],
-    "trump": "Cancelled public appearances Wednesday after the GOP midterm defeat; only closed-door policy meetings on his schedule (@DeItaone ~8:25 AM ET).",
-    "watch": "Cash open 9:30 AM ET (QQQ 693 call / 680 put gamma levels); ISM Services 10:00 AM ET; Iran drone/Houthi escalation vs Pakistan-led diplomacy for oil; Treasury refunding set at $125B (10y $42B, 30y $25B auctions next week); QCOM (4:45 PM call), ARM (5 PM call) and APP AMC tonight; IREN Thu AMC.",
+    "trump": "Per CNBC (via @FirstSquawk ~3:36 PM ET): Trump won't pare back tariffs — \"If I took tariffs off? We have 3,000 plants under construction right now. Every single plant would stop building\" — and says he can work with Democrats on \"financial ideas\" but declined comment on a credit-card rate cap.",
+    "watch": "AH semis tone (QCOM/ARM red vs APP green) into Thu open; oil follow-through after WTI's war-premium dump and EIA distillates at 2003 lows; IREN AMC Thu plus AI-infra reaction to Dem data-center pause talk; MSFT $25B bond deal (AI capex funding); Thu 8:30 AM ET jobless claims.",
     "forSite": [],
     "reports": [
       {
@@ -74,6 +74,36 @@
         ],
         "trump": "Cancelled public appearances Wednesday after the GOP midterm defeat; only closed-door policy meetings on his schedule (@DeItaone ~8:25 AM ET).",
         "watch": "Cash open 9:30 AM ET (QQQ 693 call / 680 put gamma levels); ISM Services 10:00 AM ET; Iran drone/Houthi escalation vs Pakistan-led diplomacy for oil; Treasury refunding set at $125B (10y $42B, 30y $25B auctions next week); QCOM (4:45 PM call), ARM (5 PM call) and APP AMC tonight; IREN Thu AMC.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-04T21:17:00Z",
+        "pulse": "Cash session closed with broad risk-on rally on Democratic midterm sweep and gridlock expectations (Dow +3%, S&P +1.58%, Nasdaq +1.44%) while oil plunged 7-8%+ on Vance blaming the Iran war for GOP losses, though AI/data-center names sold hard on regulatory fears.",
+        "bias": "mixed — gridlock bid and oil collapse are risk-on for the broad tape, but tech lagging with data-center stocks smashed on Dem state wins and local restrictions keeps NQ two-way.",
+        "items": [
+          "@__R_V___ (~4:16 PM ET): Dow closed +3.03% to 53,356 (best day since Apr 2025), S&P +1.58% to 7,688, Nasdaq +1.44% to 25,736 after Dems took House and Senate; oil -8%+ after Vance said Iran war drove the losses",
+          "@TitoEspot_ (~4:16 PM ET): Split tape — broad indices up (AMZN/MSFT ~+7%) but AI infra crushed (CIFR -18-21%, IREN -9-11%, CRWV ~-9%); WTI -7.2% to $89.17, Brent -8.5% to $94.84 on war-end bets; VIX -17% to ~17.4",
+          "@JDVance (~10:38 AM ET): GOP lost midterms mainly because of the Iran war; pollster data showed Trump 2024 voters prioritized ending the war, cost of living, America First, and changing Israel relationship",
+          "@xtrskcapital (~4:16 PM ET): Indices jumped sharply but MOC sell imbalance reported; Citrini notes AI-infra Capex peak and downside risk; Trump rules out tariff reductions that would halt plant construction",
+          "@DavidZero (~4:16 PM ET): Oil shed its war premium (Brent to ~$95) after Dems took Congress and Vance blamed the war; BTC reclaimed $80k; Nasdaq futures off morning highs as chips lagged"
+        ],
+        "trump": "Vance publicly attributed midterm losses primarily to the Iran war and voter demand to end it; Trump cancelled public appearances for closed-door policy meetings after the GOP defeat.",
+        "watch": "AH and next-session reaction in AI/data-center names vs broad market; oil follow-through on any Iran de-escalation headlines; CORZ/IREN/WULF earnings Thu-Fri; residual rotation from tech into value/energy laggards.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-04T21:25:43Z",
+        "pulse": "NQ closed +1.4% (Nasdaq 25,733) on the post-midterm gridlock relief bid and an oil collapse, but AI-infra/memory names (MU -6%, SNDK -9%, CIFR/IREN) lagged on Dem data-center fears; AH it's split with APP +17% vs QCOM -6% and ARM -3%.",
+        "bias": "mixed — gridlock relief, WTI dump and VIX crush are risk-on, but data-center regulation fears and weak AH semis (QCOM/ARM) keep NQ lagging ES/YM.",
+        "items": [
+          "@FirstSquawk (~4:10 PM ET): Close — Nasdaq +1.42% to 25,732.53, S&P +1.61% to 7,690.79, Dow +3.03% to 53,357.52 (YM leading, NQ lagging) — Bullish NQ",
+          "@FirstSquawk (~3:36 PM ET): Trump rules out paring back tariffs (\"we have 3,000 plants under construction\"), says he can work with Dems on \"financial ideas\" — Mixed NQ",
+          "@FirstSquawk (~4:14 PM ET): QCOM Q4 adj EPS $2.17 vs $2.16, rev $10.44B vs $10.12B, Q1 guide $10.4-11.2B; stock ~-6% AH on handset weakness — Bearish NQ",
+          "@FirstSquawk (~4:14 PM ET): ARM Q2 adj EPS $0.52 vs $0.47, rev $1.44B vs $1.38B, guide midpoint above; ~-3% AH as royalties ($670M) missed — Mixed NQ",
+          "@Sam_Badawi (~4:21 PM ET): APP Q3 rev $2.2B vs $2.1B (+55% y/y), EPS $4.30 vs $4.04; +17% AH ~$318 — Bullish NQ"
+        ],
+        "trump": "Per CNBC (via @FirstSquawk ~3:36 PM ET): Trump won't pare back tariffs — \"If I took tariffs off? We have 3,000 plants under construction right now. Every single plant would stop building\" — and says he can work with Democrats on \"financial ideas\" but declined comment on a credit-card rate cap.",
+        "watch": "AH semis tone (QCOM/ARM red vs APP green) into Thu open; oil follow-through after WTI's war-premium dump and EIA distillates at 2003 lows; IREN AMC Thu plus AI-infra reaction to Dem data-center pause talk; MSFT $25B bond deal (AI capex funding); Thu 8:30 AM ET jobless claims.",
         "forSite": []
       }
     ]
