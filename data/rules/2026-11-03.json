@@ -2,6 +2,7 @@
  "date": "2026-11-03",
  "r": {
   "loss_limit": "ok",
-  "win_lockout": "ok"
+  "win_lockout": "ok",
+  "no_pre10": "ok"
  }
 }
