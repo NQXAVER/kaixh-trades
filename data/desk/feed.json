@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T16:56:10Z",
+  "updatedAt": "2026-11-04T22:29:37Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -204,6 +204,18 @@
   ],
   "items": [
     {
+      "id": "f869f664e297c",
+      "headline": "UAE Weighs Plans for Third Strait of Hormuz Bypass Pipeline",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Energy/Crude-Oil/UAE-Weighs-Plans-for-Third-Strait-of-Hormuz-Bypass-Pipeline.html",
+      "publishedAt": "2026-11-04T20:00:00Z",
+      "time": "Wed 3:00 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
       "id": "feb912df98dbc",
       "headline": "Zelensky gives Melania Trump Ukraine's highest award after Oleshky ceasefire",
       "source": "BBC",
@@ -312,18 +324,6 @@
       "auto": true
     },
     {
-      "id": "fb80e3c5f1780",
-      "headline": "‘This is not about politics. This is about people’: UN warns of impact of deadly drone strikes in Sudan",
-      "source": "UN News - Global perspective Human stories",
-      "url": "https://news.un.org/feed/view/en/story/2026/11/1168731",
-      "publishedAt": "2026-11-03T12:00:00Z",
-      "time": "Tue 7:00 AM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
       "id": "f219f8545161e",
       "headline": "Euro zone inflation hits 4% for first time in three years as interest rate hike looms",
       "source": "CNBC",
@@ -345,6 +345,18 @@
       "section": "fed",
       "impact": "High",
       "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "f189a8091bfd8",
+      "headline": "10-year Treasury yield slides as traders mull over Democrats' midterm victories, oil prices drop",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/03/treasury-yields-fall-as-democrats-win-big-in-us-midterm-elections.html",
+      "publishedAt": "2026-11-04T21:18:44Z",
+      "time": "Wed 4:18 PM",
+      "section": "fed",
+      "impact": "Medium",
+      "lean": null,
       "auto": true
     },
     {
@@ -432,18 +444,6 @@
       "auto": true
     },
     {
-      "id": "f5b0b80c367a8",
-      "headline": "The RBA may be about to hike interest rates. Use our loan calculator to check how it may affect you",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/australia-news/2026/may/04/interest-rates-rba-rate-hike-mortgage-calculator",
-      "publishedAt": "2026-11-02T02:01:46Z",
-      "time": "Sun 9:01 PM",
-      "section": "fed",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
       "id": "f8d13ae1e01c2",
       "headline": "Job openings posted big September gain in positive sign for labor market ahead of payrolls report",
       "source": "CNBC",
@@ -456,8 +456,20 @@
       "auto": true
     },
     {
-      "id": "fc344af6d21ea",
-      "headline": "Australia has an especially bad inflation problem. So why are we only middle-of-the pack on the misery index?",
+      "id": "fd01f0889931f",
+      "headline": "US midterm results a 'victory' for Canadians hopeful of tariff relief",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cqev3mw3e0kdo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-11-04T18:01:31Z",
+      "time": "Wed 1:01 PM",
+      "section": "econ",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f4e2ff839067d",
+      "headline": "Australia has a bad inflation problem. So why are we middle-of-the pack on the misery index?",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/nov/05/australian-economy-inflation-cost-of-living-misery-index",
       "publishedAt": "2026-11-04T14:00:37Z",
@@ -512,6 +524,18 @@
       "time": "Mon 3:05 PM",
       "section": "econ",
       "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f2a1f67c2289c",
+      "headline": "Hyperscalers and Apple surge after election results remove investor uncertainty",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/04/apple-and-other-big-tech-stocks-surge-after-2026-midterm-elections.html",
+      "publishedAt": "2026-11-04T19:37:43Z",
+      "time": "Wed 2:37 PM",
+      "section": "tech",
+      "impact": "High",
       "lean": null,
       "auto": true
     },
@@ -612,27 +636,15 @@
       "auto": true
     },
     {
-      "id": "f73dbe96e3c45",
-      "headline": "Datadog’s stock extends steep declines in the wake of earnings",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/datadogs-stock-extends-steep-declines-in-the-wake-of-earnings-af412874?mod=mw_rss_topstories",
-      "publishedAt": "2026-11-04T15:16:00Z",
-      "time": "Wed 10:16 AM",
+      "id": "fcd54514bf226",
+      "headline": "Qualcomm stock drops 6% on weak earnings forecast as memory shortage weighs on smartphone sales",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/04/qualcomm-qcom-earnings-report-q4-2026.html",
+      "publishedAt": "2026-11-04T22:03:43Z",
+      "time": "Wed 5:03 PM",
       "section": "tech",
       "impact": "Medium",
       "lean": null,
-      "auto": true
-    },
-    {
-      "id": "fff02d70efffc",
-      "headline": "Qualcomm sat out the semiconductor rally. Can a SpaceX partnership change that?",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/qualcomm-sat-out-the-semiconductor-rally-can-a-spacex-partnership-change-that-5bb4c0b2?mod=mw_rss_topstories",
-      "publishedAt": "2026-11-04T15:13:00Z",
-      "time": "Wed 10:13 AM",
-      "section": "tech",
-      "impact": "Medium",
-      "lean": "risk-on",
       "auto": true
     },
     {
@@ -676,8 +688,20 @@
       "headline": "Crude oil prices fall below $90 a barrel as Vance blames GOP election defeat on Iran war",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/11/04/oil-price-iran-war-us-election-strait-hormuz.html",
-      "publishedAt": "2026-11-04T16:51:01Z",
-      "time": "Wed 11:51 AM",
+      "publishedAt": "2026-11-04T20:14:52Z",
+      "time": "Wed 3:14 PM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fe82d94adb244",
+      "headline": "New Jersey Moves to Block Trump's Russian Diesel Imports",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Energy/Energy-General/New-Jersey-Moves-to-Block-Trumps-Russian-Diesel-Imports.html",
+      "publishedAt": "2026-11-04T17:00:00Z",
+      "time": "Wed 12:00 PM",
       "section": "energy",
       "impact": "Medium",
       "lean": null,
@@ -744,24 +768,12 @@
       "auto": true
     },
     {
-      "id": "f0a0f62ab24ec",
-      "headline": "Global Diesel Crunch Set to Last Well Into 2027",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Energy/Crude-Oil/Global-Diesel-Crunch-Set-to-Last-Well-Into-2027.html",
-      "publishedAt": "2026-11-04T00:00:00Z",
-      "time": "Tue 7:00 PM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
       "id": "f2255e07bd430",
       "headline": "Micron and other chip stocks slip as election results strike at the core of data-center optimism",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/micron-and-other-chip-stocks-slip-as-election-results-strike-at-the-core-of-data-center-optimism-b55d19b3?mod=mw_rss_topstories",
-      "publishedAt": "2026-11-04T15:17:00Z",
-      "time": "Wed 10:17 AM",
+      "publishedAt": "2026-11-04T21:55:00Z",
+      "time": "Wed 4:55 PM",
       "section": "markets",
       "impact": "Medium",
       "lean": null,
