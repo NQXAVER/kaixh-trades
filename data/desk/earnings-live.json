@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-03",
-  "at": "2026-11-04T03:23:13Z",
+  "date": "2026-11-04",
+  "at": "2026-11-04T12:20:35Z",
   "items": [
     {
       "ticker": "AAPL",
@@ -23,14 +23,14 @@
       "sentiment": "Mixed"
     },
     {
-      "ticker": "SHOP",
-      "company": "Shopify (SHOP)",
+      "ticker": "ALAB",
+      "company": "Astera Labs (ALAB)",
       "date": "2026-11-03",
-      "when": "BMO",
+      "when": "AMC",
       "status": "reported",
-      "why": "Rev $3.74B vs $3.75B slight miss, adj EPS 49c vs 48c beat, op income $568M vs $523.9M beat, GMV $119.15B vs $120.08B miss, MRR $230M in line; Q4 rev growth guided low-30s %; first revenue miss since 2022, GMV growth slowed to 29%, GM 47.6%; stock ~$156 to ~$130 premarket",
-      "sentiment": "Bearish",
-      "reaction": "~-15% premarket"
+      "reaction": "higher AH",
+      "sentiment": "Bullish",
+      "why": "Rev $584.9M +154% y/y vs $551M est, adj EPS $1.32 vs $1.19; Q4 guide $730-750M rev, EPS $1.62-1.66, well above est"
     },
     {
       "ticker": "AMD",
@@ -38,19 +38,9 @@
       "date": "2026-11-03",
       "when": "AMC",
       "status": "reported",
-      "reaction": "~+4.4% AH ($505 at 8:10 PM), likely pressured by ~-2% NQ futures overnight",
+      "reaction": "~+7% premarket Wed",
       "sentiment": "Bullish",
-      "why": "Rev $13.38B vs $13.08B beat (+45% y/y), adj EPS $2.09 vs $1.97 beat, data center $8.5B +97%, adj GM 56%; Q4 guide ~$17B ±3% vs ~$16.2B est"
-    },
-    {
-      "ticker": "SMCI",
-      "company": "Super Micro (SMCI)",
-      "date": "2026-11-03",
-      "when": "AMC",
-      "status": "reported",
-      "reaction": "~+5% AH",
-      "sentiment": "Bullish",
-      "why": "Adj EPS $1.81 vs ~$1.06-1.24 est, sales ~$19.9B vs ~$16.2B est; Q2 guide $19.5-21.5B vs $16.53B, FY raised to $72-82B from $65-72B"
+      "why": "Rev $13.38B vs $13.08B beat (+45% y/y), adj EPS $2.09 vs $1.97 beat, data center record $8.55B (~+97%, 64% of rev), adj GM 56%; Q4 guide ~$17B vs ~$16.2B est, 2027 growth outlook raised to >80%"
     },
     {
       "ticker": "ANET",
@@ -63,20 +53,32 @@
       "why": "Rev $3.66B +58.5% y/y vs $3.33B est, adj EPS $1.20 vs $1.08 est; 2026 rev target raised to $13.3B, 2027 outlook $18.5B with AI fabrics seen doubling to ~$7B; closed +3.52% at $169.91 then rocketed AH"
     },
     {
-      "ticker": "UBER",
-      "company": "Uber (UBER)",
-      "date": "2026-11-04",
+      "ticker": "SHOP",
+      "company": "Shopify (SHOP)",
+      "date": "2026-11-03",
       "when": "BMO",
-      "status": "upcoming",
-      "why": "Confirmed Wed BMO, 8 AM ET call; gross bookings guide $58.25-60.25B"
+      "status": "reported",
+      "why": "Rev $3.74B vs $3.75B slight miss, adj EPS 49c vs 48c beat, op income $568M vs $523.9M beat, GMV $119.15B vs $120.08B miss, MRR $230M in line; Q4 rev growth guided low-30s %; first revenue miss since 2022, GMV growth slowed to 29%, GM 47.6%; stock ~$156 to ~$130 premarket",
+      "sentiment": "Bearish",
+      "reaction": "~-15% premarket"
     },
     {
-      "ticker": "QCOM",
-      "company": "Qualcomm (QCOM)",
+      "ticker": "SMCI",
+      "company": "Super Micro (SMCI)",
+      "date": "2026-11-03",
+      "when": "AMC",
+      "status": "reported",
+      "reaction": "~+6% AH",
+      "sentiment": "Bullish",
+      "why": "Adj EPS $1.81 vs ~$1.06-1.24 est, sales ~$19.9B vs ~$16.2B est; Q2 guide $19.5-21.5B vs $16.53B, FY raised to $72-82B from $65-72B"
+    },
+    {
+      "ticker": "APP",
+      "company": "AppLovin (APP)",
       "date": "2026-11-04",
       "when": "AMC",
       "status": "upcoming",
-      "why": "FQ4/FY26 print Wed AMC, 4:45 PM ET call; consensus EPS ~$2.16; handset and AI PC/data-center read"
+      "why": "High-beta NQ name Wed AMC; consensus EPS ~$4.03"
     },
     {
       "ticker": "ARM",
@@ -87,12 +89,30 @@
       "why": "FQ2 FY27 Wed AMC, 5 PM ET call; consensus EPS ~$0.48; royalty/AI chip read for semis"
     },
     {
-      "ticker": "APP",
-      "company": "AppLovin (APP)",
+      "ticker": "GFS",
+      "company": "GlobalFoundries (GFS)",
+      "date": "2026-11-04",
+      "when": "BMO",
+      "status": "reported",
+      "sentiment": "Mixed",
+      "why": "Adj EPS 53c vs 50c, rev $1.90B vs $1.89B; Q4 rev guide $1.98-2.03B vs $2.002B est, EPS 54-64c vs 56c"
+    },
+    {
+      "ticker": "QCOM",
+      "company": "Qualcomm (QCOM)",
       "date": "2026-11-04",
       "when": "AMC",
       "status": "upcoming",
-      "why": "High-beta NQ name Wed AMC; consensus EPS ~$4.03"
+      "why": "FQ4/FY26 print Wed AMC, 4:45 PM ET call; consensus EPS ~$2.16; handset and AI PC/data-center read"
+    },
+    {
+      "ticker": "UBER",
+      "company": "Uber (UBER)",
+      "date": "2026-11-04",
+      "when": "BMO",
+      "status": "reported",
+      "why": "Adj EPS 88c vs 87c, rev $14.77B vs $14.65B, gross bookings $59.82B vs $59.79B, adj EBITDA $2.96B vs $2.93B; Q4 bookings guide $63.25-65.25B vs $64.29B, Q4 EPS guide 95-99c vs 98c (in line)",
+      "sentiment": "Mixed"
     },
     {
       "ticker": "IREN",
