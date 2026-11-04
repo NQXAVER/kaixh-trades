@@ -1,8 +1,8 @@
 {
   "date": "2026-11-04",
-  "at": "2026-11-04T14:28:46Z",
-  "pulse": "NQ is the laggard into the open (~+0.4% to +1% vs Dow +1.5-2.2%) as the post-Dem-sweep gridlock bid rotates into old economy, with AMD fading from +7% pre and Musk names (TSLA ~-5%, SpaceX -8%) dragging, offset by WTI -3% to ~$93 and a hot ADP print.",
-  "bias": "mixed — gridlock relief, oil down $2-3 and solid data are risk-on, but tech is lagging the rotation, AI/data-center regulation fear persists (39 of 40 local data-center ballot measures restricted) and the Iran drone headline keeps it two-way.",
+  "at": "2026-11-04T21:10:00Z",
+  "pulse": "NQ is the laggard into the open (~+0.4% to +1% vs Dow +1.5-2.2%) as the post-Dem-sweep gridlock bid rotates into old economy, with AMD fading from +7% pre and Musk names (TSLA ~-5%, SpaceX -8%) dragging, offset by WTI -3% to ~$93 and a hot ADP print. After-hours: APP +13% AH on beat-and-raise, QCOM -5% AH on soft guide.",
+  "bias": "mixed — gridlock relief, oil down $2-3 and solid data are risk-on, but tech is lagging the rotation, AI/data-center regulation fear persists (39 of 40 local data-center ballot measures restricted) and the Iran drone headline keeps it two-way. AH semis mixed with APP strong, QCOM soft.",
   "items": [
     "@FirstSquawk (~8:15 AM ET): ADP Oct private payrolls +86K vs +67K est; Sep trade deficit -$105B vs -$107.9B est — Mixed NQ",
     "@DeItaone (~9:04 AM ET): WTI crude falls 3% to $93.25 as Pakistan touts positive Iran diplomacy; Brent/CL down >$2 — Bullish NQ",
@@ -13,6 +13,26 @@
   "trump": "Cancelled public appearances Wednesday after the GOP midterm defeat; only closed-door policy meetings on his schedule (@DeItaone ~8:25 AM ET).",
   "watch": "Cash open 9:30 AM ET (QQQ 693 call / 680 put gamma levels); ISM Services 10:00 AM ET; Iran drone/Houthi escalation vs Pakistan-led diplomacy for oil; Treasury refunding set at $125B (10y $42B, 30y $25B auctions next week); QCOM (4:45 PM call), ARM (5 PM call) and APP AMC tonight; IREN Thu AMC.",
   "forSite": [],
+  "earnings": [
+    {
+      "ticker": "APP",
+      "reaction": "+13% AH",
+      "sentiment": "Bullish",
+      "why": "Strong beat (EPS $4.30 vs ~$4.04, rev $2.18B vs $2.08B) and raised Q4 sales guidance with solid buybacks."
+    },
+    {
+      "ticker": "QCOM",
+      "reaction": "-5% AH",
+      "sentiment": "Bearish",
+      "why": "Slight beat on EPS/rev but light EPS guidance; data-center progress noted but market sold the print."
+    },
+    {
+      "ticker": "ARM",
+      "reaction": "~flat to -2% AH",
+      "sentiment": "Neutral",
+      "why": "Beat on EPS/rev with in-line guidance; reaction muted."
+    }
+  ],
   "reports": [
     {
       "at": "2026-11-04T12:00:00Z",
