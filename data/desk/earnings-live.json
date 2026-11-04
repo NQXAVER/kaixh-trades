@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "at": "2026-11-03T21:20:46Z",
+  "at": "2026-11-04T01:21:21Z",
   "items": [
     {
       "ticker": "AAPL",
@@ -38,7 +38,7 @@
       "date": "2026-11-03",
       "when": "AMC",
       "status": "reported",
-      "reaction": "~+6% AH",
+      "reaction": "~+4.4% AH ($505 at 8:10 PM, faded from ~$530 peak)",
       "sentiment": "Bullish",
       "why": "Rev $13.38B vs $13.08B beat (+45% y/y), adj EPS $2.09 vs $1.97 beat, data center $8.5B +97%, adj GM 56%; Q4 guide ~$17B ±3% vs ~$16.2B est"
     },
@@ -60,7 +60,7 @@
       "status": "reported",
       "reaction": "~+7% AH",
       "sentiment": "Bullish",
-      "why": "Rev $3.66B; shares ~$182 AH vs $169.91 close on AI networking demand (fuller details pending)"
+      "why": "Rev $3.66B +58.5% y/y vs $3.33B est, adj EPS $1.20 vs $1.08 est; 2026 rev target raised to $13.3B, 2027 outlook $18.5B with AI fabrics seen doubling to ~$7B; closed +3.52% at $169.91 then rocketed AH"
     },
     {
       "ticker": "UBER",
