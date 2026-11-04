@@ -2,6 +2,6 @@
  "date": "2026-11-03",
  "r": {
   "loss_limit": "ok",
-  "win_lockout": "broke"
+  "win_lockout": ""
  }
 }
