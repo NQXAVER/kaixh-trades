@@ -1,18 +1,18 @@
 {
   "date": "2026-11-03",
   "grok": {
-    "at": "2026-11-03T21:17:29Z",
-    "pulse": "Election-day session closed mixed with Nasdaq +0.8% and S&P +0.3% as oil held near $96 WTI on lingering US-Iran deal hopes, while AI ROI skepticism and AAPL margin fade limited upside ahead of midterm results and AMD AMC.",
-    "bias": "mixed — cheaper crude and de-escalation headlines support risk, but persistent AI spending doubts, AAPL weakness and election volatility keep the tape balanced.",
+    "at": "2026-11-04T01:10:00Z",
+    "pulse": "Futures flipped lower after polls closed on Election Day with Democrats heavily favored for a sweep, oil whipsawing on US-Iran strikes versus deal hopes, while AMD's after-hours beat-and-raise supports AI semis.",
+    "bias": "mixed — election uncertainty and residual Iran/oil risk weigh on overnight futures, but AMD's AH strength and market desensitization to Hormuz headlines keep a bid under NQ.",
     "items": [
-      "@Portfolio_Times (~4:16 PM ET): Closing mixed — Nasdaq +0.83%, S&P +0.36%, Dow -0.38%; oil ~$96.72, gold $3931; midterms and AMD AMC next — Mixed NQ",
-      "CNBC (~4:00 PM ET): Nasdaq rebounds as chip stocks bounce, Dow dragged by Apple; NQ still ~10% off peak in correction territory — Bullish NQ",
-      "@Petey_Money (~prior): NQ green-to-red earlier on Iran threats after peace hopes; midterms key — Mixed NQ",
-      "Reuters/open: S&P and Nasdaq opened higher as oil extended declines into midterms; AAPL among Big Tech missing on margins — Mixed NQ",
-      "X traders (~session): Oil slide on Trump Iran deal comments cushions futures; semis try rebound into AMD — Bullish NQ"
+      "@3FinanWolverine (~7:50 PM ET): S&P futures ~-0.4%, Nasdaq-100 ~-0.6% as Kalshi prices Dems ~96% House / 82% Senate; AMD still ~+5% AH after beat-and-raise",
+      "@wensontrading (~7:52 PM ET): Futures flipped red on election jitters not AMD fundamentals; NQ ~-0.9%, ES ~-0.5%; AMD +~8% AH, JPM sees AI dips as buys",
+      "@TConceptTrading (~7:57 PM ET): US strikes Iran's Qeshm Island, oil whipsaws (Brent to $106.60 then ~$103); session Nasdaq +0.83% as chips rebound, AMD surges 7% AH",
+      "@AbdulMuhin73 (~8:02 PM ET): Markets ignore Iran denial of US-approved deal draft; earlier futures popped and oil dropped below $95 before open",
+      "@MMTBitcoiner (~7:59 PM ET): Nasdaq and Bitcoin down on projected Democrat midterm sweep, already priced in; watch for next week if no further Iran escalation"
     ],
-    "trump": "No fresh market posts today (endorsements for midterms); prior: 'very good chance we'll make a deal' with Iran and oil 'dropping like a rock' on winning with Iran.",
-    "watch": "Midterm election results after polls close tonight and any post-election rotation; AMD + ANET AMC earnings (AI demand commentary); overnight Hormuz/Iran headline risk for oil; Wed UBER BMO, QCOM/ARM/APP AMC; Fri NFP.",
+    "trump": "none recent market-moving posts; context is ongoing US-Iran conflict and midterms where Republicans brace for possible losses",
+    "watch": "Overnight midterm results as remaining Senate polls close ~9 PM ET and any post-election rotation; oil reaction to further Iran strike or diplomacy headlines; AMD AH follow-through and AI complex into Wednesday open; residual Hormuz risk.",
     "forSite": []
   }
 }
