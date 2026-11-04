@@ -1,6 +1,6 @@
 {
   "date": "2026-11-04",
-  "at": "2026-11-04T12:20:35Z",
+  "at": "2026-11-04T14:28:46Z",
   "items": [
     {
       "ticker": "AAPL",
@@ -38,7 +38,7 @@
       "date": "2026-11-03",
       "when": "AMC",
       "status": "reported",
-      "reaction": "~+7% premarket Wed",
+      "reaction": "+7% premarket, faded to ~+2% (briefly red) by 9:25 AM",
       "sentiment": "Bullish",
       "why": "Rev $13.38B vs $13.08B beat (+45% y/y), adj EPS $2.09 vs $1.97 beat, data center record $8.55B (~+97%, 64% of rev), adj GM 56%; Q4 guide ~$17B vs ~$16.2B est, 2027 growth outlook raised to >80%"
     },
@@ -112,7 +112,8 @@
       "when": "BMO",
       "status": "reported",
       "why": "Adj EPS 88c vs 87c, rev $14.77B vs $14.65B, gross bookings $59.82B vs $59.79B, adj EBITDA $2.96B vs $2.93B; Q4 bookings guide $63.25-65.25B vs $64.29B, Q4 EPS guide 95-99c vs 98c (in line)",
-      "sentiment": "Mixed"
+      "sentiment": "Mixed",
+      "reaction": "slightly lower premarket"
     },
     {
       "ticker": "IREN",
@@ -121,6 +122,16 @@
       "when": "AMC",
       "status": "upcoming",
       "why": "AI cloud/GPU data-center read after -9% Thu on capex doubts"
+    },
+    {
+      "ticker": "DDOG",
+      "company": "Datadog (DDOG)",
+      "date": "2026-11-04",
+      "when": "BMO",
+      "status": "reported",
+      "reaction": "~-15% premarket",
+      "sentiment": "Bearish",
+      "why": "Rev $1.20B +35% y/y vs ~$1.14-1.15B est, adj EPS 81c vs ~64c beat, FCF $251M; Q4 rev guide $1.19-1.20B only in line, no acceleration, software sell-off"
     }
   ]
 }

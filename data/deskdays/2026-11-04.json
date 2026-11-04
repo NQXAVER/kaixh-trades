@@ -2,18 +2,18 @@
   "date": "2026-11-04",
   "grok": {
     "date": "2026-11-04",
-    "at": "2026-11-04T12:20:35Z",
-    "pulse": "NQ futures ripped back from a ~2.4% overnight blue-wave flush to modestly green (~+0.2% to +1%) after Trump accepted the results, with AMD/SMCI/ANET beat-and-raise AI prints leading, offset by Goldman flagging Dem-driven data-center moratorium risk and Brent still ~$103.",
-    "bias": "mixed — AI earnings (AMD ~+7% pre) and the overnight V-reversal are risk-on, but data-center/AI regulation fears after the Dem sweep, Musk names -4% and elevated oil keep the open two-way.",
+    "at": "2026-11-04T14:28:46Z",
+    "pulse": "NQ is the laggard into the open (~+0.4% to +1% vs Dow +1.5-2.2%) as the post-Dem-sweep gridlock bid rotates into old economy, with AMD fading from +7% pre and Musk names (TSLA ~-5%, SpaceX -8%) dragging, offset by WTI -3% to ~$93 and a hot ADP print.",
+    "bias": "mixed — gridlock relief, oil down $2-3 and solid data are risk-on, but tech is lagging the rotation, AI/data-center regulation fear persists (39 of 40 local data-center ballot measures restricted) and the Iran drone headline keeps it two-way.",
     "items": [
-      "@SaloneStephen (~7:10 AM ET): Nasdaq futures were down as much as 2.4% on the Dem House+Senate sweep, flipped green after Trump said he'd accept results; TSLA/SPCX -4%+ pre — Mixed NQ",
-      "@astroman0079 (~6:20 AM ET): AMD ~+7% premarket after Q3 beat (rev $13.38B, DC record $8.55B, Q4 guide ~$17B, 2027 growth >80%); SMCI ~+6% and ANET higher on beat-and-raise — Bullish NQ",
-      "@DeItaone (~7:02 AM ET): Goldman warns Democratic state/local wins could trigger data-center construction moratoria hitting ~45% of planned US capacity — Bearish NQ",
-      "@LiveSquawk (~7:00 AM ET): UBER Q3 adj EPS 88c vs 87c, rev $14.77B vs $14.65B, bookings in line; Q4 EPS guide 95-99c vs 98c est — Mixed NQ",
-      "@claudefinancial (~6:01 AM ET): Brent ~$103/bbl as Iran's speaker hails vote as 'NO TO WAR'; QQQ ~+0.6% pre — Mixed NQ"
+      "@FirstSquawk (~8:15 AM ET): ADP Oct private payrolls +86K vs +67K est; Sep trade deficit -$105B vs -$107.9B est — Mixed NQ",
+      "@DeItaone (~9:04 AM ET): WTI crude falls 3% to $93.25 as Pakistan touts positive Iran diplomacy; Brent/CL down >$2 — Bullish NQ",
+      "@DeItaone (~9:10 AM ET): IRGC says it shot down a US MQ-1 drone over Qeshm Island; Houthis claim missile strike on Riyadh airport (~9:03 AM) — Bearish NQ",
+      "@FirstSquawk (~8:09 AM ET): SpaceX shares extend drop to >8%, TSLA ~-5.6% on Dem regulatory/Musk political exposure fears — Bearish NQ",
+      "@MacroSentimentt (~9:25 AM ET): Dow futures +2.2% vs Nasdaq futures +0.4%, rally is old economy not tech; AMD faded from +7% pre, DDOG -15% pre on in-line guide — Mixed NQ"
     ],
-    "trump": "On Fox after the midterm losses, Trump blamed high gas prices from the Iran conflict (national avg ~$4.15) for the setback, called it a short-term hit for long-term security, accepted the results, and kept military force on the table vs Iran.",
-    "watch": "ISM Services 10:00 AM ET (fcst 54.8 vs 54.9); QCOM AMC (4:45 PM call), ARM AMC (5 PM call), APP AMC; jobless claims Thu 8:30 AM, IREN Thu AMC; NFP Fri 8:30 AM (fcst 65K); Iran strike/talks and Hormuz headlines; AI/data-center regulation chatter.",
+    "trump": "Cancelled public appearances Wednesday after the GOP midterm defeat; only closed-door policy meetings on his schedule (@DeItaone ~8:25 AM ET).",
+    "watch": "Cash open 9:30 AM ET (QQQ 693 call / 680 put gamma levels); ISM Services 10:00 AM ET; Iran drone/Houthi escalation vs Pakistan-led diplomacy for oil; Treasury refunding set at $125B (10y $42B, 30y $25B auctions next week); QCOM (4:45 PM call), ARM (5 PM call) and APP AMC tonight; IREN Thu AMC.",
     "forSite": [],
     "reports": [
       {
@@ -44,6 +44,36 @@
         ],
         "trump": "On Fox after the midterm losses, Trump blamed high gas prices from the Iran conflict (national avg ~$4.15) for the setback, called it a short-term hit for long-term security, accepted the results, and kept military force on the table vs Iran.",
         "watch": "ISM Services 10:00 AM ET (fcst 54.8 vs 54.9); QCOM AMC (4:45 PM call), ARM AMC (5 PM call), APP AMC; jobless claims Thu 8:30 AM, IREN Thu AMC; NFP Fri 8:30 AM (fcst 65K); Iran strike/talks and Hormuz headlines; AI/data-center regulation chatter.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-04T14:23:00Z",
+        "pulse": "NQ and ES futures recovered from a >2% overnight Democratic midterm sweep dump on AI data-center regulation and gridlock fears to modestly green by morning as yields eased and dip buyers emerged, with oil soft on ongoing Iran talks.",
+        "bias": "mixed — overnight V-reversal and easier bonds are risk-on, but residual Dem scrutiny on AI/data-center buildout, Musk names pressure, and elevated oil keep the tape two-way into the open.",
+        "items": [
+          "@HighwaterCap (~9:22 AM ET): Markets full round trip overnight — NQ futures -2%+ on Dem sweep data-center buildout fears, recovered with ES +0.9% and Dow +1.8%; 10y ~4.91%, DXY one-month low, gold +3% — Mixed NQ",
+          "@Prestigeoptionz (~9:22 AM ET): Blue wave sold at midnight and bought by breakfast; Dems took Senate, NQ futures -1% overnight, SPY +1.2% premarket at 763 — Mixed NQ",
+          "@MichaelAArouet (~7:20 AM ET): Dem House+Senate raises odds of AI/data-center hearings, power-cost scrutiny and delays; value rotation plausible, bonds bid on gridlock, gold support — Bearish NQ bias",
+          "@zerohedge (prior): Markets risk-off on rising blue-wave odds implying more friction around AI/data-center investments plus fiscal/debt-ceiling gridlock — Bearish NQ",
+          "Iran/oil (~session): Brent holding ~$103 as Iran's speaker hails midterms as 'NO TO WAR'; Trump accepting results while keeping military force on table — Mixed"
+        ],
+        "trump": "Accepted the midterm results after Republican losses, blamed high gas prices from the Iran conflict (national avg ~$4.15) as a short-term hit for long-term security, and kept military force on the table versus Iran.",
+        "watch": "Cash open follow-through on NQ/ES after the overnight V-recovery; ISM Services 10:00 AM ET; AI/data-center regulation and moratorium chatter post-Dem sweep; oil/Iran de-escalation vs residual Hormuz/strike headlines; Dec 11 funding deadline and January seating.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-04T14:28:46Z",
+        "pulse": "NQ is the laggard into the open (~+0.4% to +1% vs Dow +1.5-2.2%) as the post-Dem-sweep gridlock bid rotates into old economy, with AMD fading from +7% pre and Musk names (TSLA ~-5%, SpaceX -8%) dragging, offset by WTI -3% to ~$93 and a hot ADP print.",
+        "bias": "mixed — gridlock relief, oil down $2-3 and solid data are risk-on, but tech is lagging the rotation, AI/data-center regulation fear persists (39 of 40 local data-center ballot measures restricted) and the Iran drone headline keeps it two-way.",
+        "items": [
+          "@FirstSquawk (~8:15 AM ET): ADP Oct private payrolls +86K vs +67K est; Sep trade deficit -$105B vs -$107.9B est — Mixed NQ",
+          "@DeItaone (~9:04 AM ET): WTI crude falls 3% to $93.25 as Pakistan touts positive Iran diplomacy; Brent/CL down >$2 — Bullish NQ",
+          "@DeItaone (~9:10 AM ET): IRGC says it shot down a US MQ-1 drone over Qeshm Island; Houthis claim missile strike on Riyadh airport (~9:03 AM) — Bearish NQ",
+          "@FirstSquawk (~8:09 AM ET): SpaceX shares extend drop to >8%, TSLA ~-5.6% on Dem regulatory/Musk political exposure fears — Bearish NQ",
+          "@MacroSentimentt (~9:25 AM ET): Dow futures +2.2% vs Nasdaq futures +0.4%, rally is old economy not tech; AMD faded from +7% pre, DDOG -15% pre on in-line guide — Mixed NQ"
+        ],
+        "trump": "Cancelled public appearances Wednesday after the GOP midterm defeat; only closed-door policy meetings on his schedule (@DeItaone ~8:25 AM ET).",
+        "watch": "Cash open 9:30 AM ET (QQQ 693 call / 680 put gamma levels); ISM Services 10:00 AM ET; Iran drone/Houthi escalation vs Pakistan-led diplomacy for oil; Treasury refunding set at $125B (10y $42B, 30y $25B auctions next week); QCOM (4:45 PM call), ARM (5 PM call) and APP AMC tonight; IREN Thu AMC.",
         "forSite": []
       }
     ]
