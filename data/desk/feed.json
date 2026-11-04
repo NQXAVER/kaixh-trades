@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T02:35:15Z",
+  "updatedAt": "2026-11-04T06:40:36Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -92,9 +92,9 @@
     {
       "id": "fed-all",
       "label": "Federal Reserve",
-      "ok": true,
-      "items": 20,
-      "error": null
+      "ok": false,
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "id": "fed-monetary",
@@ -183,9 +183,9 @@
     {
       "id": "un-peace",
       "label": "UN News",
-      "ok": true,
-      "items": 20,
-      "error": null
+      "ok": false,
+      "items": 0,
+      "error": "ParseError: not well-formed (invalid token): line 1, column 0"
     },
     {
       "id": "wsj-biz",
@@ -203,6 +203,30 @@
     }
   ],
   "items": [
+    {
+      "id": "f61391a463175",
+      "headline": "N Korea fires multiple missiles, denies US claims on Binance hack",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/4/n-korea-fires-multiple-missiles-denies-us-claims-on-binance-hack?traffic_source=rss",
+      "publishedAt": "2026-11-04T05:11:00Z",
+      "time": "Wed 12:11 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fff67bcb337c8",
+      "headline": "Iran says US reply to Hormuz plan ‘unconvincing’; Trump confirms strikes",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/4/iran-says-us-reply-to-hormuz-plan-unconvincing-trump-confirms-strikes?traffic_source=rss",
+      "publishedAt": "2026-11-04T04:39:31Z",
+      "time": "Tue 11:39 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
     {
       "id": "f58e9f4404d1f",
       "headline": "U.S. Assisted Venezuela in Deadly Drone Strike, Officials Say",
@@ -300,30 +324,6 @@
       "auto": true
     },
     {
-      "id": "fae9254d4e524",
-      "headline": "Trump signals progress on Iran deal as Tehran pushes faster ceasefire",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/11/2/iran-pushing-accelerated-plan-for-ceasefire-talks-with-us?traffic_source=rss",
-      "publishedAt": "2026-11-02T18:49:26Z",
-      "time": "Mon 1:49 PM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-on",
-      "auto": true
-    },
-    {
-      "id": "f7358c6c51900",
-      "headline": "Fake nuclear warning from hacked app sparks unease but not panic in Ukraine",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cwx28mngxz8do?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-11-02T18:34:24Z",
-      "time": "Mon 1:34 PM",
-      "section": "war",
-      "impact": "High",
-      "lean": null,
-      "auto": true
-    },
-    {
       "id": "f08d123153e20",
       "headline": "‘Sharper, longer slowdown’ predicted for Australian economy as fifth interest rate hike looms",
       "source": "The Guardian",
@@ -333,6 +333,18 @@
       "section": "fed",
       "impact": "High",
       "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "f77941df379cf",
+      "headline": "Treasury yields fall as investors crowd into bonds for safety amid election stock sell-off",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/03/treasury-yields-fall-as-democrats-win-big-in-us-midterm-elections.html",
+      "publishedAt": "2026-11-04T03:24:03Z",
+      "time": "Tue 10:24 PM",
+      "section": "fed",
+      "impact": "Medium",
+      "lean": "mixed",
       "auto": true
     },
     {
@@ -564,24 +576,24 @@
       "auto": true
     },
     {
-      "id": "f52406cef4e5d",
-      "headline": "Super Micro’s stock pops as earnings show booming demand for AI servers",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/super-micros-stock-pops-as-earnings-show-booming-demand-for-ai-servers-2d179658?mod=mw_rss_topstories",
-      "publishedAt": "2026-11-04T01:12:00Z",
-      "time": "Tue 8:12 PM",
+      "id": "fcee51df9de74",
+      "headline": "McDonald's is about to report earnings. Here's what to expect",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/04/mcdonalds-is-about-to-report-earnings-heres-what-to-expect.html",
+      "publishedAt": "2026-11-04T05:01:01Z",
+      "time": "Wed 12:01 AM",
       "section": "tech",
       "impact": "Medium",
       "lean": null,
       "auto": true
     },
     {
-      "id": "f2790d6aaac42",
-      "headline": "AMD stock jumps 8% on earnings as data center revenue nearly doubles",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/03/amd-amd-q3-earnings-report-2026-.html",
-      "publishedAt": "2026-11-03T23:04:37Z",
-      "time": "Tue 6:04 PM",
+      "id": "f52406cef4e5d",
+      "headline": "Super Micro’s stock pops as earnings show booming demand for AI servers",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/super-micros-stock-pops-as-earnings-show-booming-demand-for-ai-servers-2d179658?mod=mw_rss_topstories",
+      "publishedAt": "2026-11-04T01:12:00Z",
+      "time": "Tue 8:12 PM",
       "section": "tech",
       "impact": "Medium",
       "lean": null,
