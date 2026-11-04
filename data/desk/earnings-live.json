@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "at": "2026-11-04T01:21:21Z",
+  "at": "2026-11-04T03:23:13Z",
   "items": [
     {
       "ticker": "AAPL",
@@ -38,7 +38,7 @@
       "date": "2026-11-03",
       "when": "AMC",
       "status": "reported",
-      "reaction": "~+4.4% AH ($505 at 8:10 PM, faded from ~$530 peak)",
+      "reaction": "~+4.4% AH ($505 at 8:10 PM), likely pressured by ~-2% NQ futures overnight",
       "sentiment": "Bullish",
       "why": "Rev $13.38B vs $13.08B beat (+45% y/y), adj EPS $2.09 vs $1.97 beat, data center $8.5B +97%, adj GM 56%; Q4 guide ~$17B ±3% vs ~$16.2B est"
     },

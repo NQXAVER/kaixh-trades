@@ -2,18 +2,18 @@
   "date": "2026-11-03",
   "grok": {
     "date": "2026-11-03",
-    "at": "2026-11-04T01:21:21Z",
-    "pulse": "NQ futures ~-0.9% overnight as early midterm calls point to a Democratic sweep of House and Senate; AMD, ANET and SMCI after-hours beats keep a bid under semis and offset some of the election selling.",
-    "bias": "risk-off — Democratic sweep pricing (tax/regulation/AI-spend fears) plus Brent back above $104 and Nikkei -2% outweigh strong AI-hardware prints after the bell.",
+    "at": "2026-11-04T03:23:13Z",
+    "pulse": "NQ futures ~-2% (-600+ pts) overnight as Dems win the House and flip TX/NC/SC Senate seats, blue-wave pricing hits AI/data-center names; offsets are a 2Y yield drop to a 2-month low and a weaker USD.",
+    "bias": "risk-off — Democratic sweep odds raise AI/data-center regulation and tax risk, swamping AMD/ANET/SMCI AH beats; lower yields and history of post-midterm rallies are the only cushion.",
     "items": [
-      "@FirstSquawk (~7:37 PM ET): Nasdaq E-minis slide 0.9%, S&P E-minis -0.5% as futures deepen declines on midterm results — Bearish NQ",
-      "@DeItaone (~7:58 PM ET): Democrats on track to sweep both the House and Senate; Pappas holds NH, Ossoff GA, Booker NJ, GOP Moody wins FL — Bearish NQ",
-      "Reuters/X News (~8:18 PM ET): ANET Q3 rev $3.66B +58.5% vs $3.33B est, adj EPS $1.20 vs $1.08, 2026 target raised to $13.3B, 2027 outlook $18.5B; shares rocket AH — Bullish NQ",
-      "@LiveEarningsHQ (~8:20 PM ET): AMD $505.07 at 8:10 PM, +4.4% vs $483.90 close, faded from ~$530 peak; Q4 guide ~$17B vs ~$16.2B est — Bullish NQ",
-      "@FirstSquawk (~8:05 PM ET): Brent +$1.02 to $104.62; Nikkei extends losses to -2%; 10Y eases to 4.917% (~7:26 PM) — Mixed NQ"
+      "@DeItaone (~10:09 PM ET): NBC/CNN project Democrats win control of US House — Bearish NQ",
+      "@zerohedge (~10:15 PM ET): Democrat Talarico wins Texas Senate race (DDHQ), Senate sweep odds rise — Bearish NQ",
+      "@FirstSquawk (~10:04 PM ET): US 2Y yield slides to 2-month low 4.551%, Fed funds futures extend gains — Mixed NQ",
+      "@FirstSquawk (~10:11 PM ET): Taiwan TAIEX -2.3% to lowest since Jul 31; Euro Stoxx 50 futs -1.5% — Bearish NQ",
+      "@TickersDotWatch (~10:21 PM ET): KOSPI flips from +3.2% to -3.4%, Nikkei -3.6% at midday as NQ futs fall >2% — Bearish NQ"
     ],
-    "trump": "Told the FT (~6:36 PM ET) the US has \"no immediate plan to strike Iran\" and \"we seem to be getting everything we want\"; CBS (~6:57 PM ET) says he is prepared to veto Democratic legislation if needed.",
-    "watch": "Remaining Senate calls overnight (sweep confirmation); Asia/Europe open on midterm risk (Nikkei -2%, Euro Stoxx fut -0.9%); oil/Iran headlines with Brent ~$104; Wed: UBER BMO (8 AM ET call), QCOM/ARM/APP AMC (QCOM 4:45 PM, ARM 5 PM ET calls); AMD/ANET/SMCI follow-through at 9:30 AM ET open.",
+    "trump": "No Trump posts on the results yet; CBS (via @DeItaone ~6:57 PM ET): 'Trump prepared to veto Democratic legislation if necessary' — points to gridlock.",
+    "watch": "Remaining Senate calls (OH, AK, MI) overnight; Asia/Europe open follow-through; UBER BMO Wed (8 AM ET call); ADP / ISM services Wed AM; QCOM, ARM (5 PM call), APP AMC Wed; NQ support ~27,207 then 25,940 if 28,057 fails.",
     "forSite": [],
     "reports": [
       {
@@ -134,6 +134,36 @@
         ],
         "trump": "Told the FT (~6:36 PM ET) the US has \"no immediate plan to strike Iran\" and \"we seem to be getting everything we want\"; CBS (~6:57 PM ET) says he is prepared to veto Democratic legislation if needed.",
         "watch": "Remaining Senate calls overnight (sweep confirmation); Asia/Europe open on midterm risk (Nikkei -2%, Euro Stoxx fut -0.9%); oil/Iran headlines with Brent ~$104; Wed: UBER BMO (8 AM ET call), QCOM/ARM/APP AMC (QCOM 4:45 PM, ARM 5 PM ET calls); AMD/ANET/SMCI follow-through at 9:30 AM ET open.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-04T03:05:32Z",
+        "pulse": "Overnight futures deepen declines with Nasdaq ~-2% as midterm results show Democratic House control and rising blue-wave odds, fueling fears of AI/data-center regulation and fiscal gridlock, while oil softens on Iran de-escalation hopes.",
+        "bias": "risk-off — blue wave pricing raises AI/data center investment friction and fiscal/debt-ceiling gridlock risks, outweighing prior AMD/ANET beats and softer oil.",
+        "items": [
+          "@zerohedge (~10:25 PM ET): Stocks, USD & yields tumble as Dems win House control; Nasdaq 100 futures decline 2%, S&P contracts fall 1%",
+          "@zerohedge (~10:37 PM ET): Markets risk-off on rising blue wave odds implying more friction around AI/data center investments & fiscal gridlock (UBS)",
+          "@InvyraThinkrium (~10:03 PM ET): S&P futures -1.2%, Nasdaq futures -2.0% as House leans Democratic and NC Senate flips",
+          "@KevinSiege52668 (~10:05 PM ET): Futures showing 2% down; Dems anti data center and want AI regulation",
+          "@Seaninnovative1 (~10:04 PM ET): NQ post-election reaction — settlement 28,416, LIS unchanged 28,189–28,251"
+        ],
+        "trump": "Midterm results reflect voter frustration with Liberation Day tariffs and the Iran war; limited direct market posts tonight amid election backlash.",
+        "watch": "Final midterm Senate/House calls and sweep confirmation; Asia open reaction (Nikkei already pressured); oil/Iran de-escalation vs residual Hormuz headlines; Wednesday cash open follow-through on NQ/ES and AI complex; residual fiscal gridlock risk.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-04T03:23:13Z",
+        "pulse": "NQ futures ~-2% (-600+ pts) overnight as Dems win the House and flip TX/NC/SC Senate seats, blue-wave pricing hits AI/data-center names; offsets are a 2Y yield drop to a 2-month low and a weaker USD.",
+        "bias": "risk-off — Democratic sweep odds raise AI/data-center regulation and tax risk, swamping AMD/ANET/SMCI AH beats; lower yields and history of post-midterm rallies are the only cushion.",
+        "items": [
+          "@DeItaone (~10:09 PM ET): NBC/CNN project Democrats win control of US House — Bearish NQ",
+          "@zerohedge (~10:15 PM ET): Democrat Talarico wins Texas Senate race (DDHQ), Senate sweep odds rise — Bearish NQ",
+          "@FirstSquawk (~10:04 PM ET): US 2Y yield slides to 2-month low 4.551%, Fed funds futures extend gains — Mixed NQ",
+          "@FirstSquawk (~10:11 PM ET): Taiwan TAIEX -2.3% to lowest since Jul 31; Euro Stoxx 50 futs -1.5% — Bearish NQ",
+          "@TickersDotWatch (~10:21 PM ET): KOSPI flips from +3.2% to -3.4%, Nikkei -3.6% at midday as NQ futs fall >2% — Bearish NQ"
+        ],
+        "trump": "No Trump posts on the results yet; CBS (via @DeItaone ~6:57 PM ET): 'Trump prepared to veto Democratic legislation if necessary' — points to gridlock.",
+        "watch": "Remaining Senate calls (OH, AK, MI) overnight; Asia/Europe open follow-through; UBER BMO Wed (8 AM ET call); ADP / ISM services Wed AM; QCOM, ARM (5 PM call), APP AMC Wed; NQ support ~27,207 then 25,940 if 28,057 fails.",
         "forSite": []
       }
     ]

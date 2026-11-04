@@ -1,15 +1,168 @@
 {
-  "at": "2026-11-04T03:05:32Z",
-  "pulse": "Overnight futures deepen declines with Nasdaq ~-2% as midterm results show Democratic House control and rising blue-wave odds, fueling fears of AI/data-center regulation and fiscal gridlock, while oil softens on Iran de-escalation hopes.",
-  "bias": "risk-off — blue wave pricing raises AI/data center investment friction and fiscal/debt-ceiling gridlock risks, outweighing prior AMD/ANET beats and softer oil.",
+  "date": "2026-11-03",
+  "at": "2026-11-04T03:23:13Z",
+  "pulse": "NQ futures ~-2% (-600+ pts) overnight as Dems win the House and flip TX/NC/SC Senate seats, blue-wave pricing hits AI/data-center names; offsets are a 2Y yield drop to a 2-month low and a weaker USD.",
+  "bias": "risk-off — Democratic sweep odds raise AI/data-center regulation and tax risk, swamping AMD/ANET/SMCI AH beats; lower yields and history of post-midterm rallies are the only cushion.",
   "items": [
-    "@zerohedge (~10:25 PM ET): Stocks, USD & yields tumble as Dems win House control; Nasdaq 100 futures decline 2%, S&P contracts fall 1%",
-    "@zerohedge (~10:37 PM ET): Markets risk-off on rising blue wave odds implying more friction around AI/data center investments & fiscal gridlock (UBS)",
-    "@InvyraThinkrium (~10:03 PM ET): S&P futures -1.2%, Nasdaq futures -2.0% as House leans Democratic and NC Senate flips",
-    "@KevinSiege52668 (~10:05 PM ET): Futures showing 2% down; Dems anti data center and want AI regulation",
-    "@Seaninnovative1 (~10:04 PM ET): NQ post-election reaction — settlement 28,416, LIS unchanged 28,189–28,251"
+    "@DeItaone (~10:09 PM ET): NBC/CNN project Democrats win control of US House — Bearish NQ",
+    "@zerohedge (~10:15 PM ET): Democrat Talarico wins Texas Senate race (DDHQ), Senate sweep odds rise — Bearish NQ",
+    "@FirstSquawk (~10:04 PM ET): US 2Y yield slides to 2-month low 4.551%, Fed funds futures extend gains — Mixed NQ",
+    "@FirstSquawk (~10:11 PM ET): Taiwan TAIEX -2.3% to lowest since Jul 31; Euro Stoxx 50 futs -1.5% — Bearish NQ",
+    "@TickersDotWatch (~10:21 PM ET): KOSPI flips from +3.2% to -3.4%, Nikkei -3.6% at midday as NQ futs fall >2% — Bearish NQ"
   ],
-  "trump": "Midterm results reflect voter frustration with Liberation Day tariffs and the Iran war; limited direct market posts tonight amid election backlash.",
-  "watch": "Final midterm Senate/House calls and sweep confirmation; Asia open reaction (Nikkei already pressured); oil/Iran de-escalation vs residual Hormuz headlines; Wednesday cash open follow-through on NQ/ES and AI complex; residual fiscal gridlock risk.",
-  "forSite": []
+  "trump": "No Trump posts on the results yet; CBS (via @DeItaone ~6:57 PM ET): 'Trump prepared to veto Democratic legislation if necessary' — points to gridlock.",
+  "watch": "Remaining Senate calls (OH, AK, MI) overnight; Asia/Europe open follow-through; UBER BMO Wed (8 AM ET call); ADP / ISM services Wed AM; QCOM, ARM (5 PM call), APP AMC Wed; NQ support ~27,207 then 25,940 if 28,057 fails.",
+  "forSite": [],
+  "reports": [
+    {
+      "at": "2026-11-03T12:01:00Z",
+      "pulse": "Election day opens with defensive premarket after Monday's Nasdaq -1.07%/S&P -0.51% close as AI capex/ROI doubts (Oracle $20B raise, Marvell-Lumentum deal, AAPL AH margin fade) offset a ~7% oil plunge on US-Iran diplomacy hopes, with Qeshm strike reports adding residual risk premium.",
+      "bias": "mixed — cheaper oil and midterm relief hopes support risk, but persistent AI spending skepticism, Hormuz strike headlines and election volatility keep the tape fragile.",
+      "items": [
+        "@MJBurrows (~7:00 AM ET): A rally that belongs to oil is not much of a vote of confidence in AI; ~$3T off Nasdaq peak since highs, Intel continues weak after gloomy forecast — Bearish NQ",
+        "@wyzbeng (~7:00 AM ET): Midterm election day, premarket defensive (Dow futures -0.5%, NQ flat/slightly red); AI financing scrutiny on ORCL/MRVL, QQQ testing 200dma — Mixed NQ",
+        "AFP (~4:22 AM ET): Stocks mostly down on AI concerns as oil bounces after plunge; Trump says 'very good chance we'll make a deal' with Iran — Mixed NQ",
+        "@SophieGeet (~7:00 AM ET): IRGC claims three oil tankers hit sea mines in Strait of Hormuz overnight after switching off systems — Bearish NQ",
+        "Seoul Economic (~prior close): Oil plunged ~7% on US-Iran talks hopes; Dow +0.41%, S&P -0.51%, Nasdaq -1.07% on AI spending concerns — Mixed NQ"
+      ],
+      "trump": "Told Fox News host Sean Hannity 'there's a very good chance we'll make a deal' with Iran.",
+      "watch": "Midterm election results after polls close tonight; overnight/crude reaction to Hormuz/Iran deal or strike headlines; AAPL premarket and open reaction to AH fade; AMD AMC (call 5 PM ET); residual AI ROI skepticism; Fri NFP.",
+      "forSite": []
+    },
+    {
+      "at": "2026-11-03T12:27:55Z",
+      "pulse": "NQ heads into Election Day cash open heavy after Monday's Nasdaq 100 correction close, with AAPL -5.1% premarket on its margin guide and NVDA's China-exposure order to cloud clients weighing on AI, while Qatar's new US-Iran proposal and oil holding below $100 offset some of it.",
+      "bias": "mixed — de-escalation headlines (Qatar wants US/Iran feedback within 36h) and WTI still ~$98 support risk, but AAPL's premarket gap, AI ROI fear, IRGC tanker/drone claims and midterm volatility keep NQ pressured into AMD AMC.",
+      "items": [
+        "@FirstSquawk (~4:06 AM ET): Apple falls 5.1% premarket after slower sales growth and Dec-qtr margin guide — Bearish NQ",
+        "@FirstSquawk (~12:05 AM ET): Nvidia tells cloud providers to sell at least 51% of services to non-Chinese customers, limit China exposure (FT) — Bearish NQ",
+        "@DeItaone (~7:17 AM ET): Qatari mediators expect US and Iran feedback within 36 hours on new proposal; Iran president says Leader allowed talks on non-negotiable issues — Bullish NQ",
+        "IRGC via X News (~7:15 AM ET): Claims 3 tankers hit mines in Hormuz and 2 US LUCAS drones downed near Qeshm; CL +$2.14 to $98.60 overnight — Bearish NQ",
+        "@LiveSquawk (~7:03 AM ET): SHOP Q3 rev $3.74B vs $3.75B, EPS 49c vs 48c, GMV $119.15B miss, Q4 rev growth low-30s% — Mixed NQ"
+      ],
+      "trump": "No new market-moving posts overnight; still leaning on Monday's 'Oil Prices are DROPPING LIKE A ROCK, down almost $10 a Barrel' and 'very good chance we'll make a deal' with Iran.",
+      "watch": "9:30 AM ET cash open (AAPL gap, QQQ ~681 / 660-670 lows); Iran/Qatar response within 36h and Hormuz headlines for CL; AMD and ANET AMC (AMD call 5 PM ET); midterm results after polls close tonight; Wed UBER BMO, QCOM/ARM/APP AMC; Fri NFP 8:30 AM ET.",
+      "forSite": []
+    },
+    {
+      "at": "2026-11-03T14:21:00Z",
+      "pulse": "Election Day tape is mixed as oil's sharp drop on US-Iran diplomacy hopes cushions futures, but persistent AI spending/ROI scrutiny and residual Hormuz strike claims keep Nasdaq leadership under pressure ahead of results.",
+      "bias": "mixed — cheaper oil and de-escalation bids support broader risk, yet AI complex fragility and midterm volatility weigh on NQ relative to ES.",
+      "items": [
+        "@MikeZaccardi (~9:21 AM ET): Tom Lee sees Nasdaq near a bottom with stretched bearish sentiment; AI stocks set to recover post-midterms on four reasons",
+        "@shanaka86 (~9:20 AM ET): US forces struck Iran’s Qeshm Island on Nov 2 (eve of Election Day); Iran claims 3 oil tankers hit mines in Hormuz (unconfirmed)",
+        "@MJBurrows (prior): A rally belonging to oil is not a vote of confidence in AI; ~$3T off Nasdaq Composite peak, Intel still weak on gloomy forecast",
+        "@nsquaredvalue (~9:20 AM ET): Historical post-midterm surge — S&P 500 averaged +20.2% in post-midterm years vs +10.1% otherwise; 21 consecutive positive years after midterms",
+        "Prior close recap: Oil plunged ~7-8% on talks hopes while Nasdaq -1.07% / S&P -0.51% on AI capex concerns; Dow +0.41%"
+      ],
+      "trump": "none recent; still referencing prior 'Oil Prices are DROPPING LIKE A ROCK' and 'very good chance we'll make a deal' with Iran",
+      "watch": "Midterm results after polls close tonight and any post-election rotation; AMD/ANET AMC earnings (AI demand commentary); Hormuz/Iran headline risk for oil; whether NQ holds bounce above recent lows into cash open aftermath; Fri NFP.",
+      "forSite": []
+    },
+    {
+      "at": "2026-11-03T14:26:00Z",
+      "pulse": "NQ bid ~+0.6% premarket (ES +0.2%) as oil slides on US-Iran MOU/deal reports and semis try to rebound into AMD AMC, offset by NVDA China-exposure curbs, SHOP -15% and election-night uncertainty.",
+      "bias": "risk-on — cheaper crude (WTI ~$94.7, Brent ~$101.8) and Iran de-escalation headlines lift futures, NQ outperforming ES; midterm results and AMD print are the swing risks.",
+      "items": [
+        "@DeItaone (~9:02 AM ET): Oil/gas slide on US-Iran deal reports — Brent -2.8% $101.80, WTI -1.8% $94.73; US approved Qatari MOU draft, Iran nuclear concession for frozen funds — Bullish NQ",
+        "@WatcherGuru (~8:21 AM ET): NVDA orders data-center partners to cut business with Chinese customers (FT) — Bearish NQ",
+        "@BubbleAnalytics (~9:25 AM ET): Premarket — NQ +0.62%, ES +0.20%, YM -0.08%, VIX -0.7%, gold +0.8%, WTI -1.5% — Bullish NQ",
+        "@DeItaone (~7:28 AM ET): Goldman — hedge funds cut net leverage at fastest pace since March, ~$20B tech sold over two weeks (positioning washed out) — Mixed NQ",
+        "X/news (~9:11 AM ET): SHOP ~-15% premarket after first rev miss since 2022 (Rev $3.74B vs $3.75B, GMV miss); PLTR also lower despite beat-and-raise — Bearish NQ"
+      ],
+      "trump": "Fox interview ~8:15 AM ET: on Iran facility \"we hit it last night very nicely\", \"if US has to kill people in Iran, it has to\", on Iran after elections \"we'll see\"; Israel's $4B aid \"gets cut off at end of year\" (crude turned negative on it); \"US should pay lowest interest rates in world\"; Republican midterm results \"may be better than expected\"; close to no-tariff fertilizer deal with Canada.",
+      "watch": "9:30 AM cash open; Qatari mediators expect US/Iran feedback within ~36h; AMD + ANET AMC (AMD call 5 PM ET); midterm results after polls close tonight (~7 PM ET onward); Wed UBER BMO, QCOM/ARM/APP AMC; Fri NFP 8:30 AM ET.",
+      "forSite": []
+    },
+    {
+      "at": "2026-11-03T21:17:29Z",
+      "pulse": "Election-day session closed mixed with Nasdaq +0.8% and S&P +0.3% as oil held near $96 WTI on lingering US-Iran deal hopes, while AI ROI skepticism and AAPL margin fade limited upside ahead of midterm results and AMD AMC.",
+      "bias": "mixed — cheaper crude and de-escalation headlines support risk, but persistent AI spending doubts, AAPL weakness and election volatility keep the tape balanced.",
+      "items": [
+        "@Portfolio_Times (~4:16 PM ET): Closing mixed — Nasdaq +0.83%, S&P +0.36%, Dow -0.38%; oil ~$96.72, gold $3931; midterms and AMD AMC next — Mixed NQ",
+        "CNBC (~4:00 PM ET): Nasdaq rebounds as chip stocks bounce, Dow dragged by Apple; NQ still ~10% off peak in correction territory — Bullish NQ",
+        "@Petey_Money (~prior): NQ green-to-red earlier on Iran threats after peace hopes; midterms key — Mixed NQ",
+        "Reuters/open: S&P and Nasdaq opened higher as oil extended declines into midterms; AAPL among Big Tech missing on margins — Mixed NQ",
+        "X traders (~session): Oil slide on Trump Iran deal comments cushions futures; semis try rebound into AMD — Bullish NQ"
+      ],
+      "trump": "No fresh market posts today (endorsements for midterms); prior: 'very good chance we'll make a deal' with Iran and oil 'dropping like a rock' on winning with Iran.",
+      "watch": "Midterm election results after polls close tonight and any post-election rotation; AMD + ANET AMC earnings (AI demand commentary); overnight Hormuz/Iran headline risk for oil; Wed UBER BMO, QCOM/ARM/APP AMC; Fri NFP.",
+      "forSite": []
+    },
+    {
+      "at": "2026-11-03T21:20:46Z",
+      "pulse": "NQ closed green (Nasdaq +0.87% to 25,382, S&P +0.38% to 7,570, Dow -0.42%) as chips bounced and crude held ~$96.5 WTI, with AMD's beat-and-raise lifting semis AH; offset by AAPL margin angst, a tanker strike off Oman and midterm-result risk tonight.",
+      "bias": "risk-on — AMD Q4 guide ~$17B vs ~$16.2B est, SMCI FY raise and ANET pop AH give AI/semis a bid into tomorrow; midterm results and Hormuz headlines are the overnight risk.",
+      "items": [
+        "@FirstSquawk (~4:02 PM ET): Nasdaq closes +0.87% at 25,382.02, S&P +0.38% at 7,570.04, Dow -0.42% at 51,766.83 — Bullish NQ",
+        "@zerohedge (~4:17 PM ET): AMD sees Q4 rev ~$17B ±3% (Street ~$16.2B); Q3 rev $13.38B vs $13.08B, adj EPS $2.09 vs $1.97 (@LiveSquawk); AMD ~+6% AH — Bullish NQ",
+        "@FirstSquawk (~4:13 PM ET): SMCI sees Q2 sales $19.5-21.5B vs $16.53B est, raises FY view to $72-82B from $65-72B; ~+5% AH — Bullish NQ",
+        "@FirstSquawk (~3:53 PM ET): UKMTO says tanker struck by two projectiles 14 NM NE of Lima, Oman; WTI still closed ~$96.5 — Bearish NQ",
+        "@FirstSquawk (~4:08 PM ET): BKNG Q3 rev $8.89B vs $9.54B miss, gross bookings beat, says travel demand moderated late Q3 on Middle East — Mixed NQ"
+      ],
+      "trump": "No market-moving Trump posts this afternoon; White House circulated Election Day talking points as Republicans brace for possibly disappointing midterm results (Axios via @FirstSquawk ~3:56 PM ET).",
+      "watch": "AMD call 5 PM ET (AI GPU/Helios commentary); midterm results after polls close tonight (zerohedge flags 'Dem sweep' pricing); overnight Hormuz/Oman tanker headlines for CL; Wed UBER BMO (8 AM call), QCOM AMC (4:45 PM call), ARM AMC (5 PM call), APP AMC; Fri NFP.",
+      "forSite": []
+    },
+    {
+      "at": "2026-11-04T01:10:00Z",
+      "pulse": "Futures flipped lower after polls closed on Election Day with Democrats heavily favored for a sweep, oil whipsawing on US-Iran strikes versus deal hopes, while AMD's after-hours beat-and-raise supports AI semis.",
+      "bias": "mixed — election uncertainty and residual Iran/oil risk weigh on overnight futures, but AMD's AH strength and market desensitization to Hormuz headlines keep a bid under NQ.",
+      "items": [
+        "@3FinanWolverine (~7:50 PM ET): S&P futures ~-0.4%, Nasdaq-100 ~-0.6% as Kalshi prices Dems ~96% House / 82% Senate; AMD still ~+5% AH after beat-and-raise",
+        "@wensontrading (~7:52 PM ET): Futures flipped red on election jitters not AMD fundamentals; NQ ~-0.9%, ES ~-0.5%; AMD +~8% AH, JPM sees AI dips as buys",
+        "@TConceptTrading (~7:57 PM ET): US strikes Iran's Qeshm Island, oil whipsaws (Brent to $106.60 then ~$103); session Nasdaq +0.83% as chips rebound, AMD surges 7% AH",
+        "@AbdulMuhin73 (~8:02 PM ET): Markets ignore Iran denial of US-approved deal draft; earlier futures popped and oil dropped below $95 before open",
+        "@MMTBitcoiner (~7:59 PM ET): Nasdaq and Bitcoin down on projected Democrat midterm sweep, already priced in; watch for next week if no further Iran escalation"
+      ],
+      "trump": "none recent market-moving posts; context is ongoing US-Iran conflict and midterms where Republicans brace for possible losses",
+      "watch": "Overnight midterm results as remaining Senate polls close ~9 PM ET and any post-election rotation; oil reaction to further Iran strike or diplomacy headlines; AMD AH follow-through and AI complex into Wednesday open; residual Hormuz risk.",
+      "forSite": []
+    },
+    {
+      "at": "2026-11-04T01:21:21Z",
+      "pulse": "NQ futures ~-0.9% overnight as early midterm calls point to a Democratic sweep of House and Senate; AMD, ANET and SMCI after-hours beats keep a bid under semis and offset some of the election selling.",
+      "bias": "risk-off — Democratic sweep pricing (tax/regulation/AI-spend fears) plus Brent back above $104 and Nikkei -2% outweigh strong AI-hardware prints after the bell.",
+      "items": [
+        "@FirstSquawk (~7:37 PM ET): Nasdaq E-minis slide 0.9%, S&P E-minis -0.5% as futures deepen declines on midterm results — Bearish NQ",
+        "@DeItaone (~7:58 PM ET): Democrats on track to sweep both the House and Senate; Pappas holds NH, Ossoff GA, Booker NJ, GOP Moody wins FL — Bearish NQ",
+        "Reuters/X News (~8:18 PM ET): ANET Q3 rev $3.66B +58.5% vs $3.33B est, adj EPS $1.20 vs $1.08, 2026 target raised to $13.3B, 2027 outlook $18.5B; shares rocket AH — Bullish NQ",
+        "@LiveEarningsHQ (~8:20 PM ET): AMD $505.07 at 8:10 PM, +4.4% vs $483.90 close, faded from ~$530 peak; Q4 guide ~$17B vs ~$16.2B est — Bullish NQ",
+        "@FirstSquawk (~8:05 PM ET): Brent +$1.02 to $104.62; Nikkei extends losses to -2%; 10Y eases to 4.917% (~7:26 PM) — Mixed NQ"
+      ],
+      "trump": "Told the FT (~6:36 PM ET) the US has \"no immediate plan to strike Iran\" and \"we seem to be getting everything we want\"; CBS (~6:57 PM ET) says he is prepared to veto Democratic legislation if needed.",
+      "watch": "Remaining Senate calls overnight (sweep confirmation); Asia/Europe open on midterm risk (Nikkei -2%, Euro Stoxx fut -0.9%); oil/Iran headlines with Brent ~$104; Wed: UBER BMO (8 AM ET call), QCOM/ARM/APP AMC (QCOM 4:45 PM, ARM 5 PM ET calls); AMD/ANET/SMCI follow-through at 9:30 AM ET open.",
+      "forSite": []
+    },
+    {
+      "at": "2026-11-04T03:05:32Z",
+      "pulse": "Overnight futures deepen declines with Nasdaq ~-2% as midterm results show Democratic House control and rising blue-wave odds, fueling fears of AI/data-center regulation and fiscal gridlock, while oil softens on Iran de-escalation hopes.",
+      "bias": "risk-off — blue wave pricing raises AI/data center investment friction and fiscal/debt-ceiling gridlock risks, outweighing prior AMD/ANET beats and softer oil.",
+      "items": [
+        "@zerohedge (~10:25 PM ET): Stocks, USD & yields tumble as Dems win House control; Nasdaq 100 futures decline 2%, S&P contracts fall 1%",
+        "@zerohedge (~10:37 PM ET): Markets risk-off on rising blue wave odds implying more friction around AI/data center investments & fiscal gridlock (UBS)",
+        "@InvyraThinkrium (~10:03 PM ET): S&P futures -1.2%, Nasdaq futures -2.0% as House leans Democratic and NC Senate flips",
+        "@KevinSiege52668 (~10:05 PM ET): Futures showing 2% down; Dems anti data center and want AI regulation",
+        "@Seaninnovative1 (~10:04 PM ET): NQ post-election reaction — settlement 28,416, LIS unchanged 28,189–28,251"
+      ],
+      "trump": "Midterm results reflect voter frustration with Liberation Day tariffs and the Iran war; limited direct market posts tonight amid election backlash.",
+      "watch": "Final midterm Senate/House calls and sweep confirmation; Asia open reaction (Nikkei already pressured); oil/Iran de-escalation vs residual Hormuz headlines; Wednesday cash open follow-through on NQ/ES and AI complex; residual fiscal gridlock risk.",
+      "forSite": []
+    },
+    {
+      "at": "2026-11-04T03:23:13Z",
+      "pulse": "NQ futures ~-2% (-600+ pts) overnight as Dems win the House and flip TX/NC/SC Senate seats, blue-wave pricing hits AI/data-center names; offsets are a 2Y yield drop to a 2-month low and a weaker USD.",
+      "bias": "risk-off — Democratic sweep odds raise AI/data-center regulation and tax risk, swamping AMD/ANET/SMCI AH beats; lower yields and history of post-midterm rallies are the only cushion.",
+      "items": [
+        "@DeItaone (~10:09 PM ET): NBC/CNN project Democrats win control of US House — Bearish NQ",
+        "@zerohedge (~10:15 PM ET): Democrat Talarico wins Texas Senate race (DDHQ), Senate sweep odds rise — Bearish NQ",
+        "@FirstSquawk (~10:04 PM ET): US 2Y yield slides to 2-month low 4.551%, Fed funds futures extend gains — Mixed NQ",
+        "@FirstSquawk (~10:11 PM ET): Taiwan TAIEX -2.3% to lowest since Jul 31; Euro Stoxx 50 futs -1.5% — Bearish NQ",
+        "@TickersDotWatch (~10:21 PM ET): KOSPI flips from +3.2% to -3.4%, Nikkei -3.6% at midday as NQ futs fall >2% — Bearish NQ"
+      ],
+      "trump": "No Trump posts on the results yet; CBS (via @DeItaone ~6:57 PM ET): 'Trump prepared to veto Democratic legislation if necessary' — points to gridlock.",
+      "watch": "Remaining Senate calls (OH, AK, MI) overnight; Asia/Europe open follow-through; UBER BMO Wed (8 AM ET call); ADP / ISM services Wed AM; QCOM, ARM (5 PM call), APP AMC Wed; NQ support ~27,207 then 25,940 if 28,057 fails.",
+      "forSite": []
+    }
+  ]
 }
