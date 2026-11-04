@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T16:24:32Z",
+  "updatedAt": "2026-11-04T16:56:10Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -672,6 +672,30 @@
       "auto": true
     },
     {
+      "id": "f498e3ea2807b",
+      "headline": "Crude oil prices fall below $90 a barrel as Vance blames GOP election defeat on Iran war",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/04/oil-price-iran-war-us-election-strait-hormuz.html",
+      "publishedAt": "2026-11-04T16:51:01Z",
+      "time": "Wed 11:51 AM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f121061916cf7",
+      "headline": "Dangote Breaks Ground on $2.5 Billion Namibia Fuel Hub for Southern Africa",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Dangote-Breaks-Ground-on-25-Billion-Namibia-Fuel-Hub-for-Southern-Africa.html",
+      "publishedAt": "2026-11-04T16:30:00Z",
+      "time": "Wed 11:30 AM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "f651832af7f24",
       "headline": "US Oil Inventories Fall Further As Demand Holds",
       "source": "OilPrice",
@@ -732,30 +756,6 @@
       "auto": true
     },
     {
-      "id": "f49a4d08fe7fa",
-      "headline": "Big Oil Puts Debt Reduction Ahead of New Investments",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Puts-Debt-Reduction-Ahead-of-New-Investments.html",
-      "publishedAt": "2026-11-03T23:00:00Z",
-      "time": "Tue 6:00 PM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "fabd575055f46",
-      "headline": "JetBlue raises bag fees for third time in a year as fuel costs bite",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/03/jetblue-checked-bag-fee.html",
-      "publishedAt": "2026-11-03T22:26:20Z",
-      "time": "Tue 5:26 PM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
       "id": "f2255e07bd430",
       "headline": "Micron and other chip stocks slip as election results strike at the core of data-center optimism",
       "source": "MarketWatch",
@@ -786,18 +786,6 @@
       "url": "https://www.theguardian.com/business/2026/nov/03/us-tech-stocks-recovery-ai-spending",
       "publishedAt": "2026-11-03T22:18:45Z",
       "time": "Tue 5:18 PM",
-      "section": "markets",
-      "impact": "Medium",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "fdf860e7ee17f",
-      "headline": "These tech stocks got unfairly swept up in last week’s selloff, analysts say",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/these-tech-stocks-got-unfairly-swept-up-in-last-weeks-selloff-analysts-say-e296c1b3?mod=mw_rss_topstories",
-      "publishedAt": "2026-11-02T16:50:00Z",
-      "time": "Mon 11:50 AM",
       "section": "markets",
       "impact": "Medium",
       "lean": "risk-off",
