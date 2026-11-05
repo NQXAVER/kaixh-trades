@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "at": "2026-11-05T14:22:37Z",
+  "at": "2026-11-05T21:27:56Z",
   "items": [
     {
       "ticker": "AAPL",
@@ -142,20 +142,22 @@
       "reaction": "slightly lower premarket"
     },
     {
+      "ticker": "IREN",
+      "company": "IREN (IREN)",
+      "date": "2026-11-05",
+      "when": "AMC",
+      "status": "reported",
+      "why": "Rev $228M (AI cloud ~$200M nearly tripled q/q), net loss $263M, backlog $20.3B; $4B run-rate target slipped to Jan/Feb'27 on design/supplier timing",
+      "reaction": "~+1.5% AH after ~-17% session",
+      "sentiment": "Mixed"
+    },
+    {
       "ticker": "ABNB",
       "company": "Airbnb (ABNB)",
       "date": "2026-11-05",
       "when": "AMC",
       "status": "upcoming",
       "why": "Est EPS ~$2.91, rev ~$4.8B"
-    },
-    {
-      "ticker": "IREN",
-      "company": "IREN (IREN)",
-      "date": "2026-11-05",
-      "when": "AMC",
-      "status": "upcoming",
-      "why": "AI cloud/GPU data-center read after soft tape on capex doubts"
     },
     {
       "ticker": "LITE",
