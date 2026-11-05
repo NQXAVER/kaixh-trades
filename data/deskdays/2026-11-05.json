@@ -1,66 +1,65 @@
 {
   "date": "2026-11-05",
   "grok": {
-    "date": "2026-11-05",
-    "at": "2026-11-05T14:22:37Z",
-    "pulse": "NQ red premarket (~-0.6%) as semis lead the post-midterm rotation out of tech (QCOM ~-9-10%, AMD -6%, MU -5%, SNDK -7%, NVDA <$200) while YM holds bid; claims beat (189K) and Iran Hormuz exemptions/oil relief cushion, but hawkish Fed talk (Barkin, Hammack) and BoE hike cap the bounce.",
-    "bias": "risk-off — chip/AI-capex unwind and hawkish Fed/BoE tone outweigh strong claims and softer oil for NQ into the open.",
+    "at": "2026-11-05T21:17:00Z",
+    "pulse": "Nasdaq plunged ~5% and S&P ~4% as AI/chip stocks erased Wednesday's post-midterm rally amid Democratic sweep fears of data-center curbs, while oil rebounded ~2.5% on lingering Iran risks.",
+    "bias": "risk-off — broad tech/AI selloff and VIX spike outweigh oil bounce and yield relief after Dem midterm victory.",
     "items": [
-      "@zerohedge (~9:10 AM ET): AMD -6% premarket, on top of SNDK -7% / MU -5% (~8:58 AM); QCOM ~-9-10% on handset miss — Bearish NQ",
-      "@DeItaone (~8:30 AM ET): Initial claims 189K vs 197K est (prev rev 195K); continuing 1.718M; Briefing notes productivity +3.6% — Mixed NQ",
-      "@LiveSquawk (~8:57 AM ET): Fed's Hammack sees inflation pressures broad, policy may need to move restrictive; Barkin (~9:15-9:20 AM): inflation top risk, tariff costs passed along — Bearish NQ",
-      "@zerohedge (~8:58 AM ET): BoE hikes for first time since 2023, sees inflation near 5%; @WatcherGuru (~9:02 AM): BoE warns 6.2% if Mideast escalates — Bearish NQ",
-      "@zerohedge (~9:10 AM ET): Iran carves out Strait of Hormuz exemptions for China, India, Iraq, Qatar; CL stays soft — Bullish NQ"
+      "@tradewithnori (~4:17 PM ET): Close Dow -3.44% S&P -4.36% Nasdaq -5.52%; AI/data-center selling spread, VIX +70% to 28",
+      "@ktusing34 (~3:56 PM ET): Nasdaq ~-6%, S&P ~-4%; ES lost 7500, NQ lost 27100 with key levels now overhead",
+      "@VestExchange (~2:52 PM ET): Rotation out of chip/AI names, NQ -2.9% ES -1.3% earlier in session",
+      "Yahoo/Investopedia (~afternoon ET): NVDA -5-9%, AMD -12%+, SOX -10%; WTI rebounded to ~$90 after prior 8% drop",
+      "@TheFinanceFlow (~4:17 PM ET): Nasdaq down 11.7% from record; Dem governors in TX/OH campaigned against data centers"
     ],
-    "trump": "No new market-moving Trump post this morning; political overhang from the midterm loss continues (DeItaone ~9:00 AM ET: Rubio reportedly 'on resignation watch'; WatcherGuru: Dems plan probes of Trump crypto ventures).",
-    "watch": "Cash open 9:30 AM ET (watch SOXX/NVDA $200); Fed speakers through the day; AMC ABNB/IREN/LITE/MCHP/NET/TEAM; Fri NFP 8:30 AM ET; oil/Iran Hormuz headlines; AI data-center regulation headlines.",
-    "forSite": [],
-    "reports": [
-      {
-        "at": "2026-11-05T12:00:00Z",
-        "pulse": "Post-midterm Democratic sweep fueled Wednesday's broad risk-on rally (Dow +3%, S&P +1.6%, Nasdaq +1.4%) as oil plunged ~9% on Iran de-escalation bets after Vance blamed the war for GOP losses, though NQ lags into Thursday with Asia chip selling on AI data-center regulation fears and futures mixed.",
-        "bias": "mixed — oil collapse and political gridlock clarity support risk-on for ES/YM, but residual AI/data-center scrutiny and semiconductor unwind keep NQ two-way.",
-        "items": [
-          "@MarioNawfal (~6:13 PM ET Nov 4): Dow +1569 pts (+3%), S&P +1.58%, Nasdaq +1.44%; oil plunged ~8.7% as Vance said 'reason we lost is the war'",
-          "@dbsmorocco (~12:11 AM ET): Dow +1,500 pts, oil -8%; markets priced faster end to Iran war and slowdown in AI data-center boom after Dem sweep",
-          "Yahoo Finance (~overnight): Futures mixed with NQ -0.7%, ES flatish as post-election relief cools; oil steady near $94 Brent",
-          "Reuters (~overnight): Chip stocks and dollar softer, oil near lows on hopes Dem Congress reduces Iran escalation risk; gold bid",
-          "X traders (~session): Asia opens with Kospi chip selling on US AI regulation fears post-midterms, Hang Seng firmer"
-        ],
-        "trump": "Vance attributed midterm losses primarily to the Iran war; Trump acknowledged the conflict's role in GOP defeat and played down immediate further strikes while oil plummeted on de-escalation hopes.",
-        "watch": "Oil price action and any fresh Iran deal/escalation headlines; NQ lag vs ES/YM follow-through into cash open; jobless claims 8:30 AM ET; residual AI/data-center regulation chatter; Friday NFP.",
-        "forSite": []
-      },
-      {
-        "at": "2026-11-05T12:22:38Z",
-        "pulse": "NQ soft overnight (~28.2k–28.4k, ~-0.6%) vs YM/RTY bid as post-Dem-sweep rotation continues; CL plunge on Iran de-esc bets offsets, but ASI-ban chatter + MU Taiwan HBM pause keep SOXX heavy into claims.",
-        "bias": "mixed — oil collapse and gridlock clarity support risk-on for ES/YM, but semis/AI-regulation unwind keeps NQ two-way into claims.",
-        "items": [
-          "WatcherGuru (~6:33 PM ET Nov 4): Dem lawmaker calls to ban artificial superintelligence day one of controlling House/Senate — Bearish NQ",
-          "WatcherGuru (~12:39 PM ET Nov 4): Brent crude crashes ~10% after Dems win House+Senate; oil risk premium ripped out — Bullish NQ",
-          "DeItaone (~1:29 PM ET Nov 4): S&P +1.84%, Nasdaq +2.1% into close; midterm relief + CL dump fueled broad risk-on — Bullish NQ",
-          "X tape (~7:21 AM ET): NQ ~-0.6% near 28,390 while YM ~+0.5%/RTY bid; Asia chip selling on AI data-center regulation fears — Bearish NQ",
-          "Micron/X (~6:28 AM ET): MU pauses $4.5B Taoyuan DRAM/HBM plant on labor dispute; MU already -7% Wed below $800 — Bearish NQ"
-        ],
-        "trump": "Acknowledged midterm loss 'largely true' result of Iran war; said he'd 'get along probably with the Democrats' unless destructive; kept Hegseth; touted stock market record high Wed as oil cratered on de-esc bets.",
-        "watch": "Jobless claims 8:30 AM ET; oil/Iran (Hormuz tanker-fire reports vs Schumer end-war push); AMC ABNB/IREN/LITE/MCHP/NET/TEAM; Fri NFP 8:30; ASI/AI regulation headlines.",
-        "forSite": []
-      },
-      {
-        "at": "2026-11-05T14:22:37Z",
-        "pulse": "NQ red premarket (~-0.6%) as semis lead the post-midterm rotation out of tech (QCOM ~-9-10%, AMD -6%, MU -5%, SNDK -7%, NVDA <$200) while YM holds bid; claims beat (189K) and Iran Hormuz exemptions/oil relief cushion, but hawkish Fed talk (Barkin, Hammack) and BoE hike cap the bounce.",
-        "bias": "risk-off — chip/AI-capex unwind and hawkish Fed/BoE tone outweigh strong claims and softer oil for NQ into the open.",
-        "items": [
-          "@zerohedge (~9:10 AM ET): AMD -6% premarket, on top of SNDK -7% / MU -5% (~8:58 AM); QCOM ~-9-10% on handset miss — Bearish NQ",
-          "@DeItaone (~8:30 AM ET): Initial claims 189K vs 197K est (prev rev 195K); continuing 1.718M; Briefing notes productivity +3.6% — Mixed NQ",
-          "@LiveSquawk (~8:57 AM ET): Fed's Hammack sees inflation pressures broad, policy may need to move restrictive; Barkin (~9:15-9:20 AM): inflation top risk, tariff costs passed along — Bearish NQ",
-          "@zerohedge (~8:58 AM ET): BoE hikes for first time since 2023, sees inflation near 5%; @WatcherGuru (~9:02 AM): BoE warns 6.2% if Mideast escalates — Bearish NQ",
-          "@zerohedge (~9:10 AM ET): Iran carves out Strait of Hormuz exemptions for China, India, Iraq, Qatar; CL stays soft — Bullish NQ"
-        ],
-        "trump": "No new market-moving Trump post this morning; political overhang from the midterm loss continues (DeItaone ~9:00 AM ET: Rubio reportedly 'on resignation watch'; WatcherGuru: Dems plan probes of Trump crypto ventures).",
-        "watch": "Cash open 9:30 AM ET (watch SOXX/NVDA $200); Fed speakers through the day; AMC ABNB/IREN/LITE/MCHP/NET/TEAM; Fri NFP 8:30 AM ET; oil/Iran Hormuz headlines; AI data-center regulation headlines.",
-        "forSite": []
-      }
-    ]
-  }
+    "trump": "Vance attributed midterm losses to the Iran war; residual political overhang continues with no major new direct Trump market posts amid Dem probe chatter.",
+    "watch": "Friday NFP/payrolls 8:30 AM ET (wages key for Fed); overnight futures reaction to sharp close; oil/Iran Hormuz headlines; any AI/data-center regulation comments from new Dem Congress.",
+    "forSite": []
+  },
+  "reports": [
+    {
+      "at": "2026-11-05T12:00:00Z",
+      "pulse": "Post-midterm Democratic sweep fueled Wednesday's broad risk-on rally (Dow +3%, S&P +1.6%, Nasdaq +1.4%) as oil plunged ~9% on Iran de-escalation bets after Vance blamed the war for GOP losses, though NQ lags into Thursday with Asia chip selling on AI data-center regulation fears and futures mixed.",
+      "bias": "mixed — oil collapse and political gridlock clarity support risk-on for ES/YM, but residual AI/data-center scrutiny and semiconductor unwind keep NQ two-way.",
+      "items": [
+        "@MarioNawfal (~6:13 PM ET Nov 4): Dow +1569 pts (+3%), S&P +1.58%, Nasdaq +1.44%; oil plunged ~8.7% as Vance said 'reason we lost is the war'",
+        "@dbsmorocco (~12:11 AM ET): Dow +1,500 pts, oil -8%; markets priced faster end to Iran war and slowdown in AI data-center boom after Dem sweep",
+        "Yahoo Finance (~overnight): Futures mixed with NQ -0.7%, ES flatish as post-election relief cools; oil steady near $94 Brent",
+        "Reuters (~overnight): Chip stocks and dollar softer, oil near lows on hopes Dem Congress reduces Iran escalation risk; gold bid",
+        "X traders (~session): Asia opens with Kospi chip selling on US AI regulation fears post-midterms, Hang Seng firmer"
+      ],
+      "trump": "Vance attributed midterm losses primarily to the Iran war; Trump acknowledged the conflict's role in GOP defeat and played down immediate further strikes while oil plummeted on de-escalation hopes.",
+      "watch": "Oil price action and any fresh Iran deal/escalation headlines; NQ lag vs ES/YM follow-through into cash open; jobless claims 8:30 AM ET; residual AI/data-center regulation chatter; Friday NFP.",
+      "forSite": []
+    },
+    {
+      "at": "2026-11-05T12:22:38Z",
+      "pulse": "NQ soft overnight (~28.2k–28.4k, ~-0.6%) vs YM/RTY bid as post-Dem-sweep rotation continues; CL plunge on Iran de-esc bets offsets, but ASI-ban chatter + MU Taiwan HBM pause keep SOXX heavy into claims.",
+      "bias": "mixed — oil collapse and gridlock clarity support risk-on for ES/YM, but semis/AI-regulation unwind keeps NQ two-way into claims.",
+      "items": [
+        "WatcherGuru (~6:33 PM ET Nov 4): Dem lawmaker calls to ban artificial superintelligence day one of controlling House/Senate — Bearish NQ",
+        "WatcherGuru (~12:39 PM ET Nov 4): Brent crude crashes ~10% after Dems win House+Senate; oil risk premium ripped out — Bullish NQ",
+        "DeItaone (~1:29 PM ET Nov 4): S&P +1.84%, Nasdaq +2.1% into close; midterm relief + CL dump fueled broad risk-on — Bullish NQ",
+        "X tape (~7:21 AM ET): NQ ~-0.6% near 28,390 while YM ~+0.5%/RTY bid; Asia chip selling on AI data-center regulation fears — Bearish NQ",
+        "Micron/X (~6:28 AM ET): MU pauses $4.5B Taoyuan DRAM/HBM plant on labor dispute; MU already -7% Wed below $800 — Bearish NQ"
+      ],
+      "trump": "Acknowledged midterm loss 'largely true' result of Iran war; said he'd 'get along probably with the Democrats' unless destructive; kept Hegseth; touted stock market record high Wed as oil cratered on de-esc bets.",
+      "watch": "Jobless claims 8:30 AM ET; oil/Iran (Hormuz tanker-fire reports vs Schumer end-war push); AMC ABNB/IREN/LITE/MCHP/NET/TEAM; Fri NFP 8:30; ASI/AI regulation headlines.",
+      "forSite": []
+    },
+    {
+      "at": "2026-11-05T14:22:37Z",
+      "pulse": "NQ red premarket (~-0.6%) as semis lead the post-midterm rotation out of tech (QCOM ~-9-10%, AMD -6%, MU -5%, SNDK -7%, NVDA <$200) while YM holds bid; claims beat (189K) and Iran Hormuz exemptions/oil relief cushion, but hawkish Fed talk (Barkin, Hammack) and BoE hike cap the bounce.",
+      "bias": "risk-off — chip/AI-capex unwind and hawkish Fed/BoE tone outweigh strong claims and softer oil for NQ into the open.",
+      "items": [
+        "@zerohedge (~9:10 AM ET): AMD -6% premarket, on top of SNDK -7% / MU -5% (~8:58 AM); QCOM ~-9-10% on handset miss — Bearish NQ",
+        "@DeItaone (~8:30 AM ET): Initial claims 189K vs 197K est (prev rev 195K); continuing 1.718M; Briefing notes productivity +3.6% — Mixed NQ",
+        "@LiveSquawk (~8:57 AM ET): Fed's Hammack sees inflation pressures broad, policy may need to move restrictive; Barkin (~9:15-9:20 AM): inflation top risk, tariff costs passed along — Bearish NQ",
+        "@zerohedge (~8:58 AM ET): BoE hikes for first time since 2023, sees inflation near 5%; @WatcherGuru (~9:02 AM): BoE warns 6.2% if Mideast escalates — Bearish NQ",
+        "@zerohedge (~9:10 AM ET): Iran carves out Strait of Hormuz exemptions for China, India, Iraq, Qatar; CL stays soft — Bullish NQ"
+      ],
+      "trump": "No new market-moving Trump post this morning; political overhang from the midterm loss continues (DeItaone ~9:00 AM ET: Rubio reportedly 'on resignation watch'; WatcherGuru: Dems plan probes of Trump crypto ventures).",
+      "watch": "Cash open 9:30 AM ET (watch SOXX/NVDA $200); Fed speakers through the day; AMC ABNB/IREN/LITE/MCHP/NET/TEAM; Fri NFP 8:30 AM ET; oil/Iran Hormuz headlines; AI data-center regulation headlines.",
+      "forSite": []
+    }
+  ]
 }
