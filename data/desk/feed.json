@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T22:29:37Z",
+  "updatedAt": "2026-11-05T02:44:08Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -183,9 +183,9 @@
     {
       "id": "un-peace",
       "label": "UN News",
-      "ok": true,
-      "items": 20,
-      "error": null
+      "ok": false,
+      "items": 0,
+      "error": "ParseError: not well-formed (invalid token): line 1, column 0"
     },
     {
       "id": "wsj-biz",
@@ -203,6 +203,30 @@
     }
   ],
   "items": [
+    {
+      "id": "feb00ff29ca0e",
+      "headline": "Africa’s LNG Exports Set to Soar 175% as Buyers Flee Hormuz",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Energy/Natural-Gas/Africas-LNG-Exports-Set-to-Soar-175-as-Buyers-Flee-Hormuz.html",
+      "publishedAt": "2026-11-05T01:00:00Z",
+      "time": "Wed 8:00 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "f0edc548ac647",
+      "headline": "Qatar Becomes Largest Buyer of U.S. LNG Amid Hormuz Crisis",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Energy/Natural-Gas/Qatar-Becomes-Largest-Buyer-of-US-LNG-Amid-Hormuz-Crisis.html",
+      "publishedAt": "2026-11-04T23:00:00Z",
+      "time": "Wed 6:00 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
     {
       "id": "f869f664e297c",
       "headline": "UAE Weighs Plans for Third Strait of Hormuz Bypass Pipeline",
@@ -300,30 +324,6 @@
       "auto": true
     },
     {
-      "id": "fd453a98b9d13",
-      "headline": "Iran Says It Would Reopen Strait of Hormuz in 2 Days as Part of U.S. Deal",
-      "source": "New York Times",
-      "url": "https://www.nytimes.com/2026/11/02/world/middleeast/iran-deal-strait-of-hormuz.html",
-      "publishedAt": "2026-11-03T16:32:56Z",
-      "time": "Tue 11:32 AM",
-      "section": "war",
-      "impact": "High",
-      "lean": "mixed",
-      "auto": true
-    },
-    {
-      "id": "fa9f72f31074c",
-      "headline": "For Ukraine's Kherson region, a short ceasefire meant a momentary return to normal life",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/11/03/g-s1-151238/ukraine-russia-ceasefire-oleshky-kherson",
-      "publishedAt": "2026-11-03T15:54:39Z",
-      "time": "Tue 10:54 AM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-on",
-      "auto": true
-    },
-    {
       "id": "f219f8545161e",
       "headline": "Euro zone inflation hits 4% for first time in three years as interest rate hike looms",
       "source": "CNBC",
@@ -345,6 +345,42 @@
       "section": "fed",
       "impact": "High",
       "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "fdbe77659116f",
+      "headline": "White House panel delays hearing on Fed's Lisa Cook to Dec. 14",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/04/trump-federal-reserve-lisa-cook-hearing.html",
+      "publishedAt": "2026-11-05T01:11:26Z",
+      "time": "Wed 8:11 PM",
+      "section": "fed",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "ff62b25c6918b",
+      "headline": "Interest rates expected to rise for first time in over three years",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/ck5ynw45jrgqo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-11-05T00:00:09Z",
+      "time": "Wed 7:00 PM",
+      "section": "fed",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f3f657bacb315",
+      "headline": "White House Delays Hearing on Fed Governor",
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/2026/11/04/business/trump-lisa-cook-fed-governor.html",
+      "publishedAt": "2026-11-04T22:55:30Z",
+      "time": "Wed 5:55 PM",
+      "section": "fed",
+      "impact": "Medium",
+      "lean": null,
       "auto": true
     },
     {
@@ -402,42 +438,6 @@
       "url": "https://www.theguardian.com/australia-news/2026/nov/03/rba-interest-rates-decision-cash-rate-november-reserve-bank-australia",
       "publishedAt": "2026-11-03T07:36:42Z",
       "time": "Tue 2:36 AM",
-      "section": "fed",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f36f17014a2a1",
-      "headline": "The RBA has hiked interest rates. Use our loan calculator to check how it could affect you",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/australia-news/2026/may/04/interest-rates-rba-rate-hike-mortgage-calculator",
-      "publishedAt": "2026-11-03T03:40:04Z",
-      "time": "Mon 10:40 PM",
-      "section": "fed",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "fd23e82753571",
-      "headline": "Feeling isolated? Half of in-office workers describe their desk jobs as 'remote,' NY Fed survey finds",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/02/remote-work-in-office-mandate-new-york-fed.html",
-      "publishedAt": "2026-11-03T02:31:00Z",
-      "time": "Mon 9:31 PM",
-      "section": "fed",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "fb05e7d7bbe9b",
-      "headline": "Fed will vote on rates less often. What that could mean for borrowers",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/02/fed-rate-votes-consumer-borrowing-costs.html",
-      "publishedAt": "2026-11-02T17:03:07Z",
-      "time": "Mon 12:03 PM",
       "section": "fed",
       "impact": "Medium",
       "lean": null,
@@ -636,12 +636,12 @@
       "auto": true
     },
     {
-      "id": "fcd54514bf226",
-      "headline": "Qualcomm stock drops 6% on weak earnings forecast as memory shortage weighs on smartphone sales",
+      "id": "fb9b9655700e4",
+      "headline": "Qualcomm stock drops 7% on weak earnings forecast as memory shortage weighs on smartphone sales",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/11/04/qualcomm-qcom-earnings-report-q4-2026.html",
-      "publishedAt": "2026-11-04T22:03:43Z",
-      "time": "Wed 5:03 PM",
+      "publishedAt": "2026-11-04T23:38:11Z",
+      "time": "Wed 6:38 PM",
       "section": "tech",
       "impact": "Medium",
       "lean": null,
@@ -680,6 +680,18 @@
       "time": "Mon 5:00 AM",
       "section": "energy",
       "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f157ce491d4b7",
+      "headline": "Africa’s richest man launches mega oil tank farm in Namibia",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/africas-richest-man-launches-mega-oil-tank-farm-in-namibia?traffic_source=rss",
+      "publishedAt": "2026-11-05T00:39:18Z",
+      "time": "Wed 7:39 PM",
+      "section": "energy",
+      "impact": "Medium",
       "lean": null,
       "auto": true
     },
@@ -750,18 +762,6 @@
       "url": "https://oilprice.com/Energy/Crude-Oil/Democrats-Win-Texas-Oil-Regulator-Seat-for-First-Time-Since-1990.html",
       "publishedAt": "2026-11-04T14:00:00Z",
       "time": "Wed 9:00 AM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "fda8c98ec5cf8",
-      "headline": "Nigeria's Oil and Gas Output Rises to 3.04 Million Boepd",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Nigerias-Oil-and-Gas-Output-Rises-to-304-Million-Boepd.html",
-      "publishedAt": "2026-11-04T12:30:00Z",
-      "time": "Wed 7:30 AM",
       "section": "energy",
       "impact": "Medium",
       "lean": null,
