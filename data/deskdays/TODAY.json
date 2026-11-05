@@ -1,18 +1,18 @@
 {
   "date": "2026-11-05",
   "grok": {
-    "at": "2026-11-05T03:05:00Z",
-    "pulse": "Overnight ES futures +1.6% and NQ +0.3% bid on midterm gridlock relief and a fourth day of oil declines on reduced Iran escalation risk post-Dem sweep, while AI scrutiny keeps tech lagging the broad rally.",
-    "bias": "mixed — election clarity and collapsing oil favor risk-on for ES/YM, but residual AI/data-center regulation fears and chip selling keep NQ two-way.",
+    "at": "2026-11-05T14:23:37Z",
+    "pulse": "NQ red premarket on semis/AI rotation after Dem midterm sweep while ES/YM hold firm from yesterday's oil crash and gridlock relief; claims beat and soft oil cushion but hawkish Fed/BoE tone and residual Hormuz risk keep the tape two-way into the open.",
+    "bias": "mixed — oil de-escalation and political gridlock support broader risk-on, but chip/AI-capex unwind and hawkish speakers weigh on NQ.",
     "items": [
-      "@baalhadid (~10:04 PM ET): ES futures 7,716 (+1.6%), NQ 28,395 (+0.3%), SPY closed +1.7%, QQQ +1.0%, VIX 16.6 — Asia opens into bid",
-      "@brecorder_com (~10:05 PM ET): Oil falls for a fourth day on expectations midterm losses reduce risk of further Iran war escalation",
-      "@acruxacademyllc (~10:05 PM ET): Brent crashed 8.7% to $94.62, WTI 8.3% to $88.12; energy worst S&P sector on war-end bets",
-      "@unusual_whales (~9:58 PM ET): Democrats won the House and Senate",
-      "@FirstSquawk (~10:03 PM ET): China moves to stop SoftBank’s takeover of ABB’s robotics unit"
+      "@Tradenometry (~9:22 AM ET): NQ futures -0.5%, chips lead lower (QCOM -9%, ARM -3%); WTI ~$88.8 after big drop; claims 189K beat; BoE hiked to 4%; Hormuz still tense with mine reports",
+      "@TitoEspot_ (~9:18 AM ET): Futures split Dow +0.6% S&P +0.1% NQ -0.8%; data-center hangover post-Dem sweep (UBS 30% capacity risk); oil bounce on Vance war comments",
+      "@zerohedge / tape (~9:10 AM ET): AMD -6%, SNDK -7%, MU -5%, QCOM weak premarket; NVDA under $200 as AI buildout questioned",
+      "@LiveSquawk / Fed (~8:57 AM ET): Hammack sees broad inflation pressures, policy may need restrictive; Barkin inflation top risk — hawkish tone",
+      "@DeItaone (~8:30 AM ET): Initial claims 189K vs ~196-197K est, continuing 1.718M — labor still firm"
     ],
-    "trump": "none",
-    "watch": "Asia open for chip follow-through and oil reaction to Iran headlines; Thursday jobless claims 8:30 AM ET; residual AI regulation chatter post-Dem sweep; next session earnings.",
+    "trump": "Vance blamed Iran war/high fuel for midterm losses; Trump acknowledged role but no major new market-moving posts this morning amid Rubio resignation chatter and Dem probe threats.",
+    "watch": "Cash open 9:30 AM ET (SOXX/NVDA levels); Fed speakers through day; AMC earnings (ABNB etc.); Friday NFP 8:30 AM ET; oil/Iran Hormuz headlines and any de-escalation progress; AI/data-center regulation chatter under new Dem Congress.",
     "forSite": []
   }
 }
