@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T02:44:08Z",
+  "updatedAt": "2026-11-05T06:59:34Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -183,9 +183,9 @@
     {
       "id": "un-peace",
       "label": "UN News",
-      "ok": false,
-      "items": 0,
-      "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+      "ok": true,
+      "items": 20,
+      "error": null
     },
     {
       "id": "wsj-biz",
@@ -203,6 +203,18 @@
     }
   ],
   "items": [
+    {
+      "id": "f2b82ea53b1c6",
+      "headline": "South Korea says it will expand naval operations closer to strait of Hormuz",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/nov/05/south-korea-to-expand-anti-piracy-unit-strait-of-hormuz",
+      "publishedAt": "2026-11-05T04:22:49Z",
+      "time": "Wed 11:22 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
     {
       "id": "feb00ff29ca0e",
       "headline": "Africa’s LNG Exports Set to Soar 175% as Buyers Flee Hormuz",
@@ -309,18 +321,6 @@
       "section": "war",
       "impact": "High",
       "lean": "risk-on",
-      "auto": true
-    },
-    {
-      "id": "f4604373a20c0",
-      "headline": "Hormuz Oil Flows Unlikely to Return to Pre-War Levels, Rystad Says",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Oil-Flows-Unlikely-to-Return-to-Pre-War-Levels-Rystad-Says.html",
-      "publishedAt": "2026-11-03T17:30:00Z",
-      "time": "Tue 12:30 PM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
       "auto": true
     },
     {
@@ -684,6 +684,18 @@
       "auto": true
     },
     {
+      "id": "f1ecd8c146191",
+      "headline": "Oil Prices Continue to Fall as Democratic Sweep Shakes Energy Markets",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Continue-to-Fall-as-Democratic-Sweep-Shakes-Energy-Markets.html",
+      "publishedAt": "2026-11-05T06:30:00Z",
+      "time": "Thu 1:30 AM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "f157ce491d4b7",
       "headline": "Africa’s richest man launches mega oil tank farm in Namibia",
       "source": "Al Jazeera",
@@ -750,18 +762,6 @@
       "url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html",
       "publishedAt": "2026-11-04T15:31:17Z",
       "time": "Wed 10:31 AM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f8b76388f0822",
-      "headline": "Democrats Win Texas Oil Regulator Seat for First Time Since 1990",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Energy/Crude-Oil/Democrats-Win-Texas-Oil-Regulator-Seat-for-First-Time-Since-1990.html",
-      "publishedAt": "2026-11-04T14:00:00Z",
-      "time": "Wed 9:00 AM",
       "section": "energy",
       "impact": "Medium",
       "lean": null,
