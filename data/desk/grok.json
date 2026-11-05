@@ -1,15 +1,15 @@
 {
-  "at": "2026-11-05T14:23:37Z",
-  "pulse": "NQ red premarket on semis/AI rotation after Dem midterm sweep while ES/YM hold firm from yesterday's oil crash and gridlock relief; claims beat and soft oil cushion but hawkish Fed/BoE tone and residual Hormuz risk keep the tape two-way into the open.",
-  "bias": "mixed — oil de-escalation and political gridlock support broader risk-on, but chip/AI-capex unwind and hawkish speakers weigh on NQ.",
+  "at": "2026-11-05T21:17:00Z",
+  "pulse": "Nasdaq plunged ~5% and S&P ~4% as AI/chip stocks erased Wednesday's post-midterm rally amid Democratic sweep fears of data-center curbs, while oil rebounded ~2.5% on lingering Iran risks.",
+  "bias": "risk-off — broad tech/AI selloff and VIX spike outweigh oil bounce and yield relief after Dem midterm victory.",
   "items": [
-    "@Tradenometry (~9:22 AM ET): NQ futures -0.5%, chips lead lower (QCOM -9%, ARM -3%); WTI ~$88.8 after big drop; claims 189K beat; BoE hiked to 4%; Hormuz still tense with mine reports",
-    "@TitoEspot_ (~9:18 AM ET): Futures split Dow +0.6% S&P +0.1% NQ -0.8%; data-center hangover post-Dem sweep (UBS 30% capacity risk); oil bounce on Vance war comments",
-    "@zerohedge / tape (~9:10 AM ET): AMD -6%, SNDK -7%, MU -5%, QCOM weak premarket; NVDA under $200 as AI buildout questioned",
-    "@LiveSquawk / Fed (~8:57 AM ET): Hammack sees broad inflation pressures, policy may need restrictive; Barkin inflation top risk — hawkish tone",
-    "@DeItaone (~8:30 AM ET): Initial claims 189K vs ~196-197K est, continuing 1.718M — labor still firm"
+    "@tradewithnori (~4:17 PM ET): Close Dow -3.44% S&P -4.36% Nasdaq -5.52%; AI/data-center selling spread, VIX +70% to 28",
+    "@ktusing34 (~3:56 PM ET): Nasdaq ~-6%, S&P ~-4%; ES lost 7500, NQ lost 27100 with key levels now overhead",
+    "@VestExchange (~2:52 PM ET): Rotation out of chip/AI names, NQ -2.9% ES -1.3% earlier in session",
+    "Yahoo/Investopedia (~afternoon ET): NVDA -5-9%, AMD -12%+, SOX -10%; WTI rebounded to ~$90 after prior 8% drop",
+    "@TheFinanceFlow (~4:17 PM ET): Nasdaq down 11.7% from record; Dem governors in TX/OH campaigned against data centers"
   ],
-  "trump": "Vance blamed Iran war/high fuel for midterm losses; Trump acknowledged role but no major new market-moving posts this morning amid Rubio resignation chatter and Dem probe threats.",
-  "watch": "Cash open 9:30 AM ET (SOXX/NVDA levels); Fed speakers through day; AMC earnings (ABNB etc.); Friday NFP 8:30 AM ET; oil/Iran Hormuz headlines and any de-escalation progress; AI/data-center regulation chatter under new Dem Congress.",
+  "trump": "Vance attributed midterm losses to the Iran war; residual political overhang continues with no major new direct Trump market posts amid Dem probe chatter.",
+  "watch": "Friday NFP/payrolls 8:30 AM ET (wages key for Fed); overnight futures reaction to sharp close; oil/Iran Hormuz headlines; any AI/data-center regulation comments from new Dem Congress.",
   "forSite": []
 }
