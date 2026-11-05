@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T16:32:51Z",
+  "updatedAt": "2026-11-05T17:11:36Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -183,9 +183,9 @@
     {
       "id": "un-peace",
       "label": "UN News",
-      "ok": false,
-      "items": 0,
-      "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+      "ok": true,
+      "items": 20,
+      "error": null
     },
     {
       "id": "wsj-biz",
@@ -203,6 +203,18 @@
     }
   ],
   "items": [
+    {
+      "id": "f12e0a8e71d91",
+      "headline": "Iran is Reviewing ‘Concrete Proposals’ on Nuclear Program, Officials Say",
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/2026/11/05/world/middleeast/peace-talks-iran-united-states-qatar-nuclear-program.html",
+      "publishedAt": "2026-11-05T16:34:55Z",
+      "time": "Thu 11:34 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
     {
       "id": "f5807d70ddc8e",
       "headline": "Iran Opens Strait of Hormuz to China and India as U.S. Blockade Continues",
@@ -312,24 +324,12 @@
       "auto": true
     },
     {
-      "id": "fff67bcb337c8",
-      "headline": "Iran says US reply to Hormuz plan ‘unconvincing’; Trump confirms strikes",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/11/4/iran-says-us-reply-to-hormuz-plan-unconvincing-trump-confirms-strikes?traffic_source=rss",
-      "publishedAt": "2026-11-04T04:39:31Z",
-      "time": "Tue 11:39 PM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
       "id": "fa2e94f96d9e7",
       "headline": "Barkin sees interest rate hikes ahead, but at a gradual pace",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/11/05/barkin-sees-interest-rate-hikes-ahead-but-at-a-gradual-pace.html",
-      "publishedAt": "2026-11-05T16:29:35Z",
-      "time": "Thu 11:29 AM",
+      "publishedAt": "2026-11-05T16:34:33Z",
+      "time": "Thu 11:34 AM",
       "section": "fed",
       "impact": "High",
       "lean": "risk-off",
@@ -364,8 +364,8 @@
       "headline": "Interest rates hiked to 4% in first increase in over three years",
       "source": "BBC",
       "url": "https://www.bbc.co.uk/news/articles/ck5ynw45jrgqo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-11-05T16:08:54Z",
-      "time": "Thu 11:08 AM",
+      "publishedAt": "2026-11-05T17:09:55Z",
+      "time": "Thu 12:09 PM",
       "section": "fed",
       "impact": "Medium",
       "lean": null,
@@ -684,6 +684,18 @@
       "auto": true
     },
     {
+      "id": "faf51655c50b7",
+      "headline": "Guyana’s Oil Boom Could Ease the Global Supply Crunch",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Energy/Energy-General/Guyanas-Oil-Boom-Could-Ease-the-Global-Supply-Crunch.html",
+      "publishedAt": "2026-11-05T17:00:00Z",
+      "time": "Thu 12:00 PM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "fc2888f200761",
       "headline": "IEEFA: $67.8 Billion in Asian LNG Power Projects Scrapped or Stalled",
       "source": "OilPrice",
@@ -756,15 +768,27 @@
       "auto": true
     },
     {
-      "id": "ffb9bfa5c7caf",
-      "headline": "Beau Lamarre-Condon tells double murder trial he went through Jesse Baird’s phone and poured water into his fuel tank",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/05/beau-lamarre-condon-witness-trial-ntwnfb",
-      "publishedAt": "2026-11-05T06:56:01Z",
-      "time": "Thu 1:56 AM",
-      "section": "energy",
+      "id": "f1759eef396a6",
+      "headline": "Jim Cramer says the AI trade is not going away as Nasdaq enters correction",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/investingclub/2026/11/05/cramer-says-the-ai-trade-is-not-going-away-as-nasdaq-enters-correction.html",
+      "publishedAt": "2026-11-05T17:04:21Z",
+      "time": "Thu 12:04 PM",
+      "section": "markets",
       "impact": "Medium",
       "lean": null,
+      "auto": true
+    },
+    {
+      "id": "ff1a757403fea",
+      "headline": "Shares in Musk's SpaceX plunge as tech and AI stocks fall",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-11-05T16:44:38Z",
+      "time": "Thu 11:44 AM",
+      "section": "markets",
+      "impact": "Medium",
+      "lean": "risk-off",
       "auto": true
     },
     {
