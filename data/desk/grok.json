@@ -1,17 +1,17 @@
 {
   "date": "2026-11-05",
-  "at": "2026-11-05T12:22:38Z",
-  "pulse": "NQ soft overnight (~28.2k–28.4k, ~-0.6%) vs YM/RTY bid as post-Dem-sweep rotation continues; CL plunge on Iran de-esc bets offsets, but ASI-ban chatter + MU Taiwan HBM pause keep SOXX heavy into claims.",
-  "bias": "mixed — oil collapse and gridlock clarity support risk-on for ES/YM, but semis/AI-regulation unwind keeps NQ two-way into claims.",
+  "at": "2026-11-05T14:22:37Z",
+  "pulse": "NQ red premarket (~-0.6%) as semis lead the post-midterm rotation out of tech (QCOM ~-9-10%, AMD -6%, MU -5%, SNDK -7%, NVDA <$200) while YM holds bid; claims beat (189K) and Iran Hormuz exemptions/oil relief cushion, but hawkish Fed talk (Barkin, Hammack) and BoE hike cap the bounce.",
+  "bias": "risk-off — chip/AI-capex unwind and hawkish Fed/BoE tone outweigh strong claims and softer oil for NQ into the open.",
   "items": [
-    "WatcherGuru (~6:33 PM ET Nov 4): Dem lawmaker calls to ban artificial superintelligence day one of controlling House/Senate — Bearish NQ",
-    "WatcherGuru (~12:39 PM ET Nov 4): Brent crude crashes ~10% after Dems win House+Senate; oil risk premium ripped out — Bullish NQ",
-    "DeItaone (~1:29 PM ET Nov 4): S&P +1.84%, Nasdaq +2.1% into close; midterm relief + CL dump fueled broad risk-on — Bullish NQ",
-    "X tape (~7:21 AM ET): NQ ~-0.6% near 28,390 while YM ~+0.5%/RTY bid; Asia chip selling on AI data-center regulation fears — Bearish NQ",
-    "Micron/X (~6:28 AM ET): MU pauses $4.5B Taoyuan DRAM/HBM plant on labor dispute; MU already -7% Wed below $800 — Bearish NQ"
+    "@zerohedge (~9:10 AM ET): AMD -6% premarket, on top of SNDK -7% / MU -5% (~8:58 AM); QCOM ~-9-10% on handset miss — Bearish NQ",
+    "@DeItaone (~8:30 AM ET): Initial claims 189K vs 197K est (prev rev 195K); continuing 1.718M; Briefing notes productivity +3.6% — Mixed NQ",
+    "@LiveSquawk (~8:57 AM ET): Fed's Hammack sees inflation pressures broad, policy may need to move restrictive; Barkin (~9:15-9:20 AM): inflation top risk, tariff costs passed along — Bearish NQ",
+    "@zerohedge (~8:58 AM ET): BoE hikes for first time since 2023, sees inflation near 5%; @WatcherGuru (~9:02 AM): BoE warns 6.2% if Mideast escalates — Bearish NQ",
+    "@zerohedge (~9:10 AM ET): Iran carves out Strait of Hormuz exemptions for China, India, Iraq, Qatar; CL stays soft — Bullish NQ"
   ],
-  "trump": "Acknowledged midterm loss 'largely true' result of Iran war; said he'd 'get along probably with the Democrats' unless destructive; kept Hegseth; touted stock market record high Wed as oil cratered on de-esc bets.",
-  "watch": "Jobless claims 8:30 AM ET; oil/Iran (Hormuz tanker-fire reports vs Schumer end-war push); AMC ABNB/IREN/LITE/MCHP/NET/TEAM; Fri NFP 8:30; ASI/AI regulation headlines.",
+  "trump": "No new market-moving Trump post this morning; political overhang from the midterm loss continues (DeItaone ~9:00 AM ET: Rubio reportedly 'on resignation watch'; WatcherGuru: Dems plan probes of Trump crypto ventures).",
+  "watch": "Cash open 9:30 AM ET (watch SOXX/NVDA $200); Fed speakers through the day; AMC ABNB/IREN/LITE/MCHP/NET/TEAM; Fri NFP 8:30 AM ET; oil/Iran Hormuz headlines; AI data-center regulation headlines.",
   "forSite": [],
   "reports": [
     {
@@ -42,6 +42,21 @@
       ],
       "trump": "Acknowledged midterm loss 'largely true' result of Iran war; said he'd 'get along probably with the Democrats' unless destructive; kept Hegseth; touted stock market record high Wed as oil cratered on de-esc bets.",
       "watch": "Jobless claims 8:30 AM ET; oil/Iran (Hormuz tanker-fire reports vs Schumer end-war push); AMC ABNB/IREN/LITE/MCHP/NET/TEAM; Fri NFP 8:30; ASI/AI regulation headlines.",
+      "forSite": []
+    },
+    {
+      "at": "2026-11-05T14:22:37Z",
+      "pulse": "NQ red premarket (~-0.6%) as semis lead the post-midterm rotation out of tech (QCOM ~-9-10%, AMD -6%, MU -5%, SNDK -7%, NVDA <$200) while YM holds bid; claims beat (189K) and Iran Hormuz exemptions/oil relief cushion, but hawkish Fed talk (Barkin, Hammack) and BoE hike cap the bounce.",
+      "bias": "risk-off — chip/AI-capex unwind and hawkish Fed/BoE tone outweigh strong claims and softer oil for NQ into the open.",
+      "items": [
+        "@zerohedge (~9:10 AM ET): AMD -6% premarket, on top of SNDK -7% / MU -5% (~8:58 AM); QCOM ~-9-10% on handset miss — Bearish NQ",
+        "@DeItaone (~8:30 AM ET): Initial claims 189K vs 197K est (prev rev 195K); continuing 1.718M; Briefing notes productivity +3.6% — Mixed NQ",
+        "@LiveSquawk (~8:57 AM ET): Fed's Hammack sees inflation pressures broad, policy may need to move restrictive; Barkin (~9:15-9:20 AM): inflation top risk, tariff costs passed along — Bearish NQ",
+        "@zerohedge (~8:58 AM ET): BoE hikes for first time since 2023, sees inflation near 5%; @WatcherGuru (~9:02 AM): BoE warns 6.2% if Mideast escalates — Bearish NQ",
+        "@zerohedge (~9:10 AM ET): Iran carves out Strait of Hormuz exemptions for China, India, Iraq, Qatar; CL stays soft — Bullish NQ"
+      ],
+      "trump": "No new market-moving Trump post this morning; political overhang from the midterm loss continues (DeItaone ~9:00 AM ET: Rubio reportedly 'on resignation watch'; WatcherGuru: Dems plan probes of Trump crypto ventures).",
+      "watch": "Cash open 9:30 AM ET (watch SOXX/NVDA $200); Fed speakers through the day; AMC ABNB/IREN/LITE/MCHP/NET/TEAM; Fri NFP 8:30 AM ET; oil/Iran Hormuz headlines; AI data-center regulation headlines.",
       "forSite": []
     }
   ]

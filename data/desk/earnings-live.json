@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "at": "2026-11-05T12:22:38Z",
+  "at": "2026-11-05T14:22:37Z",
   "items": [
     {
       "ticker": "AAPL",
@@ -117,8 +117,8 @@
       "date": "2026-11-04",
       "when": "AMC",
       "status": "reported",
-      "why": "Adj EPS $2.17 vs $2.16, adj rev $10.44B vs $10.12B (down y/y); Q1 guide rev $10.4-11.2B (mid above $10.55B est), EPS $2.15-2.35 (mid ~in line); handset chip revenue missed, auto/IoT strong",
-      "reaction": "~-6% AH (~$162)",
+      "why": "Adj EPS $2.17 vs $2.16, adj rev $10.44B vs $10.12B (down y/y); Q1 guide rev $10.4-11.2B (mid above $10.55B est), EPS $2.15-2.35 (mid ~in line); handset chip revenue missed, auto/IoT strong; handset chip sales weakness and soft guide driving the premarket drop, dragging NVDA/AMD/MRVL",
+      "reaction": "~-9-10% premarket",
       "sentiment": "Bearish"
     },
     {
