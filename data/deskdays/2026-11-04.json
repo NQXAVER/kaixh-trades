@@ -2,18 +2,18 @@
   "date": "2026-11-04",
   "grok": {
     "date": "2026-11-04",
-    "at": "2026-11-04T21:25:43Z",
-    "pulse": "NQ closed +1.4% (Nasdaq 25,733) on the post-midterm gridlock relief bid and an oil collapse, but AI-infra/memory names (MU -6%, SNDK -9%, CIFR/IREN) lagged on Dem data-center fears; AH it's split with APP +17% vs QCOM -6% and ARM -3%.",
-    "bias": "mixed — gridlock relief, WTI dump and VIX crush are risk-on, but data-center regulation fears and weak AH semis (QCOM/ARM) keep NQ lagging ES/YM.",
+    "at": "2026-11-05T01:27:18Z",
+    "pulse": "NQ gave back ~0.35-0.4% after the close (~28,465) as memory/semis keep bleeding (MU under $800, -10% on the day per traders, SMH -2.7%, SOX -3.1%) on Dem-sweep data-center and AI-regulation fears, offset by Brent ~$94 after a ~9% crash, 10Y 4.88% and a Dow +1,569 / S&P +1.6% day.",
+    "bias": "mixed — cheap oil, lower yields and the midterm relief rally favor ES/YM, but the AI build-out unwind (memory, semis, data-center names) and Asia chip selling keep NQ lagging into Thursday.",
     "items": [
-      "@FirstSquawk (~4:10 PM ET): Close — Nasdaq +1.42% to 25,732.53, S&P +1.61% to 7,690.79, Dow +3.03% to 53,357.52 (YM leading, NQ lagging) — Bullish NQ",
-      "@FirstSquawk (~3:36 PM ET): Trump rules out paring back tariffs (\"we have 3,000 plants under construction\"), says he can work with Dems on \"financial ideas\" — Mixed NQ",
-      "@FirstSquawk (~4:14 PM ET): QCOM Q4 adj EPS $2.17 vs $2.16, rev $10.44B vs $10.12B, Q1 guide $10.4-11.2B; stock ~-6% AH on handset weakness — Bearish NQ",
-      "@FirstSquawk (~4:14 PM ET): ARM Q2 adj EPS $0.52 vs $0.47, rev $1.44B vs $1.38B, guide midpoint above; ~-3% AH as royalties ($670M) missed — Mixed NQ",
-      "@Sam_Badawi (~4:21 PM ET): APP Q3 rev $2.2B vs $2.1B (+55% y/y), EPS $4.30 vs $4.04; +17% AH ~$318 — Bullish NQ"
+      "@scheplick (~8:19 PM ET): $MU 'taking down Nasdaq futures tonight', -10% on the day, ~-$100B mkt cap, overnight trading -$30/sh in last few hours — Bearish NQ",
+      "@FirstSquawk (~7:36 PM ET): Kospi slumped 2.7% on chip weakness, Topix +2.1%; 'lower oil eased inflation concerns', US 10Y 4.88%; Taiwan -2% (~8:14 PM) — Bearish NQ",
+      "@LiveSquawk (~7:36 PM ET): Citrini Research calls peak on AI infrastructure spending; Texas data-center permit pause fears hit SOX -3.1%, Vertiv -12.9% while MSFT +6.7% — Bearish NQ",
+      "@WatcherGuru (~6:33 PM ET): Democrat lawmaker calls to ban artificial superintelligence on day one of controlling Congress; $TRUMP coin -20% on probe fears (~7:07 PM) — Bearish NQ",
+      "X News (~8:03 PM ET): SNAP -10% AH on DAU 495M vs ~498M and rev $1.722B slight miss; APP ~+17% AH, QCOM ~-6% AH, ARM ~-3% AH — Mixed NQ"
     ],
-    "trump": "Per CNBC (via @FirstSquawk ~3:36 PM ET): Trump won't pare back tariffs — \"If I took tariffs off? We have 3,000 plants under construction right now. Every single plant would stop building\" — and says he can work with Democrats on \"financial ideas\" but declined comment on a credit-card rate cap.",
-    "watch": "AH semis tone (QCOM/ARM red vs APP green) into Thu open; oil follow-through after WTI's war-premium dump and EIA distillates at 2003 lows; IREN AMC Thu plus AI-infra reaction to Dem data-center pause talk; MSFT $25B bond deal (AI capex funding); Thu 8:30 AM ET jobless claims.",
+    "trump": "No new market-moving Trump post tonight; WhiteHouse (~7:37 PM ET): 'We aren't going anywhere... We've only just begun.' Earlier he accepted the midterm results and signaled no immediate new Iran strikes, which drove the oil collapse.",
+    "watch": "Asia/Europe open for chips (Kospi/Taiwan) and MU overnight; Brent ~$94 / WTI follow-through on Iran-Hormuz talk headlines; Thu jobless claims 8:30 AM ET (~197K exp); Thu BMO COP, SONY, TM; Thu AMC NET, ABNB, LITE, MCHP, TEAM, IREN; Fri payrolls 8:30 AM ET; NVDA earnings Nov 17.",
     "forSite": [],
     "reports": [
       {
@@ -104,6 +104,36 @@
         ],
         "trump": "Per CNBC (via @FirstSquawk ~3:36 PM ET): Trump won't pare back tariffs — \"If I took tariffs off? We have 3,000 plants under construction right now. Every single plant would stop building\" — and says he can work with Democrats on \"financial ideas\" but declined comment on a credit-card rate cap.",
         "watch": "AH semis tone (QCOM/ARM red vs APP green) into Thu open; oil follow-through after WTI's war-premium dump and EIA distillates at 2003 lows; IREN AMC Thu plus AI-infra reaction to Dem data-center pause talk; MSFT $25B bond deal (AI capex funding); Thu 8:30 AM ET jobless claims.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-05T01:11:00Z",
+        "pulse": "NQ/ES futures staged a sharp V-rebound from a 2%+ overnight dump on the Democratic midterm sweep as Trump accepted results and oil collapsed on US-Iran deal hopes, but AI/data-center names lag on regulation fears with Asian opens selling chips.",
+        "bias": "mixed — gridlock relief and Brent sub-$100 oil dump are risk-on, but Dem data-center scrutiny and residual Iran/Hormuz risks keep NQ two-way versus broader tape.",
+        "items": [
+          "@CNBCTV18Live (~8:10 PM ET): #DowJones rallies 1,500 points after #Democrat sweep; factors include oil drop and Trump acceptance — Bullish broad",
+          "@StockStormX (~8:10 PM ET): Asia's first verdict on U.S. election was a selloff; Kospi fell on concern Democrat-led Congress tightens AI data-center rules — Bearish NQ",
+          "@MarketForgeIQ (~8:08 PM ET): Thursday plan — S&P futures about flat, Nasdaq futures down about 0.4% since close; levels focus over 762.64 SPY — Mixed NQ",
+          "Reuters/OilPrice (~session): Brent falls to ~$95-100 on Trump no-immediate-strike comments and Iran Hormuz reopen signals; WTI similar — Bullish risk",
+          "X traders (~session): Nasdaq futures swung 950+ pts from lows as Dem sweep fears faded into gridlock bid — Mixed NQ"
+        ],
+        "trump": "Accepted midterm results after GOP losses, acknowledged the Iran war contributed to the setback, and stated no immediate plans to strike Iran while oil prices plummet on de-escalation bets.",
+        "watch": "Asian cash open reaction to Dem AI/data-center regulation fears; oil follow-through below $95 Brent on any Hormuz/talks headlines; NQ lag vs ES/YM into Thu; jobless claims 8:30 AM ET; residual earnings AH tone (semis/AI).",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-05T01:27:18Z",
+        "pulse": "NQ gave back ~0.35-0.4% after the close (~28,465) as memory/semis keep bleeding (MU under $800, -10% on the day per traders, SMH -2.7%, SOX -3.1%) on Dem-sweep data-center and AI-regulation fears, offset by Brent ~$94 after a ~9% crash, 10Y 4.88% and a Dow +1,569 / S&P +1.6% day.",
+        "bias": "mixed — cheap oil, lower yields and the midterm relief rally favor ES/YM, but the AI build-out unwind (memory, semis, data-center names) and Asia chip selling keep NQ lagging into Thursday.",
+        "items": [
+          "@scheplick (~8:19 PM ET): $MU 'taking down Nasdaq futures tonight', -10% on the day, ~-$100B mkt cap, overnight trading -$30/sh in last few hours — Bearish NQ",
+          "@FirstSquawk (~7:36 PM ET): Kospi slumped 2.7% on chip weakness, Topix +2.1%; 'lower oil eased inflation concerns', US 10Y 4.88%; Taiwan -2% (~8:14 PM) — Bearish NQ",
+          "@LiveSquawk (~7:36 PM ET): Citrini Research calls peak on AI infrastructure spending; Texas data-center permit pause fears hit SOX -3.1%, Vertiv -12.9% while MSFT +6.7% — Bearish NQ",
+          "@WatcherGuru (~6:33 PM ET): Democrat lawmaker calls to ban artificial superintelligence on day one of controlling Congress; $TRUMP coin -20% on probe fears (~7:07 PM) — Bearish NQ",
+          "X News (~8:03 PM ET): SNAP -10% AH on DAU 495M vs ~498M and rev $1.722B slight miss; APP ~+17% AH, QCOM ~-6% AH, ARM ~-3% AH — Mixed NQ"
+        ],
+        "trump": "No new market-moving Trump post tonight; WhiteHouse (~7:37 PM ET): 'We aren't going anywhere... We've only just begun.' Earlier he accepted the midterm results and signaled no immediate new Iran strikes, which drove the oil collapse.",
+        "watch": "Asia/Europe open for chips (Kospi/Taiwan) and MU overnight; Brent ~$94 / WTI follow-through on Iran-Hormuz talk headlines; Thu jobless claims 8:30 AM ET (~197K exp); Thu BMO COP, SONY, TM; Thu AMC NET, ABNB, LITE, MCHP, TEAM, IREN; Fri payrolls 8:30 AM ET; NVDA earnings Nov 17.",
         "forSite": []
       }
     ]

@@ -1,6 +1,6 @@
 {
   "date": "2026-11-04",
-  "at": "2026-11-04T21:25:43Z",
+  "at": "2026-11-05T01:27:18Z",
   "items": [
     {
       "ticker": "AAPL",
@@ -93,6 +93,16 @@
       "sentiment": "Mixed"
     },
     {
+      "ticker": "DDOG",
+      "company": "Datadog (DDOG)",
+      "date": "2026-11-04",
+      "when": "BMO",
+      "status": "reported",
+      "reaction": "~-15% premarket",
+      "sentiment": "Bearish",
+      "why": "Rev $1.20B +35% y/y vs ~$1.14-1.15B est, adj EPS 81c vs ~64c beat, FCF $251M; Q4 rev guide $1.19-1.20B only in line, no acceleration, software sell-off"
+    },
+    {
       "ticker": "GFS",
       "company": "GlobalFoundries (GFS)",
       "date": "2026-11-04",
@@ -112,6 +122,16 @@
       "sentiment": "Bearish"
     },
     {
+      "ticker": "SNAP",
+      "company": "Snap (SNAP)",
+      "date": "2026-11-04",
+      "when": "AMC",
+      "status": "reported",
+      "reaction": "~-10% AH",
+      "sentiment": "Bearish",
+      "why": "Rev $1.722B (+14%) vs $1.73B slight miss, DAU 495M vs 498-499M miss, MAU 977M; adj EBITDA $383M beat, net income $56M, Other rev +84% to $350M; ad growth slowed to 4%; Q4 rev guide $1.95-1.985B"
+    },
+    {
       "ticker": "UBER",
       "company": "Uber (UBER)",
       "date": "2026-11-04",
@@ -122,6 +142,14 @@
       "reaction": "slightly lower premarket"
     },
     {
+      "ticker": "ABNB",
+      "company": "Airbnb (ABNB)",
+      "date": "2026-11-05",
+      "when": "AMC",
+      "status": "upcoming",
+      "why": "Est EPS ~$2.91, rev ~$4.8B"
+    },
+    {
       "ticker": "IREN",
       "company": "IREN (IREN)",
       "date": "2026-11-05",
@@ -130,14 +158,36 @@
       "why": "AI cloud/GPU data-center read after -9% Thu on capex doubts"
     },
     {
-      "ticker": "DDOG",
-      "company": "Datadog (DDOG)",
-      "date": "2026-11-04",
-      "when": "BMO",
-      "status": "reported",
-      "reaction": "~-15% premarket",
-      "sentiment": "Bearish",
-      "why": "Rev $1.20B +35% y/y vs ~$1.14-1.15B est, adj EPS 81c vs ~64c beat, FCF $251M; Q4 rev guide $1.19-1.20B only in line, no acceleration, software sell-off"
+      "ticker": "LITE",
+      "company": "Lumentum (LITE)",
+      "date": "2026-11-05",
+      "when": "AMC",
+      "status": "upcoming",
+      "why": "Est EPS ~$4.27, rev ~$1.3B"
+    },
+    {
+      "ticker": "MCHP",
+      "company": "Microchip (MCHP)",
+      "date": "2026-11-05",
+      "when": "AMC",
+      "status": "upcoming",
+      "why": "Est EPS ~$0.95, rev ~$1.6B"
+    },
+    {
+      "ticker": "NET",
+      "company": "Cloudflare (NET)",
+      "date": "2026-11-05",
+      "when": "AMC",
+      "status": "upcoming",
+      "why": "Est EPS ~$0.35, rev ~$745.5M"
+    },
+    {
+      "ticker": "TEAM",
+      "company": "Atlassian (TEAM)",
+      "date": "2026-11-05",
+      "when": "AMC",
+      "status": "upcoming",
+      "why": "Est EPS ~$1.45, rev ~$1.7B"
     }
   ]
 }
