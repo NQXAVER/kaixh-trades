@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-04",
-  "at": "2026-11-05T03:22:04Z",
+  "date": "2026-11-05",
+  "at": "2026-11-05T12:22:38Z",
   "items": [
     {
       "ticker": "AAPL",
@@ -155,7 +155,7 @@
       "date": "2026-11-05",
       "when": "AMC",
       "status": "upcoming",
-      "why": "AI cloud/GPU data-center read after -9% Thu on capex doubts"
+      "why": "AI cloud/GPU data-center read after soft tape on capex doubts"
     },
     {
       "ticker": "LITE",
@@ -163,7 +163,7 @@
       "date": "2026-11-05",
       "when": "AMC",
       "status": "upcoming",
-      "why": "Est EPS ~$4.27, rev ~$1.3B"
+      "why": "Est EPS ~$4.27, rev ~$1.3B; optical/AI interconnect"
     },
     {
       "ticker": "MCHP",
@@ -171,7 +171,7 @@
       "date": "2026-11-05",
       "when": "AMC",
       "status": "upcoming",
-      "why": "Est EPS ~$0.95, rev ~$1.6B"
+      "why": "Est EPS ~$0.95, rev ~$1.6B; semis cycle read"
     },
     {
       "ticker": "NET",
@@ -179,7 +179,7 @@
       "date": "2026-11-05",
       "when": "AMC",
       "status": "upcoming",
-      "why": "Est EPS ~$0.35, rev ~$745.5M"
+      "why": "Est EPS ~$0.35, rev ~$745.5M; software/AI infra"
     },
     {
       "ticker": "TEAM",
@@ -188,6 +188,38 @@
       "when": "AMC",
       "status": "upcoming",
       "why": "Est EPS ~$1.45, rev ~$1.7B"
+    },
+    {
+      "ticker": "CRWV",
+      "company": "CoreWeave (CRWV)",
+      "date": "2026-11-10",
+      "when": "AMC",
+      "status": "upcoming",
+      "why": "AI cloud GPU infra; NQ/AI sentiment mover"
+    },
+    {
+      "ticker": "CSCO",
+      "company": "Cisco (CSCO)",
+      "date": "2026-11-11",
+      "when": "AMC",
+      "status": "upcoming",
+      "why": "Networking/AI infra; large-cap NQ/S&P mover"
+    },
+    {
+      "ticker": "AMAT",
+      "company": "Applied Materials (AMAT)",
+      "date": "2026-11-12",
+      "when": "AMC",
+      "status": "upcoming",
+      "why": "Semi equipment; SOXX/NQ cycle read"
+    },
+    {
+      "ticker": "NBIS",
+      "company": "Nebius (NBIS)",
+      "date": "2026-11-12",
+      "when": "BMO",
+      "status": "upcoming",
+      "why": "AI infra; stock ~-40% in a month on short thesis, Q3 print"
     }
   ]
 }
