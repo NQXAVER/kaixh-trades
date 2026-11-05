@@ -1,18 +1,18 @@
 {
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "grok": {
-    "at": "2026-11-05T01:11:00Z",
-    "pulse": "NQ/ES futures staged a sharp V-rebound from a 2%+ overnight dump on the Democratic midterm sweep as Trump accepted results and oil collapsed on US-Iran deal hopes, but AI/data-center names lag on regulation fears with Asian opens selling chips.",
-    "bias": "mixed — gridlock relief and Brent sub-$100 oil dump are risk-on, but Dem data-center scrutiny and residual Iran/Hormuz risks keep NQ two-way versus broader tape.",
+    "at": "2026-11-05T03:05:00Z",
+    "pulse": "Overnight ES futures +1.6% and NQ +0.3% bid on midterm gridlock relief and a fourth day of oil declines on reduced Iran escalation risk post-Dem sweep, while AI scrutiny keeps tech lagging the broad rally.",
+    "bias": "mixed — election clarity and collapsing oil favor risk-on for ES/YM, but residual AI/data-center regulation fears and chip selling keep NQ two-way.",
     "items": [
-      "@CNBCTV18Live (~8:10 PM ET): #DowJones rallies 1,500 points after #Democrat sweep; factors include oil drop and Trump acceptance — Bullish broad",
-      "@StockStormX (~8:10 PM ET): Asia's first verdict on U.S. election was a selloff; Kospi fell on concern Democrat-led Congress tightens AI data-center rules — Bearish NQ",
-      "@MarketForgeIQ (~8:08 PM ET): Thursday plan — S&P futures about flat, Nasdaq futures down about 0.4% since close; levels focus over 762.64 SPY — Mixed NQ",
-      "Reuters/OilPrice (~session): Brent falls to ~$95-100 on Trump no-immediate-strike comments and Iran Hormuz reopen signals; WTI similar — Bullish risk",
-      "X traders (~session): Nasdaq futures swung 950+ pts from lows as Dem sweep fears faded into gridlock bid — Mixed NQ"
+      "@baalhadid (~10:04 PM ET): ES futures 7,716 (+1.6%), NQ 28,395 (+0.3%), SPY closed +1.7%, QQQ +1.0%, VIX 16.6 — Asia opens into bid",
+      "@brecorder_com (~10:05 PM ET): Oil falls for a fourth day on expectations midterm losses reduce risk of further Iran war escalation",
+      "@acruxacademyllc (~10:05 PM ET): Brent crashed 8.7% to $94.62, WTI 8.3% to $88.12; energy worst S&P sector on war-end bets",
+      "@unusual_whales (~9:58 PM ET): Democrats won the House and Senate",
+      "@FirstSquawk (~10:03 PM ET): China moves to stop SoftBank’s takeover of ABB’s robotics unit"
     ],
-    "trump": "Accepted midterm results after GOP losses, acknowledged the Iran war contributed to the setback, and stated no immediate plans to strike Iran while oil prices plummet on de-escalation bets.",
-    "watch": "Asian cash open reaction to Dem AI/data-center regulation fears; oil follow-through below $95 Brent on any Hormuz/talks headlines; NQ lag vs ES/YM into Thu; jobless claims 8:30 AM ET; residual earnings AH tone (semis/AI).",
+    "trump": "none",
+    "watch": "Asia open for chip follow-through and oil reaction to Iran headlines; Thursday jobless claims 8:30 AM ET; residual AI regulation chatter post-Dem sweep; next session earnings.",
     "forSite": []
   }
 }
