@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "at": "2026-11-06T01:23:11Z",
+  "at": "2026-11-06T03:26:23Z",
   "items": [
     {
       "ticker": "AAPL",
@@ -167,9 +167,9 @@
       "date": "2026-11-05",
       "when": "AMC",
       "status": "reported",
-      "reaction": "mixed AH after ~-17% session (early prints ~+8%, later ~+1.5%)",
+      "reaction": "mixed AH (~-17% day, bounced AH on print)",
       "sentiment": "Mixed",
-      "why": "Rev $228M (AI cloud ~$200M nearly tripled q/q) vs ~$221.7M, net loss $263M, backlog $20.3B; $4B run-rate target slipped to Jan/Feb'27 on design/supplier timing"
+      "why": "Rev $228M (+66% q/q) beat; AI cloud ~$200M (~triple) at 86% GM; backlog to $20.3B with new $22M/MW 5y deal; session ~-17% on MSFT TX DC delays then rebounded AH on print"
     },
     {
       "ticker": "MCHP",
@@ -232,6 +232,54 @@
       "when": "BMO",
       "status": "upcoming",
       "why": "AI infra; stock ~-40% in a month on short thesis, Q3 print"
+    },
+    {
+      "ticker": "CHTR",
+      "company": "Charter (CHTR)",
+      "date": "2026-11-06",
+      "when": "BMO",
+      "status": "upcoming",
+      "why": "Broadband/mobile adds and capex into midterm policy shift"
+    },
+    {
+      "ticker": "VST",
+      "company": "Vistra (VST)",
+      "date": "2026-11-06",
+      "when": "BMO",
+      "status": "upcoming",
+      "why": "Power/AI data-center demand name; watch adj EBITDA and guide"
+    },
+    {
+      "ticker": "WULF",
+      "company": "TeraWulf (WULF)",
+      "date": "2026-11-06",
+      "when": "BMO",
+      "status": "upcoming",
+      "why": "Mining-to-HPC/AI lease mix; capacity contracted"
+    },
+    {
+      "ticker": "OKLO",
+      "company": "Oklo (OKLO)",
+      "date": "2026-11-06",
+      "when": "BMO",
+      "status": "upcoming",
+      "why": "Nuclear/AI power licensing milestones"
+    },
+    {
+      "ticker": "HUM",
+      "company": "Humana (HUM)",
+      "date": "2026-11-06",
+      "when": "BMO",
+      "status": "upcoming",
+      "why": "Medicare Advantage membership and benefit ratio"
+    },
+    {
+      "ticker": "CEG",
+      "company": "Constellation Energy (CEG)",
+      "date": "2026-11-06",
+      "when": "BMO",
+      "status": "upcoming",
+      "why": "Nuclear power / AI load; date estimated on some calendars"
     }
   ]
 }
