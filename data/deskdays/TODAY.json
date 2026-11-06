@@ -1,18 +1,18 @@
 {
   "date": "2026-11-05",
   "grok": {
-    "at": "2026-11-05T14:23:37Z",
-    "pulse": "NQ red premarket on semis/AI rotation after Dem midterm sweep while ES/YM hold firm from yesterday's oil crash and gridlock relief; claims beat and soft oil cushion but hawkish Fed/BoE tone and residual Hormuz risk keep the tape two-way into the open.",
-    "bias": "mixed — oil de-escalation and political gridlock support broader risk-on, but chip/AI-capex unwind and hawkish speakers weigh on NQ.",
+    "at": "2026-11-06T01:12:00Z",
+    "pulse": "Post-close Nasdaq in correction (-5.5%) and S&P -4.3% as AI/chip wipeout deepens on Dem midterm data-center regulation fears, with Asia circuit breakers overnight and oil rebounding on Iran risks into NFP.",
+    "bias": "risk-off — AI/semis capitulation and political overhang from Democratic sweep outweigh oil/yield relief after brutal Thursday session.",
     "items": [
-      "@Tradenometry (~9:22 AM ET): NQ futures -0.5%, chips lead lower (QCOM -9%, ARM -3%); WTI ~$88.8 after big drop; claims 189K beat; BoE hiked to 4%; Hormuz still tense with mine reports",
-      "@TitoEspot_ (~9:18 AM ET): Futures split Dow +0.6% S&P +0.1% NQ -0.8%; data-center hangover post-Dem sweep (UBS 30% capacity risk); oil bounce on Vance war comments",
-      "@zerohedge / tape (~9:10 AM ET): AMD -6%, SNDK -7%, MU -5%, QCOM weak premarket; NVDA under $200 as AI buildout questioned",
-      "@LiveSquawk / Fed (~8:57 AM ET): Hammack sees broad inflation pressures, policy may need restrictive; Barkin inflation top risk — hawkish tone",
-      "@DeItaone (~8:30 AM ET): Initial claims 189K vs ~196-197K est, continuing 1.718M — labor still firm"
+      "@KobeissiLetter (~8:01 PM ET): Texas Gov-elect Hinojosa calls for halt on AI data center development until new laws",
+      "@FirstSquawk (~8:55 PM ET): Iran delivers nuclear proposal to Washington via Qatar",
+      "@DartNQ (~8:10 PM ET): Kospi hits circuit breaker on open after Nasdaq's -6.4% day",
+      "@PLOOVIK (~8:11 PM ET): Mag7 lost over $1T today, NVDA alone -$440B, Nasdaq closed -5.4% into correction",
+      "@HandOfCompound (~8:10 PM ET): S&P 500 closed 7353, just 30pts above 200DMA after 4.36% selloff"
     ],
-    "trump": "Vance blamed Iran war/high fuel for midterm losses; Trump acknowledged role but no major new market-moving posts this morning amid Rubio resignation chatter and Dem probe threats.",
-    "watch": "Cash open 9:30 AM ET (SOXX/NVDA levels); Fed speakers through day; AMC earnings (ABNB etc.); Friday NFP 8:30 AM ET; oil/Iran Hormuz headlines and any de-escalation progress; AI/data-center regulation chatter under new Dem Congress.",
+    "trump": "none",
+    "watch": "Friday NFP 8:30 AM ET reaction; overnight NQ/ES futures follow-through after correction; Asia/Kospi/Taiwan spillover; AI data-center regulation headlines from new Dem officials; oil/Iran Hormuz or deal progress.",
     "forSite": []
   }
 }
