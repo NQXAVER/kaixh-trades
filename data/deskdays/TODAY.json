@@ -1,18 +1,18 @@
 {
   "date": "2026-11-05",
   "grok": {
-    "at": "2026-11-06T01:12:00Z",
-    "pulse": "Post-close Nasdaq in correction (-5.5%) and S&P -4.3% as AI/chip wipeout deepens on Dem midterm data-center regulation fears, with Asia circuit breakers overnight and oil rebounding on Iran risks into NFP.",
-    "bias": "risk-off — AI/semis capitulation and political overhang from Democratic sweep outweigh oil/yield relief after brutal Thursday session.",
+    "at": "2026-11-06T03:06:36Z",
+    "pulse": "Overnight NQ remains pressured after Thursday's ~6% AI-driven selloff on Dem midterm regulation fears, with Asia circuit breakers confirming the risk-off while oil and Iran headlines keep geopolitics in focus into NFP.",
+    "bias": "risk-off \u2014 Dem AI/data-center overhang and semis wipeout dominate despite oil softness and yield relief.",
     "items": [
-      "@KobeissiLetter (~8:01 PM ET): Texas Gov-elect Hinojosa calls for halt on AI data center development until new laws",
-      "@FirstSquawk (~8:55 PM ET): Iran delivers nuclear proposal to Washington via Qatar",
-      "@DartNQ (~8:10 PM ET): Kospi hits circuit breaker on open after Nasdaq's -6.4% day",
-      "@PLOOVIK (~8:11 PM ET): Mag7 lost over $1T today, NVDA alone -$440B, Nasdaq closed -5.4% into correction",
-      "@HandOfCompound (~8:10 PM ET): S&P 500 closed 7353, just 30pts above 200DMA after 4.36% selloff"
+      "@SSbeih (~10:05 PM ET): Nasdaq plunged 5.5%, semiconductor stocks nearly 12%; AI bubble cracking risk of credit market panic",
+      "@AbhasSirotha (~10:05 PM ET): US stocks worst crash since 2025 tariff shock; $3T wiped, Nasdaq -6.36% on fear of Dems banning AI",
+      "@Standard_Wealth (~10:05 PM ET): Nasdaq dips 6.4%, $2.3T market cap wipe on Dem AI policy fears amid China chip workarounds",
+      "@goodmoat (~10:05 PM ET): Nasdaq Composite plunges 1,422 points on Nov 5 record loss as AI-regulation fears follow Democratic election wins",
+      "@ChartandStocks (~10:05 PM ET): Even if rally tomorrow, it gets sold; who wants to stay long into weekend if Trump bombs Iran"
     ],
-    "trump": "none",
-    "watch": "Friday NFP 8:30 AM ET reaction; overnight NQ/ES futures follow-through after correction; Asia/Kospi/Taiwan spillover; AI data-center regulation headlines from new Dem officials; oil/Iran Hormuz or deal progress.",
+    "trump": "Said the stock market suffered \"one of the worst days in history\" based on midterm results; added \"Do not fear\u2026 we will soon\u2026 be bigger and stronger than ever before.\" Floated destroying the rest of Iran as party counts midterm losses.",
+    "watch": "Friday NFP / UE rate / AHE 8:30 AM ET reaction; overnight NQ/ES futures follow-through after correction; Asia/Kospi/Taiwan spillover; oil/Iran Hormuz or deal progress; AI data-center regulation headlines from new Dem officials.",
     "forSite": []
   }
 }
