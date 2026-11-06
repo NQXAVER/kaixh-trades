@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T16:38:42Z",
+  "updatedAt": "2026-11-06T21:58:18Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -183,9 +183,9 @@
     {
       "id": "un-peace",
       "label": "UN News",
-      "ok": false,
-      "items": 0,
-      "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+      "ok": true,
+      "items": 20,
+      "error": null
     },
     {
       "id": "wsj-biz",
@@ -203,6 +203,18 @@
     }
   ],
   "items": [
+    {
+      "id": "f5e558cbe81d2",
+      "headline": "Oil prices tumble for the week as investors weigh Iran conflict risk after midterm elections",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/06/oil-price-today-brent-wti.html",
+      "publishedAt": "2026-11-06T19:54:30Z",
+      "time": "Fri 2:54 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
     {
       "id": "fab0d41d56a35",
       "headline": "European troops prepare for possible post-ceasefire deployment to Ukraine",
@@ -312,13 +324,13 @@
       "auto": true
     },
     {
-      "id": "f5807d70ddc8e",
-      "headline": "Iran Opens Strait of Hormuz to China and India as U.S. Blockade Continues",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Energy/Energy-General/Iran-Opens-Strait-of-Hormuz-to-China-and-India-as-US-Blockade-Continues.html",
-      "publishedAt": "2026-11-05T16:00:00Z",
-      "time": "Thu 11:00 AM",
-      "section": "war",
+      "id": "f13a1d4d4f788",
+      "headline": "Americans are on a 'treadmill of high inflation' and more rate hikes are likely, Fed's Daly says",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/06/fed-daly-interest-rates-inflation.html",
+      "publishedAt": "2026-11-06T19:05:00Z",
+      "time": "Fri 2:05 PM",
+      "section": "fed",
       "impact": "High",
       "lean": "risk-off",
       "auto": true
@@ -345,6 +357,18 @@
       "section": "fed",
       "impact": "High",
       "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "f5f9d77740750",
+      "headline": "The AI ‘credit card’ is getting costlier as CoreWeave bond yield tops 16%",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+      "publishedAt": "2026-11-06T17:09:53Z",
+      "time": "Fri 12:09 PM",
+      "section": "fed",
+      "impact": "Medium",
+      "lean": null,
       "auto": true
     },
     {
@@ -414,30 +438,6 @@
       "url": "https://www.cnbc.com/2026/11/05/fed-bank-lending-standards-small-business.html",
       "publishedAt": "2026-11-05T13:52:38Z",
       "time": "Thu 8:52 AM",
-      "section": "fed",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "fd9db4b667c4a",
-      "headline": "Faisal Islam: How high will interest rates go?",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/ckr5y0y37gv3o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-11-05T13:17:10Z",
-      "time": "Thu 8:17 AM",
-      "section": "fed",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f6fae8aa283c1",
-      "headline": "Interest rate rise in midst of cost of living crisis will leave many incredulous",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/nov/05/interest-rate-rise-in-midst-of-cost-of-living-crisis-will-leave-many-incredulous",
-      "publishedAt": "2026-11-05T13:10:44Z",
-      "time": "Thu 8:10 AM",
       "section": "fed",
       "impact": "Medium",
       "lean": null,
@@ -624,49 +624,73 @@
       "auto": true
     },
     {
-      "id": "fee960a3b21c6",
-      "headline": "Anthropic Reveals $17 Billion in Revenue as I.P.O. Approaches",
-      "source": "New York Times",
-      "url": "https://www.nytimes.com/2026/11/02/business/anthropic-earnings-ai.html",
-      "publishedAt": "2026-11-02T18:55:10Z",
-      "time": "Mon 1:55 PM",
+      "id": "f4c884b75eeff",
+      "headline": "Nvidia, AMD and other chip stocks rebound — but is relief from the ‘violent’ selloff only temporary?",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/nvidia-amd-and-other-chip-stocks-rebound-is-the-violent-ai-selloff-over-8f7df533?mod=mw_rss_topstories",
+      "publishedAt": "2026-11-06T21:24:00Z",
+      "time": "Fri 4:24 PM",
       "section": "tech",
+      "impact": "Medium",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "fa8b07939a7be",
+      "headline": "Rheinmetall shares plunge 16% after outlook cut as military contracts stall",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/05/rheinmetall-stock-outlook-sales-germany.html",
+      "publishedAt": "2026-11-06T09:05:28Z",
+      "time": "Fri 4:05 AM",
+      "section": "tech",
+      "impact": "Medium",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "f949c33d9fa65",
+      "headline": "Neocloud IREN says $4 billion in annualized revenue being delayed due to customer request",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/05/iren-earnings-report-q1-2027-.html",
+      "publishedAt": "2026-11-05T23:25:02Z",
+      "time": "Thu 6:25 PM",
+      "section": "tech",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f111fe298acfd",
+      "headline": "AI meltdown: Nvidia and Qualcomm drop more than 9%, pushing Nasdaq to worst day since April 2025",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html",
+      "publishedAt": "2026-11-05T21:16:39Z",
+      "time": "Thu 4:16 PM",
+      "section": "tech",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f38da1afe299e",
+      "headline": "Oil Traders Want U.S. to Release Sanctioned Tankers as Freight Costs Soar",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Traders-Want-US-to-Release-Sanctioned-Tankers-as-Freight-Costs-Soar.html",
+      "publishedAt": "2026-11-06T20:30:00Z",
+      "time": "Fri 3:30 PM",
+      "section": "energy",
       "impact": "High",
       "lean": null,
       "auto": true
     },
     {
-      "id": "fc2cc85e721e9",
-      "headline": "Options traders are getting anxious on Palantir and Apple ahead of earnings",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/02/options-traders-are-getting-anxious-on-palantir-and-apple-ahead-of-earnings.html",
-      "publishedAt": "2026-11-02T18:16:02Z",
-      "time": "Mon 1:16 PM",
-      "section": "tech",
-      "impact": "High",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "fcdbebbe88ded",
-      "headline": "Anthropic reports $17 billion in Q3 revenue, purchase commitments of $895.4 billion in revised S-1",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
-      "publishedAt": "2026-11-02T17:52:01Z",
-      "time": "Mon 12:52 PM",
-      "section": "tech",
-      "impact": "High",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "fc3a51bf39aee",
-      "headline": "CrowdStrike lands an upgrade, and Jim Cramer's advice on Apple ahead of earnings",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/investingclub/2026/11/02/crowdstrike-lands-an-upgrade-and-jim-cramers-advice-on-apple-ahead-of-earnings.html",
-      "publishedAt": "2026-11-02T17:04:34Z",
-      "time": "Mon 12:04 PM",
-      "section": "tech",
+      "id": "f613cb791ccc3",
+      "headline": "U.S. Oil, Gas Drillers See Minor Uptick as Oil Prices Crash",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Energy/Energy-General/US-Oil-Gas-Drillers-See-Minor-Uptick-as-Oil-Prices-Crash.html",
+      "publishedAt": "2026-11-06T18:21:00Z",
+      "time": "Fri 1:21 PM",
+      "section": "energy",
       "impact": "High",
       "lean": null,
       "auto": true
@@ -732,6 +756,30 @@
       "auto": true
     },
     {
+      "id": "f0d42cd99f737",
+      "headline": "America’s Nuclear Revival Is Running Into a Fuel Supply Wall",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Americas-Nuclear-Revival-Is-Running-Into-a-Fuel-Supply-Wall.html",
+      "publishedAt": "2026-11-06T21:00:00Z",
+      "time": "Fri 4:00 PM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fad58d7c3bbe5",
+      "headline": "Norway’s Oil and Gas Industry Faces a Major Decline Without New Discoveries",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Energy/Energy-General/Norways-Oil-and-Gas-Industry-Faces-a-Major-Decline-Without-New-Discoveries.html",
+      "publishedAt": "2026-11-06T17:00:00Z",
+      "time": "Fri 12:00 PM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "fd54db1a7d25e",
       "headline": "Energy Aspects Slashes Forecast of China’s November Diesel Exports",
       "source": "OilPrice",
@@ -744,49 +792,25 @@
       "auto": true
     },
     {
-      "id": "f585af9345b0d",
-      "headline": "U.S. crude oil imports from Venezuela in July were highest since 2017",
-      "source": "EIA",
-      "url": "https://www.eia.gov/todayinenergy/detail.php?id=68425",
-      "publishedAt": "2026-11-06T14:00:00Z",
-      "time": "Fri 9:00 AM",
-      "section": "energy",
+      "id": "f61f791360461",
+      "headline": "Global Stocks Follow U.S. Sell-Off as A.I. Spending Fears Spread",
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/2026/11/06/business/global-stocks-markets-tech-ai.html",
+      "publishedAt": "2026-11-06T21:11:05Z",
+      "time": "Fri 4:11 PM",
+      "section": "markets",
       "impact": "Medium",
-      "lean": null,
+      "lean": "risk-off",
       "auto": true
     },
     {
-      "id": "fa3f9c5b20bb0",
-      "headline": "ADNOC Expands LNG Empire With Major New India Supply Deal",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/ADNOC-Expands-LNG-Empire-With-Major-New-India-Supply-Deal.html",
-      "publishedAt": "2026-11-06T10:15:00Z",
-      "time": "Fri 5:15 AM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f7c41f3a054d5",
-      "headline": "The Global Oil Glut Returns as High Prices Crush Demand",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/The-Global-Oil-Glut-Returns-as-High-Prices-Crush-Demand.html",
-      "publishedAt": "2026-11-06T07:30:00Z",
-      "time": "Fri 2:30 AM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f126309fa6967",
-      "headline": "Oil Rebounds Toward $100 as Democrats’ Sweep Rattles Energy Stocks",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Energy/Energy-General/Oil-Rebounds-Toward-100-as-Democrats-Sweep-Rattles-Energy-Stocks.html",
-      "publishedAt": "2026-11-06T01:00:00Z",
-      "time": "Thu 8:00 PM",
-      "section": "energy",
+      "id": "f5c81cdefae99",
+      "headline": "Nasdaq drops into correction territory — here’s what typically happens next",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/05/nasdaq-drops-into-correction-territory-heres-what-typically-happens-next.html",
+      "publishedAt": "2026-11-06T20:42:28Z",
+      "time": "Fri 3:42 PM",
+      "section": "markets",
       "impact": "Medium",
       "lean": null,
       "auto": true
@@ -801,30 +825,6 @@
       "section": "markets",
       "impact": "Medium",
       "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "f61f791360461",
-      "headline": "Global Stocks Follow U.S. Sell-Off as A.I. Spending Fears Spread",
-      "source": "New York Times",
-      "url": "https://www.nytimes.com/2026/11/06/business/global-stocks-markets-tech-ai.html",
-      "publishedAt": "2026-11-06T15:07:20Z",
-      "time": "Fri 10:07 AM",
-      "section": "markets",
-      "impact": "Medium",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "f5c81cdefae99",
-      "headline": "Nasdaq drops into correction territory — here’s what typically happens next",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/05/nasdaq-drops-into-correction-territory-heres-what-typically-happens-next.html",
-      "publishedAt": "2026-11-06T13:47:43Z",
-      "time": "Fri 8:47 AM",
-      "section": "markets",
-      "impact": "Medium",
-      "lean": null,
       "auto": true
     },
     {
