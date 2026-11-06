@@ -1,18 +1,18 @@
 {
   "date": "2026-11-06",
   "grok": {
-    "at": "2026-11-06T14:21:53Z",
-    "pulse": "NQ futures rebound +1.3-1.4% with chips (MU/AMD/NVDA) bouncing hard after Thursday's ~5.5-6% AI selloff on Dem regulation fears, even as strong Oct NFP (165k vs 65k) lifts Dec hike odds and oil holds near $91 on unresolved Iran.",
-    "bias": "mixed \u2014 chip/AI dip-buying and Trump AI support lift futures, but strong jobs, Dem AI overhang, and Iran/oil geopolitics keep risk fragile into cash open.",
+    "at": "2026-11-06T21:19:02Z",
+    "pulse": "Nasdaq closed +1.09% / NQ100 +1.35% with SOX +4% chip rebound after Thursday's ~5.5% Dem-AI wipeout, but hot Oct NFP (+165k) lifts Dec hike odds to ~78% while WTI holds near $90.60 on Iran tensions.",
+    "bias": "mixed — chip/AI dip-buy and semis bounce lift the close, but strong jobs/hike odds and Dem AI regulation overhang keep risk fragile into the weekend.",
     "items": [
-      "@RektMkts (~9:21 AM ET): NFP 165k vs 65k expected, UE 4.1%; NQ futures +1.3%, MU/Sandisk bouncing 8-10% after bloodbath",
-      "@WeAreBilig (~9:21 AM ET): Chip premarket bounce SanDisk +12% MU +8% AMD +8% NVDA +3%; NQ100 futures +1.3% after SOX -12%",
-      "@HCFlowSniper (~9:20 AM ET): Futures mixed Dow -0.6% SPX +0.5% NQ +1.8%; tech rebound attempt post historic selloff, 10Y ~4.83%",
-      "Reuters (~9:41 AM ET): Nasdaq futures +1.41% as chips stabilize after $3T wipeout on fears of Dem AI regulation",
-      "@thebullbrew (~9:21 AM ET): Jobs shocker 165k crushes 65k forecast, UE to 4.1%; less room for Fed cuts, hike odds rise"
+      "@CTKCapitalIntel (~4:16 PM ET): Nasdaq +1.09% NQ100 +1.35% SMH ~+3.6% after AI washout; Dec 25bp hike odds ~78% post-165k NFP, WTI $90.60",
+      "@takashi104_fire (~4:16 PM ET): SOX +4.21% after Thu collapse, NVDA +2.8% AMD +11% MU +5%; Dec hike odds ~77%",
+      "@treasuryox (~4:18 PM ET): Tech/semis led Friday rebound after Thursday brutal selloff; one green session doesn't erase the week",
+      "@stoqmarket (~4:18 PM ET): Bull chips bounce and strong jobs vs Bear Nasdaq still in correction and Dec hike odds jumped, AI rules unclear — mixed",
+      "@MarketNews_Feed (~4:16 PM ET): Chipmakers rebound as dip buyers lift stocks despite Fed rate-hike bets"
     ],
-    "trump": "Blamed Dem midterm sweep for one of the worst market days in history; previously posted 100% in favor of AI/superintelligence as 'GOLD' and only foolish leadership would oppose it.",
-    "watch": "Cash open hold of NQ/SOXX bounce post-NFP; Dec FOMC hike odds after strong jobs; Iran diplomacy vs Hormuz headlines; Dem AI/data-center regulation; weekend geopolitics.",
+    "trump": "Midterms loss partly tied to Iran war execution and oil/inflation impact; Vance noted war as factor, Trump broadly agreed. Earlier blamed Dem sweep for historic market drop and backed AI as GOLD.",
+    "watch": "Monday open hold of NQ/SOXX bounce; Nov 10 CPI; Dec 8-9 FOMC with ~78% hike odds; Iran/Hormuz headlines; Dem AI/data-center regulation bills.",
     "forSite": []
   }
 }
