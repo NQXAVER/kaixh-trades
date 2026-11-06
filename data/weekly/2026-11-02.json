@@ -1,0 +1,103 @@
+{
+ "weekStart": "2026-11-02",
+ "weekEnd": "2026-11-06",
+ "updatedAt": "2026-11-06T21:53:06Z",
+ "best": {
+  "date": "2026-11-02",
+  "title": "Patient short after the 4hr unfill manipulation into NWOG",
+  "result": "Win 1.53R",
+  "trade": "Short · NY-AM · XFA x1 · entry 28,753.00 around 10:55–11:00 AM after manipulation into the 4hr unfill (NYAM.H ~28,891) · stop 28,891.25 on the NYAM.H wick (138.25 pts) · target 28,541.75 at the NWOG fill / below D OPEN (211.25 pts, 1.53R)",
+  "reasoning": "PRE MARKET: \"NWOG below i want to see the daily put in a wick but first i need to see us fail to continue higher maybe consolidate too but we could def still respect bullish structure to tap the 4hr UMG above us for longs.\"\nEntry type: \"Manipulated into 4hr unfill. DOL NWOG to get filled. AMD into HTF gap. 5min displacement flip. IFVG.\" Stop: \"5min highs.\"\nTALK: \"Missed: I overthinked way to much here i saw us accumualate and wanted to see manipulation for me to long but we only accumalted an than manipulated higher to the 4hr unfill i wanted to target. We had many good stacked confluences for me to long — 4hr bullish midpoint rejection block, Bullish SMT at asia low, inside of a 4hr Bullish fvg, rejection from midpoint, 1min displacement, 1min CISD. What made me want to long instead of short was the way we reacted after sweeping these lows an 15min closed rejecting harddd. i took a 2nd entry after seeing the reaction i wanted to see but on the 5min i saw a nice displacement. Manipulated into 4hr unfill / DOL NWOG to get filled.\"\nEmotions before: \"A bit nervous but calm i did sleep alot less than usual today.\" During: \"calm a bit nervous cus i dont want it to come near my entry level but its taking forever now its 12pm lunch time im still holding this HTF trade.\" After: \"HAPPYY.\"",
+  "feedback": "This is the week’s cleanest XFA win. Pre-market and the morning check-in both said wait for NWOG once price failed to continue higher, and you shorted only after the manipulation into the 4hr unfill and a 5min displacement flip — then held into lunch on one XFA for the full 1.53R. Entry 28,753.00, stop 28,891.25, target 28,541.75: the box matches your logged RR exactly, NY-AM only, no Asia, no copy trading after Friday’s blown accounts. That is the model.\nTwo leaks to tighten. The stop sat on the NYAM.H wick, not a few ticks beyond it — a stop-hunt of the exact high would have taken you out for free. And you missed the earlier ~2.6R long (CISD ~28,719, stop ~28,665, target 4hr unfill ~28,859) because you wanted a manipulation that never came and were in the restroom when the trigger printed. If the confluences are stacked and the CISD prints, that is the confirmation — don’t wait for a scripted manipulation, and don’t leave the screen while you’re waiting for the setup. Buffer the stop past the protected high next time and take the A+ when it’s there.",
+  "good": [
+   "Plan matched the trade: wait for NWOG once price failed higher, short after the 4hr-unfill manipulation and 5min displacement flip.",
+   "Logged RR matches the chart box exactly (138.25 pts risk / 211.25 pts reward = 1.53R).",
+   "One XFA, NY-AM only, no Asia trading, no copy trading.",
+   "Held the HTF short into lunch to the NWOG target instead of cutting early.",
+   "Wrote up the missed long honestly with the exact reason (overthinked / wanted manipulation)."
+  ],
+  "fix": [
+   "Stop at 28,891.25 sat on the NYAM.H wick, not beyond it. Put a few ticks of buffer above the protected high.",
+   "Missed the ~2.6R long because you wanted a manipulation that never came and left the screen at the trigger — CISD + stacked confluence is the go, not a scripted script.",
+   "Late restroom entry forced a wider 138-pt stop for 1.53R. Handle breaks before 9:30 or after you’re in.",
+   "Reflect / What i can improve on were empty — fill them the same day while the missed long is fresh.",
+   "Short sleep: cut size or idea count ahead of time when you’re under-rested."
+  ],
+  "screenshots": [
+   {
+    "label": "Execution 2 · 5min NQ + 1min ES (11:01 AM, the short taken)",
+    "src": "data/weekly/2026-11-02/best-1.png",
+    "note": "Box reads entry 28,753.00, stop 28,891.25, target 28,541.75 (138.25 / 211.25 = 1.53R). Price wicked to NYAM.H into the 4hr line, then the 5min flipped back through the 10:00 open; stop sits on the wick with no buffer."
+   },
+   {
+    "label": "Execution 1 · 1min NQ + ES (10:49 AM, the missed long)",
+    "src": "data/weekly/2026-11-02/best-2.png",
+    "note": "Long box ~28,719 / stop ~28,665 / target ~28,859 (~2.6R). Price went past it to NYAM.H ~28,890; your own note said 10am would move fast after 9:30 accumulation — you waited for a manipulation that never came."
+   },
+   {
+    "label": "TimeFrame 1 · 4hr NQ + ES (9:26 AM)",
+    "src": "data/weekly/2026-11-02/best-3.png",
+    "note": "PD-H / PD-EQ / PD-L marked with price just above PD-EQ ~28,745; the small 4hr box (0.786/0.618/0.5) above is the HTF gap you later shorted out of."
+   },
+   {
+    "label": "TimeFrame 3 · 15m NQ + ES (9:26 AM)",
+    "src": "data/weekly/2026-11-02/best-4.png",
+    "note": "Clean session map (AS/LO/NYAM/NYPM, D OPEN, 4hr ~28,850). London-low sweep that set up the missed long is visible here — the long was prepared, not random."
+   },
+   {
+    "label": "TimeFrame 4 · 5m NQ + ES (9:27 AM)",
+    "src": "data/weekly/2026-11-02/best-5.png",
+    "note": "London range (LO.H ~28,800 / LO.L ~28,715) swept on the low before the open, with both draws marked: 4hr unfill above and D OPEN / NWOG below."
+   }
+  ]
+ },
+ "worst": {
+  "date": "2026-11-06",
+  "title": "Flipped long/short then bought a LucidFlex after the stop ran",
+  "result": "Loss + BE (−1R on the first long, ~$200 risk)",
+  "trade": "Long then Short then Long · NY-AM · XFA (+ LucidFlex 50K eval bought midday) · Long1 entry ~27,272.50 stop ~27,182.50 (~90 pts, ~$200) toward 4hr UMG · Short2 entry ~27,125 stop ~27,370 target London Low (1 micro) · Long3 ~27,150.50 stop ~27,109 on the new eval toward 4hr UMG",
+  "reasoning": "PRE MARKET: \"want to see us go higher rebalancing UMG 4hr gap we are accumulating pre market.\"\nEntry type (2nd trade): \"15min IFVG. 5min displacement. we accumulated than manipulated higher now were distributing lower i want to see NYAML get hit for BE an DOL London Low. Were moving w lots of volume i risked 1micro.\" Stop: \"internal high.\"\nTALK: \"i forgot to type my 1st entry i did take a 3rd entry an im so annoyed cus i risked 200 cus i had high conviction we would continue higher OFCC i dont listen to my self i said i want a smt but i dont see us making a smt an i see ES an NQ fail to break NYAML earlier w no SMT an pushed higher so i said i dont think we need it now we reject 1hr midpoint respect OTE 1min displacement IFVG an it went swept my SL an rejected formed smt an pushed higher i wouldve hit TP an made back my loss than i got annoyed an bought a eval an now im in a long positon to 4hr UMG.\"\nEmotions before: \"calm.\" During: \"nervous ( 2nd trade im calm again but im not tryna marry any bias.\" After: \"calm.\" AB: good loss on the long; the short was into discount in a rebalancing phase.",
+  "feedback": "Friday is the week’s worst because of what happened after the first stop, not just the P&L. Pre-market and the 9:25 check-in wanted patience and the 4hr UMG rebalance higher. The first long into OTE/IFVG (~27,272.50 / stop ~27,182.50) was a good-process loss — AB called it that — and then you shorted discount (~27,125 toward London Low) against your own HTF bias, went BE, and after the long stop ran and printed the SMT you said you wanted, you wrote you got annoyed and bought a LucidFlex 50K ($74.75, order 12319151, activated ~11:35 AM ET). The third long (~27,150.50) is already on that new eval. EOD correctly says Rules Followed: No.\nThe pattern is the same one that blew accounts last week: size up on conviction (~$200 / ~90 pts), skip a confluence you named (SMT), take both sides, then buy another account to make it back. Monday rule is simple and non-negotiable — do not buy another eval or funded account no matter how annoyed a stop makes you. If the urge hits, close the platform and journal the emotion before you click purchase. Cap XFA risk to the planned micro so one stop can’t tilt you into shopping, and if the SMT you wrote down isn’t there, that is the veto.",
+  "good": [
+   "Morning check-in on time at 9:25 AM ET before the 9:30 deadline.",
+   "Pre-market bias (higher / 4hr UMG rebalance) matched the HTF charts and AB’s read that the long was the better side.",
+   "First long had stacked confluence on the chart (OTE, IFVG, 1min SMT, displacement) — AB called it a good loss.",
+   "Second trade risk stayed at 1 micro; you logged BE instead of forcing a win.",
+   "EOD Rules Followed: No and TALK both admit the eval purchase instead of hiding it."
+  ],
+  "fix": [
+   "RULE BREAK: bought LucidFlex 50K Rithmic ($74.75, order 12319151) because you were annoyed the long stopped and then ran. Cancel or park it; do not size it up Monday to make it back.",
+   "Morning plan was stay patient / not force / not end the week on a Loss — then you took setups both ways.",
+   "You said you wanted an SMT, didn’t see one, entered anyway, then watched SMT print after your stop. Missing confluence is the veto.",
+   "Risked ~$200 / ~90 pts on the high-conviction long. Cap XFA risk to planned micro size.",
+   "Journal channel only covered trade 1 L and trade 2 BE — write the eval buy and third long there too."
+  ],
+  "screenshots": [
+   {
+    "label": "Execution 1 · 1min NQ long (10:14 AM)",
+    "src": "data/weekly/2026-11-02/worst-1.png",
+    "note": "RR long: entry ~27,272.50, stop ~27,182.50 (~90 pts), TP toward ~27,600. Good-process long AB called a good loss — stop at the internal/OTE zone is clear on the chart."
+   },
+   {
+    "label": "Execution 2 · 5min NQ short (10:33 AM)",
+    "src": "data/weekly/2026-11-02/worst-2.png",
+    "note": "RR short: entry ~27,125, stop ~27,370, target London Low / NYAM.L at 1 micro. AB dinged this — shorting discount while HTF is rebalancing, not shorting premium."
+   },
+   {
+    "label": "Execution 3 · 1min NQ long (12:08 PM)",
+    "src": "data/weekly/2026-11-02/worst-3.png",
+    "note": "Entry ~27,150.50 / stop ~27,109 toward 4hr UMG at 12:08 PM — after the Lucid order (~11:22) and activation (~11:35). This is the annoyed → bought eval → long trade from TALK."
+   },
+   {
+    "label": "TimeFrame 1 · 4hr ES + NQ (9:24 AM)",
+    "src": "data/weekly/2026-11-02/worst-4.png",
+    "note": "NQ ~27,162 under the red 4hr zone near PD-EQ after yesterday’s dump. Matches pre-market rebalancing / accumulate — HTF repairing, not a clean short environment."
+   },
+   {
+    "label": "TimeFrame 3 · 15m ES + NQ (9:24 AM)",
+    "src": "data/weekly/2026-11-02/worst-5.png",
+    "note": "Session levels and SMT line on LO.H–AS.H marked; pre-open under red supply. This is the chart that backs the long bias and why the later short was the weaker idea."
+   }
+  ]
+ }
+}
