@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-06",
+  "grok": {
+    "at": "2026-11-06T12:00:33Z",
+    "pulse": "NQ scrapes thin overnight bounce after Thursday's ~5.5-6% AI/Dem regulation wipeout into Friday NFP, with VIX elevated and oil soft on Iran de-escalation.",
+    "bias": "risk-off — AI/semis capitulation and data-center political risk from Dem sweep outweigh thin futures bounce and softer oil into NFP.",
+    "items": [
+      "@RomeroAyub (~7:00 AM ET): Nasdaq -5.5% entered correction, chips -12%, NVDA -9% on AI doubts — Bearish NQ",
+      "@MicNguyenn (~7:00 AM ET): VIX spiked to 28.09 on Nov 5 from 16.61, signaling protection demand — Bearish NQ",
+      "@almayadeen_es (~7:00 AM ET): Iran sends nuclear proposal to US via Qatar — Mixed NQ",
+      "@WatcherGuru (prior): KOSPI circuit breaker and Nikkei bear on AI spillover — Bearish NQ",
+      "X tape (~overnight): Thin NQ futures rebound into NFP after SOX -12% — Mixed NQ"
+    ],
+    "trump": "Said the stock market suffered \"one of the worst days in history\" based on midterm results; added \"Do not fear… we will soon… be bigger and stronger than ever before.\"",
+    "watch": "Friday NFP/UE/AHE 8:30 AM ET reaction; oil/Iran nuclear talks or Hormuz headlines; Dem AI/data-center regulation; Dec FOMC hike odds; overnight futures hold after correction.",
+    "forSite": []
+  }
+}
