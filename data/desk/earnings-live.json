@@ -1,6 +1,6 @@
 {
   "date": "2026-11-06",
-  "at": "2026-11-06T12:30:06Z",
+  "at": "2026-11-06T15:08:06Z",
   "items": [
     {
       "ticker": "WULF",
@@ -21,26 +21,6 @@
       "why": "Adj EBITDA $2.378B (+50%+ y/y); raised 2026 Ongoing Ops Adj EBITDA to $7.1-7.5B; initiated 2027 $7.7-8.5B; +$1.5B buyback; AI power demand read",
       "reaction": "bid with AI-power complex premarket",
       "sentiment": "Bullish"
-    },
-    {
-      "ticker": "HUM",
-      "company": "Humana (HUM)",
-      "date": "2026-11-06",
-      "when": "BMO",
-      "status": "reported",
-      "why": "Adj loss/shr 70c vs $1.01 est; rev $41.16B; FY adj EPS raised to >=$9.50 from >=$9; healthcare, not NQ driver",
-      "reaction": "mixed/bid premarket on beat-raise",
-      "sentiment": "Bullish"
-    },
-    {
-      "ticker": "CHTR",
-      "company": "Charter (CHTR)",
-      "date": "2026-11-06",
-      "when": "BMO",
-      "status": "reported",
-      "why": "Rev $14.9B vs $15.03B miss; Adj EBITDA $5.94B vs $5.86B beat; FY capex ~$13B; cable not core NQ driver",
-      "reaction": "mixed premarket",
-      "sentiment": "Mixed"
     },
     {
       "ticker": "TEAM",
@@ -81,6 +61,16 @@
       "reaction": "mixed AH then ~+18% premarket Fri",
       "sentiment": "Mixed",
       "why": "FQ1 FY27 beat; AI cloud strength; sold hard Thu with AI complex then bounced hard on print into Fri premarket"
+    },
+    {
+      "ticker": "DKNG",
+      "company": "DraftKings (DKNG)",
+      "date": "2026-11-05",
+      "when": "AMC",
+      "status": "reported",
+      "reaction": "lower premarket on guide cut",
+      "sentiment": "Bearish",
+      "why": "Rev +16% to $1.329B; cut FY26 adj EBITDA to $175-275M on Predictions spend; not core NQ but consumer risk read"
     },
     {
       "ticker": "ABNB",
@@ -212,20 +202,28 @@
       "why": "Rev $584.9M +154% y/y vs $551M est, adj EPS $1.32 vs $1.19; Q4 guide $730-750M rev, EPS $1.62-1.66, well above est"
     },
     {
-      "ticker": "CEG",
-      "company": "Constellation Energy (CEG)",
-      "date": "2026-11-06",
-      "when": "BMO",
-      "status": "upcoming",
-      "why": "Nuclear power / AI load; date estimated on some calendars"
-    },
-    {
       "ticker": "OKLO",
       "company": "Oklo (OKLO)",
       "date": "2026-11-06",
       "when": "BMO",
       "status": "upcoming",
-      "why": "Nuclear/AI power licensing milestones"
+      "why": "Nuclear / AI power microreactor; speculative AI-infra satellite"
+    },
+    {
+      "ticker": "CEG",
+      "company": "Constellation Energy (CEG)",
+      "date": "2026-11-09",
+      "when": "BMO",
+      "status": "upcoming",
+      "why": "AI power / nuclear; key data-center electricity read"
+    },
+    {
+      "ticker": "TTWO",
+      "company": "Take-Two (TTWO)",
+      "date": "2026-11-09",
+      "when": "AMC",
+      "status": "upcoming",
+      "why": "GTA VI countdown; consumer/software sentiment satellite"
     },
     {
       "ticker": "CRWV",
@@ -233,15 +231,7 @@
       "date": "2026-11-10",
       "when": "AMC",
       "status": "upcoming",
-      "why": "Neocloud / AI infra; high-beta NQ satellite"
-    },
-    {
-      "ticker": "CSCO",
-      "company": "Cisco (CSCO)",
-      "date": "2026-11-11",
-      "when": "AMC",
-      "status": "upcoming",
-      "why": "Networking / AI fabrics read for NQ"
+      "why": "AI neocloud; high-beta AI infra after this week's AI rout"
     },
     {
       "ticker": "AMAT",
@@ -249,7 +239,15 @@
       "date": "2026-11-12",
       "when": "AMC",
       "status": "upcoming",
-      "why": "Semi capex / AI wafer fab equipment — SOXX driver"
+      "why": "Semi equipment; AI capex cycle read with CSCO same night"
+    },
+    {
+      "ticker": "CSCO",
+      "company": "Cisco (CSCO)",
+      "date": "2026-11-12",
+      "when": "AMC",
+      "status": "upcoming",
+      "why": "Networking / AI infra spend; largest NQ-adjacent name next week"
     },
     {
       "ticker": "NBIS",
@@ -257,7 +255,7 @@
       "date": "2026-11-12",
       "when": "BMO",
       "status": "upcoming",
-      "why": "AI cloud / neocloud; high-beta NQ satellite"
+      "why": "AI cloud / GPU infra satellite"
     }
   ]
 }
