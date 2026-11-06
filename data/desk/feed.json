@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T15:59:40Z",
+  "updatedAt": "2026-11-06T16:38:42Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -204,6 +204,18 @@
   ],
   "items": [
     {
+      "id": "fab0d41d56a35",
+      "headline": "European troops prepare for possible post-ceasefire deployment to Ukraine",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/6/france-ukraine-postwar-military-drills?traffic_source=rss",
+      "publishedAt": "2026-11-06T16:04:19Z",
+      "time": "Fri 11:04 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-on",
+      "auto": true
+    },
+    {
       "id": "f1bba22c956c2",
       "headline": "Oil Prices Plunge as U.S. Elections Shake Up the Iran War",
       "source": "OilPrice",
@@ -306,18 +318,6 @@
       "url": "https://oilprice.com/Energy/Energy-General/Iran-Opens-Strait-of-Hormuz-to-China-and-India-as-US-Blockade-Continues.html",
       "publishedAt": "2026-11-05T16:00:00Z",
       "time": "Thu 11:00 AM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "fa03f45f551bf",
-      "headline": "Iran Reports More Tanker Fires in Strait of Hormuz",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Reports-More-Tanker-Fires-in-Strait-of-Hormuz.html",
-      "publishedAt": "2026-11-05T11:15:00Z",
-      "time": "Thu 6:15 AM",
       "section": "war",
       "impact": "High",
       "lean": "risk-off",
@@ -508,8 +508,8 @@
       "headline": "U.S. economy added 165,000 jobs in October, way more than expected; unemployment rate slips to 4.1%",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html",
-      "publishedAt": "2026-11-06T14:57:35Z",
-      "time": "Fri 9:57 AM",
+      "publishedAt": "2026-11-06T16:06:59Z",
+      "time": "Fri 11:06 AM",
       "section": "econ",
       "impact": "Medium",
       "lean": null,
@@ -548,6 +548,18 @@
       "time": "Wed 8:49 AM",
       "section": "econ",
       "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fc77847fb973e",
+      "headline": "Watch live: Jim Cramer says an Anthropic IPO would be a cue to start buying again",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/investingclub/2026/11/06/watch-jim-cramer-live.html",
+      "publishedAt": "2026-11-06T16:33:21Z",
+      "time": "Fri 11:33 AM",
+      "section": "tech",
+      "impact": "High",
       "lean": null,
       "auto": true
     },
@@ -654,18 +666,6 @@
       "url": "https://www.cnbc.com/investingclub/2026/11/02/crowdstrike-lands-an-upgrade-and-jim-cramers-advice-on-apple-ahead-of-earnings.html",
       "publishedAt": "2026-11-02T17:04:34Z",
       "time": "Mon 12:04 PM",
-      "section": "tech",
-      "impact": "High",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f1994ede56621",
-      "headline": "Behind Anthropic’s 1,127% revenue surge — and the computing bill that erased its profit",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/behind-anthropics-1-127-revenue-surge-and-the-computing-bill-that-erased-its-profit-2fe7e513?mod=mw_rss_topstories",
-      "publishedAt": "2026-11-02T16:22:00Z",
-      "time": "Mon 11:22 AM",
       "section": "tech",
       "impact": "High",
       "lean": null,
