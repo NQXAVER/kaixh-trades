@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T03:16:40Z",
+  "updatedAt": "2026-11-06T06:58:59Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -183,9 +183,9 @@
     {
       "id": "un-peace",
       "label": "UN News",
-      "ok": false,
-      "items": 0,
-      "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+      "ok": true,
+      "items": 20,
+      "error": null
     },
     {
       "id": "wsj-biz",
@@ -203,6 +203,18 @@
     }
   ],
   "items": [
+    {
+      "id": "f878c51729664",
+      "headline": "Why is Iran exempting India, China, Qatar, Iraq from Hormuz restrictions?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/6/why-is-iran-exempting-india-china-qatar-iraq-from-hormuz-restrictions?traffic_source=rss",
+      "publishedAt": "2026-11-06T06:06:24Z",
+      "time": "Fri 1:06 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
     {
       "id": "f2aeed27fa392",
       "headline": "Saudi coalition intercepts missile fired towards Medina",
@@ -312,18 +324,6 @@
       "auto": true
     },
     {
-      "id": "f869f664e297c",
-      "headline": "UAE Weighs Plans for Third Strait of Hormuz Bypass Pipeline",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Energy/Crude-Oil/UAE-Weighs-Plans-for-Third-Strait-of-Hormuz-Bypass-Pipeline.html",
-      "publishedAt": "2026-11-04T20:00:00Z",
-      "time": "Wed 3:00 PM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
       "id": "fa2e94f96d9e7",
       "headline": "Barkin sees interest rate hikes ahead, but at a gradual pace",
       "source": "CNBC",
@@ -342,18 +342,6 @@
       "url": "https://www.cnbc.com/2026/11/04/euro-zone-cpi-inflation-october-ecb-rate-hike.html",
       "publishedAt": "2026-11-04T10:47:30Z",
       "time": "Wed 5:47 AM",
-      "section": "fed",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "f08d123153e20",
-      "headline": "‘Sharper, longer slowdown’ predicted for Australian economy as fifth interest rate hike looms",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/02/australia-economy-fifth-interest-rate-hike-looms",
-      "publishedAt": "2026-11-02T06:57:29Z",
-      "time": "Mon 1:57 AM",
       "section": "fed",
       "impact": "High",
       "lean": "risk-off",
@@ -444,6 +432,18 @@
       "auto": true
     },
     {
+      "id": "f3f657bacb315",
+      "headline": "White House Delays Hearing on Fed Governor",
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/2026/11/04/business/trump-lisa-cook-fed-governor.html",
+      "publishedAt": "2026-11-04T22:55:30Z",
+      "time": "Wed 5:55 PM",
+      "section": "fed",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "f422cf5405e04",
       "headline": "After tech-stock rout, October jobs report could bring relief — or more pain",
       "source": "MarketWatch",
@@ -510,18 +510,6 @@
       "url": "https://www.cnbc.com/2026/11/04/private-companies-added-86000-jobs-in-october-slightly-higher-than-expected-adp-says.html",
       "publishedAt": "2026-11-04T13:49:48Z",
       "time": "Wed 8:49 AM",
-      "section": "econ",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "fc510229034e6",
-      "headline": "Australia hikes rates to 18-year high to fight inflation",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/03/australia-hikes-rates-18-year-high-finflation.html",
-      "publishedAt": "2026-11-03T03:46:20Z",
-      "time": "Mon 10:46 PM",
       "section": "econ",
       "impact": "Medium",
       "lean": null,
@@ -648,6 +636,18 @@
       "auto": true
     },
     {
+      "id": "f3b07c93da1f6",
+      "headline": "Oil Prices Head for 12% Weekly Loss Despite Fresh Tanker Attacks",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-12-Weekly-Loss-Despite-Fresh-Tanker-Attacks.html",
+      "publishedAt": "2026-11-06T06:05:00Z",
+      "time": "Fri 1:05 AM",
+      "section": "energy",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
       "id": "fd58363317c31",
       "headline": "Saudi Aramco Profit Jumps Despite Damaging Attacks on Pipelines and Refineries",
       "source": "New York Times",
@@ -756,24 +756,12 @@
       "auto": true
     },
     {
-      "id": "fc2888f200761",
-      "headline": "IEEFA: $67.8 Billion in Asian LNG Power Projects Scrapped or Stalled",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/IEEFA-678-Billion-in-Asian-LNG-Power-Projects-Scrapped-or-Stalled.html",
-      "publishedAt": "2026-11-05T14:30:00Z",
-      "time": "Thu 9:30 AM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
       "id": "f9d5383ac0d35",
       "headline": "Global tech stocks plunge as US midterms add to AI slowdown fears",
       "source": "BBC",
       "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-11-06T02:57:24Z",
-      "time": "Thu 9:57 PM",
+      "publishedAt": "2026-11-06T06:00:59Z",
+      "time": "Fri 1:00 AM",
       "section": "markets",
       "impact": "Medium",
       "lean": "risk-off",
@@ -816,8 +804,8 @@
       "auto": true
     },
     {
-      "id": "f3b71dfd7f74a",
-      "headline": "Nasdaq sees worst day in 18 months as investors bet on AI slowdown after Democrats’ election triumph",
+      "id": "fd5d9a3817dd3",
+      "headline": "Nasdaq sees worst day in 19 months as investors bet on AI slowdown after Democrats’ election triumph",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/nov/05/nasdaq-heading-for-worst-day-in-18-months-as-wall-street-sustains-widespread-losses",
       "publishedAt": "2026-11-05T21:23:18Z",
