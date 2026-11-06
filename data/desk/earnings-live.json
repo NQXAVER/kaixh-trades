@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "at": "2026-11-05T21:27:56Z",
+  "at": "2026-11-06T01:23:11Z",
   "items": [
     {
       "ticker": "AAPL",
@@ -11,6 +11,16 @@
       "why": "Rev $114.48B vs $113.4B beat, EPS $2.10 vs ~$1.99 beat, iPhone $57.58B +17%, Services record $31.57B +10%; Greater China $17.54B miss, Dec-qtr GM guide 45-46% (memory costs) vs 47.9%, 7-10% growth guide; closed -1.83% at $338.32 then lower AH; -5.1% premarket Tue on slower sales growth and margin guide",
       "reaction": "-5.1% premarket",
       "sentiment": "Bearish"
+    },
+    {
+      "ticker": "LITE",
+      "company": "Lumentum (LITE)",
+      "date": "2026-11-02",
+      "when": "AMC",
+      "status": "reported",
+      "reaction": "session weak into Thu (~-19% Nov 5 close in tape tables)",
+      "sentiment": "Mixed",
+      "why": "Q1 FY27 rev $1.26B, non-GAAP EPS $4.57; Q2 guide rev $1.575-1.625B, non-GAAP EPS $5.90-6.20; OCS/NPO-CPO demand strong but name sold with optical/AI complex"
     },
     {
       "ticker": "PLTR",
@@ -142,54 +152,54 @@
       "reaction": "slightly lower premarket"
     },
     {
+      "ticker": "ABNB",
+      "company": "Airbnb (ABNB)",
+      "date": "2026-11-05",
+      "when": "AMC",
+      "status": "reported",
+      "reaction": "~+11% AH",
+      "sentiment": "Bullish",
+      "why": "EPS $3.16 vs $2.85, rev $4.87B vs $4.75B (+19% y/y, fastest in 3+ yrs); GBV +21% to $27.7B; new $12B buyback; FY26 rev growth raised to high teens, adj EBITDA margin ~36%; Q4 rev $3.22-3.28B"
+    },
+    {
       "ticker": "IREN",
       "company": "IREN (IREN)",
       "date": "2026-11-05",
       "when": "AMC",
       "status": "reported",
-      "why": "Rev $228M (AI cloud ~$200M nearly tripled q/q), net loss $263M, backlog $20.3B; $4B run-rate target slipped to Jan/Feb'27 on design/supplier timing",
-      "reaction": "~+1.5% AH after ~-17% session",
-      "sentiment": "Mixed"
-    },
-    {
-      "ticker": "ABNB",
-      "company": "Airbnb (ABNB)",
-      "date": "2026-11-05",
-      "when": "AMC",
-      "status": "upcoming",
-      "why": "Est EPS ~$2.91, rev ~$4.8B"
-    },
-    {
-      "ticker": "LITE",
-      "company": "Lumentum (LITE)",
-      "date": "2026-11-05",
-      "when": "AMC",
-      "status": "upcoming",
-      "why": "Est EPS ~$4.27, rev ~$1.3B; optical/AI interconnect"
+      "reaction": "mixed AH after ~-17% session (early prints ~+8%, later ~+1.5%)",
+      "sentiment": "Mixed",
+      "why": "Rev $228M (AI cloud ~$200M nearly tripled q/q) vs ~$221.7M, net loss $263M, backlog $20.3B; $4B run-rate target slipped to Jan/Feb'27 on design/supplier timing"
     },
     {
       "ticker": "MCHP",
       "company": "Microchip (MCHP)",
       "date": "2026-11-05",
       "when": "AMC",
-      "status": "upcoming",
-      "why": "Est EPS ~$0.95, rev ~$1.6B; semis cycle read"
+      "status": "reported",
+      "reaction": "~-6% AH",
+      "sentiment": "Bearish",
+      "why": "EPS $0.97 vs $0.93, rev $1.62B; Q3 FY27 guide EPS $0.87-0.95, rev $1.573-1.638B (mid ~$1.605B below ~$1.62B) on industrial/auto inventory digestion"
     },
     {
       "ticker": "NET",
       "company": "Cloudflare (NET)",
       "date": "2026-11-05",
       "when": "AMC",
-      "status": "upcoming",
-      "why": "Est EPS ~$0.35, rev ~$745.5M; software/AI infra"
+      "status": "reported",
+      "reaction": "~+17% AH",
+      "sentiment": "Bullish",
+      "why": "Adj EPS $0.38 vs $0.34, rev $782.5M vs $736.8M (+39% y/y, fastest in ~4 yrs); FY26 rev guide $2.963-2.964B vs ~$2.87B, EPS $1.35 vs $1.26; Q4 rev $845-846M vs ~$798M"
     },
     {
       "ticker": "TEAM",
       "company": "Atlassian (TEAM)",
       "date": "2026-11-05",
       "when": "AMC",
-      "status": "upcoming",
-      "why": "Est EPS ~$1.45, rev ~$1.7B"
+      "status": "reported",
+      "reaction": "~-16% AH",
+      "sentiment": "Bearish",
+      "why": "Adj EPS $1.65 vs $1.43, rev $1.77B vs $1.71B beat; Q2 FY27 rev guide $1.83-1.84B narrowly above ~$1.82B but cloud-subscription growth decelerating / cautious enterprise seat expansion"
     },
     {
       "ticker": "CRWV",
