@@ -1,145 +1,96 @@
 {
-  "date": "2026-11-05",
-  "at": "2026-11-06T03:26:23Z",
+  "date": "2026-11-06",
+  "at": "2026-11-06T12:30:06Z",
   "items": [
     {
-      "ticker": "AAPL",
-      "company": "Apple (AAPL)",
-      "date": "2026-11-02",
-      "when": "AMC",
+      "ticker": "WULF",
+      "company": "TeraWulf (WULF)",
+      "date": "2026-11-06",
+      "when": "BMO",
       "status": "reported",
-      "why": "Rev $114.48B vs $113.4B beat, EPS $2.10 vs ~$1.99 beat, iPhone $57.58B +17%, Services record $31.57B +10%; Greater China $17.54B miss, Dec-qtr GM guide 45-46% (memory costs) vs 47.9%, 7-10% growth guide; closed -1.83% at $338.32 then lower AH; -5.1% premarket Tue on slower sales growth and margin guide",
-      "reaction": "-5.1% premarket",
-      "sentiment": "Bearish"
-    },
-    {
-      "ticker": "LITE",
-      "company": "Lumentum (LITE)",
-      "date": "2026-11-02",
-      "when": "AMC",
-      "status": "reported",
-      "reaction": "session weak into Thu (~-19% Nov 5 close in tape tables)",
-      "sentiment": "Mixed",
-      "why": "Q1 FY27 rev $1.26B, non-GAAP EPS $4.57; Q2 guide rev $1.575-1.625B, non-GAAP EPS $5.90-6.20; OCS/NPO-CPO demand strong but name sold with optical/AI complex"
-    },
-    {
-      "ticker": "PLTR",
-      "company": "Palantir (PLTR)",
-      "date": "2026-11-02",
-      "when": "AMC",
-      "status": "reported",
-      "why": "Rev $2.31B vs $2.18B beat (+96% y/y), adj EPS $0.44 vs $0.41 beat, US commercial +148% to $984M (tops US gov for first time), FY26 guide raised to ~$8.53B vs $8.2B est; slid AH/premarket on valuation and tech weakness despite beat-and-raise",
-      "reaction": "lower premarket (one X tally ~-9%)",
+      "why": "Rev $76.2M with HPC lease $63M (~83%); Anthropic ~401MW/$19B lease + Google credit backstop; Adj EBITDA ~-$12.8M; AI data-center read",
+      "reaction": "mixed/volatile with AI infra",
       "sentiment": "Mixed"
     },
     {
-      "ticker": "ALAB",
-      "company": "Astera Labs (ALAB)",
-      "date": "2026-11-03",
-      "when": "AMC",
-      "status": "reported",
-      "reaction": "higher AH",
-      "sentiment": "Bullish",
-      "why": "Rev $584.9M +154% y/y vs $551M est, adj EPS $1.32 vs $1.19; Q4 guide $730-750M rev, EPS $1.62-1.66, well above est"
-    },
-    {
-      "ticker": "AMD",
-      "company": "AMD (AMD)",
-      "date": "2026-11-03",
-      "when": "AMC",
-      "status": "reported",
-      "reaction": "+7% premarket, faded to ~+2% (briefly red) by 9:25 AM",
-      "sentiment": "Bullish",
-      "why": "Rev $13.38B vs $13.08B beat (+45% y/y), adj EPS $2.09 vs $1.97 beat, data center record $8.55B (~+97%, 64% of rev), adj GM 56%; Q4 guide ~$17B vs ~$16.2B est, 2027 growth outlook raised to >80%"
-    },
-    {
-      "ticker": "ANET",
-      "company": "Arista Networks (ANET)",
-      "date": "2026-11-03",
-      "when": "AMC",
-      "status": "reported",
-      "reaction": "~+7% AH",
-      "sentiment": "Bullish",
-      "why": "Rev $3.66B +58.5% y/y vs $3.33B est, adj EPS $1.20 vs $1.08 est; 2026 rev target raised to $13.3B, 2027 outlook $18.5B with AI fabrics seen doubling to ~$7B; closed +3.52% at $169.91 then rocketed AH"
-    },
-    {
-      "ticker": "SHOP",
-      "company": "Shopify (SHOP)",
-      "date": "2026-11-03",
+      "ticker": "VST",
+      "company": "Vistra (VST)",
+      "date": "2026-11-06",
       "when": "BMO",
       "status": "reported",
-      "why": "Rev $3.74B vs $3.75B slight miss, adj EPS 49c vs 48c beat, op income $568M vs $523.9M beat, GMV $119.15B vs $120.08B miss, MRR $230M in line; Q4 rev growth guided low-30s %; first revenue miss since 2022, GMV growth slowed to 29%, GM 47.6%; stock ~$156 to ~$130 premarket",
-      "sentiment": "Bearish",
-      "reaction": "~-15% premarket"
-    },
-    {
-      "ticker": "SMCI",
-      "company": "Super Micro (SMCI)",
-      "date": "2026-11-03",
-      "when": "AMC",
-      "status": "reported",
-      "reaction": "~+6% AH",
-      "sentiment": "Bullish",
-      "why": "Adj EPS $1.81 vs ~$1.06-1.24 est, sales ~$19.9B vs ~$16.2B est; Q2 guide $19.5-21.5B vs $16.53B, FY raised to $72-82B from $65-72B"
-    },
-    {
-      "ticker": "APP",
-      "company": "AppLovin (APP)",
-      "date": "2026-11-04",
-      "when": "AMC",
-      "status": "reported",
-      "why": "Rev ~$2.185B vs ~$2.07-2.08B est (+55% y/y, first re-acceleration in 4 qtrs), EPS $4.30 vs ~$4.03; Q4 rev guide $2.365-2.395B; adj EBITDA ~$1.84B (84% margin), $1.4B buybacks",
-      "reaction": "~+17% AH (~$318)",
+      "why": "Adj EBITDA $2.378B (+50%+ y/y); raised 2026 Ongoing Ops Adj EBITDA to $7.1-7.5B; initiated 2027 $7.7-8.5B; +$1.5B buyback; AI power demand read",
+      "reaction": "bid with AI-power complex premarket",
       "sentiment": "Bullish"
     },
     {
-      "ticker": "ARM",
-      "company": "Arm Holdings (ARM)",
-      "date": "2026-11-04",
-      "when": "AMC",
+      "ticker": "HUM",
+      "company": "Humana (HUM)",
+      "date": "2026-11-06",
+      "when": "BMO",
       "status": "reported",
-      "why": "Adj EPS $0.52 vs $0.47, rev $1.44B vs $1.38B (+27%), license +50% to $773M, but royalties $670M (+8%) missed ~$712-721M est; Q3 guide $1.49-1.59B rev, EPS $0.52-0.60, midpoints slightly above est",
-      "reaction": "~-3% AH (~$186)",
+      "why": "Adj loss/shr 70c vs $1.01 est; rev $41.16B; FY adj EPS raised to >=$9.50 from >=$9; healthcare, not NQ driver",
+      "reaction": "mixed/bid premarket on beat-raise",
+      "sentiment": "Bullish"
+    },
+    {
+      "ticker": "CHTR",
+      "company": "Charter (CHTR)",
+      "date": "2026-11-06",
+      "when": "BMO",
+      "status": "reported",
+      "why": "Rev $14.9B vs $15.03B miss; Adj EBITDA $5.94B vs $5.86B beat; FY capex ~$13B; cable not core NQ driver",
+      "reaction": "mixed premarket",
       "sentiment": "Mixed"
     },
     {
-      "ticker": "DDOG",
-      "company": "Datadog (DDOG)",
-      "date": "2026-11-04",
-      "when": "BMO",
+      "ticker": "TEAM",
+      "company": "Atlassian (TEAM)",
+      "date": "2026-11-05",
+      "when": "AMC",
       "status": "reported",
-      "reaction": "~-15% premarket",
+      "reaction": "~-16% AH / lower premarket",
       "sentiment": "Bearish",
-      "why": "Rev $1.20B +35% y/y vs ~$1.14-1.15B est, adj EPS 81c vs ~64c beat, FCF $251M; Q4 rev guide $1.19-1.20B only in line, no acceleration, software sell-off"
+      "why": "Soft guide / software derating into Thu AI/tech wipeout"
     },
     {
-      "ticker": "GFS",
-      "company": "GlobalFoundries (GFS)",
-      "date": "2026-11-04",
-      "when": "BMO",
+      "ticker": "NET",
+      "company": "Cloudflare (NET)",
+      "date": "2026-11-05",
+      "when": "AMC",
       "status": "reported",
+      "reaction": "~+17% AH",
+      "sentiment": "Bullish",
+      "why": "Beat/raise AI networking print; one of few AI infra names that held bid through Thu rout"
+    },
+    {
+      "ticker": "MCHP",
+      "company": "Microchip (MCHP)",
+      "date": "2026-11-05",
+      "when": "AMC",
+      "status": "reported",
+      "reaction": "~-6% AH",
+      "sentiment": "Bearish",
+      "why": "Soft semis print into broad chip selloff"
+    },
+    {
+      "ticker": "IREN",
+      "company": "IREN (IREN)",
+      "date": "2026-11-05",
+      "when": "AMC",
+      "status": "reported",
+      "reaction": "mixed AH then ~+18% premarket Fri",
       "sentiment": "Mixed",
-      "why": "Adj EPS 53c vs 50c, rev $1.90B vs $1.89B; Q4 rev guide $1.98-2.03B vs $2.002B est, EPS 54-64c vs 56c"
+      "why": "FQ1 FY27 beat; AI cloud strength; sold hard Thu with AI complex then bounced hard on print into Fri premarket"
     },
     {
-      "ticker": "QCOM",
-      "company": "Qualcomm (QCOM)",
-      "date": "2026-11-04",
+      "ticker": "ABNB",
+      "company": "Airbnb (ABNB)",
+      "date": "2026-11-05",
       "when": "AMC",
       "status": "reported",
-      "why": "Adj EPS $2.17 vs $2.16, adj rev $10.44B vs $10.12B (down y/y); Q1 guide rev $10.4-11.2B (mid above $10.55B est), EPS $2.15-2.35 (mid ~in line); handset chip revenue missed, auto/IoT strong; handset chip sales weakness and soft guide driving the premarket drop, dragging NVDA/AMD/MRVL",
-      "reaction": "~-9-10% premarket",
-      "sentiment": "Bearish"
-    },
-    {
-      "ticker": "SNAP",
-      "company": "Snap (SNAP)",
-      "date": "2026-11-04",
-      "when": "AMC",
-      "status": "reported",
-      "reaction": "~-10% AH",
-      "sentiment": "Bearish",
-      "why": "Rev $1.722B (+14%) vs $1.73B slight miss, DAU 495M vs 498-499M miss, MAU 977M; adj EBITDA $383M beat, net income $56M, Other rev +84% to $350M; ad growth slowed to 4%; Q4 rev guide $1.95-1.985B"
+      "reaction": "~+11% AH / ~+11% premarket",
+      "sentiment": "Bullish",
+      "why": "EPS $3.16 vs $2.85, rev $4.87B vs $4.75B (+19% y/y); GBV +21%; new $12B buyback; FY26 rev growth raised high teens"
     },
     {
       "ticker": "UBER",
@@ -152,110 +103,121 @@
       "reaction": "slightly lower premarket"
     },
     {
-      "ticker": "ABNB",
-      "company": "Airbnb (ABNB)",
-      "date": "2026-11-05",
+      "ticker": "SNAP",
+      "company": "Snap (SNAP)",
+      "date": "2026-11-04",
       "when": "AMC",
       "status": "reported",
-      "reaction": "~+11% AH",
-      "sentiment": "Bullish",
-      "why": "EPS $3.16 vs $2.85, rev $4.87B vs $4.75B (+19% y/y, fastest in 3+ yrs); GBV +21% to $27.7B; new $12B buyback; FY26 rev growth raised to high teens, adj EBITDA margin ~36%; Q4 rev $3.22-3.28B"
+      "reaction": "~-10% AH",
+      "sentiment": "Bearish",
+      "why": "Rev $1.722B (+14%) vs $1.73B slight miss, DAU 495M vs 498-499M miss, MAU 977M; adj EBITDA $383M beat, net income $56M, Other rev +84% to $350M; ad growth slowed to 4%; Q4 rev guide $1.95-1.985B"
     },
     {
-      "ticker": "IREN",
-      "company": "IREN (IREN)",
-      "date": "2026-11-05",
+      "ticker": "QCOM",
+      "company": "Qualcomm (QCOM)",
+      "date": "2026-11-04",
       "when": "AMC",
       "status": "reported",
-      "reaction": "mixed AH (~-17% day, bounced AH on print)",
+      "why": "Adj EPS $2.17 vs $2.16, adj rev $10.44B vs $10.12B (down y/y); Q1 guide rev $10.4-11.2B (mid above $10.55B est), EPS $2.15-2.35 (mid ~in line); handset chip revenue missed, auto/IoT strong; handset chip sales weakness and soft guide driving the premarket drop, dragging NVDA/AMD/MRVL",
+      "reaction": "~-9-10% premarket",
+      "sentiment": "Bearish"
+    },
+    {
+      "ticker": "GFS",
+      "company": "GlobalFoundries (GFS)",
+      "date": "2026-11-04",
+      "when": "BMO",
+      "status": "reported",
       "sentiment": "Mixed",
-      "why": "Rev $228M (+66% q/q) beat; AI cloud ~$200M (~triple) at 86% GM; backlog to $20.3B with new $22M/MW 5y deal; session ~-17% on MSFT TX DC delays then rebounded AH on print"
+      "why": "Adj EPS 53c vs 50c, rev $1.90B vs $1.89B; Q4 rev guide $1.98-2.03B vs $2.002B est, EPS 54-64c vs 56c"
     },
     {
-      "ticker": "MCHP",
-      "company": "Microchip (MCHP)",
-      "date": "2026-11-05",
-      "when": "AMC",
+      "ticker": "DDOG",
+      "company": "Datadog (DDOG)",
+      "date": "2026-11-04",
+      "when": "BMO",
       "status": "reported",
-      "reaction": "~-6% AH",
+      "reaction": "~-15% premarket",
       "sentiment": "Bearish",
-      "why": "EPS $0.97 vs $0.93, rev $1.62B; Q3 FY27 guide EPS $0.87-0.95, rev $1.573-1.638B (mid ~$1.605B below ~$1.62B) on industrial/auto inventory digestion"
+      "why": "Rev $1.20B +35% y/y vs ~$1.14-1.15B est, adj EPS 81c vs ~64c beat, FCF $251M; Q4 rev guide $1.19-1.20B only in line, no acceleration, software sell-off"
     },
     {
-      "ticker": "NET",
-      "company": "Cloudflare (NET)",
-      "date": "2026-11-05",
+      "ticker": "ARM",
+      "company": "Arm Holdings (ARM)",
+      "date": "2026-11-04",
       "when": "AMC",
       "status": "reported",
-      "reaction": "~+17% AH",
+      "why": "Adj EPS $0.52 vs $0.47, rev $1.44B vs $1.38B (+27%), license +50% to $773M, but royalties $670M (+8%) missed ~$712-721M est; Q3 guide $1.49-1.59B rev, EPS $0.52-0.60, midpoints slightly above est",
+      "reaction": "~-3% AH (~$186)",
+      "sentiment": "Mixed"
+    },
+    {
+      "ticker": "APP",
+      "company": "AppLovin (APP)",
+      "date": "2026-11-04",
+      "when": "AMC",
+      "status": "reported",
+      "why": "Rev ~$2.185B vs ~$2.07-2.08B est (+55% y/y, first re-acceleration in 4 qtrs), EPS $4.30 vs ~$4.03; Q4 rev guide $2.365-2.395B; adj EBITDA ~$1.84B (84% margin), $1.4B buybacks",
+      "reaction": "~+17% AH (~$318)",
+      "sentiment": "Bullish"
+    },
+    {
+      "ticker": "SMCI",
+      "company": "Super Micro (SMCI)",
+      "date": "2026-11-03",
+      "when": "AMC",
+      "status": "reported",
+      "reaction": "~+6% AH",
       "sentiment": "Bullish",
-      "why": "Adj EPS $0.38 vs $0.34, rev $782.5M vs $736.8M (+39% y/y, fastest in ~4 yrs); FY26 rev guide $2.963-2.964B vs ~$2.87B, EPS $1.35 vs $1.26; Q4 rev $845-846M vs ~$798M"
+      "why": "Adj EPS $1.81 vs ~$1.06-1.24 est, sales ~$19.9B vs ~$16.2B est; Q2 guide $19.5-21.5B vs $16.53B, FY raised to $72-82B from $65-72B"
     },
     {
-      "ticker": "TEAM",
-      "company": "Atlassian (TEAM)",
-      "date": "2026-11-05",
+      "ticker": "SHOP",
+      "company": "Shopify (SHOP)",
+      "date": "2026-11-03",
+      "when": "BMO",
+      "status": "reported",
+      "why": "Rev $3.74B vs $3.75B slight miss, adj EPS 49c vs 48c beat, op income $568M vs $523.9M beat, GMV $119.15B vs $120.08B miss, MRR $230M in line; Q4 rev growth guided low-30s %; first revenue miss since 2022, GMV growth slowed to 29%, GM 47.6%; stock ~$156 to ~$130 premarket",
+      "sentiment": "Bearish",
+      "reaction": "~-15% premarket"
+    },
+    {
+      "ticker": "ANET",
+      "company": "Arista Networks (ANET)",
+      "date": "2026-11-03",
       "when": "AMC",
       "status": "reported",
-      "reaction": "~-16% AH",
-      "sentiment": "Bearish",
-      "why": "Adj EPS $1.65 vs $1.43, rev $1.77B vs $1.71B beat; Q2 FY27 rev guide $1.83-1.84B narrowly above ~$1.82B but cloud-subscription growth decelerating / cautious enterprise seat expansion"
+      "reaction": "~+7% AH",
+      "sentiment": "Bullish",
+      "why": "Rev $3.66B +58.5% y/y vs $3.33B est, adj EPS $1.20 vs $1.08 est; 2026 rev target raised to $13.3B, 2027 outlook $18.5B with AI fabrics seen doubling to ~$7B; closed +3.52% at $169.91 then rocketed AH"
     },
     {
-      "ticker": "CRWV",
-      "company": "CoreWeave (CRWV)",
-      "date": "2026-11-10",
+      "ticker": "AMD",
+      "company": "AMD (AMD)",
+      "date": "2026-11-03",
       "when": "AMC",
-      "status": "upcoming",
-      "why": "AI cloud GPU infra; NQ/AI sentiment mover"
+      "status": "reported",
+      "reaction": "+7% premarket, faded to ~+2% (briefly red) by 9:25 AM",
+      "sentiment": "Bullish",
+      "why": "Rev $13.38B vs $13.08B beat (+45% y/y), adj EPS $2.09 vs $1.97 beat, data center record $8.55B (~+97%, 64% of rev), adj GM 56%; Q4 guide ~$17B vs ~$16.2B est, 2027 growth outlook raised to >80%"
     },
     {
-      "ticker": "CSCO",
-      "company": "Cisco (CSCO)",
-      "date": "2026-11-11",
+      "ticker": "ALAB",
+      "company": "Astera Labs (ALAB)",
+      "date": "2026-11-03",
       "when": "AMC",
-      "status": "upcoming",
-      "why": "Networking/AI infra; large-cap NQ/S&P mover"
+      "status": "reported",
+      "reaction": "higher AH",
+      "sentiment": "Bullish",
+      "why": "Rev $584.9M +154% y/y vs $551M est, adj EPS $1.32 vs $1.19; Q4 guide $730-750M rev, EPS $1.62-1.66, well above est"
     },
     {
-      "ticker": "AMAT",
-      "company": "Applied Materials (AMAT)",
-      "date": "2026-11-12",
-      "when": "AMC",
-      "status": "upcoming",
-      "why": "Semi equipment; SOXX/NQ cycle read"
-    },
-    {
-      "ticker": "NBIS",
-      "company": "Nebius (NBIS)",
-      "date": "2026-11-12",
-      "when": "BMO",
-      "status": "upcoming",
-      "why": "AI infra; stock ~-40% in a month on short thesis, Q3 print"
-    },
-    {
-      "ticker": "CHTR",
-      "company": "Charter (CHTR)",
+      "ticker": "CEG",
+      "company": "Constellation Energy (CEG)",
       "date": "2026-11-06",
       "when": "BMO",
       "status": "upcoming",
-      "why": "Broadband/mobile adds and capex into midterm policy shift"
-    },
-    {
-      "ticker": "VST",
-      "company": "Vistra (VST)",
-      "date": "2026-11-06",
-      "when": "BMO",
-      "status": "upcoming",
-      "why": "Power/AI data-center demand name; watch adj EBITDA and guide"
-    },
-    {
-      "ticker": "WULF",
-      "company": "TeraWulf (WULF)",
-      "date": "2026-11-06",
-      "when": "BMO",
-      "status": "upcoming",
-      "why": "Mining-to-HPC/AI lease mix; capacity contracted"
+      "why": "Nuclear power / AI load; date estimated on some calendars"
     },
     {
       "ticker": "OKLO",
@@ -266,20 +228,36 @@
       "why": "Nuclear/AI power licensing milestones"
     },
     {
-      "ticker": "HUM",
-      "company": "Humana (HUM)",
-      "date": "2026-11-06",
-      "when": "BMO",
+      "ticker": "CRWV",
+      "company": "CoreWeave (CRWV)",
+      "date": "2026-11-10",
+      "when": "AMC",
       "status": "upcoming",
-      "why": "Medicare Advantage membership and benefit ratio"
+      "why": "Neocloud / AI infra; high-beta NQ satellite"
     },
     {
-      "ticker": "CEG",
-      "company": "Constellation Energy (CEG)",
-      "date": "2026-11-06",
+      "ticker": "CSCO",
+      "company": "Cisco (CSCO)",
+      "date": "2026-11-11",
+      "when": "AMC",
+      "status": "upcoming",
+      "why": "Networking / AI fabrics read for NQ"
+    },
+    {
+      "ticker": "AMAT",
+      "company": "Applied Materials (AMAT)",
+      "date": "2026-11-12",
+      "when": "AMC",
+      "status": "upcoming",
+      "why": "Semi capex / AI wafer fab equipment — SOXX driver"
+    },
+    {
+      "ticker": "NBIS",
+      "company": "Nebius (NBIS)",
+      "date": "2026-11-12",
       "when": "BMO",
       "status": "upcoming",
-      "why": "Nuclear power / AI load; date estimated on some calendars"
+      "why": "AI cloud / neocloud; high-beta NQ satellite"
     }
   ]
 }
