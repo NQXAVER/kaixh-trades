@@ -2,54 +2,54 @@
   "date": "2026-11-06",
   "grok": {
     "date": "2026-11-06",
-    "at": "2026-11-06T15:08:06Z",
-    "pulse": "NQ open bid ~+1.3-2% with chips ripping (NVDA as much as +7.3%) after Thu's ~5.5% Dem-AI wipeout; hot Oct NFP (165k) lifts Dec hike odds while IRGC drone claim vs Iran diplomacy keeps geopolitics two-way.",
-    "bias": "mixed — chip/AI dip-buy and Hassett data-center support lift NQ into the open, but strong jobs/hike odds, Dem AI overhang, and Iran/Hormuz headlines keep risk fragile.",
+    "at": "2026-11-06T21:26:16Z",
+    "pulse": "Nasdaq closed +1.46% / S&P +0.65% with SOXX +3.5% chip rebound after Thu's Dem-AI wipeout; VIX crushed ~14% to 24.14, but hot Oct NFP (+165k) keeps Dec hike odds ~77% and WTI ~$90.8 on Iran.",
+    "bias": "mixed \u2014 semis/AI dip-buy and VIX crush lift the close, but Dec hike odds, Dem AI/DC regulation overhang, and still-elevated oil keep risk fragile into the weekend.",
     "items": [
-      "@FirstSquawk (~9:54 AM ET): NVDA rises as much as +7.3% after Thu -9.3% — Bullish NQ",
-      "@FirstSquawk (~9:43 AM ET): NDX +2%, S&P +0.8% after cash open — Bullish NQ",
-      "@DeItaone (~9:12 AM ET): Hassett — plenty of room for data-center growth to continue — Bullish NQ",
-      "@DeItaone (~9:01 AM ET): IRGC claims shot down US MQ-1 drone over Qeshm near Hormuz — Bearish NQ",
-      "@DeItaone (~9:44 AM ET): Iran signals positive response to US mediator proposal — Mixed NQ"
+      "Investing.com (~4:00 PM ET): Nasdaq +1.46% S&P +0.65% Dow -0.26%; VIX -14.25% to 24.14; WTI $90.72 Brent $98.16 \u2014 Bullish NQ",
+      "@TheETFTracker (~4:25 PM ET): SOXX +3.54% SMH +3.63% after Thu chip rout \u2014 Bullish NQ",
+      "@unusual_whales (~1:59 PM ET): 41% of pending US data-center capacity in states where new govs pledge pause/stop \u2014 Bearish NQ",
+      "@DeItaone (~1:37 PM ET): MS warns 12GW US data-center capacity at risk by 2030 post Dem midterms \u2014 Bearish NQ",
+      "@FirstSquawk (~2:51 PM ET): Trump 'we're talking to Iran'; WTI settle $90.83 (+0.34%) \u2014 Mixed NQ"
     ],
-    "trump": "Blamed Dem midterm sweep for one of the worst market days in history; earlier posted 100% in favor of AI/superintelligence as \"GOLD\" and only foolish leadership would oppose it. No new posts this morning.",
-    "watch": "Hold of NQ/SOXX bounce after open; UMich 10:00 AM ET; Dec FOMC hike odds post-165k NFP; Iran drone vs diplomacy/Hormuz; Dem AI/data-center bills; weekend geopolitics.",
+    "trump": "Said \"WE ARE TALKING TO IRAN\"; praised \"most incredible job numbers\"; named Stephen Miller WH Chief of Staff from Mon Nov 9 after Susie Wiles resigned Thu night. Earlier: blamed Dem midterm sweep for historic market drop; posted 100% in favor of AI/SI as \"GOLD\".",
+    "watch": "Monday open hold of NQ/SOXX bounce; Nov 10 CPI 8:30 AM ET; Dec 8-9 FOMC (~77% 25bp hike odds); Iran talks vs Hormuz/oil; Dem AI/data-center bills; CEG/TTWO Mon; CRWV AMC Tue Nov 10.",
     "forSite": [],
     "reports": [
       {
         "at": "2026-11-06T12:00:33Z",
         "pulse": "NQ scrapes thin overnight bounce after Thursday's ~5.5-6% AI/Dem regulation wipeout into Friday NFP, with VIX elevated and oil soft on Iran de-escalation.",
-        "bias": "risk-off — AI/semis capitulation and data-center political risk from Dem sweep outweigh thin futures bounce and softer oil into NFP.",
+        "bias": "risk-off \u2014 AI/semis capitulation and data-center political risk from Dem sweep outweigh thin futures bounce and softer oil into NFP.",
         "items": [
-          "@RomeroAyub (~7:00 AM ET): Nasdaq -5.5% entered correction, chips -12%, NVDA -9% on AI doubts — Bearish NQ",
-          "@MicNguyenn (~7:00 AM ET): VIX spiked to 28.09 on Nov 5 from 16.61, signaling protection demand — Bearish NQ",
-          "@almayadeen_es (~7:00 AM ET): Iran sends nuclear proposal to US via Qatar — Mixed NQ",
-          "@WatcherGuru (prior): KOSPI circuit breaker and Nikkei bear on AI spillover — Bearish NQ",
-          "X tape (~overnight): Thin NQ futures rebound into NFP after SOX -12% — Mixed NQ"
+          "@RomeroAyub (~7:00 AM ET): Nasdaq -5.5% entered correction, chips -12%, NVDA -9% on AI doubts \u2014 Bearish NQ",
+          "@MicNguyenn (~7:00 AM ET): VIX spiked to 28.09 on Nov 5 from 16.61, signaling protection demand \u2014 Bearish NQ",
+          "@almayadeen_es (~7:00 AM ET): Iran sends nuclear proposal to US via Qatar \u2014 Mixed NQ",
+          "@WatcherGuru (prior): KOSPI circuit breaker and Nikkei bear on AI spillover \u2014 Bearish NQ",
+          "X tape (~overnight): Thin NQ futures rebound into NFP after SOX -12% \u2014 Mixed NQ"
         ],
-        "trump": "Said the stock market suffered \"one of the worst days in history\" based on midterm results; added \"Do not fear… we will soon… be bigger and stronger than ever before.\"",
+        "trump": "Said the stock market suffered \"one of the worst days in history\" based on midterm results; added \"Do not fear\u2026 we will soon\u2026 be bigger and stronger than ever before.\"",
         "watch": "Friday NFP/UE/AHE 8:30 AM ET reaction; oil/Iran nuclear talks or Hormuz headlines; Dem AI/data-center regulation; Dec FOMC hike odds; overnight futures hold after correction.",
         "forSite": []
       },
       {
         "at": "2026-11-06T12:30:06Z",
         "pulse": "NQ futures bounce ~+1.4-1.7% with SOXX/chips ripping (MU/AMD/NVDA) as Trump backs AI hard after Thu's ~5.5% Dem-regulation wipeout; NFP 8:30 and Iran 'practical moves' demand keep tape two-way.",
-        "bias": "mixed — Trump AI endorsement and chip dip-buying lift NQ futures, but Dem AI/data-center overhang, AI-capex pullback talk, and NFP/hike risk keep risk fragile.",
+        "bias": "mixed \u2014 Trump AI endorsement and chip dip-buying lift NQ futures, but Dem AI/data-center overhang, AI-capex pullback talk, and NFP/hike risk keep risk fragile.",
         "items": [
-          "@DeItaone (~6:57 AM ET): Chip premarket rebound MU +9.2% AMD +8.3% ARM +7.4% NVDA +5% SOXX +5.9% — Bullish NQ",
-          "@FirstSquawk / Trump (~7:04 AM ET): Trump 100% in favor of AI/SI; \"only foolish leadership\" says no — Bullish NQ",
-          "@unusual_whales (~6:18 AM ET): Lawmakers summon NVDA Jensen Huang over China spy concerns (FT) — Bearish NQ",
-          "@unusual_whales (~7:18 AM ET): Cos pull back on AI spend, treat as margin cost not growth (Apollo) — Bearish NQ",
-          "@DeItaone (~6:28 AM ET): Iran needs practical US moves before any diplomacy — Mixed NQ"
+          "@DeItaone (~6:57 AM ET): Chip premarket rebound MU +9.2% AMD +8.3% ARM +7.4% NVDA +5% SOXX +5.9% \u2014 Bullish NQ",
+          "@FirstSquawk / Trump (~7:04 AM ET): Trump 100% in favor of AI/SI; \"only foolish leadership\" says no \u2014 Bullish NQ",
+          "@unusual_whales (~6:18 AM ET): Lawmakers summon NVDA Jensen Huang over China spy concerns (FT) \u2014 Bearish NQ",
+          "@unusual_whales (~7:18 AM ET): Cos pull back on AI spend, treat as margin cost not growth (Apollo) \u2014 Bearish NQ",
+          "@DeItaone (~6:28 AM ET): Iran needs practical US moves before any diplomacy \u2014 Mixed NQ"
         ],
-        "trump": "Posted 100% in favor of Super Intelligence/AI; will work with US states embracing it; called AI \"GOLD\" and said only \"foolish leadership\" would say no — offsets Dem AI/superintelligence ban fears after midterms.",
+        "trump": "Posted 100% in favor of Super Intelligence/AI; will work with US states embracing it; called AI \"GOLD\" and said only \"foolish leadership\" would say no \u2014 offsets Dem AI/superintelligence ban fears after midterms.",
         "watch": "NFP/UE/AHE 8:30 AM ET (cons ~65K / 4.2% UE); cash open SOXX/NVDA hold of bounce; Iran diplomacy vs Hormuz tanker hits; Dem AI/data-center bills; Dec FOMC hike odds post-NFP.",
         "forSite": []
       },
       {
         "at": "2026-11-06T14:21:53Z",
         "pulse": "NQ futures rebound +1.3-1.4% with chips (MU/AMD/NVDA) bouncing hard after Thursday's ~5.5-6% AI selloff on Dem regulation fears, even as strong Oct NFP (165k vs 65k) lifts Dec hike odds and oil holds near $91 on unresolved Iran.",
-        "bias": "mixed — chip/AI dip-buying and Trump AI support lift futures, but strong jobs, Dem AI overhang, and Iran/oil geopolitics keep risk fragile into cash open.",
+        "bias": "mixed \u2014 chip/AI dip-buying and Trump AI support lift futures, but strong jobs, Dem AI overhang, and Iran/oil geopolitics keep risk fragile into cash open.",
         "items": [
           "@RektMkts (~9:21 AM ET): NFP 165k vs 65k expected, UE 4.1%; NQ futures +1.3%, MU/Sandisk bouncing 8-10% after bloodbath",
           "@WeAreBilig (~9:21 AM ET): Chip premarket bounce SanDisk +12% MU +8% AMD +8% NVDA +3%; NQ100 futures +1.3% after SOX -12%",
@@ -64,16 +64,46 @@
       {
         "at": "2026-11-06T15:08:06Z",
         "pulse": "NQ open bid ~+1.3-2% with chips ripping (NVDA as much as +7.3%) after Thu's ~5.5% Dem-AI wipeout; hot Oct NFP (165k) lifts Dec hike odds while IRGC drone claim vs Iran diplomacy keeps geopolitics two-way.",
-        "bias": "mixed — chip/AI dip-buy and Hassett data-center support lift NQ into the open, but strong jobs/hike odds, Dem AI overhang, and Iran/Hormuz headlines keep risk fragile.",
+        "bias": "mixed \u2014 chip/AI dip-buy and Hassett data-center support lift NQ into the open, but strong jobs/hike odds, Dem AI overhang, and Iran/Hormuz headlines keep risk fragile.",
         "items": [
-          "@FirstSquawk (~9:54 AM ET): NVDA rises as much as +7.3% after Thu -9.3% — Bullish NQ",
-          "@FirstSquawk (~9:43 AM ET): NDX +2%, S&P +0.8% after cash open — Bullish NQ",
-          "@DeItaone (~9:12 AM ET): Hassett — plenty of room for data-center growth to continue — Bullish NQ",
-          "@DeItaone (~9:01 AM ET): IRGC claims shot down US MQ-1 drone over Qeshm near Hormuz — Bearish NQ",
-          "@DeItaone (~9:44 AM ET): Iran signals positive response to US mediator proposal — Mixed NQ"
+          "@FirstSquawk (~9:54 AM ET): NVDA rises as much as +7.3% after Thu -9.3% \u2014 Bullish NQ",
+          "@FirstSquawk (~9:43 AM ET): NDX +2%, S&P +0.8% after cash open \u2014 Bullish NQ",
+          "@DeItaone (~9:12 AM ET): Hassett \u2014 plenty of room for data-center growth to continue \u2014 Bullish NQ",
+          "@DeItaone (~9:01 AM ET): IRGC claims shot down US MQ-1 drone over Qeshm near Hormuz \u2014 Bearish NQ",
+          "@DeItaone (~9:44 AM ET): Iran signals positive response to US mediator proposal \u2014 Mixed NQ"
         ],
         "trump": "Blamed Dem midterm sweep for one of the worst market days in history; earlier posted 100% in favor of AI/superintelligence as \"GOLD\" and only foolish leadership would oppose it. No new posts this morning.",
         "watch": "Hold of NQ/SOXX bounce after open; UMich 10:00 AM ET; Dec FOMC hike odds post-165k NFP; Iran drone vs diplomacy/Hormuz; Dem AI/data-center bills; weekend geopolitics.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-06T21:19:02Z",
+        "pulse": "Nasdaq closed +1.09% / NQ100 +1.35% with SOX +4% chip rebound after Thursday's ~5.5% Dem-AI wipeout, but hot Oct NFP (+165k) lifts Dec hike odds to ~78% while WTI holds near $90.60 on Iran tensions.",
+        "bias": "mixed \u2014 chip/AI dip-buy and semis bounce lift the close, but strong jobs/hike odds and Dem AI regulation overhang keep risk fragile into the weekend.",
+        "items": [
+          "@CTKCapitalIntel (~4:16 PM ET): Nasdaq +1.09% NQ100 +1.35% SMH ~+3.6% after AI washout; Dec 25bp hike odds ~78% post-165k NFP, WTI $90.60",
+          "@takashi104_fire (~4:16 PM ET): SOX +4.21% after Thu collapse, NVDA +2.8% AMD +11% MU +5%; Dec hike odds ~77%",
+          "@treasuryox (~4:18 PM ET): Tech/semis led Friday rebound after Thursday brutal selloff; one green session doesn't erase the week",
+          "@stoqmarket (~4:18 PM ET): Bull chips bounce and strong jobs vs Bear Nasdaq still in correction and Dec hike odds jumped, AI rules unclear \u2014 mixed",
+          "@MarketNews_Feed (~4:16 PM ET): Chipmakers rebound as dip buyers lift stocks despite Fed rate-hike bets"
+        ],
+        "trump": "Midterms loss partly tied to Iran war execution and oil/inflation impact; Vance noted war as factor, Trump broadly agreed. Earlier blamed Dem sweep for historic market drop and backed AI as GOLD.",
+        "watch": "Monday open hold of NQ/SOXX bounce; Nov 10 CPI; Dec 8-9 FOMC with ~78% hike odds; Iran/Hormuz headlines; Dem AI/data-center regulation bills.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-06T21:26:16Z",
+        "pulse": "Nasdaq closed +1.46% / S&P +0.65% with SOXX +3.5% chip rebound after Thu's Dem-AI wipeout; VIX crushed ~14% to 24.14, but hot Oct NFP (+165k) keeps Dec hike odds ~77% and WTI ~$90.8 on Iran.",
+        "bias": "mixed \u2014 semis/AI dip-buy and VIX crush lift the close, but Dec hike odds, Dem AI/DC regulation overhang, and still-elevated oil keep risk fragile into the weekend.",
+        "items": [
+          "Investing.com (~4:00 PM ET): Nasdaq +1.46% S&P +0.65% Dow -0.26%; VIX -14.25% to 24.14; WTI $90.72 Brent $98.16 \u2014 Bullish NQ",
+          "@TheETFTracker (~4:25 PM ET): SOXX +3.54% SMH +3.63% after Thu chip rout \u2014 Bullish NQ",
+          "@unusual_whales (~1:59 PM ET): 41% of pending US data-center capacity in states where new govs pledge pause/stop \u2014 Bearish NQ",
+          "@DeItaone (~1:37 PM ET): MS warns 12GW US data-center capacity at risk by 2030 post Dem midterms \u2014 Bearish NQ",
+          "@FirstSquawk (~2:51 PM ET): Trump 'we're talking to Iran'; WTI settle $90.83 (+0.34%) \u2014 Mixed NQ"
+        ],
+        "trump": "Said \"WE ARE TALKING TO IRAN\"; praised \"most incredible job numbers\"; named Stephen Miller WH Chief of Staff from Mon Nov 9 after Susie Wiles resigned Thu night. Earlier: blamed Dem midterm sweep for historic market drop; posted 100% in favor of AI/SI as \"GOLD\".",
+        "watch": "Monday open hold of NQ/SOXX bounce; Nov 10 CPI 8:30 AM ET; Dec 8-9 FOMC (~77% 25bp hike odds); Iran talks vs Hormuz/oil; Dem AI/data-center bills; CEG/TTWO Mon; CRWV AMC Tue Nov 10.",
         "forSite": []
       }
     ]

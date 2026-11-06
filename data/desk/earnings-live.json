@@ -1,7 +1,17 @@
 {
   "date": "2026-11-06",
-  "at": "2026-11-06T15:08:06Z",
+  "at": "2026-11-06T21:26:16Z",
   "items": [
+    {
+      "ticker": "OKLO",
+      "company": "Oklo (OKLO)",
+      "date": "2026-11-06",
+      "when": "BMO",
+      "status": "reported",
+      "reaction": "~+16-25% session",
+      "sentiment": "Bullish",
+      "why": "Loss $0.22 vs $0.27 est, rev $1.86M vs $1.01M; $3.13B cash; AI-power/nuclear rebound with group"
+    },
     {
       "ticker": "WULF",
       "company": "TeraWulf (WULF)",
@@ -200,14 +210,6 @@
       "reaction": "higher AH",
       "sentiment": "Bullish",
       "why": "Rev $584.9M +154% y/y vs $551M est, adj EPS $1.32 vs $1.19; Q4 guide $730-750M rev, EPS $1.62-1.66, well above est"
-    },
-    {
-      "ticker": "OKLO",
-      "company": "Oklo (OKLO)",
-      "date": "2026-11-06",
-      "when": "BMO",
-      "status": "upcoming",
-      "why": "Nuclear / AI power microreactor; speculative AI-infra satellite"
     },
     {
       "ticker": "CEG",
