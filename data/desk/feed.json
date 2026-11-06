@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T06:58:59Z",
+  "updatedAt": "2026-11-06T15:59:40Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -183,9 +183,9 @@
     {
       "id": "un-peace",
       "label": "UN News",
-      "ok": true,
-      "items": 20,
-      "error": null
+      "ok": false,
+      "items": 0,
+      "error": "ParseError: not well-formed (invalid token): line 1, column 0"
     },
     {
       "id": "wsj-biz",
@@ -203,6 +203,42 @@
     }
   ],
   "items": [
+    {
+      "id": "f1bba22c956c2",
+      "headline": "Oil Prices Plunge as U.S. Elections Shake Up the Iran War",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Energy/Energy-General/Oil-Prices-Plunge-as-US-Elections-Shake-Up-the-Iran-War.html",
+      "publishedAt": "2026-11-06T12:30:00Z",
+      "time": "Fri 7:30 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "fef4646022830",
+      "headline": "India’s HPCL Struggles to Secure Oil Tankers as Hormuz Risks Persist",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Indias-HPCL-Struggles-to-Secure-Oil-Tankers-as-Hormuz-Risks-Persist.html",
+      "publishedAt": "2026-11-06T11:15:00Z",
+      "time": "Fri 6:15 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "f29bf33dd6f14",
+      "headline": "Major construction ongoing near Iran missile bases, satellite images suggest",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/ckjrwx1r2d5ro?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-11-06T07:33:41Z",
+      "time": "Fri 2:33 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
     {
       "id": "f878c51729664",
       "headline": "Why is Iran exempting India, China, Qatar, Iraq from Hormuz restrictions?",
@@ -288,42 +324,6 @@
       "auto": true
     },
     {
-      "id": "f2b82ea53b1c6",
-      "headline": "South Korea says it will expand naval operations closer to strait of Hormuz",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/nov/05/south-korea-to-expand-anti-piracy-unit-strait-of-hormuz",
-      "publishedAt": "2026-11-05T04:22:49Z",
-      "time": "Wed 11:22 PM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "feb00ff29ca0e",
-      "headline": "Africa’s LNG Exports Set to Soar 175% as Buyers Flee Hormuz",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Energy/Natural-Gas/Africas-LNG-Exports-Set-to-Soar-175-as-Buyers-Flee-Hormuz.html",
-      "publishedAt": "2026-11-05T01:00:00Z",
-      "time": "Wed 8:00 PM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "f0edc548ac647",
-      "headline": "Qatar Becomes Largest Buyer of U.S. LNG Amid Hormuz Crisis",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Energy/Natural-Gas/Qatar-Becomes-Largest-Buyer-of-US-LNG-Amid-Hormuz-Crisis.html",
-      "publishedAt": "2026-11-04T23:00:00Z",
-      "time": "Wed 6:00 PM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
       "id": "fa2e94f96d9e7",
       "headline": "Barkin sees interest rate hikes ahead, but at a gradual pace",
       "source": "CNBC",
@@ -345,6 +345,30 @@
       "section": "fed",
       "impact": "High",
       "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "f2641839f2398",
+      "headline": "Stable Labor Market Keeps Fed on Track to Raise Rates Gradually",
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/2026/11/06/business/economy/stable-labor-market-to-keep-fed-on-track-to-raise-rates-gradually.html",
+      "publishedAt": "2026-11-06T13:45:01Z",
+      "time": "Fri 8:45 AM",
+      "section": "fed",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f5c6c6af8c651",
+      "headline": "Democratic sweep gives markets a reason to rethink path of interest rates",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/06/oil-prices-interest-rates-midterms.html",
+      "publishedAt": "2026-11-06T12:30:40Z",
+      "time": "Fri 7:30 AM",
+      "section": "fed",
+      "impact": "Medium",
+      "lean": null,
       "auto": true
     },
     {
@@ -420,26 +444,26 @@
       "auto": true
     },
     {
-      "id": "fba94ad2fb600",
-      "headline": "Three ways the interest rate rise could affect you",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cx4g1q3vlp62o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-11-05T13:08:30Z",
-      "time": "Thu 8:08 AM",
-      "section": "fed",
-      "impact": "Medium",
+      "id": "f03247e421cbd",
+      "headline": "10-year Treasury yield rises after much stronger-than-expected October jobs report",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/06/treasury-yields-inch-lower-as-investors-look-ahead-to-key-jobs-data-.html",
+      "publishedAt": "2026-11-06T14:08:00Z",
+      "time": "Fri 9:08 AM",
+      "section": "econ",
+      "impact": "High",
       "lean": null,
       "auto": true
     },
     {
-      "id": "f3f657bacb315",
-      "headline": "White House Delays Hearing on Fed Governor",
-      "source": "New York Times",
-      "url": "https://www.nytimes.com/2026/11/04/business/trump-lisa-cook-fed-governor.html",
-      "publishedAt": "2026-11-04T22:55:30Z",
-      "time": "Wed 5:55 PM",
-      "section": "fed",
-      "impact": "Medium",
+      "id": "f139996973bca",
+      "headline": "Judge halts construction of Trump's arch. And, Labor Department to release jobs report",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/11/06/g-s1-152213/up-first-newsletter-job-market-trump-arch-school-enrollment-harmeet-dhillon",
+      "publishedAt": "2026-11-06T12:24:52Z",
+      "time": "Fri 7:24 AM",
+      "section": "econ",
+      "impact": "High",
       "lean": null,
       "auto": true
     },
@@ -480,6 +504,18 @@
       "auto": true
     },
     {
+      "id": "f53f292be09a3",
+      "headline": "U.S. economy added 165,000 jobs in October, way more than expected; unemployment rate slips to 4.1%",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html",
+      "publishedAt": "2026-11-06T14:57:35Z",
+      "time": "Fri 9:57 AM",
+      "section": "econ",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "fd01f0889931f",
       "headline": "US midterm results a 'victory' for Canadians hopeful of tariff relief",
       "source": "BBC",
@@ -513,6 +549,18 @@
       "section": "econ",
       "impact": "Medium",
       "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fae09f43f96ab",
+      "headline": "Anthropic IPO announcement odds drop on Kalshi following midterms and AI sell-off",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/06/anthropic-ipo-kalshi-post-midterms-ai-sell-off.html",
+      "publishedAt": "2026-11-06T15:55:32Z",
+      "time": "Fri 10:55 AM",
+      "section": "tech",
+      "impact": "High",
+      "lean": "risk-off",
       "auto": true
     },
     {
@@ -624,15 +672,27 @@
       "auto": true
     },
     {
-      "id": "f949c33d9fa65",
-      "headline": "Neocloud IREN says $4 billion in annualized revenue being delayed due to customer request",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/05/iren-earnings-report-q1-2027-.html",
-      "publishedAt": "2026-11-05T23:25:02Z",
-      "time": "Thu 6:25 PM",
-      "section": "tech",
-      "impact": "Medium",
-      "lean": null,
+      "id": "f4e58a9bafe41",
+      "headline": "Asia’s Fuel Oil Market Signals Hopes of U.S.-Iran De-Escalation",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Asias-Fuel-Oil-Market-Signals-Hopes-of-US-Iran-De-Escalation.html",
+      "publishedAt": "2026-11-06T12:30:00Z",
+      "time": "Fri 7:30 AM",
+      "section": "energy",
+      "impact": "High",
+      "lean": "mixed",
+      "auto": true
+    },
+    {
+      "id": "f13a2dbbdcb70",
+      "headline": "China’s Carbon Emissions Plunge 3.1% as Oil Demand Slumps",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Carbon-Emissions-Plunge-31-as-Oil-Demand-Slumps.html",
+      "publishedAt": "2026-11-06T08:45:00Z",
+      "time": "Fri 3:45 AM",
+      "section": "energy",
+      "impact": "High",
+      "lean": "risk-off",
       "auto": true
     },
     {
@@ -672,14 +732,50 @@
       "auto": true
     },
     {
-      "id": "f8bc29cea2603",
-      "headline": "Iraq's Oil Exports via Turkey Surge to 500,000 Bpd",
+      "id": "fd54db1a7d25e",
+      "headline": "Energy Aspects Slashes Forecast of China’s November Diesel Exports",
       "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Iraqs-Oil-Exports-via-Turkey-Surge-to-500000-Bpd.html",
-      "publishedAt": "2026-11-02T10:00:00Z",
-      "time": "Mon 5:00 AM",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Energy-Aspects-Slashes-Forecast-of-Chinas-November-Diesel-Exports.html",
+      "publishedAt": "2026-11-06T15:30:00Z",
+      "time": "Fri 10:30 AM",
       "section": "energy",
-      "impact": "High",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f585af9345b0d",
+      "headline": "U.S. crude oil imports from Venezuela in July were highest since 2017",
+      "source": "EIA",
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=68425",
+      "publishedAt": "2026-11-06T14:00:00Z",
+      "time": "Fri 9:00 AM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fa3f9c5b20bb0",
+      "headline": "ADNOC Expands LNG Empire With Major New India Supply Deal",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/ADNOC-Expands-LNG-Empire-With-Major-New-India-Supply-Deal.html",
+      "publishedAt": "2026-11-06T10:15:00Z",
+      "time": "Fri 5:15 AM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f7c41f3a054d5",
+      "headline": "The Global Oil Glut Returns as High Prices Crush Demand",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/The-Global-Oil-Glut-Returns-as-High-Prices-Crush-Demand.html",
+      "publishedAt": "2026-11-06T07:30:00Z",
+      "time": "Fri 2:30 AM",
+      "section": "energy",
+      "impact": "Medium",
       "lean": null,
       "auto": true
     },
@@ -696,63 +792,51 @@
       "auto": true
     },
     {
-      "id": "f28054c6e5acc",
-      "headline": "U.S. Shale Giants Hold Back on Drilling Despite Higher Oil Prices",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Energy/Crude-Oil/US-Shale-Giants-Hold-Back-on-Drilling-Despite-Higher-Oil-Prices.html",
-      "publishedAt": "2026-11-06T00:00:00Z",
-      "time": "Thu 7:00 PM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f78331ccf80e8",
-      "headline": "India's Renewables Have Saved $100 Billion in Fuel Imports, IEA Says",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Alternative-Energy/Renewable-Energy/Indias-Renewables-Have-Saved-100-Billion-in-Fuel-Imports-IEA-Says.html",
-      "publishedAt": "2026-11-05T22:00:00Z",
-      "time": "Thu 5:00 PM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "fe5ecfccbcdf2",
-      "headline": "Oil Prices Rebound Sharply After Brutal Midweek Rout",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Rebound-Sharply-After-Brutal-Midweek-Rout.html",
-      "publishedAt": "2026-11-05T19:30:00Z",
-      "time": "Thu 2:30 PM",
-      "section": "energy",
+      "id": "fd994a1d05245",
+      "headline": "Global stocks plunge amid AI slowdown fears after Democrats’ midterm triumph",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/nov/06/global-stocks-plunge-amid-ai-slowdown-fears-after-democrats-midterm-triumph",
+      "publishedAt": "2026-11-06T15:48:36Z",
+      "time": "Fri 10:48 AM",
+      "section": "markets",
       "impact": "Medium",
       "lean": "risk-off",
       "auto": true
     },
     {
-      "id": "fd644d2fcd728",
-      "headline": "U.S. Refineries Make Dramatic Shift Away From Gasoline",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Energy/Energy-General/US-Refineries-Make-Dramatic-Shift-Away-From-Gasoline.html",
-      "publishedAt": "2026-11-05T18:00:00Z",
-      "time": "Thu 1:00 PM",
-      "section": "energy",
+      "id": "f61f791360461",
+      "headline": "Global Stocks Follow U.S. Sell-Off as A.I. Spending Fears Spread",
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/2026/11/06/business/global-stocks-markets-tech-ai.html",
+      "publishedAt": "2026-11-06T15:07:20Z",
+      "time": "Fri 10:07 AM",
+      "section": "markets",
+      "impact": "Medium",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "f5c81cdefae99",
+      "headline": "Nasdaq drops into correction territory — here’s what typically happens next",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/05/nasdaq-drops-into-correction-territory-heres-what-typically-happens-next.html",
+      "publishedAt": "2026-11-06T13:47:43Z",
+      "time": "Fri 8:47 AM",
+      "section": "markets",
       "impact": "Medium",
       "lean": null,
       "auto": true
     },
     {
-      "id": "faf51655c50b7",
-      "headline": "Guyana’s Oil Boom Could Ease the Global Supply Crunch",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Energy/Energy-General/Guyanas-Oil-Boom-Could-Ease-the-Global-Supply-Crunch.html",
-      "publishedAt": "2026-11-05T17:00:00Z",
-      "time": "Thu 12:00 PM",
-      "section": "energy",
+      "id": "f943fc767f7aa",
+      "headline": "Nasdaq sell-off batters Asian chip stocks as SK Hynix, Samsung, Softbank, TSMC tumble",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/06/tech-stocks-sk-hynix-samsung-softbank.html",
+      "publishedAt": "2026-11-06T11:06:58Z",
+      "time": "Fri 6:06 AM",
+      "section": "markets",
       "impact": "Medium",
-      "lean": null,
+      "lean": "risk-off",
       "auto": true
     },
     {
@@ -768,18 +852,6 @@
       "auto": true
     },
     {
-      "id": "f943fc767f7aa",
-      "headline": "Nasdaq sell-off batters Asian chip stocks as SK Hynix, Samsung, Softbank, TSMC tumble",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/06/tech-stocks-sk-hynix-samsung-softbank.html",
-      "publishedAt": "2026-11-06T02:40:15Z",
-      "time": "Thu 9:40 PM",
-      "section": "markets",
-      "impact": "Medium",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
       "id": "fc9d95c35edc5",
       "headline": "Fears of an AI crackdown after midterms spark $2 trillion rout in tech stocks",
       "source": "NPR",
@@ -789,18 +861,6 @@
       "section": "markets",
       "impact": "Medium",
       "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "f5c81cdefae99",
-      "headline": "Nasdaq drops into correction territory — here’s what typically happens next",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/05/nasdaq-drops-into-correction-territory-heres-what-typically-happens-next.html",
-      "publishedAt": "2026-11-05T22:31:24Z",
-      "time": "Thu 5:31 PM",
-      "section": "markets",
-      "impact": "Medium",
-      "lean": null,
       "auto": true
     },
     {
@@ -849,18 +909,6 @@
       "section": "markets",
       "impact": "Medium",
       "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "f2255e07bd430",
-      "headline": "Micron and other chip stocks slip as election results strike at the core of data-center optimism",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/micron-and-other-chip-stocks-slip-as-election-results-strike-at-the-core-of-data-center-optimism-b55d19b3?mod=mw_rss_topstories",
-      "publishedAt": "2026-11-04T21:55:00Z",
-      "time": "Wed 4:55 PM",
-      "section": "markets",
-      "impact": "Medium",
-      "lean": null,
       "auto": true
     }
   ]
