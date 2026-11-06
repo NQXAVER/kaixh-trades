@@ -1,48 +1,15 @@
 {
-  "date": "2026-11-06",
-  "at": "2026-11-06T12:30:06Z",
-  "pulse": "NQ futures bounce ~+1.4-1.7% with SOXX/chips ripping (MU/AMD/NVDA) as Trump backs AI hard after Thu's ~5.5% Dem-regulation wipeout; NFP 8:30 and Iran 'practical moves' demand keep tape two-way.",
-  "bias": "mixed — Trump AI endorsement and chip dip-buying lift NQ futures, but Dem AI/data-center overhang, AI-capex pullback talk, and NFP/hike risk keep risk fragile.",
+  "at": "2026-11-06T14:21:53Z",
+  "pulse": "NQ futures rebound +1.3-1.4% with chips (MU/AMD/NVDA) bouncing hard after Thursday's ~5.5-6% AI selloff on Dem regulation fears, even as strong Oct NFP (165k vs 65k) lifts Dec hike odds and oil holds near $91 on unresolved Iran.",
+  "bias": "mixed \u2014 chip/AI dip-buying and Trump AI support lift futures, but strong jobs, Dem AI overhang, and Iran/oil geopolitics keep risk fragile into cash open.",
   "items": [
-    "@DeItaone (~6:57 AM ET): Chip premarket rebound MU +9.2% AMD +8.3% ARM +7.4% NVDA +5% SOXX +5.9% — Bullish NQ",
-    "@FirstSquawk / Trump (~7:04 AM ET): Trump 100% in favor of AI/SI; \"only foolish leadership\" says no — Bullish NQ",
-    "@unusual_whales (~6:18 AM ET): Lawmakers summon NVDA Jensen Huang over China spy concerns (FT) — Bearish NQ",
-    "@unusual_whales (~7:18 AM ET): Cos pull back on AI spend, treat as margin cost not growth (Apollo) — Bearish NQ",
-    "@DeItaone (~6:28 AM ET): Iran needs practical US moves before any diplomacy — Mixed NQ"
+    "@RektMkts (~9:21 AM ET): NFP 165k vs 65k expected, UE 4.1%; NQ futures +1.3%, MU/Sandisk bouncing 8-10% after bloodbath",
+    "@WeAreBilig (~9:21 AM ET): Chip premarket bounce SanDisk +12% MU +8% AMD +8% NVDA +3%; NQ100 futures +1.3% after SOX -12%",
+    "@HCFlowSniper (~9:20 AM ET): Futures mixed Dow -0.6% SPX +0.5% NQ +1.8%; tech rebound attempt post historic selloff, 10Y ~4.83%",
+    "Reuters (~9:41 AM ET): Nasdaq futures +1.41% as chips stabilize after $3T wipeout on fears of Dem AI regulation",
+    "@thebullbrew (~9:21 AM ET): Jobs shocker 165k crushes 65k forecast, UE to 4.1%; less room for Fed cuts, hike odds rise"
   ],
-  "trump": "Posted 100% in favor of Super Intelligence/AI; will work with US states embracing it; called AI \"GOLD\" and said only \"foolish leadership\" would say no — offsets Dem AI/superintelligence ban fears after midterms.",
-  "watch": "NFP/UE/AHE 8:30 AM ET (cons ~65K / 4.2% UE); cash open SOXX/NVDA hold of bounce; Iran diplomacy vs Hormuz tanker hits; Dem AI/data-center bills; Dec FOMC hike odds post-NFP.",
-  "forSite": [],
-  "reports": [
-    {
-      "at": "2026-11-06T12:00:33Z",
-      "pulse": "NQ scrapes thin overnight bounce after Thursday's ~5.5-6% AI/Dem regulation wipeout into Friday NFP, with VIX elevated and oil soft on Iran de-escalation.",
-      "bias": "risk-off — AI/semis capitulation and data-center political risk from Dem sweep outweigh thin futures bounce and softer oil into NFP.",
-      "items": [
-        "@RomeroAyub (~7:00 AM ET): Nasdaq -5.5% entered correction, chips -12%, NVDA -9% on AI doubts — Bearish NQ",
-        "@MicNguyenn (~7:00 AM ET): VIX spiked to 28.09 on Nov 5 from 16.61, signaling protection demand — Bearish NQ",
-        "@almayadeen_es (~7:00 AM ET): Iran sends nuclear proposal to US via Qatar — Mixed NQ",
-        "@WatcherGuru (prior): KOSPI circuit breaker and Nikkei bear on AI spillover — Bearish NQ",
-        "X tape (~overnight): Thin NQ futures rebound into NFP after SOX -12% — Mixed NQ"
-      ],
-      "trump": "Said the stock market suffered \"one of the worst days in history\" based on midterm results; added \"Do not fear… we will soon… be bigger and stronger than ever before.\"",
-      "watch": "Friday NFP/UE/AHE 8:30 AM ET reaction; oil/Iran nuclear talks or Hormuz headlines; Dem AI/data-center regulation; Dec FOMC hike odds; overnight futures hold after correction.",
-      "forSite": []
-    },
-    {
-      "at": "2026-11-06T12:30:06Z",
-      "pulse": "NQ futures bounce ~+1.4-1.7% with SOXX/chips ripping (MU/AMD/NVDA) as Trump backs AI hard after Thu's ~5.5% Dem-regulation wipeout; NFP 8:30 and Iran 'practical moves' demand keep tape two-way.",
-      "bias": "mixed — Trump AI endorsement and chip dip-buying lift NQ futures, but Dem AI/data-center overhang, AI-capex pullback talk, and NFP/hike risk keep risk fragile.",
-      "items": [
-        "@DeItaone (~6:57 AM ET): Chip premarket rebound MU +9.2% AMD +8.3% ARM +7.4% NVDA +5% SOXX +5.9% — Bullish NQ",
-        "@FirstSquawk / Trump (~7:04 AM ET): Trump 100% in favor of AI/SI; \"only foolish leadership\" says no — Bullish NQ",
-        "@unusual_whales (~6:18 AM ET): Lawmakers summon NVDA Jensen Huang over China spy concerns (FT) — Bearish NQ",
-        "@unusual_whales (~7:18 AM ET): Cos pull back on AI spend, treat as margin cost not growth (Apollo) — Bearish NQ",
-        "@DeItaone (~6:28 AM ET): Iran needs practical US moves before any diplomacy — Mixed NQ"
-      ],
-      "trump": "Posted 100% in favor of Super Intelligence/AI; will work with US states embracing it; called AI \"GOLD\" and said only \"foolish leadership\" would say no — offsets Dem AI/superintelligence ban fears after midterms.",
-      "watch": "NFP/UE/AHE 8:30 AM ET (cons ~65K / 4.2% UE); cash open SOXX/NVDA hold of bounce; Iran diplomacy vs Hormuz tanker hits; Dem AI/data-center bills; Dec FOMC hike odds post-NFP.",
-      "forSite": []
-    }
-  ]
+  "trump": "Blamed Dem midterm sweep for one of the worst market days in history; previously posted 100% in favor of AI/superintelligence as 'GOLD' and only foolish leadership would oppose it.",
+  "watch": "Cash open hold of NQ/SOXX bounce post-NFP; Dec FOMC hike odds after strong jobs; Iran diplomacy vs Hormuz headlines; Dem AI/data-center regulation; weekend geopolitics.",
+  "forSite": []
 }
