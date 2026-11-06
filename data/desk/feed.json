@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T22:46:58Z",
+  "updatedAt": "2026-11-06T03:16:40Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -183,9 +183,9 @@
     {
       "id": "un-peace",
       "label": "UN News",
-      "ok": true,
-      "items": 20,
-      "error": null
+      "ok": false,
+      "items": 0,
+      "error": "ParseError: not well-formed (invalid token): line 1, column 0"
     },
     {
       "id": "wsj-biz",
@@ -528,18 +528,6 @@
       "auto": true
     },
     {
-      "id": "fc825782a0eaa",
-      "headline": "War, tariffs and China: What the US midterms mean for the Asia-Pacific",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/11/2/war-tariffs-and-china-what-the-us-midterms-mean-for-the-asia-pacific?traffic_source=rss",
-      "publishedAt": "2026-11-02T23:41:18Z",
-      "time": "Mon 6:41 PM",
-      "section": "econ",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
       "id": "f4bcdcc3c3a70",
       "headline": "An Anthropic IPO when the AI trade is this turbulent? Goodspeed!",
       "source": "MarketWatch",
@@ -648,14 +636,14 @@
       "auto": true
     },
     {
-      "id": "f192382f72931",
-      "headline": "Apple’s new earnings era begins at a critical time for Big Tech",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/apples-new-earnings-era-begins-at-a-critical-time-for-big-tech-2236a44e?mod=mw_rss_topstories",
-      "publishedAt": "2026-11-02T00:21:00Z",
-      "time": "Sun 7:21 PM",
+      "id": "f949c33d9fa65",
+      "headline": "Neocloud IREN says $4 billion in annualized revenue being delayed due to customer request",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/05/iren-earnings-report-q1-2027-.html",
+      "publishedAt": "2026-11-05T23:25:02Z",
+      "time": "Thu 6:25 PM",
       "section": "tech",
-      "impact": "High",
+      "impact": "Medium",
       "lean": null,
       "auto": true
     },
@@ -692,6 +680,30 @@
       "time": "Mon 5:00 AM",
       "section": "energy",
       "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f126309fa6967",
+      "headline": "Oil Rebounds Toward $100 as Democrats’ Sweep Rattles Energy Stocks",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Energy/Energy-General/Oil-Rebounds-Toward-100-as-Democrats-Sweep-Rattles-Energy-Stocks.html",
+      "publishedAt": "2026-11-06T01:00:00Z",
+      "time": "Thu 8:00 PM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f28054c6e5acc",
+      "headline": "U.S. Shale Giants Hold Back on Drilling Despite Higher Oil Prices",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Energy/Crude-Oil/US-Shale-Giants-Hold-Back-on-Drilling-Despite-Higher-Oil-Prices.html",
+      "publishedAt": "2026-11-06T00:00:00Z",
+      "time": "Thu 7:00 PM",
+      "section": "energy",
+      "impact": "Medium",
       "lean": null,
       "auto": true
     },
@@ -756,27 +768,39 @@
       "auto": true
     },
     {
-      "id": "fa504c7a0afe8",
-      "headline": "World's largest olive oil company plummets 20% after rivals agree to takeover deal",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/05/deoleo-olive-oil-takeover-dcoop-acesur.html",
-      "publishedAt": "2026-11-05T14:25:23Z",
-      "time": "Thu 9:25 AM",
-      "section": "energy",
+      "id": "f9d5383ac0d35",
+      "headline": "Global tech stocks plunge as US midterms add to AI slowdown fears",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-11-06T02:57:24Z",
+      "time": "Thu 9:57 PM",
+      "section": "markets",
       "impact": "Medium",
-      "lean": null,
+      "lean": "risk-off",
       "auto": true
     },
     {
-      "id": "fb8cafeb80cd1",
-      "headline": "Refineries have shifted production away from gasoline to middle distillates",
-      "source": "EIA",
-      "url": "https://www.eia.gov/todayinenergy/detail.php?id=68424",
-      "publishedAt": "2026-11-05T14:00:00Z",
-      "time": "Thu 9:00 AM",
-      "section": "energy",
+      "id": "f943fc767f7aa",
+      "headline": "Nasdaq sell-off batters Asian chip stocks as SK Hynix, Samsung, Softbank, TSMC tumble",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/06/tech-stocks-sk-hynix-samsung-softbank.html",
+      "publishedAt": "2026-11-06T02:40:15Z",
+      "time": "Thu 9:40 PM",
+      "section": "markets",
       "impact": "Medium",
-      "lean": null,
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "fc9d95c35edc5",
+      "headline": "Fears of an AI crackdown after midterms spark $2 trillion rout in tech stocks",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/11/05/nx-s1-6031987/stock-markets-ai-midterm-elections",
+      "publishedAt": "2026-11-06T00:16:53Z",
+      "time": "Thu 7:16 PM",
+      "section": "markets",
+      "impact": "Medium",
+      "lean": "risk-off",
       "auto": true
     },
     {
@@ -789,18 +813,6 @@
       "section": "markets",
       "impact": "Medium",
       "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f119663c5b288",
-      "headline": "Major tech stocks plunge as US midterms add to fears of AI slowdown",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-11-05T22:13:38Z",
-      "time": "Thu 5:13 PM",
-      "section": "markets",
-      "impact": "Medium",
-      "lean": "risk-off",
       "auto": true
     },
     {
