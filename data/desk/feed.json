@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T21:58:18Z",
+  "updatedAt": "2026-11-07T01:46:54Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -360,6 +360,18 @@
       "auto": true
     },
     {
+      "id": "f1f9ea11f0c0c",
+      "headline": "Cramer’s week ahead: AI data center stocks face another hurdle and so does the Fed",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/06/cramer-coreweave-nebius-earnings.html",
+      "publishedAt": "2026-11-06T23:13:10Z",
+      "time": "Fri 6:13 PM",
+      "section": "fed",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "f5f9d77740750",
       "headline": "The AI ‘credit card’ is getting costlier as CoreWeave bond yield tops 16%",
       "source": "CNBC",
@@ -426,18 +438,6 @@
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261105a.htm",
       "publishedAt": "2026-11-05T16:00:00Z",
       "time": "Thu 11:00 AM",
-      "section": "fed",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "fd3db842fd3d7",
-      "headline": "Banks are turning cautious on lending, according to the Fed. What it means for the economy",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/05/fed-bank-lending-standards-small-business.html",
-      "publishedAt": "2026-11-05T13:52:38Z",
-      "time": "Thu 8:52 AM",
       "section": "fed",
       "impact": "Medium",
       "lean": null,
@@ -756,6 +756,18 @@
       "auto": true
     },
     {
+      "id": "fed83e6cd5c73",
+      "headline": "Wall Street’s “Energy Transition” Funds Are Packed With Natural Gas",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Energy/Natural-Gas/Wall-Streets-Energy-Transition-Funds-Are-Packed-With-Natural-Gas.html",
+      "publishedAt": "2026-11-06T23:00:00Z",
+      "time": "Fri 6:00 PM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "f0d42cd99f737",
       "headline": "America’s Nuclear Revival Is Running Into a Fuel Supply Wall",
       "source": "OilPrice",
@@ -774,18 +786,6 @@
       "url": "https://oilprice.com/Energy/Energy-General/Norways-Oil-and-Gas-Industry-Faces-a-Major-Decline-Without-New-Discoveries.html",
       "publishedAt": "2026-11-06T17:00:00Z",
       "time": "Fri 12:00 PM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "fd54db1a7d25e",
-      "headline": "Energy Aspects Slashes Forecast of China’s November Diesel Exports",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Energy-Aspects-Slashes-Forecast-of-Chinas-November-Diesel-Exports.html",
-      "publishedAt": "2026-11-06T15:30:00Z",
-      "time": "Fri 10:30 AM",
       "section": "energy",
       "impact": "Medium",
       "lean": null,
