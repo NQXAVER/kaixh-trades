@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T01:46:54Z",
+  "updatedAt": "2026-11-07T05:58:38Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -204,6 +204,18 @@
   ],
   "items": [
     {
+      "id": "fd671dd22cf66",
+      "headline": "Russia launches missile attack on Kyiv, injuring residents",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents?traffic_source=rss",
+      "publishedAt": "2026-11-07T05:11:03Z",
+      "time": "Sat 12:11 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
       "id": "f5e558cbe81d2",
       "headline": "Oil prices tumble for the week as investors weigh Iran conflict risk after midterm elections",
       "source": "CNBC",
@@ -309,18 +321,6 @@
       "section": "war",
       "impact": "High",
       "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "f12e0a8e71d91",
-      "headline": "Iran is Reviewing ‘Concrete Proposals’ on Nuclear Program, Officials Say",
-      "source": "New York Times",
-      "url": "https://www.nytimes.com/2026/11/05/world/middleeast/peace-talks-iran-united-states-qatar-nuclear-program.html",
-      "publishedAt": "2026-11-05T18:27:59Z",
-      "time": "Thu 1:27 PM",
-      "section": "war",
-      "impact": "High",
-      "lean": null,
       "auto": true
     },
     {
