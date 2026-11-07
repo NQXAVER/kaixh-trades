@@ -1,18 +1,18 @@
 {
   "date": "2026-11-06",
   "grok": {
-    "at": "2026-11-06T21:19:02Z",
-    "pulse": "Nasdaq closed +1.09% / NQ100 +1.35% with SOX +4% chip rebound after Thursday's ~5.5% Dem-AI wipeout, but hot Oct NFP (+165k) lifts Dec hike odds to ~78% while WTI holds near $90.60 on Iran tensions.",
-    "bias": "mixed — chip/AI dip-buy and semis bounce lift the close, but strong jobs/hike odds and Dem AI regulation overhang keep risk fragile into the weekend.",
+    "at": "2026-11-07T01:11:00Z",
+    "pulse": "NQ holds Friday's chip-led rebound after Thursday's steep AI selloff on Democratic Congress regulation fears, while oil is set for sharp weekly declines on Iran de-escalation hopes post-midterms and strong NFP keeps Dec hike odds elevated.",
+    "bias": "mixed — chip stabilization and NQ bounce offset AI regulation overhang from Dem midterms and higher rate odds from hot jobs, with oil soft on geopolitics.",
     "items": [
-      "@CTKCapitalIntel (~4:16 PM ET): Nasdaq +1.09% NQ100 +1.35% SMH ~+3.6% after AI washout; Dec 25bp hike odds ~78% post-165k NFP, WTI $90.60",
-      "@takashi104_fire (~4:16 PM ET): SOX +4.21% after Thu collapse, NVDA +2.8% AMD +11% MU +5%; Dec hike odds ~77%",
-      "@treasuryox (~4:18 PM ET): Tech/semis led Friday rebound after Thursday brutal selloff; one green session doesn't erase the week",
-      "@stoqmarket (~4:18 PM ET): Bull chips bounce and strong jobs vs Bear Nasdaq still in correction and Dec hike odds jumped, AI rules unclear — mixed",
-      "@MarketNews_Feed (~4:16 PM ET): Chipmakers rebound as dip buyers lift stocks despite Fed rate-hike bets"
+      "@blueStockmarket (~8:11 PM ET): Oil fell 13% this week; Nasdaq -3.4% (4th losing week), ~$2T off tech in one day on AI crash — Mixed NQ",
+      "Reuters (~9:41 AM ET): Nasdaq futures rise after steep AI selloff as chip stocks stabilize amid Dem AI regulation fears — Bullish NQ",
+      "@davidbeaudry (~8:10 PM ET): Stocks and BTC falling after blue wave; Thursday Nasdaq -5.5%, chips -12% worst since 2020 — Bearish NQ",
+      "TT News (~1:09 PM ET): AI stocks bouncing back Nov 6, oil holds as market weighs diplomatic efforts on Iran — Mixed NQ",
+      "Topstep (~4:28 PM ET): Oil falls 14% as Washington flips post-midterms, tech suffers worst day since 2020 on AI spending fears — Mixed NQ"
     ],
-    "trump": "Midterms loss partly tied to Iran war execution and oil/inflation impact; Vance noted war as factor, Trump broadly agreed. Earlier blamed Dem sweep for historic market drop and backed AI as GOLD.",
-    "watch": "Monday open hold of NQ/SOXX bounce; Nov 10 CPI; Dec 8-9 FOMC with ~78% hike odds; Iran/Hormuz headlines; Dem AI/data-center regulation bills.",
+    "trump": "Vance blamed the Iran war and resulting oil/inflation for Republican midterm losses; Trump has indicated ongoing talks with Iran and previously strongly backed AI as essential.",
+    "watch": "Monday open hold of NQ/chip rebound; weekend Iran/oil or Hormuz headlines; Dem AI/data-center regulation developments; Dec FOMC hike odds after strong Oct NFP.",
     "forSite": []
   }
 }
