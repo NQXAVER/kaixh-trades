@@ -1,17 +1,17 @@
 {
   "date": "2026-11-07",
-  "at": "2026-11-07T14:27:41Z",
-  "pulse": "Quiet weekend NQ tape after Fri Comp +1.1% bounce off Thu's -5.5% rout: NVDA China/H200 export-control headlines, Huang family Korea trip canceled, and Hormuz mine/CENTCOM task-force escalation lean bearish into Sun 6 PM futures open, offset by Trump/Rubio Iran-talks line and a Russia-Ukraine deal push.",
-  "bias": "risk-off — NQ still in correction (S&P -2.7% wk, Nikkei bear market, Asia AI sell-off) with NVDA governance headlines, Iran escalation risk and hot Oct NFP (165K vs 65K, Dec hike odds up) weighing; only diplomacy headlines and dip-buying cushion.",
+  "at": "2026-11-07T21:28:35Z",
+  "pulse": "Weekend NQ still soft into Sun 6 PM open: Fri Comp +1.1% bounce off Thu's -5.5% rout, but afternoon Iran escalation (IRGC: two tankers hit mines near Hormuz; explosions southern Iran; CENTCOM Iron Gate) plus Anthropic IPO valuation cut lean risk-off, offset by Erdogan/Trump diplomacy talk and Treasury buyback chatter.",
+  "bias": "risk-off — Hormuz mine/escalation headlines and AI valuation reset (Anthropic cut to ~$1.1T, data-center ballot bans) keep NQ in correction mode; only diplomacy and Fri's bounce cushion.",
   "items": [
-    "@FirstSquawk (~8:14 AM ET): Risk of Iran war escalation remains high despite Dem midterm sweep; CENTCOM stands up task force vs routes supporting Iran's illegal arms shipments (~8:32 AM ET) — Bearish NQ",
-    "@FirstSquawk (~8:31 AM ET): Yonhap — NVDA CEO's daughter cancels planned S. Korea visit, adds to Huang/China headline overhang — Bearish NQ",
-    "@WatcherGuru (~6:10 AM ET): NYT — US approved NVDA H200 sales to Chinese firms with empty offices and blacklist ties — Bearish NQ",
-    "@zerohedge (~9:00 AM ET): Musk says 'SoftBank is defaulting on turbine orders' — AI-capex financing-strain angle — Bearish NQ",
-    "@FirstSquawk (~7:57 AM ET): BRK Q3 operating earnings $12.71B (-5.8% y/y), ~$9.6B buybacks — Mixed NQ"
+    "@DeItaone (~4:11 PM ET): IRGC Navy — two oil tankers hit mines near Strait of Hormuz — Bearish NQ",
+    "@DeItaone (~3:14 PM ET): Explosions heard in Jask, Sirik, Bandar Abbas, Qeshm (southern Iran), cause unclear — Bearish NQ",
+    "X News (~4:24 PM ET): Anthropic cuts IPO valuation talk to ~$1.1-1.3T from ~$2T amid AI selloff — Bearish NQ",
+    "@zerohedge (~2:39 PM ET): Flood of new jumbo AI IG debt issues after Sept freeze — Mixed NQ",
+    "@FirstSquawk (~12:53 PM ET): Erdogan tells Trump to resolve US-Iran tensions via diplomacy — Mixed NQ"
   ],
-  "trump": "Says US has beaten Iran 'without losing a single soldier,' 'the greatest blockade in history,' Hormuz controlled and negotiations underway; Rubio backed his Iran campaign at Mar-a-Lago Sat AM; Trump also claimed Russia and Ukraine 'want to make a deal' ahead of Abu Dhabi talks (~8:09 AM ET via @FirstSquawk).",
-  "watch": "Weekend Iran/Hormuz and NVDA headlines into Sun 6 PM ET futures open; Mon Nov 9 CEG BMO, TTWO AMC; Tue Nov 10 CPI 8:30 AM ET, CRWV AMC; Thu Nov 12 NBIS BMO, AMAT/CSCO AMC; Fri Nov 13 PPI 8:30 AM ET; NVDA Nov 17 AMC; Nov 18 Huang House briefing; Dec 8-9 FOMC.",
+  "trump": "Sat: offered Dana White (UFC CEO) the White House press secretary job; ordered DOJ to look into Dems 'threatening a lot of people'; earlier Iran line still stands (blockade/talks). Erdogan phone call stressed diplomacy with Tehran (~12:53 PM ET via @FirstSquawk).",
+  "watch": "Sun 6 PM ET NQ futures open — Iran/Hormuz overnight; Mon Nov 9 CEG BMO, TTWO AMC; Tue Nov 10 CPI 8:30 AM ET, CRWV AMC; Thu Nov 12 NBIS BMO, AMAT/CSCO AMC; Fri Nov 13 PPI 8:30 AM ET; NVDA Nov 17 AMC; Nov 18 Huang House briefing; Dec 8-9 FOMC.",
   "forSite": [],
   "reports": [
     {
@@ -42,6 +42,21 @@
       ],
       "trump": "Says US has beaten Iran 'without losing a single soldier,' 'the greatest blockade in history,' Hormuz controlled and negotiations underway; Rubio backed his Iran campaign at Mar-a-Lago Sat AM; Trump also claimed Russia and Ukraine 'want to make a deal' ahead of Abu Dhabi talks (~8:09 AM ET via @FirstSquawk).",
       "watch": "Weekend Iran/Hormuz and NVDA headlines into Sun 6 PM ET futures open; Mon Nov 9 CEG BMO, TTWO AMC; Tue Nov 10 CPI 8:30 AM ET, CRWV AMC; Thu Nov 12 NBIS BMO, AMAT/CSCO AMC; Fri Nov 13 PPI 8:30 AM ET; NVDA Nov 17 AMC; Nov 18 Huang House briefing; Dec 8-9 FOMC.",
+      "forSite": []
+    },
+    {
+      "at": "2026-11-07T21:28:35Z",
+      "pulse": "Weekend NQ still soft into Sun 6 PM open: Fri Comp +1.1% bounce off Thu's -5.5% rout, but afternoon Iran escalation (IRGC: two tankers hit mines near Hormuz; explosions southern Iran; CENTCOM Iron Gate) plus Anthropic IPO valuation cut lean risk-off, offset by Erdogan/Trump diplomacy talk and Treasury buyback chatter.",
+      "bias": "risk-off — Hormuz mine/escalation headlines and AI valuation reset (Anthropic cut to ~$1.1T, data-center ballot bans) keep NQ in correction mode; only diplomacy and Fri's bounce cushion.",
+      "items": [
+        "@DeItaone (~4:11 PM ET): IRGC Navy — two oil tankers hit mines near Strait of Hormuz — Bearish NQ",
+        "@DeItaone (~3:14 PM ET): Explosions heard in Jask, Sirik, Bandar Abbas, Qeshm (southern Iran), cause unclear — Bearish NQ",
+        "X News (~4:24 PM ET): Anthropic cuts IPO valuation talk to ~$1.1-1.3T from ~$2T amid AI selloff — Bearish NQ",
+        "@zerohedge (~2:39 PM ET): Flood of new jumbo AI IG debt issues after Sept freeze — Mixed NQ",
+        "@FirstSquawk (~12:53 PM ET): Erdogan tells Trump to resolve US-Iran tensions via diplomacy — Mixed NQ"
+      ],
+      "trump": "Sat: offered Dana White (UFC CEO) the White House press secretary job; ordered DOJ to look into Dems 'threatening a lot of people'; earlier Iran line still stands (blockade/talks). Erdogan phone call stressed diplomacy with Tehran (~12:53 PM ET via @FirstSquawk).",
+      "watch": "Sun 6 PM ET NQ futures open — Iran/Hormuz overnight; Mon Nov 9 CEG BMO, TTWO AMC; Tue Nov 10 CPI 8:30 AM ET, CRWV AMC; Thu Nov 12 NBIS BMO, AMAT/CSCO AMC; Fri Nov 13 PPI 8:30 AM ET; NVDA Nov 17 AMC; Nov 18 Huang House briefing; Dec 8-9 FOMC.",
       "forSite": []
     }
   ]
