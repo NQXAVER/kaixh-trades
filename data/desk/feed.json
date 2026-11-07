@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T13:01:34Z",
+  "updatedAt": "2026-11-07T19:26:00Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -183,9 +183,9 @@
     {
       "id": "un-peace",
       "label": "UN News",
-      "ok": false,
-      "items": 0,
-      "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+      "ok": true,
+      "items": 20,
+      "error": null
     },
     {
       "id": "wsj-biz",
@@ -203,6 +203,42 @@
     }
   ],
   "items": [
+    {
+      "id": "fcd6816dc2a54",
+      "headline": "US offers $20m reward for information about Iran's nuclear programme",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c6d091ev3p0jo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-11-07T18:14:38Z",
+      "time": "Sat 1:14 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fe24cfcc4698a",
+      "headline": "Houthis say at least 25 killed in Saudi air strike",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-11-07T17:09:24Z",
+      "time": "Sat 12:09 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "f1e419aba20eb",
+      "headline": "Risk of Iran war escalation remains high despite Democratic sweep in U.S. midterm elections",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/07/iran-war-midterm-election-oil-price-trump.html",
+      "publishedAt": "2026-11-07T13:03:12Z",
+      "time": "Sat 8:03 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
     {
       "id": "f4f1b6d25b06d",
       "headline": "Qeshm island and Hormuz hit, as mediators try to prevent US-Iran escalation",
@@ -282,42 +318,6 @@
       "url": "https://oilprice.com/Energy/Energy-General/Oil-Prices-Plunge-as-US-Elections-Shake-Up-the-Iran-War.html",
       "publishedAt": "2026-11-06T12:30:00Z",
       "time": "Fri 7:30 AM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "fef4646022830",
-      "headline": "India’s HPCL Struggles to Secure Oil Tankers as Hormuz Risks Persist",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Indias-HPCL-Struggles-to-Secure-Oil-Tankers-as-Hormuz-Risks-Persist.html",
-      "publishedAt": "2026-11-06T11:15:00Z",
-      "time": "Fri 6:15 AM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "f29bf33dd6f14",
-      "headline": "Major construction ongoing near Iran missile bases, satellite images suggest",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/ckjrwx1r2d5ro?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-11-06T07:33:41Z",
-      "time": "Fri 2:33 AM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "f878c51729664",
-      "headline": "Why is Iran exempting India, China, Qatar, Iraq from Hormuz restrictions?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/11/6/why-is-iran-exempting-india-china-qatar-iraq-from-hormuz-restrictions?traffic_source=rss",
-      "publishedAt": "2026-11-06T06:06:24Z",
-      "time": "Fri 1:06 AM",
       "section": "war",
       "impact": "High",
       "lean": "risk-off",
@@ -492,18 +492,6 @@
       "auto": true
     },
     {
-      "id": "f8d13ae1e01c2",
-      "headline": "Job openings posted big September gain in positive sign for labor market ahead of payrolls report",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/03/job-openings-posted-big-september-gain-in-positive-sign-for-labor-market-ahead-of-payrolls-report.html",
-      "publishedAt": "2026-11-03T19:15:21Z",
-      "time": "Tue 2:15 PM",
-      "section": "econ",
-      "impact": "High",
-      "lean": null,
-      "auto": true
-    },
-    {
       "id": "f53f292be09a3",
       "headline": "U.S. economy added 165,000 jobs in October, way more than expected; unemployment rate slips to 4.1%",
       "source": "CNBC",
@@ -516,38 +504,14 @@
       "auto": true
     },
     {
-      "id": "fd01f0889931f",
-      "headline": "US midterm results a 'victory' for Canadians hopeful of tariff relief",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cqev3mw3e0kdo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-11-04T18:01:31Z",
-      "time": "Wed 1:01 PM",
-      "section": "econ",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f4e2ff839067d",
-      "headline": "Australia has a bad inflation problem. So why are we middle-of-the pack on the misery index?",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/nov/05/australian-economy-inflation-cost-of-living-misery-index",
-      "publishedAt": "2026-11-04T14:00:37Z",
-      "time": "Wed 9:00 AM",
-      "section": "econ",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f5e6c8405e0bc",
-      "headline": "Private companies added 86,000 jobs in October, slightly higher than expected, ADP says",
+      "id": "f906f7eed86dc",
+      "headline": "Anthropic IPO meets AI backlash after midterms show stinging rebuke of data centers",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/04/private-companies-added-86000-jobs-in-october-slightly-higher-than-expected-adp-says.html",
-      "publishedAt": "2026-11-04T13:49:48Z",
-      "time": "Wed 8:49 AM",
-      "section": "econ",
-      "impact": "Medium",
+      "url": "https://www.cnbc.com/2026/11/07/anthropic-ipo-ai-data-center-backlash.html",
+      "publishedAt": "2026-11-07T13:00:01Z",
+      "time": "Sat 8:00 AM",
+      "section": "tech",
+      "impact": "High",
       "lean": null,
       "auto": true
     },
@@ -624,6 +588,18 @@
       "auto": true
     },
     {
+      "id": "f114f89636e16",
+      "headline": "Berkshire Hathaway more than doubles buybacks in third quarter as earnings decline",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/07/berkshire-hathaway-q3-2026-earnings-buybacks.html",
+      "publishedAt": "2026-11-07T15:23:46Z",
+      "time": "Sat 10:23 AM",
+      "section": "tech",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "f4c884b75eeff",
       "headline": "Nvidia, AMD and other chip stocks rebound — but is relief from the ‘violent’ selloff only temporary?",
       "source": "MarketWatch",
@@ -645,30 +621,6 @@
       "section": "tech",
       "impact": "Medium",
       "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "f949c33d9fa65",
-      "headline": "Neocloud IREN says $4 billion in annualized revenue being delayed due to customer request",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/05/iren-earnings-report-q1-2027-.html",
-      "publishedAt": "2026-11-05T23:25:02Z",
-      "time": "Thu 6:25 PM",
-      "section": "tech",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f111fe298acfd",
-      "headline": "AI meltdown: Nvidia and Qualcomm drop more than 9%, pushing Nasdaq to worst day since April 2025",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html",
-      "publishedAt": "2026-11-05T21:16:39Z",
-      "time": "Thu 4:16 PM",
-      "section": "tech",
-      "impact": "Medium",
-      "lean": null,
       "auto": true
     },
     {
@@ -873,42 +825,6 @@
       "section": "markets",
       "impact": "Medium",
       "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f1759eef396a6",
-      "headline": "Jim Cramer says the AI trade is not going away as Nasdaq enters correction",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/investingclub/2026/11/05/cramer-says-the-ai-trade-is-not-going-away-as-nasdaq-enters-correction.html",
-      "publishedAt": "2026-11-05T18:46:23Z",
-      "time": "Thu 1:46 PM",
-      "section": "markets",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f77087455a079",
-      "headline": "AI stocks plunge after US election, driving down markets",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/economy/2026/11/5/ai-stocks-plunge-after-election-driving-down-us-markets?traffic_source=rss",
-      "publishedAt": "2026-11-05T17:56:17Z",
-      "time": "Thu 12:56 PM",
-      "section": "markets",
-      "impact": "Medium",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "ff1a757403fea",
-      "headline": "Shares in Musk's SpaceX plunge as tech and AI stocks fall",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-11-05T16:44:38Z",
-      "time": "Thu 11:44 AM",
-      "section": "markets",
-      "impact": "Medium",
-      "lean": "risk-off",
       "auto": true
     }
   ]
