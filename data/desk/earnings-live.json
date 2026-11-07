@@ -1,57 +1,7 @@
 {
-  "date": "2026-11-06",
-  "at": "2026-11-07T03:24:09Z",
+  "date": "2026-11-07",
+  "at": "2026-11-07T12:23:01Z",
   "items": [
-    {
-      "ticker": "ALAB",
-      "company": "Astera Labs (ALAB)",
-      "date": "2026-11-03",
-      "when": "AMC",
-      "status": "reported",
-      "reaction": "higher AH",
-      "sentiment": "Bullish",
-      "why": "Rev $584.9M +154% y/y vs $551M est, adj EPS $1.32 vs $1.19; Q4 guide $730-750M rev, EPS $1.62-1.66, well above est"
-    },
-    {
-      "ticker": "AMD",
-      "company": "AMD (AMD)",
-      "date": "2026-11-03",
-      "when": "AMC",
-      "status": "reported",
-      "reaction": "+7% premarket, faded to ~+2% (briefly red) by 9:25 AM",
-      "sentiment": "Bullish",
-      "why": "Rev $13.38B vs $13.08B beat (+45% y/y), adj EPS $2.09 vs $1.97 beat, data center record $8.55B (~+97%, 64% of rev), adj GM 56%; Q4 guide ~$17B vs ~$16.2B est, 2027 growth outlook raised to >80%"
-    },
-    {
-      "ticker": "ANET",
-      "company": "Arista Networks (ANET)",
-      "date": "2026-11-03",
-      "when": "AMC",
-      "status": "reported",
-      "reaction": "~+7% AH",
-      "sentiment": "Bullish",
-      "why": "Rev $3.66B +58.5% y/y vs $3.33B est, adj EPS $1.20 vs $1.08 est; 2026 rev target raised to $13.3B, 2027 outlook $18.5B with AI fabrics seen doubling to ~$7B; closed +3.52% at $169.91 then rocketed AH"
-    },
-    {
-      "ticker": "SHOP",
-      "company": "Shopify (SHOP)",
-      "date": "2026-11-03",
-      "when": "BMO",
-      "status": "reported",
-      "why": "Rev $3.74B vs $3.75B slight miss, adj EPS 49c vs 48c beat, op income $568M vs $523.9M beat, GMV $119.15B vs $120.08B miss, MRR $230M in line; Q4 rev growth guided low-30s %; first revenue miss since 2022, GMV growth slowed to 29%, GM 47.6%; stock ~$156 to ~$130 premarket",
-      "sentiment": "Bearish",
-      "reaction": "~-15% premarket"
-    },
-    {
-      "ticker": "SMCI",
-      "company": "Super Micro (SMCI)",
-      "date": "2026-11-03",
-      "when": "AMC",
-      "status": "reported",
-      "reaction": "~+6% AH",
-      "sentiment": "Bullish",
-      "why": "Adj EPS $1.81 vs ~$1.06-1.24 est, sales ~$19.9B vs ~$16.2B est; Q2 guide $19.5-21.5B vs $16.53B, FY raised to $72-82B from $65-72B"
-    },
     {
       "ticker": "APP",
       "company": "AppLovin (APP)",
@@ -258,14 +208,6 @@
       "when": "BMO",
       "status": "upcoming",
       "why": "AI cloud / GPU infra satellite"
-    },
-    {
-      "ticker": "NVDA",
-      "company": "Nvidia (NVDA)",
-      "date": "2026-11-17",
-      "when": "AMC",
-      "status": "upcoming",
-      "why": "Mag7 AI bellwether; reports week after next"
     }
   ]
 }
