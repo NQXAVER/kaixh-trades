@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T05:58:38Z",
+  "updatedAt": "2026-11-07T13:01:34Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -183,9 +183,9 @@
     {
       "id": "un-peace",
       "label": "UN News",
-      "ok": true,
-      "items": 20,
-      "error": null
+      "ok": false,
+      "items": 0,
+      "error": "ParseError: not well-formed (invalid token): line 1, column 0"
     },
     {
       "id": "wsj-biz",
@@ -203,6 +203,42 @@
     }
   ],
   "items": [
+    {
+      "id": "f4f1b6d25b06d",
+      "headline": "Qeshm island and Hormuz hit, as mediators try to prevent US-Iran escalation",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation?traffic_source=rss",
+      "publishedAt": "2026-11-07T12:22:18Z",
+      "time": "Sat 7:22 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "f960168babc29",
+      "headline": "Will Trump strike nuclear sites again as Iran engages ‘cognitive warfare’?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/7/will-trump-strike-nuclear-sites-again-as-iran-engages-cognitive?traffic_source=rss",
+      "publishedAt": "2026-11-07T08:45:36Z",
+      "time": "Sat 3:45 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f21adbb66dd20",
+      "headline": "Trump says U.S. carried out ‘minor strikes’ on Iran as missiles hit Qeshm Island",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/07/trump-us-minor-strikes-iran-qeshm-island.html",
+      "publishedAt": "2026-11-07T07:37:36Z",
+      "time": "Sat 2:37 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
     {
       "id": "fd671dd22cf66",
       "headline": "Russia launches missile attack on Kyiv, injuring residents",
@@ -282,42 +318,6 @@
       "url": "https://www.aljazeera.com/news/2026/11/6/why-is-iran-exempting-india-china-qatar-iraq-from-hormuz-restrictions?traffic_source=rss",
       "publishedAt": "2026-11-06T06:06:24Z",
       "time": "Fri 1:06 AM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "f2aeed27fa392",
-      "headline": "Saudi coalition intercepts missile fired towards Medina",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/11/5/saudi-coalition-intercepts-missile-fired-towards-medina?traffic_source=rss",
-      "publishedAt": "2026-11-05T20:48:47Z",
-      "time": "Thu 3:48 PM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "ff10b5f7c4973",
-      "headline": "Melania Trump hosts Russia-Ukraine meeting after Oleshky ceasefire",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/melania-trump-hosts-russia-ukraine-meeting-after-oleshky-ceasefire?traffic_source=rss",
-      "publishedAt": "2026-11-05T20:43:46Z",
-      "time": "Thu 3:43 PM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-on",
-      "auto": true
-    },
-    {
-      "id": "fc3061aac1f3b",
-      "headline": "Iran says tankers struck in Hormuz amid fears of new US attack",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/11/5/iran-says-tankers-struck-in-hormuz-amid-fears-of-new-us-attack?traffic_source=rss",
-      "publishedAt": "2026-11-05T18:47:10Z",
-      "time": "Thu 1:47 PM",
       "section": "war",
       "impact": "High",
       "lean": "risk-off",
@@ -744,15 +744,27 @@
       "auto": true
     },
     {
-      "id": "f6ba2a8fb5fba",
-      "headline": "Saudi Aramco Profit Beats Expectations as Oil Prices Soar",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Aramco-Profit-Beats-Expectations-as-Oil-Prices-Soar.html",
-      "publishedAt": "2026-11-03T09:45:00Z",
-      "time": "Tue 4:45 AM",
+      "id": "fed946a8fdf73",
+      "headline": "Why are oil traders refusing to buy Russian diesel after Trump-Putin deal?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/7/why-are-oil-traders-refusing-to-buy-russian-diesel-after-trump-putin-deal?traffic_source=rss",
+      "publishedAt": "2026-11-07T12:24:11Z",
+      "time": "Sat 7:24 AM",
       "section": "energy",
-      "impact": "High",
-      "lean": "mixed",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fd07b701051e4",
+      "headline": "China’s e-bikes boom as fuel prices rise",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/chinas-e-bikes-boom-as-fuel-prices-rise?traffic_source=rss",
+      "publishedAt": "2026-11-07T09:30:07Z",
+      "time": "Sat 4:30 AM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
       "auto": true
     },
     {
@@ -774,18 +786,6 @@
       "url": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Americas-Nuclear-Revival-Is-Running-Into-a-Fuel-Supply-Wall.html",
       "publishedAt": "2026-11-06T21:00:00Z",
       "time": "Fri 4:00 PM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "fad58d7c3bbe5",
-      "headline": "Norway’s Oil and Gas Industry Faces a Major Decline Without New Discoveries",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Energy/Energy-General/Norways-Oil-and-Gas-Industry-Faces-a-Major-Decline-Without-New-Discoveries.html",
-      "publishedAt": "2026-11-06T17:00:00Z",
-      "time": "Fri 12:00 PM",
       "section": "energy",
       "impact": "Medium",
       "lean": null,
