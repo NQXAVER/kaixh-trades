@@ -2,33 +2,48 @@
   "date": "2026-11-07",
   "grok": {
     "date": "2026-11-07",
-    "at": "2026-11-07T12:23:01Z",
-    "pulse": "Weekend NQ setup after Fri Comp +1.1% bounce: fresh NVDA China headlines (H200 licenses to shell-like Chinese buyers, Huang spy-report briefing Nov 18) plus a mined tanker near Hormuz lean bearish, offset by Trump's Iran-talks line and Hormuz still open into Mon and Tue CPI.",
-    "bias": "risk-off \u2014 NVDA governance/export-control headlines and Hormuz mine/drone incidents pile onto a tape still in correction (S&P -2.7% wk), with only Iran-talks hopes and Fri's bounce as cushions.",
+    "at": "2026-11-07T14:27:41Z",
+    "pulse": "Quiet weekend NQ tape after Fri Comp +1.1% bounce off Thu's -5.5% rout: NVDA China/H200 export-control headlines, Huang family Korea trip canceled, and Hormuz mine/CENTCOM task-force escalation lean bearish into Sun 6 PM futures open, offset by Trump/Rubio Iran-talks line and a Russia-Ukraine deal push.",
+    "bias": "risk-off — NQ still in correction (S&P -2.7% wk, Nikkei bear market, Asia AI sell-off) with NVDA governance headlines, Iran escalation risk and hot Oct NFP (165K vs 65K, Dec hike odds up) weighing; only diplomacy headlines and dip-buying cushion.",
     "items": [
-      "@WatcherGuru (~6:10 AM ET): NYT \u2014 US approved NVDA H200 sales to Chinese firms with empty offices and blacklist ties \u2014 Bearish NQ",
-      "@FirstSquawk (~5:16 AM ET): Iran navy says oil tanker hit a mine in Hormuz Sat; Iran also claims it downed a US MQ-9 over Qeshm (~5:56 AM ET) \u2014 Bearish NQ",
-      "X News (~7:14 AM ET): FT spy-link story on Jensen Huang; House committees want closed-door briefing with Huang Nov 18, NVDA internal review found no wrongdoing \u2014 Bearish NQ",
-      "X News (~2:30 AM ET): TSMC drawing up 3D DRAM plans at NVDA's request amid AI memory shortage \u2014 Mixed NQ",
-      "@unusual_whales (~12:39 AM ET): Apollo \u2014 still no sign of AI in productivity numbers despite capex \u2014 Bearish NQ"
+      "@FirstSquawk (~8:14 AM ET): Risk of Iran war escalation remains high despite Dem midterm sweep; CENTCOM stands up task force vs routes supporting Iran's illegal arms shipments (~8:32 AM ET) — Bearish NQ",
+      "@FirstSquawk (~8:31 AM ET): Yonhap — NVDA CEO's daughter cancels planned S. Korea visit, adds to Huang/China headline overhang — Bearish NQ",
+      "@WatcherGuru (~6:10 AM ET): NYT — US approved NVDA H200 sales to Chinese firms with empty offices and blacklist ties — Bearish NQ",
+      "@zerohedge (~9:00 AM ET): Musk says 'SoftBank is defaulting on turbine orders' — AI-capex financing-strain angle — Bearish NQ",
+      "@FirstSquawk (~7:57 AM ET): BRK Q3 operating earnings $12.71B (-5.8% y/y), ~$9.6B buybacks — Mixed NQ"
     ],
-    "trump": "Overnight remarks: says US has beaten Iran 'without losing a single soldier,' calls it 'the greatest blockade in history,' Hormuz controlled/open and negotiations underway; Fri he said he's 'dealing with the Iranians.'",
-    "watch": "Weekend Iran/Hormuz and NVDA headlines into Sun 6 PM ET futures open; Mon Nov 9 CEG BMO, TTWO AMC; Tue Nov 10 CPI 8:30 AM ET, CRWV AMC; Thu Nov 12 NBIS BMO, AMAT/CSCO AMC; Fri Nov 13 PPI; Nov 18 Huang House briefing; NVDA Nov 17 AMC; Dec 8-9 FOMC.",
+    "trump": "Says US has beaten Iran 'without losing a single soldier,' 'the greatest blockade in history,' Hormuz controlled and negotiations underway; Rubio backed his Iran campaign at Mar-a-Lago Sat AM; Trump also claimed Russia and Ukraine 'want to make a deal' ahead of Abu Dhabi talks (~8:09 AM ET via @FirstSquawk).",
+    "watch": "Weekend Iran/Hormuz and NVDA headlines into Sun 6 PM ET futures open; Mon Nov 9 CEG BMO, TTWO AMC; Tue Nov 10 CPI 8:30 AM ET, CRWV AMC; Thu Nov 12 NBIS BMO, AMAT/CSCO AMC; Fri Nov 13 PPI 8:30 AM ET; NVDA Nov 17 AMC; Nov 18 Huang House briefing; Dec 8-9 FOMC.",
     "forSite": [],
     "reports": [
       {
         "at": "2026-11-07T12:23:01Z",
         "pulse": "Weekend NQ setup after Fri Comp +1.1% bounce: fresh NVDA China headlines (H200 licenses to shell-like Chinese buyers, Huang spy-report briefing Nov 18) plus a mined tanker near Hormuz lean bearish, offset by Trump's Iran-talks line and Hormuz still open into Mon and Tue CPI.",
-        "bias": "risk-off \u2014 NVDA governance/export-control headlines and Hormuz mine/drone incidents pile onto a tape still in correction (S&P -2.7% wk), with only Iran-talks hopes and Fri's bounce as cushions.",
+        "bias": "risk-off — NVDA governance/export-control headlines and Hormuz mine/drone incidents pile onto a tape still in correction (S&P -2.7% wk), with only Iran-talks hopes and Fri's bounce as cushions.",
         "items": [
-          "@WatcherGuru (~6:10 AM ET): NYT \u2014 US approved NVDA H200 sales to Chinese firms with empty offices and blacklist ties \u2014 Bearish NQ",
-          "@FirstSquawk (~5:16 AM ET): Iran navy says oil tanker hit a mine in Hormuz Sat; Iran also claims it downed a US MQ-9 over Qeshm (~5:56 AM ET) \u2014 Bearish NQ",
-          "X News (~7:14 AM ET): FT spy-link story on Jensen Huang; House committees want closed-door briefing with Huang Nov 18, NVDA internal review found no wrongdoing \u2014 Bearish NQ",
-          "X News (~2:30 AM ET): TSMC drawing up 3D DRAM plans at NVDA's request amid AI memory shortage \u2014 Mixed NQ",
-          "@unusual_whales (~12:39 AM ET): Apollo \u2014 still no sign of AI in productivity numbers despite capex \u2014 Bearish NQ"
+          "@WatcherGuru (~6:10 AM ET): NYT — US approved NVDA H200 sales to Chinese firms with empty offices and blacklist ties — Bearish NQ",
+          "@FirstSquawk (~5:16 AM ET): Iran navy says oil tanker hit a mine in Hormuz Sat; Iran also claims it downed a US MQ-9 over Qeshm (~5:56 AM ET) — Bearish NQ",
+          "X News (~7:14 AM ET): FT spy-link story on Jensen Huang; House committees want closed-door briefing with Huang Nov 18, NVDA internal review found no wrongdoing — Bearish NQ",
+          "X News (~2:30 AM ET): TSMC drawing up 3D DRAM plans at NVDA's request amid AI memory shortage — Mixed NQ",
+          "@unusual_whales (~12:39 AM ET): Apollo — still no sign of AI in productivity numbers despite capex — Bearish NQ"
         ],
         "trump": "Overnight remarks: says US has beaten Iran 'without losing a single soldier,' calls it 'the greatest blockade in history,' Hormuz controlled/open and negotiations underway; Fri he said he's 'dealing with the Iranians.'",
         "watch": "Weekend Iran/Hormuz and NVDA headlines into Sun 6 PM ET futures open; Mon Nov 9 CEG BMO, TTWO AMC; Tue Nov 10 CPI 8:30 AM ET, CRWV AMC; Thu Nov 12 NBIS BMO, AMAT/CSCO AMC; Fri Nov 13 PPI; Nov 18 Huang House briefing; NVDA Nov 17 AMC; Dec 8-9 FOMC.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-07T14:27:41Z",
+        "pulse": "Quiet weekend NQ tape after Fri Comp +1.1% bounce off Thu's -5.5% rout: NVDA China/H200 export-control headlines, Huang family Korea trip canceled, and Hormuz mine/CENTCOM task-force escalation lean bearish into Sun 6 PM futures open, offset by Trump/Rubio Iran-talks line and a Russia-Ukraine deal push.",
+        "bias": "risk-off — NQ still in correction (S&P -2.7% wk, Nikkei bear market, Asia AI sell-off) with NVDA governance headlines, Iran escalation risk and hot Oct NFP (165K vs 65K, Dec hike odds up) weighing; only diplomacy headlines and dip-buying cushion.",
+        "items": [
+          "@FirstSquawk (~8:14 AM ET): Risk of Iran war escalation remains high despite Dem midterm sweep; CENTCOM stands up task force vs routes supporting Iran's illegal arms shipments (~8:32 AM ET) — Bearish NQ",
+          "@FirstSquawk (~8:31 AM ET): Yonhap — NVDA CEO's daughter cancels planned S. Korea visit, adds to Huang/China headline overhang — Bearish NQ",
+          "@WatcherGuru (~6:10 AM ET): NYT — US approved NVDA H200 sales to Chinese firms with empty offices and blacklist ties — Bearish NQ",
+          "@zerohedge (~9:00 AM ET): Musk says 'SoftBank is defaulting on turbine orders' — AI-capex financing-strain angle — Bearish NQ",
+          "@FirstSquawk (~7:57 AM ET): BRK Q3 operating earnings $12.71B (-5.8% y/y), ~$9.6B buybacks — Mixed NQ"
+        ],
+        "trump": "Says US has beaten Iran 'without losing a single soldier,' 'the greatest blockade in history,' Hormuz controlled and negotiations underway; Rubio backed his Iran campaign at Mar-a-Lago Sat AM; Trump also claimed Russia and Ukraine 'want to make a deal' ahead of Abu Dhabi talks (~8:09 AM ET via @FirstSquawk).",
+        "watch": "Weekend Iran/Hormuz and NVDA headlines into Sun 6 PM ET futures open; Mon Nov 9 CEG BMO, TTWO AMC; Tue Nov 10 CPI 8:30 AM ET, CRWV AMC; Thu Nov 12 NBIS BMO, AMAT/CSCO AMC; Fri Nov 13 PPI 8:30 AM ET; NVDA Nov 17 AMC; Nov 18 Huang House briefing; Dec 8-9 FOMC.",
         "forSite": []
       }
     ]

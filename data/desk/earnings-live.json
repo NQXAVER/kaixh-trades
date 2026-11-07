@@ -1,6 +1,6 @@
 {
   "date": "2026-11-07",
-  "at": "2026-11-07T12:23:01Z",
+  "at": "2026-11-07T14:27:41Z",
   "items": [
     {
       "ticker": "APP",
@@ -208,6 +208,16 @@
       "when": "BMO",
       "status": "upcoming",
       "why": "AI cloud / GPU infra satellite"
+    },
+    {
+      "ticker": "BRK.B",
+      "company": "Berkshire Hathaway (BRK.B)",
+      "date": "2026-11-07",
+      "when": "BMO",
+      "status": "reported",
+      "reaction": "n/a (reported Sat, trades Mon)",
+      "sentiment": "Mixed",
+      "why": "Q3 operating earnings $12.71B, -5.8% y/y; ~$9.6B buybacks in Q3 (per @FirstSquawk)"
     }
   ]
 }
