@@ -1,67 +1,69 @@
 {
- "date": "2026-11-05",
- "entryUrl": "https://app.notion.com/p/40f60e8f5c45806f80a4c39fb288c09b",
- "summary": "No trades on the XFA today, and that was the right call. Pre-market wanted the Asia SMT and the 4hr bearish gap to deliver into 167, price ran lower without giving a clean NY entry, and you sat on your hands instead of chasing. Morning check-in was on time at 9:29 with the same 167 plan, and the EOD card matches Notion and the journal post. The options short you logged yesterday (QQQ 670 put bought at $2.63 on Nov 4, sold at $13.25 today) is the real win of the day at about 5.04R, and AB called it a beautiful trade.",
- "trade": "No Trades · NY-AM · XFA · NT · pre-market bias short toward 167 off Asia SMT inside a 4hr bearish gap · no funded entry · separate Robinhood QQQ $670 put 11/12 from yesterday closed today at ~5.04R (buy $2.63 / sell $13.25, $270 full risk).",
- "rule": "Tomorrow, if the A+ futures setup never prints, sit again the same way you did today. Do not add a second idea on the XFA just because the options already paid, and do not size up options because one hit.",
- "screenshots": [
-  {
-   "label": "TimeFrame 1 · 4hr NQ + ES (9:24 AM)",
-   "feedback": "NQ around 28,227 under the 0.5 fib and PD-H, sitting near PD-EQ with ES testing a red supply zone near 7,710. This matches the bearish HTF map in your pre-market (Asia SMT inside the 4hr gap) and shows why waiting for 167 made sense instead of forcing a mid-range short."
+  "date": "2026-11-05",
+  "entryUrl": "https://app.notion.com/p/40f60e8f5c45806f80a4c39fb288c09b",
+  "summary": "No trades on the XFA today, and that was the right call. Pre-market wanted the Asia SMT and the 4hr bearish gap to deliver into 167, price ran lower without giving a clean NY entry, and you sat on your hands instead of chasing. Morning check-in was on time at 9:29 with the same 167 plan, and the EOD card matches Notion and the journal post. The options short you logged yesterday (QQQ 670 put bought at $2.63 on Nov 4, sold at $13.25 today) is the real win of the day at about 5.04R, and AB called it a beautiful trade.",
+  "trade": "No Trades \u00b7 NY-AM \u00b7 XFA \u00b7 NT \u00b7 pre-market bias short toward 167 off Asia SMT inside a 4hr bearish gap \u00b7 no funded entry \u00b7 separate Robinhood QQQ $670 put 11/12 from yesterday closed today at ~5.04R (buy $2.63 / sell $13.25, $270 full risk).",
+  "rule": "Tomorrow, if the A+ futures setup never prints, sit again the same way you did today. Do not add a second idea on the XFA just because the options already paid, and do not size up options because one hit.",
+  "screenshots": [
+    {
+      "label": "TimeFrame 1 \u00b7 4hr NQ + ES (9:24 AM)",
+      "feedback": "NQ around 28,227 under the 0.5 fib and PD-H, sitting near PD-EQ with ES testing a red supply zone near 7,710. This matches the bearish HTF map in your pre-market (Asia SMT inside the 4hr gap) and shows why waiting for 167 made sense instead of forcing a mid-range short."
+    },
+    {
+      "label": "TimeFrame 2 \u00b7 1hr NQ + ES (9:24 AM)",
+      "feedback": "After yesterday's spike into the 0.5 near 28,909, NQ had sold hard and was stalling under PD-EQ around 28,224. The 1hr confirms the dump was already underway pre-open, so there was no fresh NY confirmation left to hunt."
+    },
+    {
+      "label": "TimeFrame 3 \u00b7 15m NQ + ES (9:25 AM)",
+      "feedback": "Session levels (AS/LO/NYAM/NYPM, D OPEN, 10:00 lines) are marked. Price was already under the green support near 28,240\u201328,280 after the overnight drop, so an NY-AM short here would have been chasing the move you already wanted toward 167."
+    },
+    {
+      "label": "TimeFrame 4 \u00b7 15m NQ + ES (9:26 AM)",
+      "feedback": "Same 15m map a minute later: price still under D OPEN (~28,410) and the red LO.H zone, hovering under the green support. No new structure for a funded entry."
+    },
+    {
+      "label": "TimeFrame 5 \u00b7 5m NQ + ES (9:26 AM)",
+      "feedback": "5m shows Asia high/low, London high/low, D OPEN and the green LO.L support around 28,210\u201328,245 with price near 28,220 after sweeping AS.L. This is the chart that backs 'looking for 167' and 'sit on my hands' \u2014 the move was already in motion before 9:30."
+    },
+    {
+      "label": "Options \u00b7 entry chart / reasoning (9:45 AM update)",
+      "feedback": "The options page chart repeats your confluence list (daily bearish gap on NQ/ES, 1hr internal high into HTF bearish EQ, 15m consolidation, wickless weekly low DOL) and notes you planned to hold into next week because the target was 1k+ points away. Risk was the full $270 premium. That matches the Robinhood fills (bought Nov 4 at $2.63, sold Nov 5 at $13.25) and AB's 'Beautiful trade'."
+    }
+  ],
+  "good": [
+    "No XFA trade when there was no clean NY entry \u2014 you wrote you did not FOMO and the EOD says you sat on your hands.",
+    "Morning plan (167 / Asia SMT / 4hr gap) matched pre-market Notion and the charts at 9:24\u20139:26.",
+    "Morning check-in on time at 9:29 AM ET (charts opened 9:25), before the 9:30 deadline.",
+    "Options risk was capped at the premium you were okay losing ($270), and you took the win instead of turning it into revenge size.",
+    "Journal post, Notion TALK, and EOD all agree: no funded trades today; options was yesterday's entry."
+  ],
+  "fix": [
+    "The morning risk screenshot was a Tradovate MNQ chart/DOM with PDLL visible, not a clear risk-settings panel. Post the actual loss-limit / trade-limit screen so the check-in proves the rule, not just that a chart was open.",
+    "Options still sits outside the NQ-futures-only rule. Keep journaling it (you did), but decide explicitly whether Robinhood options are allowed in your process or a one-off, so it does not quietly become a second book after a win.",
+    "You closed the QQQ put the same day after planning to hold until next week Thursday. That is fine if the thesis was delivered, but write the exit rule next time so 'hold till next week' is not just hope."
+  ],
+  "questions": [
+    {
+      "q": "You planned to hold the QQQ 670 put until next week Thursday because the DOL was 1k+ points away, then sold today at $13.25. What specifically told you the idea was done?",
+      "answer": "want me hit my drama quitting at Target that's what I knew it was basically done that's why I just closed it but I told Brock where should I live or whatever because I was afraid that I don't limit order or sell limit put a sale limit in a cells I felt like we were just reject off of it hard and then go higher but then we ended up just continuing to shoot lower I guess seeing that much money made me nervous and not nervous well actually I wasn't really nerves I was pretty excited but could have I lost that like 200 300 bucks because of grock told me to limit it to limit like 13.25 and it went all day till like $16 then I was like bro",
+      "answeredAt": "2026-11-07T02:04:53.459Z",
+      "reply": "You closed because you felt the idea was done and locked the win at the 13.25 limit instead of riding open risk, which is solid when size was already capped at the premium you could lose. Watching it run to 16 afterward is normal FOMO after a ~5R day, not proof the exit was wrong. Next time write the exit level before the thrill hits so the limit is a plan, not a scramble mid-move.",
+      "repliedAt": "2026-11-07T02:09:19.198Z"
+    },
+    {
+      "q": "Pre-market and the morning check-in both wanted 167. On the 5m at 9:26 price had already swept AS.L near 28,175 \u2014 what would an A+ XFA short have needed after that, that never printed?"
+    },
+    {
+      "q": "You told Bibz you need a month of discipline around accounts/evals. What is the one concrete rule for that month so a win like today's options does not turn into 'I can buy another eval'?"
+    }
+  ],
+  "discord": {
+    "chartsOpened": "9:25 AM ET (Morning Check-in submitted 9:29 AM, streak 10 days going into the day).",
+    "plan": "\"looking for 167 to get hit im feeling good mentally i will follow my rules just like yesterday i dont wanna act on my emotions\"",
+    "risk": "On time: Kaixh posted a risk screenshot at 9:29 AM ET and Syndicator confirmed the check-in complete before the 9:30 deadline. The attachment looked like a Tradovate MNQ chart/DOM (PDLL $500 visible) rather than a clear risk-settings panel.",
+    "eod": "Filed at 12:00 PM ET (streak 11 days): \"No trades on funded - we just displaced w no entry\", Rules Followed: yes, improvement \"couldnt do nothing besides sit on my hands\". Trade/PNL screenshot confirmed at 12:00.",
+    "match": "EOD, Notion (No Trades / XFA / NY-AM), and the journal post all agree there was no funded trade today. The journal and AB DM correctly treat the options win as yesterday's entry that paid today. Morning plan for 167 matches pre-market.",
+    "journalChannel": "10:21 AM ET: \"11/05/26 - No trades we just dumped\" plus the options reasoning and ask for AB feedback. Matches Notion TALK and the separate Options Win page (AB: \"Beautiful trade\")."
   },
-  {
-   "label": "TimeFrame 2 · 1hr NQ + ES (9:24 AM)",
-   "feedback": "After yesterday's spike into the 0.5 near 28,909, NQ had sold hard and was stalling under PD-EQ around 28,224. The 1hr confirms the dump was already underway pre-open, so there was no fresh NY confirmation left to hunt."
-  },
-  {
-   "label": "TimeFrame 3 · 15m NQ + ES (9:25 AM)",
-   "feedback": "Session levels (AS/LO/NYAM/NYPM, D OPEN, 10:00 lines) are marked. Price was already under the green support near 28,240–28,280 after the overnight drop, so an NY-AM short here would have been chasing the move you already wanted toward 167."
-  },
-  {
-   "label": "TimeFrame 4 · 15m NQ + ES (9:26 AM)",
-   "feedback": "Same 15m map a minute later: price still under D OPEN (~28,410) and the red LO.H zone, hovering under the green support. No new structure for a funded entry."
-  },
-  {
-   "label": "TimeFrame 5 · 5m NQ + ES (9:26 AM)",
-   "feedback": "5m shows Asia high/low, London high/low, D OPEN and the green LO.L support around 28,210–28,245 with price near 28,220 after sweeping AS.L. This is the chart that backs 'looking for 167' and 'sit on my hands' — the move was already in motion before 9:30."
-  },
-  {
-   "label": "Options · entry chart / reasoning (9:45 AM update)",
-   "feedback": "The options page chart repeats your confluence list (daily bearish gap on NQ/ES, 1hr internal high into HTF bearish EQ, 15m consolidation, wickless weekly low DOL) and notes you planned to hold into next week because the target was 1k+ points away. Risk was the full $270 premium. That matches the Robinhood fills (bought Nov 4 at $2.63, sold Nov 5 at $13.25) and AB's 'Beautiful trade'."
-  }
- ],
- "good": [
-  "No XFA trade when there was no clean NY entry — you wrote you did not FOMO and the EOD says you sat on your hands.",
-  "Morning plan (167 / Asia SMT / 4hr gap) matched pre-market Notion and the charts at 9:24–9:26.",
-  "Morning check-in on time at 9:29 AM ET (charts opened 9:25), before the 9:30 deadline.",
-  "Options risk was capped at the premium you were okay losing ($270), and you took the win instead of turning it into revenge size.",
-  "Journal post, Notion TALK, and EOD all agree: no funded trades today; options was yesterday's entry."
- ],
- "fix": [
-  "The morning risk screenshot was a Tradovate MNQ chart/DOM with PDLL visible, not a clear risk-settings panel. Post the actual loss-limit / trade-limit screen so the check-in proves the rule, not just that a chart was open.",
-  "Options still sits outside the NQ-futures-only rule. Keep journaling it (you did), but decide explicitly whether Robinhood options are allowed in your process or a one-off, so it does not quietly become a second book after a win.",
-  "You closed the QQQ put the same day after planning to hold until next week Thursday. That is fine if the thesis was delivered, but write the exit rule next time so 'hold till next week' is not just hope."
- ],
- "questions": [
-  {
-   "q": "You planned to hold the QQQ 670 put until next week Thursday because the DOL was 1k+ points away, then sold today at $13.25. What specifically told you the idea was done?",
-   "answer": "want me hit my drama quitting at Target that's what I knew it was basically done that's why I just closed it but I told Brock where should I live or whatever because I was afraid that I don't limit order or sell limit put a sale limit in a cells I felt like we were just reject off of it hard and then go higher but then we ended up just continuing to shoot lower I guess seeing that much money made me nervous and not nervous well actually I wasn't really nerves I was pretty excited but could have I lost that like 200 300 bucks because of grock told me to limit it to limit like 13.25 and it went all day till like $16 then I was like bro",
-   "answeredAt": "2026-11-07T02:04:53.459Z"
-  },
-  {
-   "q": "Pre-market and the morning check-in both wanted 167. On the 5m at 9:26 price had already swept AS.L near 28,175 — what would an A+ XFA short have needed after that, that never printed?"
-  },
-  {
-   "q": "You told Bibz you need a month of discipline around accounts/evals. What is the one concrete rule for that month so a win like today's options does not turn into 'I can buy another eval'?"
-  }
- ],
- "discord": {
-  "chartsOpened": "9:25 AM ET (Morning Check-in submitted 9:29 AM, streak 10 days going into the day).",
-  "plan": "\"looking for 167 to get hit im feeling good mentally i will follow my rules just like yesterday i dont wanna act on my emotions\"",
-  "risk": "On time: Kaixh posted a risk screenshot at 9:29 AM ET and Syndicator confirmed the check-in complete before the 9:30 deadline. The attachment looked like a Tradovate MNQ chart/DOM (PDLL $500 visible) rather than a clear risk-settings panel.",
-  "eod": "Filed at 12:00 PM ET (streak 11 days): \"No trades on funded - we just displaced w no entry\", Rules Followed: yes, improvement \"couldnt do nothing besides sit on my hands\". Trade/PNL screenshot confirmed at 12:00.",
-  "match": "EOD, Notion (No Trades / XFA / NY-AM), and the journal post all agree there was no funded trade today. The journal and AB DM correctly treat the options win as yesterday's entry that paid today. Morning plan for 167 matches pre-market.",
-  "journalChannel": "10:21 AM ET: \"11/05/26 - No trades we just dumped\" plus the options reasoning and ask for AB feedback. Matches Notion TALK and the separate Options Win page (AB: \"Beautiful trade\")."
- },
- "reviewedAt": "2026-11-05T21:29:18Z"
+  "reviewedAt": "2026-11-05T21:29:18Z"
 }
