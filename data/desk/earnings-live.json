@@ -1,6 +1,6 @@
 {
   "date": "2026-11-06",
-  "at": "2026-11-06T21:26:16Z",
+  "at": "2026-11-07T01:25:04Z",
   "items": [
     {
       "ticker": "OKLO",
@@ -38,7 +38,7 @@
       "date": "2026-11-05",
       "when": "AMC",
       "status": "reported",
-      "reaction": "~-16% AH / lower premarket",
+      "reaction": "~-16% session",
       "sentiment": "Bearish",
       "why": "Soft guide / software derating into Thu AI/tech wipeout"
     },
@@ -68,9 +68,9 @@
       "date": "2026-11-05",
       "when": "AMC",
       "status": "reported",
-      "reaction": "mixed AH then ~+18% premarket Fri",
-      "sentiment": "Mixed",
-      "why": "FQ1 FY27 beat; AI cloud strength; sold hard Thu with AI complex then bounced hard on print into Fri premarket"
+      "reaction": "~+19-21% Fri session after AH/premixed",
+      "sentiment": "Bullish",
+      "why": "FQ1 FY27 AI cloud rev ~$200M (+182%), total rev $228M (+66%); ARR ~$1B; backlog $20.3B; bounced hard Fri after Thu AI washout"
     },
     {
       "ticker": "DKNG",
@@ -88,7 +88,7 @@
       "date": "2026-11-05",
       "when": "AMC",
       "status": "reported",
-      "reaction": "~+11% AH / ~+11% premarket",
+      "reaction": "~+12% session",
       "sentiment": "Bullish",
       "why": "EPS $3.16 vs $2.85, rev $4.87B vs $4.75B (+19% y/y); GBV +21%; new $12B buyback; FY26 rev growth raised high teens"
     },
