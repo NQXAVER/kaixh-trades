@@ -1,76 +1,82 @@
 {
- "date": "2026-11-06",
- "entryUrl": "https://app.notion.com/p/41060e8f5c45801eb9bff81aea96b214",
- "summary": "Friday was a Loss + BreakEven on the XFA, then a clear rule break: after the long got stopped and price ran without you, you wrote that you got annoyed and bought a LucidFlex 50K eval ($74.75, order 12319151, activated ~11:35 AM ET). Pre-market and the morning check-in both wanted patience and the 4hr UMG rebalance higher; the first long into OTE/IFVG was a good-process loss (AB agreed), the short into London Low was the weak one (shorting discount in a rebalancing phase), and the third long is already on the new eval. EOD correctly says Rules Followed: No — high-conviction $200 risk and skipping the SMT you said you wanted are the cracks underneath the purchase.",
- "trade": "Long then Short then Long · NY-AM · XFA (+ LucidFlex 50K eval bought midday) · Loss / BE · Long1 entry ~27,272.50 stop ~27,182.50 (internal / OTE zone, ~90 pts, ~$200 risk) · Short2 entry ~27,125 stop ~27,370 target London Low (1 micro) · Long3 ~27,150.50 stop ~27,109 on new eval toward 4hr UMG.",
- "rule": "On Monday, do not buy another eval or funded account no matter how annoyed a stop makes you. If you feel the urge after a loss, close the platform and journal the emotion before you click purchase — the LucidFlex 50K today is the exact break.",
- "screenshots": [
-  {
-   "label": "TimeFrame 1 · 4hr ES + NQ (9:24 AM)",
-   "feedback": "NQ ~27,162 under a red 4hr zone near PD-EQ (~27,300–27,500) after yesterday's dump; ES near PD-L ~7,350. Matches pre-market 'rebalancing UMG 4hr gap / accumulate' — HTF still repairing, not a clean short environment."
+  "date": "2026-11-06",
+  "entryUrl": "https://app.notion.com/p/41060e8f5c45801eb9bff81aea96b214",
+  "summary": "Friday was a Loss + BreakEven on the XFA, then a clear rule break: after the long got stopped and price ran without you, you wrote that you got annoyed and bought a LucidFlex 50K eval ($74.75, order 12319151, activated ~11:35 AM ET). Pre-market and the morning check-in both wanted patience and the 4hr UMG rebalance higher; the first long into OTE/IFVG was a good-process loss (AB agreed), the short into London Low was the weak one (shorting discount in a rebalancing phase), and the third long is already on the new eval. EOD correctly says Rules Followed: No \u2014 high-conviction $200 risk and skipping the SMT you said you wanted are the cracks underneath the purchase.",
+  "trade": "Long then Short then Long \u00b7 NY-AM \u00b7 XFA (+ LucidFlex 50K eval bought midday) \u00b7 Loss / BE \u00b7 Long1 entry ~27,272.50 stop ~27,182.50 (internal / OTE zone, ~90 pts, ~$200 risk) \u00b7 Short2 entry ~27,125 stop ~27,370 target London Low (1 micro) \u00b7 Long3 ~27,150.50 stop ~27,109 on new eval toward 4hr UMG.",
+  "rule": "On Monday, do not buy another eval or funded account no matter how annoyed a stop makes you. If you feel the urge after a loss, close the platform and journal the emotion before you click purchase \u2014 the LucidFlex 50K today is the exact break.",
+  "screenshots": [
+    {
+      "label": "TimeFrame 1 \u00b7 4hr ES + NQ (9:24 AM)",
+      "feedback": "NQ ~27,162 under a red 4hr zone near PD-EQ (~27,300\u201327,500) after yesterday's dump; ES near PD-L ~7,350. Matches pre-market 'rebalancing UMG 4hr gap / accumulate' \u2014 HTF still repairing, not a clean short environment."
+    },
+    {
+      "label": "TimeFrame 2 \u00b7 1hr ES + NQ (9:24 AM)",
+      "feedback": "Same map on 1hr: NQ bouncing into the bottom of the red box after the vertical drop. Supports waiting for a long continuation into the UMG rather than forcing a mid-range short."
+    },
+    {
+      "label": "TimeFrame 3 \u00b7 15m ES + NQ (9:24 AM)",
+      "feedback": "Session levels (AS/LO/NY, D OPEN, 10:00) marked; SMT line on LO.H\u2013AS.H. Pre-open price under the red supply \u2014 this is the chart that backs the long bias and why AB called the later short the weaker idea."
+    },
+    {
+      "label": "Execution 1 \u00b7 1min NQ long (10:14 AM)",
+      "feedback": "RR long: entry ~27,272.50, stop ~27,182.50 (~90 pts), TP up toward ~27,600. Notes match (DOL 4hr UMG, 15min gap, OTE rejecting, 1min low swept, bullish SMT, displacement). This is the good-process long AB called a good loss \u2014 stop at the internal/OTE zone is clear on the chart."
+    },
+    {
+      "label": "Execution 2 \u00b7 5min NQ short (10:33 AM)",
+      "feedback": "RR short: entry ~27,125, stop ~27,370, target London Low / NYAM.L. Typed note matches Entry type (15min IFVG, 5min displacement, 1 micro). This is the one AB dinged \u2014 shorting after a dump into discount while HTF is rebalancing, not shorting a premium."
+    },
+    {
+      "label": "Execution 3 \u00b7 1min NQ long (12:08 PM)",
+      "feedback": "RR long after the midday chop: entry ~27,150.50, stop ~27,109 (~41 pts), target higher toward the red zone / 4hr UMG. Clock is 12:08 PM \u2014 after the Lucid order (~11:22 AM ET) and activation (~11:35). This is the 'annoyed \u2192 bought eval \u2192 long to 4hr UMG' trade from TALK."
+    }
+  ],
+  "good": [
+    "Morning check-in on time at 9:25 AM ET (charts opened 9:24), before the 9:30 deadline.",
+    "Pre-market bias (higher / 4hr UMG rebalance) matched the HTF charts at 9:24 and AB's read that the long was the better side.",
+    "First long had stacked confluence written on the chart (OTE, IFVG, 1min SMT, displacement) and a defined stop at the internal/OTE \u2014 AB called it a good loss.",
+    "Second trade risk stayed at 1 micro per your note; you logged BE instead of forcing a win.",
+    "EOD Rules Followed: No matches the day honestly, and TALK admits the eval purchase instead of hiding it."
+  ],
+  "fix": [
+    "RULE BREAK: bought LucidFlex 50K Rithmic today ($74.75 after AB coupon, order 12319151) because you were annoyed the long stopped and then ran. That is the exact 'no more evals' rule. Cancel or park the account; do not size it up Monday to 'make it back'.",
+    "Morning plan was stay patient and not force anything / not end the week on a Loss \u2014 then you took setups both ways. The plan and the tape do not match.",
+    "You said you wanted an SMT, did not see one, entered anyway, then watched SMT print after your stop. Next time the missing confluence is the veto \u2014 not a negotiable.",
+    "Risked ~$200 / ~90 pts on the high-conviction long. Cap XFA risk to the planned micro size so one stop cannot tilt you into shopping for accounts.",
+    "Journal channel only covered trade 1 L and trade 2 BE \u2014 write the eval buy and third long there too so AB/Bibz see the full day, not a cleaned version."
+  ],
+  "questions": [
+    {
+      "q": "You wrote you wanted an SMT, did not see one, entered anyway, then got stopped right before SMT printed and price ran to your TP. What exact rule will stop that 'I don't think we need it now' override on Monday?",
+      "answer": "honestly it was a bad day really bad day psychology because everybody took I took a loss to everybody took and it kind of frustrated me I'm not frustrated because I let it go right after I lost sat with it but then I messed up on the wedding I wasn't really discipline outside of the charts with my bad habits and then I let them bad habits bleed into the shorts and then I ended up just tilting and not respecting myself whatsoever",
+      "answeredAt": "2026-11-07T02:06:33.838Z",
+      "reply": "You named the real break: you overrode the SMT you said you needed, then let off-chart frustration tilt the short and the rest of the day. That \"I don't think we need it now\" move is the revenge-trading crack, not the loss itself. Monday the rule is locked \u2014 if the SMT you wrote for is not there, you sit. Keep the outside habits separate so they cannot bleed into the next click.",
+      "repliedAt": "2026-11-07T02:09:19.198Z"
+    },
+    {
+      "q": "Morning check-in said stay patient and not force anything. TALK says you got annoyed and bought a LucidFlex 50K after the stop. What is the 60-second action you will take the next time that urge hits, before any checkout page loads?",
+      "answer": "honestly I need to really focus on my bad habits outside the charge more so than the charts itself because if I can respect myself outside the charged and I'm definitely want to respect myself on these buying accounts because buying accounts not going to do anything for me besides but just waste money",
+      "answeredAt": "2026-11-07T02:07:00.543Z",
+      "reply": "You already know buying another account does nothing but waste money, and Friday's LucidFlex 50K is exactly that no-buying-accounts rule break. Naming the off-chart habits is useful, but the 60-second action still has to fire before checkout: close the platform, write the urge in the journal, then walk away. That is Monday's rule \u2014 no new eval no matter how annoyed a stop feels.",
+      "repliedAt": "2026-11-07T02:09:19.198Z"
+    },
+    {
+      "q": "Pre-market and the 4hr/1hr charts wanted higher into the UMG. What specifically made the 10:33 short feel more valid than sitting for the next long?",
+      "answer": "it made me feel valid because if you look on a 50 minute 5 minute we accumulated pre-market 15 minute and 5 minutes not to 50 minutes anyways we accumulated and then manipulated higher and in the 4-Hour on sale on ES and NASDAQ already hit it overnight and then we ended up manipulating Distributing back lower actually and then also shoot we might just lower to my envelope",
+      "answeredAt": "2026-11-07T02:07:47.849Z",
+      "reply": "Pre-market and the 4hr wanted higher into the UMG, so the short was you talking yourself into discount during a rebalancing phase. LTF accumulation-then-distribution stories do not override the HTF bias you already wrote down. Next time that short feel shows up against your own higher-timeframe plan, sit for the next long instead of inventing a second idea.",
+      "repliedAt": "2026-11-07T02:09:19.198Z"
+    },
+    {
+      "q": "You risked ~$200 on the first long with 'high conviction'. What is the hard dollar/micro cap on the XFA so a single stop cannot fund another eval purchase?"
+    }
+  ],
+  "discord": {
+    "chartsOpened": "9:24 AM ET (Morning Check-in submitted 9:25 AM, on time before 9:30, streak going into the day).",
+    "plan": "\"Its friday im gonna stay patient not force anything i do not want to end the week on a Loss\"",
+    "risk": "On time: Kaixh posted a risk screenshot at 9:25 AM ET and Syndicator confirmed. Attachment looked like an NQ chart/DOM rather than a clear loss-limit / trade-limit settings panel.",
+    "eod": "Filed at 11:24 AM ET (streak 12 days): \"Bad day i did not listen to myself at all an just did not sit on my hands ended up taking setups going both ways\", Rules Followed: No, improvement \"Sitting on my hands i need to realize the volume is not coming in we are in a volatile market size down\". Trade/PNL screenshot confirmed; image looked more like a chart with an account-locked notice than a clear PNL calendar.",
+    "match": "EOD Rules Followed: No matches Notion (Loss + BE, both directions) and TALK (skipped SMT, flipped sides, bought eval). Morning plan to stay patient and not force anything does NOT match what he traded. Journal channel at 11:09 covers trade 1 L and trade 2 BE only \u2014 it does not mention the 3rd long or the LucidFlex eval purchase that Notion TALK and Gmail confirm.",
+    "journalChannel": "11:09 AM ET: \"11/06/26 - 1st trade L i was planning on TP at internal high or use it as BE if we show volume. 2nd trade i ended up going BE cus i did not like how we hesitated to break NYAML\" plus two chart screenshots with RR overlays. Matches Notion on the first two trades; silent on the eval buy and third long."
   },
-  {
-   "label": "TimeFrame 2 · 1hr ES + NQ (9:24 AM)",
-   "feedback": "Same map on 1hr: NQ bouncing into the bottom of the red box after the vertical drop. Supports waiting for a long continuation into the UMG rather than forcing a mid-range short."
-  },
-  {
-   "label": "TimeFrame 3 · 15m ES + NQ (9:24 AM)",
-   "feedback": "Session levels (AS/LO/NY, D OPEN, 10:00) marked; SMT line on LO.H–AS.H. Pre-open price under the red supply — this is the chart that backs the long bias and why AB called the later short the weaker idea."
-  },
-  {
-   "label": "Execution 1 · 1min NQ long (10:14 AM)",
-   "feedback": "RR long: entry ~27,272.50, stop ~27,182.50 (~90 pts), TP up toward ~27,600. Notes match (DOL 4hr UMG, 15min gap, OTE rejecting, 1min low swept, bullish SMT, displacement). This is the good-process long AB called a good loss — stop at the internal/OTE zone is clear on the chart."
-  },
-  {
-   "label": "Execution 2 · 5min NQ short (10:33 AM)",
-   "feedback": "RR short: entry ~27,125, stop ~27,370, target London Low / NYAM.L. Typed note matches Entry type (15min IFVG, 5min displacement, 1 micro). This is the one AB dinged — shorting after a dump into discount while HTF is rebalancing, not shorting a premium."
-  },
-  {
-   "label": "Execution 3 · 1min NQ long (12:08 PM)",
-   "feedback": "RR long after the midday chop: entry ~27,150.50, stop ~27,109 (~41 pts), target higher toward the red zone / 4hr UMG. Clock is 12:08 PM — after the Lucid order (~11:22 AM ET) and activation (~11:35). This is the 'annoyed → bought eval → long to 4hr UMG' trade from TALK."
-  }
- ],
- "good": [
-  "Morning check-in on time at 9:25 AM ET (charts opened 9:24), before the 9:30 deadline.",
-  "Pre-market bias (higher / 4hr UMG rebalance) matched the HTF charts at 9:24 and AB's read that the long was the better side.",
-  "First long had stacked confluence written on the chart (OTE, IFVG, 1min SMT, displacement) and a defined stop at the internal/OTE — AB called it a good loss.",
-  "Second trade risk stayed at 1 micro per your note; you logged BE instead of forcing a win.",
-  "EOD Rules Followed: No matches the day honestly, and TALK admits the eval purchase instead of hiding it."
- ],
- "fix": [
-  "RULE BREAK: bought LucidFlex 50K Rithmic today ($74.75 after AB coupon, order 12319151) because you were annoyed the long stopped and then ran. That is the exact 'no more evals' rule. Cancel or park the account; do not size it up Monday to 'make it back'.",
-  "Morning plan was stay patient and not force anything / not end the week on a Loss — then you took setups both ways. The plan and the tape do not match.",
-  "You said you wanted an SMT, did not see one, entered anyway, then watched SMT print after your stop. Next time the missing confluence is the veto — not a negotiable.",
-  "Risked ~$200 / ~90 pts on the high-conviction long. Cap XFA risk to the planned micro size so one stop cannot tilt you into shopping for accounts.",
-  "Journal channel only covered trade 1 L and trade 2 BE — write the eval buy and third long there too so AB/Bibz see the full day, not a cleaned version."
- ],
- "questions": [
-  {
-   "q": "You wrote you wanted an SMT, did not see one, entered anyway, then got stopped right before SMT printed and price ran to your TP. What exact rule will stop that 'I don't think we need it now' override on Monday?",
-   "answer": "honestly it was a bad day really bad day psychology because everybody took I took a loss to everybody took and it kind of frustrated me I'm not frustrated because I let it go right after I lost sat with it but then I messed up on the wedding I wasn't really discipline outside of the charts with my bad habits and then I let them bad habits bleed into the shorts and then I ended up just tilting and not respecting myself whatsoever",
-   "answeredAt": "2026-11-07T02:06:33.838Z"
-  },
-  {
-   "q": "Morning check-in said stay patient and not force anything. TALK says you got annoyed and bought a LucidFlex 50K after the stop. What is the 60-second action you will take the next time that urge hits, before any checkout page loads?",
-   "answer": "honestly I need to really focus on my bad habits outside the charge more so than the charts itself because if I can respect myself outside the charged and I'm definitely want to respect myself on these buying accounts because buying accounts not going to do anything for me besides but just waste money",
-   "answeredAt": "2026-11-07T02:07:00.543Z"
-  },
-  {
-   "q": "Pre-market and the 4hr/1hr charts wanted higher into the UMG. What specifically made the 10:33 short feel more valid than sitting for the next long?",
-   "answer": "it made me feel valid because if you look on a 50 minute 5 minute we accumulated pre-market 15 minute and 5 minutes not to 50 minutes anyways we accumulated and then manipulated higher and in the 4-Hour on sale on ES and NASDAQ already hit it overnight and then we ended up manipulating Distributing back lower actually and then also shoot we might just lower to my envelope",
-   "answeredAt": "2026-11-07T02:07:47.849Z"
-  },
-  {
-   "q": "You risked ~$200 on the first long with 'high conviction'. What is the hard dollar/micro cap on the XFA so a single stop cannot fund another eval purchase?"
-  }
- ],
- "discord": {
-  "chartsOpened": "9:24 AM ET (Morning Check-in submitted 9:25 AM, on time before 9:30, streak going into the day).",
-  "plan": "\"Its friday im gonna stay patient not force anything i do not want to end the week on a Loss\"",
-  "risk": "On time: Kaixh posted a risk screenshot at 9:25 AM ET and Syndicator confirmed. Attachment looked like an NQ chart/DOM rather than a clear loss-limit / trade-limit settings panel.",
-  "eod": "Filed at 11:24 AM ET (streak 12 days): \"Bad day i did not listen to myself at all an just did not sit on my hands ended up taking setups going both ways\", Rules Followed: No, improvement \"Sitting on my hands i need to realize the volume is not coming in we are in a volatile market size down\". Trade/PNL screenshot confirmed; image looked more like a chart with an account-locked notice than a clear PNL calendar.",
-  "match": "EOD Rules Followed: No matches Notion (Loss + BE, both directions) and TALK (skipped SMT, flipped sides, bought eval). Morning plan to stay patient and not force anything does NOT match what he traded. Journal channel at 11:09 covers trade 1 L and trade 2 BE only — it does not mention the 3rd long or the LucidFlex eval purchase that Notion TALK and Gmail confirm.",
-  "journalChannel": "11:09 AM ET: \"11/06/26 - 1st trade L i was planning on TP at internal high or use it as BE if we show volume. 2nd trade i ended up going BE cus i did not like how we hesitated to break NYAML\" plus two chart screenshots with RR overlays. Matches Notion on the first two trades; silent on the eval buy and third long."
- },
- "reviewedAt": "2026-11-06T21:26:19Z"
+  "reviewedAt": "2026-11-06T21:26:19Z"
 }
