@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T19:26:00Z",
+  "updatedAt": "2026-11-08T00:36:48Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -204,6 +204,18 @@
   ],
   "items": [
     {
+      "id": "f1e419aba20eb",
+      "headline": "Risk of Iran war escalation remains high despite Democratic sweep in U.S. midterm elections",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/07/iran-war-midterm-election-oil-price-trump.html",
+      "publishedAt": "2026-11-07T22:17:52Z",
+      "time": "Sat 5:17 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
       "id": "fcd6816dc2a54",
       "headline": "US offers $20m reward for information about Iran's nuclear programme",
       "source": "BBC",
@@ -222,18 +234,6 @@
       "url": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
       "publishedAt": "2026-11-07T17:09:24Z",
       "time": "Sat 12:09 PM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "f1e419aba20eb",
-      "headline": "Risk of Iran war escalation remains high despite Democratic sweep in U.S. midterm elections",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/07/iran-war-midterm-election-oil-price-trump.html",
-      "publishedAt": "2026-11-07T13:03:12Z",
-      "time": "Sat 8:03 AM",
       "section": "war",
       "impact": "High",
       "lean": "risk-off",
@@ -492,6 +492,18 @@
       "auto": true
     },
     {
+      "id": "f482e30610f09",
+      "headline": "Abdul El-Sayed slams Trump’s tariff war with Canada",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/abdul-el-sayed-slams-trumps-tariff-war-with-canada?traffic_source=rss",
+      "publishedAt": "2026-11-07T20:44:34Z",
+      "time": "Sat 3:44 PM",
+      "section": "econ",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "f53f292be09a3",
       "headline": "U.S. economy added 165,000 jobs in October, way more than expected; unemployment rate slips to 4.1%",
       "source": "CNBC",
@@ -558,30 +570,6 @@
       "url": "https://www.cnbc.com/2026/11/04/apple-and-other-big-tech-stocks-surge-after-2026-midterm-elections.html",
       "publishedAt": "2026-11-04T19:37:43Z",
       "time": "Wed 2:37 PM",
-      "section": "tech",
-      "impact": "High",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "ff1dd4a683461",
-      "headline": "What analysts are telling us while Apple’s stock falls after earnings report",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/what-analysts-are-saying-as-apples-stock-falls-after-earnings-report-f0afa357?mod=mw_rss_topstories",
-      "publishedAt": "2026-11-03T22:48:00Z",
-      "time": "Tue 5:48 PM",
-      "section": "tech",
-      "impact": "High",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f75ece5c44327",
-      "headline": "Anthropic’s IPO is a high-stakes referendum on Big Tech — and this chart proves it",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/anthropics-ipo-is-a-high-stakes-referendum-on-big-tech-and-this-chart-proves-it-d1c54d33?mod=mw_rss_topstories",
-      "publishedAt": "2026-11-03T21:04:00Z",
-      "time": "Tue 4:04 PM",
       "section": "tech",
       "impact": "High",
       "lean": null,
@@ -684,15 +672,15 @@
       "auto": true
     },
     {
-      "id": "fd58363317c31",
-      "headline": "Saudi Aramco Profit Jumps Despite Damaging Attacks on Pipelines and Refineries",
-      "source": "New York Times",
-      "url": "https://www.nytimes.com/2026/11/03/business/saudi-aramco-q3-earnings.html",
-      "publishedAt": "2026-11-03T20:23:22Z",
-      "time": "Tue 3:23 PM",
+      "id": "ff5bff907aba1",
+      "headline": "Egypt Eyes Billions in New Investment to Revive Oil and Gas Production",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Energy/Energy-General/Egypt-Eyes-Billions-in-New-Investment-to-Revive-Oil-and-Gas-Production.html",
+      "publishedAt": "2026-11-07T20:00:00Z",
+      "time": "Sat 3:00 PM",
       "section": "energy",
-      "impact": "High",
-      "lean": "risk-off",
+      "impact": "Medium",
+      "lean": null,
       "auto": true
     },
     {
@@ -801,30 +789,6 @@
       "section": "markets",
       "impact": "Medium",
       "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "fc9d95c35edc5",
-      "headline": "Fears of an AI crackdown after midterms spark $2 trillion rout in tech stocks",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/11/05/nx-s1-6031987/stock-markets-ai-midterm-elections",
-      "publishedAt": "2026-11-06T00:16:53Z",
-      "time": "Thu 7:16 PM",
-      "section": "markets",
-      "impact": "Medium",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "fd5d9a3817dd3",
-      "headline": "Nasdaq sees worst day in 19 months as investors bet on AI slowdown after Democrats’ election triumph",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/nov/05/nasdaq-heading-for-worst-day-in-18-months-as-wall-street-sustains-widespread-losses",
-      "publishedAt": "2026-11-05T21:23:18Z",
-      "time": "Thu 4:23 PM",
-      "section": "markets",
-      "impact": "Medium",
-      "lean": null,
       "auto": true
     }
   ]
