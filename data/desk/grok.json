@@ -1,15 +1,48 @@
 {
-  "at": "2026-11-08T12:00:00Z",
-  "pulse": "Post-midterm tape digests Thursday's Nasdaq rout on AI data-center regulation fears and a strong jobs print lifting December hike odds, while oil's sharp weekly crash on Iran de-escalation hopes and Friday's partial chip rebound keep the bias mixed into the week.",
-  "bias": "mixed — Friday's chip rebound and oil drop on Dem midterm Iran hopes offset AI regulation overhang and elevated Dec Fed hike pricing from hot NFP (165k).",
+  "date": "2026-11-08",
+  "at": "2026-11-08T12:26:44Z",
+  "pulse": "NQ is shut until the 6 PM ET Sunday open, and the weekend tape flipped more risk-off after @FirstSquawk flagged Iranian media reports of 3 Hormuz tanker explosions this morning on top of last night's unconfirmed Houthi Aramco/Riyadh claims — a CL-spike risk that undercuts last week's ~13% oil dump on de-escalation hopes, only partly offset by Friday's Comp bounce and oversold chips into Tuesday CPI.",
+  "bias": "risk-off — fresh Hormuz tanker-explosion headlines plus Saturday night Houthi Aramco/Riyadh claims raise an oil-shock risk into the 6 PM ET open, stacking on last week's AI/data-center rout (Nasdaq ~-3.4%, NQ ~-4.3% to -4.9%, chips ~-12%) and hot 165k NFP that lifted Dec hike odds toward ~75-80%; Friday's bounce is the cushion.",
   "items": [
-    "@supermusk (~6:52 AM ET): Nasdaq-100 -4.3% on the week (4th losing week), Thu -6.4% worst since 2020 on data-center fears, Fri +2% bounce; jobs 165k, Dec hike ~80%, CPI Tue key — Mixed NQ",
-    "@HedgebergCom (~7:00 AM ET): Nasdaq correction not done, expects one more low toward 26000-26500 area next week — Bearish NQ",
-    "@42traders (~6:13 AM ET): SPX fragile with negative gamma/delta post-selloff, elevated vol risk, CPI Tue can drive direction — Bearish NQ",
-    "Tradenometry (~4:22 PM ET Sat): AI trade sorted not repaired; S&P -2.7% Nasdaq -3.4% worst week since June, oil ~13% dump, jobs challenge soft-landing, CPI next stress — Mixed NQ",
-    "@1Captainjackson (~7:14 PM ET Sat): Strong Oct jobs put Dec Fed hike back in focus after Thu AI-regulation selloff; oil still digesting weekly drop on Iran hopes — Mixed NQ"
+    "@FirstSquawk (~6:09 AM ET): Iranian media says 3 oil tankers were hit by explosions and caught fire transiting the Strait of Hormuz — Bearish NQ",
+    "@FirstSquawk (~9:49 PM ET Sat): Houthis claim strikes on Aramco sites (Riyadh-area tanks/distillation and Khurais) and Riyadh Airport; unconfirmed by Saudi — Bearish NQ",
+    "@VelarisMarkets (~5:39 AM ET): Week recap S&P -2.7%, Nasdaq -3.4%, Dow -0.9%; WTI -13% to the low $90s, Brent back under $100; gold +4.6% to ~$4,080 — Mixed NQ",
+    "@JTradesQuant (~5:49 AM ET): Oct jobs 165k vs ~65k, unemployment 4.1%, Dec hike odds ~75-78%; CPI Tuesday is the next NQ swing — Bearish NQ",
+    "@QuantApexAI (~7:07 AM ET): Chip index -12.1% on the week, Nasdaq-100 -4.9%, Thu erased $2.3T; Kospi -11.7% as Asia followed the AI rout — Bearish NQ"
   ],
-  "trump": "none",
-  "watch": "Sunday 6 PM ET NQ/CL futures open on any fresh Iran/Hormuz or Houthi headlines; Tuesday Nov 10 CPI 8:30 AM ET for Dec hike odds and inflation path; AI data-center regulation noise from new Congress; CoreWeave AMC Tue, PPI Fri.",
-  "forSite": []
+  "trump": "60 Minutes interview airs tonight 7 PM ET. Friday at Mar-a-Lago he called the Iran conflict \"not a war\" and described limited Qeshm Island air-defense strikes as minor/defensive (X news recaps). Saturday evening he spoke with Erdogan; Turkey vowed continued peace efforts (@FirstSquawk ~8:48 PM ET).",
+  "watch": "Sun 6 PM ET NQ/CL futures open on Hormuz tanker-explosion headlines and any confirmation of Houthi Aramco/Riyadh claims; Trump on 60 Minutes Sun 7 PM ET; China CPI/PPI ~8:30 PM ET; Mon Nov 9 CEG/KKR BMO, TTWO/OXY AMC; Tue Nov 10 CPI 8:30 AM ET, CRWV AMC; Thu Nov 12 claims 8:30 AM, NBIS BMO, AMAT/CSCO AMC; Fri Nov 13 PPI 8:30 AM ET; NVDA Nov 17 AMC; Dec 8-9 FOMC.",
+  "forSite": [],
+  "reports": [
+    {
+      "at": "2026-11-08T12:00:00Z",
+      "pulse": "Post-midterm tape digests Thursday's Nasdaq rout on AI data-center regulation fears and a strong jobs print lifting December hike odds, while oil's sharp weekly crash on Iran de-escalation hopes and Friday's partial chip rebound keep the bias mixed into the week.",
+      "bias": "mixed — Friday's chip rebound and oil drop on Dem midterm Iran hopes offset AI regulation overhang and elevated Dec Fed hike pricing from hot NFP (165k).",
+      "items": [
+        "@supermusk (~6:52 AM ET): Nasdaq-100 -4.3% on the week (4th losing week), Thu -6.4% worst since 2020 on data-center fears, Fri +2% bounce; jobs 165k, Dec hike ~80%, CPI Tue key — Mixed NQ",
+        "@HedgebergCom (~7:00 AM ET): Nasdaq correction not done, expects one more low toward 26000-26500 area next week — Bearish NQ",
+        "@42traders (~6:13 AM ET): SPX fragile with negative gamma/delta post-selloff, elevated vol risk, CPI Tue can drive direction — Bearish NQ",
+        "Tradenometry (~4:22 PM ET Sat): AI trade sorted not repaired; S&P -2.7% Nasdaq -3.4% worst week since June, oil ~13% dump, jobs challenge soft-landing, CPI next stress — Mixed NQ",
+        "@1Captainjackson (~7:14 PM ET Sat): Strong Oct jobs put Dec Fed hike back in focus after Thu AI-regulation selloff; oil still digesting weekly drop on Iran hopes — Mixed NQ"
+      ],
+      "trump": "none",
+      "watch": "Sunday 6 PM ET NQ/CL futures open on any fresh Iran/Hormuz or Houthi headlines; Tuesday Nov 10 CPI 8:30 AM ET for Dec hike odds and inflation path; AI data-center regulation noise from new Congress; CoreWeave AMC Tue, PPI Fri.",
+      "forSite": []
+    },
+    {
+      "at": "2026-11-08T12:26:44Z",
+      "pulse": "NQ is shut until the 6 PM ET Sunday open, and the weekend tape flipped more risk-off after @FirstSquawk flagged Iranian media reports of 3 Hormuz tanker explosions this morning on top of last night's unconfirmed Houthi Aramco/Riyadh claims — a CL-spike risk that undercuts last week's ~13% oil dump on de-escalation hopes, only partly offset by Friday's Comp bounce and oversold chips into Tuesday CPI.",
+      "bias": "risk-off — fresh Hormuz tanker-explosion headlines plus Saturday night Houthi Aramco/Riyadh claims raise an oil-shock risk into the 6 PM ET open, stacking on last week's AI/data-center rout (Nasdaq ~-3.4%, NQ ~-4.3% to -4.9%, chips ~-12%) and hot 165k NFP that lifted Dec hike odds toward ~75-80%; Friday's bounce is the cushion.",
+      "items": [
+        "@FirstSquawk (~6:09 AM ET): Iranian media says 3 oil tankers were hit by explosions and caught fire transiting the Strait of Hormuz — Bearish NQ",
+        "@FirstSquawk (~9:49 PM ET Sat): Houthis claim strikes on Aramco sites (Riyadh-area tanks/distillation and Khurais) and Riyadh Airport; unconfirmed by Saudi — Bearish NQ",
+        "@VelarisMarkets (~5:39 AM ET): Week recap S&P -2.7%, Nasdaq -3.4%, Dow -0.9%; WTI -13% to the low $90s, Brent back under $100; gold +4.6% to ~$4,080 — Mixed NQ",
+        "@JTradesQuant (~5:49 AM ET): Oct jobs 165k vs ~65k, unemployment 4.1%, Dec hike odds ~75-78%; CPI Tuesday is the next NQ swing — Bearish NQ",
+        "@QuantApexAI (~7:07 AM ET): Chip index -12.1% on the week, Nasdaq-100 -4.9%, Thu erased $2.3T; Kospi -11.7% as Asia followed the AI rout — Bearish NQ"
+      ],
+      "trump": "60 Minutes interview airs tonight 7 PM ET. Friday at Mar-a-Lago he called the Iran conflict \"not a war\" and described limited Qeshm Island air-defense strikes as minor/defensive (X news recaps). Saturday evening he spoke with Erdogan; Turkey vowed continued peace efforts (@FirstSquawk ~8:48 PM ET).",
+      "watch": "Sun 6 PM ET NQ/CL futures open on Hormuz tanker-explosion headlines and any confirmation of Houthi Aramco/Riyadh claims; Trump on 60 Minutes Sun 7 PM ET; China CPI/PPI ~8:30 PM ET; Mon Nov 9 CEG/KKR BMO, TTWO/OXY AMC; Tue Nov 10 CPI 8:30 AM ET, CRWV AMC; Thu Nov 12 claims 8:30 AM, NBIS BMO, AMAT/CSCO AMC; Fri Nov 13 PPI 8:30 AM ET; NVDA Nov 17 AMC; Dec 8-9 FOMC.",
+      "forSite": []
+    }
+  ]
 }

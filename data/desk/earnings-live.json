@@ -1,85 +1,16 @@
 {
-  "date": "2026-11-07",
-  "at": "2026-11-08T03:25:32Z",
+  "date": "2026-11-08",
+  "at": "2026-11-08T12:26:44Z",
   "items": [
-    {
-      "ticker": "APP",
-      "company": "AppLovin (APP)",
-      "date": "2026-11-04",
-      "when": "AMC",
-      "status": "reported",
-      "why": "Rev ~$2.185B vs ~$2.07-2.08B est (+55% y/y, first re-acceleration in 4 qtrs), EPS $4.30 vs ~$4.03; Q4 rev guide $2.365-2.395B; adj EBITDA ~$1.84B (84% margin), $1.4B buybacks",
-      "reaction": "~+17% AH (~$318)",
-      "sentiment": "Bullish"
-    },
-    {
-      "ticker": "ARM",
-      "company": "Arm Holdings (ARM)",
-      "date": "2026-11-04",
-      "when": "AMC",
-      "status": "reported",
-      "why": "Adj EPS $0.52 vs $0.47, rev $1.44B vs $1.38B (+27%), license +50% to $773M, but royalties $670M (+8%) missed ~$712-721M est; Q3 guide $1.49-1.59B rev, EPS $0.52-0.60, midpoints slightly above est",
-      "reaction": "~-3% AH (~$186)",
-      "sentiment": "Mixed"
-    },
-    {
-      "ticker": "DDOG",
-      "company": "Datadog (DDOG)",
-      "date": "2026-11-04",
-      "when": "BMO",
-      "status": "reported",
-      "reaction": "~-15% premarket",
-      "sentiment": "Bearish",
-      "why": "Rev $1.20B +35% y/y vs ~$1.14-1.15B est, adj EPS 81c vs ~64c beat, FCF $251M; Q4 rev guide $1.19-1.20B only in line, no acceleration, software sell-off"
-    },
-    {
-      "ticker": "GFS",
-      "company": "GlobalFoundries (GFS)",
-      "date": "2026-11-04",
-      "when": "BMO",
-      "status": "reported",
-      "sentiment": "Mixed",
-      "why": "Adj EPS 53c vs 50c, rev $1.90B vs $1.89B; Q4 rev guide $1.98-2.03B vs $2.002B est, EPS 54-64c vs 56c"
-    },
-    {
-      "ticker": "QCOM",
-      "company": "Qualcomm (QCOM)",
-      "date": "2026-11-04",
-      "when": "AMC",
-      "status": "reported",
-      "why": "Adj EPS $2.17 vs $2.16, adj rev $10.44B vs $10.12B (down y/y); Q1 guide rev $10.4-11.2B (mid above $10.55B est), EPS $2.15-2.35 (mid ~in line); handset chip revenue missed, auto/IoT strong; handset chip sales weakness and soft guide driving the premarket drop, dragging NVDA/AMD/MRVL",
-      "reaction": "~-9-10% premarket",
-      "sentiment": "Bearish"
-    },
-    {
-      "ticker": "SNAP",
-      "company": "Snap (SNAP)",
-      "date": "2026-11-04",
-      "when": "AMC",
-      "status": "reported",
-      "reaction": "~-10% AH",
-      "sentiment": "Bearish",
-      "why": "Rev $1.722B (+14%) vs $1.73B slight miss, DAU 495M vs 498-499M miss, MAU 977M; adj EBITDA $383M beat, net income $56M, Other rev +84% to $350M; ad growth slowed to 4%; Q4 rev guide $1.95-1.985B"
-    },
-    {
-      "ticker": "UBER",
-      "company": "Uber (UBER)",
-      "date": "2026-11-04",
-      "when": "BMO",
-      "status": "reported",
-      "why": "Adj EPS 88c vs 87c, rev $14.77B vs $14.65B, gross bookings $59.82B vs $59.79B, adj EBITDA $2.96B vs $2.93B; Q4 bookings guide $63.25-65.25B vs $64.29B, Q4 EPS guide 95-99c vs 98c (in line)",
-      "sentiment": "Mixed",
-      "reaction": "slightly lower premarket"
-    },
     {
       "ticker": "ABNB",
       "company": "Airbnb (ABNB)",
       "date": "2026-11-05",
       "when": "AMC",
       "status": "reported",
+      "why": "EPS $3.16 vs $2.85, rev $4.87B vs $4.75B (+19% y/y); GBV +21%; new $12B buyback; FY26 rev growth raised high teens",
       "reaction": "~+12% session",
-      "sentiment": "Bullish",
-      "why": "EPS $3.16 vs $2.85, rev $4.87B vs $4.75B (+19% y/y); GBV +21%; new $12B buyback; FY26 rev growth raised high teens"
+      "sentiment": "Bullish"
     },
     {
       "ticker": "DKNG",
@@ -87,9 +18,9 @@
       "date": "2026-11-05",
       "when": "AMC",
       "status": "reported",
+      "why": "Rev +16% to $1.329B; cut FY26 adj EBITDA to $175-275M on Predictions spend; not core NQ but consumer risk read",
       "reaction": "lower premarket on guide cut",
-      "sentiment": "Bearish",
-      "why": "Rev +16% to $1.329B; cut FY26 adj EBITDA to $175-275M on Predictions spend; not core NQ but consumer risk read"
+      "sentiment": "Bearish"
     },
     {
       "ticker": "IREN",
@@ -97,9 +28,9 @@
       "date": "2026-11-05",
       "when": "AMC",
       "status": "reported",
+      "why": "FQ1 FY27 AI cloud rev ~$200M (+182%), total rev $228M (+66%); ARR ~$1B; backlog $20.3B; bounced hard Fri after Thu AI washout",
       "reaction": "~+19-21% Fri session after AH/premixed",
-      "sentiment": "Bullish",
-      "why": "FQ1 FY27 AI cloud rev ~$200M (+182%), total rev $228M (+66%); ARR ~$1B; backlog $20.3B; bounced hard Fri after Thu AI washout"
+      "sentiment": "Bullish"
     },
     {
       "ticker": "MCHP",
@@ -107,9 +38,9 @@
       "date": "2026-11-05",
       "when": "AMC",
       "status": "reported",
+      "why": "Soft semis print into broad chip selloff",
       "reaction": "~-6% AH",
-      "sentiment": "Bearish",
-      "why": "Soft semis print into broad chip selloff"
+      "sentiment": "Bearish"
     },
     {
       "ticker": "NET",
@@ -117,9 +48,9 @@
       "date": "2026-11-05",
       "when": "AMC",
       "status": "reported",
+      "why": "Beat/raise AI networking print; one of few AI infra names that held bid through Thu rout",
       "reaction": "~+17% AH",
-      "sentiment": "Bullish",
-      "why": "Beat/raise AI networking print; one of few AI infra names that held bid through Thu rout"
+      "sentiment": "Bullish"
     },
     {
       "ticker": "TEAM",
@@ -127,9 +58,9 @@
       "date": "2026-11-05",
       "when": "AMC",
       "status": "reported",
+      "why": "Soft guide / software derating into Thu AI/tech wipeout",
       "reaction": "~-16% session",
-      "sentiment": "Bearish",
-      "why": "Soft guide / software derating into Thu AI/tech wipeout"
+      "sentiment": "Bearish"
     },
     {
       "ticker": "OKLO",
@@ -137,9 +68,9 @@
       "date": "2026-11-06",
       "when": "BMO",
       "status": "reported",
+      "why": "Loss $0.22 vs $0.27 est, rev $1.86M vs $1.01M; $3.13B cash; AI-power/nuclear rebound with group",
       "reaction": "~+16-25% session",
-      "sentiment": "Bullish",
-      "why": "Loss $0.22 vs $0.27 est, rev $1.86M vs $1.01M; $3.13B cash; AI-power/nuclear rebound with group"
+      "sentiment": "Bullish"
     },
     {
       "ticker": "VST",
@@ -167,9 +98,9 @@
       "date": "2026-11-07",
       "when": "BMO",
       "status": "reported",
+      "why": "Q3 operating earnings $12.71B, -5.8% y/y; ~$9.6B buybacks in Q3 (per @FirstSquawk)",
       "reaction": "n/a (reported Sat, trades Mon)",
-      "sentiment": "Mixed",
-      "why": "Q3 operating earnings $12.71B, -5.8% y/y; ~$9.6B buybacks in Q3 (per @FirstSquawk)"
+      "sentiment": "Mixed"
     },
     {
       "ticker": "CEG",
@@ -193,7 +124,7 @@
       "date": "2026-11-09",
       "when": "AMC",
       "status": "upcoming",
-      "why": "Oil major AMC; CL/Iran-sensitive into the Hormuz/Houthi weekend"
+      "why": "Oil major AMC; CL/Iran-sensitive after weekend Hormuz tanker and Houthi headlines"
     },
     {
       "ticker": "TTWO",
