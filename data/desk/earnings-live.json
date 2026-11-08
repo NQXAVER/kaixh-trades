@@ -1,6 +1,6 @@
 {
   "date": "2026-11-07",
-  "at": "2026-11-08T01:21:24Z",
+  "at": "2026-11-08T03:25:32Z",
   "items": [
     {
       "ticker": "APP",
@@ -178,6 +178,22 @@
       "when": "BMO",
       "status": "upcoming",
       "why": "AI power / nuclear; key data-center electricity read"
+    },
+    {
+      "ticker": "KKR",
+      "company": "KKR (KKR)",
+      "date": "2026-11-09",
+      "when": "BMO",
+      "status": "upcoming",
+      "why": "Mega PE print; deal-activity / risk-appetite read into Monday"
+    },
+    {
+      "ticker": "OXY",
+      "company": "Occidental Petroleum (OXY)",
+      "date": "2026-11-09",
+      "when": "AMC",
+      "status": "upcoming",
+      "why": "Oil major AMC; CL/Iran-sensitive into the Hormuz/Houthi weekend"
     },
     {
       "ticker": "TTWO",
