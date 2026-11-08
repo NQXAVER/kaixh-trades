@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T00:36:48Z",
+  "updatedAt": "2026-11-08T10:23:18Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -204,6 +204,18 @@
   ],
   "items": [
     {
+      "id": "fb8fb623b2e95",
+      "headline": "Houthis say at least 33 killed in Saudi air strike",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-11-08T04:03:12Z",
+      "time": "Sat 11:03 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
       "id": "f1e419aba20eb",
       "headline": "Risk of Iran war escalation remains high despite Democratic sweep in U.S. midterm elections",
       "source": "CNBC",
@@ -225,18 +237,6 @@
       "section": "war",
       "impact": "High",
       "lean": null,
-      "auto": true
-    },
-    {
-      "id": "fe24cfcc4698a",
-      "headline": "Houthis say at least 25 killed in Saudi air strike",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-11-07T17:09:24Z",
-      "time": "Sat 12:09 PM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
       "auto": true
     },
     {
@@ -600,14 +600,14 @@
       "auto": true
     },
     {
-      "id": "fa8b07939a7be",
-      "headline": "Rheinmetall shares plunge 16% after outlook cut as military contracts stall",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/05/rheinmetall-stock-outlook-sales-germany.html",
-      "publishedAt": "2026-11-06T09:05:28Z",
-      "time": "Fri 4:05 AM",
-      "section": "tech",
-      "impact": "Medium",
+      "id": "fd0f50e224b64",
+      "headline": "Saudi Aramco building in Riyadh damaged in ‘attempted’ attack",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/8/saudi-arabia-intercepts-houthi-missiles-targeting-riyadh-eastern-province?traffic_source=rss",
+      "publishedAt": "2026-11-08T07:40:07Z",
+      "time": "Sun 2:40 AM",
+      "section": "energy",
+      "impact": "High",
       "lean": "risk-off",
       "auto": true
     },
@@ -720,18 +720,6 @@
       "auto": true
     },
     {
-      "id": "f0d42cd99f737",
-      "headline": "America’s Nuclear Revival Is Running Into a Fuel Supply Wall",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Americas-Nuclear-Revival-Is-Running-Into-a-Fuel-Supply-Wall.html",
-      "publishedAt": "2026-11-06T21:00:00Z",
-      "time": "Fri 4:00 PM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
       "id": "f61f791360461",
       "headline": "Global Stocks Follow U.S. Sell-Off as A.I. Spending Fears Spread",
       "source": "New York Times",
@@ -774,18 +762,6 @@
       "url": "https://www.cnbc.com/2026/11/06/tech-stocks-sk-hynix-samsung-softbank.html",
       "publishedAt": "2026-11-06T11:06:58Z",
       "time": "Fri 6:06 AM",
-      "section": "markets",
-      "impact": "Medium",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "f9d5383ac0d35",
-      "headline": "Global tech stocks plunge as US midterms add to AI slowdown fears",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-11-06T06:00:59Z",
-      "time": "Fri 1:00 AM",
       "section": "markets",
       "impact": "Medium",
       "lean": "risk-off",
