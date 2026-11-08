@@ -1,18 +1,18 @@
 {
   "date": "2026-11-08",
   "grok": {
-    "at": "2026-11-08T12:00:00Z",
-    "pulse": "Post-midterm tape digests Thursday's Nasdaq rout on AI data-center regulation fears and a strong jobs print lifting December hike odds, while oil's sharp weekly crash on Iran de-escalation hopes and Friday's partial chip rebound keep the bias mixed into the week.",
-    "bias": "mixed — Friday's chip rebound and oil drop on Dem midterm Iran hopes offset AI regulation overhang and elevated Dec Fed hike pricing from hot NFP (165k).",
+    "at": "2026-11-08T14:26:05Z",
+    "pulse": "Post-midterm Nasdaq digests Thursday's sharp AI data-center regulation selloff and hot NFP lifting December hike odds near 80%, with Friday chip rebound offset by fresh Hormuz tanker explosion reports and confirmed Houthi Aramco/Riyadh strikes keeping oil and risk mixed into the Sunday futures open.",
+    "bias": "mixed — AI regulation overhang from Dem midterms and elevated Fed hike pricing from 165k jobs are offset by oil's weekly crash on de-escalation hopes and partial Friday equity bounce, though fresh Gulf geopolitical headlines add risk-off tilt.",
     "items": [
-      "@supermusk (~6:52 AM ET): Nasdaq-100 -4.3% on the week (4th losing week), Thu -6.4% worst since 2020 on data-center fears, Fri +2% bounce; jobs 165k, Dec hike ~80%, CPI Tue key — Mixed NQ",
-      "@HedgebergCom (~7:00 AM ET): Nasdaq correction not done, expects one more low toward 26000-26500 area next week — Bearish NQ",
-      "@42traders (~6:13 AM ET): SPX fragile with negative gamma/delta post-selloff, elevated vol risk, CPI Tue can drive direction — Bearish NQ",
-      "Tradenometry (~4:22 PM ET Sat): AI trade sorted not repaired; S&P -2.7% Nasdaq -3.4% worst week since June, oil ~13% dump, jobs challenge soft-landing, CPI next stress — Mixed NQ",
-      "@1Captainjackson (~7:14 PM ET Sat): Strong Oct jobs put Dec Fed hike back in focus after Thu AI-regulation selloff; oil still digesting weekly drop on Iran hopes — Mixed NQ"
+      "@FirstSquawk (~6:09 AM ET): Iranian media reports 3 oil tankers hit by explosions and caught fire while passing through the Strait of Hormuz",
+      "@Reuters (~5:20 AM ET): Saudi Energy Ministry says Aramco building in Riyadh damaged by falling debris after attempted attack",
+      "@1Captainjackson (~7:14 PM ET Sat): Strong Oct jobs put Dec Fed hike back in focus after Thu AI-regulation selloff; oil still digesting weekly drop",
+      "StoneX (~5:01 AM ET): Nasdaq midterm selloff 5.5% on Dem Congress AI data-center fears, partial rebound Friday, NFP 165k, Dec hike ~80%",
+      "@unusual_whales (~9:01 AM ET): Podcast discussion on AI bets for HIMS as AI doctor and DUOL as AI teacher potentially hitting $1T"
     ],
-    "trump": "none",
-    "watch": "Sunday 6 PM ET NQ/CL futures open on any fresh Iran/Hormuz or Houthi headlines; Tuesday Nov 10 CPI 8:30 AM ET for Dec hike odds and inflation path; AI data-center regulation noise from new Congress; CoreWeave AMC Tue, PPI Fri.",
+    "trump": "Circulating reports of Trump commenting on $3T market loss after midterms; 60 Minutes interview airs tonight 7 PM ET. No new direct posts noted.",
+    "watch": "Sunday 6 PM ET NQ/ES/CL futures open on Hormuz tanker and Houthi Aramco headlines; Tuesday Nov 10 CPI 8:30 AM ET for inflation and Dec hike path; AI regulation noise from new Congress; CoreWeave and other AI earnings this week.",
     "forSite": []
   }
 }
