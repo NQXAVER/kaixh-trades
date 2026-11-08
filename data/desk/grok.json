@@ -1,91 +1,15 @@
 {
-  "date": "2026-11-07",
-  "at": "2026-11-08T03:25:32Z",
-  "pulse": "NQ setup into the Sun 6 PM ET open stays on the back foot: fresh Houthi claims of missile/drone strikes on Saudi Aramco sites and Riyadh Airport add a CL-spike risk on top of weekend Hormuz mine/CENTCOM incidents and the Dem data-center overhang, only partly offset by the Erdogan-Trump diplomacy line and Fri's Comp bounce.",
-  "bias": "risk-off — Houthi claims of Aramco/Riyadh strikes raise weekend oil-shock risk into the Sun 6 PM open, stacking on Hormuz shipping incidents and AI/data-center regulation overhang; Erdogan-Trump talks and Fri's oversold bounce are the only cushion.",
+  "at": "2026-11-08T12:00:00Z",
+  "pulse": "Post-midterm tape digests Thursday's Nasdaq rout on AI data-center regulation fears and a strong jobs print lifting December hike odds, while oil's sharp weekly crash on Iran de-escalation hopes and Friday's partial chip rebound keep the bias mixed into the week.",
+  "bias": "mixed — Friday's chip rebound and oil drop on Dem midterm Iran hopes offset AI regulation overhang and elevated Dec Fed hike pricing from hot NFP (165k).",
   "items": [
-    "@FirstSquawk (~9:49 PM ET): Houthis announce strikes on Aramco facilities in two Saudi locations (Riyadh-area tanks/distillation and Khurais) — Bearish NQ",
-    "@FirstSquawk (~9:45 PM ET): Houthis announce attack on Riyadh Airport; claims unconfirmed by Saudi Arabia — Bearish NQ",
-    "@unusual_whales (~9:46 PM ET): Musk says SoftBank is defaulting on turbine orders for a Stargate partner — Bearish NQ",
-    "@FirstSquawk (~8:48 PM ET): Erdogan speaks with Trump; Turkey vows continued peace efforts amid US-Iran tensions — Mixed NQ"
+    "@supermusk (~6:52 AM ET): Nasdaq-100 -4.3% on the week (4th losing week), Thu -6.4% worst since 2020 on data-center fears, Fri +2% bounce; jobs 165k, Dec hike ~80%, CPI Tue key — Mixed NQ",
+    "@HedgebergCom (~7:00 AM ET): Nasdaq correction not done, expects one more low toward 26000-26500 area next week — Bearish NQ",
+    "@42traders (~6:13 AM ET): SPX fragile with negative gamma/delta post-selloff, elevated vol risk, CPI Tue can drive direction — Bearish NQ",
+    "Tradenometry (~4:22 PM ET Sat): AI trade sorted not repaired; S&P -2.7% Nasdaq -3.4% worst week since June, oil ~13% dump, jobs challenge soft-landing, CPI next stress — Mixed NQ",
+    "@1Captainjackson (~7:14 PM ET Sat): Strong Oct jobs put Dec Fed hike back in focus after Thu AI-regulation selloff; oil still digesting weekly drop on Iran hopes — Mixed NQ"
   ],
-  "trump": "Sat evening: Erdogan call — Turkey vows continued peace efforts amid US-Iran tensions (~8:48 PM ET via @FirstSquawk); earlier ordered DOJ to investigate Democrats 'threatening a lot of people,' calling it a 'criminal act'; Dana White declined the press secretary offer (CNN via @DeItaone ~4:47 PM ET). 60 Minutes interview airs Sun 7 PM ET.",
-  "watch": "Sun 6 PM ET NQ/CL futures open — Houthi/Aramco and Hormuz headlines overnight; Trump on 60 Minutes Sun 7 PM ET; Mon Nov 9 CEG/KKR BMO, TTWO/OXY AMC; Tue Nov 10 CPI 8:30 AM ET, CRWV AMC; Thu Nov 12 NBIS BMO, AMAT/CSCO AMC; Fri Nov 13 PPI 8:30 AM ET; NVDA Nov 17 AMC; Dec 8-9 FOMC.",
-  "forSite": [],
-  "reports": [
-    {
-      "at": "2026-11-07T12:23:01Z",
-      "pulse": "Weekend NQ setup after Fri Comp +1.1% bounce: fresh NVDA China headlines (H200 licenses to shell-like Chinese buyers, Huang spy-report briefing Nov 18) plus a mined tanker near Hormuz lean bearish, offset by Trump's Iran-talks line and Hormuz still open into Mon and Tue CPI.",
-      "bias": "risk-off — NVDA governance/export-control headlines and Hormuz mine/drone incidents pile onto a tape still in correction (S&P -2.7% wk), with only Iran-talks hopes and Fri's bounce as cushions.",
-      "items": [
-        "@WatcherGuru (~6:10 AM ET): NYT — US approved NVDA H200 sales to Chinese firms with empty offices and blacklist ties — Bearish NQ",
-        "@FirstSquawk (~5:16 AM ET): Iran navy says oil tanker hit a mine in Hormuz Sat; Iran also claims it downed a US MQ-9 over Qeshm (~5:56 AM ET) — Bearish NQ",
-        "X News (~7:14 AM ET): FT spy-link story on Jensen Huang; House committees want closed-door briefing with Huang Nov 18, NVDA internal review found no wrongdoing — Bearish NQ",
-        "X News (~2:30 AM ET): TSMC drawing up 3D DRAM plans at NVDA's request amid AI memory shortage — Mixed NQ",
-        "@unusual_whales (~12:39 AM ET): Apollo — still no sign of AI in productivity numbers despite capex — Bearish NQ"
-      ],
-      "trump": "Overnight remarks: says US has beaten Iran 'without losing a single soldier,' calls it 'the greatest blockade in history,' Hormuz controlled/open and negotiations underway; Fri he said he's 'dealing with the Iranians.'",
-      "watch": "Weekend Iran/Hormuz and NVDA headlines into Sun 6 PM ET futures open; Mon Nov 9 CEG BMO, TTWO AMC; Tue Nov 10 CPI 8:30 AM ET, CRWV AMC; Thu Nov 12 NBIS BMO, AMAT/CSCO AMC; Fri Nov 13 PPI; Nov 18 Huang House briefing; NVDA Nov 17 AMC; Dec 8-9 FOMC.",
-      "forSite": []
-    },
-    {
-      "at": "2026-11-07T14:27:41Z",
-      "pulse": "Quiet weekend NQ tape after Fri Comp +1.1% bounce off Thu's -5.5% rout: NVDA China/H200 export-control headlines, Huang family Korea trip canceled, and Hormuz mine/CENTCOM task-force escalation lean bearish into Sun 6 PM futures open, offset by Trump/Rubio Iran-talks line and a Russia-Ukraine deal push.",
-      "bias": "risk-off — NQ still in correction (S&P -2.7% wk, Nikkei bear market, Asia AI sell-off) with NVDA governance headlines, Iran escalation risk and hot Oct NFP (165K vs 65K, Dec hike odds up) weighing; only diplomacy headlines and dip-buying cushion.",
-      "items": [
-        "@FirstSquawk (~8:14 AM ET): Risk of Iran war escalation remains high despite Dem midterm sweep; CENTCOM stands up task force vs routes supporting Iran's illegal arms shipments (~8:32 AM ET) — Bearish NQ",
-        "@FirstSquawk (~8:31 AM ET): Yonhap — NVDA CEO's daughter cancels planned S. Korea visit, adds to Huang/China headline overhang — Bearish NQ",
-        "@WatcherGuru (~6:10 AM ET): NYT — US approved NVDA H200 sales to Chinese firms with empty offices and blacklist ties — Bearish NQ",
-        "@zerohedge (~9:00 AM ET): Musk says 'SoftBank is defaulting on turbine orders' — AI-capex financing-strain angle — Bearish NQ",
-        "@FirstSquawk (~7:57 AM ET): BRK Q3 operating earnings $12.71B (-5.8% y/y), ~$9.6B buybacks — Mixed NQ"
-      ],
-      "trump": "Says US has beaten Iran 'without losing a single soldier,' 'the greatest blockade in history,' Hormuz controlled and negotiations underway; Rubio backed his Iran campaign at Mar-a-Lago Sat AM; Trump also claimed Russia and Ukraine 'want to make a deal' ahead of Abu Dhabi talks (~8:09 AM ET via @FirstSquawk).",
-      "watch": "Weekend Iran/Hormuz and NVDA headlines into Sun 6 PM ET futures open; Mon Nov 9 CEG BMO, TTWO AMC; Tue Nov 10 CPI 8:30 AM ET, CRWV AMC; Thu Nov 12 NBIS BMO, AMAT/CSCO AMC; Fri Nov 13 PPI 8:30 AM ET; NVDA Nov 17 AMC; Nov 18 Huang House briefing; Dec 8-9 FOMC.",
-      "forSite": []
-    },
-    {
-      "at": "2026-11-07T21:28:35Z",
-      "pulse": "Weekend NQ still soft into Sun 6 PM open: Fri Comp +1.1% bounce off Thu's -5.5% rout, but afternoon Iran escalation (IRGC: two tankers hit mines near Hormuz; explosions southern Iran; CENTCOM Iron Gate) plus Anthropic IPO valuation cut lean risk-off, offset by Erdogan/Trump diplomacy talk and Treasury buyback chatter.",
-      "bias": "risk-off — Hormuz mine/escalation headlines and AI valuation reset (Anthropic cut to ~$1.1T, data-center ballot bans) keep NQ in correction mode; only diplomacy and Fri's bounce cushion.",
-      "items": [
-        "@DeItaone (~4:11 PM ET): IRGC Navy — two oil tankers hit mines near Strait of Hormuz — Bearish NQ",
-        "@DeItaone (~3:14 PM ET): Explosions heard in Jask, Sirik, Bandar Abbas, Qeshm (southern Iran), cause unclear — Bearish NQ",
-        "X News (~4:24 PM ET): Anthropic cuts IPO valuation talk to ~$1.1-1.3T from ~$2T amid AI selloff — Bearish NQ",
-        "@zerohedge (~2:39 PM ET): Flood of new jumbo AI IG debt issues after Sept freeze — Mixed NQ",
-        "@FirstSquawk (~12:53 PM ET): Erdogan tells Trump to resolve US-Iran tensions via diplomacy — Mixed NQ"
-      ],
-      "trump": "Sat: offered Dana White (UFC CEO) the White House press secretary job; ordered DOJ to look into Dems 'threatening a lot of people'; earlier Iran line still stands (blockade/talks). Erdogan phone call stressed diplomacy with Tehran (~12:53 PM ET via @FirstSquawk).",
-      "watch": "Sun 6 PM ET NQ futures open — Iran/Hormuz overnight; Mon Nov 9 CEG BMO, TTWO AMC; Tue Nov 10 CPI 8:30 AM ET, CRWV AMC; Thu Nov 12 NBIS BMO, AMAT/CSCO AMC; Fri Nov 13 PPI 8:30 AM ET; NVDA Nov 17 AMC; Nov 18 Huang House briefing; Dec 8-9 FOMC.",
-      "forSite": []
-    },
-    {
-      "at": "2026-11-08T01:21:24Z",
-      "pulse": "NQ heads into Sun 6 PM ET open on the back foot: Iran/Hormuz escalation keeps building into the evening (IRGC mine claims on two tankers, CENTCOM disabling a blockade-runner in the Gulf of Oman, new UKMTO incident off Khor Fakkan) and Dem sweep raises data-center moratorium risk for AI capex, only partly offset by Fri's +1.1% Comp bounce and ongoing Iran talks.",
-      "bias": "risk-off — weekend Hormuz/Gulf of Oman shipping incidents bid CL into the open and a Dem Congress threatens AI data-center buildout; diplomacy headlines and Fri's oversold bounce are the only cushion.",
-      "items": [
-        "@unusual_whales (~8:18 PM ET): Dems swept midterms, expected to potentially push data-center moratorium (Reuters) — Bearish NQ",
-        "@FirstSquawk (~7:56 PM ET): Iranian state TV: explosions in Jask, Sirik, Bandar Abbas, Qeshm may be tied to Iranian military ops in Strait of Hormuz — Bearish NQ",
-        "@FirstSquawk (~7:48 PM ET): CENTCOM confirms US forces disabled a commercial vessel in Gulf of Oman (blockade enforcement) — Bearish NQ",
-        "@FirstSquawk (~7:26 PM ET): UKMTO: incident involving bulk carrier and military forces 18nm east of Khor Fakkan, UAE — Bearish NQ",
-        "@unusual_whales (~7:31 PM ET): Apollo: firms starting to treat AI spend as margin cost, not growth engine — Bearish NQ"
-      ],
-      "trump": "Sat: offered UFC CEO Dana White the press secretary job (White declined per CNN, ~4:47 PM ET via @DeItaone); ordered DOJ to look into Democrats 'threatening a lot of people,' calling it a 'criminal act' (~1:03 PM ET); called the Iran war's role in midterm losses 'largely true' but holds firm on no nuclear Iran.",
-      "watch": "Sun 6 PM ET NQ/CL futures open — Hormuz/Gulf of Oman shipping headlines overnight; Mon Nov 9 CEG BMO, TTWO AMC; Tue Nov 10 CPI 8:30 AM ET, CRWV AMC; Thu Nov 12 NBIS BMO, AMAT/CSCO AMC; Fri Nov 13 PPI 8:30 AM ET; NVDA Nov 17 AMC; Dec 8-9 FOMC.",
-      "forSite": []
-    },
-    {
-      "at": "2026-11-08T03:25:32Z",
-      "pulse": "NQ setup into the Sun 6 PM ET open stays on the back foot: fresh Houthi claims of missile/drone strikes on Saudi Aramco sites and Riyadh Airport add a CL-spike risk on top of weekend Hormuz mine/CENTCOM incidents and the Dem data-center overhang, only partly offset by the Erdogan-Trump diplomacy line and Fri's Comp bounce.",
-      "bias": "risk-off — Houthi claims of Aramco/Riyadh strikes raise weekend oil-shock risk into the Sun 6 PM open, stacking on Hormuz shipping incidents and AI/data-center regulation overhang; Erdogan-Trump talks and Fri's oversold bounce are the only cushion.",
-      "items": [
-        "@FirstSquawk (~9:49 PM ET): Houthis announce strikes on Aramco facilities in two Saudi locations (Riyadh-area tanks/distillation and Khurais) — Bearish NQ",
-        "@FirstSquawk (~9:45 PM ET): Houthis announce attack on Riyadh Airport; claims unconfirmed by Saudi Arabia — Bearish NQ",
-        "@unusual_whales (~9:46 PM ET): Musk says SoftBank is defaulting on turbine orders for a Stargate partner — Bearish NQ",
-        "@FirstSquawk (~8:48 PM ET): Erdogan speaks with Trump; Turkey vows continued peace efforts amid US-Iran tensions — Mixed NQ"
-      ],
-      "trump": "Sat evening: Erdogan call — Turkey vows continued peace efforts amid US-Iran tensions (~8:48 PM ET via @FirstSquawk); earlier ordered DOJ to investigate Democrats 'threatening a lot of people,' calling it a 'criminal act'; Dana White declined the press secretary offer (CNN via @DeItaone ~4:47 PM ET). 60 Minutes interview airs Sun 7 PM ET.",
-      "watch": "Sun 6 PM ET NQ/CL futures open — Houthi/Aramco and Hormuz headlines overnight; Trump on 60 Minutes Sun 7 PM ET; Mon Nov 9 CEG/KKR BMO, TTWO/OXY AMC; Tue Nov 10 CPI 8:30 AM ET, CRWV AMC; Thu Nov 12 NBIS BMO, AMAT/CSCO AMC; Fri Nov 13 PPI 8:30 AM ET; NVDA Nov 17 AMC; Dec 8-9 FOMC.",
-      "forSite": []
-    }
-  ]
+  "trump": "none",
+  "watch": "Sunday 6 PM ET NQ/CL futures open on any fresh Iran/Hormuz or Houthi headlines; Tuesday Nov 10 CPI 8:30 AM ET for Dec hike odds and inflation path; AI data-center regulation noise from new Congress; CoreWeave AMC Tue, PPI Fri.",
+  "forSite": []
 }

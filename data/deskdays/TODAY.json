@@ -1,18 +1,18 @@
 {
-  "date": "2026-11-06",
+  "date": "2026-11-08",
   "grok": {
-    "at": "2026-11-07T01:11:00Z",
-    "pulse": "NQ holds Friday's chip-led rebound after Thursday's steep AI selloff on Democratic Congress regulation fears, while oil is set for sharp weekly declines on Iran de-escalation hopes post-midterms and strong NFP keeps Dec hike odds elevated.",
-    "bias": "mixed — chip stabilization and NQ bounce offset AI regulation overhang from Dem midterms and higher rate odds from hot jobs, with oil soft on geopolitics.",
+    "at": "2026-11-08T12:00:00Z",
+    "pulse": "Post-midterm tape digests Thursday's Nasdaq rout on AI data-center regulation fears and a strong jobs print lifting December hike odds, while oil's sharp weekly crash on Iran de-escalation hopes and Friday's partial chip rebound keep the bias mixed into the week.",
+    "bias": "mixed — Friday's chip rebound and oil drop on Dem midterm Iran hopes offset AI regulation overhang and elevated Dec Fed hike pricing from hot NFP (165k).",
     "items": [
-      "@blueStockmarket (~8:11 PM ET): Oil fell 13% this week; Nasdaq -3.4% (4th losing week), ~$2T off tech in one day on AI crash — Mixed NQ",
-      "Reuters (~9:41 AM ET): Nasdaq futures rise after steep AI selloff as chip stocks stabilize amid Dem AI regulation fears — Bullish NQ",
-      "@davidbeaudry (~8:10 PM ET): Stocks and BTC falling after blue wave; Thursday Nasdaq -5.5%, chips -12% worst since 2020 — Bearish NQ",
-      "TT News (~1:09 PM ET): AI stocks bouncing back Nov 6, oil holds as market weighs diplomatic efforts on Iran — Mixed NQ",
-      "Topstep (~4:28 PM ET): Oil falls 14% as Washington flips post-midterms, tech suffers worst day since 2020 on AI spending fears — Mixed NQ"
+      "@supermusk (~6:52 AM ET): Nasdaq-100 -4.3% on the week (4th losing week), Thu -6.4% worst since 2020 on data-center fears, Fri +2% bounce; jobs 165k, Dec hike ~80%, CPI Tue key — Mixed NQ",
+      "@HedgebergCom (~7:00 AM ET): Nasdaq correction not done, expects one more low toward 26000-26500 area next week — Bearish NQ",
+      "@42traders (~6:13 AM ET): SPX fragile with negative gamma/delta post-selloff, elevated vol risk, CPI Tue can drive direction — Bearish NQ",
+      "Tradenometry (~4:22 PM ET Sat): AI trade sorted not repaired; S&P -2.7% Nasdaq -3.4% worst week since June, oil ~13% dump, jobs challenge soft-landing, CPI next stress — Mixed NQ",
+      "@1Captainjackson (~7:14 PM ET Sat): Strong Oct jobs put Dec Fed hike back in focus after Thu AI-regulation selloff; oil still digesting weekly drop on Iran hopes — Mixed NQ"
     ],
-    "trump": "Vance blamed the Iran war and resulting oil/inflation for Republican midterm losses; Trump has indicated ongoing talks with Iran and previously strongly backed AI as essential.",
-    "watch": "Monday open hold of NQ/chip rebound; weekend Iran/oil or Hormuz headlines; Dem AI/data-center regulation developments; Dec FOMC hike odds after strong Oct NFP.",
+    "trump": "none",
+    "watch": "Sunday 6 PM ET NQ/CL futures open on any fresh Iran/Hormuz or Houthi headlines; Tuesday Nov 10 CPI 8:30 AM ET for Dec hike odds and inflation path; AI data-center regulation noise from new Congress; CoreWeave AMC Tue, PPI Fri.",
     "forSite": []
   }
 }
