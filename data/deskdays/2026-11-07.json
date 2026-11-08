@@ -2,18 +2,18 @@
   "date": "2026-11-07",
   "grok": {
     "date": "2026-11-07",
-    "at": "2026-11-07T21:28:35Z",
-    "pulse": "Weekend NQ still soft into Sun 6 PM open: Fri Comp +1.1% bounce off Thu's -5.5% rout, but afternoon Iran escalation (IRGC: two tankers hit mines near Hormuz; explosions southern Iran; CENTCOM Iron Gate) plus Anthropic IPO valuation cut lean risk-off, offset by Erdogan/Trump diplomacy talk and Treasury buyback chatter.",
-    "bias": "risk-off — Hormuz mine/escalation headlines and AI valuation reset (Anthropic cut to ~$1.1T, data-center ballot bans) keep NQ in correction mode; only diplomacy and Fri's bounce cushion.",
+    "at": "2026-11-08T01:21:24Z",
+    "pulse": "NQ heads into Sun 6 PM ET open on the back foot: Iran/Hormuz escalation keeps building into the evening (IRGC mine claims on two tankers, CENTCOM disabling a blockade-runner in the Gulf of Oman, new UKMTO incident off Khor Fakkan) and Dem sweep raises data-center moratorium risk for AI capex, only partly offset by Fri's +1.1% Comp bounce and ongoing Iran talks.",
+    "bias": "risk-off — weekend Hormuz/Gulf of Oman shipping incidents bid CL into the open and a Dem Congress threatens AI data-center buildout; diplomacy headlines and Fri's oversold bounce are the only cushion.",
     "items": [
-      "@DeItaone (~4:11 PM ET): IRGC Navy — two oil tankers hit mines near Strait of Hormuz — Bearish NQ",
-      "@DeItaone (~3:14 PM ET): Explosions heard in Jask, Sirik, Bandar Abbas, Qeshm (southern Iran), cause unclear — Bearish NQ",
-      "X News (~4:24 PM ET): Anthropic cuts IPO valuation talk to ~$1.1-1.3T from ~$2T amid AI selloff — Bearish NQ",
-      "@zerohedge (~2:39 PM ET): Flood of new jumbo AI IG debt issues after Sept freeze — Mixed NQ",
-      "@FirstSquawk (~12:53 PM ET): Erdogan tells Trump to resolve US-Iran tensions via diplomacy — Mixed NQ"
+      "@unusual_whales (~8:18 PM ET): Dems swept midterms, expected to potentially push data-center moratorium (Reuters) — Bearish NQ",
+      "@FirstSquawk (~7:56 PM ET): Iranian state TV: explosions in Jask, Sirik, Bandar Abbas, Qeshm may be tied to Iranian military ops in Strait of Hormuz — Bearish NQ",
+      "@FirstSquawk (~7:48 PM ET): CENTCOM confirms US forces disabled a commercial vessel in Gulf of Oman (blockade enforcement) — Bearish NQ",
+      "@FirstSquawk (~7:26 PM ET): UKMTO: incident involving bulk carrier and military forces 18nm east of Khor Fakkan, UAE — Bearish NQ",
+      "@unusual_whales (~7:31 PM ET): Apollo: firms starting to treat AI spend as margin cost, not growth engine — Bearish NQ"
     ],
-    "trump": "Sat: offered Dana White (UFC CEO) the White House press secretary job; ordered DOJ to look into Dems 'threatening a lot of people'; earlier Iran line still stands (blockade/talks). Erdogan phone call stressed diplomacy with Tehran (~12:53 PM ET via @FirstSquawk).",
-    "watch": "Sun 6 PM ET NQ futures open — Iran/Hormuz overnight; Mon Nov 9 CEG BMO, TTWO AMC; Tue Nov 10 CPI 8:30 AM ET, CRWV AMC; Thu Nov 12 NBIS BMO, AMAT/CSCO AMC; Fri Nov 13 PPI 8:30 AM ET; NVDA Nov 17 AMC; Nov 18 Huang House briefing; Dec 8-9 FOMC.",
+    "trump": "Sat: offered UFC CEO Dana White the press secretary job (White declined per CNN, ~4:47 PM ET via @DeItaone); ordered DOJ to look into Democrats 'threatening a lot of people,' calling it a 'criminal act' (~1:03 PM ET); called the Iran war's role in midterm losses 'largely true' but holds firm on no nuclear Iran.",
+    "watch": "Sun 6 PM ET NQ/CL futures open — Hormuz/Gulf of Oman shipping headlines overnight; Mon Nov 9 CEG BMO, TTWO AMC; Tue Nov 10 CPI 8:30 AM ET, CRWV AMC; Thu Nov 12 NBIS BMO, AMAT/CSCO AMC; Fri Nov 13 PPI 8:30 AM ET; NVDA Nov 17 AMC; Dec 8-9 FOMC.",
     "forSite": [],
     "reports": [
       {
@@ -59,6 +59,21 @@
         ],
         "trump": "Sat: offered Dana White (UFC CEO) the White House press secretary job; ordered DOJ to look into Dems 'threatening a lot of people'; earlier Iran line still stands (blockade/talks). Erdogan phone call stressed diplomacy with Tehran (~12:53 PM ET via @FirstSquawk).",
         "watch": "Sun 6 PM ET NQ futures open — Iran/Hormuz overnight; Mon Nov 9 CEG BMO, TTWO AMC; Tue Nov 10 CPI 8:30 AM ET, CRWV AMC; Thu Nov 12 NBIS BMO, AMAT/CSCO AMC; Fri Nov 13 PPI 8:30 AM ET; NVDA Nov 17 AMC; Nov 18 Huang House briefing; Dec 8-9 FOMC.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-08T01:21:24Z",
+        "pulse": "NQ heads into Sun 6 PM ET open on the back foot: Iran/Hormuz escalation keeps building into the evening (IRGC mine claims on two tankers, CENTCOM disabling a blockade-runner in the Gulf of Oman, new UKMTO incident off Khor Fakkan) and Dem sweep raises data-center moratorium risk for AI capex, only partly offset by Fri's +1.1% Comp bounce and ongoing Iran talks.",
+        "bias": "risk-off — weekend Hormuz/Gulf of Oman shipping incidents bid CL into the open and a Dem Congress threatens AI data-center buildout; diplomacy headlines and Fri's oversold bounce are the only cushion.",
+        "items": [
+          "@unusual_whales (~8:18 PM ET): Dems swept midterms, expected to potentially push data-center moratorium (Reuters) — Bearish NQ",
+          "@FirstSquawk (~7:56 PM ET): Iranian state TV: explosions in Jask, Sirik, Bandar Abbas, Qeshm may be tied to Iranian military ops in Strait of Hormuz — Bearish NQ",
+          "@FirstSquawk (~7:48 PM ET): CENTCOM confirms US forces disabled a commercial vessel in Gulf of Oman (blockade enforcement) — Bearish NQ",
+          "@FirstSquawk (~7:26 PM ET): UKMTO: incident involving bulk carrier and military forces 18nm east of Khor Fakkan, UAE — Bearish NQ",
+          "@unusual_whales (~7:31 PM ET): Apollo: firms starting to treat AI spend as margin cost, not growth engine — Bearish NQ"
+        ],
+        "trump": "Sat: offered UFC CEO Dana White the press secretary job (White declined per CNN, ~4:47 PM ET via @DeItaone); ordered DOJ to look into Democrats 'threatening a lot of people,' calling it a 'criminal act' (~1:03 PM ET); called the Iran war's role in midterm losses 'largely true' but holds firm on no nuclear Iran.",
+        "watch": "Sun 6 PM ET NQ/CL futures open — Hormuz/Gulf of Oman shipping headlines overnight; Mon Nov 9 CEG BMO, TTWO AMC; Tue Nov 10 CPI 8:30 AM ET, CRWV AMC; Thu Nov 12 NBIS BMO, AMAT/CSCO AMC; Fri Nov 13 PPI 8:30 AM ET; NVDA Nov 17 AMC; Dec 8-9 FOMC.",
         "forSite": []
       }
     ]
