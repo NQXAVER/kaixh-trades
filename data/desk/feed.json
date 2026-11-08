@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T17:55:57Z",
+  "updatedAt": "2026-11-08T22:05:53Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -92,9 +92,9 @@
     {
       "id": "fed-all",
       "label": "Federal Reserve",
-      "ok": false,
-      "items": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "ok": true,
+      "items": 20,
+      "error": null
     },
     {
       "id": "fed-monetary",
@@ -408,18 +408,6 @@
       "auto": true
     },
     {
-      "id": "f3d8f1c8ac00a",
-      "headline": "Bank of England raises interest rates to 4%, the first increase for more than three years",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/nov/05/bank-of-england-raises-interest-rates-first-increase-for-more-than-three-years",
-      "publishedAt": "2026-11-05T18:00:28Z",
-      "time": "Thu 1:00 PM",
-      "section": "fed",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
       "id": "f03247e421cbd",
       "headline": "10-year Treasury yield rises after much stronger-than-expected October jobs report",
       "source": "CNBC",
@@ -552,18 +540,6 @@
       "auto": true
     },
     {
-      "id": "f2a1f67c2289c",
-      "headline": "Hyperscalers and Apple surge after election results remove investor uncertainty",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/04/apple-and-other-big-tech-stocks-surge-after-2026-midterm-elections.html",
-      "publishedAt": "2026-11-04T19:37:43Z",
-      "time": "Wed 2:37 PM",
-      "section": "tech",
-      "impact": "High",
-      "lean": null,
-      "auto": true
-    },
-    {
       "id": "f114f89636e16",
       "headline": "Berkshire Hathaway more than doubles buybacks in third quarter as earnings decline",
       "source": "CNBC",
@@ -573,18 +549,6 @@
       "section": "tech",
       "impact": "Medium",
       "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f4c884b75eeff",
-      "headline": "Nvidia, AMD and other chip stocks rebound — but is relief from the ‘violent’ selloff only temporary?",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/nvidia-amd-and-other-chip-stocks-rebound-is-the-violent-ai-selloff-over-8f7df533?mod=mw_rss_topstories",
-      "publishedAt": "2026-11-06T21:24:00Z",
-      "time": "Fri 4:24 PM",
-      "section": "tech",
-      "impact": "Medium",
-      "lean": "risk-off",
       "auto": true
     },
     {
@@ -672,6 +636,18 @@
       "auto": true
     },
     {
+      "id": "f8a885922cc02",
+      "headline": "How Big Oil Became the AI Industry's Favorite Customer",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Energy/Energy-General/How-Big-Oil-Became-the-AI-Industrys-Favorite-Customer.html",
+      "publishedAt": "2026-11-08T18:00:00Z",
+      "time": "Sun 1:00 PM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "ff5bff907aba1",
       "headline": "Egypt Eyes Billions in New Investment to Revive Oil and Gas Production",
       "source": "OilPrice",
@@ -691,42 +667,6 @@
       "publishedAt": "2026-11-07T12:24:11Z",
       "time": "Sat 7:24 AM",
       "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "fd07b701051e4",
-      "headline": "China’s e-bikes boom as fuel prices rise",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/chinas-e-bikes-boom-as-fuel-prices-rise?traffic_source=rss",
-      "publishedAt": "2026-11-07T09:30:07Z",
-      "time": "Sat 4:30 AM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f61f791360461",
-      "headline": "Global Stocks Follow U.S. Sell-Off as A.I. Spending Fears Spread",
-      "source": "New York Times",
-      "url": "https://www.nytimes.com/2026/11/06/business/global-stocks-markets-tech-ai.html",
-      "publishedAt": "2026-11-06T21:11:05Z",
-      "time": "Fri 4:11 PM",
-      "section": "markets",
-      "impact": "Medium",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "f5c81cdefae99",
-      "headline": "Nasdaq drops into correction territory — here’s what typically happens next",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/05/nasdaq-drops-into-correction-territory-heres-what-typically-happens-next.html",
-      "publishedAt": "2026-11-06T20:42:28Z",
-      "time": "Fri 3:42 PM",
-      "section": "markets",
       "impact": "Medium",
       "lean": null,
       "auto": true
