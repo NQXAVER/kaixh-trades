@@ -1,18 +1,18 @@
 {
   "date": "2026-11-08",
   "grok": {
-    "at": "2026-11-09T01:12:00Z",
-    "pulse": "Sunday night futures opened soft then bounced with S&P +0.1% and Nasdaq +0.3% as oil softens on Trump calling new Iran strikes highly unlikely, though mixed Rubio signals and lingering AI/midterm overhang keep the tape cautious into CPI week.",
-    "bias": "mixed — oil softness and Trump de-escalation comments support risk, offset by midterm AI data-center regulation fears, hot NFP/Dec hike odds ~80%, NVDA probe, and Rubio's skeptical Iran talks tone.",
+    "at": "2026-11-09T03:07:01Z",
+    "pulse": "Sunday night futures mixed to slightly higher (S&P +0.1%, NQ +0.3%) after Friday chip rebound from Thursday AI selloff, with oil easing near $97 on Trump calling new Iran strikes highly unlikely amid talks, while NVDA CEO probe and ~80% Dec hike odds from hot jobs keep bias cautious into Tuesday CPI.",
+    "bias": "mixed — oil softness and Trump de-escalation comments support risk, offset by post-midterm AI regulation fears, NVDA foreign-intel probe, elevated Dec hike pricing, and rising yields.",
     "items": [
-      "@stockswithaaron (~8:12 PM ET): Futures soft then bounced; S&P futures +0.1%, Nasdaq +0.3%; Brent -0.6% to ~$97.67; Trump new Iran strikes 'highly unlikely'",
-      "@MCreekFutures (~8:10 PM ET): Sunday futures WTI $90.63, NQ 27136.75, ES 7423; risk-off de-grossing into gold, Iran/geo holding pattern, oil soft on macro demand",
-      "@FirstSquawk (~7:51 PM ET): Trump will meet Monday with PM of Qatar, key mediator between US and Iran",
-      "@unusual_whales (~7:01 PM ET): Trump 'highly unlikely' new Iran war if talks progress; Rubio calls talks not productive, demands outrageous/ridiculous",
-      "@ShadowAlphaX (~6:40 PM ET): Futures flipped early losses green; NQ +0.26%; WTI $90.21; Trump highly unlikely strikes; NVDA board probing CEO foreign-intel targeting"
+      "@mikerduff (~10:04 PM ET): Futures recovered from early dip; S&P +0.1%, Nasdaq 100 +0.3%; this week CPI Tue/PPI Fri, CoreWeave/Cisco/AMAT earnings; NVDA board probing CEO foreign intel targeting",
+      "CNBC (~8:57 PM ET): Stock futures slightly higher Sunday evening eyeing AI recovery, brace for inflation data and AI earnings; S&P futures +0.1%, NQ +0.3%",
+      "@blitzkreigm (~10:04 PM ET): Cues - Gift Nifty +30 pts, Brent lower at $97, AI trade focus on NVIDIA developments, Trump says fresh attacks on Iran highly unlikely",
+      "@FirstSquawk / news (~earlier): Trump meets Qatar PM Monday (key US-Iran mediator); oil soft on de-escalation talk",
+      "@ScottAlerts (~9:59 PM ET): December hike basically locked, question is size and more next year; CPI Tue and PPI Fri decide that"
     ],
-    "trump": "Says new Iran strikes 'highly unlikely' if talks progress; meeting Monday with Qatar PM (key mediator); Rubio mixed/skeptical on talks. Also prior comments on $3T midterm market loss. 60 Minutes aired earlier.",
-    "watch": "Monday cash open and Rocket Lab AMC; Tue Nov 10 CPI 8:30 AM ET for inflation/Dec hike path; AI regulation noise from new Congress; any fresh Hormuz/Iran headlines; NVDA probe developments.",
+    "trump": "Says renewed attacks on Iran highly unlikely if talks show progress on nuclear program and reopening Strait of Hormuz; US forces ready and could strike if necessary.",
+    "watch": "Tue Nov 10 CPI 8:30 AM ET for inflation path and Dec hike odds; AI earnings (CoreWeave Tue, Cisco/AMAT Thu); NVDA probe headlines; any fresh Iran/Hormuz developments; bond market closed Wed for Veterans Day.",
     "forSite": []
   }
 }
