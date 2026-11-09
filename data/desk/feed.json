@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T18:54:58Z",
+  "updatedAt": "2026-11-09T19:36:29Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -420,6 +420,18 @@
       "auto": true
     },
     {
+      "id": "f97beaff2a954",
+      "headline": "Trump administration proposes stricter work-search rules for unemployment benefits",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/09/trump-unemployment-work-search-rule.html",
+      "publishedAt": "2026-11-09T19:19:28Z",
+      "time": "Mon 2:19 PM",
+      "section": "econ",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "f8ec9637540d9",
       "headline": "High fossil fuel prices spread inflation ‘like a cancer’, UN climate negotiator tells Cop31",
       "source": "The Guardian",
@@ -464,6 +476,18 @@
       "time": "Sat 3:44 PM",
       "section": "econ",
       "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f67189b9440f9",
+      "headline": "Anthropic releases first frontier models since Amodei's call for slowdown as IPO buzz builds",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html",
+      "publishedAt": "2026-11-09T19:00:01Z",
+      "time": "Mon 2:00 PM",
+      "section": "tech",
+      "impact": "High",
       "lean": null,
       "auto": true
     },
@@ -600,6 +624,18 @@
       "auto": true
     },
     {
+      "id": "f971a1645e29b",
+      "headline": "What employers should do to build a pipeline of talented Gen Z workers",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/what-employers-should-do-to-build-a-pipeline-of-talented-gen-z-workers-31c0e9b9?mod=mw_rss_topstories",
+      "publishedAt": "2026-11-09T19:28:00Z",
+      "time": "Mon 2:28 PM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "f59640a600302",
       "headline": "Murphy Oil Bets on Israeli Gas Near Leviathan",
       "source": "OilPrice",
@@ -618,18 +654,6 @@
       "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Pipeline-Attacked-as-OPEC-Output-Climbs-to-90-of-Pre-War-Levels.html",
       "publishedAt": "2026-11-09T17:16:00Z",
       "time": "Mon 12:16 PM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f12ea8f38a422",
-      "headline": "Global LNG Markets Face a Winter of Extreme Uncertainty",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Energy/Energy-General/Global-LNG-Markets-Face-a-Winter-of-Extreme-Uncertainty.html",
-      "publishedAt": "2026-11-09T17:00:00Z",
-      "time": "Mon 12:00 PM",
       "section": "energy",
       "impact": "Medium",
       "lean": null,
