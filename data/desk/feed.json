@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T01:46:52Z",
+  "updatedAt": "2026-11-09T06:51:04Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -204,6 +204,30 @@
   ],
   "items": [
     {
+      "id": "f9f5cfee905a6",
+      "headline": "Oil Prices Fall as Trump Signals No New Attacks on Iran",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Trump-Signals-No-New-Attacks-on-Iran.html",
+      "publishedAt": "2026-11-09T05:45:00Z",
+      "time": "Mon 12:45 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "f5a0d9ad791eb",
+      "headline": "Rubio says war on Iran unpopular but ‘necessary’ to stop nuclear threat",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/9/rubio-says-war-on-iran-unpopular-but-necessary-to-stop-nuclear-threat?traffic_source=rss",
+      "publishedAt": "2026-11-09T04:02:18Z",
+      "time": "Sun 11:02 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "fb8fb623b2e95",
       "headline": "Houthis say at least 33 killed in Saudi air strike",
       "source": "BBC",
@@ -294,30 +318,6 @@
       "url": "https://www.cnbc.com/2026/11/06/oil-price-today-brent-wti.html",
       "publishedAt": "2026-11-06T19:54:30Z",
       "time": "Fri 2:54 PM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "fab0d41d56a35",
-      "headline": "European troops prepare for possible post-ceasefire deployment to Ukraine",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/6/france-ukraine-postwar-military-drills?traffic_source=rss",
-      "publishedAt": "2026-11-06T16:04:19Z",
-      "time": "Fri 11:04 AM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-on",
-      "auto": true
-    },
-    {
-      "id": "f1bba22c956c2",
-      "headline": "Oil Prices Plunge as U.S. Elections Shake Up the Iran War",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Energy/Energy-General/Oil-Prices-Plunge-as-US-Elections-Shake-Up-the-Iran-War.html",
-      "publishedAt": "2026-11-06T12:30:00Z",
-      "time": "Fri 7:30 AM",
       "section": "war",
       "impact": "High",
       "lean": "risk-off",
@@ -452,6 +452,18 @@
       "time": "Thu 4:32 PM",
       "section": "econ",
       "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fb9300d7bc9e4",
+      "headline": "China wholesale inflation hits highest in more than four years as consumer measure slows",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/09/china-wholesale-inflation-rises-consumer.html",
+      "publishedAt": "2026-11-09T02:50:22Z",
+      "time": "Sun 9:50 PM",
+      "section": "econ",
+      "impact": "Medium",
       "lean": null,
       "auto": true
     },
@@ -669,6 +681,18 @@
       "section": "energy",
       "impact": "Medium",
       "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f4713fdfe0dec",
+      "headline": "Asian stock markets climb after earlier tech rout",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/economy/2026/11/9/asian-stock-markets-climb-after-earlier-tech-rout?traffic_source=rss",
+      "publishedAt": "2026-11-09T04:03:02Z",
+      "time": "Sun 11:03 PM",
+      "section": "markets",
+      "impact": "Medium",
+      "lean": "risk-off",
       "auto": true
     }
   ]
