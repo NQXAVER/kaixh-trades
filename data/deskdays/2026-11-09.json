@@ -2,18 +2,18 @@
   "date": "2026-11-09",
   "grok": {
     "date": "2026-11-09",
-    "at": "2026-11-09T12:22:32Z",
-    "pulse": "NQ futures holding modestly green premarket on oil relief and a TSMC-led Asia chip squeeze, but NVDA -5% on the Jensen/China-spy probe and Citi's US tech downgrade cap the bounce.",
-    "bias": "mixed — Brent sub-$96 on Hormuz deal talk and the Taiwan chip rally support risk, while NVDA probe/MATCH Act export-curb risk and Citi's tech-to-Neutral call weigh on the AI complex into Tue CPI.",
+    "at": "2026-11-09T14:26:18Z",
+    "pulse": "NQ futures green premarket (~+0.3-0.8%) as WTI breaks to ~$86.6 and yields hit day lows, but NVDA -6% on the Jensen Huang board probe keeps NQ lagging ES/YM into Tue CPI.",
+    "bias": "mixed — oil collapse (Brent -5%), lower 10y/30y yields, Iran deal talks and an AMD upgrade support risk, while NVDA's -6% premarket drag and Citi's US tech downgrade cap the Nasdaq bounce ahead of CPI.",
     "items": [
-      "@DeItaone (~6:53 AM ET): NVDA -5% premarket on CEO probe; Raymond James (~6:35 AM) warns espionage reports could fast-track MATCH Act chip export curbs — Bearish NQ",
-      "@DeItaone (~6:05 AM ET): Citi cuts US equities and global tech to Neutral from Overweight, flags Nasdaq could drop another ~5% — Bearish NQ",
-      "@DeItaone (~6:21 AM ET): US/Iran weigh $8B frozen-funds deal to reopen Hormuz; Trump meets Qatar PM today; @FirstSquawk (~6:17 AM) Brent intraday low < $96 — Bullish NQ",
-      "X News (overnight): TAIEX +~5%, TSMC +4%, MediaTek limit-up; Samsung/SK Hynix bid on short squeeze + NT$500B stabilization fund — Bullish NQ",
-      "@LiveSquawk (~6:51 AM ET): CEG Q3 adj EPS $5.06 vs $3.85 est, FY EPS $12.50-12.80; KKR adj EPS $1.78 vs $1.58 (~7:16 AM per tape) — Mixed NQ"
+      "@DeItaone (~9:04 AM ET): NVDA extends losses, -5.9% premarket on CEO probe; Gensler says board faces 'tough choices' (@WatcherGuru ~7:33 AM) — Bearish NQ",
+      "@FirstSquawk (~8:56 AM / 9:25 AM ET): WTI as low as $86.60, lowest since early Sept; Brent extends drop to -5%; @zerohedge (~9:01 AM) US 10y/30y yields at day's lows — Bullish NQ",
+      "@zerohedge (~8:30 AM ET): Qatari official says US-Iran talks ongoing via mediators, proposal reports false; Trump says more strikes 'highly unlikely' if talks progress — Bullish NQ",
+      "@Briefingcom (~8:54 AM ET): AMD upgraded to Outperform at Oppenheimer, tgt $600; AI names finding buyers after last week's rout — Bullish NQ",
+      "@DeItaone (~8:29 AM ET): Oct CPI preview Tue 8:30 AM — consensus headline 0.23% m/m (Sep 0.65%), core 0.22% (Sep 0.33%) — Mixed NQ"
     ],
-    "trump": "Meets Qatar PM today on Tehran's proposal to reopen Hormuz for ~$8B in frozen funds; told CNN Sunday a new Iran strike is 'highly unlikely' if there's a 'very strong agreement'.",
-    "watch": "9:30 AM ET open — NVDA reaction and Goldman tech 'line in the sand' level; Trump-Qatar PM Hormuz headlines; AMC today: TTWO, OXY, RKLB; Tue Nov 10 8:30 AM ET Oct CPI; Tue AMC CRWV; Wed bonds closed (Veterans Day); Thu AMC CSCO, AMAT.",
+    "trump": "Told CNN further Iran strikes are 'highly unlikely' if negotiations progress (Rubio calls Tehran's demands unacceptable); meets Qatar PM today on the Hormuz/frozen-funds proposal. Separately says he 'knows nothing' of UAE-linked investment in his family crypto firm.",
+    "watch": "9:30 AM ET open: NVDA gap -6% vs MSFT/GOOGL/META +2-3% premarket; Iran/Qatar headlines and CL; OXY, TTWO AMC tonight; Tue 8:30 AM ET Oct CPI; CRWV AMC Tue; CSCO/AMAT AMC Thu.",
     "forSite": [],
     "reports": [
       {
@@ -44,6 +44,21 @@
         ],
         "trump": "Meets Qatar PM today on Tehran's proposal to reopen Hormuz for ~$8B in frozen funds; told CNN Sunday a new Iran strike is 'highly unlikely' if there's a 'very strong agreement'.",
         "watch": "9:30 AM ET open — NVDA reaction and Goldman tech 'line in the sand' level; Trump-Qatar PM Hormuz headlines; AMC today: TTWO, OXY, RKLB; Tue Nov 10 8:30 AM ET Oct CPI; Tue AMC CRWV; Wed bonds closed (Veterans Day); Thu AMC CSCO, AMAT.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-09T14:26:18Z",
+        "pulse": "NQ futures green premarket (~+0.3-0.8%) as WTI breaks to ~$86.6 and yields hit day lows, but NVDA -6% on the Jensen Huang board probe keeps NQ lagging ES/YM into Tue CPI.",
+        "bias": "mixed — oil collapse (Brent -5%), lower 10y/30y yields, Iran deal talks and an AMD upgrade support risk, while NVDA's -6% premarket drag and Citi's US tech downgrade cap the Nasdaq bounce ahead of CPI.",
+        "items": [
+          "@DeItaone (~9:04 AM ET): NVDA extends losses, -5.9% premarket on CEO probe; Gensler says board faces 'tough choices' (@WatcherGuru ~7:33 AM) — Bearish NQ",
+          "@FirstSquawk (~8:56 AM / 9:25 AM ET): WTI as low as $86.60, lowest since early Sept; Brent extends drop to -5%; @zerohedge (~9:01 AM) US 10y/30y yields at day's lows — Bullish NQ",
+          "@zerohedge (~8:30 AM ET): Qatari official says US-Iran talks ongoing via mediators, proposal reports false; Trump says more strikes 'highly unlikely' if talks progress — Bullish NQ",
+          "@Briefingcom (~8:54 AM ET): AMD upgraded to Outperform at Oppenheimer, tgt $600; AI names finding buyers after last week's rout — Bullish NQ",
+          "@DeItaone (~8:29 AM ET): Oct CPI preview Tue 8:30 AM — consensus headline 0.23% m/m (Sep 0.65%), core 0.22% (Sep 0.33%) — Mixed NQ"
+        ],
+        "trump": "Told CNN further Iran strikes are 'highly unlikely' if negotiations progress (Rubio calls Tehran's demands unacceptable); meets Qatar PM today on the Hormuz/frozen-funds proposal. Separately says he 'knows nothing' of UAE-linked investment in his family crypto firm.",
+        "watch": "9:30 AM ET open: NVDA gap -6% vs MSFT/GOOGL/META +2-3% premarket; Iran/Qatar headlines and CL; OXY, TTWO AMC tonight; Tue 8:30 AM ET Oct CPI; CRWV AMC Tue; CSCO/AMAT AMC Thu.",
         "forSite": []
       }
     ]
