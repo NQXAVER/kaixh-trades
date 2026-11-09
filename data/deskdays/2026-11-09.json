@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-09",
+  "grok": {
+    "at": "2026-11-09T12:01:00Z",
+    "pulse": "Nasdaq futures mixed-to-higher Monday morning as bargain hunting offsets Nvidia's ~4-5% premarket drop on the CEO probe, while oil slides near $89 on Iran diplomacy hopes despite ongoing tensions.",
+    "bias": "mixed — oil drop and selective equity rebound support risk, but NVDA weakness, AI regulation overhang, and elevated Dec Fed hike odds into Tuesday CPI keep it cautious.",
+    "items": [
+      "@TheStreet (~7:00 AM ET): Nasdaq futures climb as Wall Street watches AI stocks after last week's selloff",
+      "@stockcram (~7:00 AM ET): Futures green; Dow +0.7%, S&P +0.4%, Nasdaq +0.2%; NVDA down 4% on CEO probe, selective bargain hunting",
+      "@FinanceBureau_ (~7:01 AM ET): Oil keeps falling below $89 despite attacks; markets weigh diplomacy as Gulf exports recover, Rubio plays down breakthrough",
+      "@PineGapHQ (~7:00 AM ET): Iran reportedly dropped Hormuz control/transit fee demands; Brent near $95",
+      "@MasterTrades (~7:01 AM ET): ES & NQ path bounce into Friday-high zone then fail; sellers own tape into CPI Tue"
+    ],
+    "trump": "Says new Iran strikes highly unlikely if strong agreement; meets Qatar PM today (key mediator). Rubio calls talks not productive, demands outrageous.",
+    "watch": "Tuesday Nov 10 CPI 8:30 AM ET for inflation path and December FOMC hike odds; NVDA probe headlines; any fresh Hormuz/Iran escalation or de-escalation.",
+    "forSite": []
+  }
+}
