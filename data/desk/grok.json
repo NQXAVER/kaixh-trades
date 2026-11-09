@@ -1,15 +1,168 @@
 {
-  "at": "2026-11-09T03:07:01Z",
-  "pulse": "Sunday night futures mixed to slightly higher (S&P +0.1%, NQ +0.3%) after Friday chip rebound from Thursday AI selloff, with oil easing near $97 on Trump calling new Iran strikes highly unlikely amid talks, while NVDA CEO probe and ~80% Dec hike odds from hot jobs keep bias cautious into Tuesday CPI.",
-  "bias": "mixed — oil softness and Trump de-escalation comments support risk, offset by post-midterm AI regulation fears, NVDA foreign-intel probe, elevated Dec hike pricing, and rising yields.",
-  "items": [
+ "date": "2026-11-08",
+ "at": "2026-11-09T03:22:36Z",
+ "pulse": "NQ futures bid ~+0.65-0.8% Sunday night (S&P +0.6%) as Asia chips squeeze higher (TAIEX +6.3%, TSMC +6%, KOSPI +2%) and oil slips on Middle East de-escalation, offset by NVDA weakness (Hyperliquid NVDA perps ~-3%) on the Huang probe and ~80% Dec hike odds into Tue CPI.",
+ "bias": "risk-on — Taiwan/Korea chip rally on stabilization measures, crude easing and China extending its 24% tariff pause lift futures, but NVDA drag, a China Taiwan-blockade drill and hike pricing keep it fragile.",
+ "items": [
+  "@zerohedge (~9:51 PM ET): TAIEX extends gains to 6.3% on stabilization measures; @FirstSquawk ~9:19 PM: TSMC Taipei +6%, ~9:30 PM: KOSPI +2% — Bullish NQ",
+  "@BeliefAndBias (~10:10 PM ET): US futures rising into CPI week, NQ +0.65%, ES +0.62%, Dow +0.71%; CME FedWatch ~80% Dec hike — Bullish NQ",
+  "@FirstSquawk (~9:56 PM ET): Hyperliquid shows NVDA perps ~-3%; @WatcherGuru ~9:58 PM: Jensen Huang says China 'is not an enemy', US chip policy a 'mistake' — Bearish NQ",
+  "@FirstSquawk (~9:35 PM ET): Crude slips on optimism over reduced Middle East tensions (WSJ); Beijing keeps pausing 24% tariffs on US goods to Jan 10, 10% stays — Bullish NQ",
+  "@zerohedge (~10:00 PM ET): China rehearses Taiwan blockade in unannounced naval drill — Bearish NQ"
+ ],
+ "trump": "No new Trump headline since 8 PM; earlier he called new Iran strikes 'highly unlikely' if talks progress and meets Qatar's PM (US-Iran mediator) Monday.",
+ "watch": "Overnight: Asia chip follow-through, NVDA probe headlines, China-Taiwan drill, Hormuz/Iran; Mon Nov 9 Trump-Qatar PM, CEG/KKR BMO, OXY/TTWO AMC; Tue Nov 10 CPI 8:30 AM ET, CRWV AMC; Wed Nov 11 bond market closed (Veterans Day); Thu Nov 12 claims 8:30 AM, NBIS BMO, AMAT/CSCO AMC; Fri Nov 13 PPI 8:30 AM ET.",
+ "forSite": [],
+ "reports": [
+  {
+   "at": "2026-11-08T12:00:00Z",
+   "pulse": "Post-midterm tape digests Thursday's Nasdaq rout on AI data-center regulation fears and a strong jobs print lifting December hike odds, while oil's sharp weekly crash on Iran de-escalation hopes and Friday's partial chip rebound keep the bias mixed into the week.",
+   "bias": "mixed — Friday's chip rebound and oil drop on Dem midterm Iran hopes offset AI regulation overhang and elevated Dec Fed hike pricing from hot NFP (165k).",
+   "items": [
+    "@supermusk (~6:52 AM ET): Nasdaq-100 -4.3% on the week (4th losing week), Thu -6.4% worst since 2020 on data-center fears, Fri +2% bounce; jobs 165k, Dec hike ~80%, CPI Tue key — Mixed NQ",
+    "@HedgebergCom (~7:00 AM ET): Nasdaq correction not done, expects one more low toward 26000-26500 area next week — Bearish NQ",
+    "@42traders (~6:13 AM ET): SPX fragile with negative gamma/delta post-selloff, elevated vol risk, CPI Tue can drive direction — Bearish NQ",
+    "Tradenometry (~4:22 PM ET Sat): AI trade sorted not repaired; S&P -2.7% Nasdaq -3.4% worst week since June, oil ~13% dump, jobs challenge soft-landing, CPI next stress — Mixed NQ",
+    "@1Captainjackson (~7:14 PM ET Sat): Strong Oct jobs put Dec Fed hike back in focus after Thu AI-regulation selloff; oil still digesting weekly drop on Iran hopes — Mixed NQ"
+   ],
+   "trump": "none",
+   "watch": "Sunday 6 PM ET NQ/CL futures open on any fresh Iran/Hormuz or Houthi headlines; Tuesday Nov 10 CPI 8:30 AM ET for Dec hike odds and inflation path; AI data-center regulation noise from new Congress; CoreWeave AMC Tue, PPI Fri.",
+   "forSite": []
+  },
+  {
+   "at": "2026-11-08T12:26:44Z",
+   "pulse": "NQ is shut until the 6 PM ET Sunday open, and the weekend tape flipped more risk-off after @FirstSquawk flagged Iranian media reports of 3 Hormuz tanker explosions this morning on top of last night's unconfirmed Houthi Aramco/Riyadh claims — a CL-spike risk that undercuts last week's ~13% oil dump on de-escalation hopes, only partly offset by Friday's Comp bounce and oversold chips into Tuesday CPI.",
+   "bias": "risk-off — fresh Hormuz tanker-explosion headlines plus Saturday night Houthi Aramco/Riyadh claims raise an oil-shock risk into the 6 PM ET open, stacking on last week's AI/data-center rout (Nasdaq ~-3.4%, NQ ~-4.3% to -4.9%, chips ~-12%) and hot 165k NFP that lifted Dec hike odds toward ~75-80%; Friday's bounce is the cushion.",
+   "items": [
+    "@FirstSquawk (~6:09 AM ET): Iranian media says 3 oil tankers were hit by explosions and caught fire transiting the Strait of Hormuz — Bearish NQ",
+    "@FirstSquawk (~9:49 PM ET Sat): Houthis claim strikes on Aramco sites (Riyadh-area tanks/distillation and Khurais) and Riyadh Airport; unconfirmed by Saudi — Bearish NQ",
+    "@VelarisMarkets (~5:39 AM ET): Week recap S&P -2.7%, Nasdaq -3.4%, Dow -0.9%; WTI -13% to the low $90s, Brent back under $100; gold +4.6% to ~$4,080 — Mixed NQ",
+    "@JTradesQuant (~5:49 AM ET): Oct jobs 165k vs ~65k, unemployment 4.1%, Dec hike odds ~75-78%; CPI Tuesday is the next NQ swing — Bearish NQ",
+    "@QuantApexAI (~7:07 AM ET): Chip index -12.1% on the week, Nasdaq-100 -4.9%, Thu erased $2.3T; Kospi -11.7% as Asia followed the AI rout — Bearish NQ"
+   ],
+   "trump": "60 Minutes interview airs tonight 7 PM ET. Friday at Mar-a-Lago he called the Iran conflict \"not a war\" and described limited Qeshm Island air-defense strikes as minor/defensive (X news recaps). Saturday evening he spoke with Erdogan; Turkey vowed continued peace efforts (@FirstSquawk ~8:48 PM ET).",
+   "watch": "Sun 6 PM ET NQ/CL futures open on Hormuz tanker-explosion headlines and any confirmation of Houthi Aramco/Riyadh claims; Trump on 60 Minutes Sun 7 PM ET; China CPI/PPI ~8:30 PM ET; Mon Nov 9 CEG/KKR BMO, TTWO/OXY AMC; Tue Nov 10 CPI 8:30 AM ET, CRWV AMC; Thu Nov 12 claims 8:30 AM, NBIS BMO, AMAT/CSCO AMC; Fri Nov 13 PPI 8:30 AM ET; NVDA Nov 17 AMC; Dec 8-9 FOMC.",
+   "forSite": []
+  },
+  {
+   "at": "2026-11-08T14:22:17Z",
+   "pulse": "NQ is still shut until the 6 PM ET Sunday open, and pre-open positioning stayed risk-off after Gulf states this morning condemned overnight Houthi ballistic missiles toward Riyadh and an attempted Aramco strike — adding confirmation to Saturday night's claims on top of the Hormuz tanker headlines — while @WatcherGuru circulated Trump's $3T midterm-wipeout comments; Friday's Comp bounce, oversold chips into Tuesday CPI, and lingering Iran diplomacy talk are the offsets.",
+   "bias": "risk-off — Gulf-state confirmation of Houthi missiles toward Riyadh and an attempted Aramco hit, plus Hormuz tanker risk, hang over the 6 PM ET open, stacking on last week's AI/data-center rout (Nasdaq ~-3.4%, NQ ~-4.3% to -4.9%) and hot 165k NFP that lifted Dec hike odds toward ~75-80%; Friday's bounce and de-escalation talk are the cushion.",
+   "items": [
+    "@WatcherGuru (~9:12 AM ET): Trump says the US stock market lost $3T in a single day after the midterms — Bearish NQ",
+    "@FirstSquawk (~8:06 AM ET): Kuwait condemns Houthi ballistic missiles fired toward Riyadh — Bearish NQ",
+    "@FirstSquawk (~7:41 AM ET): Jordan condemns Houthi attacks on Saudi Arabia and an attempt to target an Aramco building — Bearish NQ",
+    "@FirstSquawk (~8:07 AM ET): Syria condemns Houthi targeting of civilian sites and facilities in Saudi Arabia — Bearish NQ",
+    "@neilsethinew (~9:00 AM ET): Morgan Stanley's Mike Wilson (Fri note) says S&P \"catching down\" to weaker breadth \"is likely the final stage of this correction\" — Mixed NQ"
+   ],
+   "trump": "Circulating this morning (@WatcherGuru ~9:12 AM ET): \"America took a giant step back in History with the results of the last Election — Even the Stock Market, which has been a “ROCKETSHIP” under “TRUMP,” took a one day, 3 Trillion Dollar loss. But have no fear, we will be back, BIGGER AND STRONGER THAN EVER BEFORE!\" Friday in Florida he also blamed Democrats' midterm gains for the ~$3T wipeout (Thursday's S&P drop on AI/data-center regulation fears) and said \"I was not on the ballot.\" 60 Minutes interview still airs tonight 7 PM ET. No new @realDonaldTrump posts overnight.",
+   "watch": "Sun 6 PM ET NQ/CL futures open on Hormuz tanker headlines and this morning's Gulf-state confirmation of Houthi missiles toward Riyadh / attempted Aramco strike; Trump on 60 Minutes Sun 7 PM ET; China CPI/PPI 8:30 PM ET (Mon 9:30 AM Beijing); Mon Nov 9 CEG/KKR BMO, TTWO/OXY AMC; Tue Nov 10 CPI 8:30 AM ET, CRWV AMC; Wed Nov 11 Veterans Day (equities open, bonds closed); Thu Nov 12 claims 8:30 AM, NBIS BMO, AMAT/CSCO AMC; Fri Nov 13 PPI 8:30 AM ET; NVDA Nov 17 AMC; Trump-Xi Shenzhen Nov 18; Dec 8-9 FOMC.",
+   "forSite": []
+  },
+  {
+   "at": "2026-11-08T14:26:05Z",
+   "pulse": "Post-midterm Nasdaq digests Thursday's sharp AI data-center regulation selloff and hot NFP lifting December hike odds near 80%, with Friday chip rebound offset by fresh Hormuz tanker explosion reports and confirmed Houthi Aramco/Riyadh strikes keeping oil and risk mixed into the Sunday futures open.",
+   "bias": "mixed — AI regulation overhang from Dem midterms and elevated Fed hike pricing from 165k jobs are offset by oil's weekly crash on de-escalation hopes and partial Friday equity bounce, though fresh Gulf geopolitical headlines add risk-off tilt.",
+   "items": [
+    "@FirstSquawk (~6:09 AM ET): Iranian media reports 3 oil tankers hit by explosions and caught fire while passing through the Strait of Hormuz",
+    "@Reuters (~5:20 AM ET): Saudi Energy Ministry says Aramco building in Riyadh damaged by falling debris after attempted attack",
+    "@1Captainjackson (~7:14 PM ET Sat): Strong Oct jobs put Dec Fed hike back in focus after Thu AI-regulation selloff; oil still digesting weekly drop",
+    "StoneX (~5:01 AM ET): Nasdaq midterm selloff 5.5% on Dem Congress AI data-center fears, partial rebound Friday, NFP 165k, Dec hike ~80%",
+    "@unusual_whales (~9:01 AM ET): Podcast discussion on AI bets for HIMS as AI doctor and DUOL as AI teacher potentially hitting $1T"
+   ],
+   "trump": "Circulating reports of Trump commenting on $3T market loss after midterms; 60 Minutes interview airs tonight 7 PM ET. No new direct posts noted.",
+   "watch": "Sunday 6 PM ET NQ/ES/CL futures open on Hormuz tanker and Houthi Aramco headlines; Tuesday Nov 10 CPI 8:30 AM ET for inflation and Dec hike path; AI regulation noise from new Congress; CoreWeave and other AI earnings this week.",
+   "forSite": []
+  },
+  {
+   "at": "2026-11-08T21:19:00Z",
+   "pulse": "NQ and ES futures prepare for Sunday reopen after Thursday's sharp post-midterm AI data-center regulation selloff and Friday's chip/SOX rebound, with oil digesting a steep weekly drop on Iran de-escalation hopes offset by fresh Hormuz tanker incident reports.",
+   "bias": "mixed — Dem midterm AI/data-center overhang and hot +165k NFP lifting Dec hike odds are balanced by oil's ~14% weekly crash on deal hopes and partial Friday equity bounce, though weekend Gulf headlines keep risk-off tilt alive.",
+   "items": [
+    "@DanielTNiles (~4:10 PM ET): Post-midterms 40%+ incremental datacenter capacity at risk; SOX/SPX/Nas -12/-2.7/-3.4% wk; oil should keep falling, Iran deal soon; hyperscalers held up better than pure AI plays.",
+    "@stockswithaaron (~3:58 PM ET): Hormuz tanker incidents real but not confirmed supply shock; fade 45%/escalation 30%; watch Brent >$106 or S&P futures -1.5%+ post-open for risk shift.",
+    "@bombermanload (~4:18 PM ET): Fri NASDAQ +1.09%, SOX +4.21% rebound; Dem AI/data-center caution continues; watch Tue CPI and semi follow-through.",
+    "@JTradesQuant (~3:25 AM ET): NQ ~16.6% off Oct high, Nasdaq 4th straight weekly loss, VIX elevated; CPI Tue 8:30 AM next catalyst after NFP.",
+    "@xwinfinance (~4:10 PM ET): S&P fell ~4.4% last week on risk-off; Brent ~$98 after ~16% drop; CPI and NASDAQ stabilization key for broader risk assets."
+   ],
+   "trump": "none",
+   "watch": "Sunday 6 PM ET NQ/ES/CL futures open on Hormuz tanker and Gulf headlines; Tue Nov 10 CPI 8:30 AM ET for inflation path and Dec hike odds; AI regulation noise from new Congress; CoreWeave and AI-related earnings this week.",
+   "forSite": []
+  },
+  {
+   "at": "2026-11-08T21:24:07Z",
+   "pulse": "NQ is shut until the 6 PM ET Sunday open and the weekend skews risk-off: Nvidia's board opened a probe into Jensen Huang's alleged Chinese-intel targeting (CEO stays) and Iran escalation (Qeshm blasts, Hormuz tankers on fire, WH 'Task Force Iron Gate' blockade) land on top of last week's AI rout; Friday's Comp +1.09% / SOX +4.21% bounce, Trump saying strikes are unlikely if talks advance and Qatar talks are the offsets.",
+   "bias": "risk-off — NVDA CEO probe headline plus Qeshm/Hormuz escalation and Iron Gate blockade risk an oil spike and chip gap-down at the 6 PM ET open, on top of Nasdaq -3.4% / S&P -2.7% last week and a hot 165k NFP (Dec hike odds ~75-80%); Friday's chip bounce, WTI low-$90s/Brent ~$98 after a ~13-16% weekly drop, and Iran talks are the cushion.",
+   "items": [
+    "@WatcherGuru (~3:07 PM ET): Nvidia board launches probe into Jensen Huang's relationship with alleged Chinese spy after he admits affair; ~3:18 PM letter to staff, Nvidia says he stays CEO, no national-security breach found (@FirstSquawk ~3:35 PM) — Bearish NQ",
+    "@WhiteHouse (~3:52 PM ET): 'Task Force Iron Gate is in full force and effect in Iran'; Trump says it plus the naval blockade will choke Iran's land supply routes — Bearish NQ",
+    "@DeItaone (~2:31 PM ET): IRNA says explosions heard on Iran's Qeshm Island, no official confirmation (@FirstSquawk ~2:44 PM) — Bearish NQ",
+    "News (~4:18 PM ET): IRGC says 3 tankers hit mines in Hormuz and burned; UAE rescued 22 crew; Trump to CNN: new strikes 'highly unlikely' if a strong deal advances; Araghchi 2-day ultimatum — Mixed NQ",
+    "@FirstSquawk (~3:31 PM ET): Anthropic to begin IPO roadshow next week (The Information) — Mixed NQ"
+   ],
+   "trump": "CNN: renewed Iran strikes 'highly unlikely' if a very strong deal advances, 3 US carriers in region; announced Task Force Iron Gate (land-route cutoff of Iran) with naval blockade; CBS: deportation policy 'might be too tough'; also said midterms cost the market $3T. 60 Minutes airs tonight 7 PM ET.",
+   "watch": "Sun 6 PM ET NQ/ES/CL futures open (NVDA probe, Iron Gate, Hormuz); Trump 60 Minutes 7 PM ET; China CPI/PPI 8:30 PM ET; Mon Nov 9 CEG/KKR BMO, TTWO/OXY AMC; Tue Nov 10 CPI 8:30 AM ET, CRWV AMC; Thu Nov 12 claims 8:30 AM, NBIS BMO, AMAT/CSCO AMC; Fri Nov 13 PPI 8:30 AM ET; NVDA earnings Nov 17 AMC.",
+   "forSite": []
+  },
+  {
+   "at": "2026-11-09T01:12:00Z",
+   "pulse": "Sunday night futures opened soft then bounced with S&P +0.1% and Nasdaq +0.3% as oil softens on Trump calling new Iran strikes highly unlikely, though mixed Rubio signals and lingering AI/midterm overhang keep the tape cautious into CPI week.",
+   "bias": "mixed — oil softness and Trump de-escalation comments support risk, offset by midterm AI data-center regulation fears, hot NFP/Dec hike odds ~80%, NVDA probe, and Rubio's skeptical Iran talks tone.",
+   "items": [
+    "@stockswithaaron (~8:12 PM ET): Futures soft then bounced; S&P futures +0.1%, Nasdaq +0.3%; Brent -0.6% to ~$97.67; Trump new Iran strikes 'highly unlikely'",
+    "@MCreekFutures (~8:10 PM ET): Sunday futures WTI $90.63, NQ 27136.75, ES 7423; risk-off de-grossing into gold, Iran/geo holding pattern, oil soft on macro demand",
+    "@FirstSquawk (~7:51 PM ET): Trump will meet Monday with PM of Qatar, key mediator between US and Iran",
+    "@unusual_whales (~7:01 PM ET): Trump 'highly unlikely' new Iran war if talks progress; Rubio calls talks not productive, demands outrageous/ridiculous",
+    "@ShadowAlphaX (~6:40 PM ET): Futures flipped early losses green; NQ +0.26%; WTI $90.21; Trump highly unlikely strikes; NVDA board probing CEO foreign-intel targeting"
+   ],
+   "trump": "Says new Iran strikes 'highly unlikely' if talks progress; meeting Monday with Qatar PM (key mediator); Rubio mixed/skeptical on talks. Also prior comments on $3T midterm market loss. 60 Minutes aired earlier.",
+   "watch": "Monday cash open and Rocket Lab AMC; Tue Nov 10 CPI 8:30 AM ET for inflation/Dec hike path; AI regulation noise from new Congress; any fresh Hormuz/Iran headlines; NVDA probe developments.",
+   "forSite": []
+  },
+  {
+   "at": "2026-11-09T01:24:48Z",
+   "pulse": "NQ ~27,144 (+0.2% vs Fri 4 PM 27,087.5) after a Sunday-open flush to 26,882 around 7:35 PM ET on the Nvidia/Huang probe headline, bid back by Taiwan +4% and Trump calling new Iran strikes 'highly unlikely'; rising JGB yields, gold +1% and Morgan Stanley's record tech momentum crash keep it fragile into CPI.",
+   "bias": "mixed — dip bought fast (Taiwan +4%, Iran de-escalation talk, Qatar mediator meeting Mon) vs NVDA CEO probe overhang, JGB 30Y 3.865% (+4 bps), gold $4,104 and Dec hike odds ~80% ahead of Tue CPI.",
+   "items": [
+    "@GexVault (~8:16 PM ET): NQ 27,144 +0.21% vs Fri 4 PM 27,087.5; overnight range 26,882-27,199, low ~7:35 PM after weak open, bounced since — Mixed NQ",
+    "@FirstSquawk (~8:23 PM ET): Taiwan's benchmark index climbs over 4% (was +2% at ~8:03 PM) — Bullish NQ",
+    "@zerohedge (~8:20 PM ET): Trump 'highly unlikely' to order new bombing of Iran if talks progress; @FirstSquawk ~7:51 PM: Trump meets Qatar PM (US-Iran mediator) Mon — Bullish NQ",
+    "@FirstSquawk (~7:37 PM ET): Nvidia examines whether foreign intel operatives targeted Jensen Huang amid affair revelation (Reuters) — Bearish NQ",
+    "@FirstSquawk (~8:12-8:22 PM ET): JGB 30Y 3.865% (+4 bps), 20Y 3.595% (+5 bps), 5Y 2.110% (+6.5 bps); gold +~1% to $4,104 (~8:02 PM) — Bearish NQ"
+   ],
+   "trump": "Says he's 'highly unlikely' to order new Iran bombing if talks progress; meets Qatar PM (key US-Iran mediator) Monday; named Stephen Miller White House Chief of Staff (@unusual_whales ~8:02 PM ET).",
+   "watch": "Overnight: Asia open (Taiwan/Nikkei strength vs KOSPI weakness), JGB yields, NVDA probe headlines, Hormuz/Iran; Mon Nov 9 Trump-Qatar PM meeting, CEG/KKR BMO, TTWO/OXY AMC; Tue Nov 10 CPI 8:30 AM ET, CRWV AMC; Thu Nov 12 claims 8:30 AM, NBIS BMO, AMAT/CSCO AMC; Fri Nov 13 PPI 8:30 AM ET; NVDA Nov 17 AMC.",
+   "forSite": []
+  },
+  {
+   "at": "2026-11-09T03:07:01Z",
+   "pulse": "Sunday night futures mixed to slightly higher (S&P +0.1%, NQ +0.3%) after Friday chip rebound from Thursday AI selloff, with oil easing near $97 on Trump calling new Iran strikes highly unlikely amid talks, while NVDA CEO probe and ~80% Dec hike odds from hot jobs keep bias cautious into Tuesday CPI.",
+   "bias": "mixed — oil softness and Trump de-escalation comments support risk, offset by post-midterm AI regulation fears, NVDA foreign-intel probe, elevated Dec hike pricing, and rising yields.",
+   "items": [
     "@mikerduff (~10:04 PM ET): Futures recovered from early dip; S&P +0.1%, Nasdaq 100 +0.3%; this week CPI Tue/PPI Fri, CoreWeave/Cisco/AMAT earnings; NVDA board probing CEO foreign intel targeting",
     "CNBC (~8:57 PM ET): Stock futures slightly higher Sunday evening eyeing AI recovery, brace for inflation data and AI earnings; S&P futures +0.1%, NQ +0.3%",
     "@blitzkreigm (~10:04 PM ET): Cues - Gift Nifty +30 pts, Brent lower at $97, AI trade focus on NVIDIA developments, Trump says fresh attacks on Iran highly unlikely",
     "@FirstSquawk / news (~earlier): Trump meets Qatar PM Monday (key US-Iran mediator); oil soft on de-escalation talk",
     "@ScottAlerts (~9:59 PM ET): December hike basically locked, question is size and more next year; CPI Tue and PPI Fri decide that"
-  ],
-  "trump": "Says renewed attacks on Iran highly unlikely if talks show progress on nuclear program and reopening Strait of Hormuz; US forces ready and could strike if necessary.",
-  "watch": "Tue Nov 10 CPI 8:30 AM ET for inflation path and Dec hike odds; AI earnings (CoreWeave Tue, Cisco/AMAT Thu); NVDA probe headlines; any fresh Iran/Hormuz developments; bond market closed Wed for Veterans Day.",
-  "forSite": []
+   ],
+   "trump": "Says renewed attacks on Iran highly unlikely if talks show progress on nuclear program and reopening Strait of Hormuz; US forces ready and could strike if necessary.",
+   "watch": "Tue Nov 10 CPI 8:30 AM ET for inflation path and Dec hike odds; AI earnings (CoreWeave Tue, Cisco/AMAT Thu); NVDA probe headlines; any fresh Iran/Hormuz developments; bond market closed Wed for Veterans Day.",
+   "forSite": []
+  },
+  {
+   "at": "2026-11-09T03:22:36Z",
+   "pulse": "NQ futures bid ~+0.65-0.8% Sunday night (S&P +0.6%) as Asia chips squeeze higher (TAIEX +6.3%, TSMC +6%, KOSPI +2%) and oil slips on Middle East de-escalation, offset by NVDA weakness (Hyperliquid NVDA perps ~-3%) on the Huang probe and ~80% Dec hike odds into Tue CPI.",
+   "bias": "risk-on — Taiwan/Korea chip rally on stabilization measures, crude easing and China extending its 24% tariff pause lift futures, but NVDA drag, a China Taiwan-blockade drill and hike pricing keep it fragile.",
+   "items": [
+    "@zerohedge (~9:51 PM ET): TAIEX extends gains to 6.3% on stabilization measures; @FirstSquawk ~9:19 PM: TSMC Taipei +6%, ~9:30 PM: KOSPI +2% — Bullish NQ",
+    "@BeliefAndBias (~10:10 PM ET): US futures rising into CPI week, NQ +0.65%, ES +0.62%, Dow +0.71%; CME FedWatch ~80% Dec hike — Bullish NQ",
+    "@FirstSquawk (~9:56 PM ET): Hyperliquid shows NVDA perps ~-3%; @WatcherGuru ~9:58 PM: Jensen Huang says China 'is not an enemy', US chip policy a 'mistake' — Bearish NQ",
+    "@FirstSquawk (~9:35 PM ET): Crude slips on optimism over reduced Middle East tensions (WSJ); Beijing keeps pausing 24% tariffs on US goods to Jan 10, 10% stays — Bullish NQ",
+    "@zerohedge (~10:00 PM ET): China rehearses Taiwan blockade in unannounced naval drill — Bearish NQ"
+   ],
+   "trump": "No new Trump headline since 8 PM; earlier he called new Iran strikes 'highly unlikely' if talks progress and meets Qatar's PM (US-Iran mediator) Monday.",
+   "watch": "Overnight: Asia chip follow-through, NVDA probe headlines, China-Taiwan drill, Hormuz/Iran; Mon Nov 9 Trump-Qatar PM, CEG/KKR BMO, OXY/TTWO AMC; Tue Nov 10 CPI 8:30 AM ET, CRWV AMC; Wed Nov 11 bond market closed (Veterans Day); Thu Nov 12 claims 8:30 AM, NBIS BMO, AMAT/CSCO AMC; Fri Nov 13 PPI 8:30 AM ET.",
+   "forSite": []
+  }
+ ]
 }
