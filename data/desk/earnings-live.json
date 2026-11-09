@@ -1,170 +1,114 @@
 {
- "date": "2026-11-08",
- "at": "2026-11-09T03:22:36Z",
- "items": [
-  {
-   "ticker": "ABNB",
-   "company": "Airbnb (ABNB)",
-   "date": "2026-11-05",
-   "when": "AMC",
-   "status": "reported",
-   "why": "EPS $3.16 vs $2.85, rev $4.87B vs $4.75B (+19% y/y); GBV +21%; new $12B buyback; FY26 rev growth raised high teens",
-   "reaction": "~+12% session",
-   "sentiment": "Bullish"
-  },
-  {
-   "ticker": "DKNG",
-   "company": "DraftKings (DKNG)",
-   "date": "2026-11-05",
-   "when": "AMC",
-   "status": "reported",
-   "why": "Rev +16% to $1.329B; cut FY26 adj EBITDA to $175-275M on Predictions spend; not core NQ but consumer risk read",
-   "reaction": "lower premarket on guide cut",
-   "sentiment": "Bearish"
-  },
-  {
-   "ticker": "IREN",
-   "company": "IREN (IREN)",
-   "date": "2026-11-05",
-   "when": "AMC",
-   "status": "reported",
-   "why": "FQ1 FY27 AI cloud rev ~$200M (+182%), total rev $228M (+66%); ARR ~$1B; backlog $20.3B; bounced hard Fri after Thu AI washout",
-   "reaction": "~+19-21% Fri session after AH/premixed",
-   "sentiment": "Bullish"
-  },
-  {
-   "ticker": "MCHP",
-   "company": "Microchip (MCHP)",
-   "date": "2026-11-05",
-   "when": "AMC",
-   "status": "reported",
-   "why": "Soft semis print into broad chip selloff",
-   "reaction": "~-6% AH",
-   "sentiment": "Bearish"
-  },
-  {
-   "ticker": "NET",
-   "company": "Cloudflare (NET)",
-   "date": "2026-11-05",
-   "when": "AMC",
-   "status": "reported",
-   "why": "Beat/raise AI networking print; one of few AI infra names that held bid through Thu rout",
-   "reaction": "~+17% AH",
-   "sentiment": "Bullish"
-  },
-  {
-   "ticker": "TEAM",
-   "company": "Atlassian (TEAM)",
-   "date": "2026-11-05",
-   "when": "AMC",
-   "status": "reported",
-   "why": "Soft guide / software derating into Thu AI/tech wipeout",
-   "reaction": "~-16% session",
-   "sentiment": "Bearish"
-  },
-  {
-   "ticker": "OKLO",
-   "company": "Oklo (OKLO)",
-   "date": "2026-11-06",
-   "when": "BMO",
-   "status": "reported",
-   "why": "Loss $0.22 vs $0.27 est, rev $1.86M vs $1.01M; $3.13B cash; AI-power/nuclear rebound with group",
-   "reaction": "~+16-25% session",
-   "sentiment": "Bullish"
-  },
-  {
-   "ticker": "VST",
-   "company": "Vistra (VST)",
-   "date": "2026-11-06",
-   "when": "BMO",
-   "status": "reported",
-   "why": "Adj EBITDA $2.378B (+50%+ y/y); raised 2026 Ongoing Ops Adj EBITDA to $7.1-7.5B; initiated 2027 $7.7-8.5B; +$1.5B buyback; AI power demand read",
-   "reaction": "bid with AI-power complex premarket",
-   "sentiment": "Bullish"
-  },
-  {
-   "ticker": "WULF",
-   "company": "TeraWulf (WULF)",
-   "date": "2026-11-06",
-   "when": "BMO",
-   "status": "reported",
-   "why": "Rev $76.2M with HPC lease $63M (~83%); Anthropic ~401MW/$19B lease + Google credit backstop; Adj EBITDA ~-$12.8M; AI data-center read",
-   "reaction": "mixed/volatile with AI infra",
-   "sentiment": "Mixed"
-  },
-  {
-   "ticker": "BRK.B",
-   "company": "Berkshire Hathaway (BRK.B)",
-   "date": "2026-11-07",
-   "when": "BMO",
-   "status": "reported",
-   "why": "Q3 operating earnings $12.71B, -5.8% y/y; ~$9.6B buybacks in Q3 (per @FirstSquawk)",
-   "reaction": "n/a (reported Sat, trades Mon)",
-   "sentiment": "Mixed"
-  },
-  {
-   "ticker": "CEG",
-   "company": "Constellation Energy (CEG)",
-   "date": "2026-11-09",
-   "when": "BMO",
-   "status": "upcoming",
-   "why": "AI power / nuclear; key data-center electricity read"
-  },
-  {
-   "ticker": "KKR",
-   "company": "KKR (KKR)",
-   "date": "2026-11-09",
-   "when": "BMO",
-   "status": "upcoming",
-   "why": "Mega PE print; deal-activity / risk-appetite read into Monday"
-  },
-  {
-   "ticker": "OXY",
-   "company": "Occidental Petroleum (OXY)",
-   "date": "2026-11-09",
-   "when": "AMC",
-   "status": "upcoming",
-   "why": "Oil major AMC; CL/Iran-sensitive after weekend Hormuz tanker and Houthi headlines"
-  },
-  {
-   "ticker": "TTWO",
-   "company": "Take-Two (TTWO)",
-   "date": "2026-11-09",
-   "when": "AMC",
-   "status": "upcoming",
-   "why": "GTA VI countdown; consumer/software sentiment satellite"
-  },
-  {
-   "ticker": "CRWV",
-   "company": "CoreWeave (CRWV)",
-   "date": "2026-11-10",
-   "when": "AMC",
-   "status": "upcoming",
-   "why": "AI neocloud; high-beta AI infra after this week's AI rout"
-  },
-  {
-   "ticker": "AMAT",
-   "company": "Applied Materials (AMAT)",
-   "date": "2026-11-12",
-   "when": "AMC",
-   "status": "upcoming",
-   "why": "Semi equipment; AI capex cycle read with CSCO same night"
-  },
-  {
-   "ticker": "CSCO",
-   "company": "Cisco (CSCO)",
-   "date": "2026-11-12",
-   "when": "AMC",
-   "status": "upcoming",
-   "why": "Networking / AI infra spend; largest NQ-adjacent name next week"
-  },
-  {
-   "ticker": "NBIS",
-   "company": "Nebius (NBIS)",
-   "date": "2026-11-12",
-   "when": "BMO",
-   "status": "upcoming",
-   "why": "AI cloud / GPU infra satellite"
-  }
- ]
+  "date": "2026-11-09",
+  "at": "2026-11-09T12:22:32Z",
+  "items": [
+    {
+      "ticker": "OKLO",
+      "company": "Oklo (OKLO)",
+      "date": "2026-11-06",
+      "when": "BMO",
+      "status": "reported",
+      "why": "Loss $0.22 vs $0.27 est, rev $1.86M vs $1.01M; $3.13B cash; AI-power/nuclear rebound with group",
+      "reaction": "~+16-25% session",
+      "sentiment": "Bullish"
+    },
+    {
+      "ticker": "VST",
+      "company": "Vistra (VST)",
+      "date": "2026-11-06",
+      "when": "BMO",
+      "status": "reported",
+      "why": "Adj EBITDA $2.378B (+50%+ y/y); raised 2026 Ongoing Ops Adj EBITDA to $7.1-7.5B; initiated 2027 $7.7-8.5B; +$1.5B buyback; AI power demand read",
+      "reaction": "bid with AI-power complex premarket",
+      "sentiment": "Bullish"
+    },
+    {
+      "ticker": "WULF",
+      "company": "TeraWulf (WULF)",
+      "date": "2026-11-06",
+      "when": "BMO",
+      "status": "reported",
+      "why": "Rev $76.2M with HPC lease $63M (~83%); Anthropic ~401MW/$19B lease + Google credit backstop; Adj EBITDA ~-$12.8M; AI data-center read",
+      "reaction": "mixed/volatile with AI infra",
+      "sentiment": "Mixed"
+    },
+    {
+      "ticker": "BRK.B",
+      "company": "Berkshire Hathaway (BRK.B)",
+      "date": "2026-11-07",
+      "when": "BMO",
+      "status": "reported",
+      "why": "Q3 operating earnings $12.71B, -5.8% y/y; ~$9.6B buybacks in Q3 (per @FirstSquawk)",
+      "reaction": "n/a (reported Sat, trades Mon)",
+      "sentiment": "Mixed"
+    },
+    {
+      "ticker": "CEG",
+      "company": "Constellation Energy (CEG)",
+      "date": "2026-11-09",
+      "when": "BMO",
+      "status": "reported",
+      "reaction": "premarket TBD",
+      "sentiment": "Bullish",
+      "why": "Adj EPS $5.06 vs $3.85 est; adj op income $1.79B vs $2.16B est; FY26 adj EPS guide $12.50-12.80 (per @LiveSquawk); AI-power read"
+    },
+    {
+      "ticker": "KKR",
+      "company": "KKR (KKR)",
+      "date": "2026-11-09",
+      "when": "BMO",
+      "status": "reported",
+      "reaction": "~+1% premarket",
+      "sentiment": "Mixed",
+      "why": "Adj EPS $1.78 vs $1.58 est; record profit on asset sales and fees; resilient dealmaking/risk-appetite read"
+    },
+    {
+      "ticker": "OXY",
+      "company": "Occidental Petroleum (OXY)",
+      "date": "2026-11-09",
+      "when": "AMC",
+      "status": "upcoming",
+      "why": "Oil major AMC; CL/Iran-sensitive after weekend Hormuz tanker and Houthi headlines"
+    },
+    {
+      "ticker": "TTWO",
+      "company": "Take-Two (TTWO)",
+      "date": "2026-11-09",
+      "when": "AMC",
+      "status": "upcoming",
+      "why": "GTA VI countdown; consumer/software sentiment satellite"
+    },
+    {
+      "ticker": "CRWV",
+      "company": "CoreWeave (CRWV)",
+      "date": "2026-11-10",
+      "when": "AMC",
+      "status": "upcoming",
+      "why": "AI neocloud; high-beta AI infra after this week's AI rout"
+    },
+    {
+      "ticker": "AMAT",
+      "company": "Applied Materials (AMAT)",
+      "date": "2026-11-12",
+      "when": "AMC",
+      "status": "upcoming",
+      "why": "Semi equipment; AI capex cycle read with CSCO same night"
+    },
+    {
+      "ticker": "CSCO",
+      "company": "Cisco (CSCO)",
+      "date": "2026-11-12",
+      "when": "AMC",
+      "status": "upcoming",
+      "why": "Networking / AI infra spend; largest NQ-adjacent name next week"
+    },
+    {
+      "ticker": "NBIS",
+      "company": "Nebius (NBIS)",
+      "date": "2026-11-12",
+      "when": "BMO",
+      "status": "upcoming",
+      "why": "AI cloud / GPU infra satellite"
+    }
+  ]
 }
