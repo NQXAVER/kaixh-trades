@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "at": "2026-11-09T14:26:18Z",
+  "at": "2026-11-09T21:20:33Z",
   "items": [
     {
       "ticker": "OKLO",
@@ -67,16 +67,20 @@
       "company": "Occidental Petroleum (OXY)",
       "date": "2026-11-09",
       "when": "AMC",
-      "status": "upcoming",
-      "why": "Oil major AMC; CL/Iran-sensitive after weekend Hormuz tanker and Houthi headlines"
+      "status": "reported",
+      "why": "Adj EPS $1.91 vs $1.45 est; adj net income $2.08B vs $1.45B est; sales $6.57B vs $6.79B est (miss); production 1,427 Mboe/d; realized oil $85.91/bbl (per @LiveSquawk)",
+      "sentiment": "Mixed",
+      "reaction": "AH reaction pending (just reported)"
     },
     {
       "ticker": "TTWO",
       "company": "Take-Two (TTWO)",
       "date": "2026-11-09",
       "when": "AMC",
-      "status": "upcoming",
-      "why": "GTA VI countdown; consumer/software sentiment satellite"
+      "status": "reported",
+      "why": "Rev $1.50B (-15% y/y) vs ~$1.58-1.66B est (miss); net bookings $1.60B -18% y/y; GAAP EPS -$0.29 beat; FY27 bookings $8.0-8.2B reiterated, FY rev guide $7.98-8.18B below ~$8.5B est; GTA VI Nov 19, pre-orders \"unprecedented\"",
+      "sentiment": "Mixed",
+      "reaction": "~-0.7% AH early (per X posts)"
     },
     {
       "ticker": "CRWV",
