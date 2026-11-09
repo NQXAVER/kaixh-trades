@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T22:05:53Z",
+  "updatedAt": "2026-11-09T01:46:52Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -636,36 +636,36 @@
       "auto": true
     },
     {
+      "id": "ff329ba1d73d1",
+      "headline": "Iraq’s 5 Million Bpd Oil Claim Complicates Its OPEC Quota Push",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Energy/Crude-Oil/Iraqs-5-Million-Bpd-Oil-Claim-Complicates-Its-OPEC-Quota-Push.html",
+      "publishedAt": "2026-11-09T00:00:00Z",
+      "time": "Sun 7:00 PM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f1385bc4b423f",
+      "headline": "Aramco Tower hit in heart of Saudi capital as Houthis launch fresh strikes",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c6ly3mjx958eo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-11-08T21:37:36Z",
+      "time": "Sun 4:37 PM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
       "id": "f8a885922cc02",
       "headline": "How Big Oil Became the AI Industry's Favorite Customer",
       "source": "OilPrice",
       "url": "https://oilprice.com/Energy/Energy-General/How-Big-Oil-Became-the-AI-Industrys-Favorite-Customer.html",
       "publishedAt": "2026-11-08T18:00:00Z",
       "time": "Sun 1:00 PM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "ff5bff907aba1",
-      "headline": "Egypt Eyes Billions in New Investment to Revive Oil and Gas Production",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Energy/Energy-General/Egypt-Eyes-Billions-in-New-Investment-to-Revive-Oil-and-Gas-Production.html",
-      "publishedAt": "2026-11-07T20:00:00Z",
-      "time": "Sat 3:00 PM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "fed946a8fdf73",
-      "headline": "Why are oil traders refusing to buy Russian diesel after Trump-Putin deal?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/11/7/why-are-oil-traders-refusing-to-buy-russian-diesel-after-trump-putin-deal?traffic_source=rss",
-      "publishedAt": "2026-11-07T12:24:11Z",
-      "time": "Sat 7:24 AM",
       "section": "energy",
       "impact": "Medium",
       "lean": null,
