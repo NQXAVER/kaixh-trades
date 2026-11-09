@@ -1,0 +1,39 @@
+{
+ "date": "2026-11-09",
+ "entryUrl": "https://app.notion.com/p/41360e8f5c45809081e8d6c4277447cd",
+ "summary": "No trades today, and that was the right call. You were sick, your pre-market said that if the DOL got taken you were off, the DOL got taken, and you went back to sleep instead of forcing an entry. Your morning check-in was on time at 9:26 AM with the risk screenshot confirmed, and your end-of-day card matches Notion. The only gaps are that the Notion entry is almost empty and nothing went into the xavier Journal thread today.",
+ "trade": "No Trades · NY-AM · XFA · NT · pre-market plan: if the DOL (PDH / daily gap at the market open) gets taken, lock out because you're sick · no entry, stop or target.",
+ "rule": "Tomorrow is CPI at 8:30 AM ET. Take no position before the release, wait for the first 15 minutes of NY to settle after the open, and only enter on a setup that's in your pre-market plan. If you're still sick, take the day off the same way you did today.",
+ "screenshots": [],
+ "good": [
+  "You followed your own rule: the DOL got taken, so you locked out instead of chasing while you were sick.",
+  "Morning check-in at 9:26 AM ET (charts opened 9:25), with the risk-settings screenshot confirmed before the 9:30 deadline.",
+  "Your EOD card says Rules Followed: yes and 'saw DOL get taken an went back to sleep am sick', which matches Notion (No Trades, XFA, NY-AM).",
+  "No new eval or prop-firm purchase showed up in your email today."
+ ],
+ "fix": [
+  "The Notion entry has no TimeFrame or Execution screenshots and nothing written in TALK or emotions. Even on a no-trade day, drop in the pre-market chart and one line on why you sat out so the review has something real to check.",
+  "You didn't post in the xavier Journal thread today (the last post is Nov 6). A short 'No trades, sick, DOL taken' post keeps the syndicate log complete.",
+  "Your EOD screenshot was a dimmed chart with no levels marked. On no-trade days, mark the DOL that got taken so the screenshot actually shows why you stood down."
+ ],
+ "questions": [
+  {
+   "q": "Your plan was 'if we take our pdh/daily gap at mo I'll play it safe and lock out.' Being sick made that easy today. Would you have locked out after the DOL got taken if you'd felt 100%, or would you have looked for a second idea?"
+  },
+  {
+   "q": "CPI is tomorrow at 8:30 AM ET and Bibz sat out today to wait for it. What exactly has to happen after the release for you to take a trade, and what makes you sit out?"
+  },
+  {
+   "q": "Notion is mostly blank today. What stops you from logging the pre-market chart on days you don't trade?"
+  }
+ ],
+ "discord": {
+  "chartsOpened": "9:25 AM ET (Morning Check-in submitted 9:26 AM, streak 12 days).",
+  "plan": "\"stay patient if we take our pdh/daily gap at mo i'll play it safe and lock out\"",
+  "risk": "On time: Kaixh posted the risk-settings screenshot at 9:26 AM ET and Syndicator confirmed the check-in was complete before the 9:30 deadline.",
+  "eod": "Filed at 11:17 AM ET (streak 13 days): Trade Summary \"saw DOL get taken an went back to sleep am sick\", Rules Followed: yes, Improvement \"stay patient\". The PNL screenshot (a dimmed chart, no marks) was confirmed at 11:17.",
+  "match": "The morning plan (lock out if the DOL is taken), the EOD card, and Notion (No Trades, XFA, NY-AM, pre-market 'if DOL gets taken im off cus im sick') all agree. No chat with Bibz today. Bibz took the day off ahead of CPI.",
+  "journalChannel": "No post in xavier Journal today. The latest is Nov 6 at 11:09 AM ET."
+ },
+ "reviewedAt": "2026-11-09T21:18:44Z"
+}
