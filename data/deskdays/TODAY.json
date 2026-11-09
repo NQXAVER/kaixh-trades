@@ -1,18 +1,18 @@
 {
   "date": "2026-11-08",
   "grok": {
-    "at": "2026-11-08T21:19:00Z",
-    "pulse": "NQ and ES futures prepare for Sunday reopen after Thursday's sharp post-midterm AI data-center regulation selloff and Friday's chip/SOX rebound, with oil digesting a steep weekly drop on Iran de-escalation hopes offset by fresh Hormuz tanker incident reports.",
-    "bias": "mixed — Dem midterm AI/data-center overhang and hot +165k NFP lifting Dec hike odds are balanced by oil's ~14% weekly crash on deal hopes and partial Friday equity bounce, though weekend Gulf headlines keep risk-off tilt alive.",
+    "at": "2026-11-09T01:12:00Z",
+    "pulse": "Sunday night futures opened soft then bounced with S&P +0.1% and Nasdaq +0.3% as oil softens on Trump calling new Iran strikes highly unlikely, though mixed Rubio signals and lingering AI/midterm overhang keep the tape cautious into CPI week.",
+    "bias": "mixed — oil softness and Trump de-escalation comments support risk, offset by midterm AI data-center regulation fears, hot NFP/Dec hike odds ~80%, NVDA probe, and Rubio's skeptical Iran talks tone.",
     "items": [
-      "@DanielTNiles (~4:10 PM ET): Post-midterms 40%+ incremental datacenter capacity at risk; SOX/SPX/Nas -12/-2.7/-3.4% wk; oil should keep falling, Iran deal soon; hyperscalers held up better than pure AI plays.",
-      "@stockswithaaron (~3:58 PM ET): Hormuz tanker incidents real but not confirmed supply shock; fade 45%/escalation 30%; watch Brent >$106 or S&P futures -1.5%+ post-open for risk shift.",
-      "@bombermanload (~4:18 PM ET): Fri NASDAQ +1.09%, SOX +4.21% rebound; Dem AI/data-center caution continues; watch Tue CPI and semi follow-through.",
-      "@JTradesQuant (~3:25 AM ET): NQ ~16.6% off Oct high, Nasdaq 4th straight weekly loss, VIX elevated; CPI Tue 8:30 AM next catalyst after NFP.",
-      "@xwinfinance (~4:10 PM ET): S&P fell ~4.4% last week on risk-off; Brent ~$98 after ~16% drop; CPI and NASDAQ stabilization key for broader risk assets."
+      "@stockswithaaron (~8:12 PM ET): Futures soft then bounced; S&P futures +0.1%, Nasdaq +0.3%; Brent -0.6% to ~$97.67; Trump new Iran strikes 'highly unlikely'",
+      "@MCreekFutures (~8:10 PM ET): Sunday futures WTI $90.63, NQ 27136.75, ES 7423; risk-off de-grossing into gold, Iran/geo holding pattern, oil soft on macro demand",
+      "@FirstSquawk (~7:51 PM ET): Trump will meet Monday with PM of Qatar, key mediator between US and Iran",
+      "@unusual_whales (~7:01 PM ET): Trump 'highly unlikely' new Iran war if talks progress; Rubio calls talks not productive, demands outrageous/ridiculous",
+      "@ShadowAlphaX (~6:40 PM ET): Futures flipped early losses green; NQ +0.26%; WTI $90.21; Trump highly unlikely strikes; NVDA board probing CEO foreign-intel targeting"
     ],
-    "trump": "none",
-    "watch": "Sunday 6 PM ET NQ/ES/CL futures open on Hormuz tanker and Gulf headlines; Tue Nov 10 CPI 8:30 AM ET for inflation path and Dec hike odds; AI regulation noise from new Congress; CoreWeave and AI-related earnings this week.",
+    "trump": "Says new Iran strikes 'highly unlikely' if talks progress; meeting Monday with Qatar PM (key mediator); Rubio mixed/skeptical on talks. Also prior comments on $3T midterm market loss. 60 Minutes aired earlier.",
+    "watch": "Monday cash open and Rocket Lab AMC; Tue Nov 10 CPI 8:30 AM ET for inflation/Dec hike path; AI regulation noise from new Congress; any fresh Hormuz/Iran headlines; NVDA probe developments.",
     "forSite": []
   }
 }
