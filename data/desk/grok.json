@@ -1,23 +1,23 @@
 {
   "date": "2026-11-10",
-  "at": "2026-11-10T12:25:03Z",
-  "pulse": "NQ steadying premarket after Monday's +2.7% Nasdaq squeeze (QQQ 679 still just under its 200DMA ~681), with Anthropic's ~$1-1.4T Nasdaq IPO and $26B AMD/AVGO/GOOGL stake lifting the AI bid, offset by Waller's Dec-hike push and BofA dropping NVDA/MU from top picks into 8:30 AM ET CPI.",
-  "bias": "mixed — AI/IPO headlines and Monday momentum support risk-on, but hawkish Waller (25bp Dec, 50bp if core ≥0.3%), the 200DMA cap on QQQ and a binary CPI print keep NQ two-way.",
+  "at": "2026-11-10T14:19:58Z",
+  "pulse": "NQ under pressure premarket after a hot Oct CPI (0.4% headline, 0.3% core vs 0.3/0.2 est) sent Nasdaq-100 futures down 1.5% to the premarket low and short-end yields up 10bp+, with 50bp Dec hike bets rising; only offsets are the Anthropic IPO/AI bid and Rubio saying no Iran combat ops needed.",
+  "bias": "risk-off \u2014 core CPI crossed Waller's 0.3% line, putting a 50bp Dec hike (or Dec+Jan back-to-back) in play, 2-5y yields +10bp, and Houthi strikes on Saudi oil infrastructure add an oil-risk bid into the cash open.",
   "items": [
-    "@DeItaone (~6:35 AM ET): AMD, Broadcom, Google and others to invest $26B in Anthropic; AMD buying $9.5B of Class N stock — Bullish NQ",
-    "@DeItaone (~6:36 AM ET): Anthropic launches IPO roadshow, $70-78/sh, up to $64.35B raise, Nasdaq listing; prices next Wed, trades Thu — Mixed NQ (AI bid vs supply)",
-    "@FirstSquawk (~7:20 AM ET): Anthropic seeks $1.4T fully diluted valuation; run-rate rev ~$81B as of Oct 31, ~$900.9B committed spend — Bullish NQ (AI capex read)",
-    "@WatcherGuru (~7:03 AM ET): BofA removes NVDA and MU from its top stock picks list — Bearish NQ (semis)",
-    "X News (~6:37 AM ET update): Fed's Waller backs a 25bp Dec 8-9 hike, open to 50bp if core CPI ≥0.3%; yields up, hike odds ~88% — Bearish NQ"
+    "@DeItaone (~8:30 AM ET): Oct CPI +0.4% m/m (est 0.3%), core +0.3% (est 0.2%); 3-mo core 3.7% annualized, supercore 5.5% \u2014 Bearish NQ",
+    "@FirstSquawk (~8:43 AM ET): Nasdaq 100 futures fall 1.5% to premarket low; US 2-5y yields up at least 10bp on the day \u2014 Bearish NQ",
+    "@DeItaone (~9:03 AM ET): WSJ's Timiraos says Fed may choose between 50bp in Dec or back-to-back Dec/Jan hikes; traders boost half-point bets \u2014 Bearish NQ",
+    "@WatcherGuru (~9:05 AM ET): Goldman Sachs warns high inflation could bring more hikes next year; BTC under $74K, $200M longs liquidated \u2014 Bearish NQ",
+    "@DeItaone (~9:12 AM ET): Houthis say they attacked Saudi East-West pipeline pumping stations and Riyadh airport (Aramco targets per @FirstSquawk) \u2014 Bearish NQ (oil risk)"
   ],
-  "trump": "No fresh market-moving Trump headlines overnight; his earlier line that the Iran war is effectively over keeps oil soft (Brent ~$90).",
-  "watch": "Oct CPI 8:30 AM ET (m/m only; cons headline 0.3%, core 0.2%; core ≥0.3% raises 50bp Dec risk); cash open 9:30 AM ET vs QQQ 200DMA ~681; OXY call 1 PM ET; CRWV AMC tonight; Anthropic IPO roadshow headlines; Iran/oil; Dec 8-9 FOMC.",
+  "trump": "Nothing market-moving from Trump himself (Truth Social praise for Hegseth, ~8:37 AM ET). Admin side: Rubio says combat ops against Iran not needed now and AI will be raised at the Trump-Xi summit; Hegseth says the US controls the Strait of Hormuz.",
+  "watch": "Cash open 9:30 AM ET (QQQ 200DMA ~681 now further away); Houthi/Saudi oil headlines and WTI/Brent reaction; Fed speakers on 50bp; OXY call 1 PM ET; CRWV AMC tonight (Q3 rev guide $3.45-3.60B); PPI Fri; Anthropic IPO prices next Wed; Dec 8-9 FOMC.",
   "forSite": [],
   "reports": [
     {
       "at": "2026-11-10T12:00:44Z",
       "pulse": "US futures mixed premarket after Monday's strong oil-driven rally (Nasdaq +2.7%), with NQ flat to slightly lower into 8:30 AM ET CPI as oil stays soft on Iran de-escalation and AI names digest Anthropic investment/IPO buzz amid elevated Dec hike odds.",
-      "bias": "mixed — Monday momentum and soft oil support risk-on, but NQ lagging, Waller hike comments, NVDA probe residual and binary CPI keep caution.",
+      "bias": "mixed \u2014 Monday momentum and soft oil support risk-on, but NQ lagging, Waller hike comments, NVDA probe residual and binary CPI keep caution.",
       "items": [
         "@TopStockAlerts1 (~7:00 AM ET): S&P futs +0.1%, Dow +0.3%, Nasdaq-100 -0.2%; Waller sees Dec rate hike likely, possible half-point",
         "@skpark0304 (~6:59 AM ET): Bounce holds, Nasdaq futs flat, Brent ~$90 sliding, CPI at 8:30 the focus",
@@ -32,16 +32,31 @@
     {
       "at": "2026-11-10T12:25:03Z",
       "pulse": "NQ steadying premarket after Monday's +2.7% Nasdaq squeeze (QQQ 679 still just under its 200DMA ~681), with Anthropic's ~$1-1.4T Nasdaq IPO and $26B AMD/AVGO/GOOGL stake lifting the AI bid, offset by Waller's Dec-hike push and BofA dropping NVDA/MU from top picks into 8:30 AM ET CPI.",
-      "bias": "mixed — AI/IPO headlines and Monday momentum support risk-on, but hawkish Waller (25bp Dec, 50bp if core ≥0.3%), the 200DMA cap on QQQ and a binary CPI print keep NQ two-way.",
+      "bias": "mixed \u2014 AI/IPO headlines and Monday momentum support risk-on, but hawkish Waller (25bp Dec, 50bp if core \u22650.3%), the 200DMA cap on QQQ and a binary CPI print keep NQ two-way.",
       "items": [
-        "@DeItaone (~6:35 AM ET): AMD, Broadcom, Google and others to invest $26B in Anthropic; AMD buying $9.5B of Class N stock — Bullish NQ",
-        "@DeItaone (~6:36 AM ET): Anthropic launches IPO roadshow, $70-78/sh, up to $64.35B raise, Nasdaq listing; prices next Wed, trades Thu — Mixed NQ (AI bid vs supply)",
-        "@FirstSquawk (~7:20 AM ET): Anthropic seeks $1.4T fully diluted valuation; run-rate rev ~$81B as of Oct 31, ~$900.9B committed spend — Bullish NQ (AI capex read)",
-        "@WatcherGuru (~7:03 AM ET): BofA removes NVDA and MU from its top stock picks list — Bearish NQ (semis)",
-        "X News (~6:37 AM ET update): Fed's Waller backs a 25bp Dec 8-9 hike, open to 50bp if core CPI ≥0.3%; yields up, hike odds ~88% — Bearish NQ"
+        "@DeItaone (~6:35 AM ET): AMD, Broadcom, Google and others to invest $26B in Anthropic; AMD buying $9.5B of Class N stock \u2014 Bullish NQ",
+        "@DeItaone (~6:36 AM ET): Anthropic launches IPO roadshow, $70-78/sh, up to $64.35B raise, Nasdaq listing; prices next Wed, trades Thu \u2014 Mixed NQ (AI bid vs supply)",
+        "@FirstSquawk (~7:20 AM ET): Anthropic seeks $1.4T fully diluted valuation; run-rate rev ~$81B as of Oct 31, ~$900.9B committed spend \u2014 Bullish NQ (AI capex read)",
+        "@WatcherGuru (~7:03 AM ET): BofA removes NVDA and MU from its top stock picks list \u2014 Bearish NQ (semis)",
+        "X News (~6:37 AM ET update): Fed's Waller backs a 25bp Dec 8-9 hike, open to 50bp if core CPI \u22650.3%; yields up, hike odds ~88% \u2014 Bearish NQ"
       ],
       "trump": "No fresh market-moving Trump headlines overnight; his earlier line that the Iran war is effectively over keeps oil soft (Brent ~$90).",
-      "watch": "Oct CPI 8:30 AM ET (m/m only; cons headline 0.3%, core 0.2%; core ≥0.3% raises 50bp Dec risk); cash open 9:30 AM ET vs QQQ 200DMA ~681; OXY call 1 PM ET; CRWV AMC tonight; Anthropic IPO roadshow headlines; Iran/oil; Dec 8-9 FOMC.",
+      "watch": "Oct CPI 8:30 AM ET (m/m only; cons headline 0.3%, core 0.2%; core \u22650.3% raises 50bp Dec risk); cash open 9:30 AM ET vs QQQ 200DMA ~681; OXY call 1 PM ET; CRWV AMC tonight; Anthropic IPO roadshow headlines; Iran/oil; Dec 8-9 FOMC.",
+      "forSite": []
+    },
+    {
+      "at": "2026-11-10T14:19:58Z",
+      "pulse": "NQ under pressure premarket after a hot Oct CPI (0.4% headline, 0.3% core vs 0.3/0.2 est) sent Nasdaq-100 futures down 1.5% to the premarket low and short-end yields up 10bp+, with 50bp Dec hike bets rising; only offsets are the Anthropic IPO/AI bid and Rubio saying no Iran combat ops needed.",
+      "bias": "risk-off \u2014 core CPI crossed Waller's 0.3% line, putting a 50bp Dec hike (or Dec+Jan back-to-back) in play, 2-5y yields +10bp, and Houthi strikes on Saudi oil infrastructure add an oil-risk bid into the cash open.",
+      "items": [
+        "@DeItaone (~8:30 AM ET): Oct CPI +0.4% m/m (est 0.3%), core +0.3% (est 0.2%); 3-mo core 3.7% annualized, supercore 5.5% \u2014 Bearish NQ",
+        "@FirstSquawk (~8:43 AM ET): Nasdaq 100 futures fall 1.5% to premarket low; US 2-5y yields up at least 10bp on the day \u2014 Bearish NQ",
+        "@DeItaone (~9:03 AM ET): WSJ's Timiraos says Fed may choose between 50bp in Dec or back-to-back Dec/Jan hikes; traders boost half-point bets \u2014 Bearish NQ",
+        "@WatcherGuru (~9:05 AM ET): Goldman Sachs warns high inflation could bring more hikes next year; BTC under $74K, $200M longs liquidated \u2014 Bearish NQ",
+        "@DeItaone (~9:12 AM ET): Houthis say they attacked Saudi East-West pipeline pumping stations and Riyadh airport (Aramco targets per @FirstSquawk) \u2014 Bearish NQ (oil risk)"
+      ],
+      "trump": "Nothing market-moving from Trump himself (Truth Social praise for Hegseth, ~8:37 AM ET). Admin side: Rubio says combat ops against Iran not needed now and AI will be raised at the Trump-Xi summit; Hegseth says the US controls the Strait of Hormuz.",
+      "watch": "Cash open 9:30 AM ET (QQQ 200DMA ~681 now further away); Houthi/Saudi oil headlines and WTI/Brent reaction; Fed speakers on 50bp; OXY call 1 PM ET; CRWV AMC tonight (Q3 rev guide $3.45-3.60B); PPI Fri; Anthropic IPO prices next Wed; Dec 8-9 FOMC.",
       "forSite": []
     }
   ]

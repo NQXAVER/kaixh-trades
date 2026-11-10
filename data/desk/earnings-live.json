@@ -1,6 +1,6 @@
 {
   "date": "2026-11-10",
-  "at": "2026-11-10T12:25:03Z",
+  "at": "2026-11-10T14:19:58Z",
   "items": [
     {
       "ticker": "BRK.B",
@@ -50,7 +50,7 @@
       "status": "reported",
       "reaction": "spiked ~+20-26% AH, faded to ~+2.5% after the call",
       "sentiment": "Mixed",
-      "why": "Rev $736M vs ~$650M est (beat); adj EPS $0.33 vs $0.25; adj EBITDA $266M vs $161M; Q4 guide rev ≥$755M, EBITDA $280M above est; +$731M buyback"
+      "why": "Rev $736M vs ~$650M est (beat); adj EPS $0.33 vs $0.25; adj EBITDA $266M vs $161M; Q4 guide rev \u2265$755M, EBITDA $280M above est; +$731M buyback"
     },
     {
       "ticker": "TTWO",
@@ -68,7 +68,7 @@
       "date": "2026-11-10",
       "when": "AMC",
       "status": "upcoming",
-      "why": "AI neocloud; high-beta AI infra after this week's AI rout"
+      "why": "AI neocloud; Q3 rev guide $3.45-3.60B (+~159% y/y), ~$3.54B est; $104B backlog vs heavy interest expense; stock ~-40% in a month"
     },
     {
       "ticker": "AMAT",
@@ -93,6 +93,16 @@
       "when": "BMO",
       "status": "upcoming",
       "why": "AI cloud / GPU infra satellite"
+    },
+    {
+      "ticker": "SE",
+      "company": "Sea Limited (SE)",
+      "date": "2026-11-10",
+      "when": "BMO",
+      "status": "reported",
+      "reaction": "~-8-9% premarket",
+      "sentiment": "Mixed",
+      "why": "Rev $8.58B +43% y/y (beat); net income $502.5M +34%; EPS miss on AI-investment and competition costs; new $1B buyback"
     }
   ]
 }
