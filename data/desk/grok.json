@@ -1,15 +1,15 @@
 {
-  "at": "2026-11-09T21:22:00Z",
-  "pulse": "Nasdaq and S&P closed sharply higher Monday (+2.7% and +2.3%) as oil plunged 4-5% on Trump's comments that renewed Iran strikes are highly unlikely if talks progress, easing inflation fears and sparking broad dip-buying after last week's AI selloff, though Nvidia fell on its CEO probe.",
-  "bias": "risk-on — oil collapse and Iran de-escalation hopes reduced inflation and geopolitical risk, fueling equity rebound including AI/chips ex-NVDA ahead of CPI, despite elevated December FOMC hike odds.",
+  "at": "2026-11-10T01:14:16Z",
+  "pulse": "Wall Street closed with its best day in months (S&P +2.3-2.4%, Nasdaq +2.7%) as oil plunged 4-6% on Trump's comments that new Iran strikes are highly unlikely if talks progress, easing inflation fears and driving a broad rebound including chips ex-NVDA after last week's AI selloff.",
+  "bias": "risk-on — oil collapse and Iran de-escalation hopes reduced inflation and geopolitical risk, fueling equity and AI/chip recovery (AMD +13%, SOX strong) ahead of CPI, despite ~80% Dec FOMC hike odds and NVDA lag on CEO probe.",
   "items": [
-    "@CTKCapitalIntel (~4:16 PM ET): S&P 500 +2.35% to 7,549.94, Nasdaq +2.74% to 25,253; oil helped after Trump said renewed strikes on Iran highly unlikely; WTI near $87.07 (-4.1%)",
-    "@TheTradeBrief (~4:21 PM ET): No deal from Trump-Qatar PM meeting but oil fell anyway; Brent ~$93.5 on Trump 60 Minutes comments and unconfirmed Hormuz reopening report",
-    "@WOLF_Financial (~4:20 PM ET): Anthropic aiming for Nasdaq IPO (ticker ANT) Thursday or Friday next week despite recent AI selloff, valuation range expected this week",
-    "@xaigorgo (~4:21 PM ET): Nasdaq +2.74%, S&P +2.34%; rebound on oil slide after Iran strike comments eased inflation jitters; semis led except NVDA on board probe",
-    "@HunorHudak2005 (~4:21 PM ET): US Close — S&P +2.3% (7,550), Nasdaq +2.7%; Brent -4.9% to ~$93.5 as Trump called new Iran strikes highly unlikely"
+    "@AlphaScopeDaily (~8:09 PM ET): Market best day in months — S&P +2.3%, Nasdaq +2.7%; oil almost -6% after Trump said more Iran strikes unlikely; AMD +13%, NVDA -4% on board probe; CPI next test",
+    "@Kalshi_Finance (~8:03 PM ET): Insane day — S&P best since April, Nasdaq best since July; all 11 sectors green; WTI -4.4% to $86.85, Brent -5.9%; Dec hike odds ~82%; Mag7 ripped except NVDA -4.3%",
+    "@BlakeMillardCFA (~5:05 PM ET): Everything Rally — NDX +3.4%, SOX +6.8% despite NVDA -4.3%, RTY +3.3%; crude -5% to ~$85 on Trump highly unlikely new strikes; hesitant ahead of CPI",
+    "@Tradenometry (~4:22 PM ET): Relief rally didn't need Nvidia — S&P +2.3%, Nasdaq +2.7%; Brent -5.8%; cheaper crude takes inflation pressure off; rates the catch with CPI tomorrow",
+    "@Siege_Invest (~8:12 PM ET): $ES_F Monday carried auction out of Friday’s lower distribution into next major volume area with sustained upward value migration; decision area ~7595-7600"
   ],
-  "trump": "Downplayed likelihood of renewed strikes on Iran if negotiations show progress (told 60 Minutes/CNN); after meeting Qatar PM, said Qatar and Saudi prefer peaceful solution but US remains ready for strikes if necessary.",
-  "watch": "Tuesday Nov 10 8:30 AM ET October CPI for inflation path and December FOMC hike odds (~78-80%); Anthropic IPO filing/details; Iran/Hormuz confirmation or reversal; NVDA CEO probe developments.",
+  "trump": "Told media (CNN/60 Minutes) that fresh US strikes on Iran are highly unlikely if negotiations show progress; after meeting Qatar PM, described the conflict as militarily effectively over with status quo continuing and US ready if needed.",
+  "watch": "Tuesday Nov 10 8:30 AM ET October CPI print for inflation trajectory and December FOMC rate hike odds (~80%+); any confirmation or reversal on Iran talks/Hormuz; NVDA CEO probe updates; Anthropic IPO details.",
   "forSite": []
 }
