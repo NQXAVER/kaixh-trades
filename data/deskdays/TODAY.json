@@ -1,18 +1,18 @@
 {
   "date": "2026-11-09",
   "grok": {
-    "at": "2026-11-10T01:14:16Z",
-    "pulse": "Wall Street closed with its best day in months (S&P +2.3-2.4%, Nasdaq +2.7%) as oil plunged 4-6% on Trump's comments that new Iran strikes are highly unlikely if talks progress, easing inflation fears and driving a broad rebound including chips ex-NVDA after last week's AI selloff.",
-    "bias": "risk-on — oil collapse and Iran de-escalation hopes reduced inflation and geopolitical risk, fueling equity and AI/chip recovery (AMD +13%, SOX strong) ahead of CPI, despite ~80% Dec FOMC hike odds and NVDA lag on CEO probe.",
+    "at": "2026-11-10T03:06:20Z",
+    "pulse": "NQ posted its best day in months (Nasdaq +2.74% to 25,253, S&P +2.35% to 7,550) as Trump's Iran de-escalation comments drove a ~6% Brent plunge, easing inflation fears and fueling a broad chip/AI rebound ex-NVDA after last week's rout.",
+    "bias": "risk-on — oil collapse and Iran wind-down reduce geopolitical and inflation risk, supporting equity and AI recovery (SOX strong, Asia following), but NVDA Huang probe headlines and ~80% Dec FOMC hike odds into Tuesday CPI keep it fragile.",
     "items": [
-      "@AlphaScopeDaily (~8:09 PM ET): Market best day in months — S&P +2.3%, Nasdaq +2.7%; oil almost -6% after Trump said more Iran strikes unlikely; AMD +13%, NVDA -4% on board probe; CPI next test",
-      "@Kalshi_Finance (~8:03 PM ET): Insane day — S&P best since April, Nasdaq best since July; all 11 sectors green; WTI -4.4% to $86.85, Brent -5.9%; Dec hike odds ~82%; Mag7 ripped except NVDA -4.3%",
-      "@BlakeMillardCFA (~5:05 PM ET): Everything Rally — NDX +3.4%, SOX +6.8% despite NVDA -4.3%, RTY +3.3%; crude -5% to ~$85 on Trump highly unlikely new strikes; hesitant ahead of CPI",
-      "@Tradenometry (~4:22 PM ET): Relief rally didn't need Nvidia — S&P +2.3%, Nasdaq +2.7%; Brent -5.8%; cheaper crude takes inflation pressure off; rates the catch with CPI tomorrow",
-      "@Siege_Invest (~8:12 PM ET): $ES_F Monday carried auction out of Friday’s lower distribution into next major volume area with sustained upward value migration; decision area ~7595-7600"
+      "@FirstSquawk (~7:55 PM ET): S&P best day since Apr 8, chip gauge ~+7%, NDX +3.4% even as NVDA -4.3% on Huang probe; Brent settles < $93 — Bullish NQ",
+      "@Kalshi_Finance (~8:03 PM ET): Insane day — all 11 sectors green; WTI -4.4% to $86.85, Brent -5.9%; Mag7 ripped except NVDA -4.3%; Dec hike odds ~82% — Mixed NQ",
+      "@FirstSquawk (~7:54 PM ET): Asia tracks Wall St higher — KOSPI +5%, Nikkei ~+3%; Euro Stoxx 50/DAX futs +0.5% — Bullish NQ",
+      "@BottomPhishing (~8:13 PM ET): Cheaper oil bought the bounce (S&P +2.35%, Nasdaq +2.74%); not pressing into CPI, still 3.4% under ATH with distribution days — Mixed NQ",
+      "@zerohedge (~8:09 PM ET): Record retail inflows into levered ETFs after last week's S&P drop (Goldman) — Mixed NQ"
     ],
-    "trump": "Told media (CNN/60 Minutes) that fresh US strikes on Iran are highly unlikely if negotiations show progress; after meeting Qatar PM, described the conflict as militarily effectively over with status quo continuing and US ready if needed.",
-    "watch": "Tuesday Nov 10 8:30 AM ET October CPI print for inflation trajectory and December FOMC rate hike odds (~80%+); any confirmation or reversal on Iran talks/Hormuz; NVDA CEO probe updates; Anthropic IPO details.",
+    "trump": "Told media further strikes on Iran are highly unlikely if talks progress; after meeting Qatar PM, described the conflict as militarily effectively over with status quo continuing and US ready if needed — sank oil and fueled the rally.",
+    "watch": "Tue Nov 10 8:30 AM ET October CPI (Dec hike odds ~80%+); NVDA/Huang probe and China export-license headlines; Iran/Hormuz confirmation or reversal and oil; CRWV AMC. Thu: CSCO, AMAT AMC.",
     "forSite": []
   }
 }
