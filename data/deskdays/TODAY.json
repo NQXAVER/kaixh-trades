@@ -1,18 +1,18 @@
 {
-  "date": "2026-11-09",
+  "date": "2026-11-10",
   "grok": {
-    "at": "2026-11-10T03:06:20Z",
-    "pulse": "NQ posted its best day in months (Nasdaq +2.74% to 25,253, S&P +2.35% to 7,550) as Trump's Iran de-escalation comments drove a ~6% Brent plunge, easing inflation fears and fueling a broad chip/AI rebound ex-NVDA after last week's rout.",
-    "bias": "risk-on — oil collapse and Iran wind-down reduce geopolitical and inflation risk, supporting equity and AI recovery (SOX strong, Asia following), but NVDA Huang probe headlines and ~80% Dec FOMC hike odds into Tuesday CPI keep it fragile.",
+    "at": "2026-11-10T12:00:44Z",
+    "pulse": "US futures mixed premarket after Monday's strong oil-driven rally (Nasdaq +2.7%), with NQ flat to slightly lower into 8:30 AM ET CPI as oil stays soft on Iran de-escalation and AI names digest Anthropic investment/IPO buzz amid elevated Dec hike odds.",
+    "bias": "mixed — Monday momentum and soft oil support risk-on, but NQ lagging, Waller hike comments, NVDA probe residual and binary CPI keep caution.",
     "items": [
-      "@FirstSquawk (~7:55 PM ET): S&P best day since Apr 8, chip gauge ~+7%, NDX +3.4% even as NVDA -4.3% on Huang probe; Brent settles < $93 — Bullish NQ",
-      "@Kalshi_Finance (~8:03 PM ET): Insane day — all 11 sectors green; WTI -4.4% to $86.85, Brent -5.9%; Mag7 ripped except NVDA -4.3%; Dec hike odds ~82% — Mixed NQ",
-      "@FirstSquawk (~7:54 PM ET): Asia tracks Wall St higher — KOSPI +5%, Nikkei ~+3%; Euro Stoxx 50/DAX futs +0.5% — Bullish NQ",
-      "@BottomPhishing (~8:13 PM ET): Cheaper oil bought the bounce (S&P +2.35%, Nasdaq +2.74%); not pressing into CPI, still 3.4% under ATH with distribution days — Mixed NQ",
-      "@zerohedge (~8:09 PM ET): Record retail inflows into levered ETFs after last week's S&P drop (Goldman) — Mixed NQ"
+      "@TopStockAlerts1 (~7:00 AM ET): S&P futs +0.1%, Dow +0.3%, Nasdaq-100 -0.2%; Waller sees Dec rate hike likely, possible half-point",
+      "@skpark0304 (~6:59 AM ET): Bounce holds, Nasdaq futs flat, Brent ~$90 sliding, CPI at 8:30 the focus",
+      "@NightOwlTrade (~7:00 AM ET): AMD/Broadcom/Google join $26B Anthropic investment; Waller softens on hike magnitude",
+      "@NeuraDrift (~7:00 AM ET): Anthropic IPO at $70-78/sh, up to $1.4T valuation, Nasdaq ticker ANT",
+      "@convicta_news (~7:00 AM ET): Oil sinks below $90 after Trump says Iran war effectively over; Polymarket de-escalation odds"
     ],
-    "trump": "Told media further strikes on Iran are highly unlikely if talks progress; after meeting Qatar PM, described the conflict as militarily effectively over with status quo continuing and US ready if needed — sank oil and fueled the rally.",
-    "watch": "Tue Nov 10 8:30 AM ET October CPI (Dec hike odds ~80%+); NVDA/Huang probe and China export-license headlines; Iran/Hormuz confirmation or reversal and oil; CRWV AMC. Thu: CSCO, AMAT AMC.",
+    "trump": "Prior comments that Iran conflict is effectively over and further strikes highly unlikely if talks progress continue to weigh on oil; no fresh market-moving statements overnight.",
+    "watch": "Oct CPI at 8:30 AM ET (m/m focus) for inflation path and Dec FOMC hike odds (~80%+); NQ/ES reaction; any Iran/oil reversal or NVDA/AI probe headlines; Anthropic IPO details.",
     "forSite": []
   }
 }
