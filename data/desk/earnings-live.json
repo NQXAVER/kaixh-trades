@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "at": "2026-11-09T21:20:33Z",
+  "at": "2026-11-10T01:24:31Z",
   "items": [
     {
       "ticker": "OKLO",
@@ -71,6 +71,16 @@
       "why": "Adj EPS $1.91 vs $1.45 est; adj net income $2.08B vs $1.45B est; sales $6.57B vs $6.79B est (miss); production 1,427 Mboe/d; realized oil $85.91/bbl (per @LiveSquawk)",
       "sentiment": "Mixed",
       "reaction": "AH reaction pending (just reported)"
+    },
+    {
+      "ticker": "TTD",
+      "company": "The Trade Desk (TTD)",
+      "date": "2026-11-09",
+      "when": "AMC",
+      "status": "reported",
+      "reaction": "~+20-23% AH",
+      "sentiment": "Bullish",
+      "why": "Rev $736M vs ~$650M est (beat); adj EPS $0.33 vs $0.25; adj EBITDA $266M vs $161M; Q4 guide rev ≥$755M, EBITDA $280M above est; +$731M buyback"
     },
     {
       "ticker": "TTWO",
