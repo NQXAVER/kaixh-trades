@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T16:28:37Z",
+  "updatedAt": "2026-11-10T16:51:30Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -324,6 +324,18 @@
       "auto": true
     },
     {
+      "id": "fb4334221cd6e",
+      "headline": "10-year Treasury yield races back to 5% as inflation data, Waller comments drive rate hike expectations",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/10/us-bonds-treasurys-yields.html",
+      "publishedAt": "2026-11-10T16:44:11Z",
+      "time": "Tue 11:44 AM",
+      "section": "fed",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
       "id": "fcd2ab704b71f",
       "headline": "Fed’s Waller puts half-point rate hike into the mix for December",
       "source": "MarketWatch",
@@ -345,6 +357,18 @@
       "section": "fed",
       "impact": "High",
       "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "fd9d48164bc3f",
+      "headline": "Why stocks are falling and the 10-year Treasury yield is back near 5% after Tuesday’s inflation report",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/why-stocks-are-falling-and-10-year-yields-are-climbing-back-near-5-after-tuesdays-inflation-report-389b8392?mod=mw_rss_topstories",
+      "publishedAt": "2026-11-10T16:28:00Z",
+      "time": "Tue 11:28 AM",
+      "section": "fed",
+      "impact": "Medium",
+      "lean": null,
       "auto": true
     },
     {
@@ -396,12 +420,12 @@
       "auto": true
     },
     {
-      "id": "f913a1a24873d",
-      "headline": "Here's the inflation breakdown for October 2026 — in one chart",
+      "id": "f202a813498f2",
+      "headline": "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/10/october-2026-cpi-inflation-breakdown.html",
-      "publishedAt": "2026-11-10T16:18:20Z",
-      "time": "Tue 11:18 AM",
+      "url": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html",
+      "publishedAt": "2026-11-10T16:47:05Z",
+      "time": "Tue 11:47 AM",
       "section": "econ",
       "impact": "Medium",
       "lean": null,
@@ -412,8 +436,20 @@
       "headline": "Elevated Inflation Keeps Pressure on Fed to Raise Rates",
       "source": "New York Times",
       "url": "https://www.nytimes.com/2026/11/10/business/economy/inflation-economy-cpi.html",
-      "publishedAt": "2026-11-10T16:14:53Z",
-      "time": "Tue 11:14 AM",
+      "publishedAt": "2026-11-10T16:42:21Z",
+      "time": "Tue 11:42 AM",
+      "section": "econ",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f913a1a24873d",
+      "headline": "Here's the inflation breakdown for October 2026 — in one chart",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/10/october-2026-cpi-inflation-breakdown.html",
+      "publishedAt": "2026-11-10T16:36:40Z",
+      "time": "Tue 11:36 AM",
       "section": "econ",
       "impact": "Medium",
       "lean": null,
@@ -426,18 +462,6 @@
       "url": "https://www.theguardian.com/business/live/2026/nov/10/nvidia-shareholder-lawsuit-jensen-huang-relationship-suspected-chinese-spy-fbi-trump-bank-of-england-latest-news-updates",
       "publishedAt": "2026-11-10T16:07:51Z",
       "time": "Tue 11:07 AM",
-      "section": "econ",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f202a813498f2",
-      "headline": "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html",
-      "publishedAt": "2026-11-10T16:04:49Z",
-      "time": "Tue 11:04 AM",
       "section": "econ",
       "impact": "Medium",
       "lean": null,
@@ -492,6 +516,18 @@
       "auto": true
     },
     {
+      "id": "f945aa43b3d05",
+      "headline": "Anthropic's trillion-dollar IPO is coming, but retail investors could have owned AI stock much earlier",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/10/anthropic-ipo-shares-invest.html",
+      "publishedAt": "2026-11-10T16:30:23Z",
+      "time": "Tue 11:30 AM",
+      "section": "tech",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "f04cfdd8c456e",
       "headline": "Anthropic sets IPO price range of $70 to $78, looks to start trading Nov. 19, sources say",
       "source": "CNBC",
@@ -534,18 +570,6 @@
       "url": "https://www.cnbc.com/2026/11/07/anthropic-ipo-ai-data-center-backlash.html",
       "publishedAt": "2026-11-07T13:00:01Z",
       "time": "Sat 8:00 AM",
-      "section": "tech",
-      "impact": "High",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "fc77847fb973e",
-      "headline": "Watch live: Jim Cramer says an Anthropic IPO would be a cue to start buying again",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/investingclub/2026/11/06/watch-jim-cramer-live.html",
-      "publishedAt": "2026-11-06T16:33:21Z",
-      "time": "Fri 11:33 AM",
       "section": "tech",
       "impact": "High",
       "lean": null,
@@ -660,6 +684,18 @@
       "auto": true
     },
     {
+      "id": "fbafbd9489936",
+      "headline": "Oil Falls to Lowest Level Since August",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Energy/Crude-Oil/Oil-Falls-to-Lowest-Level-Since-August.html",
+      "publishedAt": "2026-11-10T16:34:00Z",
+      "time": "Tue 11:34 AM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": "risk-on",
+      "auto": true
+    },
+    {
       "id": "f54575237b417",
       "headline": "U.S. Received $12 Billion From Venezuela’s Oil, Report Shows",
       "source": "New York Times",
@@ -690,18 +726,6 @@
       "url": "https://www.nytimes.com/2026/11/09/business/energy-environment/oil-price-iran-trump-war.html",
       "publishedAt": "2026-11-10T15:59:29Z",
       "time": "Tue 10:59 AM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f39a51bf1d774",
-      "headline": "UK and Argentina clash over Falklands oil project as Hamburg tribunal starts",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/nov/10/uk-and-argentina-clash-over-falklands-oil-project-as-hamburg-tribunal-starts",
-      "publishedAt": "2026-11-10T14:49:32Z",
-      "time": "Tue 9:49 AM",
       "section": "energy",
       "impact": "Medium",
       "lean": null,
