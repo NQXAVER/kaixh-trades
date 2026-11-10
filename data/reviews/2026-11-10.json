@@ -1,0 +1,59 @@
+{
+ "date": "2026-11-10",
+ "entryUrl": "https://app.notion.com/p/41460e8f5c4580e0946eee6876075170",
+ "summary": "Clean, plan-based win on CPI day. Your pre-market said you wanted the data high hit while price sat inside 4hr bullish gaps, and you went long after the CPI flush retraced into OTE, the 1hr rejection block and a 5min FVG, then rode it through the data high into the D-OPEN. You took profit at the D-OPEN after a 1min internal SMT instead of holding for PDH. That was a reasonable call, but your own note says 'my mind kept messing w me thinking the move would fully go back to entry for BE', so the exit came from fear of giving it back, not from a level in your plan. After you closed, price rejected from about 28,090 and fell to about 27,866 by 10:40, so taking profit at the D-OPEN was the better result today. The miss today is the morning check-in: nothing was filed before 9:30 AM ET, so there's no risk-settings screenshot on record for a CPI day.",
+ "trade": "Long · NY-AM · XFA · Trailed out W · entry ≈ 27,768.75 (around 9:45 AM ET) · stop ≈ 27,644.75 at the 1min internal low that swept (≈124 pts) · RR tool target ≈ 28,036 (≈2.1R), closed around the D-OPEN ≈ 28,060 · DOL data high (hit) / PDH ≈ 28,118 (not reached).",
+ "rule": "Tomorrow, write your exit plan in the pre-market box before 9:30: which level you take partials at and what makes you hold for the final DOL. Then only exit on that rule, not on the feeling that price will come back to your entry.",
+ "screenshots": [
+  {
+   "label": "Execution 1 · 1min NQ (10:40 AM)",
+   "feedback": "The RR tool shows entry at about 27,768.75 with the stop at about 27,644.75, just under the 0.705–0.786 OTE band and the swept 1min internal low, and the target box tops out around 28,036. Price ran through the data high (about 28,000) and wicked to about 28,090 just after 10:00, then sold off to 27,866 by 10:40. Your notes on the chart match Notion. The stop sits above the NY AM low (about 27,620), so a deeper sweep of that low would have stopped you out before the move. Worth knowing when you size it."
+  },
+  {
+   "label": "TimeFrame 1 · 4hr NQ + 15min ES (9:29 AM)",
+   "feedback": "The 4hr shows NQ bouncing off the Nov 6 lows back toward PD-H (about 28,120), with PD-EQ around 27,450 and PD-L around 26,800. That supports the long bias and PDH as the bigger DOL. ES on the 15min had already dumped below its Asia and London lows into the 10:00 line."
+  },
+  {
+   "label": "TimeFrame 2 · 15min NQ + ES (9:31 AM)",
+   "feedback": "The CPI candle at 8:30 swept down to about 27,590 and NQ was around 27,689 at 9:31, under the Asia low, the London low and the D-OPEN (about 28,075). Marking the NY AM high and low and the D-OPEN before the open is what let you spot the D-OPEN rejection later. Good prep."
+  }
+ ],
+ "good": [
+  "The trade followed your pre-market idea: long toward the data high inside 4hr bullish gaps, and the data high got hit.",
+  "You waited for the CPI flush to settle and entered on a retrace into OTE, the 1hr rejection block and a 5min FVG, not at the 8:30 release.",
+  "One XFA account, no evals and no copied trades. No prop-firm or eval purchase showed up in your email today.",
+  "During the trade you talked yourself through it logically ('the trade idea is good the delivery doesnt matter') instead of panicking.",
+  "You marked the D-OPEN before the open and used it as a real level for your exit.",
+  "End-of-day card at 12:22 PM matches Notion and the chart (same confluences, closed before PDH, PNL screenshot confirmed). Your xavier Journal post at 10:44 AM matches it too."
+ ],
+ "fix": [
+  "You skipped the mandatory morning check-in. Syndicator posted 'Skipped morning check-in, nothing filed before 9:30 AM ET' and no risk-settings screenshot was confirmed. The pairing was briefly closed at 9:30 because of Bibz's strikes, but you still need to file it every morning, and on a CPI day more than ever.",
+  "Your exit wasn't in your plan. You wrote that your mind kept telling you price would go back to your entry. Decide before the trade where you take partials and what has to happen for you to hold for PDH.",
+  "'I really wanted PDH to make 700' is a dollar target. Keep the target a chart level (PDH), not a money number.",
+  "Market Conditions is blank in Notion today. Fill it in so the weekly review can compare trades.",
+  "Your EOD card says 'Rules Followed: Yes', but the morning check-in is one of your rules and you skipped it. Mark it honestly next time."
+ ],
+ "questions": [
+  {
+   "q": "You wrote 'my mind kept messing w me thinking the move would fully go back to entry for BE.' What in the chart, if anything, said that, or was it just the feeling after being sick and choppy yesterday?"
+  },
+  {
+   "q": "Your DOL was 'Datahigh/PDH.' The data high got hit and PDH didn't. If you had written 'partials at data high, runner to PDH' in pre-market, what would you have done at the D-OPEN rejection?"
+  },
+  {
+   "q": "You said you wanted PDH 'to make 700.' Would you have managed the trade any differently if you couldn't see your P&L?"
+  },
+  {
+   "q": "At 9:29 you told Bibz 'we need that discipline more than passing evals an getting that payout', then no check-in got filed by 9:30. What happened, and what will make sure it's in by 9:25 tomorrow?"
+  }
+ ],
+ "discord": {
+  "chartsOpened": "Not recorded. No Morning Check-in card was filed today.",
+  "plan": "No check-in plan filed. In chat at 9:29 AM ET you told Bibz: \"let's goooo bro we got this today we need that discipline more than passing evals an getting that payout\".",
+  "risk": "MISSED: at 9:30 AM ET Syndicator posted \"Skipped morning check-in, nothing filed before 9:30 AM ET\". No risk-settings screenshot was confirmed. (At 9:30 the bot also closed the pairing over Bibz's strike limit without penalizing you, and reopened it at 10:58.)",
+  "eod": "Filed at 12:22 PM ET (streak 14 days). Trade Summary: 5min FVG respected, 1min internal low swept, 1hr rejection block, OTE, 'Took bc the DOL was clear + Were inside of a 4hr bullish gap data highs w LRL'. Rules Followed: Yes. Improvement: \"i closed out instead of holding to PDH im so glad i trailed agressive instead of holding\". The PNL screenshot was confirmed.",
+  "match": "The EOD card, the xavier Journal post and Notion agree on the trade (long, data high DOL, closed at the D-OPEN before PDH, W). 'Rules Followed: Yes' leaves out the skipped morning check-in.",
+  "journalChannel": "Posted at 10:44 AM ET: '11/10/26 - W trailed out', with the same TALK text as Notion and the 1min chart from 10:40:05 AM, annotated with the same confluences and 'Closed around D-OPEN'."
+ },
+ "reviewedAt": "2026-11-10T21:19:00Z"
+}
