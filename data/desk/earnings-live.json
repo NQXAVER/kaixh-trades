@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "at": "2026-11-10T01:24:31Z",
+  "at": "2026-11-10T03:20:42Z",
   "items": [
     {
       "ticker": "OKLO",
@@ -68,9 +68,9 @@
       "date": "2026-11-09",
       "when": "AMC",
       "status": "reported",
-      "why": "Adj EPS $1.91 vs $1.45 est; adj net income $2.08B vs $1.45B est; sales $6.57B vs $6.79B est (miss); production 1,427 Mboe/d; realized oil $85.91/bbl (per @LiveSquawk)",
+      "why": "Adj EPS $1.91 vs ~$1.45 est; adj net income $2.08B; sales $6.57B vs $6.79B est (miss); production 1,427 Mboe/d; realized oil $85.91/bbl; call Tue 1 PM ET",
       "sentiment": "Mixed",
-      "reaction": "AH reaction pending (just reported)"
+      "reaction": "~+1% AH"
     },
     {
       "ticker": "TTD",
@@ -78,8 +78,8 @@
       "date": "2026-11-09",
       "when": "AMC",
       "status": "reported",
-      "reaction": "~+20-23% AH",
-      "sentiment": "Bullish",
+      "reaction": "spiked ~+20-26% AH, faded to ~+2.5% after the call",
+      "sentiment": "Mixed",
       "why": "Rev $736M vs ~$650M est (beat); adj EPS $0.33 vs $0.25; adj EBITDA $266M vs $161M; Q4 guide rev ≥$755M, EBITDA $280M above est; +$731M buyback"
     },
     {
@@ -90,7 +90,7 @@
       "status": "reported",
       "why": "Rev $1.50B (-15% y/y) vs ~$1.58-1.66B est (miss); net bookings $1.60B -18% y/y; GAAP EPS -$0.29 beat; FY27 bookings $8.0-8.2B reiterated, FY rev guide $7.98-8.18B below ~$8.5B est; GTA VI Nov 19, pre-orders \"unprecedented\"",
       "sentiment": "Mixed",
-      "reaction": "~-0.7% AH early (per X posts)"
+      "reaction": "~+4% AH (~$216 vs $207.40 close)"
     },
     {
       "ticker": "CRWV",

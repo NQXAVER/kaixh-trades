@@ -2,18 +2,18 @@
   "date": "2026-11-09",
   "grok": {
     "date": "2026-11-09",
-    "at": "2026-11-10T01:24:31Z",
-    "pulse": "NQ capped its best day since summer (NDX +3.4%, SOX ~+7%) on Trump's Iran de-escalation and a near-6% Brent slump easing inflation fears; NVDA (-4.3%) lags on the Huang probe and new China export-license pressure, with Oct CPI at 8:30 AM the next test.",
-    "bias": "risk-on — oil collapse and Iran wind-down fuel a broad chip/AI rebound and Asia is following (KOSPI +5%, Nikkei ~+3%), but NVDA headline risk and ~80% Dec hike odds into CPI keep it fragile",
+    "at": "2026-11-10T03:20:42Z",
+    "pulse": "NQ futs ~flat/+0.1-0.2% overnight after Monday's +2.7% Nasdaq ripper (best day since Apr); Asia chasing it (KOSPI +5% halt, Nikkei ~+3%), but NVDA/Megaspeed chip-smuggling probe headlines keep getting worse and Tue 8:30 AM CPI is the binary.",
+    "bias": "mixed — momentum, cheap oil and a strong Asia session lean risk-on, but NVDA probe escalation, chip CDS widening and ~80%+ Dec hike odds into a hot-expected CPI (~3.9% y/y est) cap the bounce; QQQ stalled just under its 200-day (~681).",
     "items": [
-      "@FirstSquawk (~7:55 PM ET): S&P best day since Apr 8, chip gauge ~+7%, NDX +3.4% even as NVDA -4.3% on Huang probe; Brent -~6% settles < $93 — Bullish NQ",
-      "@FirstSquawk (~7:47 PM ET): Bipartisan lawmakers demand answers from NVDA/Huang; Sens. Banks and Warren urge Commerce to review NVDA China export licenses, drafting bill to restrict advanced chip sales — Bearish NQ",
-      "@StockMKTNewz (~4:08 PM ET): $TTD +23% AH — Q3 rev $736M beat, adj EPS $0.33 vs $0.25, Q4 guide ≥$755M above est — Bullish NQ",
-      "@FirstSquawk (~7:54 PM ET): Asia tracks Wall St higher — KOSPI +5%, Nikkei ~+3%; Euro Stoxx 50/DAX futs +0.5% (~8:15 PM ET) — Bullish NQ",
-      "@zerohedge (~8:09 PM ET): Record retail inflows into levered ETFs after last week's -2.7% S&P drop (Goldman) — Mixed NQ"
+      "@zerohedge (~10:01 PM ET): BBG says NVDA undercounted chips sold to Megaspeed via partners by ~50k units (billions $) in tallies to US govt; earlier (~9:42 PM) its GC intervened in the smuggling probe — Bearish NQ",
+      "@zerohedge (~9:40 PM ET): chip CDS now wider than hyperscalers for the first time, AI default-swap volumes at a record — Bearish NQ",
+      "CNBC via X (~9:15 PM ET): Asia rallies — KOSPI ~+5% (buy curb), Nikkei +2.8%, ASX +1.2%; US futs near flat into CPI — Bullish NQ",
+      "@LiveSquawk (~9:33 PM ET): China Oct trade surplus $105.3B vs $125.8B est; imports +41.6% y/y vs +33.9% est, exports +35.2% vs 36.3% — Mixed NQ",
+      "@unusual_whales (~10:08 PM ET): Anthropic reportedly sent bankers IPO terms of $70-80/sh (Reuters) — Mixed NQ (AI risk-appetite read, supply)"
     ],
-    "trump": "Said further strikes on Iran wouldn't be necessary while the US remains \"locked and loaded\" — read as winding down the conflict, which sank oil and fueled the rally.",
-    "watch": "Tue Nov 10: Oct CPI 8:30 AM ET (Dec hike odds ~80%); CRWV AMC; NVDA/Huang probe and China export-license headlines overnight; Iran/Hormuz and oil. Thu Nov 12: CSCO, AMAT AMC; NBIS BMO.",
+    "trump": "Nothing new market-moving since the evening: Iran comments (further strikes 'highly unlikely' if talks progress, conflict 'effectively over') still the driver behind the oil drop; USTR pushed the Vietnam IP trade probe deadline to end-Feb.",
+    "watch": "Tue Nov 10: 8:30 AM ET Oct CPI + core (last before Dec 8-9 FOMC; ~3.9% y/y est vs 3.7% prior); NVDA/Megaspeed probe headlines; QQQ 200-day ~681; oil/Iran; OXY call 1:00 PM; CRWV AMC. Thu Nov 12: NBIS BMO, CSCO and AMAT AMC.",
     "forSite": [],
     "reports": [
       {
@@ -134,6 +134,36 @@
         ],
         "trump": "Said further strikes on Iran wouldn't be necessary while the US remains \"locked and loaded\" — read as winding down the conflict, which sank oil and fueled the rally.",
         "watch": "Tue Nov 10: Oct CPI 8:30 AM ET (Dec hike odds ~80%); CRWV AMC; NVDA/Huang probe and China export-license headlines overnight; Iran/Hormuz and oil. Thu Nov 12: CSCO, AMAT AMC; NBIS BMO.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-10T03:06:20Z",
+        "pulse": "NQ posted its best day in months (Nasdaq +2.74% to 25,253, S&P +2.35% to 7,550) as Trump's Iran de-escalation comments drove a ~6% Brent plunge, easing inflation fears and fueling a broad chip/AI rebound ex-NVDA after last week's rout.",
+        "bias": "risk-on — oil collapse and Iran wind-down reduce geopolitical and inflation risk, supporting equity and AI recovery (SOX strong, Asia following), but NVDA Huang probe headlines and ~80% Dec FOMC hike odds into Tuesday CPI keep it fragile.",
+        "items": [
+          "@FirstSquawk (~7:55 PM ET): S&P best day since Apr 8, chip gauge ~+7%, NDX +3.4% even as NVDA -4.3% on Huang probe; Brent settles < $93 — Bullish NQ",
+          "@Kalshi_Finance (~8:03 PM ET): Insane day — all 11 sectors green; WTI -4.4% to $86.85, Brent -5.9%; Mag7 ripped except NVDA -4.3%; Dec hike odds ~82% — Mixed NQ",
+          "@FirstSquawk (~7:54 PM ET): Asia tracks Wall St higher — KOSPI +5%, Nikkei ~+3%; Euro Stoxx 50/DAX futs +0.5% — Bullish NQ",
+          "@BottomPhishing (~8:13 PM ET): Cheaper oil bought the bounce (S&P +2.35%, Nasdaq +2.74%); not pressing into CPI, still 3.4% under ATH with distribution days — Mixed NQ",
+          "@zerohedge (~8:09 PM ET): Record retail inflows into levered ETFs after last week's S&P drop (Goldman) — Mixed NQ"
+        ],
+        "trump": "Told media further strikes on Iran are highly unlikely if talks progress; after meeting Qatar PM, described the conflict as militarily effectively over with status quo continuing and US ready if needed — sank oil and fueled the rally.",
+        "watch": "Tue Nov 10 8:30 AM ET October CPI (Dec hike odds ~80%+); NVDA/Huang probe and China export-license headlines; Iran/Hormuz confirmation or reversal and oil; CRWV AMC. Thu: CSCO, AMAT AMC.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-10T03:20:42Z",
+        "pulse": "NQ futs ~flat/+0.1-0.2% overnight after Monday's +2.7% Nasdaq ripper (best day since Apr); Asia chasing it (KOSPI +5% halt, Nikkei ~+3%), but NVDA/Megaspeed chip-smuggling probe headlines keep getting worse and Tue 8:30 AM CPI is the binary.",
+        "bias": "mixed — momentum, cheap oil and a strong Asia session lean risk-on, but NVDA probe escalation, chip CDS widening and ~80%+ Dec hike odds into a hot-expected CPI (~3.9% y/y est) cap the bounce; QQQ stalled just under its 200-day (~681).",
+        "items": [
+          "@zerohedge (~10:01 PM ET): BBG says NVDA undercounted chips sold to Megaspeed via partners by ~50k units (billions $) in tallies to US govt; earlier (~9:42 PM) its GC intervened in the smuggling probe — Bearish NQ",
+          "@zerohedge (~9:40 PM ET): chip CDS now wider than hyperscalers for the first time, AI default-swap volumes at a record — Bearish NQ",
+          "CNBC via X (~9:15 PM ET): Asia rallies — KOSPI ~+5% (buy curb), Nikkei +2.8%, ASX +1.2%; US futs near flat into CPI — Bullish NQ",
+          "@LiveSquawk (~9:33 PM ET): China Oct trade surplus $105.3B vs $125.8B est; imports +41.6% y/y vs +33.9% est, exports +35.2% vs 36.3% — Mixed NQ",
+          "@unusual_whales (~10:08 PM ET): Anthropic reportedly sent bankers IPO terms of $70-80/sh (Reuters) — Mixed NQ (AI risk-appetite read, supply)"
+        ],
+        "trump": "Nothing new market-moving since the evening: Iran comments (further strikes 'highly unlikely' if talks progress, conflict 'effectively over') still the driver behind the oil drop; USTR pushed the Vietnam IP trade probe deadline to end-Feb.",
+        "watch": "Tue Nov 10: 8:30 AM ET Oct CPI + core (last before Dec 8-9 FOMC; ~3.9% y/y est vs 3.7% prior); NVDA/Megaspeed probe headlines; QQQ 200-day ~681; oil/Iran; OXY call 1:00 PM; CRWV AMC. Thu Nov 12: NBIS BMO, CSCO and AMAT AMC.",
         "forSite": []
       }
     ]
