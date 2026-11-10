@@ -1,37 +1,7 @@
 {
-  "date": "2026-11-09",
-  "at": "2026-11-10T03:20:42Z",
+  "date": "2026-11-10",
+  "at": "2026-11-10T12:25:03Z",
   "items": [
-    {
-      "ticker": "OKLO",
-      "company": "Oklo (OKLO)",
-      "date": "2026-11-06",
-      "when": "BMO",
-      "status": "reported",
-      "why": "Loss $0.22 vs $0.27 est, rev $1.86M vs $1.01M; $3.13B cash; AI-power/nuclear rebound with group",
-      "reaction": "~+16-25% session",
-      "sentiment": "Bullish"
-    },
-    {
-      "ticker": "VST",
-      "company": "Vistra (VST)",
-      "date": "2026-11-06",
-      "when": "BMO",
-      "status": "reported",
-      "why": "Adj EBITDA $2.378B (+50%+ y/y); raised 2026 Ongoing Ops Adj EBITDA to $7.1-7.5B; initiated 2027 $7.7-8.5B; +$1.5B buyback; AI power demand read",
-      "reaction": "bid with AI-power complex premarket",
-      "sentiment": "Bullish"
-    },
-    {
-      "ticker": "WULF",
-      "company": "TeraWulf (WULF)",
-      "date": "2026-11-06",
-      "when": "BMO",
-      "status": "reported",
-      "why": "Rev $76.2M with HPC lease $63M (~83%); Anthropic ~401MW/$19B lease + Google credit backstop; Adj EBITDA ~-$12.8M; AI data-center read",
-      "reaction": "mixed/volatile with AI infra",
-      "sentiment": "Mixed"
-    },
     {
       "ticker": "BRK.B",
       "company": "Berkshire Hathaway (BRK.B)",
