@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T02:36:15Z",
+  "updatedAt": "2026-11-10T07:28:54Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -204,6 +204,42 @@
   ],
   "items": [
     {
+      "id": "f9e56af620d8a",
+      "headline": "LNG Traffic Through Hormuz Hits Highest Level Since Iran War Began",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/LNG-Traffic-Through-Hormuz-Hits-Highest-Level-Since-Iran-War-Began.html",
+      "publishedAt": "2026-11-10T06:45:00Z",
+      "time": "Tue 1:45 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "fc7c95ba47bee",
+      "headline": "Oil Prices Plunge Below $92 as Trump Signals Restraint on Iran",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Plunge-Below-92-as-Trump-Signals-Restraint-on-Iran.html",
+      "publishedAt": "2026-11-10T05:20:00Z",
+      "time": "Tue 12:20 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "f7d09b02016fa",
+      "headline": "Saudi Arabia downs missiles fired at Riyadh after Houthi attack on pipeline",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/10/saudi-arabia-downs-missiles-fired-at-riyadh-after-houthi-attack-on-pipeline?traffic_source=rss",
+      "publishedAt": "2026-11-10T03:17:51Z",
+      "time": "Mon 10:17 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "f007a90ac17d5",
       "headline": "IRGC strikes three tankers near Hormuz over ‘US links’",
       "source": "Al Jazeera",
@@ -285,42 +321,6 @@
       "section": "war",
       "impact": "High",
       "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "fcd6816dc2a54",
-      "headline": "US offers $20m reward for information about Iran's nuclear programme",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c6d091ev3p0jo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-11-07T18:14:38Z",
-      "time": "Sat 1:14 PM",
-      "section": "war",
-      "impact": "High",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f4f1b6d25b06d",
-      "headline": "Qeshm island and Hormuz hit, as mediators try to prevent US-Iran escalation",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation?traffic_source=rss",
-      "publishedAt": "2026-11-07T12:22:18Z",
-      "time": "Sat 7:22 AM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "f960168babc29",
-      "headline": "Will Trump strike nuclear sites again as Iran engages ‘cognitive warfare’?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/11/7/will-trump-strike-nuclear-sites-again-as-iran-engages-cognitive?traffic_source=rss",
-      "publishedAt": "2026-11-07T08:45:36Z",
-      "time": "Sat 3:45 AM",
-      "section": "war",
-      "impact": "High",
-      "lean": null,
       "auto": true
     },
     {
@@ -528,6 +528,18 @@
       "auto": true
     },
     {
+      "id": "ffcf0e7337e47",
+      "headline": "SoftBank swings to $7 billion net loss in second quarter as tech selloff weighs on results",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/10/softbank-2q-earnings-tech-selloff.html",
+      "publishedAt": "2026-11-10T06:54:32Z",
+      "time": "Tue 1:54 AM",
+      "section": "tech",
+      "impact": "Medium",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
       "id": "f8619cee9ca01",
       "headline": "Nasdaq defies Nvidia impact as Huang faces espionage affair probe",
       "source": "CNBC",
@@ -624,18 +636,6 @@
       "auto": true
     },
     {
-      "id": "f3b07c93da1f6",
-      "headline": "Oil Prices Head for 12% Weekly Loss Despite Fresh Tanker Attacks",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-12-Weekly-Loss-Despite-Fresh-Tanker-Attacks.html",
-      "publishedAt": "2026-11-06T06:05:00Z",
-      "time": "Fri 1:05 AM",
-      "section": "energy",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
       "id": "f1e41fabbe9e2",
       "headline": "U.S. Traders Weigh the Cost of Taking Trump’s Russian Diesel",
       "source": "OilPrice",
@@ -654,6 +654,18 @@
       "url": "https://www.nytimes.com/2026/11/09/business/energy-environment/exxon-mobil-venezuela-oil-deal.html",
       "publishedAt": "2026-11-10T00:51:53Z",
       "time": "Mon 7:51 PM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f2e726ab46eb2",
+      "headline": "Scientists Develop Cheap Filter That Could Slash Oil Refining Energy Use by 32%",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Energy/Energy-General/Scientists-Develop-Cheap-Filter-That-Could-Slash-Oil-Refining-Energy-Use-by-32.html",
+      "publishedAt": "2026-11-09T23:00:00Z",
+      "time": "Mon 6:00 PM",
       "section": "energy",
       "impact": "Medium",
       "lean": null,
