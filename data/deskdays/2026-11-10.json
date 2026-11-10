@@ -1,18 +1,18 @@
 {
   "date": "2026-11-10",
   "grok": {
-    "at": "2026-11-10T14:30:09Z",
-    "pulse": "NQ futures stay under pressure after hot Oct CPI (headline +0.4% m/m, core +0.3%) drove Nasdaq-100 down ~1%+ and lifted short-end yields, raising 50bp Dec hike odds, while soft oil on Iran de-escalation and Anthropic IPO roadshow provide partial offsets.",
-    "bias": "risk-off \u2014 core CPI hit Waller's 0.3% threshold for possible 50bp Dec hike, NQ/ES futures lower with yields higher, Houthi attacks on Saudi oil infra add residual risk even as crude slides on Trump comments.",
+    "at": "2026-11-10T21:20:00Z",
+    "pulse": "US indices closed lower Tuesday after hot October CPI (+0.4% m/m vs 0.3% est) drove yields higher and locked in December Fed hike odds, with Nasdaq lagging on NVDA -5.5% probe pressure while oil eased on Trump Iran de-escalation signals.",
+    "bias": "risk-off — hot CPI and hawkish Waller comments raised Dec 50bp hike odds and pressured growth/NQ, partially offset by soft oil on Iran talks and resilient afternoon breadth.",
     "items": [
-      "@BullTheoryio / Metrik (~9:29 AM ET): Hot CPI +0.4% MoM vs 0.3% est; ES futures fell from ~7597 to 7509, Nasdaq ~-1.2% at lows \u2014 Bearish NQ",
-      "@ReentryWindow (~9:29 AM ET): Fed Gov Waller: consider 50bp hike in Dec if core CPI ~0.3% or higher; Oct core was 0.3% \u2014 Bearish NQ",
-      "@OilHeadlineNews / Breaking Business (~9:28 AM ET): Brent ~$90, WTI ~$85 down 2-3% after Trump said new Iran strikes highly unlikely \u2014 Mixed (oil soft supports equities)",
-      "CNBC/Reuters (~morning): Anthropic IPO roadshow live, $70-78 range, up to $1.4T fully diluted val, $26B placement from GOOGL/NVDA/etc \u2014 Bullish AI/NQ",
-      "@TraderPancham (~9:29 AM ET): Strong Down bias for open post-hot CPI; ES at 7527.75, target lower levels if holds \u2014 Bearish ES/NQ"
+      "@Morpheu5Watcher (~4:19 PM ET): Average S&P stock nearly flat but SPY/tech down post-hot CPI; CRWV beat and raised AH — Mixed",
+      "@HunorHudak2005 (~4:19 PM ET): S&P -0.4%, Nasdaq -0.7%, NVDA -5.5% to lowest since March on Huang probe; 10y ~5%, 2y +18bp — Bearish NQ",
+      "@Investingcom (~4:18 PM ET): Dow, S&P 500 and Nasdaq end lower as Treasury yields rise after hot CPI — Bearish ES/NQ",
+      "@CTKCapitalIntel (~4:17 PM ET): S&P 7520.93 (-0.38%), NDX -0.60%; oil down after Trump said Iran war 'effectively over' — Mixed (oil relief)",
+      "@Trend__Rebel (~4:20 PM ET): 10y +10bp to 4.98%, 2y +17bp; S&P -0.38%, Nasdaq -0.76%, NVDA -5.5% — Bearish rates/NQ"
     ],
-    "trump": "Trump continues to signal further strikes on Iran highly unlikely as talks progress with Qatar mediation, keeping oil soft; no other fresh market-moving posts.",
-    "watch": "Cash open reaction to hot CPI and elevated Dec hike odds (~85%+); oil/Houthi Saudi attack headlines vs de-escalation; Anthropic IPO details; CRWV earnings AMC; QQQ vs 200DMA; Dec 8-9 FOMC.",
+    "trump": "Trump signaled the Iran war could end 'fairly soon' and that Iran is 'militarily effectively over' after Qatar talks, helping drive oil lower and supporting broader risk sentiment despite CPI pressure.",
+    "watch": "Veterans Day bond market close Wednesday (stocks open); Friday PPI; after-hours reaction to CRWV/others; Dec 8-9 FOMC with hike fully priced; oil vs further Iran headlines.",
     "forSite": []
   }
 }
