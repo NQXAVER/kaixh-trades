@@ -1,6 +1,6 @@
 {
   "date": "2026-11-10",
-  "at": "2026-11-10T14:19:58Z",
+  "at": "2026-11-10T21:22:23Z",
   "items": [
     {
       "ticker": "BRK.B",
@@ -50,7 +50,7 @@
       "status": "reported",
       "reaction": "spiked ~+20-26% AH, faded to ~+2.5% after the call",
       "sentiment": "Mixed",
-      "why": "Rev $736M vs ~$650M est (beat); adj EPS $0.33 vs $0.25; adj EBITDA $266M vs $161M; Q4 guide rev \u2265$755M, EBITDA $280M above est; +$731M buyback"
+      "why": "Rev $736M vs ~$650M est (beat); adj EPS $0.33 vs $0.25; adj EBITDA $266M vs $161M; Q4 guide rev ≥$755M, EBITDA $280M above est; +$731M buyback"
     },
     {
       "ticker": "TTWO",
@@ -67,8 +67,10 @@
       "company": "CoreWeave (CRWV)",
       "date": "2026-11-10",
       "when": "AMC",
-      "status": "upcoming",
-      "why": "AI neocloud; Q3 rev guide $3.45-3.60B (+~159% y/y), ~$3.54B est; $104B backlog vs heavy interest expense; stock ~-40% in a month"
+      "status": "reported",
+      "why": "Q3 rev $3.66B vs ~$3.56B est; adj EBITDA $2.26B vs $2.05B (62% margin); loss/sh $1.27 vs $1.46 est; backlog ~$132.5B; FY26 rev guide raised to $13.0-13.3B from $12-13B; capex low end raised to $37-39B; Q4 interest expense $1.05-1.15B",
+      "reaction": "~+7% AH",
+      "sentiment": "Bullish"
     },
     {
       "ticker": "AMAT",
