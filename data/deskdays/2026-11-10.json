@@ -2,18 +2,18 @@
   "date": "2026-11-10",
   "grok": {
     "date": "2026-11-10",
-    "at": "2026-11-11T01:20:04Z",
-    "pulse": "NQ futures firm ~+0.4% in the evening session, clawing back part of Tuesday's hot-CPI / NVDA-led drop with CRWV +7% AH on a beat-and-raise, while Fed Bowman's 'more work ahead' inflation talk and JGB yields jumping keep a lid on it.",
-    "bias": "mixed — evening bounce and CRWV AI-infra beat support tech, but hot CPI, near-fully priced Dec hike, Bowman hawkish/AI-valuation warning and rising JGB yields cap upside into thin Veterans Day trade.",
+    "at": "2026-11-11T03:22:59Z",
+    "pulse": "NQ futures extend the evening bounce to ~+0.9% (~27,978) as CRWV's beat-and-raise and a 2-5% chip rally in Taipei/Seoul lift AI names, offsetting a Hormuz tanker incident pushing Brent to $92.66 and fresh Nvidia/Huang political heat.",
+    "bias": "risk-on — AI-infra relief (CRWV, TSMC/Korea chips, NVDA ~+1% overnight) leads futures higher, but hot CPI/Dec-hike bets, rising Asian yields, Brent >$92 on a Hormuz incident and Senate calls for Huang to resign keep it fragile into thin Veterans Day trade.",
     "items": [
-      "@NewsNew97351204 (~7:37 PM ET): Nasdaq futures 27,946 +111 (+0.40%), ES 7,559.50 +0.20%, YM +0.23% — Bullish NQ",
-      "@FirstSquawk (~7:12 PM ET): Fed's Bowman says persistent inflation leaves more work ahead; also flagged risk of large equity correction if AI investment underdelivers — Bearish NQ",
-      "@FirstSquawk (~7:30 PM ET): FT — bankers on Anthropic IPO prepping valuation of $1.5T or higher — Mixed NQ (AI enthusiasm vs supply/rotation)",
-      "@FirstSquawk (~8:12 PM ET): 10y JGB yield +6.5bp to 2.755%, 2y +7bp to 1.845% — Bearish NQ (global yields up)",
-      "@BoersenDE (~8:11 PM ET): Reuters — US stock futures tick higher after Wall St slips on hot CPI, Nvidia losses; CRWV ~+7% AH on rev $3.66B beat, FY guide raised — Bullish NQ"
+      "@stockmom (~9:20 PM ET): Futures bouncing after NVDA + hot CPI selloff — Nasdaq futures +0.87%, ES +0.47%, Dow +136 — Bullish NQ",
+      "@FirstSquawk (~9:37-9:43 PM ET): KOSDAQ rallies 5%, Taiwan stocks +2% on chip bounce — Bullish NQ",
+      "@FirstSquawk (~9:55 PM ET): Sen. Kevin Cramer (Senate Banking) urges Nvidia CEO Huang to step down — Bearish NQ",
+      "@FirstSquawk (~9:51 PM ET): Brent extends gains >$1 to intraday high $92.66 — Bearish NQ",
+      "@FirstSquawk (~10:13 PM ET): UKMTO reports tanker incident in Strait of Hormuz; crew/damage unknown — Bearish NQ (oil spike risk)"
     ],
-    "trump": "No new market-moving posts from @realDonaldTrump this evening; prior Iran line ('highly unlikely' strikes amid Qatar-mediated talks) keeps crude near two-month lows. US-Russia-Ukraine talks in Abu Dhabi continue Wed (@FirstSquawk ~7:17 PM ET).",
-    "watch": "Wed Nov 11 Veterans Day: stocks open, bond market closed (thin liquidity); Asia/JGB yields overnight; Thu 8:30 AM ET jobless claims; Thu AMC CSCO + AMAT, BMO NBIS; Fri 8:30 AM ET PPI; Fed speakers on Dec hike size (25 vs 50bp); Iran/oil headlines; NVDA earnings Nov 17.",
+    "trump": "Via Sen. Perdue (@zerohedge ~9:40-10:06 PM ET): Trump offered to swap China's Iranian oil purchases for US oil, told Xi 'he will sell arms to anybody he wants to', and US is 'not getting the flow of magnets it wants from China' — US-China friction risk for chips/supply chain. No new @realDonaldTrump posts seen this evening.",
+    "watch": "Overnight: Hormuz tanker follow-ups/Brent, JGB & Asian yields, NVDA/Huang headlines. Wed Nov 11 Veterans Day: stocks open, bond market closed (thin liquidity). Thu 8:30 AM ET jobless claims; Thu AMC CSCO + AMAT, BMO NBIS; Fri 8:30 AM ET PPI; Fed speakers on Dec hike; NVDA earnings Nov 17.",
     "forSite": [],
     "reports": [
       {
@@ -134,6 +134,36 @@
         ],
         "trump": "No new market-moving posts from @realDonaldTrump this evening; prior Iran line ('highly unlikely' strikes amid Qatar-mediated talks) keeps crude near two-month lows. US-Russia-Ukraine talks in Abu Dhabi continue Wed (@FirstSquawk ~7:17 PM ET).",
         "watch": "Wed Nov 11 Veterans Day: stocks open, bond market closed (thin liquidity); Asia/JGB yields overnight; Thu 8:30 AM ET jobless claims; Thu AMC CSCO + AMAT, BMO NBIS; Fri 8:30 AM ET PPI; Fed speakers on Dec hike size (25 vs 50bp); Iran/oil headlines; NVDA earnings Nov 17.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-11T03:06:00Z",
+        "pulse": "Hot October CPI (+0.4% m/m) and elevated December Fed hike odds (Waller open to 50bp) pressured Nasdaq to a -0.74% close on Tuesday, partially offset by soft oil near two-month lows on Iran de-escalation signals and modest overnight futures firmness into thin Veterans Day trade.",
+        "bias": "mixed — Iran de-escalation and softer crude support risk-on, but sticky inflation and near-certain Dec hike keep yields high and tech/NQ under pressure.",
+        "items": [
+          "@capitsignal (~10:05 PM ET): Global morning brief — Nasdaq closed -0.74%, Brent ~$92 two-month low, hot CPI reviving Dec hike concerns, Asia showing resilience",
+          "@IamAtulRoy (~10:01 PM ET): Pre-market pulse — SPX -0.38%, Nasdaq -0.74%, 10Y 4.98% +12bp, Gift Nifty gap-up, crude $92.4",
+          "@data_magician_ (~10:00 PM ET): Tuesday futures split post-CPI — Nasdaq 100 -0.8%, S&P 500 -0.3%, 10-year near 4.9%",
+          "@NiketSoni2 (~9:58 PM ET): Global markets snapshot — Nasdaq 25,066 -0.74%, oil soft, most Asia green",
+          "@shail_bhatnagar (~10:05 PM ET): Oil dips further below $95; Trump says major military action on Iran over"
+        ],
+        "trump": "No major new market-moving posts; prior signals that new Iran strikes are highly unlikely amid Qatar-mediated talks continue to weigh on crude near two-month lows.",
+        "watch": "Wednesday Nov 11 Veterans Day (stocks open, bonds closed, thinner liquidity); overnight Asia/JGB reaction to hot CPI and yields; Thu 8:30 AM ET jobless claims; Fri 8:30 AM ET PPI; Dec FOMC hike size (25 vs 50bp); NVDA probe/earnings Nov 17; any Iran/oil headline reversals.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-11T03:22:59Z",
+        "pulse": "NQ futures extend the evening bounce to ~+0.9% (~27,978) as CRWV's beat-and-raise and a 2-5% chip rally in Taipei/Seoul lift AI names, offsetting a Hormuz tanker incident pushing Brent to $92.66 and fresh Nvidia/Huang political heat.",
+        "bias": "risk-on — AI-infra relief (CRWV, TSMC/Korea chips, NVDA ~+1% overnight) leads futures higher, but hot CPI/Dec-hike bets, rising Asian yields, Brent >$92 on a Hormuz incident and Senate calls for Huang to resign keep it fragile into thin Veterans Day trade.",
+        "items": [
+          "@stockmom (~9:20 PM ET): Futures bouncing after NVDA + hot CPI selloff — Nasdaq futures +0.87%, ES +0.47%, Dow +136 — Bullish NQ",
+          "@FirstSquawk (~9:37-9:43 PM ET): KOSDAQ rallies 5%, Taiwan stocks +2% on chip bounce — Bullish NQ",
+          "@FirstSquawk (~9:55 PM ET): Sen. Kevin Cramer (Senate Banking) urges Nvidia CEO Huang to step down — Bearish NQ",
+          "@FirstSquawk (~9:51 PM ET): Brent extends gains >$1 to intraday high $92.66 — Bearish NQ",
+          "@FirstSquawk (~10:13 PM ET): UKMTO reports tanker incident in Strait of Hormuz; crew/damage unknown — Bearish NQ (oil spike risk)"
+        ],
+        "trump": "Via Sen. Perdue (@zerohedge ~9:40-10:06 PM ET): Trump offered to swap China's Iranian oil purchases for US oil, told Xi 'he will sell arms to anybody he wants to', and US is 'not getting the flow of magnets it wants from China' — US-China friction risk for chips/supply chain. No new @realDonaldTrump posts seen this evening.",
+        "watch": "Overnight: Hormuz tanker follow-ups/Brent, JGB & Asian yields, NVDA/Huang headlines. Wed Nov 11 Veterans Day: stocks open, bond market closed (thin liquidity). Thu 8:30 AM ET jobless claims; Thu AMC CSCO + AMAT, BMO NBIS; Fri 8:30 AM ET PPI; Fed speakers on Dec hike; NVDA earnings Nov 17.",
         "forSite": []
       }
     ]
