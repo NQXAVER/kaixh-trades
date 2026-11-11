@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-11",
+  "grok": {
+    "at": "2026-11-11T12:00:00Z",
+    "pulse": "Nasdaq 100 futures surge over 1.5-1.9% on CoreWeave AI earnings relief and softer Iran rhetoric, bouncing from Tuesday's hot-CPI selloff into thin Veterans Day trade.",
+    "bias": "mixed — AI bounce and geopolitical de-escalation lift risk assets, but sticky inflation and ~88% December hike odds keep yields elevated and limit follow-through.",
+    "items": [
+      "@MarketWave7 (~7:00 AM ET): Futures rallying hard, Nasdaq 100 +1.90% to 28,268.6, VIX -4.1%, bouncing from hot-CPI selloff on Veterans Day — Bullish NQ",
+      "@TheEquityHub (~7:00 AM ET): Futures pointing sharply higher this morning, Nasdaq 100 up over 1.6%, good setup for AI names — Bullish NQ",
+      "Morningstar (~6:17 AM ET): Nasdaq futures surge as AI optimism grips markets; CoreWeave +10% premarket on beat, chips rally — Bullish NQ",
+      "FXStreet (~3:32 AM ET): Dow/S&P/Nasdaq futures surge as Trump signals reduced Iran military action and CoreWeave AI earnings revive sentiment — Bullish NQ",
+      "CatalystEnergy (~7:00 AM ET): UK energy week — gas fell on hopes of Iran deal, supporting broader de-escalation narrative — Mixed oil/NQ"
+    ],
+    "trump": "Signaled reduced likelihood of further military action against Iran (supported by Rubio), easing geopolitical risk and aiding equity futures rebound after prior de-escalation comments drove oil lower.",
+    "watch": "Cash open follow-through in AI names (CRWV, semis) amid thin Veterans Day liquidity (bonds closed); any fresh Iran/Hormuz or oil headlines; Fed speakers on December hike size (25 vs 50bp); Thursday jobless claims and Friday PPI.",
+    "forSite": []
+  }
+}
