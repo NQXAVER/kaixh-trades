@@ -1,18 +1,18 @@
 {
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "grok": {
-    "at": "2026-11-11T01:13:07Z",
-    "pulse": "Hot October CPI (+0.4% m/m) fully priced December Fed hike odds (Waller floating 50bp) and pressured Nasdaq after Monday's oil-driven rebound, even as Trump's 'highly unlikely' Iran strikes comments drove crude to two-month lows.",
-    "bias": "mixed — Iran de-escalation and softer oil support risk-on, but sticky inflation and elevated hike odds keep yields high and tech/NQ under pressure.",
+    "at": "2026-11-11T03:06:00Z",
+    "pulse": "Hot October CPI (+0.4% m/m) and elevated December Fed hike odds (Waller open to 50bp) pressured Nasdaq to a -0.74% close on Tuesday, partially offset by soft oil near two-month lows on Iran de-escalation signals and modest overnight futures firmness into thin Veterans Day trade.",
+    "bias": "mixed — Iran de-escalation and softer crude support risk-on, but sticky inflation and near-certain Dec hike keep yields high and tech/NQ under pressure.",
     "items": [
-      "@aiinvestor2 (~8:05 PM ET): Evening outlook post-hot CPI; SPY -0.37%, QQQ -0.68%, NVDA -5.5% on probe, CRWV +7.4% AH on beat-and-raise, modest ES/NQ AH bounce",
-      "@zerohedge (~1:07 PM ET): Top overnight: Trump holding off on Iran strikes after Qatar appeals, Waller on possible 50bp Dec hike, Anthropic IPO valuation ~$1.3T",
-      "Reuters (~4:00 PM ET close): Indices lower (S&P -0.38%, Nasdaq -0.74%) as hot CPI hardens Dec hike bets and Fed comments heighten rate worries; oil to two-month lows",
-      "@BullTheoryio (~12:34 PM ET): WTI crashed 20% in 10 days on Iran peace talk headlines and midterm results; cheaper energy could ease inflation and Fed pressure",
-      "@MarketForgeIQ (~8:10 PM ET): Wed plan digests hot CPI; lean lower while SPY under 750 after failed poke to 752.14, thinner liquidity on Veterans Day"
+      "@capitsignal (~10:05 PM ET): Global morning brief — Nasdaq closed -0.74%, Brent ~$92 two-month low, hot CPI reviving Dec hike concerns, Asia showing resilience",
+      "@IamAtulRoy (~10:01 PM ET): Pre-market pulse — SPX -0.38%, Nasdaq -0.74%, 10Y 4.98% +12bp, Gift Nifty gap-up, crude $92.4",
+      "@data_magician_ (~10:00 PM ET): Tuesday futures split post-CPI — Nasdaq 100 -0.8%, S&P 500 -0.3%, 10-year near 4.9%",
+      "@NiketSoni2 (~9:58 PM ET): Global markets snapshot — Nasdaq 25,066 -0.74%, oil soft, most Asia green",
+      "@shail_bhatnagar (~10:05 PM ET): Oil dips further below $95; Trump says major military action on Iran over"
     ],
-    "trump": "Trump continues to signal new military strikes on Iran 'highly unlikely' amid Qatar-mediated talks, driving oil to two-month lows; no major new market-moving posts into evening.",
-    "watch": "Veterans Day Wednesday (stocks open, bonds closed, thinner liquidity); Thu jobless claims 8:30 AM ET; Fri PPI 8:30 AM ET; NVDA probe/earnings Nov 17; Anthropic IPO roadshow; any Iran/oil headline reversals; Dec FOMC hike size (25 vs 50bp).",
+    "trump": "No major new market-moving posts; prior signals that new Iran strikes are highly unlikely amid Qatar-mediated talks continue to weigh on crude near two-month lows.",
+    "watch": "Wednesday Nov 11 Veterans Day (stocks open, bonds closed, thinner liquidity); overnight Asia/JGB reaction to hot CPI and yields; Thu 8:30 AM ET jobless claims; Fri 8:30 AM ET PPI; Dec FOMC hike size (25 vs 50bp); NVDA probe/earnings Nov 17; any Iran/oil headline reversals.",
     "forSite": []
   }
 }
