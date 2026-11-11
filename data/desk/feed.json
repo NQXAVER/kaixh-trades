@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T06:44:29Z",
+  "updatedAt": "2026-11-11T16:18:32Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -204,6 +204,30 @@
   ],
   "items": [
     {
+      "id": "fcb8bb2789c26",
+      "headline": "Ukrainian Drone Attack Sparks Fire at Russia’s Key Baltic Oil Export Hub",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Ukrainian-Drone-Attack-Sparks-Fire-at-Russias-Key-Baltic-Oil-Export-Hub.html",
+      "publishedAt": "2026-11-11T13:30:00Z",
+      "time": "Wed 8:30 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f549f94502f96",
+      "headline": "Watch: Vinícius Jr's surprise message to boy who received prosthetic legs after Sudan drone strike",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/videos/cm894wg251pzo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-11-11T09:28:36Z",
+      "time": "Wed 4:28 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
       "id": "fdb73fb0266bd",
       "headline": "El Salvador fires missiles on Haitian gang hideout",
       "source": "Al Jazeera",
@@ -300,30 +324,6 @@
       "auto": true
     },
     {
-      "id": "f9f70b08c339d",
-      "headline": "Iraq Strikes U.S. Deal to Boost Oil Exports Through Hormuz",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Iraq-Strikes-US-Deal-to-Boost-Oil-Exports-Through-Hormuz.html",
-      "publishedAt": "2026-11-09T09:10:00Z",
-      "time": "Mon 4:10 AM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "f9f5cfee905a6",
-      "headline": "Oil Prices Fall as Trump Signals No New Attacks on Iran",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Trump-Signals-No-New-Attacks-on-Iran.html",
-      "publishedAt": "2026-11-09T05:45:00Z",
-      "time": "Mon 12:45 AM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
       "id": "f9c7138638a53",
       "headline": "GE Vernova sellers have it all wrong — plus, why Fed rate hike odds are soaring",
       "source": "CNBC",
@@ -369,6 +369,18 @@
       "section": "fed",
       "impact": "High",
       "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "ff7ae47514d74",
+      "headline": "The Fed Has to Raise Rates. How Fast to Go Has Officials Divided.",
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/2026/11/11/business/fed-interest-rates-inflation.html",
+      "publishedAt": "2026-11-11T13:40:22Z",
+      "time": "Wed 8:40 AM",
+      "section": "fed",
+      "impact": "Medium",
+      "lean": null,
       "auto": true
     },
     {
@@ -432,18 +444,6 @@
       "auto": true
     },
     {
-      "id": "fd9d48164bc3f",
-      "headline": "Why stocks are falling and the 10-year Treasury yield is back near 5% after Tuesday’s inflation report",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/why-stocks-are-falling-and-10-year-yields-are-climbing-back-near-5-after-tuesdays-inflation-report-389b8392?mod=mw_rss_topstories",
-      "publishedAt": "2026-11-10T16:28:00Z",
-      "time": "Tue 11:28 AM",
-      "section": "fed",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
       "id": "f03167171a64f",
       "headline": "3 unexpected reasons the October jobs report was so strong",
       "source": "CNBC",
@@ -465,6 +465,18 @@
       "section": "econ",
       "impact": "High",
       "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "fa61f8f31e44d",
+      "headline": "Fed's Goolsbee calls inflation report 'borderline disturbing' as central bank weighs more hikes",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html",
+      "publishedAt": "2026-11-11T14:24:28Z",
+      "time": "Wed 9:24 AM",
+      "section": "econ",
+      "impact": "Medium",
+      "lean": null,
       "auto": true
     },
     {
@@ -552,14 +564,26 @@
       "auto": true
     },
     {
-      "id": "fca8238f7eaa5",
-      "headline": "Why stocks are falling and 10-year yields are climbing back near 5% after Tuesday’s inflation report",
+      "id": "f00b4d3bb4d8d",
+      "headline": "Anthropic’s IPO roadshow kicks off — and the big money is already lining up",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/why-stocks-are-falling-and-10-year-yields-are-climbing-back-near-5-after-tuesdays-inflation-report-389b8392?mod=mw_rss_topstories",
-      "publishedAt": "2026-11-10T15:47:00Z",
-      "time": "Tue 10:47 AM",
-      "section": "econ",
-      "impact": "Medium",
+      "url": "https://www.marketwatch.com/story/anthropics-ipo-roadshow-kicks-off-and-the-big-money-is-already-lining-up-7cdd4f8b?mod=mw_rss_topstories",
+      "publishedAt": "2026-11-11T16:03:00Z",
+      "time": "Wed 11:03 AM",
+      "section": "tech",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f166777c7626a",
+      "headline": "Nvidia shares rebound as Jensen Huang faces scrutiny ahead of earnings",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/11/nvidia-stock-jensen-huang-affair-china.html",
+      "publishedAt": "2026-11-11T14:35:23Z",
+      "time": "Wed 9:35 AM",
+      "section": "tech",
+      "impact": "High",
       "lean": null,
       "auto": true
     },
@@ -660,25 +684,13 @@
       "auto": true
     },
     {
-      "id": "f67189b9440f9",
-      "headline": "Anthropic releases first frontier models since Amodei's call for slowdown as IPO buzz builds",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html",
-      "publishedAt": "2026-11-09T19:00:01Z",
-      "time": "Mon 2:00 PM",
-      "section": "tech",
-      "impact": "High",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f906f7eed86dc",
-      "headline": "Anthropic IPO meets AI backlash after midterms show stinging rebuke of data centers",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/07/anthropic-ipo-ai-data-center-backlash.html",
-      "publishedAt": "2026-11-07T13:00:01Z",
-      "time": "Sat 8:00 AM",
-      "section": "tech",
+      "id": "f06de96a0c058",
+      "headline": "Saudi Crude Output Jumps 26% as Riyadh Reports Near Pre-War Production",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Crude-Output-Jumps-26-as-Riyadh-Reports-Near-Pre-War-Production.html",
+      "publishedAt": "2026-11-11T15:30:00Z",
+      "time": "Wed 10:30 AM",
+      "section": "energy",
       "impact": "High",
       "lean": null,
       "auto": true
@@ -720,6 +732,42 @@
       "auto": true
     },
     {
+      "id": "f94adc62ec34b",
+      "headline": "Transport workers in Chile block highways in protest over surging fuel prices",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c6e3d895zne7o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-11-11T11:34:50Z",
+      "time": "Wed 6:34 AM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f90d2eff4fe9f",
+      "headline": "Oil giant ExxonMobil left Venezuela years ago. Now it's considering a return",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/11/11/nx-s1-5979080/exxonmobil-oil-mou-venezuela",
+      "publishedAt": "2026-11-11T10:00:00Z",
+      "time": "Wed 5:00 AM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f249544bbdbfe",
+      "headline": "Poland's Orlen Becomes First Buyer to Cancel Long-Term Qatar LNG Deal",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Polands-Orlen-Becomes-First-Buyer-to-Cancel-Long-Term-Qatar-LNG-Deal.html",
+      "publishedAt": "2026-11-11T07:30:00Z",
+      "time": "Wed 2:30 AM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "f33446879847a",
       "headline": "South Sudan Courts Oil Investors as Sudan’s Warring Forces Take Their Share",
       "source": "OilPrice",
@@ -750,54 +798,6 @@
       "url": "https://oilprice.com/Latest-Energy-News/World-News/API-Shows-Sharp-Build-in-US-Crude-Oil-Distillate-Inventories.html",
       "publishedAt": "2026-11-10T21:59:00Z",
       "time": "Tue 4:59 PM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "fb9910ee7cbca",
-      "headline": "Brent crude briefly dips below $90 for first time since August on Iran hopes",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/10/oil-prices-trump-iran.html",
-      "publishedAt": "2026-11-10T20:27:02Z",
-      "time": "Tue 3:27 PM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f0ed501ef7a79",
-      "headline": "British Airways Owner Warns Green Fuel Mandates Could Kill European Aviation",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Energy/Energy-General/British-Airways-Owner-Warns-Green-Fuel-Mandates-Could-Kill-European-Aviation.html",
-      "publishedAt": "2026-11-10T20:00:00Z",
-      "time": "Tue 3:00 PM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f91ee464ab276",
-      "headline": "Turkey Wants COP31 to Focus on Electrification Instead of Fossil Fuel Cuts",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Turkey-Wants-COP31-to-Focus-on-Electrification-Instead-of-Fossil-Fuel-Cuts.html",
-      "publishedAt": "2026-11-10T19:30:00Z",
-      "time": "Tue 2:30 PM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "ffe1072d55650",
-      "headline": "Falkland Islanders face ‘devastating consequences’ if Argentina blocks oil project, says UK",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/nov/10/uk-and-argentina-clash-over-falklands-oil-project-as-hamburg-tribunal-starts",
-      "publishedAt": "2026-11-10T19:01:33Z",
-      "time": "Tue 2:01 PM",
       "section": "energy",
       "impact": "Medium",
       "lean": null,
