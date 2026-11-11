@@ -1,0 +1,38 @@
+{
+ "date": "2026-11-11",
+ "entryUrl": "",
+ "summary": "No trades today. You called it a no-trade day for the bank holiday (Veterans Day) before the open and stuck to it. Your morning check-in went in on time at 9:07 AM ET with the risk screenshot confirmed, and your end-of-day card at 11:40 AM says No trade day and Rules Followed: Yes. As of the 4 PM review there's no Notion Live Journal entry for today, so the Calendar has no row to put an NT on.",
+ "trade": "No Trades · bank holiday (Veterans Day) · no Notion entry · no entry, stop or target.",
+ "rule": "Tomorrow, jobless claims come out at 8:30 AM ET, the first full session after the holiday. Have no position on before the release, write your pre-market DOL in Notion before 9:30, and only take a setup that matches it after 10:00.",
+ "screenshots": [],
+ "good": [
+  "You decided on a no-trade holiday session before the open and didn't trade the thin tape. Rules Followed: Yes is honest here.",
+  "Morning check-in filed at 9:07 AM ET, well before the 9:30 deadline, with the risk-settings screenshot confirmed at 9:07. Streak is now 15 days.",
+  "No new eval or prop-firm purchase showed up in your email today."
+ ],
+ "fix": [
+  "There's no Notion Live Journal entry for today. Make a No Trades row with one line of reason, like 'bank holiday, sat out', so the Calendar shows NT and your stats stay complete.",
+  "You didn't post in the xavier Journal thread today (the latest is Nov 10 at 10:44 AM). A one-line no-trade post keeps the syndicate log unbroken.",
+  "'Bank Holiday' as your psychological plan says why you're out, not how you'll handle the next session. Use the check-in to plan tomorrow's open."
+ ],
+ "questions": [
+  {
+   "q": "You wrote 'Bank Holiday' as your plan and sat out. Was that a rule you set for yourself ahead of time, or a call you made this morning? Should it be a written rule for every low-volume holiday?"
+  },
+  {
+   "q": "Yesterday you wanted PDH to make 700 but trailed out at 2RR. With a day off to look back, would holding to PDH have fit your plan, or was securing it the right call?"
+  },
+  {
+   "q": "Jobless claims come out at 8:30 tomorrow, after a holiday. What has to happen in the first 30 minutes of NY for you to take a trade, and what makes you sit out?"
+  }
+ ],
+ "discord": {
+  "chartsOpened": "\"No trade day\" (Morning Check-in submitted 9:07 AM ET, streak 14 days).",
+  "plan": "\"Bank Holiday\"",
+  "risk": "On time: the risk-settings screenshot was posted and confirmed at 9:07 AM ET, before the 9:30 deadline.",
+  "eod": "Filed at 11:40 AM ET (streak 15 days): Trade Summary \"No trade day\", Rules Followed: Yes, Improvement / Wins \"Bank 🏦\". The PNL screenshot was confirmed at 11:41 AM.",
+  "match": "The morning plan (no trade, bank holiday) and the EOD card agree, and no trades were reported anywhere. Notion has no entry for today to compare against. No text chat with Bibz today (image uploads only). Bibz also took no trade.",
+  "journalChannel": "No post in xavier Journal today. The latest is Nov 10 at 10:44 AM ET (the 11/10 trailed-out W)."
+ },
+ "reviewedAt": "2026-11-11T21:17:55Z"
+}
