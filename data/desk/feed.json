@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T16:18:32Z",
+  "updatedAt": "2026-11-11T16:57:29Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -204,6 +204,18 @@
   ],
   "items": [
     {
+      "id": "f3dc397c9ffbc",
+      "headline": "Brent Jumps Nearly 3% as Iran Denies Any Talks With Washington",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Jumps-3-to-94-as-Iran-Denies-Any-Talks-With-Washington.html",
+      "publishedAt": "2026-11-11T16:30:00Z",
+      "time": "Wed 11:30 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
       "id": "fcb8bb2789c26",
       "headline": "Ukrainian Drone Attack Sparks Fire at Russia’s Key Baltic Oil Export Hub",
       "source": "OilPrice",
@@ -306,18 +318,6 @@
       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/irgc-strikes-three-tankers-near-hormuz-over-us?traffic_source=rss",
       "publishedAt": "2026-11-09T15:10:20Z",
       "time": "Mon 10:10 AM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "faa662124f9c8",
-      "headline": "Oil Sinks to $94 as Iran’s $8 Billion Hormuz Deal Heads to Trump",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Sinks-to-94-as-Irans-8-Billion-Hormuz-Deal-Heads-to-Trump.html",
-      "publishedAt": "2026-11-09T13:30:00Z",
-      "time": "Mon 8:30 AM",
       "section": "war",
       "impact": "High",
       "lean": "risk-off",
@@ -472,8 +472,8 @@
       "headline": "Fed's Goolsbee calls inflation report 'borderline disturbing' as central bank weighs more hikes",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html",
-      "publishedAt": "2026-11-11T14:24:28Z",
-      "time": "Wed 9:24 AM",
+      "publishedAt": "2026-11-11T16:49:02Z",
+      "time": "Wed 11:49 AM",
       "section": "econ",
       "impact": "Medium",
       "lean": null,
@@ -732,6 +732,18 @@
       "auto": true
     },
     {
+      "id": "f16fc2743cc24",
+      "headline": "Argentinian lawyer mocks UK’s sovereignty claim in Falklands oil case",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/11/argentine-lawyer-mocks-uk-sovereignty-claim-in-falklands-oil-case",
+      "publishedAt": "2026-11-11T16:05:45Z",
+      "time": "Wed 11:05 AM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "f94adc62ec34b",
       "headline": "Transport workers in Chile block highways in protest over surging fuel prices",
       "source": "BBC",
@@ -792,13 +804,13 @@
       "auto": true
     },
     {
-      "id": "f1da22a4db00b",
-      "headline": "API Shows Sharp Build in US Crude Oil, Distillate Inventories",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/API-Shows-Sharp-Build-in-US-Crude-Oil-Distillate-Inventories.html",
-      "publishedAt": "2026-11-10T21:59:00Z",
-      "time": "Tue 4:59 PM",
-      "section": "energy",
+      "id": "fc09364036352",
+      "headline": "US Treasury Secretary Scott Bessent relocated after alleged Iranian threats",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cqr7gr0010r2o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-11-11T16:45:11Z",
+      "time": "Wed 11:45 AM",
+      "section": "markets",
       "impact": "Medium",
       "lean": null,
       "auto": true
