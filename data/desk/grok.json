@@ -1,15 +1,78 @@
 {
-  "at": "2026-11-11T14:22:00Z",
-  "pulse": "NQ/Nasdaq futures lead a risk-on bounce (+1.8-2%) on CoreWeave AI beat/raise and Asia chip strength, offsetting hot CPI hike fears and residual Iran/Hormuz oil risks into thin Veterans Day trade.",
-  "bias": "risk-on — AI infrastructure relief (CRWV raise, NVDA rebound) and de-escalation signals drive tech gap, but ~90% Dec hike odds and Hormuz residual keep it selective.",
+  "date": "2026-11-11",
+  "at": "2026-11-11T14:23:38Z",
+  "pulse": "NQ futures hold ~+2% into the open as the CRWV beat/raise sparks an AI-infra rip (NVDA ~+5% premarket despite Baird's downgrade), offset by a surging dollar (EUR at May-2025 lows, USD/JPY 159.6), a House subpoena threat to Huang and fresh Iran/Houthi headlines.",
+  "bias": "risk-on — AI-capex relief (CRWV +17%, MRVL +8.6%, NVDA +5%) drives a ~2% NQ gap up; strong USD, NVDA/Huang political risk, Iran nuclear rhetoric and a thin Veterans Day tape (bonds closed) can fade it.",
   "items": [
-    "@thedave2006 (~9:22 AM ET): Premarket wrap — NQ futures +1.87-1.95% to ~28,370 on CoreWeave beat/raise + Asia semis; ES +0.85%, oil +1.5% residual Hormuz — Bullish NQ",
-    "Morningstar/FXStreet (~6-8 AM ET): Nasdaq futures surge as AI optimism grips markets; CoreWeave +10%+, Trump signals reduced Iran military action — Bullish NQ/ES",
-    "@OmniWealthLife (~9:22 AM ET): Bulls starting to breakout of lower range on $CRWV earnings and AI sector, target 7690-7716 if holds — Bullish ES/NQ",
-    "@QuantAlphaXXX (~9:22 AM ET): Nasdaq futures shaking off Fed fears; AI hype and macro dread seem to cancel each other out — Mixed NQ",
-    "@GeoMacroTrader (~9:22 AM ET): Sensing metals reversal that could hit stocks/tech; USD up big — Bearish risk"
+    "@FirstSquawk (~7:40 AM ET): Nasdaq 100 futures extend gain to 2% — Bullish NQ",
+    "@zerohedge (~8:16 AM ET): Premarket Mag7 mostly higher — NVDA +5.1%, TSLA +2%, GOOGL +1.2%, META +0.8%, AAPL -0.7%; AI infra rallying after CRWV — Bullish NQ",
+    "@Briefingcom (~7:33 AM ET): Gapping up CRWV +17.3%, MRVL +8.6%, SKHY +8.2% — Bullish NQ",
+    "@LiveSquawk (~9:21 AM ET): House China panel chair Moolenaar gives Nvidia CEO until end of day, subpoenas likely if no response — Bearish NQ",
+    "@FirstSquawk (~8:51-9:08 AM ET): USD/JPY +0.5% to 159.55, EUR/USD lowest since May 2025 at 1.1097 (-0.6%) — Mixed NQ (strong dollar headwind)"
   ],
-  "trump": "Signaled reduced likelihood of further military action against Iran (backed by Rubio), favoring sanctions/diplomacy amid post-midterm pressure; residual Strait of Hormuz tanker/mine risks keep oil bid.",
-  "watch": "Cash open follow-through on thin Veterans Day tape (bonds closed); AI/semis (CRWV, NVDA) hold vs yield sensitivity; fresh Hormuz/oil headlines; Dec FOMC hike size odds; Thu claims, Fri PPI.",
-  "forSite": []
+  "trump": "No market-moving Trump posts this morning (@WhiteHouse only a Veterans Day message ~8:45 AM ET). Geopolitics instead: Iran rejects moving 'a single atom' of enriched uranium out (@zerohedge ~8:45 AM ET) and talks up nuclear-powered ships (~9:18 AM ET); Russia's Medinsky says 'closer to peace' (~8:57 AM ET).",
+  "watch": "9:30 AM ET cash open on a holiday tape (bond market closed); NVDA/Huang subpoena deadline end of day; Hormuz/Iran and Houthi headlines for oil; Corteva (CTVA) AMC today; Anthropic (ANT) IPO reportedly multiple times oversubscribed, pricing ~Nov 19; Thu 8:30 AM jobless claims, NBIS BMO, CSCO + AMAT AMC; Fri 8:30 AM PPI; NVDA Tue Nov 17 AMC.",
+  "forSite": [],
+  "reports": [
+    {
+      "at": "2026-11-11T12:00:00Z",
+      "pulse": "Nasdaq 100 futures surge over 1.5-1.9% on CoreWeave AI earnings relief and softer Iran rhetoric, bouncing from Tuesday's hot-CPI selloff into thin Veterans Day trade.",
+      "bias": "mixed — AI bounce and geopolitical de-escalation lift risk assets, but sticky inflation and ~88% December hike odds keep yields elevated and limit follow-through.",
+      "items": [
+        "@MarketWave7 (~7:00 AM ET): Futures rallying hard, Nasdaq 100 +1.90% to 28,268.6, VIX -4.1%, bouncing from hot-CPI selloff on Veterans Day — Bullish NQ",
+        "@TheEquityHub (~7:00 AM ET): Futures pointing sharply higher this morning, Nasdaq 100 up over 1.6%, good setup for AI names — Bullish NQ",
+        "Morningstar (~6:17 AM ET): Nasdaq futures surge as AI optimism grips markets; CoreWeave +10% premarket on beat, chips rally — Bullish NQ",
+        "FXStreet (~3:32 AM ET): Dow/S&P/Nasdaq futures surge as Trump signals reduced Iran military action and CoreWeave AI earnings revive sentiment — Bullish NQ",
+        "CatalystEnergy (~7:00 AM ET): UK energy week — gas fell on hopes of Iran deal, supporting broader de-escalation narrative — Mixed oil/NQ"
+      ],
+      "trump": "Signaled reduced likelihood of further military action against Iran (supported by Rubio), easing geopolitical risk and aiding equity futures rebound after prior de-escalation comments drove oil lower.",
+      "watch": "Cash open follow-through in AI names (CRWV, semis) amid thin Veterans Day liquidity (bonds closed); any fresh Iran/Hormuz or oil headlines; Fed speakers on December hike size (25 vs 50bp); Thursday jobless claims and Friday PPI.",
+      "forSite": []
+    },
+    {
+      "at": "2026-11-11T12:23:13Z",
+      "pulse": "NQ futures +1.7-1.8% premarket on the AI bounce (CRWV +13-16% after its beat/raise) reversing Tue's hot-CPI drop, offset by a Baird NVDA downgrade, Hormuz tanker-mine headlines lifting oil and hike-pricing after CPI.",
+      "bias": "risk-on — AI-capex relief from CRWV plus strong Asia (Taiwan/KOSPI +2%) drive a gap up; thin Veterans Day tape (bonds closed) and NVDA/Hormuz headlines are the risk to follow-through.",
+      "items": [
+        "@FirstSquawk (~6:15 AM ET): ES +0.77%, NQ +1.77%, Dow flat; prior close Nasdaq-100 27,736 (-0.6%) after hot Oct CPI (0.4% m/m vs 0.3%) — Bullish NQ",
+        "@DeItaone (~6:41 AM ET): Baird cuts NVDA to Neutral, PT $500→$200, warns 2027 data-center delays/AI-spend slowdown; NVDA closed $168.89, earnings Nov 17 AMC — Bearish NQ",
+        "X News (~6:49 AM ET update): Iran IRGC says two tankers hit mines in the Strait of Hormuz, fires burning; oil bid on chokepoint risk — Bearish NQ",
+        "@Rendy252 (~3:18 AM ET): Asia wrap — Nikkei +1.3%, Taiwan +2.1%, KOSPI +2.3% led by TSM/chips — Bullish NQ",
+        "@LiveSquawk (~7:01 AM ET): ECB Makhlouf says upside inflation risks remain, financing tighter after yields rose; MBA mortgage apps +6.2%, 30y 7.21% — Mixed NQ"
+      ],
+      "trump": "No market-moving Trump posts overnight; reports (X News ~7:09 AM ET) say Netanyahu presses Trump daily to resume Iran strikes while Trump/Rubio favor sanctions and diplomacy — Iran escalation risk is the swing factor.",
+      "watch": "9:30 AM ET cash open on a holiday tape (bond market closed); CRWV/semis follow-through; Hormuz/oil headlines; Corteva (CTVA) and Franco-Nevada AMC today; Thu 8:30 AM jobless claims, NBIS BMO, CSCO + AMAT AMC (calls 4:30 PM); Fri 8:30 AM PPI; NVDA Tue Nov 17 AMC (~4:20 PM).",
+      "forSite": []
+    },
+    {
+      "at": "2026-11-11T14:22:00Z",
+      "pulse": "NQ/Nasdaq futures lead a risk-on bounce (+1.8-2%) on CoreWeave AI beat/raise and Asia chip strength, offsetting hot CPI hike fears and residual Iran/Hormuz oil risks into thin Veterans Day trade.",
+      "bias": "risk-on — AI infrastructure relief (CRWV raise, NVDA rebound) and de-escalation signals drive tech gap, but ~90% Dec hike odds and Hormuz residual keep it selective.",
+      "items": [
+        "@thedave2006 (~9:22 AM ET): Premarket wrap — NQ futures +1.87-1.95% to ~28,370 on CoreWeave beat/raise + Asia semis; ES +0.85%, oil +1.5% residual Hormuz — Bullish NQ",
+        "Morningstar/FXStreet (~6-8 AM ET): Nasdaq futures surge as AI optimism grips markets; CoreWeave +10%+, Trump signals reduced Iran military action — Bullish NQ/ES",
+        "@OmniWealthLife (~9:22 AM ET): Bulls starting to breakout of lower range on $CRWV earnings and AI sector, target 7690-7716 if holds — Bullish ES/NQ",
+        "@QuantAlphaXXX (~9:22 AM ET): Nasdaq futures shaking off Fed fears; AI hype and macro dread seem to cancel each other out — Mixed NQ",
+        "@GeoMacroTrader (~9:22 AM ET): Sensing metals reversal that could hit stocks/tech; USD up big — Bearish risk"
+      ],
+      "trump": "Signaled reduced likelihood of further military action against Iran (backed by Rubio), favoring sanctions/diplomacy amid post-midterm pressure; residual Strait of Hormuz tanker/mine risks keep oil bid.",
+      "watch": "Cash open follow-through on thin Veterans Day tape (bonds closed); AI/semis (CRWV, NVDA) hold vs yield sensitivity; fresh Hormuz/oil headlines; Dec FOMC hike size odds; Thu claims, Fri PPI.",
+      "forSite": []
+    },
+    {
+      "at": "2026-11-11T14:23:38Z",
+      "pulse": "NQ futures hold ~+2% into the open as the CRWV beat/raise sparks an AI-infra rip (NVDA ~+5% premarket despite Baird's downgrade), offset by a surging dollar (EUR at May-2025 lows, USD/JPY 159.6), a House subpoena threat to Huang and fresh Iran/Houthi headlines.",
+      "bias": "risk-on — AI-capex relief (CRWV +17%, MRVL +8.6%, NVDA +5%) drives a ~2% NQ gap up; strong USD, NVDA/Huang political risk, Iran nuclear rhetoric and a thin Veterans Day tape (bonds closed) can fade it.",
+      "items": [
+        "@FirstSquawk (~7:40 AM ET): Nasdaq 100 futures extend gain to 2% — Bullish NQ",
+        "@zerohedge (~8:16 AM ET): Premarket Mag7 mostly higher — NVDA +5.1%, TSLA +2%, GOOGL +1.2%, META +0.8%, AAPL -0.7%; AI infra rallying after CRWV — Bullish NQ",
+        "@Briefingcom (~7:33 AM ET): Gapping up CRWV +17.3%, MRVL +8.6%, SKHY +8.2% — Bullish NQ",
+        "@LiveSquawk (~9:21 AM ET): House China panel chair Moolenaar gives Nvidia CEO until end of day, subpoenas likely if no response — Bearish NQ",
+        "@FirstSquawk (~8:51-9:08 AM ET): USD/JPY +0.5% to 159.55, EUR/USD lowest since May 2025 at 1.1097 (-0.6%) — Mixed NQ (strong dollar headwind)"
+      ],
+      "trump": "No market-moving Trump posts this morning (@WhiteHouse only a Veterans Day message ~8:45 AM ET). Geopolitics instead: Iran rejects moving 'a single atom' of enriched uranium out (@zerohedge ~8:45 AM ET) and talks up nuclear-powered ships (~9:18 AM ET); Russia's Medinsky says 'closer to peace' (~8:57 AM ET).",
+      "watch": "9:30 AM ET cash open on a holiday tape (bond market closed); NVDA/Huang subpoena deadline end of day; Hormuz/Iran and Houthi headlines for oil; Corteva (CTVA) AMC today; Anthropic (ANT) IPO reportedly multiple times oversubscribed, pricing ~Nov 19; Thu 8:30 AM jobless claims, NBIS BMO, CSCO + AMAT AMC; Fri 8:30 AM PPI; NVDA Tue Nov 17 AMC.",
+      "forSite": []
+    }
+  ]
 }
