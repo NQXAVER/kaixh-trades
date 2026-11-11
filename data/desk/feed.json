@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T02:06:21Z",
+  "updatedAt": "2026-11-11T06:44:29Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -183,9 +183,9 @@
     {
       "id": "un-peace",
       "label": "UN News",
-      "ok": false,
-      "items": 0,
-      "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+      "ok": true,
+      "items": 20,
+      "error": null
     },
     {
       "id": "wsj-biz",
@@ -203,6 +203,18 @@
     }
   ],
   "items": [
+    {
+      "id": "fdb73fb0266bd",
+      "headline": "El Salvador fires missiles on Haitian gang hideout",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/el-salvador-fires-missiles-on-haitian-gang-hideout?traffic_source=rss",
+      "publishedAt": "2026-11-11T03:00:23Z",
+      "time": "Tue 10:00 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
     {
       "id": "f57a20329585b",
       "headline": "Sudan war: First suicide bombers, now long-range drone strikes are the norm",
@@ -309,18 +321,6 @@
       "section": "war",
       "impact": "High",
       "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "f5a0d9ad791eb",
-      "headline": "Rubio says war on Iran unpopular but ‘necessary’ to stop nuclear threat",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/11/9/rubio-says-war-on-iran-unpopular-but-necessary-to-stop-nuclear-threat?traffic_source=rss",
-      "publishedAt": "2026-11-09T04:02:18Z",
-      "time": "Sun 11:02 PM",
-      "section": "war",
-      "impact": "High",
-      "lean": null,
       "auto": true
     },
     {
@@ -813,18 +813,6 @@
       "section": "markets",
       "impact": "Medium",
       "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f4713fdfe0dec",
-      "headline": "Asian stock markets climb after earlier tech rout",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/economy/2026/11/9/asian-stock-markets-climb-after-earlier-tech-rout?traffic_source=rss",
-      "publishedAt": "2026-11-09T04:03:02Z",
-      "time": "Sun 11:03 PM",
-      "section": "markets",
-      "impact": "Medium",
-      "lean": "risk-off",
       "auto": true
     }
   ]
