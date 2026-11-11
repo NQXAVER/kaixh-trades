@@ -1,108 +1,15 @@
 {
-  "date": "2026-11-10",
-  "at": "2026-11-10T21:22:23Z",
-  "pulse": "NQ closed red (Nasdaq -0.69% to 25,080, SPX -0.38% to 7,521.50) as hot Oct CPI plus hawkish Waller/Logan/Bowman talk repriced a bigger Dec hike and NVDA bled ~-6-7% on the Huang probe, partly offset by CRWV's beat-and-raise (+7% AH) and softer crude.",
-  "bias": "risk-off — hot CPI (0.4% headline / 0.3% core vs 0.3/0.2) and Fed speakers floating 50bp in Dec lift yields and hit growth; NVDA leadership risk weighs on semis; CRWV AH beat and lower oil only partial offsets.",
+  "at": "2026-11-11T01:13:07Z",
+  "pulse": "Hot October CPI (+0.4% m/m) fully priced December Fed hike odds (Waller floating 50bp) and pressured Nasdaq after Monday's oil-driven rebound, even as Trump's 'highly unlikely' Iran strikes comments drove crude to two-month lows.",
+  "bias": "mixed — Iran de-escalation and softer oil support risk-on, but sticky inflation and elevated hike odds keep yields high and tech/NQ under pressure.",
   "items": [
-    "@FirstSquawk (~4:02 PM ET): Nasdaq closes -0.69% at 25,080.24, S&P -0.38% at 7,521.50, Dow -0.29% at 52,237.81 — Bearish NQ",
-    "@FirstSquawk (~4:19 PM ET): Fed's Waller warns 50bp Dec hike may be necessary; Logan backs at least two more 25bp hikes, possibly faster; Bowman shifting focus to inflation — Bearish NQ",
-    "@DeItaone (~3:04 PM ET): NVDA falls -7.06% to session low; House GOP weighing subpoena of Huang (ABC, ~2:40 PM ET); Commerce delays Megaspeed entity listing (FT, ~3:07 PM ET) — Bearish NQ",
-    "@zerohedge (~4:06-4:07 PM ET): CRWV Q3 rev $3.66B vs $3.56B est, adj EBITDA $2.26B vs $2.05B, FY rev guide raised to $13.0-13.3B, shares +7% AH; Q4 interest expense $1.05-1.15B — Bullish NQ (AI infra)",
-    "@FirstSquawk (~2:59 PM ET): WTI settles $86.04 (-0.93%), Brent $91.49 (-1.17%) — Mixed NQ (oil relief vs hot CPI)"
+    "@aiinvestor2 (~8:05 PM ET): Evening outlook post-hot CPI; SPY -0.37%, QQQ -0.68%, NVDA -5.5% on probe, CRWV +7.4% AH on beat-and-raise, modest ES/NQ AH bounce",
+    "@zerohedge (~1:07 PM ET): Top overnight: Trump holding off on Iran strikes after Qatar appeals, Waller on possible 50bp Dec hike, Anthropic IPO valuation ~$1.3T",
+    "Reuters (~4:00 PM ET close): Indices lower (S&P -0.38%, Nasdaq -0.74%) as hot CPI hardens Dec hike bets and Fed comments heighten rate worries; oil to two-month lows",
+    "@BullTheoryio (~12:34 PM ET): WTI crashed 20% in 10 days on Iran peace talk headlines and midterm results; cheaper energy could ease inflation and Fed pressure",
+    "@MarketForgeIQ (~8:10 PM ET): Wed plan digests hot CPI; lean lower while SPY under 750 after failed poke to 752.14, thinner liquidity on Veterans Day"
   ],
-  "trump": "No new market-moving Trump headline into the close; NYT (via @LiveSquawk ~2:29 PM ET) reported Trump was told on his China trip about spying on the Nvidia CEO despite his denial, adding to NVDA overhang.",
-  "watch": "CRWV AH follow-through and call tonight; Wed Nov 11 Veterans Day (bond market closed, stocks open); Thu Nov 12 NBIS BMO, CSCO + AMAT AMC; Fri PPI 8:30 AM ET; more Fed speakers; NVDA/Huang probe headlines; Dec FOMC hike pricing (25 vs 50bp).",
-  "forSite": [],
-  "reports": [
-    {
-      "at": "2026-11-10T12:00:44Z",
-      "pulse": "US futures mixed premarket after Monday's strong oil-driven rally (Nasdaq +2.7%), with NQ flat to slightly lower into 8:30 AM ET CPI as oil stays soft on Iran de-escalation and AI names digest Anthropic investment/IPO buzz amid elevated Dec hike odds.",
-      "bias": "mixed — Monday momentum and soft oil support risk-on, but NQ lagging, Waller hike comments, NVDA probe residual and binary CPI keep caution.",
-      "items": [
-        "@TopStockAlerts1 (~7:00 AM ET): S&P futs +0.1%, Dow +0.3%, Nasdaq-100 -0.2%; Waller sees Dec rate hike likely, possible half-point",
-        "@skpark0304 (~6:59 AM ET): Bounce holds, Nasdaq futs flat, Brent ~$90 sliding, CPI at 8:30 the focus",
-        "@NightOwlTrade (~7:00 AM ET): AMD/Broadcom/Google join $26B Anthropic investment; Waller softens on hike magnitude",
-        "@NeuraDrift (~7:00 AM ET): Anthropic IPO at $70-78/sh, up to $1.4T valuation, Nasdaq ticker ANT",
-        "@convicta_news (~7:00 AM ET): Oil sinks below $90 after Trump says Iran war effectively over; Polymarket de-escalation odds"
-      ],
-      "trump": "Prior comments that Iran conflict is effectively over and further strikes highly unlikely if talks progress continue to weigh on oil; no fresh market-moving statements overnight.",
-      "watch": "Oct CPI at 8:30 AM ET (m/m focus) for inflation path and Dec FOMC hike odds (~80%+); NQ/ES reaction; any Iran/oil reversal or NVDA/AI probe headlines; Anthropic IPO details.",
-      "forSite": []
-    },
-    {
-      "at": "2026-11-10T12:25:03Z",
-      "pulse": "NQ steadying premarket after Monday's +2.7% Nasdaq squeeze (QQQ 679 still just under its 200DMA ~681), with Anthropic's ~$1-1.4T Nasdaq IPO and $26B AMD/AVGO/GOOGL stake lifting the AI bid, offset by Waller's Dec-hike push and BofA dropping NVDA/MU from top picks into 8:30 AM ET CPI.",
-      "bias": "mixed — AI/IPO headlines and Monday momentum support risk-on, but hawkish Waller (25bp Dec, 50bp if core ≥0.3%), the 200DMA cap on QQQ and a binary CPI print keep NQ two-way.",
-      "items": [
-        "@DeItaone (~6:35 AM ET): AMD, Broadcom, Google and others to invest $26B in Anthropic; AMD buying $9.5B of Class N stock — Bullish NQ",
-        "@DeItaone (~6:36 AM ET): Anthropic launches IPO roadshow, $70-78/sh, up to $64.35B raise, Nasdaq listing; prices next Wed, trades Thu — Mixed NQ (AI bid vs supply)",
-        "@FirstSquawk (~7:20 AM ET): Anthropic seeks $1.4T fully diluted valuation; run-rate rev ~$81B as of Oct 31, ~$900.9B committed spend — Bullish NQ (AI capex read)",
-        "@WatcherGuru (~7:03 AM ET): BofA removes NVDA and MU from its top stock picks list — Bearish NQ (semis)",
-        "X News (~6:37 AM ET update): Fed's Waller backs a 25bp Dec 8-9 hike, open to 50bp if core CPI ≥0.3%; yields up, hike odds ~88% — Bearish NQ"
-      ],
-      "trump": "No fresh market-moving Trump headlines overnight; his earlier line that the Iran war is effectively over keeps oil soft (Brent ~$90).",
-      "watch": "Oct CPI 8:30 AM ET (m/m only; cons headline 0.3%, core 0.2%; core ≥0.3% raises 50bp Dec risk); cash open 9:30 AM ET vs QQQ 200DMA ~681; OXY call 1 PM ET; CRWV AMC tonight; Anthropic IPO roadshow headlines; Iran/oil; Dec 8-9 FOMC.",
-      "forSite": []
-    },
-    {
-      "at": "2026-11-10T14:19:58Z",
-      "pulse": "NQ under pressure premarket after a hot Oct CPI (0.4% headline, 0.3% core vs 0.3/0.2 est) sent Nasdaq-100 futures down 1.5% to the premarket low and short-end yields up 10bp+, with 50bp Dec hike bets rising; only offsets are the Anthropic IPO/AI bid and Rubio saying no Iran combat ops needed.",
-      "bias": "risk-off — core CPI crossed Waller's 0.3% line, putting a 50bp Dec hike (or Dec+Jan back-to-back) in play, 2-5y yields +10bp, and Houthi strikes on Saudi oil infrastructure add an oil-risk bid into the cash open.",
-      "items": [
-        "@DeItaone (~8:30 AM ET): Oct CPI +0.4% m/m (est 0.3%), core +0.3% (est 0.2%); 3-mo core 3.7% annualized, supercore 5.5% — Bearish NQ",
-        "@FirstSquawk (~8:43 AM ET): Nasdaq 100 futures fall 1.5% to premarket low; US 2-5y yields up at least 10bp on the day — Bearish NQ",
-        "@DeItaone (~9:03 AM ET): WSJ's Timiraos says Fed may choose between 50bp in Dec or back-to-back Dec/Jan hikes; traders boost half-point bets — Bearish NQ",
-        "@WatcherGuru (~9:05 AM ET): Goldman Sachs warns high inflation could bring more hikes next year; BTC under $74K, $200M longs liquidated — Bearish NQ",
-        "@DeItaone (~9:12 AM ET): Houthis say they attacked Saudi East-West pipeline pumping stations and Riyadh airport (Aramco targets per @FirstSquawk) — Bearish NQ (oil risk)"
-      ],
-      "trump": "Nothing market-moving from Trump himself (Truth Social praise for Hegseth, ~8:37 AM ET). Admin side: Rubio says combat ops against Iran not needed now and AI will be raised at the Trump-Xi summit; Hegseth says the US controls the Strait of Hormuz.",
-      "watch": "Cash open 9:30 AM ET (QQQ 200DMA ~681 now further away); Houthi/Saudi oil headlines and WTI/Brent reaction; Fed speakers on 50bp; OXY call 1 PM ET; CRWV AMC tonight (Q3 rev guide $3.45-3.60B); PPI Fri; Anthropic IPO prices next Wed; Dec 8-9 FOMC.",
-      "forSite": []
-    },
-    {
-      "at": "2026-11-10T14:30:09Z",
-      "pulse": "NQ futures stay under pressure after hot Oct CPI (headline +0.4% m/m, core +0.3%) drove Nasdaq-100 down ~1%+ and lifted short-end yields, raising 50bp Dec hike odds, while soft oil on Iran de-escalation and Anthropic IPO roadshow provide partial offsets.",
-      "bias": "risk-off — core CPI hit Waller's 0.3% threshold for possible 50bp Dec hike, NQ/ES futures lower with yields higher, Houthi attacks on Saudi oil infra add residual risk even as crude slides on Trump comments.",
-      "items": [
-        "@BullTheoryio / Metrik (~9:29 AM ET): Hot CPI +0.4% MoM vs 0.3% est; ES futures fell from ~7597 to 7509, Nasdaq ~-1.2% at lows — Bearish NQ",
-        "@ReentryWindow (~9:29 AM ET): Fed Gov Waller: consider 50bp hike in Dec if core CPI ~0.3% or higher; Oct core was 0.3% — Bearish NQ",
-        "@OilHeadlineNews / Breaking Business (~9:28 AM ET): Brent ~$90, WTI ~$85 down 2-3% after Trump said new Iran strikes highly unlikely — Mixed (oil soft supports equities)",
-        "CNBC/Reuters (~morning): Anthropic IPO roadshow live, $70-78 range, up to $1.4T fully diluted val, $26B placement from GOOGL/NVDA/etc — Bullish AI/NQ",
-        "@TraderPancham (~9:29 AM ET): Strong Down bias for open post-hot CPI; ES at 7527.75, target lower levels if holds — Bearish ES/NQ"
-      ],
-      "trump": "Trump continues to signal further strikes on Iran highly unlikely as talks progress with Qatar mediation, keeping oil soft; no other fresh market-moving posts.",
-      "watch": "Cash open reaction to hot CPI and elevated Dec hike odds (~85%+); oil/Houthi Saudi attack headlines vs de-escalation; Anthropic IPO details; CRWV earnings AMC; QQQ vs 200DMA; Dec 8-9 FOMC.",
-      "forSite": []
-    },
-    {
-      "at": "2026-11-10T21:20:00Z",
-      "pulse": "US indices closed lower Tuesday after hot October CPI (+0.4% m/m vs 0.3% est) drove yields higher and locked in December Fed hike odds, with Nasdaq lagging on NVDA -5.5% probe pressure while oil eased on Trump Iran de-escalation signals.",
-      "bias": "risk-off — hot CPI and hawkish Waller comments raised Dec 50bp hike odds and pressured growth/NQ, partially offset by soft oil on Iran talks and resilient afternoon breadth.",
-      "items": [
-        "@Morpheu5Watcher (~4:19 PM ET): Average S&P stock nearly flat but SPY/tech down post-hot CPI; CRWV beat and raised AH — Mixed",
-        "@HunorHudak2005 (~4:19 PM ET): S&P -0.4%, Nasdaq -0.7%, NVDA -5.5% to lowest since March on Huang probe; 10y ~5%, 2y +18bp — Bearish NQ",
-        "@Investingcom (~4:18 PM ET): Dow, S&P 500 and Nasdaq end lower as Treasury yields rise after hot CPI — Bearish ES/NQ",
-        "@CTKCapitalIntel (~4:17 PM ET): S&P 7520.93 (-0.38%), NDX -0.60%; oil down after Trump said Iran war 'effectively over' — Mixed (oil relief)",
-        "@Trend__Rebel (~4:20 PM ET): 10y +10bp to 4.98%, 2y +17bp; S&P -0.38%, Nasdaq -0.76%, NVDA -5.5% — Bearish rates/NQ"
-      ],
-      "trump": "Trump signaled the Iran war could end 'fairly soon' and that Iran is 'militarily effectively over' after Qatar talks, helping drive oil lower and supporting broader risk sentiment despite CPI pressure.",
-      "watch": "Veterans Day bond market close Wednesday (stocks open); Friday PPI; after-hours reaction to CRWV/others; Dec 8-9 FOMC with hike fully priced; oil vs further Iran headlines.",
-      "forSite": []
-    },
-    {
-      "at": "2026-11-10T21:22:23Z",
-      "pulse": "NQ closed red (Nasdaq -0.69% to 25,080, SPX -0.38% to 7,521.50) as hot Oct CPI plus hawkish Waller/Logan/Bowman talk repriced a bigger Dec hike and NVDA bled ~-6-7% on the Huang probe, partly offset by CRWV's beat-and-raise (+7% AH) and softer crude.",
-      "bias": "risk-off — hot CPI (0.4% headline / 0.3% core vs 0.3/0.2) and Fed speakers floating 50bp in Dec lift yields and hit growth; NVDA leadership risk weighs on semis; CRWV AH beat and lower oil only partial offsets.",
-      "items": [
-        "@FirstSquawk (~4:02 PM ET): Nasdaq closes -0.69% at 25,080.24, S&P -0.38% at 7,521.50, Dow -0.29% at 52,237.81 — Bearish NQ",
-        "@FirstSquawk (~4:19 PM ET): Fed's Waller warns 50bp Dec hike may be necessary; Logan backs at least two more 25bp hikes, possibly faster; Bowman shifting focus to inflation — Bearish NQ",
-        "@DeItaone (~3:04 PM ET): NVDA falls -7.06% to session low; House GOP weighing subpoena of Huang (ABC, ~2:40 PM ET); Commerce delays Megaspeed entity listing (FT, ~3:07 PM ET) — Bearish NQ",
-        "@zerohedge (~4:06-4:07 PM ET): CRWV Q3 rev $3.66B vs $3.56B est, adj EBITDA $2.26B vs $2.05B, FY rev guide raised to $13.0-13.3B, shares +7% AH; Q4 interest expense $1.05-1.15B — Bullish NQ (AI infra)",
-        "@FirstSquawk (~2:59 PM ET): WTI settles $86.04 (-0.93%), Brent $91.49 (-1.17%) — Mixed NQ (oil relief vs hot CPI)"
-      ],
-      "trump": "No new market-moving Trump headline into the close; NYT (via @LiveSquawk ~2:29 PM ET) reported Trump was told on his China trip about spying on the Nvidia CEO despite his denial, adding to NVDA overhang.",
-      "watch": "CRWV AH follow-through and call tonight; Wed Nov 11 Veterans Day (bond market closed, stocks open); Thu Nov 12 NBIS BMO, CSCO + AMAT AMC; Fri PPI 8:30 AM ET; more Fed speakers; NVDA/Huang probe headlines; Dec FOMC hike pricing (25 vs 50bp).",
-      "forSite": []
-    }
-  ]
+  "trump": "Trump continues to signal new military strikes on Iran 'highly unlikely' amid Qatar-mediated talks, driving oil to two-month lows; no major new market-moving posts into evening.",
+  "watch": "Veterans Day Wednesday (stocks open, bonds closed, thinner liquidity); Thu jobless claims 8:30 AM ET; Fri PPI 8:30 AM ET; NVDA probe/earnings Nov 17; Anthropic IPO roadshow; any Iran/oil headline reversals; Dec FOMC hike size (25 vs 50bp).",
+  "forSite": []
 }
