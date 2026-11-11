@@ -1,6 +1,6 @@
 {
   "date": "2026-11-11",
-  "at": "2026-11-11T14:23:38Z",
+  "at": "2026-11-11T21:27:16Z",
   "items": [
     {
       "ticker": "CEG",
@@ -59,7 +59,7 @@
       "when": "AMC",
       "status": "reported",
       "why": "Q3 rev $3.66B vs ~$3.56B est; adj EBITDA $2.26B vs $2.05B (62% margin); loss/sh $1.27 vs $1.46 est; backlog ~$132.5B; FY26 rev guide raised to $13.0-13.3B from $12-13B; capex low end raised to $37-39B; Q4 interest expense $1.05-1.15B",
-      "reaction": "+7% AH; ~+13-17% premarket Wed",
+      "reaction": "+24.7% close Wed to $60.77 (after +7% AH, ~+13-17% premarket)",
       "sentiment": "Bullish"
     },
     {
@@ -102,7 +102,7 @@
       "date": "2026-11-17",
       "when": "AMC",
       "status": "upcoming",
-      "why": "Q3 FY27; own guide $108B ±2%; ~4:20 PM ET release, call 5 PM; Baird downgrade to Neutral (PT $200) Wed; House China panel subpoena threat vs Huang"
+      "why": "Q3 FY27; own guide $108B ±2%; ~4:20 PM ET release, call 5 PM; Baird downgrade to Neutral (PT $200) Wed; House China panel subpoena threat vs Huang; Axios Wed: Trump authorised crackdown on NVDA chip diversions to China after Lutnick stalled curbs"
     },
     {
       "ticker": "DIS",
