@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T23:24:31Z",
+  "updatedAt": "2026-11-12T04:02:17Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -183,9 +183,9 @@
     {
       "id": "un-peace",
       "label": "UN News",
-      "ok": false,
-      "items": 0,
-      "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+      "ok": true,
+      "items": 20,
+      "error": null
     },
     {
       "id": "wsj-biz",
@@ -376,7 +376,7 @@
       "headline": "The Fed Has to Raise Rates. How Fast to Go Has Officials Divided.",
       "source": "New York Times",
       "url": "https://www.nytimes.com/2026/11/11/business/fed-interest-rates-inflation.html",
-      "publishedAt": "2026-11-11T13:40:22Z",
+      "publishedAt": "2026-11-11T13:40:23Z",
       "time": "Wed 8:40 AM",
       "section": "fed",
       "impact": "Medium",
@@ -564,6 +564,18 @@
       "auto": true
     },
     {
+      "id": "f6ae48befdc55",
+      "headline": "Jim Cramer: This is the bet you're making if you buy the Anthropic IPO",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/11/anthropic-ipo-profit-computing-commitments.html",
+      "publishedAt": "2026-11-11T23:30:48Z",
+      "time": "Wed 6:30 PM",
+      "section": "tech",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "f166777c7626a",
       "headline": "Nvidia shares rebound as Jensen Huang faces scrutiny ahead of earnings",
       "source": "CNBC",
@@ -672,18 +684,6 @@
       "auto": true
     },
     {
-      "id": "f5f5e4bfe2b0a",
-      "headline": "Jim Cramer says Anthropic's IPO could make or break the AI trade. Here's why",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/09/anthropic-ipo-ai-trade-jim-cramer.html",
-      "publishedAt": "2026-11-09T23:30:15Z",
-      "time": "Mon 6:30 PM",
-      "section": "tech",
-      "impact": "High",
-      "lean": null,
-      "auto": true
-    },
-    {
       "id": "f06de96a0c058",
       "headline": "Saudi Crude Output Jumps 26% as Riyadh Reports Near Pre-War Production",
       "source": "OilPrice",
@@ -729,6 +729,18 @@
       "section": "energy",
       "impact": "High",
       "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "f1c471295bf36",
+      "headline": "Who Will Buy Sable’s Oil if California Keeps Closing Refineries?",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Energy/Crude-Oil/Who-Will-Buy-Sables-Oil-if-California-Keeps-Closing-Refineries.html",
+      "publishedAt": "2026-11-12T01:00:00Z",
+      "time": "Wed 8:00 PM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
       "auto": true
     },
     {
@@ -786,18 +798,6 @@
       "url": "https://oilprice.com/Latest-Energy-News/World-News/Vitols-Venezuela-Oil-Windfall-Traced-to-Traders-Ties-to-JD-Vance.html",
       "publishedAt": "2026-11-11T18:30:00Z",
       "time": "Wed 1:30 PM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "ff128a9a85914",
-      "headline": "Crude Is Back at 80% in the Gulf, but Refined Products Are Stuck at 35%",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Energy/Energy-General/Crude-Is-Back-at-80-in-the-Gulf-but-Refined-Products-Are-Stuck-at-35.html",
-      "publishedAt": "2026-11-11T18:00:00Z",
-      "time": "Wed 1:00 PM",
       "section": "energy",
       "impact": "Medium",
       "lean": null,
