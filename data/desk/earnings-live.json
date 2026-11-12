@@ -1,7 +1,57 @@
 {
   "date": "2026-11-12",
-  "at": "2026-11-12T14:29:43Z",
+  "at": "2026-11-12T21:20:44Z",
   "items": [
+    {
+      "ticker": "NBIS",
+      "company": "Nebius (NBIS)",
+      "date": "2026-11-12",
+      "when": "BMO",
+      "status": "reported",
+      "reaction": "whipsaw premarket: popped ~+4%, then flipped red (per X posts)",
+      "sentiment": "Mixed",
+      "why": "Q3 rev $980.8M (+571% y/y) vs ~$908M est (~$325M one-time asset-light rev); adj EBITDA $465.8M vs ~$353M; 2027 guide rev $12-13B, capex $40-45B (75-85% covered by prepayments/financing); ARR target ($7B+) slipped to Feb"
+    },
+    {
+      "ticker": "CSCO",
+      "company": "Cisco (CSCO)",
+      "date": "2026-11-12",
+      "when": "AMC",
+      "status": "reported",
+      "reaction": "~+6-8% AH (~$108-110 vs $102.01 close)",
+      "sentiment": "Bullish",
+      "why": "Q1 rev $18.50B (+24% y/y) vs $18.13B est; adj EPS $1.40 vs $1.32; Q2 guide rev $18.0-18.2B / EPS $1.34-1.36 above est; FY rev guide raised to $74.8-75.8B, FY EPS to $5.47-5.53 from $5.05-5.11; hyperscaler AI rev now ~$9B (was $7.5B)"
+    },
+    {
+      "ticker": "AMAT",
+      "company": "Applied Materials (AMAT)",
+      "date": "2026-11-12",
+      "when": "AMC",
+      "status": "reported",
+      "reaction": "~flat AH (some reads ~-3%)",
+      "sentiment": "Mixed",
+      "why": "Q4 sales $10.41B vs $10.27B est; adj EPS $4.16 vs $4.06; semi systems $8.00B vs $7.94B; Q1 sales guide $10.6-11.6B, midpoint above $10.87B est; beat priced in"
+    },
+    {
+      "ticker": "CRWV",
+      "company": "CoreWeave (CRWV)",
+      "date": "2026-11-10",
+      "when": "AMC",
+      "status": "reported",
+      "why": "Q3 rev $3.66B vs ~$3.56B est; adj EBITDA $2.26B vs $2.05B (62% margin); loss/sh $1.27 vs $1.46 est; backlog ~$132.5B; FY26 rev guide raised to $13.0-13.3B from $12-13B; capex low end raised to $37-39B; Q4 interest expense $1.05-1.15B",
+      "reaction": "+24.7% close Wed to $60.77; AI bounce cracked AH on NVDA/Huang headlines",
+      "sentiment": "Bullish"
+    },
+    {
+      "ticker": "SE",
+      "company": "Sea Limited (SE)",
+      "date": "2026-11-10",
+      "when": "BMO",
+      "status": "reported",
+      "reaction": "~-8-9% premarket",
+      "sentiment": "Mixed",
+      "why": "Rev $8.58B +43% y/y (beat); net income $502.5M +34%; EPS miss on AI-investment and competition costs; new $1B buyback"
+    },
     {
       "ticker": "CEG",
       "company": "Constellation Energy (CEG)",
@@ -53,42 +103,6 @@
       "reaction": "~+4% AH (~$216 vs $207.40 close)"
     },
     {
-      "ticker": "CRWV",
-      "company": "CoreWeave (CRWV)",
-      "date": "2026-11-10",
-      "when": "AMC",
-      "status": "reported",
-      "why": "Q3 rev $3.66B vs ~$3.56B est; adj EBITDA $2.26B vs $2.05B (62% margin); loss/sh $1.27 vs $1.46 est; backlog ~$132.5B; FY26 rev guide raised to $13.0-13.3B from $12-13B; capex low end raised to $37-39B; Q4 interest expense $1.05-1.15B",
-      "reaction": "+24.7% close Wed to $60.77; AI bounce cracked AH on NVDA/Huang headlines",
-      "sentiment": "Bullish"
-    },
-    {
-      "ticker": "AMAT",
-      "company": "Applied Materials (AMAT)",
-      "date": "2026-11-12",
-      "when": "AMC",
-      "status": "upcoming",
-      "why": "Semi equipment; AI capex cycle read with CSCO same night"
-    },
-    {
-      "ticker": "CSCO",
-      "company": "Cisco (CSCO)",
-      "date": "2026-11-12",
-      "when": "AMC",
-      "status": "upcoming",
-      "why": "Networking / AI infra spend; largest NQ-adjacent name next week"
-    },
-    {
-      "ticker": "SE",
-      "company": "Sea Limited (SE)",
-      "date": "2026-11-10",
-      "when": "BMO",
-      "status": "reported",
-      "reaction": "~-8-9% premarket",
-      "sentiment": "Mixed",
-      "why": "Rev $8.58B +43% y/y (beat); net income $502.5M +34%; EPS miss on AI-investment and competition costs; new $1B buyback"
-    },
-    {
       "ticker": "NVDA",
       "company": "NVIDIA (NVDA)",
       "date": "2026-11-17",
@@ -103,16 +117,6 @@
       "when": "BMO",
       "status": "upcoming",
       "why": "FY Q4; call 8:30 AM ET"
-    },
-    {
-      "ticker": "NBIS",
-      "company": "Nebius (NBIS)",
-      "date": "2026-11-12",
-      "when": "BMO",
-      "status": "reported",
-      "reaction": "whipsaw premarket: popped ~+4%, then flipped red (per X posts)",
-      "sentiment": "Mixed",
-      "why": "Q3 rev $980.8M (+571% y/y) vs ~$908M est (~$325M one-time asset-light rev); adj EBITDA $465.8M vs ~$353M; 2027 guide rev $12-13B, capex $40-45B (75-85% covered by prepayments/financing); ARR target ($7B+) slipped to Feb"
     }
   ]
 }
