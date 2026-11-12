@@ -1,0 +1,57 @@
+{
+ "date": "2026-11-12",
+ "entryUrl": "https://app.notion.com/41660e8f5c45809c8ff5e281cb3046a0",
+ "summary": "Clean A-grade win. You wrote 'want longs, just need a protected low' at 9:24 AM, before the open. The market gave you exactly that: an SMT low just above NYAM.L, a 1-minute displacement at the open, and a long from 28,133.25 with the stop at 28,044.50 under the SMT low. Price ran to 28,444.75 by about 10:54 for 3.51R on XFA. The R in your journal matches the RR tool to the decimal. AB's only comment was that it was a great trade, emotionally too. The one thing to tighten is the management after the trail. Your notes say you went to breakeven at London high, but the chart marks 'Trailed' around 28,330, which is well above breakeven. Your journal should say exactly where the stop was.",
+ "trade": "Long · NY-AM · XFA · Win 3.51R · entry 28,133.25 (~9:3x AM ET, right after the open) · stop 28,044.50 under the SMT low (88.75 pts) · target 28,444.75 hit ~10:54 AM.",
+ "rule": "Tomorrow, take an open (MO) trade only if the structure and the protected low or high your stop sits under are already written in Notion by 9:30. Set the target at your pre-market DOL before you click. After a full-target win, you're done for the day: no second trade.",
+ "screenshots": [
+  {
+   "label": "Execution 1 · 1min NQ + ES (10:08 AM)",
+   "feedback": "This is the textbook version of your model. ES and NQ both swept toward NYAM.L, and NQ printed the marked SMT low at the 0.786 instead of making a clean lower low. Then the 9:30 candle displaced through the range. You entered at 28,133.25 with the stop at 28,044.50, just under the SMT low and inside the 0.786. That low was protected, so the stop was in the right place. The only exposure was the deeper swing low near 28,010 (the '1'). A stop-hunt there would have taken you out, so it's worth knowing that risk was on the table."
+  },
+  {
+   "label": "Execution 2 · 1min NQ + ES (10:55 AM)",
+   "feedback": "The target box tops out at 28,444.75. Price tagged it at about 10:54 (your alert fired at 28,442.75 at 10:54:27), after holding above D OPEN and PD-EQ through the 10:00 pullback. The green zone from about 10:00 to 10:30 held as support. You marked 'Trailed' near 28,330 at the London high, and the next pullback dipped close to that line before the final leg. RR: (28,444.75 − 28,133.25) / 88.75 = 3.51, which matches your journal."
+  },
+  {
+   "label": "Pre-market · Daily ES + NQ (9:23 AM)",
+   "feedback": "Daily NQ is bouncing off the early-November flush and trading between PD-L and PD-H, around PD-EQ. A long bias into a bullish rebalance makes sense here, but this chart only gives context. It doesn't give you an entry."
+  },
+  {
+   "label": "Pre-market · 4H ES + NQ (9:24 AM)",
+   "feedback": "You marked the 4H bullish gap and the fib from the swing low to the 28,700s high. Price was sitting in the green 0.5 to 0.618 gap zone at about 28,060. That backs up your note 'inside a 4hr bullish gap/EQ' and puts the long in a discount, not a premium."
+  },
+  {
+   "label": "Pre-market · 1H ES + NQ (9:24 AM)",
+   "feedback": "Same story on the 1H: price pulled into the green gap at the 0.5 to 0.618 of the leg from the 10th, just above PD-L. The protected low you wanted had to come from this zone, and it did."
+  },
+  {
+   "label": "Pre-market · 15m ES + NQ (9:24 AM)",
+   "feedback": "On the 15m, Asia and London ranges are marked (AS.H/L, LO.H/L, NYAM, NYPM, D OPEN). Price had dropped below LO.L into the 0.5 of the gap before the open. The LO.H here is the London high you used to move your stop, so that level was in your plan before the open, and it shows."
+  }
+ ],
+ "good": [
+  "Your plan came first: 'want longs, just need a protected low' and DOL 'NDOG fill' were in Notion at 9:24 AM, and the trade you took was that plan.",
+  "Accurate numbers: the entry, stop and target on the chart give exactly the 3.51R you logged.",
+  "The stop went under a real protected low (the SMT low), not an arbitrary number of points.",
+  "NY session only, one XFA account, and no eval or prop-firm purchase in your email today.",
+  "You stayed in through the 10:00 pullback to D OPEN and PD-EQ and let the trade reach its target instead of grabbing 2R like Tuesday."
+ ],
+ "fix": [
+  "Your notes say 'went BE at London high', but the chart marks 'Trailed' at about 28,330, which locks in roughly 2.2R, not breakeven. Write the exact stop price after every move so your journal and your risk stats stay accurate.",
+  "Your entry came right after the 9:30 open, before 10:00. Your own rule ('structure before MO = green light') covers it, but put that exception in your rules page so it's a rule and not a feeling.",
+  "Under emotions during the trade you wrote 'calm & annoyed' but not what annoyed you. If it was the pullback to D OPEN, that's the emotion that could cut a winner early next time. Name it."
+ ],
+ "questions": [
+  {
+   "q": "You wrote 'went BE at London high', but the chart says 'Trailed' near 28,330. What was your stop's exact price after you moved it, and how close did the pullback come to taking you out?"
+  },
+  {
+   "q": "Your DOL was 'NDOG fill' and the trade ended at 28,444.75, near NYAM high. Was 28,444.75 the NDOG fill level, or did you aim short of your DOL?"
+  },
+  {
+   "q": "You felt 'calm & annoyed' during the trade. What exactly annoyed you, and if it had gotten stronger, what would you have done with the position?"
+  }
+ ],
+ "reviewedAt": "2026-11-12T21:19:31Z"
+}
