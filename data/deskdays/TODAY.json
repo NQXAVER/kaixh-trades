@@ -1,18 +1,18 @@
 {
-  "date": "2026-11-11",
+  "date": "2026-11-12",
   "grok": {
-    "at": "2026-11-11T03:06:00Z",
-    "pulse": "Hot October CPI (+0.4% m/m) and elevated December Fed hike odds (Waller open to 50bp) pressured Nasdaq to a -0.74% close on Tuesday, partially offset by soft oil near two-month lows on Iran de-escalation signals and modest overnight futures firmness into thin Veterans Day trade.",
-    "bias": "mixed — Iran de-escalation and softer crude support risk-on, but sticky inflation and near-certain Dec hike keep yields high and tech/NQ under pressure.",
+    "at": "2026-11-12T01:11:07Z",
+    "pulse": "Nasdaq and S&P futures bounced on AI optimism from CoreWeave earnings and softer Iran rhetoric, reversing prior hot-CPI pressure, while oil rebounds on residual Middle East tensions and December FOMC hike odds remain elevated.",
+    "bias": "mixed — AI-driven risk-on in NQ/tech offset by hawkish rate pricing after hot CPI and lingering Iran/oil geopolitical risk.",
     "items": [
-      "@capitsignal (~10:05 PM ET): Global morning brief — Nasdaq closed -0.74%, Brent ~$92 two-month low, hot CPI reviving Dec hike concerns, Asia showing resilience",
-      "@IamAtulRoy (~10:01 PM ET): Pre-market pulse — SPX -0.38%, Nasdaq -0.74%, 10Y 4.98% +12bp, Gift Nifty gap-up, crude $92.4",
-      "@data_magician_ (~10:00 PM ET): Tuesday futures split post-CPI — Nasdaq 100 -0.8%, S&P 500 -0.3%, 10-year near 4.9%",
-      "@NiketSoni2 (~9:58 PM ET): Global markets snapshot — Nasdaq 25,066 -0.74%, oil soft, most Asia green",
-      "@shail_bhatnagar (~10:05 PM ET): Oil dips further below $95; Trump says major military action on Iran over"
+      "@Sino_Market (~4:17 AM ET): US equity index futures rose, Nasdaq-100 +1.67%, S&P +0.76% on AI optimism — Bullish NQ/ES",
+      "@RealJamesTylee (~10:09 AM ET): Nasdaq futures led stocks higher as AI optimism returned after rate-hike fears — Bullish NQ",
+      "@movesurge (~8:09 AM ET): Nasdaq futures jump 2% as AI sentiment rebounds and markets recover from Fed concerns — Bullish NQ",
+      "@Ajay_Bagga (~8:05 PM ET): Oil prices rose after Iranian security chief said no enriched nuclear material would leave; Brent to $92.76 — Mixed oil/risk",
+      "@TRADEBOLTINDIA (~8:10 PM ET): US futures update — Nasdaq -260 leading decline, markets cautious overnight — Bearish NQ"
     ],
-    "trump": "No major new market-moving posts; prior signals that new Iran strikes are highly unlikely amid Qatar-mediated talks continue to weigh on crude near two-month lows.",
-    "watch": "Wednesday Nov 11 Veterans Day (stocks open, bonds closed, thinner liquidity); overnight Asia/JGB reaction to hot CPI and yields; Thu 8:30 AM ET jobless claims; Fri 8:30 AM ET PPI; Dec FOMC hike size (25 vs 50bp); NVDA probe/earnings Nov 17; any Iran/oil headline reversals.",
+    "trump": "Signaled reduced likelihood of further military action against Iran earlier, aiding de-escalation narrative and equity bounce, though residual tensions keep oil supported.",
+    "watch": "Overnight Asia reaction and any fresh Iran/Hormuz or oil headlines; Thursday 8:30 AM ET jobless claims, bond market reopening with 30Y auction; Dec FOMC hike size odds (25 vs 50bp); AI names (CRWV, NVDA) follow-through.",
     "forSite": []
   }
 }
