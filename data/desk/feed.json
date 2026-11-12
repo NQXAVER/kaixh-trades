@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T16:52:40Z",
+  "updatedAt": "2026-11-12T17:25:37Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -204,6 +204,30 @@
   ],
   "items": [
     {
+      "id": "f12b6dd4a90fb",
+      "headline": "Jerusalem Daily: Gaza’s Nasser Hospital hit by Israeli air strike",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/jerusalem-daily-gazas-nasser-hospital-hit-by-israeli-air-strike?traffic_source=rss",
+      "publishedAt": "2026-11-12T16:55:10Z",
+      "time": "Thu 11:55 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "f2c94962f866a",
+      "headline": "Eight killed in Colombian air strike targeting Gulf Clan gang",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/crgj3v3z10dno?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-11-12T13:58:49Z",
+      "time": "Thu 8:58 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
       "id": "ffbdd4ab291eb",
       "headline": "Hormuz Strait will ‘never return’ to pre-war status, Iran’s Ghalibaf says",
       "source": "Al Jazeera",
@@ -297,30 +321,6 @@
       "section": "war",
       "impact": "High",
       "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "fc7c95ba47bee",
-      "headline": "Oil Prices Plunge Below $92 as Trump Signals Restraint on Iran",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Plunge-Below-92-as-Trump-Signals-Restraint-on-Iran.html",
-      "publishedAt": "2026-11-10T05:20:00Z",
-      "time": "Tue 12:20 AM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "f7d09b02016fa",
-      "headline": "Saudi Arabia downs missiles fired at Riyadh after Houthi attack on pipeline",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/11/10/saudi-arabia-downs-missiles-fired-at-riyadh-after-houthi-attack-on-pipeline?traffic_source=rss",
-      "publishedAt": "2026-11-10T03:17:51Z",
-      "time": "Mon 10:17 PM",
-      "section": "war",
-      "impact": "High",
-      "lean": null,
       "auto": true
     },
     {
@@ -720,18 +720,6 @@
       "auto": true
     },
     {
-      "id": "f08f7de71792f",
-      "headline": "Saudi Aramco Tower Damaged as Yemen’s Houthis Attack Riyadh",
-      "source": "New York Times",
-      "url": "https://www.nytimes.com/2026/11/08/world/middleeast/saudi-aramco-tower-riyadh-hit.html",
-      "publishedAt": "2026-11-08T16:52:42Z",
-      "time": "Sun 11:52 AM",
-      "section": "energy",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
       "id": "f105efb00815a",
       "headline": "EU Imports of Russian LNG Top 2025 Value Ahead of January Ban",
       "source": "OilPrice",
@@ -798,6 +786,18 @@
       "url": "https://www.cnbc.com/2026/11/12/ai-consulting-billable-hours-graduate-hiring.html",
       "publishedAt": "2026-11-12T08:20:56Z",
       "time": "Thu 3:20 AM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f1c471295bf36",
+      "headline": "Who Will Buy Sable’s Oil if California Keeps Closing Refineries?",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Energy/Crude-Oil/Who-Will-Buy-Sables-Oil-if-California-Keeps-Closing-Refineries.html",
+      "publishedAt": "2026-11-12T01:00:00Z",
+      "time": "Wed 8:00 PM",
       "section": "energy",
       "impact": "Medium",
       "lean": null,
