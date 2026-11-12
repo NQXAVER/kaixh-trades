@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T04:02:17Z",
+  "updatedAt": "2026-11-12T07:24:11Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -732,6 +732,18 @@
       "auto": true
     },
     {
+      "id": "f3b81d0ec0a0e",
+      "headline": "UK economy grows by 0.7% in third quarter despite high oil prices",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/nov/12/uk-economy-grows-third-quarter-oil-price-ons-gdp",
+      "publishedAt": "2026-11-12T07:07:36Z",
+      "time": "Thu 2:07 AM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "f1c471295bf36",
       "headline": "Who Will Buy Sable’s Oil if California Keeps Closing Refineries?",
       "source": "OilPrice",
@@ -786,18 +798,6 @@
       "url": "https://oilprice.com/Latest-Energy-News/World-News/Murphy-Oil-Draws-Boycott-Call-Over-Israeli-Gas-Licenses.html",
       "publishedAt": "2026-11-11T19:30:00Z",
       "time": "Wed 2:30 PM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f62f40fad6277",
-      "headline": "Vitol’s Venezuela Oil Windfall Traced to Trader’s Ties to JD Vance",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Vitols-Venezuela-Oil-Windfall-Traced-to-Traders-Ties-to-JD-Vance.html",
-      "publishedAt": "2026-11-11T18:30:00Z",
-      "time": "Wed 1:30 PM",
       "section": "energy",
       "impact": "Medium",
       "lean": null,
