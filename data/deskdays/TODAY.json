@@ -1,18 +1,18 @@
 {
   "date": "2026-11-12",
   "grok": {
-    "at": "2026-11-12T01:11:07Z",
-    "pulse": "Nasdaq and S&P futures bounced on AI optimism from CoreWeave earnings and softer Iran rhetoric, reversing prior hot-CPI pressure, while oil rebounds on residual Middle East tensions and December FOMC hike odds remain elevated.",
-    "bias": "mixed — AI-driven risk-on in NQ/tech offset by hawkish rate pricing after hot CPI and lingering Iran/oil geopolitical risk.",
+    "at": "2026-11-12T12:01:27Z",
+    "pulse": "NQ/Nasdaq futures down ~0.8-0.9% premarket (~28.2k) as NVDA plunges ~7% on CEO Jensen Huang leadership uncertainty and board probe, while oil eases on US-Iran diplomacy hopes amid elevated Dec FOMC hike odds after hot CPI.",
+    "bias": "mixed — risk-off on NVDA key-man shock dragging the largest NQ weight, offset by oil relief from Iran de-escalation talk, Dow resilience, and AMD rotation.",
     "items": [
-      "@Sino_Market (~4:17 AM ET): US equity index futures rose, Nasdaq-100 +1.67%, S&P +0.76% on AI optimism — Bullish NQ/ES",
-      "@RealJamesTylee (~10:09 AM ET): Nasdaq futures led stocks higher as AI optimism returned after rate-hike fears — Bullish NQ",
-      "@movesurge (~8:09 AM ET): Nasdaq futures jump 2% as AI sentiment rebounds and markets recover from Fed concerns — Bullish NQ",
-      "@Ajay_Bagga (~8:05 PM ET): Oil prices rose after Iranian security chief said no enriched nuclear material would leave; Brent to $92.76 — Mixed oil/risk",
-      "@TRADEBOLTINDIA (~8:10 PM ET): US futures update — Nasdaq -260 leading decline, markets cautious overnight — Bearish NQ"
+      "@HedgeyeDJ (~6:45 AM ET): Futures Nasdaq -0.8% (NVDA -7% pre), ES -0.4%, Dow flat, WTI -0.6% to $85.98; gold sub-$4k on hot CPI locking Dec hike — Mixed NQ",
+      "@SNFuturesLive (~6:30 AM ET): NQ -0.86% to 28,227.50, ES -0.39%, NVDA -6.96% pre on leadership uncertainty, AMD +3.67%; jobless claims 8:30 AM — Bearish NQ",
+      "@DeItaone (~11:58 UTC): Multiple downgrades and PT cuts on $NVDA (Bernstein, Oppenheimer, William Blair, Evercore) — Bearish NQ",
+      "@TheAlphaBrief (~6:58 AM ET): US futures S&P -0.4%/Nasdaq -0.9%; oil Brent ~$91.72/WTI ~$85.64 off ~1% on Abu Dhabi peace-talk hopes — Mixed",
+      "@geo_z0ne (~7:00 AM ET): Israel preparing possible Iran strike, IRGC claims tankers stopped in Hormuz (unconfirmed), Brent ~$92 — Mixed oil"
     ],
-    "trump": "Signaled reduced likelihood of further military action against Iran earlier, aiding de-escalation narrative and equity bounce, though residual tensions keep oil supported.",
-    "watch": "Overnight Asia reaction and any fresh Iran/Hormuz or oil headlines; Thursday 8:30 AM ET jobless claims, bond market reopening with 30Y auction; Dec FOMC hike size odds (25 vs 50bp); AI names (CRWV, NVDA) follow-through.",
+    "trump": "none",
+    "watch": "8:30 AM ET jobless claims and bond market reopening (1 PM 30Y auction); NVDA board decision/Huang updates; residual Iran/Hormuz oil headlines; CSCO + AMAT AMC; Dec FOMC hike odds; NVDA earnings Nov 17.",
     "forSite": []
   }
 }
