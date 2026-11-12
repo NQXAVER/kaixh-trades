@@ -1,17 +1,17 @@
 {
   "date": "2026-11-12",
-  "at": "2026-11-12T12:23:18Z",
-  "pulse": "NQ heavy premarket (back under ~28.39k, ~-0.8%) as NVDA's board/Huang crisis draws a 5th downgrade (Melius) and Trump threatens to double Mexico tariffs, partly offset by NBIS beat/2027 guide and Russia-Ukraine talk progress.",
-  "bias": "risk-off — largest NQ weight NVDA bleeding on leadership/China-spy probe plus fresh tariff threat and a Gulf tanker-attack warning; NBIS AI-cloud beat and Putin-Witkoff talks are only partial offsets.",
+  "at": "2026-11-12T14:29:43Z",
+  "pulse": "NQ deep red premarket (futures hit -1.4% at 8:17 AM ET) as NVDA ~-10-13% after Jensen Huang resigned as CEO effective immediately (CFO Kress interim), with oil bid on Trump's 'don't need a deal with Iran' and hawkish Hammack; only offset is a soft-ish 200K claims print.",
+  "bias": "risk-off — largest NQ weight NVDA in a leadership shock dragging the whole AI/semis complex, plus oil +1% on Iran/Hormuz headlines, ~5% 10Y and Hammack talking rate increases; BTC at a 12-week low confirms de-risking.",
   "items": [
-    "@DeItaone (~6:58 AM ET): NVDA downgraded by Bernstein (PT $200 from $400), Oppenheimer, William Blair, Evercore; Melius to Hold PT $185 at 7:09 — Bearish NQ",
-    "@DeItaone (~7:05 AM ET): Trump on Truth Social: Mexico must stop caravans or tariffs 'will be immediately doubled' — Bearish NQ",
-    "@StockStormX (~7:21 AM ET): NBIS Q3 rev $980.8M vs $908M est; 2027 guide rev $12-13B, capex $40-45B; ARR target slips to Feb; stock whipsawing pre (+4% then red) — Mixed NQ",
-    "@LiveSquawk (~7:09 AM ET): UKMTO warning over tanker attack in Arabian Gulf — Bearish NQ (oil bid)",
-    "@FirstSquawk (~7:11 AM ET): Putin meeting US envoys Witkoff & Kushner; Witkoff says Abu Dhabi delegations 'worked effectively' — Mixed NQ"
+    "@DeItaone (~8:48 AM ET): NVDA — Jensen Huang resigns as president, CEO and board member effective immediately; CFO Colette Kress interim CEO; NVDA -10% pre, -13% by 9:22 (@FirstSquawk) — Bearish NQ",
+    "@DeItaone (~8:21 AM ET): Brent/WTI +1% as Trump says US 'doesn't need deal with Iran'; @zerohedge (~9:17): Iran hits Omani island guiding Hormuz tankers — Bearish NQ",
+    "@LiveSquawk (~8:30 AM ET): Initial claims 200K vs 194K est (prev 191K R); continuing 1.697M vs 1.710M est — Mixed NQ",
+    "@FirstSquawk (~9:03 AM ET): Fed's Hammack: 'smaller, steadier rate increases give economy time to adjust', broadening price pressures, energy secondary effects — Bearish NQ",
+    "@DeItaone (~9:17 AM ET): House Speaker Johnson favors limiting chip exports to China; BTC 12-week low $72,103 (9:16) — Bearish NQ"
   ],
-  "trump": "Truth Social (~7:05 AM ET): 'MEXICO MUST STOP CARAVANS, NOW, AND IF THEY DO NOT DO SO, TARIFFS ON MEXICO WILL BE IMMEDIATELY DOUBLED'; separately reported to have ordered a crackdown on Nvidia chip diversion to China (Megaspeed).",
-  "watch": "8:30 AM ET jobless claims; 9:30 open NVDA reaction; NVDA board decision on Huang (could come today); 1 PM 30Y auction; Gulf/Hormuz tanker headlines; CSCO + AMAT AMC tonight; NVDA earnings Nov 17 AMC.",
+  "trump": "Said the US 'doesn't need a deal with Iran' / 'has its Strait' (~8:10 AM ET; oil erased losses, Brent +1%); USTR Greer (~8:45 AM ET) says Trump 'prepared to take action on tariffs' on Mexico after the 7 AM 'tariffs will be immediately doubled' post; Truth Social asking Vance to focus on crime in Democrat-run cities (not market-moving).",
+  "watch": "9:30 AM ET open: NVDA gap ~-10-13% and SOXX/AI follow-through; Hormuz/Iran-Oman headlines for CL; 1 PM ET 30Y auction with 10Y ~5%; Fed speakers; CSCO + AMAT AMC tonight; NVDA all-hands Nov 18 9 AM PT; NVDA earnings Nov 17 AMC.",
   "forSite": [],
   "reports": [
     {
@@ -42,6 +42,21 @@
       ],
       "trump": "Truth Social (~7:05 AM ET): 'MEXICO MUST STOP CARAVANS, NOW, AND IF THEY DO NOT DO SO, TARIFFS ON MEXICO WILL BE IMMEDIATELY DOUBLED'; separately reported to have ordered a crackdown on Nvidia chip diversion to China (Megaspeed).",
       "watch": "8:30 AM ET jobless claims; 9:30 open NVDA reaction; NVDA board decision on Huang (could come today); 1 PM 30Y auction; Gulf/Hormuz tanker headlines; CSCO + AMAT AMC tonight; NVDA earnings Nov 17 AMC.",
+      "forSite": []
+    },
+    {
+      "at": "2026-11-12T14:29:43Z",
+      "pulse": "NQ deep red premarket (futures hit -1.4% at 8:17 AM ET) as NVDA ~-10-13% after Jensen Huang resigned as CEO effective immediately (CFO Kress interim), with oil bid on Trump's 'don't need a deal with Iran' and hawkish Hammack; only offset is a soft-ish 200K claims print.",
+      "bias": "risk-off — largest NQ weight NVDA in a leadership shock dragging the whole AI/semis complex, plus oil +1% on Iran/Hormuz headlines, ~5% 10Y and Hammack talking rate increases; BTC at a 12-week low confirms de-risking.",
+      "items": [
+        "@DeItaone (~8:48 AM ET): NVDA — Jensen Huang resigns as president, CEO and board member effective immediately; CFO Colette Kress interim CEO; NVDA -10% pre, -13% by 9:22 (@FirstSquawk) — Bearish NQ",
+        "@DeItaone (~8:21 AM ET): Brent/WTI +1% as Trump says US 'doesn't need deal with Iran'; @zerohedge (~9:17): Iran hits Omani island guiding Hormuz tankers — Bearish NQ",
+        "@LiveSquawk (~8:30 AM ET): Initial claims 200K vs 194K est (prev 191K R); continuing 1.697M vs 1.710M est — Mixed NQ",
+        "@FirstSquawk (~9:03 AM ET): Fed's Hammack: 'smaller, steadier rate increases give economy time to adjust', broadening price pressures, energy secondary effects — Bearish NQ",
+        "@DeItaone (~9:17 AM ET): House Speaker Johnson favors limiting chip exports to China; BTC 12-week low $72,103 (9:16) — Bearish NQ"
+      ],
+      "trump": "Said the US 'doesn't need a deal with Iran' / 'has its Strait' (~8:10 AM ET; oil erased losses, Brent +1%); USTR Greer (~8:45 AM ET) says Trump 'prepared to take action on tariffs' on Mexico after the 7 AM 'tariffs will be immediately doubled' post; Truth Social asking Vance to focus on crime in Democrat-run cities (not market-moving).",
+      "watch": "9:30 AM ET open: NVDA gap ~-10-13% and SOXX/AI follow-through; Hormuz/Iran-Oman headlines for CL; 1 PM ET 30Y auction with 10Y ~5%; Fed speakers; CSCO + AMAT AMC tonight; NVDA all-hands Nov 18 9 AM PT; NVDA earnings Nov 17 AMC.",
       "forSite": []
     }
   ]
