@@ -2,18 +2,18 @@
   "date": "2026-11-11",
   "grok": {
     "date": "2026-11-11",
-    "at": "2026-11-11T21:27:16Z",
-    "pulse": "NQ closed strong (Nasdaq Comp +1.59% to 25,465, NDX ~+2.3%, S&P +1.31% to 7,619) on the CoreWeave-led AI/memory squeeze with ~$26.5B levered-ETF buying into the bell; post-close Axios headlines on Trump authorizing an Nvidia China-diversion crackdown plus a Hawley data-center moratorium push are the offsets into tomorrow.",
-    "bias": "risk-on — AI capex relief (CRWV +24.7%, MU +11.9%, NVDA +2.9%) and VIX ~17.5 (from 28 on Nov 5) keep dips bought, but NVDA China-curb headlines, Iran/Hormuz risk (Bessent relocated after Iranian threats) and Dec hike pricing cap chase.",
+    "at": "2026-11-12T01:28:09Z",
+    "pulse": "NQ gave back the CoreWeave-led cash rally after the close: NVDA -8% AH on WSJ/BBG reports the board is preparing to oust Jensen Huang (emergency board meeting tonight, outside firm hunting a temp CEO), dragging NQ ~-1% to ~28,200 from a 28,697 session high; offsets are the strong cash close (Comp +1.6%, QQQ +2.3%), AMD +~4% AH on rotation and the White House saying it won't intervene.",
+    "bias": "risk-off — NVDA (largest NQ weight) leadership shock with a board decision possible overnight plus 2Y yield +5bp to 4.78% (2-wk high) and Dec hike pricing; offset by Comp +1.6% close, VIX ~17.5 and dip-buying into NVDA Nov 17 earnings.",
     "items": [
-      "@FirstSquawk (~4:01 PM ET): Nasdaq closes +1.59% at 25,465.38; S&P +1.31% at 7,619.22; Dow +0.45% — Bullish NQ",
-      "@zerohedge (~3:44 PM ET): McElligott est. $26.5B levered-ETF buying into the close, $14.9B in semis (one of the largest ever) — Mixed NQ (flow-driven, can unwind)",
-      "@DeItaone (~4:03 PM ET): Axios — Lutnick stalled Trump's Nvidia–China chip crackdown 3x; @FirstSquawk (~4:12 PM): Trump authorised crackdown on NVDA chip diversions to China — Bearish NQ (NVDA/semis AH risk)",
-      "@unusual_whales (~3:41 PM ET): Sen. Hawley backs a nationwide data-center construction moratorium — Bearish NQ (AI infra headline risk)",
-      "@DeItaone (~4:14 PM ET): Bessent moved to military housing after Iranian threats (BBG); Kushner/Witkoff to meet Putin in Moscow Thu (~4:17 PM) — Mixed NQ (Iran risk vs Russia diplomacy)"
+      "@DeItaone (~5:30 PM ET): NVDA extends decline to -8.5% postmarket; @WatcherGuru (~5:31 PM): WSJ — Nvidia prepares to fire CEO Jensen Huang — Bearish NQ",
+      "@DeItaone (~6:22-6:39 PM ET): NVDA board meeting Wed to decide on ousting Huang; working with outside firm on new CEO, weighs naming a temporary CEO (BBG) — Bearish NQ",
+      "@cablefxmacro (~7:29 PM ET): E-mini Nasdaq futures -1.1%, NVDA -7.1% AH; @DeItaone (~5:44 PM): CRWV follows NVDA lower, -6% — Bearish NQ",
+      "@DeItaone (~7:45 PM ET): White House isn't intervening in Nvidia board's decision (WaPo); @WatcherGuru (~8:25 PM): Musk says it would \"be an honor\" to hire Huang — Mixed NQ",
+      "@FirstSquawk (~8:19 PM ET): US 2Y yield +~5bp to 4.7756% (2-wk high), 10Y steady at 4.99%; Asia-Pac stocks fall on NVDA/Huang report (~8:00 PM) — Bearish NQ"
     ],
-    "trump": "Axios (~4:03-4:12 PM ET): Trump approved action three times to curb Nvidia chip diversions to China and has now authorised a crackdown after Commerce's Lutnick stalled it; Bessent pressed Lutnick on why NVDA customer Megaspeed isn't on the entity list. Otherwise Veterans Day remarks only.",
-    "watch": "Tonight: NVDA/semis AH reaction to China-crackdown headlines; Iran/Hormuz and Bessent-threat follow-ups. Thu: 8:30 AM ET jobless claims, bond market reopens (1 PM 30Y auction), Kushner/Witkoff–Putin talks, NBIS BMO, CSCO + AMAT AMC. NVDA Nov 17 AMC.",
+    "trump": "No direct Trump comment on Huang; CBS reporter (via @DeItaone ~6:31 PM ET) says the Trump administration is aware the NVDA board is preparing to oust Huang, and WaPo (~7:45 PM ET) says the White House isn't intervening. Earlier Axios: Trump authorised a crackdown on NVDA chip diversions to China.",
+    "watch": "Overnight: NVDA board decision on Huang / interim CEO naming (any headline moves NQ 1%+), Asia semis, Iran/Hormuz headlines. Thu: 8:30 AM ET jobless claims, bond market reopens (1 PM ET 30Y auction), Kushner/Witkoff–Putin talks, NBIS BMO, CSCO + AMAT AMC. NVDA earnings Nov 17 AMC.",
     "forSite": [],
     "reports": [
       {
@@ -104,6 +104,36 @@
         ],
         "trump": "Axios (~4:03-4:12 PM ET): Trump approved action three times to curb Nvidia chip diversions to China and has now authorised a crackdown after Commerce's Lutnick stalled it; Bessent pressed Lutnick on why NVDA customer Megaspeed isn't on the entity list. Otherwise Veterans Day remarks only.",
         "watch": "Tonight: NVDA/semis AH reaction to China-crackdown headlines; Iran/Hormuz and Bessent-threat follow-ups. Thu: 8:30 AM ET jobless claims, bond market reopens (1 PM 30Y auction), Kushner/Witkoff–Putin talks, NBIS BMO, CSCO + AMAT AMC. NVDA Nov 17 AMC.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-12T01:11:07Z",
+        "pulse": "Nasdaq and S&P futures bounced on AI optimism from CoreWeave earnings and softer Iran rhetoric, reversing prior hot-CPI pressure, while oil rebounds on residual Middle East tensions and December FOMC hike odds remain elevated.",
+        "bias": "mixed — AI-driven risk-on in NQ/tech offset by hawkish rate pricing after hot CPI and lingering Iran/oil geopolitical risk.",
+        "items": [
+          "@Sino_Market (~4:17 AM ET): US equity index futures rose, Nasdaq-100 +1.67%, S&P +0.76% on AI optimism — Bullish NQ/ES",
+          "@RealJamesTylee (~10:09 AM ET): Nasdaq futures led stocks higher as AI optimism returned after rate-hike fears — Bullish NQ",
+          "@movesurge (~8:09 AM ET): Nasdaq futures jump 2% as AI sentiment rebounds and markets recover from Fed concerns — Bullish NQ",
+          "@Ajay_Bagga (~8:05 PM ET): Oil prices rose after Iranian security chief said no enriched nuclear material would leave; Brent to $92.76 — Mixed oil/risk",
+          "@TRADEBOLTINDIA (~8:10 PM ET): US futures update — Nasdaq -260 leading decline, markets cautious overnight — Bearish NQ"
+        ],
+        "trump": "Signaled reduced likelihood of further military action against Iran earlier, aiding de-escalation narrative and equity bounce, though residual tensions keep oil supported.",
+        "watch": "Overnight Asia reaction and any fresh Iran/Hormuz or oil headlines; Thursday 8:30 AM ET jobless claims, bond market reopening with 30Y auction; Dec FOMC hike size odds (25 vs 50bp); AI names (CRWV, NVDA) follow-through.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-12T01:28:09Z",
+        "pulse": "NQ gave back the CoreWeave-led cash rally after the close: NVDA -8% AH on WSJ/BBG reports the board is preparing to oust Jensen Huang (emergency board meeting tonight, outside firm hunting a temp CEO), dragging NQ ~-1% to ~28,200 from a 28,697 session high; offsets are the strong cash close (Comp +1.6%, QQQ +2.3%), AMD +~4% AH on rotation and the White House saying it won't intervene.",
+        "bias": "risk-off — NVDA (largest NQ weight) leadership shock with a board decision possible overnight plus 2Y yield +5bp to 4.78% (2-wk high) and Dec hike pricing; offset by Comp +1.6% close, VIX ~17.5 and dip-buying into NVDA Nov 17 earnings.",
+        "items": [
+          "@DeItaone (~5:30 PM ET): NVDA extends decline to -8.5% postmarket; @WatcherGuru (~5:31 PM): WSJ — Nvidia prepares to fire CEO Jensen Huang — Bearish NQ",
+          "@DeItaone (~6:22-6:39 PM ET): NVDA board meeting Wed to decide on ousting Huang; working with outside firm on new CEO, weighs naming a temporary CEO (BBG) — Bearish NQ",
+          "@cablefxmacro (~7:29 PM ET): E-mini Nasdaq futures -1.1%, NVDA -7.1% AH; @DeItaone (~5:44 PM): CRWV follows NVDA lower, -6% — Bearish NQ",
+          "@DeItaone (~7:45 PM ET): White House isn't intervening in Nvidia board's decision (WaPo); @WatcherGuru (~8:25 PM): Musk says it would \"be an honor\" to hire Huang — Mixed NQ",
+          "@FirstSquawk (~8:19 PM ET): US 2Y yield +~5bp to 4.7756% (2-wk high), 10Y steady at 4.99%; Asia-Pac stocks fall on NVDA/Huang report (~8:00 PM) — Bearish NQ"
+        ],
+        "trump": "No direct Trump comment on Huang; CBS reporter (via @DeItaone ~6:31 PM ET) says the Trump administration is aware the NVDA board is preparing to oust Huang, and WaPo (~7:45 PM ET) says the White House isn't intervening. Earlier Axios: Trump authorised a crackdown on NVDA chip diversions to China.",
+        "watch": "Overnight: NVDA board decision on Huang / interim CEO naming (any headline moves NQ 1%+), Asia semis, Iran/Hormuz headlines. Thu: 8:30 AM ET jobless claims, bond market reopens (1 PM ET 30Y auction), Kushner/Witkoff–Putin talks, NBIS BMO, CSCO + AMAT AMC. NVDA earnings Nov 17 AMC.",
         "forSite": []
       }
     ]
