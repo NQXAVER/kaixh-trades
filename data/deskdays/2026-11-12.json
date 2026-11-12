@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-12",
+  "grok": {
+    "date": "2026-11-12",
+    "at": "2026-11-12T12:23:18Z",
+    "pulse": "NQ heavy premarket (back under ~28.39k, ~-0.8%) as NVDA's board/Huang crisis draws a 5th downgrade (Melius) and Trump threatens to double Mexico tariffs, partly offset by NBIS beat/2027 guide and Russia-Ukraine talk progress.",
+    "bias": "risk-off — largest NQ weight NVDA bleeding on leadership/China-spy probe plus fresh tariff threat and a Gulf tanker-attack warning; NBIS AI-cloud beat and Putin-Witkoff talks are only partial offsets.",
+    "items": [
+      "@DeItaone (~6:58 AM ET): NVDA downgraded by Bernstein (PT $200 from $400), Oppenheimer, William Blair, Evercore; Melius to Hold PT $185 at 7:09 — Bearish NQ",
+      "@DeItaone (~7:05 AM ET): Trump on Truth Social: Mexico must stop caravans or tariffs 'will be immediately doubled' — Bearish NQ",
+      "@StockStormX (~7:21 AM ET): NBIS Q3 rev $980.8M vs $908M est; 2027 guide rev $12-13B, capex $40-45B; ARR target slips to Feb; stock whipsawing pre (+4% then red) — Mixed NQ",
+      "@LiveSquawk (~7:09 AM ET): UKMTO warning over tanker attack in Arabian Gulf — Bearish NQ (oil bid)",
+      "@FirstSquawk (~7:11 AM ET): Putin meeting US envoys Witkoff & Kushner; Witkoff says Abu Dhabi delegations 'worked effectively' — Mixed NQ"
+    ],
+    "trump": "Truth Social (~7:05 AM ET): 'MEXICO MUST STOP CARAVANS, NOW, AND IF THEY DO NOT DO SO, TARIFFS ON MEXICO WILL BE IMMEDIATELY DOUBLED'; separately reported to have ordered a crackdown on Nvidia chip diversion to China (Megaspeed).",
+    "watch": "8:30 AM ET jobless claims; 9:30 open NVDA reaction; NVDA board decision on Huang (could come today); 1 PM 30Y auction; Gulf/Hormuz tanker headlines; CSCO + AMAT AMC tonight; NVDA earnings Nov 17 AMC.",
+    "forSite": [],
+    "reports": [
+      {
+        "at": "2026-11-12T12:01:27Z",
+        "pulse": "NQ/Nasdaq futures down ~0.8-0.9% premarket (~28.2k) as NVDA plunges ~7% on CEO Jensen Huang leadership uncertainty and board probe, while oil eases on US-Iran diplomacy hopes amid elevated Dec FOMC hike odds after hot CPI.",
+        "bias": "mixed — risk-off on NVDA key-man shock dragging the largest NQ weight, offset by oil relief from Iran de-escalation talk, Dow resilience, and AMD rotation.",
+        "items": [
+          "@HedgeyeDJ (~6:45 AM ET): Futures Nasdaq -0.8% (NVDA -7% pre), ES -0.4%, Dow flat, WTI -0.6% to $85.98; gold sub-$4k on hot CPI locking Dec hike — Mixed NQ",
+          "@SNFuturesLive (~6:30 AM ET): NQ -0.86% to 28,227.50, ES -0.39%, NVDA -6.96% pre on leadership uncertainty, AMD +3.67%; jobless claims 8:30 AM — Bearish NQ",
+          "@DeItaone (~11:58 UTC): Multiple downgrades and PT cuts on $NVDA (Bernstein, Oppenheimer, William Blair, Evercore) — Bearish NQ",
+          "@TheAlphaBrief (~6:58 AM ET): US futures S&P -0.4%/Nasdaq -0.9%; oil Brent ~$91.72/WTI ~$85.64 off ~1% on Abu Dhabi peace-talk hopes — Mixed",
+          "@geo_z0ne (~7:00 AM ET): Israel preparing possible Iran strike, IRGC claims tankers stopped in Hormuz (unconfirmed), Brent ~$92 — Mixed oil"
+        ],
+        "trump": "none",
+        "watch": "8:30 AM ET jobless claims and bond market reopening (1 PM 30Y auction); NVDA board decision/Huang updates; residual Iran/Hormuz oil headlines; CSCO + AMAT AMC; Dec FOMC hike odds; NVDA earnings Nov 17.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-12T12:23:18Z",
+        "pulse": "NQ heavy premarket (back under ~28.39k, ~-0.8%) as NVDA's board/Huang crisis draws a 5th downgrade (Melius) and Trump threatens to double Mexico tariffs, partly offset by NBIS beat/2027 guide and Russia-Ukraine talk progress.",
+        "bias": "risk-off — largest NQ weight NVDA bleeding on leadership/China-spy probe plus fresh tariff threat and a Gulf tanker-attack warning; NBIS AI-cloud beat and Putin-Witkoff talks are only partial offsets.",
+        "items": [
+          "@DeItaone (~6:58 AM ET): NVDA downgraded by Bernstein (PT $200 from $400), Oppenheimer, William Blair, Evercore; Melius to Hold PT $185 at 7:09 — Bearish NQ",
+          "@DeItaone (~7:05 AM ET): Trump on Truth Social: Mexico must stop caravans or tariffs 'will be immediately doubled' — Bearish NQ",
+          "@StockStormX (~7:21 AM ET): NBIS Q3 rev $980.8M vs $908M est; 2027 guide rev $12-13B, capex $40-45B; ARR target slips to Feb; stock whipsawing pre (+4% then red) — Mixed NQ",
+          "@LiveSquawk (~7:09 AM ET): UKMTO warning over tanker attack in Arabian Gulf — Bearish NQ (oil bid)",
+          "@FirstSquawk (~7:11 AM ET): Putin meeting US envoys Witkoff & Kushner; Witkoff says Abu Dhabi delegations 'worked effectively' — Mixed NQ"
+        ],
+        "trump": "Truth Social (~7:05 AM ET): 'MEXICO MUST STOP CARAVANS, NOW, AND IF THEY DO NOT DO SO, TARIFFS ON MEXICO WILL BE IMMEDIATELY DOUBLED'; separately reported to have ordered a crackdown on Nvidia chip diversion to China (Megaspeed).",
+        "watch": "8:30 AM ET jobless claims; 9:30 open NVDA reaction; NVDA board decision on Huang (could come today); 1 PM 30Y auction; Gulf/Hormuz tanker headlines; CSCO + AMAT AMC tonight; NVDA earnings Nov 17 AMC.",
+        "forSite": []
+      }
+    ]
+  }
+}

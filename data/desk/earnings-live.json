@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-11",
-  "at": "2026-11-12T03:28:14Z",
+  "date": "2026-11-12",
+  "at": "2026-11-12T12:23:18Z",
   "items": [
     {
       "ticker": "CEG",
@@ -79,14 +79,6 @@
       "why": "Networking / AI infra spend; largest NQ-adjacent name next week"
     },
     {
-      "ticker": "NBIS",
-      "company": "Nebius (NBIS)",
-      "date": "2026-11-12",
-      "when": "BMO",
-      "status": "upcoming",
-      "why": "AI cloud / GPU infra; est ~$907M rev (+500% y/y), ~-$0.70 EPS; stock +17% Wed into print, options imply ~20% move"
-    },
-    {
       "ticker": "SE",
       "company": "Sea Limited (SE)",
       "date": "2026-11-10",
@@ -102,7 +94,7 @@
       "date": "2026-11-17",
       "when": "AMC",
       "status": "upcoming",
-      "why": "Largest NQ weight; AI demand read now overshadowed by board weighing Huang ouster / interim CEO (stock ~-8-9% AH Nov 11)"
+      "why": "Largest NQ weight; board weighing Huang ouster amid affair/China-spy probe; 5 downgrades Nov 12 (Bernstein PT $200, Melius PT $185)"
     },
     {
       "ticker": "DIS",
@@ -111,6 +103,16 @@
       "when": "BMO",
       "status": "upcoming",
       "why": "FY Q4; call 8:30 AM ET"
+    },
+    {
+      "ticker": "NBIS",
+      "company": "Nebius (NBIS)",
+      "date": "2026-11-12",
+      "when": "BMO",
+      "status": "reported",
+      "reaction": "whipsaw premarket: popped ~+4%, then flipped red (per X posts)",
+      "sentiment": "Mixed",
+      "why": "Q3 rev $980.8M (+571% y/y) vs ~$908M est (~$325M one-time asset-light rev); adj EBITDA $465.8M vs ~$353M; 2027 guide rev $12-13B, capex $40-45B (75-85% covered by prepayments/financing); ARR target ($7B+) slipped to Feb"
     }
   ]
 }
