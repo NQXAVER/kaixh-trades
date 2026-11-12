@@ -17,7 +17,9 @@
  ],
  "questions": [
   {
-   "q": "You wrote 'Bank Holiday' as your plan and sat out. Was that a rule you set for yourself ahead of time, or a call you made this morning? Should it be a written rule for every low-volume holiday?"
+   "q": "You wrote 'Bank Holiday' as your plan and sat out. Was that a rule you set for yourself ahead of time, or a call you made this morning? Should it be a written rule for every low-volume holiday?",
+   "answer": "written rule",
+   "answeredAt": "2026-11-12T03:05:28.055Z"
   },
   {
    "q": "Yesterday you wanted PDH to make 700 but trailed out at 2RR. With a day off to look back, would holding to PDH have fit your plan, or was securing it the right call?"
