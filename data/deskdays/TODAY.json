@@ -1,18 +1,18 @@
 {
   "date": "2026-11-12",
   "grok": {
-    "at": "2026-11-12T12:01:27Z",
-    "pulse": "NQ/Nasdaq futures down ~0.8-0.9% premarket (~28.2k) as NVDA plunges ~7% on CEO Jensen Huang leadership uncertainty and board probe, while oil eases on US-Iran diplomacy hopes amid elevated Dec FOMC hike odds after hot CPI.",
-    "bias": "mixed — risk-off on NVDA key-man shock dragging the largest NQ weight, offset by oil relief from Iran de-escalation talk, Dow resilience, and AMD rotation.",
+    "at": "2026-11-12T21:20:25Z",
+    "pulse": "Nasdaq and S&P little changed into the close as Nvidia recovers from early plunge on Jensen Huang's resignation (Colette Kress interim) while energy lifts on Trump's no-deal Iran comments and oil bid.",
+    "bias": "mixed — NVDA key-man shock contained by dip buyers and rotation into other AI names, offset by oil strength feeding inflation and elevated December FOMC hike odds with 10Y above 5%.",
     "items": [
-      "@HedgeyeDJ (~6:45 AM ET): Futures Nasdaq -0.8% (NVDA -7% pre), ES -0.4%, Dow flat, WTI -0.6% to $85.98; gold sub-$4k on hot CPI locking Dec hike — Mixed NQ",
-      "@SNFuturesLive (~6:30 AM ET): NQ -0.86% to 28,227.50, ES -0.39%, NVDA -6.96% pre on leadership uncertainty, AMD +3.67%; jobless claims 8:30 AM — Bearish NQ",
-      "@DeItaone (~11:58 UTC): Multiple downgrades and PT cuts on $NVDA (Bernstein, Oppenheimer, William Blair, Evercore) — Bearish NQ",
-      "@TheAlphaBrief (~6:58 AM ET): US futures S&P -0.4%/Nasdaq -0.9%; oil Brent ~$91.72/WTI ~$85.64 off ~1% on Abu Dhabi peace-talk hopes — Mixed",
-      "@geo_z0ne (~7:00 AM ET): Israel preparing possible Iran strike, IRGC claims tankers stopped in Hormuz (unconfirmed), Brent ~$92 — Mixed oil"
+      "@ABC7NewsBayArea (~4:20 PM ET): Nvidia closes lower after CEO Jensen Huang resigns — Bearish NQ",
+      "@Trend__Rebel (~4:20 PM ET): NVDA recovered from -14% open to -4% close at $166.19; S&P -0.36%, Nasdaq -0.41%, VIX 18.88 — Mixed NQ",
+      "@Ryzm (~4:19 PM ET): US close: Huang resigned, NVDA -4.3% off deeper lows, indices -0.3-0.4%, energy led, Brent $95.82 (+$3), Trump no-deal, Dec hike odds 91%, 10Y 5.10% — Mixed",
+      "@Tradenometry (~4:19 PM ET): EOD wrap: oil and rates the real story over NVDA; Trump 'don't need a deal with Iran', Brent +$3.06 to $95.82, SOX resilient after prior run — Mixed",
+      "@S&P 500 Alerts (~4:20 PM ET): Cisco and Applied Materials beat/raise on AI infra spend still hot despite Nvidia drama — Bullish offset"
     ],
-    "trump": "none",
-    "watch": "8:30 AM ET jobless claims and bond market reopening (1 PM 30Y auction); NVDA board decision/Huang updates; residual Iran/Hormuz oil headlines; CSCO + AMAT AMC; Dec FOMC hike odds; NVDA earnings Nov 17.",
+    "trump": "Wrote that the US does not need a deal with Iran, supporting oil bid and energy shares into the close.",
+    "watch": "Asia open reaction to NVDA close and oil/Hormuz; Friday PPI inflation print; residual Iran headlines; Dec FOMC hike path with yields elevated; NVDA earnings Nov 17.",
     "forSite": []
   }
 }

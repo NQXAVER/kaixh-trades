@@ -1,15 +1,15 @@
 {
-  "at": "2026-11-12T14:33:03Z",
-  "pulse": "NQ futures stay deep red near -1.4% as Jensen Huang's immediate resignation as Nvidia CEO (Colette Kress interim) continues hammering the AI and semis complex.",
-  "bias": "risk-off — NVDA leadership shock is the dominant weight dragging NQ and AI names, with secondary pressure from oil strength on Trump Iran comments and residual hawkish Fed tone.",
+  "at": "2026-11-12T21:20:25Z",
+  "pulse": "Nasdaq and S&P little changed into the close as Nvidia recovers from early plunge on Jensen Huang's resignation (Colette Kress interim) while energy lifts on Trump's no-deal Iran comments and oil bid.",
+  "bias": "mixed — NVDA key-man shock contained by dip buyers and rotation into other AI names, offset by oil strength feeding inflation and elevated December FOMC hike odds with 10Y above 5%.",
   "items": [
-    "@DeItaone (~8:48 AM ET): Jensen Huang resigns as NVDA president/CEO/board member effective immediately; Colette Kress interim CEO; NVDA -10% to -13% premarket — Bearish NQ",
-    "@VestExchange (~9:31 AM ET): NVDA down over 13% at open after resignation announcement; NQ -1.3% vs ES -0.7% — Bearish NQ",
-    "@ClassicRoy / KobeissiLetter (~9:31 AM ET): Neocloud stocks (NBIS -21%, CRWV -14%, NEO -13%) collapse post-Huang resignation; NQ futures extend to -1.5% — Bearish NQ",
-    "@zerohedge (~9:17 AM ET): Oil bid as Trump says US 'doesn't need deal with Iran' / has Strait; Hormuz headlines — Bearish via inflation",
-    "@FirstSquawk (~9:03 AM ET): Fed's Hammack on smaller steadier rate increases and broadening pressures — Bearish NQ"
+    "@ABC7NewsBayArea (~4:20 PM ET): Nvidia closes lower after CEO Jensen Huang resigns — Bearish NQ",
+    "@Trend__Rebel (~4:20 PM ET): NVDA recovered from -14% open to -4% close at $166.19; S&P -0.36%, Nasdaq -0.41%, VIX 18.88 — Mixed NQ",
+    "@Ryzm (~4:19 PM ET): US close: Huang resigned, NVDA -4.3% off deeper lows, indices -0.3-0.4%, energy led, Brent $95.82 (+$3), Trump no-deal, Dec hike odds 91%, 10Y 5.10% — Mixed",
+    "@Tradenometry (~4:19 PM ET): EOD wrap: oil and rates the real story over NVDA; Trump 'don't need a deal with Iran', Brent +$3.06 to $95.82, SOX resilient after prior run — Mixed",
+    "@S&P 500 Alerts (~4:20 PM ET): Cisco and Applied Materials beat/raise on AI infra spend still hot despite Nvidia drama — Bullish offset"
   ],
-  "trump": "Said the US 'doesn't need a deal with Iran' and 'has its Strait' (~8:10 AM ET, supporting oil bid); earlier praise for Huang's work but no fresh direct comments on the resignation.",
-  "watch": "Cash open follow-through on NVDA/AI spillover; 1 PM ET 30Y auction; Hormuz/Iran oil headlines; CSCO + AMAT AMC; NVDA earnings Nov 17.",
+  "trump": "Wrote that the US does not need a deal with Iran, supporting oil bid and energy shares into the close.",
+  "watch": "Asia open reaction to NVDA close and oil/Hormuz; Friday PPI inflation print; residual Iran headlines; Dec FOMC hike path with yields elevated; NVDA earnings Nov 17.",
   "forSite": []
 }
