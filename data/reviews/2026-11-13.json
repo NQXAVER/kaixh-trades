@@ -1,0 +1,64 @@
+{
+ "date": "2026-11-13",
+ "entryUrl": "https://app.notion.com/41760e8f5c4580b2b5a4c6191e752f0a",
+ "summary": "No trade today, and that's a fine result. You said you only wanted one trade because it's Friday, and you didn't force one. The real lesson is the missed short. Your own pre-market note at 9:24 AM said 'MO manipulates higher, fails to take out the high, to take out data low.' Your 5-minute plan even had a short box drawn (28,473.75 entry, 28,519.50 stop, 28,400 data-low target). That's almost exactly what happened: the open pushed to about 28,478, failed well below PDH 28,649, then broke data low and D-OPEN and ran to PD-L near 28,006 by 10:05. You didn't miss it because you couldn't see it. You missed it because you were 'married to longs' and dropped scenario 1 once the open started. Your 8:55 AM Discord check-in already leaned short ('i can see us go for data low'), and your EOD card admits that AB's analysis pulled you onto longs. So the read was yours, and you didn't trust it.",
+ "trade": "No trade · NY-AM · XFA · missed short (hindsight box on the 1min: entry ~28,338 · stop 28,385.25 · target 28,243.75, ~2R) · price kept going to PD-L ~28,006 by 10:05 AM.",
+ "rule": "Monday: write both scenarios with a trigger, and treat whichever trigger fires first as the plan. If the open fails to take the high and closes back under D-OPEN, longs are off and you're only looking at the short. No re-arguing the bias after the trigger.",
+ "screenshots": [
+  {
+   "label": "Execution 1 · 1min NQ/ES (10:07 AM)",
+   "feedback": "The hindsight short box is clean: entry ~28,338, stop 28,385.25 above the 0.5 retrace, target 28,243.75, about 2R. Price then kept going well past it to PD-L (~28,006). ES made NYAM.L while NQ kept dropping. Everything you needed was printed by about 9:35, before the 10:00 line, and your own note says it: married to longs, and too late to drop the bias."
+  },
+  {
+   "label": "Pre-market 1 · 4h NQ/ES (9:24 AM)",
+   "feedback": "4h shows price under the dashed PD-H/overnight high that was tested and rejected, with the fib drawn on the last leg. The PD-H level was resistance, exactly like you wrote ('failed to take out that high a few times'). That was the bearish context you chose not to weigh."
+  },
+  {
+   "label": "Pre-market 2 · 1h NQ/ES (9:25 AM)",
+   "feedback": "1h has price back inside the red premium block (0.618 to 0.786) under PD-H, with data low and PD-EQ just below. A premium retrace into resistance gives the short scenario the edge until a protected low forms, and no protected low ever formed."
+  },
+  {
+   "label": "Pre-market 3 · 15min NQ/ES (9:25 AM)",
+   "feedback": "Good marking: AS.H, LO.H/LO.L, D-OPEN, the 10:00 line and the premium block. Price was sitting at 0.5 under the block at 9:25, and NQ had not taken AS.H. You didn't need to predict anything. You only had to wait and see which side broke."
+  },
+  {
+   "label": "Pre-market 4 · 5min NQ plan (9:26 AM)",
+   "feedback": "This is the best chart of the day. You drew both paths: a short box at 28,473.75 / stop 28,519.50 / target 28,400, and a long to PDH 28,649.25 from 28,459.75 / stop 28,412.25. Path 1 played out almost exactly. The plan was right. The execution problem was sticking to one side once the open started."
+  }
+ ],
+ "good": [
+  "You stuck to 'one trade max, play it safe on Friday' and didn't chase or revenge after seeing the move.",
+  "Your pre-market had two clear scenarios with levels, and scenario 1 was correct.",
+  "Your note was honest: you named the exact mistake ('too married to longs') instead of blaming the market.",
+  "No eval or prop-firm purchase today. The only receipt in Gmail was an FX Replay invoice, and the rest were promos."
+ ],
+ "fix": [
+  "Trust your own written read. You called data low at 8:55 AM and switched to longs because of AB's analysis. Read others' analysis after your plan is locked, not before the open.",
+  "Once scenario 1's trigger printed (open fails under the high and drops back through D-OPEN), the long idea should have been off right away. Decide in pre-market what kills each bias.",
+  "Set alerts at both triggers (data low break and the protected-low reclaim) so price tells you which plan is live.",
+  "Notion housekeeping: Day says 'Thursday' (it's Friday), and Results is empty. Set it to No Trades or Missed so the calendar shows the day."
+ ],
+ "questions": [
+  {
+   "q": "At 9:26 you drew a short to 28,400 data low, then wrote 'i highkey did not see that.' What made you stop looking at scenario 1 once the open started?"
+  },
+  {
+   "q": "Your EOD card says 'stop letting AB's Analysis overtake my own.' At what time did you read AB's analysis today, and what did it change in your plan?"
+  },
+  {
+   "q": "You wrote 'i wont let that stop me from wanting longs' about the bearish SMT and the rejected high. What would it have taken for you to let it stop you?"
+  },
+  {
+   "q": "You said you were too late once the 15-minute closed strong toward PDL. Which earlier candle or level should have been your signal that longs were dead?"
+  }
+ ],
+ "discord": {
+  "chartsOpened": "\"8:54\" (Morning Check-in submitted 8:55 AM ET, well before 9:30).",
+  "plan": "\"Data high got taken i can see us go for data low unless MO goes lower takes out DATA low to go higher for PDH\"",
+  "risk": "On time: the risk-settings screenshot was attached and confirmed at 8:56 AM ET.",
+  "eod": "Filed at 1:28 PM ET (streak 17 days): \"No trades - missed the move for marrying long bias ... wanted PDL Which never gave an entry an called it a Day\", Rules Followed: YES, Improvement \"Listen to myself stop letting AB's Analysis overtake my own ... next time trust myself\". Screenshot confirmed at 1:28 PM.",
+  "match": "Honest and consistent. 'No trades, Rules Followed: YES' matches Notion and the chart. Your 8:55 AM plan put data low first, which is the move that came. You switched to longs after reading AB's analysis. You told Bibz the missing piece was 1-minute structure for an MO long, and that holds up. Bibz checked in on time (9:16) and logged a loss from being married to longs.",
+  "journalChannel": "One post at 10:04 AM ET with the same text as Notion's TALK ('didnt take anything ... missed it. No trades for me'), and no chart attached. It matches the Notion entry."
+ },
+ "reviewedAt": "2026-11-13T21:19:10Z"
+}
