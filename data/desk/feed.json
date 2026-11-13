@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T22:50:16Z",
+  "updatedAt": "2026-11-13T03:15:36Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -183,9 +183,9 @@
     {
       "id": "un-peace",
       "label": "UN News",
-      "ok": true,
-      "items": 20,
-      "error": null
+      "ok": false,
+      "items": 0,
+      "error": "ParseError: not well-formed (invalid token): line 1, column 0"
     },
     {
       "id": "wsj-biz",
@@ -203,6 +203,18 @@
     }
   ],
   "items": [
+    {
+      "id": "fba51263c5e1a",
+      "headline": "Oil Prices Squeezed Between Peace Hopes and Iran Escalation Risk",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Energy/Crude-Oil/Oil-Prices-Squeezed-Between-Peace-Hopes-and-Iran-Escalation-Risk.html",
+      "publishedAt": "2026-11-13T00:00:00Z",
+      "time": "Thu 7:00 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
     {
       "id": "f82c859052964",
       "headline": "Israeli air strike on Gaza hospital kills six, including surgeon",
@@ -306,18 +318,6 @@
       "url": "https://news.un.org/feed/view/en/story/2026/11/1168771",
       "publishedAt": "2026-11-10T12:00:00Z",
       "time": "Tue 7:00 AM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "fb48ddf2a8913",
-      "headline": "U.S. Military Coordinates With Saudi Oil Tankers on Risky Hormuz Crossings",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Military-Coordinates-With-Saudi-Oil-Tankers-on-Risky-Hormuz-Crossings.html",
-      "publishedAt": "2026-11-10T11:30:00Z",
-      "time": "Tue 6:30 AM",
       "section": "war",
       "impact": "High",
       "lean": "risk-off",
@@ -568,8 +568,20 @@
       "headline": "Cerebras surges 17% after beating on quarterly revenue and announcing Microsoft deal",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html",
-      "publishedAt": "2026-11-12T22:48:26Z",
-      "time": "Thu 5:48 PM",
+      "publishedAt": "2026-11-13T02:43:26Z",
+      "time": "Thu 9:43 PM",
+      "section": "tech",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fe59e307617b5",
+      "headline": "Jim Cramer has three lingering questions about Anthropic ahead of its historic IPO",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/12/anthropic-ipo-cramer-pricing-growth-ai-safety.html",
+      "publishedAt": "2026-11-12T23:45:00Z",
+      "time": "Thu 6:45 PM",
       "section": "tech",
       "impact": "High",
       "lean": null,
@@ -672,18 +684,6 @@
       "auto": true
     },
     {
-      "id": "f945aa43b3d05",
-      "headline": "Anthropic's trillion-dollar IPO is coming, but retail investors could have owned AI stock much earlier",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/10/anthropic-ipo-shares-invest.html",
-      "publishedAt": "2026-11-10T16:30:23Z",
-      "time": "Tue 11:30 AM",
-      "section": "tech",
-      "impact": "High",
-      "lean": null,
-      "auto": true
-    },
-    {
       "id": "f1ddf03650b43",
       "headline": "Asian Oil Buyers Turn to Africa and Brazil as Tanker Rates Plunge",
       "source": "OilPrice",
@@ -716,6 +716,18 @@
       "time": "Mon 3:10 PM",
       "section": "energy",
       "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f2a328222207c",
+      "headline": "Venezuela Ends 19-Year Power Monopoly, With Oil Fields First in Line",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Energy/Crude-Oil/Venezuela-Ends-19-Year-Power-Monopoly-With-Oil-Fields-First-in-Line.html",
+      "publishedAt": "2026-11-12T23:00:00Z",
+      "time": "Thu 6:00 PM",
+      "section": "energy",
+      "impact": "Medium",
       "lean": null,
       "auto": true
     },
@@ -786,18 +798,6 @@
       "url": "https://oilprice.com/Latest-Energy-News/World-News/Angola-Looks-to-Diversify-from-Crude-with-Windfall-Oil-Revenues.html",
       "publishedAt": "2026-11-12T14:30:00Z",
       "time": "Thu 9:30 AM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "fcb8324679fe3",
-      "headline": "EIA forecasts Alaskan crude oil production to grow 13% in 2027",
-      "source": "EIA",
-      "url": "https://www.eia.gov/todayinenergy/detail.php?id=68444",
-      "publishedAt": "2026-11-12T14:00:00Z",
-      "time": "Thu 9:00 AM",
       "section": "energy",
       "impact": "Medium",
       "lean": null,
