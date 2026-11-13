@@ -2,18 +2,18 @@
   "date": "2026-11-12",
   "grok": {
     "date": "2026-11-12",
-    "at": "2026-11-13T01:27:02Z",
-    "pulse": "NQ futures ~+0.4% vs the cash close as Asia shrugs off the NVDA CEO shock (KOSPI rallying, Taiwan +2%) after Nasdaq -0.39% / NVDA -4.3% today; offset by Fed Williams calling inflation 'far too high', 10Y >5% and Brent ~$96 into PPI.",
-    "bias": "mixed — overnight futures bid and Asia strength vs hawkish Fed talk, hot-inflation backdrop and Huang/Nvidia Senate-probe overhang; CSCO/AMAT beat-and-raise met with muted AH reactions.",
+    "at": "2026-11-13T03:28:22Z",
+    "pulse": "NQ overnight tone is cautious: Asia (Nikkei ~+1.5%, Kospi green) is bouncing off the NVDA/Huang exit shock after Nasdaq closed -0.39%, but 10Y back above 5%, BTC breaking under $70K and fresh AI-chip export-control headlines from Malaysia keep risk appetite capped into 8:30 AM PPI.",
+    "bias": "mixed — Asia tech bid and small US futures bounce vs 10Y >5%, crypto liquidations, NVDA leadership/export-control overhang and a hot-PPI risk for Dec hike odds",
     "items": [
-      "@FirstSquawk (~7:59 PM ET): South Korean shares rally at the open in response to Nvidia's leadership changes; Taiwan stocks +2% (~8:02 PM) — Bullish NQ",
-      "@LiveSquawk (~7:31 PM ET): Fed's Williams says inflation 'far too high', still work to do; also flags rates can sway AI investment — Bearish NQ",
-      "@LiveSquawk (~7:06 PM ET): Senate Banking chair summons Huang and Lutnick to testify over the Nvidia saga; GOP again demands Huang briefing on alleged spy links (@FirstSquawk ~8:24 PM) — Bearish NQ",
-      "@WatcherGuru (~6:55 PM ET): Trump praises former NVDA CEO Jensen Huang, calls his talent 'exceptional' — Mixed NQ",
-      "@zerohedge (~8:22 PM ET): TSMC says no sign systems compromised after employee data leak — Mixed NQ"
+      "@NostraWealth (~10:19 PM ET): prior close Dow -0.36% / S&P -0.35% / Nasdaq -0.39%; Dow futs +100, Nikkei +1.5%, Kospi +2%, Brent ~$96 (-0.6%), US 10Y above 5% — Mixed NQ",
+      "@WatcherGuru (~9:56 PM ET): Bitcoin falls under $70,000; ~$105M longs liquidated in 30 min (~10:04 PM ET) — Bearish NQ (risk-off spillover)",
+      "@FirstSquawk (~10:06 PM ET): Malaysia trade ministry says Speedmatrix brought AI chips/servers in, customs reviewing re-exports; exploring more controls with US/Singapore — Bearish NQ (NVDA/semis export-control overhang)",
+      "@unusual_whales (~10:24 PM ET): NVDA next-CEO odds on Polymarket — interim CEO Colette Kress leads, Ian Buck also considered — Mixed NQ",
+      "@FirstSquawk (~10:15 PM ET): Microsoft says service-reliability changes failed to produce expected outcome, seeking more capacity measures — Mixed NQ (MSFT headline risk)"
     ],
-    "trump": "Praised ex-NVDA CEO Jensen Huang as 'exceptional' and said he spoke to him Wednesday (@WatcherGuru ~6:55 PM, @DeItaone ~6:33 PM ET); earlier said the US no longer needs an Iran deal ('Those days have long passed'), keeping the oil bid; also 'I want to get Cuba done' (Politico, ~6:47 PM ET).",
-    "watch": "Fri 8:30 AM ET US PPI (hot print tests dip-buyers, Dec hike odds); Huang/Lutnick Senate testimony headlines; Asia/Europe read on NVDA; Iran/Hormuz and Saudi oil headlines; CSCO/AMAT follow-through at the open; NVDA company meeting Tue Nov 18 9 AM PT; Japan FX-intervention risk.",
+    "trump": "none new tonight (no market-moving Trump/White House posts since the evening report; earlier: US 'no longer needs' an Iran deal, praised ex-NVDA CEO Huang)",
+    "watch": "Fri 8:30 AM ET US PPI (Dec hike odds ~90%); NQ open 9:30 AM ET with NVDA follow-through after Huang exit; 10Y vs 5%; Brent ~$96 / Iran-Hormuz headlines; BTC <$70K; Anthropic (ANT) IPO pricing ~Nov 18; NVDA earnings Nov 17 AMC (company meeting Nov 18 9 AM PT); DIS Nov 17 BMO",
     "forSite": [],
     "reports": [
       {
@@ -119,6 +119,36 @@
         ],
         "trump": "Praised ex-NVDA CEO Jensen Huang as 'exceptional' and said he spoke to him Wednesday (@WatcherGuru ~6:55 PM, @DeItaone ~6:33 PM ET); earlier said the US no longer needs an Iran deal ('Those days have long passed'), keeping the oil bid; also 'I want to get Cuba done' (Politico, ~6:47 PM ET).",
         "watch": "Fri 8:30 AM ET US PPI (hot print tests dip-buyers, Dec hike odds); Huang/Lutnick Senate testimony headlines; Asia/Europe read on NVDA; Iran/Hormuz and Saudi oil headlines; CSCO/AMAT follow-through at the open; NVDA company meeting Tue Nov 18 9 AM PT; Japan FX-intervention risk.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-13T03:05:00Z",
+        "pulse": "Overnight markets mixed as Asia digests the Nvidia CEO resignation shock with some regional bounce, while oil stays elevated on Trump's Iran no-deal stance and 10-year yields above 5% keep December FOMC hike odds near 90% after hot data.",
+        "bias": "mixed — NVDA leadership uncertainty and higher yields weigh on tech/risk appetite, offset by Asia resilience, modest futures bid, and CSCO/AMAT support ahead of PPI.",
+        "items": [
+          "@FirstSquawk (~8:00 PM ET): Asia opens mixed-to-higher (KOSPI rallying, Taiwan +2%) shrugging off NVDA Huang exit after Nasdaq closed -0.39% — Mixed NQ",
+          "@LiveSquawk (~7:31 PM ET): Fed's Williams says inflation 'far too high', still work to do; rates can influence AI investment — Bearish NQ",
+          "@WatcherGuru (~7:00 PM ET): Trump praises former NVDA CEO Jensen Huang as 'exceptional' after resignation — Mixed",
+          "@Cryptocratico (~8:11 PM ET): Brent ~$95.8, WTI ~$88.7 on Iran/Hormuz risks; 10Y at 5.10%; Dec hike odds ~90% — Mixed",
+          "@zerohedge (~8:22 PM ET): TSMC reports no systems compromised after data leak — Neutral for AI/NQ"
+        ],
+        "trump": "Said the US no longer needs a deal with Iran ('Those days have long passed'), supporting oil bid; separately praised ex-NVDA CEO Jensen Huang as exceptional and noted speaking with him.",
+        "watch": "Friday 8:30 AM ET US PPI for inflation signal and Dec hike odds; Iran/Hormuz and Saudi oil headlines; NVDA/AI follow-through into Asia close and US open; Senate probe headlines on Huang; residual CSCO/AMAT reaction.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-13T03:28:22Z",
+        "pulse": "NQ overnight tone is cautious: Asia (Nikkei ~+1.5%, Kospi green) is bouncing off the NVDA/Huang exit shock after Nasdaq closed -0.39%, but 10Y back above 5%, BTC breaking under $70K and fresh AI-chip export-control headlines from Malaysia keep risk appetite capped into 8:30 AM PPI.",
+        "bias": "mixed — Asia tech bid and small US futures bounce vs 10Y >5%, crypto liquidations, NVDA leadership/export-control overhang and a hot-PPI risk for Dec hike odds",
+        "items": [
+          "@NostraWealth (~10:19 PM ET): prior close Dow -0.36% / S&P -0.35% / Nasdaq -0.39%; Dow futs +100, Nikkei +1.5%, Kospi +2%, Brent ~$96 (-0.6%), US 10Y above 5% — Mixed NQ",
+          "@WatcherGuru (~9:56 PM ET): Bitcoin falls under $70,000; ~$105M longs liquidated in 30 min (~10:04 PM ET) — Bearish NQ (risk-off spillover)",
+          "@FirstSquawk (~10:06 PM ET): Malaysia trade ministry says Speedmatrix brought AI chips/servers in, customs reviewing re-exports; exploring more controls with US/Singapore — Bearish NQ (NVDA/semis export-control overhang)",
+          "@unusual_whales (~10:24 PM ET): NVDA next-CEO odds on Polymarket — interim CEO Colette Kress leads, Ian Buck also considered — Mixed NQ",
+          "@FirstSquawk (~10:15 PM ET): Microsoft says service-reliability changes failed to produce expected outcome, seeking more capacity measures — Mixed NQ (MSFT headline risk)"
+        ],
+        "trump": "none new tonight (no market-moving Trump/White House posts since the evening report; earlier: US 'no longer needs' an Iran deal, praised ex-NVDA CEO Huang)",
+        "watch": "Fri 8:30 AM ET US PPI (Dec hike odds ~90%); NQ open 9:30 AM ET with NVDA follow-through after Huang exit; 10Y vs 5%; Brent ~$96 / Iran-Hormuz headlines; BTC <$70K; Anthropic (ANT) IPO pricing ~Nov 18; NVDA earnings Nov 17 AMC (company meeting Nov 18 9 AM PT); DIS Nov 17 BMO",
         "forSite": []
       }
     ]
