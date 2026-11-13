@@ -1,6 +1,6 @@
 {
   "date": "2026-11-13",
-  "at": "2026-11-13T12:24:00Z",
+  "at": "2026-11-13T14:21:36Z",
   "items": [
     {
       "ticker": "NBIS",
@@ -33,6 +33,16 @@
       "why": "Q4 rev $10.41B (+53% y/y) vs ~$10.3B est, adj EPS $4.16 vs ~$4.05 est; record FY rev $34.45B; Q1 guide above Street on AI demand; stock ~flat AH as beat was priced in"
     },
     {
+      "ticker": "CBRS",
+      "company": "Cerebras Systems (CBRS)",
+      "date": "2026-11-12",
+      "when": "AMC",
+      "status": "reported",
+      "reaction": "+17-18% AH Thu, up to ~+17.7% premarket Fri",
+      "sentiment": "Bullish",
+      "why": "Q3 GAAP rev $210.8M (+55% y/y), core rev $230.9M vs ~$215M est; cloud rev +265% to $141.9M; new Microsoft cloud deal; FY core rev guide raised to $940-960M, Q4 guide $310-330M, sees 2027 rev tripling"
+    },
+    {
       "ticker": "CRWV",
       "company": "CoreWeave (CRWV)",
       "date": "2026-11-10",
@@ -58,7 +68,7 @@
       "date": "2026-11-17",
       "when": "AMC",
       "status": "upcoming",
-      "why": "Largest NQ weight; Jensen Huang resigned as CEO/president/board member effective immediately Nov 12 (CFO Colette Kress interim CEO); stock ~-10-13% premarket; 5 downgrades Nov 12 (Bernstein PT $200, Melius PT $185); company meeting Nov 18 9 AM PT"
+      "why": "Largest NQ weight; Jensen Huang resigned Nov 12 (CFO Colette Kress interim CEO); 5 downgrades Nov 12; stock bouncing ~+2.6% premarket Fri Nov 13; scrutiny of $530B AI financing commitments; company meeting Nov 18 9 AM PT"
     },
     {
       "ticker": "DIS",
