@@ -1,18 +1,18 @@
 {
   "date": "2026-11-13",
   "grok": {
-    "at": "2026-11-13T03:05:00Z",
-    "pulse": "Overnight markets mixed as Asia digests the Nvidia CEO resignation shock with some regional bounce, while oil stays elevated on Trump's Iran no-deal stance and 10-year yields above 5% keep December FOMC hike odds near 90% after hot data.",
-    "bias": "mixed — NVDA leadership uncertainty and higher yields weigh on tech/risk appetite, offset by Asia resilience, modest futures bid, and CSCO/AMAT support ahead of PPI.",
+    "at": "2026-11-13T12:01:32Z",
+    "pulse": "NQ and ES futures modestly green premarket as NVDA attempts a recovery after Huang's CEO exit shock, while oil stays elevated on Trump's Iran no-deal stance and traders await 8:30 AM ET PPI with December FOMC hike fully priced.",
+    "bias": "mixed — modest futures bid and NVDA bounce vs oil/yields pressure from Iran risks and inflation data that could reinforce hawkish Dec hike path",
     "items": [
-      "@FirstSquawk (~8:00 PM ET): Asia opens mixed-to-higher (KOSPI rallying, Taiwan +2%) shrugging off NVDA Huang exit after Nasdaq closed -0.39% — Mixed NQ",
-      "@LiveSquawk (~7:31 PM ET): Fed's Williams says inflation 'far too high', still work to do; rates can influence AI investment — Bearish NQ",
-      "@WatcherGuru (~7:00 PM ET): Trump praises former NVDA CEO Jensen Huang as 'exceptional' after resignation — Mixed",
-      "@Cryptocratico (~8:11 PM ET): Brent ~$95.8, WTI ~$88.7 on Iran/Hormuz risks; 10Y at 5.10%; Dec hike odds ~90% — Mixed",
-      "@zerohedge (~8:22 PM ET): TSMC reports no systems compromised after data leak — Neutral for AI/NQ"
+      "@SNFuturesLive (~6:30 AM ET): ES +0.17% to 7628, NQ +0.06% to 28402, YM green; BTC broke under $70K (-5.4%) while equity futures barely flinched — Mixed NQ",
+      "@Bloomberg (~7:00 AM ET): Stocks set to open higher as traders wait for latest inflation data to cap dramatic week of rate-hike bets and Jensen Huang's ouster from Nvidia — Mixed NQ",
+      "@sandipsabharwal (~7:00 AM ET): IEA says global oil market has turned into a surplus likely to accelerate in 2027 despite demand rebound — lower prices ahead — Mixed oil",
+      "@holantei (~7:00 AM ET): ES & NQ 1H path — bounce into fade zone then fail back toward overnight lows (NQ invalid above 28652) — Cautious NQ",
+      "@neilsethinew (~7:00 AM ET): Williams and Daly signal more hikes ahead but not 50bp; 25bp Dec base case with debate on pace — Bearish rates/NQ"
     ],
-    "trump": "Said the US no longer needs a deal with Iran ('Those days have long passed'), supporting oil bid; separately praised ex-NVDA CEO Jensen Huang as exceptional and noted speaking with him.",
-    "watch": "Friday 8:30 AM ET US PPI for inflation signal and Dec hike odds; Iran/Hormuz and Saudi oil headlines; NVDA/AI follow-through into Asia close and US open; Senate probe headlines on Huang; residual CSCO/AMAT reaction.",
+    "trump": "Earlier: US no longer needs a deal with Iran ('Those days have long passed'), supporting oil bid and Hormuz risk premium; also praised ex-NVDA CEO Huang as exceptional.",
+    "watch": "8:30 AM ET October PPI/Core PPI reaction for Dec hike odds; 9:30 cash open NVDA/AI follow-through after Huang exit; Brent/Hormuz headlines; 10Y vs 5%; BTC under 70k spillover risk.",
     "forSite": []
   }
 }
