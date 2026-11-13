@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T17:00:06Z",
+  "updatedAt": "2026-11-13T22:30:50Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -204,6 +204,42 @@
   ],
   "items": [
     {
+      "id": "f442e8e2f330b",
+      "headline": "IRGC says tanker caught fire after hitting mines in Strait of Hormuz",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/irgc-says-tanker-caught-fire-after-hitting-mines-in-strait-of-hormuz?traffic_source=rss",
+      "publishedAt": "2026-11-13T19:23:05Z",
+      "time": "Fri 2:23 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "fece05acb9ce5",
+      "headline": "Iran honours fallen soldiers in Iran-Iraq war with missile display",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/iran-honours-fallen-soldiers-in-iran-iraq-war-with-missile-display?traffic_source=rss",
+      "publishedAt": "2026-11-13T18:09:05Z",
+      "time": "Fri 1:09 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "fdce2d52a7494",
+      "headline": "Iraq’s Oil Production Soars to 2019 High as Hormuz Flows Surge",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Iraqs-Oil-Production-Soars-to-2019-High-as-Hormuz-Flows-Surge.html",
+      "publishedAt": "2026-11-13T17:30:00Z",
+      "time": "Fri 12:30 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
       "id": "fd4cbaa4fc5da",
       "headline": "US Treasury warns against rate hikes during US-Iran war energy ‘shock’",
       "source": "Al Jazeera",
@@ -282,42 +318,6 @@
       "url": "https://oilprice.com/Energy/Crude-Oil/Oil-Prices-Squeezed-Between-Peace-Hopes-and-Iran-Escalation-Risk.html",
       "publishedAt": "2026-11-13T00:00:00Z",
       "time": "Thu 7:00 PM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "f82c859052964",
-      "headline": "Israeli air strike on Gaza hospital kills six, including surgeon",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/11/12/nx-s1-6038879/israeli-air-strike-on-gaza-hospital-kills-six-including-surgeon",
-      "publishedAt": "2026-11-12T22:33:00Z",
-      "time": "Thu 5:33 PM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "f12b6dd4a90fb",
-      "headline": "Jerusalem Daily: Gaza’s Nasser Hospital hit by Israeli air strike",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/jerusalem-daily-gazas-nasser-hospital-hit-by-israeli-air-strike?traffic_source=rss",
-      "publishedAt": "2026-11-12T16:55:10Z",
-      "time": "Thu 11:55 AM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "f2c94962f866a",
-      "headline": "Eight killed in Colombian air strike targeting Gulf Clan gang",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/crgj3v3z10dno?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-11-12T13:58:49Z",
-      "time": "Thu 8:58 AM",
       "section": "war",
       "impact": "High",
       "lean": "risk-off",
@@ -408,6 +408,18 @@
       "auto": true
     },
     {
+      "id": "f2d934455a2ee",
+      "headline": "AI risks are the biggest threat to the financial system, Fed survey finds",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html",
+      "publishedAt": "2026-11-13T21:18:30Z",
+      "time": "Fri 4:18 PM",
+      "section": "fed",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "fe6740a65a768",
       "headline": "10-year Treasury yield moves to 5.15% as traders weigh producer price report",
       "source": "CNBC",
@@ -432,18 +444,6 @@
       "auto": true
     },
     {
-      "id": "f56229039ff56",
-      "headline": "In a policy switch, the Fed says its October 2027 meeting will not see a vote on interest rates",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/12/in-policy-switch-fed-says-its-october-2027-meeting-will-not-see-a-vote-on-interest-rates.html",
-      "publishedAt": "2026-11-12T19:05:25Z",
-      "time": "Thu 2:05 PM",
-      "section": "fed",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
       "id": "f7e96e76baa04",
       "headline": "Social Security could pay full benefits until 2059 if taxable payroll kept pace with GDP: AARP report",
       "source": "CNBC",
@@ -453,30 +453,6 @@
       "section": "econ",
       "impact": "High",
       "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f03167171a64f",
-      "headline": "3 unexpected reasons the October jobs report was so strong",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/09/october-jobs-report-hiring-by-sector.html",
-      "publishedAt": "2026-11-09T22:23:56Z",
-      "time": "Mon 5:23 PM",
-      "section": "econ",
-      "impact": "High",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "fe2be100f6c68",
-      "headline": "Hot U.S. inflation hasn’t cooled off. Rising consumer prices to keep Fed rate hike on track.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/hot-u-s-inflation-hasnt-cooled-off-rising-consumer-prices-to-keep-fed-rate-hike-on-track-926c44b0?mod=mw_rss_topstories",
-      "publishedAt": "2026-11-09T18:16:00Z",
-      "time": "Mon 1:16 PM",
-      "section": "econ",
-      "impact": "High",
-      "lean": "risk-off",
       "auto": true
     },
     {
@@ -552,14 +528,14 @@
       "auto": true
     },
     {
-      "id": "ffe1b410cb27d",
-      "headline": "White House vows to press ahead with tariffs despite midterm backlash over rising prices",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/10/trump-tariffs-midterms-gary-cohn-inflation.html",
-      "publishedAt": "2026-11-10T21:45:46Z",
-      "time": "Tue 4:45 PM",
-      "section": "econ",
-      "impact": "Medium",
+      "id": "f1cb6ca19226f",
+      "headline": "Bitcoin is now below $69,000 and could fall even further if investors cash out to buy into the Anthropic IPO",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/bitcoin-could-fall-even-further-if-investors-cash-out-to-buy-into-the-anthropic-ipo-5a14f46a?mod=mw_rss_topstories",
+      "publishedAt": "2026-11-13T21:26:00Z",
+      "time": "Fri 4:26 PM",
+      "section": "tech",
+      "impact": "High",
       "lean": null,
       "auto": true
     },
@@ -672,18 +648,6 @@
       "auto": true
     },
     {
-      "id": "f4c0aacaa649f",
-      "headline": "Anthropic officially sets the stage for an IPO valuing the company north of $1 trillion",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/anthropic-reportedly-retracts-ipo-terms-sent-to-banks-by-mistake-exposing-jitters-over-ai-investments-6116578d?mod=mw_rss_topstories",
-      "publishedAt": "2026-11-10T19:47:00Z",
-      "time": "Tue 2:47 PM",
-      "section": "tech",
-      "impact": "High",
-      "lean": null,
-      "auto": true
-    },
-    {
       "id": "f1ddf03650b43",
       "headline": "Asian Oil Buyers Turn to Africa and Brazil as Tanker Rates Plunge",
       "source": "OilPrice",
@@ -708,14 +672,26 @@
       "auto": true
     },
     {
-      "id": "fe630fe045d91",
-      "headline": "Brent Crashes 7% on Iran Peace Hopes Despite Fresh Saudi Pipeline Attack",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Crashes-7-on-Iran-Peace-Hopes-Despite-Fresh-Saudi-Pipeline-Attack.html",
-      "publishedAt": "2026-11-09T20:10:55Z",
-      "time": "Mon 3:10 PM",
+      "id": "f00ee41bfbb3a",
+      "headline": "Global oil supplies are suddenly flowing. Why a crude glut won’t mean cheaper diesel.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/global-oil-supplies-are-suddenly-flowing-why-a-crude-glut-wont-mean-cheaper-diesel-a5fa80c8?mod=mw_rss_topstories",
+      "publishedAt": "2026-11-13T22:04:00Z",
+      "time": "Fri 5:04 PM",
       "section": "energy",
-      "impact": "High",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f321ae15b7be4",
+      "headline": "U.S. Oil Rig Count Holds at 463 as Crude Output Hits Another Record",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Energy/Crude-Oil/US-Oil-Rigs-Hold-at-463-as-Crude-Output-Hits-Another-Record.html",
+      "publishedAt": "2026-11-13T18:11:00Z",
+      "time": "Fri 1:11 PM",
+      "section": "energy",
+      "impact": "Medium",
       "lean": null,
       "auto": true
     },
@@ -786,18 +762,6 @@
       "url": "https://oilprice.com/Latest-Energy-News/World-News/Asian-Refiners-Turn-Back-to-Gulf-Oil-Despite-War-Risks.html",
       "publishedAt": "2026-11-13T11:30:00Z",
       "time": "Fri 6:30 AM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f22d2dde1a696",
-      "headline": "India Seeks Private Investors for $910 Million Oil Reserve",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/India-Seeks-Private-Investors-for-910-Million-Oil-Reserve.html",
-      "publishedAt": "2026-11-13T10:15:00Z",
-      "time": "Fri 5:15 AM",
       "section": "energy",
       "impact": "Medium",
       "lean": null,
