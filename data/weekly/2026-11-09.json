@@ -1,0 +1,93 @@
+{
+ "weekStart": "2026-11-09",
+ "weekEnd": "2026-11-13",
+ "updatedAt": "2026-11-13T21:59:13Z",
+ "note": "Both journaled trades this week were wins (Tue 2R, Thu 3.51R), so Worst shows the weaker execution. Mon was a no-trade sick day, Wed was the Veterans Day holiday, and Fri was a missed short with no entry.",
+ "best": {
+  "date": "2026-11-12",
+  "title": "A-grade open long off the SMT'd protected low to the NDOG fill",
+  "result": "Win 3.51R",
+  "trade": "Long · NY-AM · XFA x1 · entry 28,133.25 (9:31 AM) · stop 28,044.50 under the SMT low · target 28,444.75 (NDOG fill), hit ~10:54 AM",
+  "reasoning": "PRE MARKET: \"Want longs for today, just need a protected low.\" DOL: \"NDOG fill.\"\nEntry type: \"1min internal low swept. 1min bullish SMT created. The reaction after we rejected OTE & 1hr rejection block midpoint, 1min displacement.\" Stop: \"SMT'd low.\"\nTALK: \"We had structure before MO, which gives me the green light to enter MO trades. HTF we're inside of a 4hr bullish gap/EQ. DOL fill in NDOG. I went BE at London high.\"\nEmotions: before \"calm\", during \"calm & annoyed\", after \"HAPPYYYYY\".\nAB's feedback: \"He has nothing to say honestly, great trade, emotionally too he said.\"",
+  "feedback": "This is your model with nothing extra on it. You wrote the plan at 9:24 (longs, but only off a protected low), the 4H and 1H had price sitting in the 0.5-0.618 of the bullish gap around 28,060, and at the open NQ printed the SMT low at the 0.786 just above NYAM.L while ES swept. You bought 28,133.25 after the 1min displacement with the stop at 28,044.50 under that SMT'd low, a real protected level, and the target was the NDOG fill at 28,444.75. One XFA, NY only, and your journaled 3.51R matches the RR tool to the decimal: (28,444.75 - 28,133.25) / 88.75. The part I'm proudest of is the 10:00 pullback to D OPEN and PD-EQ. On Tuesday that kind of dip made you grab profit; today you sat through it and let the chart pay you. AB saw the same thing.\nTwo small things to tighten. Your notes say you went breakeven at the London high, but the chart marks 'Trailed' near 28,330, which locks in about 2.2R, so write the exact stop price every time you move it. And the 9:31 entry was before 10:00; your 'structure before MO = green light' rule covered it, so put that exception on your rules page so it stays a rule and not a feeling. Know too that the deeper swing low near 28,010 was the level a stop hunt would have aimed at.",
+  "good": [
+   "Plan written at 9:24 AM ('want longs, just need a protected low', DOL NDOG fill) and the trade was exactly that plan.",
+   "Stop 28,044.50 under the SMT'd low at the 0.786: a protected low, not a points number.",
+   "Long from a discount: price was in the 0.5-0.618 of the 4H/1H bullish gap (~28,060) before the open.",
+   "Held through the 10:00 pullback to D OPEN and PD-EQ and let it reach 28,444.75 instead of cutting at 2R like Tuesday.",
+   "One XFA, NY-AM only, numbers in Notion match the RR tool (3.51R), Discord check-in on time and EOD card honest."
+  ],
+  "fix": [
+   "Notes say 'went BE at London high', but the chart marks 'Trailed' at ~28,330 (~2.2R locked). Log the exact stop price after every move.",
+   "Entry at 9:31 was before 10:00. Write the 'structure before MO = green light' exception into your rules page.",
+   "Name what annoyed you during the trade. If it was the pullback to D OPEN, that's the emotion that could cut a winner next time.",
+   "Be aware the deeper swing low near 28,010 was a stop-hunt target under your 28,044.50 stop."
+  ],
+  "screenshots": [
+   {
+    "label": "Execution 1 · 1min NQ + ES (10:08 AM)",
+    "src": "data/weekly/2026-11-09/best-1.png",
+    "note": "ES and NQ swept toward NYAM.L, NQ printed the SMT low at the 0.786, and you bought 28,133.25 after the 9:30 displacement with the stop at 28,044.50 just under that protected low."
+   },
+   {
+    "label": "Execution 2 · 1min NQ + ES (10:55 AM)",
+    "src": "data/weekly/2026-11-09/best-2.png",
+    "note": "Price held above D OPEN and PD-EQ through the 10:00 pullback, you trailed near 28,330 at the London high, and the 28,444.75 target was tagged around 10:54 for 3.51R."
+   },
+   {
+    "label": "Pre-market · 4H ES + NQ (9:24 AM)",
+    "src": "data/weekly/2026-11-09/best-3.png",
+    "note": "Price sat in the green 0.5-0.618 bullish gap zone around 28,060, so the long came from a discount, matching your 'inside a 4hr bullish gap/EQ' note."
+   },
+   {
+    "label": "Pre-market · 1H ES + NQ (9:24 AM)",
+    "src": "data/weekly/2026-11-09/best-4.png",
+    "note": "Same story on the 1H: price pulled into the green gap at the 0.5-0.618 of the leg from the 10th, just above PD-L, which is where the protected low had to form."
+   },
+   {
+    "label": "Pre-market · 15m ES + NQ (9:24 AM)",
+    "src": "data/weekly/2026-11-09/best-5.png",
+    "note": "Asia, London, NYAM and D OPEN were all marked, price was under LO.L in the 0.5 of the gap, and LO.H is the London high you later trailed to."
+   }
+  ]
+ },
+ "worst": {
+  "date": "2026-11-10",
+  "title": "CPI-day long closed at D OPEN on nerves, morning check-in skipped",
+  "result": "Trailed out W 2R (logged)",
+  "trade": "Long · NY-AM · XFA x1 · entry ~27,768.75 (~9:45 AM) · stop ~27,644.75 at the swept 1min internal low · RR target ~28,036, closed around D OPEN ~28,060 · DOL data high (hit) / PDH ~28,118 (not reached)",
+  "reasoning": "PRE MARKET: \"Want data high to get hit, we're in 4hr bullish gaps.\" DOL: \"Data high/PDH aka LRL.\"\nEntry type: \"5min FVG respected. 1min internal low swept. 1hr rejection block respected. OTE respected.\" Stop: \"1min internal low that swept a low.\"\nTALK: \"Pretty weird day mentally. I really wanted to hold, but I told myself secure profits instead of letting this retrace and MAYBE it'll deliver. Not too sure after seeing it reject D-OPEN.\"\nEmotions: before \"Calm, still sick, got good rest tho.\" During: \"Nervous, but I was just talking to myself logically saying the trade idea is good, the delivery doesn't matter.\" After: \"Happy ofc but I really wanted PDH to make 700.\"",
+  "feedback": "Both of your journaled trades this week were wins, so this card is the weaker execution, not a bad one. The idea was right: you waited out the 8:30 CPI flush to ~27,590, bought the retrace into the OTE, the 1hr rejection block and the 5min FVG at ~27,768.75, and price ran through the data high (~28,000) to ~28,090 before falling to ~27,866 by 10:40. Taking profit near D OPEN (~28,060) was the better result today. But your own words say why you closed: 'my mind kept messing with me thinking the move would fully go back to entry for BE.' The exit came from fear of giving it back, not from a level you picked before entry. Your stop at ~27,644.75 also sat above the NY AM low (~27,620), so a deeper sweep of that low would have taken you out before the move. And 'I really wanted PDH to make 700' is a dollar target; PDH at ~28,118 is the target, the 700 isn't.\nThe real rule break was before the trade: nothing was filed for the morning check-in before 9:30, so there's no risk screenshot on a CPI day, and the EOD card still said 'Rules Followed: Yes'. For context, Friday wasn't a trade but it's the same lesson from the other side: your 8:55 plan had data low first, you switched to longs after reading AB's analysis, and the short you boxed in hindsight (~28,338, stop 28,385.25) ran to PD-L ~28,006 by 10:05. Thursday showed you what happens when you trust your own plan and decide the exit ahead of time. Do that every day: check in by 9:30, write your hold-or-partial rule before entry, and let your plan, not someone else's, choose the side.",
+  "good": [
+   "Followed the pre-market idea: long toward the data high inside 4hr bullish gaps, and the data high got hit.",
+   "Waited out the 8:30 CPI flush (~27,590) and entered on the retrace into OTE, the 1hr rejection block and the 5min FVG at ~27,768.75.",
+   "One XFA account, no evals, no copied trades, no new purchases.",
+   "Talked yourself through the nerves logically ('the trade idea is good, the delivery doesn't matter').",
+   "D OPEN (~28,075) was marked before the open and price rejected it right after you closed."
+  ],
+  "fix": [
+   "Skipped the mandatory morning check-in: nothing filed before 9:30 and no risk screenshot on a CPI day.",
+   "Exit wasn't in the plan; you closed near D OPEN (~28,060) out of fear of a round trip to entry. Decide partials and the hold-for-PDH (~28,118) condition before entry.",
+   "'Make 700' is a dollar target. Keep targets as chart levels.",
+   "Stop ~27,644.75 sat above the NY AM low (~27,620), so a sweep of that low would have stopped you first. Know that when you size.",
+   "EOD card said 'Rules Followed: Yes' despite the skipped check-in, and Market Conditions was blank in Notion."
+  ],
+  "screenshots": [
+   {
+    "label": "Execution 1 · 1min NQ (10:40 AM)",
+    "src": "data/weekly/2026-11-09/worst-1.png",
+    "note": "RR tool entry ~27,768.75 with the stop ~27,644.75 under the OTE band and swept internal low; price ran through the data high to ~28,090 after 10:00, then sold off to 27,866 by 10:40."
+   },
+   {
+    "label": "TimeFrame 1 · 4hr NQ + 15min ES (9:29 AM)",
+    "src": "data/weekly/2026-11-09/worst-2.png",
+    "note": "NQ was bouncing off the Nov 6 lows back toward PD-H (~28,120), supporting the long bias, while ES on the 15min had already dumped under its Asia and London lows."
+   },
+   {
+    "label": "TimeFrame 2 · 15min NQ + ES (9:31 AM)",
+    "src": "data/weekly/2026-11-09/worst-3.png",
+    "note": "The 8:30 CPI candle swept to ~27,590 and NQ sat under the Asia low, London low and D OPEN (~28,075); marking those levels is what let you see the D OPEN rejection later."
+   }
+  ]
+ }
+}
