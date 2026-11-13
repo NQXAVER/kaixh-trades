@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-12",
-  "at": "2026-11-13T03:28:22Z",
+  "date": "2026-11-13",
+  "at": "2026-11-13T12:24:00Z",
   "items": [
     {
       "ticker": "NBIS",
@@ -30,7 +30,7 @@
       "status": "reported",
       "reaction": "muted AH: ~flat to +1.5% per X posts (~7-8 PM ET)",
       "sentiment": "Mixed",
-      "why": "Q4 sales $10.41B vs $10.27B est; adj EPS $4.16 vs $4.06; semi systems $8.00B vs $7.94B; Q1 sales guide $10.6-11.6B, midpoint above $10.87B est; beat priced in"
+      "why": "Q4 rev $10.41B (+53% y/y) vs ~$10.3B est, adj EPS $4.16 vs ~$4.05 est; record FY rev $34.45B; Q1 guide above Street on AI demand; stock ~flat AH as beat was priced in"
     },
     {
       "ticker": "CRWV",

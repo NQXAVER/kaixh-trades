@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-13",
+  "grok": {
+    "date": "2026-11-13",
+    "at": "2026-11-13T12:24:00Z",
+    "pulse": "NQ futures flat-to-slightly green into 8:30 AM ET PPI as NVDA tries to stabilize after Huang's exit (retail bought $1.6B, employees petitioning for his return), offset by a Hormuz LNG-tanker mine blast keeping oil/Iran risk bid, a BTC flush under $68K and ~85-88% odds of a 25bp Dec hike.",
+    "bias": "mixed — NVDA dip-buying and AMAT's AI beat support semis, but hot-CPI follow-through risk in PPI, rising yields and Hormuz escalation cap upside",
+    "items": [
+      "@Reuters (~2:50 AM ET, reposted ~7:00 AM ET): Iran says LNG tanker hit a mine and exploded in Hormuz — Bearish NQ (oil/risk premium)",
+      "@WatcherGuru (~1:13 AM ET): NVDA employees petition to bring back Jensen Huang as CEO; ~2:04 AM ET billionaire holder Leo KoGuan says no more NVDA money without Huang — Mixed NQ",
+      "@WatcherGuru (~1:02 AM ET): BTC crashes under $68K, ETH under $1,900 after $500M liquidations (~10:32 PM ET) — Bearish NQ (risk appetite)",
+      "@FirstSquawk (~3:18 AM ET): IAEA says Iran still blocking inspections, can't confirm no diversion of nuclear material — Bearish NQ",
+      "@FirstSquawk (~7:05 AM ET): Microsoft says recovery progressing after worldwide M365 outage hit Europe/APAC — Mixed NQ (MSFT headline risk)"
+    ],
+    "trump": "Disclosure (via @unusual_whales ~9:14 PM ET Thu): Trump sold up to $1M of NVDA in Aug but bought up to $1.6M, net adding; White House says blind trust is independently managed. No new Trump market post overnight.",
+    "watch": "8:30 AM ET Oct PPI/Core PPI (est ~+0.4% m/m headline, +0.3% core) — hot print = Dec hike lock-in, NQ lower; 9:30 AM ET cash open NVDA/semis follow-through (AMAT post-beat, NBIS after -15%); Hormuz/Iran oil headlines; 10Y yield; BTC under $68K spillover; next week NVDA earnings Tue 11/17 AMC.",
+    "forSite": [],
+    "reports": [
+      {
+        "at": "2026-11-13T12:01:32Z",
+        "pulse": "NQ and ES futures modestly green premarket as NVDA attempts a recovery after Huang's CEO exit shock, while oil stays elevated on Trump's Iran no-deal stance and traders await 8:30 AM ET PPI with December FOMC hike fully priced.",
+        "bias": "mixed — modest futures bid and NVDA bounce vs oil/yields pressure from Iran risks and inflation data that could reinforce hawkish Dec hike path",
+        "items": [
+          "@SNFuturesLive (~6:30 AM ET): ES +0.17% to 7628, NQ +0.06% to 28402, YM green; BTC broke under $70K (-5.4%) while equity futures barely flinched — Mixed NQ",
+          "@Bloomberg (~7:00 AM ET): Stocks set to open higher as traders wait for latest inflation data to cap dramatic week of rate-hike bets and Jensen Huang's ouster from Nvidia — Mixed NQ",
+          "@sandipsabharwal (~7:00 AM ET): IEA says global oil market has turned into a surplus likely to accelerate in 2027 despite demand rebound — lower prices ahead — Mixed oil",
+          "@holantei (~7:00 AM ET): ES & NQ 1H path — bounce into fade zone then fail back toward overnight lows (NQ invalid above 28652) — Cautious NQ",
+          "@neilsethinew (~7:00 AM ET): Williams and Daly signal more hikes ahead but not 50bp; 25bp Dec base case with debate on pace — Bearish rates/NQ"
+        ],
+        "trump": "Earlier: US no longer needs a deal with Iran ('Those days have long passed'), supporting oil bid and Hormuz risk premium; also praised ex-NVDA CEO Huang as exceptional.",
+        "watch": "8:30 AM ET October PPI/Core PPI reaction for Dec hike odds; 9:30 cash open NVDA/AI follow-through after Huang exit; Brent/Hormuz headlines; 10Y vs 5%; BTC under 70k spillover risk.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-13T12:24:00Z",
+        "pulse": "NQ futures flat-to-slightly green into 8:30 AM ET PPI as NVDA tries to stabilize after Huang's exit (retail bought $1.6B, employees petitioning for his return), offset by a Hormuz LNG-tanker mine blast keeping oil/Iran risk bid, a BTC flush under $68K and ~85-88% odds of a 25bp Dec hike.",
+        "bias": "mixed — NVDA dip-buying and AMAT's AI beat support semis, but hot-CPI follow-through risk in PPI, rising yields and Hormuz escalation cap upside",
+        "items": [
+          "@Reuters (~2:50 AM ET, reposted ~7:00 AM ET): Iran says LNG tanker hit a mine and exploded in Hormuz — Bearish NQ (oil/risk premium)",
+          "@WatcherGuru (~1:13 AM ET): NVDA employees petition to bring back Jensen Huang as CEO; ~2:04 AM ET billionaire holder Leo KoGuan says no more NVDA money without Huang — Mixed NQ",
+          "@WatcherGuru (~1:02 AM ET): BTC crashes under $68K, ETH under $1,900 after $500M liquidations (~10:32 PM ET) — Bearish NQ (risk appetite)",
+          "@FirstSquawk (~3:18 AM ET): IAEA says Iran still blocking inspections, can't confirm no diversion of nuclear material — Bearish NQ",
+          "@FirstSquawk (~7:05 AM ET): Microsoft says recovery progressing after worldwide M365 outage hit Europe/APAC — Mixed NQ (MSFT headline risk)"
+        ],
+        "trump": "Disclosure (via @unusual_whales ~9:14 PM ET Thu): Trump sold up to $1M of NVDA in Aug but bought up to $1.6M, net adding; White House says blind trust is independently managed. No new Trump market post overnight.",
+        "watch": "8:30 AM ET Oct PPI/Core PPI (est ~+0.4% m/m headline, +0.3% core) — hot print = Dec hike lock-in, NQ lower; 9:30 AM ET cash open NVDA/semis follow-through (AMAT post-beat, NBIS after -15%); Hormuz/Iran oil headlines; 10Y yield; BTC under $68K spillover; next week NVDA earnings Tue 11/17 AMC.",
+        "forSite": []
+      }
+    ]
+  }
+}
