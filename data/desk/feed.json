@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T03:15:36Z",
+  "updatedAt": "2026-11-13T06:56:15Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -183,9 +183,9 @@
     {
       "id": "un-peace",
       "label": "UN News",
-      "ok": false,
-      "items": 0,
-      "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+      "ok": true,
+      "items": 20,
+      "error": null
     },
     {
       "id": "wsj-biz",
@@ -203,6 +203,18 @@
     }
   ],
   "items": [
+    {
+      "id": "ff223eddbb667",
+      "headline": "Oil Prices Head for Second Weekly Loss Despite Fresh Middle East Attacks",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Second-Weekly-Loss-Despite-Fresh-Middle-East-Attacks.html",
+      "publishedAt": "2026-11-13T05:45:00Z",
+      "time": "Fri 12:45 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
     {
       "id": "fba51263c5e1a",
       "headline": "Oil Prices Squeezed Between Peace Hopes and Iran Escalation Risk",
@@ -252,6 +264,18 @@
       "auto": true
     },
     {
+      "id": "f3845ed897c8f",
+      "headline": "Six killed in Israeli airstrike on Gaza’s Nasser Hospital",
+      "source": "UN News - Global perspective Human stories",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168796",
+      "publishedAt": "2026-11-12T12:00:00Z",
+      "time": "Thu 7:00 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
       "id": "ffbdd4ab291eb",
       "headline": "Hormuz Strait will ‘never return’ to pre-war status, Iran’s Ghalibaf says",
       "source": "Al Jazeera",
@@ -294,30 +318,6 @@
       "url": "https://www.bbc.co.uk/news/videos/cm894wg251pzo?at_medium=RSS&at_campaign=rss",
       "publishedAt": "2026-11-11T09:28:36Z",
       "time": "Wed 4:28 AM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "fdb73fb0266bd",
-      "headline": "El Salvador fires missiles on Haitian gang hideout",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/el-salvador-fires-missiles-on-haitian-gang-hideout?traffic_source=rss",
-      "publishedAt": "2026-11-11T03:00:23Z",
-      "time": "Tue 10:00 PM",
-      "section": "war",
-      "impact": "High",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f57a20329585b",
-      "headline": "Sudan war: First suicide bombers, now long-range drone strikes are the norm",
-      "source": "UN News - Global perspective Human stories",
-      "url": "https://news.un.org/feed/view/en/story/2026/11/1168771",
-      "publishedAt": "2026-11-10T12:00:00Z",
-      "time": "Tue 7:00 AM",
       "section": "war",
       "impact": "High",
       "lean": "risk-off",
@@ -396,6 +396,18 @@
       "auto": true
     },
     {
+      "id": "f041069ad7903",
+      "headline": "In French Election, Centrists Eye a Judo Star and a Central Banker",
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/2026/11/13/world/europe/france-riner-judo-lagarde-election.html",
+      "publishedAt": "2026-11-13T05:01:06Z",
+      "time": "Fri 12:01 AM",
+      "section": "fed",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "f56229039ff56",
       "headline": "In a policy switch, the Fed says its October 2027 meeting will not see a vote on interest rates",
       "source": "CNBC",
@@ -426,18 +438,6 @@
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261112a.htm",
       "publishedAt": "2026-11-12T18:30:00Z",
       "time": "Thu 1:30 PM",
-      "section": "fed",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f7c8f9bad56e0",
-      "headline": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
-      "source": "Federal Reserve",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
-      "publishedAt": "2026-11-12T17:45:00Z",
-      "time": "Thu 12:45 PM",
       "section": "fed",
       "impact": "Medium",
       "lean": null,
