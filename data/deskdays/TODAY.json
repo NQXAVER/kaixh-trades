@@ -1,18 +1,18 @@
 {
   "date": "2026-11-13",
   "grok": {
-    "at": "2026-11-13T01:12:20Z",
-    "pulse": "Risk assets face pressure from oil surge on Trump's Iran no-deal stance, 10Y yields above 5% pricing December hike odds near 90%, and AI uncertainty after Jensen Huang's NVDA CEO resignation, with Nasdaq and S&P closing modestly lower.",
-    "bias": "mixed — oil bid and higher yields tighten conditions while NVDA leadership shock shook tech but large caps clawed back some losses; overnight futures mildly green ahead of PPI.",
+    "at": "2026-11-13T03:05:00Z",
+    "pulse": "Overnight markets mixed as Asia digests the Nvidia CEO resignation shock with some regional bounce, while oil stays elevated on Trump's Iran no-deal stance and 10-year yields above 5% keep December FOMC hike odds near 90% after hot data.",
+    "bias": "mixed — NVDA leadership uncertainty and higher yields weigh on tech/risk appetite, offset by Asia resilience, modest futures bid, and CSCO/AMAT support ahead of PPI.",
     "items": [
-      "@Cryptocratico (~8:11 PM ET): Daily summary — Brent +3.3% to $95.82, WTI +2.6% to $88.74 on Iran/Hormuz risks; Nasdaq -0.39%, S&P -0.35%, NVDA -4.3% after Huang exit; 10Y 5.10% — Mixed",
-      "@tyrovirtuoso (~8:10 PM ET): Wall St S&P 7592.40 (-0.35%), Nasdaq 25366 (-0.39%); Trump Truth Social no-deal with Iran spiked oil ~$2; Dec hike odds 90% — Risk-off bias",
-      "@USarmypower_ (~8:11 PM ET): Saudi Crown Prince warns Russia on Iran weapons or Saudi pumps full capacity crashing oil prices — Mixed oil",
-      "@MarketForgeIQ (~8:10 PM ET): Fri plan — S&P futures +0.2%, Nasdaq futures +0.4% since close; neutral until SPY clears 760 or loses 753.70 — Mixed",
-      "@Mulana_intern (~8:11 PM ET): NVIDIA confirmed Huang resignation, CFO Kress interim; stock -4.3% after recovering from open plunge — Bearish AI/NQ"
+      "@FirstSquawk (~8:00 PM ET): Asia opens mixed-to-higher (KOSPI rallying, Taiwan +2%) shrugging off NVDA Huang exit after Nasdaq closed -0.39% — Mixed NQ",
+      "@LiveSquawk (~7:31 PM ET): Fed's Williams says inflation 'far too high', still work to do; rates can influence AI investment — Bearish NQ",
+      "@WatcherGuru (~7:00 PM ET): Trump praises former NVDA CEO Jensen Huang as 'exceptional' after resignation — Mixed",
+      "@Cryptocratico (~8:11 PM ET): Brent ~$95.8, WTI ~$88.7 on Iran/Hormuz risks; 10Y at 5.10%; Dec hike odds ~90% — Mixed",
+      "@zerohedge (~8:22 PM ET): TSMC reports no systems compromised after data leak — Neutral for AI/NQ"
     ],
-    "trump": "Posted on Truth Social that the US no longer needs a deal with Iran; 'Those days have long passed,' supporting oil bid and Hormuz risk premium.",
-    "watch": "Friday 8:30 AM ET US PPI for inflation relief or confirmation; Iran/Hormuz and Saudi oil headlines; NVDA/AI follow-through overnight and Asia; Dec FOMC hike path with yields at 5%+; residual leadership probe headlines.",
+    "trump": "Said the US no longer needs a deal with Iran ('Those days have long passed'), supporting oil bid; separately praised ex-NVDA CEO Jensen Huang as exceptional and noted speaking with him.",
+    "watch": "Friday 8:30 AM ET US PPI for inflation signal and Dec hike odds; Iran/Hormuz and Saudi oil headlines; NVDA/AI follow-through into Asia close and US open; Senate probe headlines on Huang; residual CSCO/AMAT reaction.",
     "forSite": []
   }
 }
