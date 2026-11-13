@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T16:32:38Z",
+  "updatedAt": "2026-11-13T17:00:06Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -204,6 +204,18 @@
   ],
   "items": [
     {
+      "id": "fd4cbaa4fc5da",
+      "headline": "US Treasury warns against rate hikes during US-Iran war energy ‘shock’",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/economy/2026/11/13/us-treasury-warns-against-rate-hikes-during-us-iran-war-energy-shock?traffic_source=rss",
+      "publishedAt": "2026-11-13T16:22:33Z",
+      "time": "Fri 11:22 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
       "id": "f16903c8dd212",
       "headline": "Iran Rules Out Return of UN Nuclear Inspectors as U.S. War Talks Stall",
       "source": "OilPrice",
@@ -306,18 +318,6 @@
       "url": "https://www.bbc.co.uk/news/articles/crgj3v3z10dno?at_medium=RSS&at_campaign=rss",
       "publishedAt": "2026-11-12T13:58:49Z",
       "time": "Thu 8:58 AM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "f3845ed897c8f",
-      "headline": "Six killed in Israeli airstrike on Gaza’s Nasser Hospital",
-      "source": "UN News - Global perspective Human stories",
-      "url": "https://news.un.org/feed/view/en/story/2026/11/1168796",
-      "publishedAt": "2026-11-12T12:00:00Z",
-      "time": "Thu 7:00 AM",
       "section": "war",
       "impact": "High",
       "lean": "risk-off",
@@ -720,6 +720,18 @@
       "auto": true
     },
     {
+      "id": "fb7bce31fd584",
+      "headline": "Brent Crude Climbs Back Above $96 as Iran Tensions Escalate",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Energy/Energy-General/Brent-Crude-Climbs-Back-Above-96-as-Iran-Tensions-Escalate.html",
+      "publishedAt": "2026-11-13T17:00:00Z",
+      "time": "Fri 12:00 PM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "f4b4a82466731",
       "headline": "India's Road Fuel Demand Won't Peak Until 2034",
       "source": "OilPrice",
@@ -787,30 +799,6 @@
       "publishedAt": "2026-11-13T10:15:00Z",
       "time": "Fri 5:15 AM",
       "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f2e12ded88033",
-      "headline": "Asian Airlines Face a $148-a-Barrel Fuel Gamble",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Asian-Airlines-Face-a-148-a-Barrel-Fuel-Gamble.html",
-      "publishedAt": "2026-11-13T08:50:00Z",
-      "time": "Fri 3:50 AM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "fc09364036352",
-      "headline": "US Treasury Secretary Scott Bessent relocated after alleged Iranian threats",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cqr7gr0010r2o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-11-11T16:45:11Z",
-      "time": "Wed 11:45 AM",
-      "section": "markets",
       "impact": "Medium",
       "lean": null,
       "auto": true
