@@ -2,18 +2,18 @@
   "date": "2026-11-12",
   "grok": {
     "date": "2026-11-12",
-    "at": "2026-11-12T21:20:44Z",
-    "pulse": "NQ closed only modestly red (Nasdaq Comp -0.41%, NDX ~-0.30%) after clawing back much of the NVDA/Huang-resignation gap-down, with CSCO's beat-and-raise lifting AH sentiment while a Brent spike and Iran saber-rattling into Friday's PPI cap the bounce.",
-    "bias": "mixed — large caps recovered from the NVDA leadership shock and CSCO AH pop (+6-8%) supports AI infra, but oil +3% (Brent ~$95.8) ahead of 8:30 AM PPI, NVDA probe headlines and IWM -1.66% keep risk appetite fragile",
+    "at": "2026-11-13T01:27:02Z",
+    "pulse": "NQ futures ~+0.4% vs the cash close as Asia shrugs off the NVDA CEO shock (KOSPI rallying, Taiwan +2%) after Nasdaq -0.39% / NVDA -4.3% today; offset by Fed Williams calling inflation 'far too high', 10Y >5% and Brent ~$96 into PPI.",
+    "bias": "mixed — overnight futures bid and Asia strength vs hawkish Fed talk, hot-inflation backdrop and Huang/Nvidia Senate-probe overhang; CSCO/AMAT beat-and-raise met with muted AH reactions.",
     "items": [
-      "@FirstSquawk (~4:04 PM ET): Nasdaq closes -0.41% at 25,362, S&P -0.34% at 7,593.6, Dow -0.35%; NDX ~-0.30%, R2K -1.66% — Mixed NQ",
-      "@FirstSquawk (~4:07 PM ET): CSCO Q1 adj EPS $1.40 vs $1.32, rev $18.50B vs $18.13B; Q2 guide above, FY EPS raised to $5.47-5.53 from $5.05-5.11; stock ~+6-8% AH — Bullish NQ",
-      "@LiveSquawk (~4:10 PM ET): AMAT Q4 sales $10.41B vs $10.27B, adj EPS $4.16 vs $4.06; Q1 sales guide $10.6-11.6B (mid above $10.87B est); stock ~flat AH — Mixed NQ",
-      "@TheMacroMemo (~3:30 PM ET): Brent settles $95.82 +3.3%, WTI $88.74 +2.55% the day before PPI — Bearish NQ",
-      "@FirstSquawk (~3:55 PM ET): Nvidia will continue investigation into former CEO and alleged Chinese spy (The Information); DoJ yet to conclude on Alice Huang — Bearish NQ"
+      "@FirstSquawk (~7:59 PM ET): South Korean shares rally at the open in response to Nvidia's leadership changes; Taiwan stocks +2% (~8:02 PM) — Bullish NQ",
+      "@LiveSquawk (~7:31 PM ET): Fed's Williams says inflation 'far too high', still work to do; also flags rates can sway AI investment — Bearish NQ",
+      "@LiveSquawk (~7:06 PM ET): Senate Banking chair summons Huang and Lutnick to testify over the Nvidia saga; GOP again demands Huang briefing on alleged spy links (@FirstSquawk ~8:24 PM) — Bearish NQ",
+      "@WatcherGuru (~6:55 PM ET): Trump praises former NVDA CEO Jensen Huang, calls his talent 'exceptional' — Mixed NQ",
+      "@zerohedge (~8:22 PM ET): TSMC says no sign systems compromised after employee data leak — Mixed NQ"
     ],
-    "trump": "~3:39 PM ET: said the US has 'fought with Iran at a rapid pace for the last three weeks' and would possibly use military force in Iran if needed; also floated a week-long campaign against Cuba ('I want to get Cuba done before I leave') — supports the oil bid.",
-    "watch": "CSCO/AMAT AH follow-through overnight; Fri 8:30 AM ET PPI + Core PPI; Iran/Hormuz oil headlines; NVDA probe headlines; Tue Nov 17 8:30 AM Retail Sales, DIS BMO, NVDA AMC; Wed Nov 18 2:00 PM FOMC minutes.",
+    "trump": "Praised ex-NVDA CEO Jensen Huang as 'exceptional' and said he spoke to him Wednesday (@WatcherGuru ~6:55 PM, @DeItaone ~6:33 PM ET); earlier said the US no longer needs an Iran deal ('Those days have long passed'), keeping the oil bid; also 'I want to get Cuba done' (Politico, ~6:47 PM ET).",
+    "watch": "Fri 8:30 AM ET US PPI (hot print tests dip-buyers, Dec hike odds); Huang/Lutnick Senate testimony headlines; Asia/Europe read on NVDA; Iran/Hormuz and Saudi oil headlines; CSCO/AMAT follow-through at the open; NVDA company meeting Tue Nov 18 9 AM PT; Japan FX-intervention risk.",
     "forSite": [],
     "reports": [
       {
@@ -89,6 +89,36 @@
         ],
         "trump": "~3:39 PM ET: said the US has 'fought with Iran at a rapid pace for the last three weeks' and would possibly use military force in Iran if needed; also floated a week-long campaign against Cuba ('I want to get Cuba done before I leave') — supports the oil bid.",
         "watch": "CSCO/AMAT AH follow-through overnight; Fri 8:30 AM ET PPI + Core PPI; Iran/Hormuz oil headlines; NVDA probe headlines; Tue Nov 17 8:30 AM Retail Sales, DIS BMO, NVDA AMC; Wed Nov 18 2:00 PM FOMC minutes.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-13T01:12:20Z",
+        "pulse": "Risk assets face pressure from oil surge on Trump's Iran no-deal stance, 10Y yields above 5% pricing December hike odds near 90%, and AI uncertainty after Jensen Huang's NVDA CEO resignation, with Nasdaq and S&P closing modestly lower.",
+        "bias": "mixed — oil bid and higher yields tighten conditions while NVDA leadership shock shook tech but large caps clawed back some losses; overnight futures mildly green ahead of PPI.",
+        "items": [
+          "@Cryptocratico (~8:11 PM ET): Daily summary — Brent +3.3% to $95.82, WTI +2.6% to $88.74 on Iran/Hormuz risks; Nasdaq -0.39%, S&P -0.35%, NVDA -4.3% after Huang exit; 10Y 5.10% — Mixed",
+          "@tyrovirtuoso (~8:10 PM ET): Wall St S&P 7592.40 (-0.35%), Nasdaq 25366 (-0.39%); Trump Truth Social no-deal with Iran spiked oil ~$2; Dec hike odds 90% — Risk-off bias",
+          "@USarmypower_ (~8:11 PM ET): Saudi Crown Prince warns Russia on Iran weapons or Saudi pumps full capacity crashing oil prices — Mixed oil",
+          "@MarketForgeIQ (~8:10 PM ET): Fri plan — S&P futures +0.2%, Nasdaq futures +0.4% since close; neutral until SPY clears 760 or loses 753.70 — Mixed",
+          "@Mulana_intern (~8:11 PM ET): NVIDIA confirmed Huang resignation, CFO Kress interim; stock -4.3% after recovering from open plunge — Bearish AI/NQ"
+        ],
+        "trump": "Posted on Truth Social that the US no longer needs a deal with Iran; 'Those days have long passed,' supporting oil bid and Hormuz risk premium.",
+        "watch": "Friday 8:30 AM ET US PPI for inflation relief or confirmation; Iran/Hormuz and Saudi oil headlines; NVDA/AI follow-through overnight and Asia; Dec FOMC hike path with yields at 5%+; residual leadership probe headlines.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-13T01:27:02Z",
+        "pulse": "NQ futures ~+0.4% vs the cash close as Asia shrugs off the NVDA CEO shock (KOSPI rallying, Taiwan +2%) after Nasdaq -0.39% / NVDA -4.3% today; offset by Fed Williams calling inflation 'far too high', 10Y >5% and Brent ~$96 into PPI.",
+        "bias": "mixed — overnight futures bid and Asia strength vs hawkish Fed talk, hot-inflation backdrop and Huang/Nvidia Senate-probe overhang; CSCO/AMAT beat-and-raise met with muted AH reactions.",
+        "items": [
+          "@FirstSquawk (~7:59 PM ET): South Korean shares rally at the open in response to Nvidia's leadership changes; Taiwan stocks +2% (~8:02 PM) — Bullish NQ",
+          "@LiveSquawk (~7:31 PM ET): Fed's Williams says inflation 'far too high', still work to do; also flags rates can sway AI investment — Bearish NQ",
+          "@LiveSquawk (~7:06 PM ET): Senate Banking chair summons Huang and Lutnick to testify over the Nvidia saga; GOP again demands Huang briefing on alleged spy links (@FirstSquawk ~8:24 PM) — Bearish NQ",
+          "@WatcherGuru (~6:55 PM ET): Trump praises former NVDA CEO Jensen Huang, calls his talent 'exceptional' — Mixed NQ",
+          "@zerohedge (~8:22 PM ET): TSMC says no sign systems compromised after employee data leak — Mixed NQ"
+        ],
+        "trump": "Praised ex-NVDA CEO Jensen Huang as 'exceptional' and said he spoke to him Wednesday (@WatcherGuru ~6:55 PM, @DeItaone ~6:33 PM ET); earlier said the US no longer needs an Iran deal ('Those days have long passed'), keeping the oil bid; also 'I want to get Cuba done' (Politico, ~6:47 PM ET).",
+        "watch": "Fri 8:30 AM ET US PPI (hot print tests dip-buyers, Dec hike odds); Huang/Lutnick Senate testimony headlines; Asia/Europe read on NVDA; Iran/Hormuz and Saudi oil headlines; CSCO/AMAT follow-through at the open; NVDA company meeting Tue Nov 18 9 AM PT; Japan FX-intervention risk.",
         "forSite": []
       }
     ]
