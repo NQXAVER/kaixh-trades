@@ -1,18 +1,18 @@
 {
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "grok": {
-    "at": "2026-11-12T21:20:25Z",
-    "pulse": "Nasdaq and S&P little changed into the close as Nvidia recovers from early plunge on Jensen Huang's resignation (Colette Kress interim) while energy lifts on Trump's no-deal Iran comments and oil bid.",
-    "bias": "mixed — NVDA key-man shock contained by dip buyers and rotation into other AI names, offset by oil strength feeding inflation and elevated December FOMC hike odds with 10Y above 5%.",
+    "at": "2026-11-13T01:12:20Z",
+    "pulse": "Risk assets face pressure from oil surge on Trump's Iran no-deal stance, 10Y yields above 5% pricing December hike odds near 90%, and AI uncertainty after Jensen Huang's NVDA CEO resignation, with Nasdaq and S&P closing modestly lower.",
+    "bias": "mixed — oil bid and higher yields tighten conditions while NVDA leadership shock shook tech but large caps clawed back some losses; overnight futures mildly green ahead of PPI.",
     "items": [
-      "@ABC7NewsBayArea (~4:20 PM ET): Nvidia closes lower after CEO Jensen Huang resigns — Bearish NQ",
-      "@Trend__Rebel (~4:20 PM ET): NVDA recovered from -14% open to -4% close at $166.19; S&P -0.36%, Nasdaq -0.41%, VIX 18.88 — Mixed NQ",
-      "@Ryzm (~4:19 PM ET): US close: Huang resigned, NVDA -4.3% off deeper lows, indices -0.3-0.4%, energy led, Brent $95.82 (+$3), Trump no-deal, Dec hike odds 91%, 10Y 5.10% — Mixed",
-      "@Tradenometry (~4:19 PM ET): EOD wrap: oil and rates the real story over NVDA; Trump 'don't need a deal with Iran', Brent +$3.06 to $95.82, SOX resilient after prior run — Mixed",
-      "@S&P 500 Alerts (~4:20 PM ET): Cisco and Applied Materials beat/raise on AI infra spend still hot despite Nvidia drama — Bullish offset"
+      "@Cryptocratico (~8:11 PM ET): Daily summary — Brent +3.3% to $95.82, WTI +2.6% to $88.74 on Iran/Hormuz risks; Nasdaq -0.39%, S&P -0.35%, NVDA -4.3% after Huang exit; 10Y 5.10% — Mixed",
+      "@tyrovirtuoso (~8:10 PM ET): Wall St S&P 7592.40 (-0.35%), Nasdaq 25366 (-0.39%); Trump Truth Social no-deal with Iran spiked oil ~$2; Dec hike odds 90% — Risk-off bias",
+      "@USarmypower_ (~8:11 PM ET): Saudi Crown Prince warns Russia on Iran weapons or Saudi pumps full capacity crashing oil prices — Mixed oil",
+      "@MarketForgeIQ (~8:10 PM ET): Fri plan — S&P futures +0.2%, Nasdaq futures +0.4% since close; neutral until SPY clears 760 or loses 753.70 — Mixed",
+      "@Mulana_intern (~8:11 PM ET): NVIDIA confirmed Huang resignation, CFO Kress interim; stock -4.3% after recovering from open plunge — Bearish AI/NQ"
     ],
-    "trump": "Wrote that the US does not need a deal with Iran, supporting oil bid and energy shares into the close.",
-    "watch": "Asia open reaction to NVDA close and oil/Hormuz; Friday PPI inflation print; residual Iran headlines; Dec FOMC hike path with yields elevated; NVDA earnings Nov 17.",
+    "trump": "Posted on Truth Social that the US no longer needs a deal with Iran; 'Those days have long passed,' supporting oil bid and Hormuz risk premium.",
+    "watch": "Friday 8:30 AM ET US PPI for inflation relief or confirmation; Iran/Hormuz and Saudi oil headlines; NVDA/AI follow-through overnight and Asia; Dec FOMC hike path with yields at 5%+; residual leadership probe headlines.",
     "forSite": []
   }
 }
