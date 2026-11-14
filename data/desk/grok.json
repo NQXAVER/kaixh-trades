@@ -1,17 +1,17 @@
 {
   "date": "2026-11-14",
-  "at": "2026-11-14T14:26:37Z",
-  "pulse": "Weekend NQ setup still leans defensive on the NVDA overhang (FT: possible lawsuits after Huang's exit) and fresh Gulf drone/Iran headlines, partly offset by the White House saying Trump, Putin and Xi plan a joint meeting in China next week, which feeds US-China trade-deal hopes.",
-  "bias": "risk-off — NVDA leadership/legal overhang into Tue AMC, Hormuz/Iran and Riyadh drone headlines and a ~5.15% 10Y outweigh the Trump-Putin-Xi summit headline until futures reopen Sun 6 PM ET",
+  "at": "2026-11-14T21:22:34Z",
+  "pulse": "Weekend NQ tape stays heavy after Friday's NVDA-led semis flush (NQ -1.24%, SOX -3.4%), with a fresh crypto leg down (BTC <$65K) and the WSJ 'circular financing' NVDA report adding pressure, partly offset by Trump signaling he may pause further Iran strikes, CENTCOM saying Hormuz flows continue, and the Trump-Putin-Xi summit next week.",
+  "bias": "risk-off — NVDA leadership/legal overhang into Tue AMC, crypto liquidations and live Hormuz mine/drone headlines outweigh Trump's Iran-pause signal and US-China summit hopes until futures reopen Sun 6 PM ET",
   "items": [
-    "@unusual_whales (~9:23 AM ET): White House says Trump, Putin and Xi plan a historic joint meeting in China next week — Bullish NQ (US-China trade/de-escalation hopes)",
-    "@FirstSquawk (~8:29 AM ET): FT — Nvidia exposed to possible lawsuits after Jensen Huang's downfall — Bearish NQ (NVDA, semis)",
-    "@FirstSquawk (~8:10 AM ET): Saudi-led coalition says it intercepted 2 drones over Riyadh; adds to Hormuz/Iran tension — Bearish NQ (CL bid)",
-    "@FirstSquawk (~7:19 / 8:57 AM ET): Italy's privacy agency fines META €805M over Android users' videos/photos — Bearish NQ (META, small)",
-    "@unusual_whales (~9:05 AM ET): Cuba's Diaz-Canel says Cuba is preparing for a possible US military attack — Mixed NQ (geopolitical noise)"
+    "@WatcherGuru (~4:01 PM ET): BTC breaks under $65K, ETH under $1,800, $360M+ liquidated in 5 min (BTC was <$66K at ~9:43 AM) — Bearish NQ (risk appetite; COIN/MSTR)",
+    "WSJ via X News (~2:05 PM ET): report says Nvidia financed/guaranteed smaller AI firms and DC builders so they could keep buying GPUs; FT says NVDA carries only Side A D&O cover — Bearish NQ (NVDA, AI capex circularity)",
+    "@WatcherGuru (~12:42 PM ET): two NVDA holders with $2B+ in shares urge board to reinstate Jensen Huang; petition passed 100K signatures (@unusual_whales ~12:09 PM), Musk signed (~9:39 AM) — Mixed NQ (NVDA)",
+    "@FirstSquawk (~12:44-12:45 PM ET): CENTCOM says 1.7B+ bbl moved through Hormuz by Gulf partners, F-16 patrols; Iran FM slams Rubio blockade remarks as more tankers hit mines — Mixed NQ (CL)",
+    "@DeItaone (~3:11 PM ET): 10K+ US flights delayed/canceled Sat after air-traffic comms failure; FAA sees full recovery by Sun — Mixed NQ (airlines, small)"
   ],
-  "trump": "White House says Trump, Putin and Xi plan a joint meeting in China next week (per @unusual_whales ~9:23 AM ET); earlier reports said Trump may hold off on Iran attacks barring new provocations (@FirstSquawk ~6:17 AM ET).",
-  "watch": "Weekend: Trump-Putin-Xi summit details, Iran/Hormuz tanker and drone headlines, NVDA lawsuit/CEO news, crypto weakness, US flight recovery after ATC outage; CME futures reopen Sun 6 PM ET. Mon: Empire State 8:30 AM ET. Tue: HD/DIS BMO, FOMC minutes 2 PM ET, NVDA AMC (call 5 PM ET). Wed: TGT/LOW BMO, PANW AMC; Trump-Xi at APEC Nov 18-19. Thu: WMT/BABA BMO, INTU AMC. QQQ 682 (200dma) / 675; 10Y vs 5.15%.",
+  "trump": "Per X News (~3:44 PM ET), Trump told senior advisers he may delay further military action on Iran unless Iran or the Houthis provoke again; the White House said Trump, Putin and Xi plan a joint meeting in China next week (per @unusual_whales ~9:23 AM ET).",
+  "watch": "Sun 6 PM ET futures reopen (gap risk on Hormuz/Iran + NVDA board headlines); weekend crypto liquidations; Tue Nov 17: HD, DIS BMO, NVDA AMC (call 5 PM ET); Wed Nov 18: TGT, LOW BMO, PANW AMC; Thu Nov 19: WMT 7 AM, BABA BMO, INTU AMC; Trump-Putin-Xi meeting in China next week",
   "forSite": [],
   "reports": [
     {
@@ -42,6 +42,21 @@
       ],
       "trump": "White House says Trump, Putin and Xi plan a joint meeting in China next week (per @unusual_whales ~9:23 AM ET); earlier reports said Trump may hold off on Iran attacks barring new provocations (@FirstSquawk ~6:17 AM ET).",
       "watch": "Weekend: Trump-Putin-Xi summit details, Iran/Hormuz tanker and drone headlines, NVDA lawsuit/CEO news, crypto weakness, US flight recovery after ATC outage; CME futures reopen Sun 6 PM ET. Mon: Empire State 8:30 AM ET. Tue: HD/DIS BMO, FOMC minutes 2 PM ET, NVDA AMC (call 5 PM ET). Wed: TGT/LOW BMO, PANW AMC; Trump-Xi at APEC Nov 18-19. Thu: WMT/BABA BMO, INTU AMC. QQQ 682 (200dma) / 675; 10Y vs 5.15%.",
+      "forSite": []
+    },
+    {
+      "at": "2026-11-14T21:22:34Z",
+      "pulse": "Weekend NQ tape stays heavy after Friday's NVDA-led semis flush (NQ -1.24%, SOX -3.4%), with a fresh crypto leg down (BTC <$65K) and the WSJ 'circular financing' NVDA report adding pressure, partly offset by Trump signaling he may pause further Iran strikes, CENTCOM saying Hormuz flows continue, and the Trump-Putin-Xi summit next week.",
+      "bias": "risk-off — NVDA leadership/legal overhang into Tue AMC, crypto liquidations and live Hormuz mine/drone headlines outweigh Trump's Iran-pause signal and US-China summit hopes until futures reopen Sun 6 PM ET",
+      "items": [
+        "@WatcherGuru (~4:01 PM ET): BTC breaks under $65K, ETH under $1,800, $360M+ liquidated in 5 min (BTC was <$66K at ~9:43 AM) — Bearish NQ (risk appetite; COIN/MSTR)",
+        "WSJ via X News (~2:05 PM ET): report says Nvidia financed/guaranteed smaller AI firms and DC builders so they could keep buying GPUs; FT says NVDA carries only Side A D&O cover — Bearish NQ (NVDA, AI capex circularity)",
+        "@WatcherGuru (~12:42 PM ET): two NVDA holders with $2B+ in shares urge board to reinstate Jensen Huang; petition passed 100K signatures (@unusual_whales ~12:09 PM), Musk signed (~9:39 AM) — Mixed NQ (NVDA)",
+        "@FirstSquawk (~12:44-12:45 PM ET): CENTCOM says 1.7B+ bbl moved through Hormuz by Gulf partners, F-16 patrols; Iran FM slams Rubio blockade remarks as more tankers hit mines — Mixed NQ (CL)",
+        "@DeItaone (~3:11 PM ET): 10K+ US flights delayed/canceled Sat after air-traffic comms failure; FAA sees full recovery by Sun — Mixed NQ (airlines, small)"
+      ],
+      "trump": "Per X News (~3:44 PM ET), Trump told senior advisers he may delay further military action on Iran unless Iran or the Houthis provoke again; the White House said Trump, Putin and Xi plan a joint meeting in China next week (per @unusual_whales ~9:23 AM ET).",
+      "watch": "Sun 6 PM ET futures reopen (gap risk on Hormuz/Iran + NVDA board headlines); weekend crypto liquidations; Tue Nov 17: HD, DIS BMO, NVDA AMC (call 5 PM ET); Wed Nov 18: TGT, LOW BMO, PANW AMC; Thu Nov 19: WMT 7 AM, BABA BMO, INTU AMC; Trump-Putin-Xi meeting in China next week",
       "forSite": []
     }
   ]
