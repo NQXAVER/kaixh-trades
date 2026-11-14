@@ -1,138 +1,138 @@
 {
-  "date": "2026-11-13",
-  "at": "2026-11-14T01:22:20Z",
-  "items": [
-    {
-      "ticker": "NBIS",
-      "company": "Nebius (NBIS)",
-      "date": "2026-11-12",
-      "when": "BMO",
-      "status": "reported",
-      "reaction": "popped ~+4% premarket, then fell >15% in session on capacity delays and higher capex",
-      "sentiment": "Bearish",
-      "why": "Q3 rev $980.8M (+571% y/y) vs ~$908M est (~$325M one-time asset-light rev); adj EBITDA $465.8M vs ~$353M; 2027 guide rev $12-13B, capex $40-45B (75-85% covered by prepayments/financing); ARR target ($7B+) slipped to Feb"
-    },
-    {
-      "ticker": "CSCO",
-      "company": "Cisco (CSCO)",
-      "date": "2026-11-12",
-      "when": "AMC",
-      "status": "reported",
-      "reaction": "-6.2% close Fri after muted AH Thu",
-      "sentiment": "Mixed",
-      "why": "Q1 rev $18.50B (+24% y/y) vs $18.13B est; adj EPS $1.40 vs $1.32; Q2 guide rev $18.0-18.2B / EPS $1.34-1.36 above est; FY rev guide raised to $74.8-75.8B, FY EPS to $5.47-5.53 from $5.05-5.11; hyperscaler AI rev now ~$9B (was $7.5B)"
-    },
-    {
-      "ticker": "AMAT",
-      "company": "Applied Materials (AMAT)",
-      "date": "2026-11-12",
-      "when": "AMC",
-      "status": "reported",
-      "reaction": "muted AH: ~flat to +1.5% per X posts (~7-8 PM ET)",
-      "sentiment": "Mixed",
-      "why": "Q4 rev $10.41B (+53% y/y) vs ~$10.3B est, adj EPS $4.16 vs ~$4.05 est; record FY rev $34.45B; Q1 guide above Street on AI demand; stock ~flat AH as beat was priced in"
-    },
-    {
-      "ticker": "CBRS",
-      "company": "Cerebras Systems (CBRS)",
-      "date": "2026-11-12",
-      "when": "AMC",
-      "status": "reported",
-      "reaction": "+11.2% close Fri (was +17-18% AH Thu / premarket)",
-      "sentiment": "Bullish",
-      "why": "Q3 GAAP rev $210.8M (+55% y/y), core rev $230.9M vs ~$215M est; cloud rev +265% to $141.9M; new Microsoft cloud deal; FY core rev guide raised to $940-960M, Q4 guide $310-330M, sees 2027 rev tripling"
-    },
-    {
-      "ticker": "CRWV",
-      "company": "CoreWeave (CRWV)",
-      "date": "2026-11-10",
-      "when": "AMC",
-      "status": "reported",
-      "why": "Q3 rev $3.66B vs ~$3.56B est; adj EBITDA $2.26B vs $2.05B (62% margin); loss/sh $1.27 vs $1.46 est; backlog ~$132.5B; FY26 rev guide raised to $13.0-13.3B from $12-13B; capex low end raised to $37-39B; Q4 interest expense $1.05-1.15B",
-      "reaction": "+24.7% close Wed to $60.77; AI bounce cracked AH on NVDA/Huang headlines",
-      "sentiment": "Bullish"
-    },
-    {
-      "ticker": "SE",
-      "company": "Sea Limited (SE)",
-      "date": "2026-11-10",
-      "when": "BMO",
-      "status": "reported",
-      "reaction": "~-8-9% premarket",
-      "sentiment": "Mixed",
-      "why": "Rev $8.58B +43% y/y (beat); net income $502.5M +34%; EPS miss on AI-investment and competition costs; new $1B buyback"
-    },
-    {
-      "ticker": "NVDA",
-      "company": "NVIDIA (NVDA)",
-      "date": "2026-11-17",
-      "when": "AMC",
-      "status": "upcoming",
-      "why": "Largest NQ weight; consensus EPS ~$2.49, rev ~$108.7B; call 5 PM ET; first print under interim CEO Kress after Huang resigned Nov 12; -2% Fri, ~-12.8% on the week; Congress seeking Huang testimony on China chip sales"
-    },
-    {
-      "ticker": "DIS",
-      "company": "Walt Disney (DIS)",
-      "date": "2026-11-17",
-      "when": "BMO",
-      "status": "upcoming",
-      "why": "FY Q4; consensus EPS ~$1.67; call 8:30 AM ET"
-    },
-    {
-      "ticker": "HD",
-      "company": "Home Depot (HD)",
-      "date": "2026-11-17",
-      "when": "BMO",
-      "status": "upcoming",
-      "why": "Q3; consensus EPS ~$3.87 (yr-ago $3.74); call 9 AM ET; housing/consumer read"
-    },
-    {
-      "ticker": "TGT",
-      "company": "Target (TGT)",
-      "date": "2026-11-18",
-      "when": "BMO",
-      "status": "upcoming",
-      "why": "Q3; consensus EPS ~$2.03; call 8 AM ET; consumer read"
-    },
-    {
-      "ticker": "LOW",
-      "company": "Lowe’s (LOW)",
-      "date": "2026-11-18",
-      "when": "BMO",
-      "status": "upcoming",
-      "why": "Q3; consensus EPS ~$2.86; call 9 AM ET"
-    },
-    {
-      "ticker": "PANW",
-      "company": "Palo Alto Networks (PANW)",
-      "date": "2026-11-18",
-      "when": "AMC",
-      "status": "upcoming",
-      "why": "FQ1; call 4:30 PM ET; cyber/software sentiment after FTNT/NOW selloffs"
-    },
-    {
-      "ticker": "WMT",
-      "company": "Walmart (WMT)",
-      "date": "2026-11-19",
-      "when": "BMO",
-      "status": "upcoming",
-      "why": "Q3; ~$1.0T mkt cap; consensus EPS ~$0.64 (guided $0.62-0.64); release 7 AM ET, call 8 AM ET"
-    },
-    {
-      "ticker": "BABA",
-      "company": "Alibaba (BABA)",
-      "date": "2026-11-19",
-      "when": "BMO",
-      "status": "upcoming",
-      "why": "FQ2; consensus EPS ~$1.56; call 7 AM ET; China AI/cloud read"
-    },
-    {
-      "ticker": "INTU",
-      "company": "Intuit (INTU)",
-      "date": "2026-11-19",
-      "when": "AMC",
-      "status": "upcoming",
-      "why": "FQ1; software read"
-    }
-  ]
+ "date": "2026-11-13",
+ "at": "2026-11-14T03:25:40Z",
+ "items": [
+  {
+   "ticker": "NBIS",
+   "company": "Nebius (NBIS)",
+   "date": "2026-11-12",
+   "when": "BMO",
+   "status": "reported",
+   "reaction": "popped ~+4% premarket, then fell >15% in session on capacity delays and higher capex",
+   "sentiment": "Bearish",
+   "why": "Q3 rev $980.8M (+571% y/y) vs ~$908M est (~$325M one-time asset-light rev); adj EBITDA $465.8M vs ~$353M; 2027 guide rev $12-13B, capex $40-45B (75-85% covered by prepayments/financing); ARR target ($7B+) slipped to Feb"
+  },
+  {
+   "ticker": "CSCO",
+   "company": "Cisco (CSCO)",
+   "date": "2026-11-12",
+   "when": "AMC",
+   "status": "reported",
+   "reaction": "-6.2% close Fri after muted AH Thu",
+   "sentiment": "Mixed",
+   "why": "Q1 rev $18.50B (+24% y/y) vs $18.13B est; adj EPS $1.40 vs $1.32; Q2 guide rev $18.0-18.2B / EPS $1.34-1.36 above est; FY rev guide raised to $74.8-75.8B, FY EPS to $5.47-5.53 from $5.05-5.11; hyperscaler AI rev now ~$9B (was $7.5B)"
+  },
+  {
+   "ticker": "AMAT",
+   "company": "Applied Materials (AMAT)",
+   "date": "2026-11-12",
+   "when": "AMC",
+   "status": "reported",
+   "reaction": "muted AH: ~flat to +1.5% per X posts (~7-8 PM ET)",
+   "sentiment": "Mixed",
+   "why": "Q4 rev $10.41B (+53% y/y) vs ~$10.3B est, adj EPS $4.16 vs ~$4.05 est; record FY rev $34.45B; Q1 guide above Street on AI demand; stock ~flat AH as beat was priced in"
+  },
+  {
+   "ticker": "CBRS",
+   "company": "Cerebras Systems (CBRS)",
+   "date": "2026-11-12",
+   "when": "AMC",
+   "status": "reported",
+   "reaction": "+11.2% close Fri (was +17-18% AH Thu / premarket)",
+   "sentiment": "Bullish",
+   "why": "Q3 GAAP rev $210.8M (+55% y/y), core rev $230.9M vs ~$215M est; cloud rev +265% to $141.9M; new Microsoft cloud deal; FY core rev guide raised to $940-960M, Q4 guide $310-330M, sees 2027 rev tripling"
+  },
+  {
+   "ticker": "CRWV",
+   "company": "CoreWeave (CRWV)",
+   "date": "2026-11-10",
+   "when": "AMC",
+   "status": "reported",
+   "why": "Q3 rev $3.66B vs ~$3.56B est; adj EBITDA $2.26B vs $2.05B (62% margin); loss/sh $1.27 vs $1.46 est; backlog ~$132.5B; FY26 rev guide raised to $13.0-13.3B from $12-13B; capex low end raised to $37-39B; Q4 interest expense $1.05-1.15B",
+   "reaction": "+24.7% close Wed to $60.77; AI bounce cracked AH on NVDA/Huang headlines",
+   "sentiment": "Bullish"
+  },
+  {
+   "ticker": "SE",
+   "company": "Sea Limited (SE)",
+   "date": "2026-11-10",
+   "when": "BMO",
+   "status": "reported",
+   "reaction": "~-8-9% premarket",
+   "sentiment": "Mixed",
+   "why": "Rev $8.58B +43% y/y (beat); net income $502.5M +34%; EPS miss on AI-investment and competition costs; new $1B buyback"
+  },
+  {
+   "ticker": "NVDA",
+   "company": "NVIDIA (NVDA)",
+   "date": "2026-11-17",
+   "when": "AMC",
+   "status": "upcoming",
+   "why": "Largest NQ weight; consensus EPS ~$2.49, rev ~$108.7B; call 5 PM ET; first print under interim CEO Kress after Huang resigned Nov 12; -2% Fri, ~-12.8% on the week; Congress seeking Huang testimony on China chip sales"
+  },
+  {
+   "ticker": "DIS",
+   "company": "Walt Disney (DIS)",
+   "date": "2026-11-17",
+   "when": "BMO",
+   "status": "upcoming",
+   "why": "FY Q4; consensus EPS ~$1.67; call 8:30 AM ET"
+  },
+  {
+   "ticker": "HD",
+   "company": "Home Depot (HD)",
+   "date": "2026-11-17",
+   "when": "BMO",
+   "status": "upcoming",
+   "why": "Q3; consensus EPS ~$3.87 (yr-ago $3.74); call 9 AM ET; housing/consumer read"
+  },
+  {
+   "ticker": "TGT",
+   "company": "Target (TGT)",
+   "date": "2026-11-18",
+   "when": "BMO",
+   "status": "upcoming",
+   "why": "Q3; consensus EPS ~$2.03; call 8 AM ET; consumer read"
+  },
+  {
+   "ticker": "LOW",
+   "company": "Lowe’s (LOW)",
+   "date": "2026-11-18",
+   "when": "BMO",
+   "status": "upcoming",
+   "why": "Q3; consensus EPS ~$2.86; call 9 AM ET"
+  },
+  {
+   "ticker": "PANW",
+   "company": "Palo Alto Networks (PANW)",
+   "date": "2026-11-18",
+   "when": "AMC",
+   "status": "upcoming",
+   "why": "FQ1; call 4:30 PM ET; cyber/software sentiment after FTNT/NOW selloffs"
+  },
+  {
+   "ticker": "WMT",
+   "company": "Walmart (WMT)",
+   "date": "2026-11-19",
+   "when": "BMO",
+   "status": "upcoming",
+   "why": "Q3; ~$1.0T mkt cap; consensus EPS ~$0.64 (guided $0.62-0.64); release 7 AM ET, call 8 AM ET"
+  },
+  {
+   "ticker": "BABA",
+   "company": "Alibaba (BABA)",
+   "date": "2026-11-19",
+   "when": "BMO",
+   "status": "upcoming",
+   "why": "FQ2; consensus EPS ~$1.56; call 7 AM ET; China AI/cloud read"
+  },
+  {
+   "ticker": "INTU",
+   "company": "Intuit (INTU)",
+   "date": "2026-11-19",
+   "when": "AMC",
+   "status": "upcoming",
+   "why": "FQ1; software read"
+  }
+ ]
 }
