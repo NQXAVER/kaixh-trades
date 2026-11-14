@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T02:56:16Z",
+  "updatedAt": "2026-11-14T15:49:01Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -183,9 +183,9 @@
     {
       "id": "un-peace",
       "label": "UN News",
-      "ok": true,
-      "items": 20,
-      "error": null
+      "ok": false,
+      "items": 0,
+      "error": "ParseError: not well-formed (invalid token): line 1, column 0"
     },
     {
       "id": "wsj-biz",
@@ -396,15 +396,15 @@
       "auto": true
     },
     {
-      "id": "fcd2ab704b71f",
-      "headline": "Fed’s Waller puts half-point rate hike into the mix for December",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/feds-waller-puts-half-point-rate-hike-into-the-mix-for-december-1bebdffc?mod=mw_rss_topstories",
-      "publishedAt": "2026-11-10T13:41:00Z",
-      "time": "Tue 8:41 AM",
+      "id": "fa6652a5c5e5a",
+      "headline": "Interest rate rises likely in coming months, Bank of England’s chief economist says",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/nov/14/interest-rate-rises-inflation-bank-of-england-chief-economist",
+      "publishedAt": "2026-11-14T14:42:27Z",
+      "time": "Sat 9:42 AM",
       "section": "fed",
-      "impact": "High",
-      "lean": "risk-off",
+      "impact": "Medium",
+      "lean": null,
       "auto": true
     },
     {
@@ -452,6 +452,18 @@
       "time": "Wed 2:54 PM",
       "section": "econ",
       "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "faa9400b5eb32",
+      "headline": "Washington can start delivering on affordability by rejecting Trump’s tariffs",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/washington-can-start-delivering-on-affordability-by-rejecting-trumps-tariffs-8f2c76fd?mod=mw_rss_topstories",
+      "publishedAt": "2026-11-14T13:30:00Z",
+      "time": "Sat 8:30 AM",
+      "section": "econ",
+      "impact": "Medium",
       "lean": null,
       "auto": true
     },
@@ -636,6 +648,18 @@
       "auto": true
     },
     {
+      "id": "f018b1cdc863d",
+      "headline": "Heating oil prices are up 59% from last winter. The spike is 'crushing folks,' Maine nonprofit says",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/14/heating-oil-price-spike-household-budgets.html",
+      "publishedAt": "2026-11-14T14:30:01Z",
+      "time": "Sat 9:30 AM",
+      "section": "energy",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "f1ddf03650b43",
       "headline": "Asian Oil Buyers Turn to Africa and Brazil as Tanker Rates Plunge",
       "source": "OilPrice",
@@ -656,6 +680,30 @@
       "time": "Wed 10:30 AM",
       "section": "energy",
       "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f19ed46bb79c5",
+      "headline": "Trump’s Oil Grab in Venezuela Is Testing the Country’s National Identity",
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/2026/11/14/world/americas/trump-venezuela-oil.html",
+      "publishedAt": "2026-11-14T10:10:01Z",
+      "time": "Sat 5:10 AM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f13a020bde06c",
+      "headline": "Ecuador wants to monetize its biodiversity — while still drilling for oil",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/14/ecuador-biodiversity-green-finance-oil.html",
+      "publishedAt": "2026-11-14T06:00:01Z",
+      "time": "Sat 1:00 AM",
+      "section": "energy",
+      "impact": "Medium",
       "lean": null,
       "auto": true
     },
@@ -714,42 +762,6 @@
       "url": "https://oilprice.com/Latest-Energy-News/World-News/Pakistan-Scrambles-for-LNG-as-Winter-Gas-Crisis-Deepens.html",
       "publishedAt": "2026-11-13T14:15:00Z",
       "time": "Fri 9:15 AM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "faa1559016319",
-      "headline": "WTI Stages Sharp Comeback as Middle East Supply Risks Intensify",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Energy/Energy-General/WTI-Stages-Sharp-Comeback-as-Middle-East-Supply-Risks-Intensify.html",
-      "publishedAt": "2026-11-13T12:30:00Z",
-      "time": "Fri 7:30 AM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "fd87f6129f561",
-      "headline": "Russian crude production rebounds after Trump diesel deal, IEA says as oil markets return to surplus",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/13/russia-oil-exports-iea-diesel-deal.html",
-      "publishedAt": "2026-11-13T12:05:22Z",
-      "time": "Fri 7:05 AM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f4e96a2bf204e",
-      "headline": "Asian Refiners Turn Back to Gulf Oil Despite War Risks",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Asian-Refiners-Turn-Back-to-Gulf-Oil-Despite-War-Risks.html",
-      "publishedAt": "2026-11-13T11:30:00Z",
-      "time": "Fri 6:30 AM",
       "section": "energy",
       "impact": "Medium",
       "lean": null,
