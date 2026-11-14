@@ -1,18 +1,18 @@
 {
   "date": "2026-11-13",
   "grok": {
-    "at": "2026-11-13T12:01:32Z",
-    "pulse": "NQ and ES futures modestly green premarket as NVDA attempts a recovery after Huang's CEO exit shock, while oil stays elevated on Trump's Iran no-deal stance and traders await 8:30 AM ET PPI with December FOMC hike fully priced.",
-    "bias": "mixed — modest futures bid and NVDA bounce vs oil/yields pressure from Iran risks and inflation data that could reinforce hawkish Dec hike path",
+    "at": "2026-11-14T01:13:43Z",
+    "pulse": "Nasdaq and S&P closed lower Friday as NVDA leadership uncertainty after Huang's exit crushed semis and AI names while 10Y yields held near 5.15%, though SPX still finished the week +2.5% with defensive rotation and oil steady on Iran risks.",
+    "bias": "risk-off — NVDA CEO transition and hawkish yields driving AI/semis selloff and Nasdaq underperformance into weekend, despite weekly gains and softer PPI",
     "items": [
-      "@SNFuturesLive (~6:30 AM ET): ES +0.17% to 7628, NQ +0.06% to 28402, YM green; BTC broke under $70K (-5.4%) while equity futures barely flinched — Mixed NQ",
-      "@Bloomberg (~7:00 AM ET): Stocks set to open higher as traders wait for latest inflation data to cap dramatic week of rate-hike bets and Jensen Huang's ouster from Nvidia — Mixed NQ",
-      "@sandipsabharwal (~7:00 AM ET): IEA says global oil market has turned into a surplus likely to accelerate in 2027 despite demand rebound — lower prices ahead — Mixed oil",
-      "@holantei (~7:00 AM ET): ES & NQ 1H path — bounce into fade zone then fail back toward overnight lows (NQ invalid above 28652) — Cautious NQ",
-      "@neilsethinew (~7:00 AM ET): Williams and Daly signal more hikes ahead but not 50bp; 25bp Dec base case with debate on pace — Bearish rates/NQ"
+      "@satish_sub (~8:05 PM ET): SPX closed 7561.67 (-0.40%) after rejecting PPI gap-up, NVDA -2% to 162.85 (-13% week), SOX -3.4%, QQQ under 200dma; 10Y ~5.15%, WTI ~88.8",
+      "@Goddie_Ke (~8:00 PM ET): Headlines flag NVDA CEO resigns, FAA nationwide ground stop, Nasdaq -0.91% to 25136, Brent ~95.84 / WTI ~88.56, yields rising on hike bets",
+      "@EarthDeFIRE (~8:07 PM ET): NVDA down 13% on week post-Huang exit (interim CEO Kress), Anthropic IPO and NVDA earnings next week as key AI tests; SOX still +8% week",
+      "@stockincubator (~8:00 PM ET): Dow futures 52347, Nasdaq-100 futures 27927 vs prior higher, Brent ~96; post-close levels soft",
+      "@JoeBitcoin_ (~7:40 PM ET): Nasdaq -0.91%, S&P -0.40%, chips -3.4% on NVDA fallout; oil flat, Dec hike ~90% priced, BTC under 70k"
     ],
-    "trump": "Earlier: US no longer needs a deal with Iran ('Those days have long passed'), supporting oil bid and Hormuz risk premium; also praised ex-NVDA CEO Huang as exceptional.",
-    "watch": "8:30 AM ET October PPI/Core PPI reaction for Dec hike odds; 9:30 cash open NVDA/AI follow-through after Huang exit; Brent/Hormuz headlines; 10Y vs 5%; BTC under 70k spillover risk.",
+    "trump": "none",
+    "watch": "Weekend Iran/Hormuz and FAA resolution headlines; Monday open on NVDA CEO search progress and yields; Empire State/Warsh remarks; NVDA earnings Tue AMC under interim CEO; Anthropic IPO pricing and FOMC minutes midweek.",
     "forSite": []
   }
 }
