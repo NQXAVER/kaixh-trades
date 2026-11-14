@@ -1,6 +1,6 @@
 {
   "date": "2026-11-13",
-  "at": "2026-11-13T21:20:57Z",
+  "at": "2026-11-14T01:22:20Z",
   "items": [
     {
       "ticker": "NBIS",
@@ -68,7 +68,7 @@
       "date": "2026-11-17",
       "when": "AMC",
       "status": "upcoming",
-      "why": "Largest NQ weight; Jensen Huang resigned Nov 12 (CFO Colette Kress interim CEO); -2% Fri, ~-12.75% on the week; FT: board approached Arm CEO Rene Haas; company meeting Nov 18 9 AM PT"
+      "why": "Largest NQ weight; consensus EPS ~$2.49, rev ~$108.7B; call 5 PM ET; first print under interim CEO Kress after Huang resigned Nov 12; -2% Fri, ~-12.8% on the week; Congress seeking Huang testimony on China chip sales"
     },
     {
       "ticker": "DIS",
@@ -76,7 +76,63 @@
       "date": "2026-11-17",
       "when": "BMO",
       "status": "upcoming",
-      "why": "FY Q4; call 8:30 AM ET"
+      "why": "FY Q4; consensus EPS ~$1.67; call 8:30 AM ET"
+    },
+    {
+      "ticker": "HD",
+      "company": "Home Depot (HD)",
+      "date": "2026-11-17",
+      "when": "BMO",
+      "status": "upcoming",
+      "why": "Q3; consensus EPS ~$3.87 (yr-ago $3.74); call 9 AM ET; housing/consumer read"
+    },
+    {
+      "ticker": "TGT",
+      "company": "Target (TGT)",
+      "date": "2026-11-18",
+      "when": "BMO",
+      "status": "upcoming",
+      "why": "Q3; consensus EPS ~$2.03; call 8 AM ET; consumer read"
+    },
+    {
+      "ticker": "LOW",
+      "company": "Lowe’s (LOW)",
+      "date": "2026-11-18",
+      "when": "BMO",
+      "status": "upcoming",
+      "why": "Q3; consensus EPS ~$2.86; call 9 AM ET"
+    },
+    {
+      "ticker": "PANW",
+      "company": "Palo Alto Networks (PANW)",
+      "date": "2026-11-18",
+      "when": "AMC",
+      "status": "upcoming",
+      "why": "FQ1; call 4:30 PM ET; cyber/software sentiment after FTNT/NOW selloffs"
+    },
+    {
+      "ticker": "WMT",
+      "company": "Walmart (WMT)",
+      "date": "2026-11-19",
+      "when": "BMO",
+      "status": "upcoming",
+      "why": "Q3; ~$1.0T mkt cap; consensus EPS ~$0.64 (guided $0.62-0.64); release 7 AM ET, call 8 AM ET"
+    },
+    {
+      "ticker": "BABA",
+      "company": "Alibaba (BABA)",
+      "date": "2026-11-19",
+      "when": "BMO",
+      "status": "upcoming",
+      "why": "FQ2; consensus EPS ~$1.56; call 7 AM ET; China AI/cloud read"
+    },
+    {
+      "ticker": "INTU",
+      "company": "Intuit (INTU)",
+      "date": "2026-11-19",
+      "when": "AMC",
+      "status": "upcoming",
+      "why": "FQ1; software read"
     }
   ]
 }
