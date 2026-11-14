@@ -1,18 +1,18 @@
 {
-  "date": "2026-11-13",
+  "date": "2026-11-14",
   "grok": {
-    "at": "2026-11-14T01:13:43Z",
-    "pulse": "Nasdaq and S&P closed lower Friday as NVDA leadership uncertainty after Huang's exit crushed semis and AI names while 10Y yields held near 5.15%, though SPX still finished the week +2.5% with defensive rotation and oil steady on Iran risks.",
-    "bias": "risk-off — NVDA CEO transition and hawkish yields driving AI/semis selloff and Nasdaq underperformance into weekend, despite weekly gains and softer PPI",
+    "at": "2026-11-14T03:05:37Z",
+    "pulse": "Nasdaq lagged Friday (Comp -0.91%, QQQ -1.2% under 200dma) on NVDA leadership uncertainty and semis flush after cooler PPI failed to ease hawkish Fed speak and 10Y ~5.15%, while S&P held better on defensive rotation and oil stayed firm on Iran/Hormuz risks into the weekend.",
+    "bias": "mixed — tech/AI under pressure from Huang exit/CEO search and yields, but broader indices resilient with rotation and softer inflation print; risk-off tilt for NQ into NVDA earnings",
     "items": [
-      "@satish_sub (~8:05 PM ET): SPX closed 7561.67 (-0.40%) after rejecting PPI gap-up, NVDA -2% to 162.85 (-13% week), SOX -3.4%, QQQ under 200dma; 10Y ~5.15%, WTI ~88.8",
-      "@Goddie_Ke (~8:00 PM ET): Headlines flag NVDA CEO resigns, FAA nationwide ground stop, Nasdaq -0.91% to 25136, Brent ~95.84 / WTI ~88.56, yields rising on hike bets",
-      "@EarthDeFIRE (~8:07 PM ET): NVDA down 13% on week post-Huang exit (interim CEO Kress), Anthropic IPO and NVDA earnings next week as key AI tests; SOX still +8% week",
-      "@stockincubator (~8:00 PM ET): Dow futures 52347, Nasdaq-100 futures 27927 vs prior higher, Brent ~96; post-close levels soft",
-      "@JoeBitcoin_ (~7:40 PM ET): Nasdaq -0.91%, S&P -0.40%, chips -3.4% on NVDA fallout; oil flat, Dec hike ~90% priced, BTC under 70k"
+      "@JonosTake (~4:35 PM ET): EOD mild bear, QQQ closed $679.89 -1.2% under 200dma after Fed Collins/Daly hawkish post cooler PPI, chips sold; FAA ground stop and Hormuz mines overnight — Bearish NQ",
+      "@ClosingPrints (~8:32 PM ET): Fri close SPY -0.36% to 754.37, QQQ -1.20%, semis SMH -3%, NVDA -2% AMD -8.75%; PPI cooler but BofA adds more hikes, Fed hawkish — Bearish NQ",
+      "@tradewithnori (~4:17 PM ET): Nasdaq -0.91% tech-led, equal-weight S&P +0.20% shows rotation not broad dump; PPI +0.3% m/m, yields ~5.15% — Mixed NQ",
+      "@sk_signals (~4:08 PM ET): Semis took the hit SMH -3%, QQQ -1.2%, MAGS near flat with META +2.9% — Bearish NQ",
+      "@mattowentrades (~8:29 AM ET): PPI at 8:30 main event with Iran oil/Fed risk; overnight drone/mine headlines, ES +0.3% NQ flat — Mixed"
     ],
-    "trump": "none",
-    "watch": "Weekend Iran/Hormuz and FAA resolution headlines; Monday open on NVDA CEO search progress and yields; Empire State/Warsh remarks; NVDA earnings Tue AMC under interim CEO; Anthropic IPO pricing and FOMC minutes midweek.",
+    "trump": "Earlier: US no longer needs a deal with Iran supporting oil premium; reports of China trip next week with Xi/Putin on arms control and Musk joining; praised Huang previously.",
+    "watch": "Weekend: Iran/Hormuz tanker mines, FAA ground stop resolution, NVDA CEO search/Huang petition. Mon: Empire State 8:30 AM ET, Chair Warsh noon ET. Tue: NVDA AMC (biggest catalyst under interim CEO), HD/DIS BMO, FOMC minutes. 10Y vs 5.15%, QQQ 675-688 range.",
     "forSite": []
   }
 }
