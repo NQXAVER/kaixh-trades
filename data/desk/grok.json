@@ -1,17 +1,17 @@
 {
   "date": "2026-11-14",
-  "at": "2026-11-14T12:23:46Z",
-  "pulse": "Weekend tape for NQ stays defensive after Friday's NVDA-led semis flush (NQ -1.24%, SOX -3.4%), with overnight Hormuz escalation (tankers hitting mines, IRGC claiming a US drone downed) and a crypto slide (BTC <$67K) adding pressure, partly offset by reports Trump may hold off on Iran strikes and US-China tariff talks ahead of the Xi meeting.",
-  "bias": "risk-off — NVDA leadership vacuum into Tue AMC print, ~5.15% 10Y and fresh Hormuz/Iran headlines outweigh Trump's 'may hold off on Iran' report and US-China pre-summit trade talks",
+  "at": "2026-11-14T14:26:37Z",
+  "pulse": "Weekend NQ setup still leans defensive on the NVDA overhang (FT: possible lawsuits after Huang's exit) and fresh Gulf drone/Iran headlines, partly offset by the White House saying Trump, Putin and Xi plan a joint meeting in China next week, which feeds US-China trade-deal hopes.",
+  "bias": "risk-off — NVDA leadership/legal overhang into Tue AMC, Hormuz/Iran and Riyadh drone headlines and a ~5.15% 10Y outweigh the Trump-Putin-Xi summit headline until futures reopen Sun 6 PM ET",
   "items": [
-    "@FirstSquawk (~5:16-5:18 AM ET): Iran navy says an oil tanker caught fire after hitting a naval mine in the eastern Strait of Hormuz, the second today — Bearish NQ (CL bid)",
-    "@FirstSquawk (~7:11 AM ET): Iran's IRGC says it shot down a US MQ-1 Predator drone over Qeshm Island — Bearish NQ",
-    "@FirstSquawk (~6:17 / 6:24 AM ET): Trump tells advisers he may hold off on Iran attacks barring new provocations; Israel still pressing for a strike — Mixed NQ",
-    "@FirstSquawk (~6:49 AM ET): China, US discuss tariffs and farm trade ahead of Xi-Trump meeting — Bullish NQ",
-    "@WatcherGuru (~10:38 PM ET Fri): crypto crashing, BTC under $67K, ETH under $1,900, $330M+ liquidated — Bearish NQ (risk appetite; COIN/MSTR)"
+    "@unusual_whales (~9:23 AM ET): White House says Trump, Putin and Xi plan a historic joint meeting in China next week — Bullish NQ (US-China trade/de-escalation hopes)",
+    "@FirstSquawk (~8:29 AM ET): FT — Nvidia exposed to possible lawsuits after Jensen Huang's downfall — Bearish NQ (NVDA, semis)",
+    "@FirstSquawk (~8:10 AM ET): Saudi-led coalition says it intercepted 2 drones over Riyadh; adds to Hormuz/Iran tension — Bearish NQ (CL bid)",
+    "@FirstSquawk (~7:19 / 8:57 AM ET): Italy's privacy agency fines META €805M over Android users' videos/photos — Bearish NQ (META, small)",
+    "@unusual_whales (~9:05 AM ET): Cuba's Diaz-Canel says Cuba is preparing for a possible US military attack — Mixed NQ (geopolitical noise)"
   ],
-  "trump": "Per @FirstSquawk (~6:17 AM ET), Trump told advisers he may hold off on Iran attacks barring new provocations, while US officials say Israel keeps pressing for a strike (~6:24 AM ET); US and China discussing tariffs/farm trade ahead of the Xi-Trump meeting at APEC Nov 18-19 (~6:49 AM ET).",
-  "watch": "Weekend: Iran/Hormuz tanker and drone headlines, NVDA CEO search/probes, crypto weakness, MSFT outage fallout (services restored ~6:43 AM ET); CME futures reopen Sun 6 PM ET. Mon: Empire State 8:30 AM ET. Tue: HD/DIS BMO, FOMC minutes 2 PM ET, NVDA AMC (call 5 PM ET). Wed: TGT/LOW BMO, PANW AMC; Nov 18-19 Trump-Xi at APEC. Thu: WMT/BABA BMO, INTU AMC. QQQ 682 (200dma) / 675; 10Y vs 5.15%.",
+  "trump": "White House says Trump, Putin and Xi plan a joint meeting in China next week (per @unusual_whales ~9:23 AM ET); earlier reports said Trump may hold off on Iran attacks barring new provocations (@FirstSquawk ~6:17 AM ET).",
+  "watch": "Weekend: Trump-Putin-Xi summit details, Iran/Hormuz tanker and drone headlines, NVDA lawsuit/CEO news, crypto weakness, US flight recovery after ATC outage; CME futures reopen Sun 6 PM ET. Mon: Empire State 8:30 AM ET. Tue: HD/DIS BMO, FOMC minutes 2 PM ET, NVDA AMC (call 5 PM ET). Wed: TGT/LOW BMO, PANW AMC; Trump-Xi at APEC Nov 18-19. Thu: WMT/BABA BMO, INTU AMC. QQQ 682 (200dma) / 675; 10Y vs 5.15%.",
   "forSite": [],
   "reports": [
     {
@@ -27,6 +27,21 @@
       ],
       "trump": "Per @FirstSquawk (~6:17 AM ET), Trump told advisers he may hold off on Iran attacks barring new provocations, while US officials say Israel keeps pressing for a strike (~6:24 AM ET); US and China discussing tariffs/farm trade ahead of the Xi-Trump meeting at APEC Nov 18-19 (~6:49 AM ET).",
       "watch": "Weekend: Iran/Hormuz tanker and drone headlines, NVDA CEO search/probes, crypto weakness, MSFT outage fallout (services restored ~6:43 AM ET); CME futures reopen Sun 6 PM ET. Mon: Empire State 8:30 AM ET. Tue: HD/DIS BMO, FOMC minutes 2 PM ET, NVDA AMC (call 5 PM ET). Wed: TGT/LOW BMO, PANW AMC; Nov 18-19 Trump-Xi at APEC. Thu: WMT/BABA BMO, INTU AMC. QQQ 682 (200dma) / 675; 10Y vs 5.15%.",
+      "forSite": []
+    },
+    {
+      "at": "2026-11-14T14:26:37Z",
+      "pulse": "Weekend NQ setup still leans defensive on the NVDA overhang (FT: possible lawsuits after Huang's exit) and fresh Gulf drone/Iran headlines, partly offset by the White House saying Trump, Putin and Xi plan a joint meeting in China next week, which feeds US-China trade-deal hopes.",
+      "bias": "risk-off — NVDA leadership/legal overhang into Tue AMC, Hormuz/Iran and Riyadh drone headlines and a ~5.15% 10Y outweigh the Trump-Putin-Xi summit headline until futures reopen Sun 6 PM ET",
+      "items": [
+        "@unusual_whales (~9:23 AM ET): White House says Trump, Putin and Xi plan a historic joint meeting in China next week — Bullish NQ (US-China trade/de-escalation hopes)",
+        "@FirstSquawk (~8:29 AM ET): FT — Nvidia exposed to possible lawsuits after Jensen Huang's downfall — Bearish NQ (NVDA, semis)",
+        "@FirstSquawk (~8:10 AM ET): Saudi-led coalition says it intercepted 2 drones over Riyadh; adds to Hormuz/Iran tension — Bearish NQ (CL bid)",
+        "@FirstSquawk (~7:19 / 8:57 AM ET): Italy's privacy agency fines META €805M over Android users' videos/photos — Bearish NQ (META, small)",
+        "@unusual_whales (~9:05 AM ET): Cuba's Diaz-Canel says Cuba is preparing for a possible US military attack — Mixed NQ (geopolitical noise)"
+      ],
+      "trump": "White House says Trump, Putin and Xi plan a joint meeting in China next week (per @unusual_whales ~9:23 AM ET); earlier reports said Trump may hold off on Iran attacks barring new provocations (@FirstSquawk ~6:17 AM ET).",
+      "watch": "Weekend: Trump-Putin-Xi summit details, Iran/Hormuz tanker and drone headlines, NVDA lawsuit/CEO news, crypto weakness, US flight recovery after ATC outage; CME futures reopen Sun 6 PM ET. Mon: Empire State 8:30 AM ET. Tue: HD/DIS BMO, FOMC minutes 2 PM ET, NVDA AMC (call 5 PM ET). Wed: TGT/LOW BMO, PANW AMC; Trump-Xi at APEC Nov 18-19. Thu: WMT/BABA BMO, INTU AMC. QQQ 682 (200dma) / 675; 10Y vs 5.15%.",
       "forSite": []
     }
   ]
