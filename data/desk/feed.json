@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T22:30:50Z",
+  "updatedAt": "2026-11-14T02:56:16Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -183,9 +183,9 @@
     {
       "id": "un-peace",
       "label": "UN News",
-      "ok": false,
-      "items": 0,
-      "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+      "ok": true,
+      "items": 20,
+      "error": null
     },
     {
       "id": "wsj-biz",
@@ -288,6 +288,18 @@
       "auto": true
     },
     {
+      "id": "f2ae3c528403e",
+      "headline": "Security Council LIVE: Fragile Gulf calm tested as threats to Hormuz shipping mount",
+      "source": "UN News - Global perspective Human stories",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168804",
+      "publishedAt": "2026-11-13T12:00:00Z",
+      "time": "Fri 7:00 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
       "id": "fb841542aca57",
       "headline": "UN watchdog calls on Iran to reopen nuclear facilities to inspection",
       "source": "Al Jazeera",
@@ -306,18 +318,6 @@
       "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Second-Weekly-Loss-Despite-Fresh-Middle-East-Attacks.html",
       "publishedAt": "2026-11-13T05:45:00Z",
       "time": "Fri 12:45 AM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "fba51263c5e1a",
-      "headline": "Oil Prices Squeezed Between Peace Hopes and Iran Escalation Risk",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Energy/Crude-Oil/Oil-Prices-Squeezed-Between-Peace-Hopes-and-Iran-Escalation-Risk.html",
-      "publishedAt": "2026-11-13T00:00:00Z",
-      "time": "Thu 7:00 PM",
       "section": "war",
       "impact": "High",
       "lean": "risk-off",
@@ -510,18 +510,6 @@
       "url": "https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html",
       "publishedAt": "2026-11-11T16:49:02Z",
       "time": "Wed 11:49 AM",
-      "section": "econ",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f202a813498f2",
-      "headline": "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html",
-      "publishedAt": "2026-11-10T23:53:58Z",
-      "time": "Tue 6:53 PM",
       "section": "econ",
       "impact": "Medium",
       "lean": null,
