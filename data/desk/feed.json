@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T06:32:21Z",
+  "updatedAt": "2026-11-15T16:22:13Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -92,9 +92,9 @@
     {
       "id": "fed-all",
       "label": "Federal Reserve",
-      "ok": false,
-      "items": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "ok": true,
+      "items": 20,
+      "error": null
     },
     {
       "id": "fed-monetary",
@@ -456,6 +456,30 @@
       "auto": true
     },
     {
+      "id": "ff259d9ad36e6",
+      "headline": "Social Security and the blue wave: What could happen to payroll taxes and senior tax breaks",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/15/social-security-tax-changes-midterm-election.html",
+      "publishedAt": "2026-11-15T14:30:01Z",
+      "time": "Sun 9:30 AM",
+      "section": "econ",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f699552e0a5dd",
+      "headline": "Gold and silver are supposed to protect against inflation. So why are both metals tumbling instead?",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/gold-and-silver-are-supposed-to-protect-against-inflation-so-why-are-both-metals-tumbling-instead-1735eca7?mod=mw_rss_topstories",
+      "publishedAt": "2026-11-15T12:30:00Z",
+      "time": "Sun 7:30 AM",
+      "section": "econ",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "faa9400b5eb32",
       "headline": "Washington can start delivering on affordability by rejecting Trump’s tariffs",
       "source": "MarketWatch",
@@ -500,6 +524,42 @@
       "time": "Thu 3:59 PM",
       "section": "econ",
       "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fafbb2c268525",
+      "headline": "Nvidia is gearing up for one of Wall Street’s most anticipated earnings calls in years",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/nvidia-is-gearing-up-for-one-of-wall-streets-most-anticipated-earnings-calls-in-years-91855b1e?mod=mw_rss_topstories",
+      "publishedAt": "2026-11-15T15:00:00Z",
+      "time": "Sun 10:00 AM",
+      "section": "tech",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f00579238bbaf",
+      "headline": "Will the Anthropic IPO create a disturbance in the broader U.S. equity market, like SpaceX did?",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/will-the-anthropic-ipo-create-a-disturbance-in-the-broader-u-s-equity-market-like-spacex-did-05ba4351?mod=mw_rss_topstories",
+      "publishedAt": "2026-11-15T14:00:00Z",
+      "time": "Sun 9:00 AM",
+      "section": "tech",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fd15116e84d41",
+      "headline": "Anthropic’s IPO lands as the embattled AI trade looks for a much-needed bright spot",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/15/anthropic-ipo-is-make-or-break-for-the-technology-industry.html",
+      "publishedAt": "2026-11-15T12:00:01Z",
+      "time": "Sun 7:00 AM",
+      "section": "tech",
+      "impact": "High",
       "lean": null,
       "auto": true
     },
@@ -564,14 +624,14 @@
       "auto": true
     },
     {
-      "id": "f00b4d3bb4d8d",
-      "headline": "Anthropic’s IPO roadshow kicks off — and the big money is already lining up",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/anthropics-ipo-roadshow-kicks-off-and-the-big-money-is-already-lining-up-7cdd4f8b?mod=mw_rss_topstories",
-      "publishedAt": "2026-11-11T16:03:00Z",
-      "time": "Wed 11:03 AM",
+      "id": "fc9e92e35705f",
+      "headline": "Microsoft Outlook Outage and FAA Groundstop Show Dependence on Fragile Technology",
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/2026/11/15/business/technology-dependence-microsoft-airlines.html",
+      "publishedAt": "2026-11-15T10:02:06Z",
+      "time": "Sun 5:02 AM",
       "section": "tech",
-      "impact": "High",
+      "impact": "Medium",
       "lean": null,
       "auto": true
     },
@@ -582,42 +642,6 @@
       "url": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
       "publishedAt": "2026-11-14T08:11:28Z",
       "time": "Sat 3:11 AM",
-      "section": "tech",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "fb66446c5d6ab",
-      "headline": "Agencies extend comment period for proposed third-party risk management guidance",
-      "source": "Federal Reserve",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261113a.htm",
-      "publishedAt": "2026-11-13T21:15:00Z",
-      "time": "Fri 4:15 PM",
-      "section": "tech",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f5bedc6b7991a",
-      "headline": "Nvidia scandal: US treasury chief blames Lutnick’s commerce department over alleged lack of action",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/technology/2026/nov/13/nvidia-scandal-sparks-us-national-security-concerns-china",
-      "publishedAt": "2026-11-13T19:51:28Z",
-      "time": "Fri 2:51 PM",
-      "section": "tech",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f60da4f7a6b57",
-      "headline": "Cisco beats on earnings, says AI infrastructure revenue will double this fiscal year",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/12/cisco-csco-q1-2027-earnings.html",
-      "publishedAt": "2026-11-13T14:26:04Z",
-      "time": "Fri 9:26 AM",
       "section": "tech",
       "impact": "Medium",
       "lean": null,
@@ -648,14 +672,14 @@
       "auto": true
     },
     {
-      "id": "f06de96a0c058",
-      "headline": "Saudi Crude Output Jumps 26% as Riyadh Reports Near Pre-War Production",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Crude-Output-Jumps-26-as-Riyadh-Reports-Near-Pre-War-Production.html",
-      "publishedAt": "2026-11-11T15:30:00Z",
-      "time": "Wed 10:30 AM",
+      "id": "fdda52f289d72",
+      "headline": "Will Iraq’s oil smuggling crackdown disarm militias without a conflict?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/15/will-iraqs-oil-smuggllng-crackdown-disarm-militias-without-a-conflict?traffic_source=rss",
+      "publishedAt": "2026-11-15T15:21:21Z",
+      "time": "Sun 10:21 AM",
       "section": "energy",
-      "impact": "High",
+      "impact": "Medium",
       "lean": null,
       "auto": true
     },
