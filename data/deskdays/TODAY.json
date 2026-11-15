@@ -1,18 +1,18 @@
 {
   "date": "2026-11-15",
   "grok": {
-    "at": "2026-11-15T14:28:00Z",
-    "pulse": "Sunday X pulse shows mixed-to-risk-off tape into the CME reopen as NVDA leadership uncertainty from Huang's resignation and elevated yields weigh on NQ/ES while oil remains volatile amid lingering Iran tensions ahead of key AI earnings and FOMC minutes.",
-    "bias": "mixed — NVDA/Huang fallout plus fully priced December hike pressure tech and growth, offset by some oil supply surplus hopes and defensive rotation; crypto liquidation adds risk-off tone",
+    "at": "2026-11-15T21:20:42Z",
+    "pulse": "Sunday afternoon X pulse leans mixed-to-risk-off into the week: AI/NVDA leadership uncertainty and export-rule tightening plus elevated yields/hawkish Fed pricing continue to pressure NQ and semis, while oil stays supported by Hormuz tanker-mine reports and Iran tensions ahead of Tuesday NVDA earnings and Wednesday FOMC minutes.",
+    "bias": "mixed — tech/AI overhang and high December hike odds weigh on NQ/ES, only partly offset by soft PPI cooling some hawkish bets and lingering hopes of Iran de-escalation that could ease oil pressure",
     "items": [
-      "@MCreekFutures (~9:25 AM ET): Sunday open watchlist ranks /CL highest gap risk on geopolitical/supply surplus, /MNQ bearish on NVDA Huang resignation and rising yields",
-      "@quantalg0 (Sat): NQ back near 27,927 and ES ~7,561 after failing highs on tech/semi pressure post-Huang; CL recovering toward $89, NVDA earnings Tue is major AI test",
-      "@ApexWireApp (~9:24 AM ET): Congress moving on tighter AI-chip export rules after Nvidia scandal; 10Y at 5.15% with Dec hike odds high; Iran resumed attacks on Bahrain",
-      "@VuBuiNew (Sun early): Market pulse flags Iran tanker mines in Hormuz, NVDA Q3 first under interim CEO Kress on Tue, FOMC minutes Wed, Anthropic IPO mid-week",
-      "@StayInformedNow (Fri): NVDA Huang resigns on scandal bombshell, oil rockets on Trump no-deal Iran comments, yields elevated weighing on risk"
+      "@roscoclyde (~4:13 PM ET): Biggest week for the AI trade; Nvidia reports Tuesday after the close — first earnings without Jensen as CEO, stock already down ~20% this month; Anthropic expected to start trading Thursday — Mixed NQ",
+      "@JohnERopp (~4:20 PM ET): FT reports Jensen discussing possible return as NVDA CEO with allies, prediction markets surge ahead of Tuesday earnings — Mixed NQ",
+      "@MrKeyrouz (~4:19 PM ET): Saturday report of three oil tankers catching fire after hitting mines in the Strait of Hormuz; Reuters could not immediately verify — Bearish NQ (oil/geopolitical)",
+      "@AlphaAllegro (~4:15 PM ET): Weekly intelligence sees brief rally into Nov 17-18 then lower into early December, defensive Level 3, STFR near 700 on QQQ — Bearish NQ tilt",
+      "Newsquawk/Friday wrap: Nasdaq underperformed (-1.22%) on continued AI/tech selling post-Huang; soft PPI trimmed some hike bets but Dec hike still heavily priced — Mixed NQ"
     ],
-    "trump": "Trump leaning toward holding off on new Iran strikes unless provoked (per Reuters); earlier stated US 'doesn't need a deal' with Iran; reports of multiple carriers deploying to Middle East.",
-    "watch": "Sun 6 PM ET CME futures reopen for gap risk on oil/Iran/NVDA headlines; Mon: Chair Warsh speech; Tue: retail sales + NVDA AMC (first under Kress); Wed: FOMC minutes. Watch 10Y near 5.15%, CL/Brent, and AI/semis reaction.",
+    "trump": "Trump reportedly told advisers he may hold off on further Iran strikes unless provoked; ongoing diplomatic noise around US-Iran talks and Mossad director meetings in Washington",
+    "watch": "Tue Nov 17: NVDA AMC (first under interim CEO Kress, Q4 guidance key); Wed Nov 18: FOMC minutes; retail sales and other data; Hormuz/Iran headlines and oil reaction; Anthropic IPO timing",
     "forSite": []
   }
 }
