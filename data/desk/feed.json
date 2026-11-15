@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T22:24:20Z",
+  "updatedAt": "2026-11-15T06:32:21Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -92,9 +92,9 @@
     {
       "id": "fed-all",
       "label": "Federal Reserve",
-      "ok": true,
-      "items": 20,
-      "error": null
+      "ok": false,
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "id": "fed-monetary",
@@ -183,9 +183,9 @@
     {
       "id": "un-peace",
       "label": "UN News",
-      "ok": false,
-      "items": 0,
-      "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+      "ok": true,
+      "items": 20,
+      "error": null
     },
     {
       "id": "wsj-biz",
@@ -203,6 +203,30 @@
     }
   ],
   "items": [
+    {
+      "id": "fc86ff48c603c",
+      "headline": "Saudi-led coalition intercepts suspected Houthi missiles and drones",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/15/saudi-led-coalition-intercepts-two-missiles-two-drones-in-riyadh?traffic_source=rss",
+      "publishedAt": "2026-11-15T02:59:06Z",
+      "time": "Sat 9:59 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f2a517c998ac0",
+      "headline": "Israeli air strike kills senior Hamas commander in Gaza",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/15/israeli-air-strike-kills-senior-hamas-commander-in-gaza?traffic_source=rss",
+      "publishedAt": "2026-11-15T01:00:42Z",
+      "time": "Sat 8:00 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
     {
       "id": "f5f1a3443da77",
       "headline": "Myanmar airstrike kills 12 at displacement camp in Rakhine state",
@@ -297,30 +321,6 @@
       "section": "war",
       "impact": "High",
       "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f2ae3c528403e",
-      "headline": "Security Council LIVE: Fragile Gulf calm tested as threats to Hormuz shipping mount",
-      "source": "UN News - Global perspective Human stories",
-      "url": "https://news.un.org/feed/view/en/story/2026/11/1168804",
-      "publishedAt": "2026-11-13T12:00:00Z",
-      "time": "Fri 7:00 AM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "fb841542aca57",
-      "headline": "UN watchdog calls on Iran to reopen nuclear facilities to inspection",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/11/13/un-watchdog-calls-on-iran-to-reopen-nuclear-facilities-to-inspection?traffic_source=rss",
-      "publishedAt": "2026-11-13T11:51:57Z",
-      "time": "Fri 6:51 AM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-on",
       "auto": true
     },
     {
@@ -504,18 +504,6 @@
       "auto": true
     },
     {
-      "id": "fc660ef21840a",
-      "headline": "Canada’s ambassador warns Trump tariffs are driving up costs, threatening U.S. investment",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/11/canada-ambassador-trump-tariffs-investments.html",
-      "publishedAt": "2026-11-11T22:30:57Z",
-      "time": "Wed 5:30 PM",
-      "section": "econ",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
       "id": "f1cb6ca19226f",
       "headline": "Bitcoin is now below $69,000 and could fall even further if investors cash out to buy into the Anthropic IPO",
       "source": "MarketWatch",
@@ -588,30 +576,6 @@
       "auto": true
     },
     {
-      "id": "f0604eb6770b5",
-      "headline": "Anthropic opens Australian retail IPO offering as AI scrutiny intensifies",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/11/anthopic-australian-retail-ipo-offering-.html",
-      "publishedAt": "2026-11-11T01:52:56Z",
-      "time": "Tue 8:52 PM",
-      "section": "tech",
-      "impact": "High",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f34e685dc5093",
-      "headline": "Jim Cramer says Anthropic's explosive growth could justify a record-breaking IPO",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/10/anthropic-ipo-revenue-growth-cramer.html",
-      "publishedAt": "2026-11-10T23:46:35Z",
-      "time": "Tue 6:46 PM",
-      "section": "tech",
-      "impact": "High",
-      "lean": null,
-      "auto": true
-    },
-    {
       "id": "fecebc4f32441",
       "headline": "Microsoft apologizes for massive outage that took down Outlook and other 365 services",
       "source": "CNBC",
@@ -630,6 +594,30 @@
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261113a.htm",
       "publishedAt": "2026-11-13T21:15:00Z",
       "time": "Fri 4:15 PM",
+      "section": "tech",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f5bedc6b7991a",
+      "headline": "Nvidia scandal: US treasury chief blames Lutnick’s commerce department over alleged lack of action",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/technology/2026/nov/13/nvidia-scandal-sparks-us-national-security-concerns-china",
+      "publishedAt": "2026-11-13T19:51:28Z",
+      "time": "Fri 2:51 PM",
+      "section": "tech",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f60da4f7a6b57",
+      "headline": "Cisco beats on earnings, says AI infrastructure revenue will double this fiscal year",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/12/cisco-csco-q1-2027-earnings.html",
+      "publishedAt": "2026-11-13T14:26:04Z",
+      "time": "Fri 9:26 AM",
       "section": "tech",
       "impact": "Medium",
       "lean": null,
@@ -668,6 +656,18 @@
       "time": "Wed 10:30 AM",
       "section": "energy",
       "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fba88f67c8204",
+      "headline": "Iraq PM targets powerful militia stronghold in $30m oil smuggling probe",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/aje-onl-nf_iraq-pm-targets-militia-stronghold-in-oil-smuggling-141126?traffic_source=rss",
+      "publishedAt": "2026-11-14T23:34:37Z",
+      "time": "Sat 6:34 PM",
+      "section": "energy",
+      "impact": "Medium",
       "lean": null,
       "auto": true
     },
@@ -738,18 +738,6 @@
       "url": "https://oilprice.com/Energy/Crude-Oil/US-Oil-Rigs-Hold-at-463-as-Crude-Output-Hits-Another-Record.html",
       "publishedAt": "2026-11-13T18:11:00Z",
       "time": "Fri 1:11 PM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "fb7bce31fd584",
-      "headline": "Brent Crude Climbs Back Above $96 as Iran Tensions Escalate",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Energy/Energy-General/Brent-Crude-Climbs-Back-Above-96-as-Iran-Tensions-Escalate.html",
-      "publishedAt": "2026-11-13T17:00:00Z",
-      "time": "Fri 12:00 PM",
       "section": "energy",
       "impact": "Medium",
       "lean": null,
