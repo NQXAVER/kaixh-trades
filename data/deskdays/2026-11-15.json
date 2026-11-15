@@ -2,18 +2,18 @@
   "date": "2026-11-15",
   "grok": {
     "date": "2026-11-15",
-    "at": "2026-11-15T12:33:55Z",
-    "pulse": "Weekend NQ tape leans risk-off into the 6 PM ET reopen: fresh Gulf escalation (tanker hit near Hormuz, Iranian strikes on Bahrain/US base) and Nvidia-scandal fallout (Congress tightening AI-chip export rules) plus a crypto liquidation wave weigh, offset only by Iran-Oman diplomacy and Friday's +2% weekly Nasdaq gain.",
-    "bias": "risk-off — Hormuz/Bahrain attacks lift oil-spike risk and new AI-chip export curbs hit NVDA/semis 2 days before NVDA AMC, with BTC's $1.9B liquidation flush sapping risk appetite; Iran FM's Oman trip Tue is the only de-escalation offset",
+    "at": "2026-11-15T14:34:14Z",
+    "pulse": "NQ heads into the 6 PM ET Sunday reopen leaning heavy: Hormuz tanker-mine headlines and Iranian strikes on Bahrain keep CL bid while tighter AI-chip export rules and NVDA leadership noise weigh on semis, only partly offset by Trump signaling a pause on new Iran strikes and BTC stabilizing near $65K.",
+    "bias": "risk-off — Hormuz mine/tanker hits and Iran-Bahrain attacks add an oil/geopolitical premium, Congress tightening AI-chip exports and Malaysia data-center smuggling probes hit NVDA/SOXX into Tue NVDA print; offset only by Trump leaning toward pausing Iran strikes unless provoked",
     "items": [
-      "@FirstSquawk (~7:15 AM ET): UKMTO — Indian authorities report an oil tanker attacked before entering the Strait of Hormuz; CL gap-up risk at reopen — Bearish NQ",
-      "@FirstSquawk (~6:39 AM ET): Bahrain intercepts Iranian aerial attacks as Tehran says it hit a US base (CNBC) — Bearish NQ",
-      "@FirstSquawk (~6:38 AM ET): Congress moves to pass tighter AI-chip export rules after the Nvidia/Huang scandal (FT); WSJ (@unusual_whales ~12:26 AM ET) says SE Asia data centers gave Chinese firms compute and cover for chip smuggling — Bearish NQ (NVDA/SOXX)",
-      "@WatcherGuru (~8:04 PM ET Sat): BTC crashed under $63K, reclaimed $65K by ~10:07 PM; X News (~7:20 AM ET) BTC back below $65K on $1.9B liquidations — Bearish NQ (risk appetite, crypto equities)",
-      "@FirstSquawk (~7:16 AM ET): Iran FM to visit Oman Tuesday for talks (IRNA) — Mixed NQ (de-escalation hope vs active strikes)"
+      "@FirstSquawk (~8:50 AM ET): IRGC says two oil tankers struck naval mines on the prohibited southern route in the Strait of Hormuz, one sank — Bearish NQ",
+      "@FirstSquawk (~6:39 AM ET): CNBC — Bahrain intercepts Iranian aerial attacks as Tehran says it hit a US base — Bearish NQ",
+      "@FirstSquawk (~6:38 AM ET): FT — Congress moves to pass tighter AI chip export rules following Nvidia scandal; @zerohedge (~8:30 AM ET) JPM finds 3.8GW of Malaysia DC pipeline tied to Chinese operators — Bearish NQ",
+      "@unusual_whales (~8:32 AM ET): WaPo — Jensen Huang quietly helping pick his own NVDA successor; first print under interim CEO Kress Tue AMC — Mixed NQ",
+      "@WatcherGuru (Sat ~10:07 PM ET): BTC reclaims $65K, $130M shorts liquidated, after $230B crypto wipeout in 24h (Sat ~5:20 PM ET) — Mixed NQ"
     ],
-    "trump": "Trump says 'no deal needed' with Iran while allies argue over whether the war restarts (via @unusual_whales ~11:01 PM ET Sat); he earlier told advisers he may pause further Iran strikes unless provoked. US officials say NVDA issues are not on the agenda for next week's Trump–Xi summit.",
-    "watch": "Sun 6 PM ET CME reopen (gap risk on Hormuz/Bahrain, chip-export bill, BTC); Mon: Fed Chair Warsh 12 PM ET; Tue: Retail Sales 8:30 AM, HD/DIS BMO, NVDA AMC (call 5 PM, first under interim CEO Kress), Iran FM in Oman; Wed: FOMC minutes 2 PM ET, TGT/LOW BMO, PANW AMC; Thu: WMT/BABA BMO, INTU AMC. Watch CL/Brent, 10Y near 5.15%.",
+    "trump": "Trump told senior advisers he may hold off on further Iran strikes after the midterms unless Iran or the Houthis provoke (reported Sat ~3:44 PM ET); has said the US doesn't need a deal with Iran",
+    "watch": "Sun 6 PM ET CME futures reopen (CL/NQ gap risk on Hormuz); Tue Nov 17: HD & DIS BMO, NVDA AMC (call 5 PM ET); Tue: Iran FM in Oman; Wed Nov 18: TGT & LOW BMO, FOMC minutes, PANW AMC; Thu Nov 19: WMT & BABA BMO, INTU AMC; Oct retail sales due this week; Hormuz/Iran headlines overnight",
     "forSite": [],
     "reports": [
       {
@@ -44,6 +44,36 @@
         ],
         "trump": "Trump says 'no deal needed' with Iran while allies argue over whether the war restarts (via @unusual_whales ~11:01 PM ET Sat); he earlier told advisers he may pause further Iran strikes unless provoked. US officials say NVDA issues are not on the agenda for next week's Trump–Xi summit.",
         "watch": "Sun 6 PM ET CME reopen (gap risk on Hormuz/Bahrain, chip-export bill, BTC); Mon: Fed Chair Warsh 12 PM ET; Tue: Retail Sales 8:30 AM, HD/DIS BMO, NVDA AMC (call 5 PM, first under interim CEO Kress), Iran FM in Oman; Wed: FOMC minutes 2 PM ET, TGT/LOW BMO, PANW AMC; Thu: WMT/BABA BMO, INTU AMC. Watch CL/Brent, 10Y near 5.15%.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-15T14:28:00Z",
+        "pulse": "Sunday X pulse shows mixed-to-risk-off tape into the CME reopen as NVDA leadership uncertainty from Huang's resignation and elevated yields weigh on NQ/ES while oil remains volatile amid lingering Iran tensions ahead of key AI earnings and FOMC minutes.",
+        "bias": "mixed — NVDA/Huang fallout plus fully priced December hike pressure tech and growth, offset by some oil supply surplus hopes and defensive rotation; crypto liquidation adds risk-off tone",
+        "items": [
+          "@MCreekFutures (~9:25 AM ET): Sunday open watchlist ranks /CL highest gap risk on geopolitical/supply surplus, /MNQ bearish on NVDA Huang resignation and rising yields",
+          "@quantalg0 (Sat): NQ back near 27,927 and ES ~7,561 after failing highs on tech/semi pressure post-Huang; CL recovering toward $89, NVDA earnings Tue is major AI test",
+          "@ApexWireApp (~9:24 AM ET): Congress moving on tighter AI-chip export rules after Nvidia scandal; 10Y at 5.15% with Dec hike odds high; Iran resumed attacks on Bahrain",
+          "@VuBuiNew (Sun early): Market pulse flags Iran tanker mines in Hormuz, NVDA Q3 first under interim CEO Kress on Tue, FOMC minutes Wed, Anthropic IPO mid-week",
+          "@StayInformedNow (Fri): NVDA Huang resigns on scandal bombshell, oil rockets on Trump no-deal Iran comments, yields elevated weighing on risk"
+        ],
+        "trump": "Trump leaning toward holding off on new Iran strikes unless provoked (per Reuters); earlier stated US 'doesn't need a deal' with Iran; reports of multiple carriers deploying to Middle East.",
+        "watch": "Sun 6 PM ET CME futures reopen for gap risk on oil/Iran/NVDA headlines; Mon: Chair Warsh speech; Tue: retail sales + NVDA AMC (first under Kress); Wed: FOMC minutes. Watch 10Y near 5.15%, CL/Brent, and AI/semis reaction.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-15T14:34:14Z",
+        "pulse": "NQ heads into the 6 PM ET Sunday reopen leaning heavy: Hormuz tanker-mine headlines and Iranian strikes on Bahrain keep CL bid while tighter AI-chip export rules and NVDA leadership noise weigh on semis, only partly offset by Trump signaling a pause on new Iran strikes and BTC stabilizing near $65K.",
+        "bias": "risk-off — Hormuz mine/tanker hits and Iran-Bahrain attacks add an oil/geopolitical premium, Congress tightening AI-chip exports and Malaysia data-center smuggling probes hit NVDA/SOXX into Tue NVDA print; offset only by Trump leaning toward pausing Iran strikes unless provoked",
+        "items": [
+          "@FirstSquawk (~8:50 AM ET): IRGC says two oil tankers struck naval mines on the prohibited southern route in the Strait of Hormuz, one sank — Bearish NQ",
+          "@FirstSquawk (~6:39 AM ET): CNBC — Bahrain intercepts Iranian aerial attacks as Tehran says it hit a US base — Bearish NQ",
+          "@FirstSquawk (~6:38 AM ET): FT — Congress moves to pass tighter AI chip export rules following Nvidia scandal; @zerohedge (~8:30 AM ET) JPM finds 3.8GW of Malaysia DC pipeline tied to Chinese operators — Bearish NQ",
+          "@unusual_whales (~8:32 AM ET): WaPo — Jensen Huang quietly helping pick his own NVDA successor; first print under interim CEO Kress Tue AMC — Mixed NQ",
+          "@WatcherGuru (Sat ~10:07 PM ET): BTC reclaims $65K, $130M shorts liquidated, after $230B crypto wipeout in 24h (Sat ~5:20 PM ET) — Mixed NQ"
+        ],
+        "trump": "Trump told senior advisers he may hold off on further Iran strikes after the midterms unless Iran or the Houthis provoke (reported Sat ~3:44 PM ET); has said the US doesn't need a deal with Iran",
+        "watch": "Sun 6 PM ET CME futures reopen (CL/NQ gap risk on Hormuz); Tue Nov 17: HD & DIS BMO, NVDA AMC (call 5 PM ET); Tue: Iran FM in Oman; Wed Nov 18: TGT & LOW BMO, FOMC minutes, PANW AMC; Thu Nov 19: WMT & BABA BMO, INTU AMC; Oct retail sales due this week; Hormuz/Iran headlines overnight",
         "forSite": []
       }
     ]
