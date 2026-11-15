@@ -1,93 +1,15 @@
 {
-  "date": "2026-11-14",
-  "at": "2026-11-15T03:31:50Z",
-  "pulse": "Late-Saturday NQ setup into Sunday's 6 PM ET reopen is still defensive: Hormuz tanker-mine headlines keep CL risk alive and NVDA leadership/AI-capex doubts hang over Tue AMC, while BTC's bounce back above $65K and diesel at a 2-month low take some edge off.",
-  "bias": "mixed — crypto rebound (BTC >$65K) and softer diesel ease the risk-off tone, but Hormuz tanker fires, >5% yields/hot inflation and the NVDA overhang into Tue AMC keep the reopen gap risk tilted lower",
+  "at": "2026-11-15T12:00:29Z",
+  "pulse": "Sunday pulse into the 6 PM ET futures reopen stays mixed: Friday's modest tech fade left S&P at 7561.67 (+2.5% week) and Nasdaq 25136 after the midweek oil-driven rally, but 10Y near 5.15%, fully priced December hike odds, NVDA leadership overhang into Tuesday AMC, and lingering Hormuz/Iran mine risks keep the tape cautious.",
+  "bias": "mixed — week rebound and earlier oil de-escalation hopes support risk appetite, but hawkish Fed pricing, NVDA interim-CEO earnings uncertainty, Anthropic IPO timing and ongoing Gulf tanker headlines tilt NQ defensive into the reopen",
   "items": [
-    "@WatcherGuru (~10:07 PM ET): Bitcoin turns green and reclaims $65,000, ~$130M shorts liquidated (after the ~8:04 PM drop under $63K) — Bullish NQ (risk appetite; COIN/MSTR)",
-    "@zerohedge (~10:30 PM ET): Trump says Saudi Arabia is 'disintegrating' — Bearish NQ (Gulf/oil risk premium on top of Hormuz)",
-    "@FirstSquawk (~8:20 PM ET): Iran's IRGC Navy says two tankers are on fire after naval-mine strikes in the Strait of Hormuz — Bearish NQ (CL upside, yields/inflation)",
-    "@FirstSquawk (~8:38 PM ET): US diesel below $6/gal at a 2-month low on easing tensions and weaker demand — Bullish NQ (inflation relief)",
-    "X News (~8:29 PM ET): Trump on Truth Social blames investors' dislike of the midterm result for the ~$3T post-Election-Day market drop, says it has since rebounded — Mixed NQ"
+    "@shanaka86 (~7:59 AM ET): Anthropic IPO expected to price $70-78 on Nov 18, trade Nov 19 as ANT; pre-IPO Hyperliquid contract at $101.65 (30% above top) — Mixed NQ (AI IPO catalyst)",
+    "@OllieInvesting (~8:00 AM ET): Next week hinges on Tuesday (US retail sales + NVDA AMC) and Wednesday (FOMC minutes) as the key sessions for Nasdaq — Mixed NQ",
+    "@KashGodYe (~7:49 AM ET): Friday close S&P -0.4% to 7561.67, Nasdaq -0.91% to 25136.27; week still up but tech lagged on yields and semis — Bearish NQ tilt",
+    "@anasalhajji (~7:24 AM ET): Oil market well supplied despite Hormuz tanker attacks; IEA sees surplus as Gulf exports recover, Brent briefly under $90 — Bullish NQ (inflation relief)",
+    "@semordnilap0704 (~7:44 AM ET): Week recap S&P +2.51%, Nasdaq +2.27%, NVDA -12.75%; 10Y 5.15%, Dec hike odds >100%; watch NVDA Tue and FOMC mins Wed — Mixed NQ"
   ],
-  "trump": "Trump says Saudi Arabia is 'disintegrating' (via @zerohedge ~10:30 PM ET), and on Truth Social blamed the midterm outcome for a ~$3T market drop after Election Day, saying stocks have rebounded since.",
-  "watch": "Sun 6 PM ET futures reopen (gap watch on Hormuz/Saudi headlines and BTC); CL on any further tanker/mine strikes; Mon: Duffy aviation funding proposal; Tue BMO HD, DIS; Tue AMC NVDA (call 5 PM ET, first print under interim CEO Kress); Wed BMO TGT, LOW, AMC PANW; Thu BMO WMT, BABA, AMC INTU; Trump-Xi-Putin summit next week",
-  "forSite": [],
-  "reports": [
-    {
-      "at": "2026-11-14T12:23:46Z",
-      "pulse": "Weekend tape for NQ stays defensive after Friday's NVDA-led semis flush (NQ -1.24%, SOX -3.4%), with overnight Hormuz escalation (tankers hitting mines, IRGC claiming a US drone downed) and a crypto slide (BTC <$67K) adding pressure, partly offset by reports Trump may hold off on Iran strikes and US-China tariff talks ahead of the Xi meeting.",
-      "bias": "risk-off — NVDA leadership vacuum into Tue AMC print, ~5.15% 10Y and fresh Hormuz/Iran headlines outweigh Trump's 'may hold off on Iran' report and US-China pre-summit trade talks",
-      "items": [
-        "@FirstSquawk (~5:16-5:18 AM ET): Iran navy says an oil tanker caught fire after hitting a naval mine in the eastern Strait of Hormuz, the second today — Bearish NQ (CL bid)",
-        "@FirstSquawk (~7:11 AM ET): Iran's IRGC says it shot down a US MQ-1 Predator drone over Qeshm Island — Bearish NQ",
-        "@FirstSquawk (~6:17 / 6:24 AM ET): Trump tells advisers he may hold off on Iran attacks barring new provocations; Israel still pressing for a strike — Mixed NQ",
-        "@FirstSquawk (~6:49 AM ET): China, US discuss tariffs and farm trade ahead of Xi-Trump meeting — Bullish NQ",
-        "@WatcherGuru (~10:38 PM ET Fri): crypto crashing, BTC under $67K, ETH under $1,900, $330M+ liquidated — Bearish NQ (risk appetite; COIN/MSTR)"
-      ],
-      "trump": "Per @FirstSquawk (~6:17 AM ET), Trump told advisers he may hold off on Iran attacks barring new provocations, while US officials say Israel keeps pressing for a strike (~6:24 AM ET); US and China discussing tariffs/farm trade ahead of the Xi-Trump meeting at APEC Nov 18-19 (~6:49 AM ET).",
-      "watch": "Weekend: Iran/Hormuz tanker and drone headlines, NVDA CEO search/probes, crypto weakness, MSFT outage fallout (services restored ~6:43 AM ET); CME futures reopen Sun 6 PM ET. Mon: Empire State 8:30 AM ET. Tue: HD/DIS BMO, FOMC minutes 2 PM ET, NVDA AMC (call 5 PM ET). Wed: TGT/LOW BMO, PANW AMC; Nov 18-19 Trump-Xi at APEC. Thu: WMT/BABA BMO, INTU AMC. QQQ 682 (200dma) / 675; 10Y vs 5.15%.",
-      "forSite": []
-    },
-    {
-      "at": "2026-11-14T14:26:37Z",
-      "pulse": "Weekend NQ setup still leans defensive on the NVDA overhang (FT: possible lawsuits after Huang's exit) and fresh Gulf drone/Iran headlines, partly offset by the White House saying Trump, Putin and Xi plan a joint meeting in China next week, which feeds US-China trade-deal hopes.",
-      "bias": "risk-off — NVDA leadership/legal overhang into Tue AMC, Hormuz/Iran and Riyadh drone headlines and a ~5.15% 10Y outweigh the Trump-Putin-Xi summit headline until futures reopen Sun 6 PM ET",
-      "items": [
-        "@unusual_whales (~9:23 AM ET): White House says Trump, Putin and Xi plan a historic joint meeting in China next week — Bullish NQ (US-China trade/de-escalation hopes)",
-        "@FirstSquawk (~8:29 AM ET): FT — Nvidia exposed to possible lawsuits after Jensen Huang's downfall — Bearish NQ (NVDA, semis)",
-        "@FirstSquawk (~8:10 AM ET): Saudi-led coalition says it intercepted 2 drones over Riyadh; adds to Hormuz/Iran tension — Bearish NQ (CL bid)",
-        "@FirstSquawk (~7:19 / 8:57 AM ET): Italy's privacy agency fines META €805M over Android users' videos/photos — Bearish NQ (META, small)",
-        "@unusual_whales (~9:05 AM ET): Cuba's Diaz-Canel says Cuba is preparing for a possible US military attack — Mixed NQ (geopolitical noise)"
-      ],
-      "trump": "White House says Trump, Putin and Xi plan a joint meeting in China next week (per @unusual_whales ~9:23 AM ET); earlier reports said Trump may hold off on Iran attacks barring new provocations (@FirstSquawk ~6:17 AM ET).",
-      "watch": "Weekend: Trump-Putin-Xi summit details, Iran/Hormuz tanker and drone headlines, NVDA lawsuit/CEO news, crypto weakness, US flight recovery after ATC outage; CME futures reopen Sun 6 PM ET. Mon: Empire State 8:30 AM ET. Tue: HD/DIS BMO, FOMC minutes 2 PM ET, NVDA AMC (call 5 PM ET). Wed: TGT/LOW BMO, PANW AMC; Trump-Xi at APEC Nov 18-19. Thu: WMT/BABA BMO, INTU AMC. QQQ 682 (200dma) / 675; 10Y vs 5.15%.",
-      "forSite": []
-    },
-    {
-      "at": "2026-11-14T21:22:34Z",
-      "pulse": "Weekend NQ tape stays heavy after Friday's NVDA-led semis flush (NQ -1.24%, SOX -3.4%), with a fresh crypto leg down (BTC <$65K) and the WSJ 'circular financing' NVDA report adding pressure, partly offset by Trump signaling he may pause further Iran strikes, CENTCOM saying Hormuz flows continue, and the Trump-Putin-Xi summit next week.",
-      "bias": "risk-off — NVDA leadership/legal overhang into Tue AMC, crypto liquidations and live Hormuz mine/drone headlines outweigh Trump's Iran-pause signal and US-China summit hopes until futures reopen Sun 6 PM ET",
-      "items": [
-        "@WatcherGuru (~4:01 PM ET): BTC breaks under $65K, ETH under $1,800, $360M+ liquidated in 5 min (BTC was <$66K at ~9:43 AM) — Bearish NQ (risk appetite; COIN/MSTR)",
-        "WSJ via X News (~2:05 PM ET): report says Nvidia financed/guaranteed smaller AI firms and DC builders so they could keep buying GPUs; FT says NVDA carries only Side A D&O cover — Bearish NQ (NVDA, AI capex circularity)",
-        "@WatcherGuru (~12:42 PM ET): two NVDA holders with $2B+ in shares urge board to reinstate Jensen Huang; petition passed 100K signatures (@unusual_whales ~12:09 PM), Musk signed (~9:39 AM) — Mixed NQ (NVDA)",
-        "@FirstSquawk (~12:44-12:45 PM ET): CENTCOM says 1.7B+ bbl moved through Hormuz by Gulf partners, F-16 patrols; Iran FM slams Rubio blockade remarks as more tankers hit mines — Mixed NQ (CL)",
-        "@DeItaone (~3:11 PM ET): 10K+ US flights delayed/canceled Sat after air-traffic comms failure; FAA sees full recovery by Sun — Mixed NQ (airlines, small)"
-      ],
-      "trump": "Per X News (~3:44 PM ET), Trump told senior advisers he may delay further military action on Iran unless Iran or the Houthis provoke again; the White House said Trump, Putin and Xi plan a joint meeting in China next week (per @unusual_whales ~9:23 AM ET).",
-      "watch": "Sun 6 PM ET futures reopen (gap risk on Hormuz/Iran + NVDA board headlines); weekend crypto liquidations; Tue Nov 17: HD, DIS BMO, NVDA AMC (call 5 PM ET); Wed Nov 18: TGT, LOW BMO, PANW AMC; Thu Nov 19: WMT 7 AM, BABA BMO, INTU AMC; Trump-Putin-Xi meeting in China next week",
-      "forSite": []
-    },
-    {
-      "at": "2026-11-15T01:33:12Z",
-      "pulse": "Weekend NQ tape stays risk-off into Sunday's 6 PM ET reopen: crypto extends its slide (BTC <$63K) and Iran's IRGC says two more tankers caught fire after hitting mines in Hormuz, while Kushner's push for direct Russia-Europe Ukraine talks and next week's Trump-Xi-Putin summit offer only a partial offset.",
-      "bias": "risk-off — fresh BTC breakdown, Hormuz tanker fires (CL upside risk) and the NVDA leadership overhang into Tue AMC outweigh Ukraine-diplomacy and summit hopes",
-      "items": [
-        "@WatcherGuru (~8:04 PM ET): Bitcoin crashes under $63,000, extending the slide from <$65K at ~4:01 PM — Bearish NQ (risk appetite; COIN/MSTR)",
-        "@FirstSquawk (~7:24 & 8:20 PM ET): Iran's IRGC Navy says two oil tankers hit naval mines in the Strait of Hormuz and are on fire — Bearish NQ (CL upside, yields/inflation)",
-        "@FirstSquawk (~7:26 & 8:14 PM ET): Kushner says the US is working to bring Russia and Europe into direct dialogue after Ukraine peace talks (CBS) — Mixed NQ (geopolitical de-risk, limited tape impact)",
-        "@unusual_whales (~8:01 PM ET): The Information reports both of Jensen Huang's children work at Nvidia, adding to governance headlines after his exit and the 100K+ reinstatement petition — Mixed NQ (NVDA)",
-        "@FirstSquawk (~7:33-7:45 PM ET): US air-traffic disruptions run into Sunday after ~9,000 Friday cancellations and 5,000 Saturday delays (NYT); Duffy to send a funding proposal to the Hill on Monday — Mixed NQ (airlines/travel)"
-      ],
-      "trump": "No market-moving Trump posts since the close; the White House has confirmed a Trump-Xi-Putin trilateral summit in China next week, and Kushner (Trump envoy) is pushing direct Russia-Europe dialogue on Ukraine.",
-      "watch": "Sun 6 PM ET futures reopen (gap watch on BTC/Hormuz headlines); Hormuz/Iran tanker and drone headlines for CL; Mon: Duffy aviation funding proposal; Tue BMO HD, DIS; Tue AMC NVDA (call 5 PM ET); Wed BMO TGT, LOW, AMC PANW; Thu BMO WMT, BABA, AMC INTU; Trump-Xi-Putin summit next week",
-      "forSite": []
-    },
-    {
-      "at": "2026-11-15T03:31:50Z",
-      "pulse": "Late-Saturday NQ setup into Sunday's 6 PM ET reopen is still defensive: Hormuz tanker-mine headlines keep CL risk alive and NVDA leadership/AI-capex doubts hang over Tue AMC, while BTC's bounce back above $65K and diesel at a 2-month low take some edge off.",
-      "bias": "mixed — crypto rebound (BTC >$65K) and softer diesel ease the risk-off tone, but Hormuz tanker fires, >5% yields/hot inflation and the NVDA overhang into Tue AMC keep the reopen gap risk tilted lower",
-      "items": [
-        "@WatcherGuru (~10:07 PM ET): Bitcoin turns green and reclaims $65,000, ~$130M shorts liquidated (after the ~8:04 PM drop under $63K) — Bullish NQ (risk appetite; COIN/MSTR)",
-        "@zerohedge (~10:30 PM ET): Trump says Saudi Arabia is 'disintegrating' — Bearish NQ (Gulf/oil risk premium on top of Hormuz)",
-        "@FirstSquawk (~8:20 PM ET): Iran's IRGC Navy says two tankers are on fire after naval-mine strikes in the Strait of Hormuz — Bearish NQ (CL upside, yields/inflation)",
-        "@FirstSquawk (~8:38 PM ET): US diesel below $6/gal at a 2-month low on easing tensions and weaker demand — Bullish NQ (inflation relief)",
-        "X News (~8:29 PM ET): Trump on Truth Social blames investors' dislike of the midterm result for the ~$3T post-Election-Day market drop, says it has since rebounded — Mixed NQ"
-      ],
-      "trump": "Trump says Saudi Arabia is 'disintegrating' (via @zerohedge ~10:30 PM ET), and on Truth Social blamed the midterm outcome for a ~$3T market drop after Election Day, saying stocks have rebounded since.",
-      "watch": "Sun 6 PM ET futures reopen (gap watch on Hormuz/Saudi headlines and BTC); CL on any further tanker/mine strikes; Mon: Duffy aviation funding proposal; Tue BMO HD, DIS; Tue AMC NVDA (call 5 PM ET, first print under interim CEO Kress); Wed BMO TGT, LOW, AMC PANW; Thu BMO WMT, BABA, AMC INTU; Trump-Xi-Putin summit next week",
-      "forSite": []
-    }
-  ]
+  "trump": "No fresh market-moving posts overnight; prior signals include possible Iran strike pause and planned Trump-Xi-Putin talks next week at APEC, while Saudi 'disintegrating' comments added Gulf noise earlier.",
+  "watch": "Sun 6 PM ET CME futures reopen (gap risk on Hormuz/NVDA/BTC headlines); Mon: Empire State 8:30 AM ET, Chair Warsh speech; Tue: retail sales 8:30 AM, HD/DIS BMO, NVDA AMC (first under interim CEO Kress); Wed: FOMC minutes 2 PM ET, Anthropic pricing, TGT/LOW; Thu: WMT BMO, ANT Nasdaq debut. 10Y vs 5.15%, QQQ 675-688.",
+  "forSite": []
 }
