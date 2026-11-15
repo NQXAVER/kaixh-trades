@@ -2,18 +2,18 @@
   "date": "2026-11-15",
   "grok": {
     "date": "2026-11-15",
-    "at": "2026-11-15T14:34:14Z",
-    "pulse": "NQ heads into the 6 PM ET Sunday reopen leaning heavy: Hormuz tanker-mine headlines and Iranian strikes on Bahrain keep CL bid while tighter AI-chip export rules and NVDA leadership noise weigh on semis, only partly offset by Trump signaling a pause on new Iran strikes and BTC stabilizing near $65K.",
-    "bias": "risk-off — Hormuz mine/tanker hits and Iran-Bahrain attacks add an oil/geopolitical premium, Congress tightening AI-chip exports and Malaysia data-center smuggling probes hit NVDA/SOXX into Tue NVDA print; offset only by Trump leaning toward pausing Iran strikes unless provoked",
+    "at": "2026-11-15T21:33:11Z",
+    "pulse": "NQ heads into the 6 PM ET Sunday reopen with NVDA governance chaos as the main driver (Bessent demanding an outsider CEO and board answers in 10 days vs FT report Huang is plotting a comeback) after Friday's tech-led fade, partly offset by Bessent leaning on the Fed to skip a December hike and record QQQ short interest that could fuel a squeeze.",
+    "bias": "mixed — NVDA leadership/export-control pressure from Treasury, BTC slipping to $65K and hawkish Dec-hike pricing weigh on NQ/SOXX two days before NVDA AMC; offsets are Bessent's push against a Dec hike, oil ~$20 off highs, Huang-comeback hopes and crowded QQQ shorts (11%)",
     "items": [
-      "@FirstSquawk (~8:50 AM ET): IRGC says two oil tankers struck naval mines on the prohibited southern route in the Strait of Hormuz, one sank — Bearish NQ",
-      "@FirstSquawk (~6:39 AM ET): CNBC — Bahrain intercepts Iranian aerial attacks as Tehran says it hit a US base — Bearish NQ",
-      "@FirstSquawk (~6:38 AM ET): FT — Congress moves to pass tighter AI chip export rules following Nvidia scandal; @zerohedge (~8:30 AM ET) JPM finds 3.8GW of Malaysia DC pipeline tied to Chinese operators — Bearish NQ",
-      "@unusual_whales (~8:32 AM ET): WaPo — Jensen Huang quietly helping pick his own NVDA successor; first print under interim CEO Kress Tue AMC — Mixed NQ",
-      "@WatcherGuru (Sat ~10:07 PM ET): BTC reclaims $65K, $130M shorts liquidated, after $230B crypto wipeout in 24h (Sat ~5:20 PM ET) — Mixed NQ"
+      "@FirstSquawk (~3:03 PM ET): Bessent demands answers from NVDA board within 10 days and urges an outsider CEO amid alleged AI-chip sales to Chinese entities; @zerohedge (~4:30 PM ET) echoes — Bearish NQ",
+      "@WatcherGuru (~2:07 PM ET): Jensen Huang discusses returning as NVDA CEO with allies (FT, Silicon Valley 'war room'); @unusual_whales (~3:21 PM ET) says industry pressing board to reinstate him — Mixed NQ",
+      "X News (~3:07 PM ET): Bessent urges Fed to skip a Dec 8-9 hike, calling Oct's 0.4% inflation energy-distorted with oil down ~$20/bbl — Bullish NQ",
+      "X News (~3:45 PM ET): QQQ short interest at 11% of shares (~$57B), highest since 2023, hedge-fund tech long/short ratio lowest since 2016 into NVDA — Mixed NQ (squeeze fuel)",
+      "@FirstSquawk (~2:34 PM ET): BTC falls to $65,000 as crypto braces for a busy week; @FirstSquawk (~3:16 PM ET) ULA Vulcan failure dooms 40 Amazon Leo satellites (AMZN) — Bearish NQ"
     ],
-    "trump": "Trump told senior advisers he may hold off on further Iran strikes after the midterms unless Iran or the Houthis provoke (reported Sat ~3:44 PM ET); has said the US doesn't need a deal with Iran",
-    "watch": "Sun 6 PM ET CME futures reopen (CL/NQ gap risk on Hormuz); Tue Nov 17: HD & DIS BMO, NVDA AMC (call 5 PM ET); Tue: Iran FM in Oman; Wed Nov 18: TGT & LOW BMO, FOMC minutes, PANW AMC; Thu Nov 19: WMT & BABA BMO, INTU AMC; Oct retail sales due this week; Hormuz/Iran headlines overnight",
+    "trump": "No market-moving Trump posts today (his ~3:11 PM ET posts were about a judge delaying an Interior Dept golf-course project); standing signal: may hold off on further Iran strikes unless provoked. Bessent on Fox said the US naval blockade has halted Iranian oil exports and Iran's economy is collapsing.",
+    "watch": "Sun 6 PM ET CME reopen (NQ gap risk on NVDA/Bessent headlines); Mon: Empire State 8:30 AM ET, Chair Warsh at SF AI conference; Tue Nov 17: Oct retail sales 8:30 AM, HD & DIS BMO, NVDA AMC (call 5 PM ET, interim CEO Kress); Wed Nov 18: TGT & LOW BMO, FOMC minutes 2 PM ET, Anthropic IPO pricing, PANW AMC; Thu Nov 19: WMT & BABA BMO, ANT debut, INTU AMC; Hormuz/Iran headlines overnight",
     "forSite": [],
     "reports": [
       {
@@ -74,6 +74,36 @@
         ],
         "trump": "Trump told senior advisers he may hold off on further Iran strikes after the midterms unless Iran or the Houthis provoke (reported Sat ~3:44 PM ET); has said the US doesn't need a deal with Iran",
         "watch": "Sun 6 PM ET CME futures reopen (CL/NQ gap risk on Hormuz); Tue Nov 17: HD & DIS BMO, NVDA AMC (call 5 PM ET); Tue: Iran FM in Oman; Wed Nov 18: TGT & LOW BMO, FOMC minutes, PANW AMC; Thu Nov 19: WMT & BABA BMO, INTU AMC; Oct retail sales due this week; Hormuz/Iran headlines overnight",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-15T21:20:42Z",
+        "pulse": "Sunday afternoon X pulse leans mixed-to-risk-off into the week: AI/NVDA leadership uncertainty and export-rule tightening plus elevated yields/hawkish Fed pricing continue to pressure NQ and semis, while oil stays supported by Hormuz tanker-mine reports and Iran tensions ahead of Tuesday NVDA earnings and Wednesday FOMC minutes.",
+        "bias": "mixed — tech/AI overhang and high December hike odds weigh on NQ/ES, only partly offset by soft PPI cooling some hawkish bets and lingering hopes of Iran de-escalation that could ease oil pressure",
+        "items": [
+          "@roscoclyde (~4:13 PM ET): Biggest week for the AI trade; Nvidia reports Tuesday after the close — first earnings without Jensen as CEO, stock already down ~20% this month; Anthropic expected to start trading Thursday — Mixed NQ",
+          "@JohnERopp (~4:20 PM ET): FT reports Jensen discussing possible return as NVDA CEO with allies, prediction markets surge ahead of Tuesday earnings — Mixed NQ",
+          "@MrKeyrouz (~4:19 PM ET): Saturday report of three oil tankers catching fire after hitting mines in the Strait of Hormuz; Reuters could not immediately verify — Bearish NQ (oil/geopolitical)",
+          "@AlphaAllegro (~4:15 PM ET): Weekly intelligence sees brief rally into Nov 17-18 then lower into early December, defensive Level 3, STFR near 700 on QQQ — Bearish NQ tilt",
+          "Newsquawk/Friday wrap: Nasdaq underperformed (-1.22%) on continued AI/tech selling post-Huang; soft PPI trimmed some hike bets but Dec hike still heavily priced — Mixed NQ"
+        ],
+        "trump": "Trump reportedly told advisers he may hold off on further Iran strikes unless provoked; ongoing diplomatic noise around US-Iran talks and Mossad director meetings in Washington",
+        "watch": "Tue Nov 17: NVDA AMC (first under interim CEO Kress, Q4 guidance key); Wed Nov 18: FOMC minutes; retail sales and other data; Hormuz/Iran headlines and oil reaction; Anthropic IPO timing",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-15T21:33:11Z",
+        "pulse": "NQ heads into the 6 PM ET Sunday reopen with NVDA governance chaos as the main driver (Bessent demanding an outsider CEO and board answers in 10 days vs FT report Huang is plotting a comeback) after Friday's tech-led fade, partly offset by Bessent leaning on the Fed to skip a December hike and record QQQ short interest that could fuel a squeeze.",
+        "bias": "mixed — NVDA leadership/export-control pressure from Treasury, BTC slipping to $65K and hawkish Dec-hike pricing weigh on NQ/SOXX two days before NVDA AMC; offsets are Bessent's push against a Dec hike, oil ~$20 off highs, Huang-comeback hopes and crowded QQQ shorts (11%)",
+        "items": [
+          "@FirstSquawk (~3:03 PM ET): Bessent demands answers from NVDA board within 10 days and urges an outsider CEO amid alleged AI-chip sales to Chinese entities; @zerohedge (~4:30 PM ET) echoes — Bearish NQ",
+          "@WatcherGuru (~2:07 PM ET): Jensen Huang discusses returning as NVDA CEO with allies (FT, Silicon Valley 'war room'); @unusual_whales (~3:21 PM ET) says industry pressing board to reinstate him — Mixed NQ",
+          "X News (~3:07 PM ET): Bessent urges Fed to skip a Dec 8-9 hike, calling Oct's 0.4% inflation energy-distorted with oil down ~$20/bbl — Bullish NQ",
+          "X News (~3:45 PM ET): QQQ short interest at 11% of shares (~$57B), highest since 2023, hedge-fund tech long/short ratio lowest since 2016 into NVDA — Mixed NQ (squeeze fuel)",
+          "@FirstSquawk (~2:34 PM ET): BTC falls to $65,000 as crypto braces for a busy week; @FirstSquawk (~3:16 PM ET) ULA Vulcan failure dooms 40 Amazon Leo satellites (AMZN) — Bearish NQ"
+        ],
+        "trump": "No market-moving Trump posts today (his ~3:11 PM ET posts were about a judge delaying an Interior Dept golf-course project); standing signal: may hold off on further Iran strikes unless provoked. Bessent on Fox said the US naval blockade has halted Iranian oil exports and Iran's economy is collapsing.",
+        "watch": "Sun 6 PM ET CME reopen (NQ gap risk on NVDA/Bessent headlines); Mon: Empire State 8:30 AM ET, Chair Warsh at SF AI conference; Tue Nov 17: Oct retail sales 8:30 AM, HD & DIS BMO, NVDA AMC (call 5 PM ET, interim CEO Kress); Wed Nov 18: TGT & LOW BMO, FOMC minutes 2 PM ET, Anthropic IPO pricing, PANW AMC; Thu Nov 19: WMT & BABA BMO, ANT debut, INTU AMC; Hormuz/Iran headlines overnight",
         "forSite": []
       }
     ]
