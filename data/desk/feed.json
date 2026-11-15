@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T16:22:13Z",
+  "updatedAt": "2026-11-15T22:49:14Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -127,16 +127,16 @@
     {
       "id": "mw-live",
       "label": "MarketWatch",
-      "ok": true,
-      "items": 10,
-      "error": null
+      "ok": false,
+      "items": 0,
+      "error": "HTTPError: HTTP Error 400: Bad Request"
     },
     {
       "id": "mw-top",
       "label": "MarketWatch",
-      "ok": true,
-      "items": 10,
-      "error": null
+      "ok": false,
+      "items": 0,
+      "error": "HTTPError: HTTP Error 400: Bad Request"
     },
     {
       "id": "npr-biz",
@@ -203,6 +203,18 @@
     }
   ],
   "items": [
+    {
+      "id": "f4fecf2e9a94b",
+      "headline": "Who can force Israel to implement Gaza ceasefire deal?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/inside-story/2026/11/15/who-can-force-israel-to-implement-gaza-ceasefire-deal?traffic_source=rss",
+      "publishedAt": "2026-11-15T20:37:43Z",
+      "time": "Sun 3:37 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-on",
+      "auto": true
+    },
     {
       "id": "fc86ff48c603c",
       "headline": "Saudi-led coalition intercepts suspected Houthi missiles and drones",
@@ -312,18 +324,6 @@
       "auto": true
     },
     {
-      "id": "ff5596e4b1317",
-      "headline": "UN watchdog 'increasingly concerned' over uninspected Iran nuclear site",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cm75261e3pdko?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-11-13T12:28:28Z",
-      "time": "Fri 7:28 AM",
-      "section": "war",
-      "impact": "High",
-      "lean": null,
-      "auto": true
-    },
-    {
       "id": "fefaeed947073",
       "headline": "Fewer Fed Meetings Raise Stakes of Warsh’s Communications",
       "source": "New York Times",
@@ -420,42 +420,6 @@
       "auto": true
     },
     {
-      "id": "f56229039ff56",
-      "headline": "In a policy switch, the Fed says its October 2027 meeting will not see a vote on interest rates",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/12/in-policy-switch-fed-says-its-october-2027-meeting-will-not-see-a-vote-on-interest-rates.html",
-      "publishedAt": "2026-11-12T19:05:25Z",
-      "time": "Thu 2:05 PM",
-      "section": "fed",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f4da0a9d5d87a",
-      "headline": "Fed Will Not Hold Policy Vote at October 2027 Meeting",
-      "source": "New York Times",
-      "url": "https://www.nytimes.com/2026/11/12/business/economy/fed-warsh-october.html",
-      "publishedAt": "2026-11-12T18:51:05Z",
-      "time": "Thu 1:51 PM",
-      "section": "fed",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f7e96e76baa04",
-      "headline": "Social Security could pay full benefits until 2059 if taxable payroll kept pace with GDP: AARP report",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/11/social-security-benefits-taxable-payroll-gdp.html",
-      "publishedAt": "2026-11-11T19:54:27Z",
-      "time": "Wed 2:54 PM",
-      "section": "econ",
-      "impact": "High",
-      "lean": null,
-      "auto": true
-    },
-    {
       "id": "ff259d9ad36e6",
       "headline": "Social Security and the blue wave: What could happen to payroll taxes and senior tax breaks",
       "source": "CNBC",
@@ -510,18 +474,6 @@
       "url": "https://oilprice.com/Energy/Energy-General/Why-Falling-Oil-Prices-Wont-Save-America-From-Inflation.html",
       "publishedAt": "2026-11-13T12:30:00Z",
       "time": "Fri 7:30 AM",
-      "section": "econ",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f6784363b9792",
-      "headline": "Trump trade chief Greer speaks with 'Squawk Box' as tariff threats rise",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/12/jamieson-greer-trump-tariffs-election-nvidia.html",
-      "publishedAt": "2026-11-12T20:59:04Z",
-      "time": "Thu 3:59 PM",
       "section": "econ",
       "impact": "Medium",
       "lean": null,
@@ -612,14 +564,14 @@
       "auto": true
     },
     {
-      "id": "f166777c7626a",
-      "headline": "Nvidia shares rebound as Jensen Huang faces scrutiny ahead of earnings",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/11/nvidia-stock-jensen-huang-affair-china.html",
-      "publishedAt": "2026-11-11T21:04:36Z",
-      "time": "Wed 4:04 PM",
+      "id": "ffcc18d7c0d30",
+      "headline": "US Treasury chief calls for outsider to lead embattled tech firm Nvidia",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/15/us-treasury-chief-calls-for-outsider-to-lead-embattled-tech-firm-nvidia?traffic_source=rss",
+      "publishedAt": "2026-11-15T21:47:47Z",
+      "time": "Sun 4:47 PM",
       "section": "tech",
-      "impact": "High",
+      "impact": "Medium",
       "lean": null,
       "auto": true
     },
@@ -672,6 +624,18 @@
       "auto": true
     },
     {
+      "id": "f19ed46bb79c5",
+      "headline": "Trump’s Oil Grab in Venezuela Is Testing the Country’s National Identity",
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/2026/11/14/world/americas/trump-venezuela-oil.html",
+      "publishedAt": "2026-11-15T22:43:58Z",
+      "time": "Sun 5:43 PM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "fdda52f289d72",
       "headline": "Will Iraq’s oil smuggling crackdown disarm militias without a conflict?",
       "source": "Al Jazeera",
@@ -720,48 +684,12 @@
       "auto": true
     },
     {
-      "id": "f19ed46bb79c5",
-      "headline": "Trump’s Oil Grab in Venezuela Is Testing the Country’s National Identity",
-      "source": "New York Times",
-      "url": "https://www.nytimes.com/2026/11/14/world/americas/trump-venezuela-oil.html",
-      "publishedAt": "2026-11-14T10:10:01Z",
-      "time": "Sat 5:10 AM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
       "id": "f13a020bde06c",
       "headline": "Ecuador wants to monetize its biodiversity — while still drilling for oil",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/11/14/ecuador-biodiversity-green-finance-oil.html",
       "publishedAt": "2026-11-14T06:00:01Z",
       "time": "Sat 1:00 AM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f00ee41bfbb3a",
-      "headline": "Global oil supplies are suddenly flowing. Why a crude glut won’t mean cheaper diesel.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/global-oil-supplies-are-suddenly-flowing-why-a-crude-glut-wont-mean-cheaper-diesel-a5fa80c8?mod=mw_rss_topstories",
-      "publishedAt": "2026-11-13T22:04:00Z",
-      "time": "Fri 5:04 PM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f321ae15b7be4",
-      "headline": "U.S. Oil Rig Count Holds at 463 as Crude Output Hits Another Record",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Energy/Crude-Oil/US-Oil-Rigs-Hold-at-463-as-Crude-Output-Hits-Another-Record.html",
-      "publishedAt": "2026-11-13T18:11:00Z",
-      "time": "Fri 1:11 PM",
       "section": "energy",
       "impact": "Medium",
       "lean": null,
