@@ -1,18 +1,18 @@
 {
-  "date": "2026-11-14",
+  "date": "2026-11-15",
   "grok": {
-    "at": "2026-11-14T03:05:37Z",
-    "pulse": "Nasdaq lagged Friday (Comp -0.91%, QQQ -1.2% under 200dma) on NVDA leadership uncertainty and semis flush after cooler PPI failed to ease hawkish Fed speak and 10Y ~5.15%, while S&P held better on defensive rotation and oil stayed firm on Iran/Hormuz risks into the weekend.",
-    "bias": "mixed — tech/AI under pressure from Huang exit/CEO search and yields, but broader indices resilient with rotation and softer inflation print; risk-off tilt for NQ into NVDA earnings",
+    "at": "2026-11-15T12:00:29Z",
+    "pulse": "Sunday pulse into the 6 PM ET futures reopen stays mixed: Friday's modest tech fade left S&P at 7561.67 (+2.5% week) and Nasdaq 25136 after the midweek oil-driven rally, but 10Y near 5.15%, fully priced December hike odds, NVDA leadership overhang into Tuesday AMC, and lingering Hormuz/Iran mine risks keep the tape cautious.",
+    "bias": "mixed — week rebound and earlier oil de-escalation hopes support risk appetite, but hawkish Fed pricing, NVDA interim-CEO earnings uncertainty, Anthropic IPO timing and ongoing Gulf tanker headlines tilt NQ defensive into the reopen",
     "items": [
-      "@JonosTake (~4:35 PM ET): EOD mild bear, QQQ closed $679.89 -1.2% under 200dma after Fed Collins/Daly hawkish post cooler PPI, chips sold; FAA ground stop and Hormuz mines overnight — Bearish NQ",
-      "@ClosingPrints (~8:32 PM ET): Fri close SPY -0.36% to 754.37, QQQ -1.20%, semis SMH -3%, NVDA -2% AMD -8.75%; PPI cooler but BofA adds more hikes, Fed hawkish — Bearish NQ",
-      "@tradewithnori (~4:17 PM ET): Nasdaq -0.91% tech-led, equal-weight S&P +0.20% shows rotation not broad dump; PPI +0.3% m/m, yields ~5.15% — Mixed NQ",
-      "@sk_signals (~4:08 PM ET): Semis took the hit SMH -3%, QQQ -1.2%, MAGS near flat with META +2.9% — Bearish NQ",
-      "@mattowentrades (~8:29 AM ET): PPI at 8:30 main event with Iran oil/Fed risk; overnight drone/mine headlines, ES +0.3% NQ flat — Mixed"
+      "@shanaka86 (~7:59 AM ET): Anthropic IPO expected to price $70-78 on Nov 18, trade Nov 19 as ANT; pre-IPO Hyperliquid contract at $101.65 (30% above top) — Mixed NQ (AI IPO catalyst)",
+      "@OllieInvesting (~8:00 AM ET): Next week hinges on Tuesday (US retail sales + NVDA AMC) and Wednesday (FOMC minutes) as the key sessions for Nasdaq — Mixed NQ",
+      "@KashGodYe (~7:49 AM ET): Friday close S&P -0.4% to 7561.67, Nasdaq -0.91% to 25136.27; week still up but tech lagged on yields and semis — Bearish NQ tilt",
+      "@anasalhajji (~7:24 AM ET): Oil market well supplied despite Hormuz tanker attacks; IEA sees surplus as Gulf exports recover, Brent briefly under $90 — Bullish NQ (inflation relief)",
+      "@semordnilap0704 (~7:44 AM ET): Week recap S&P +2.51%, Nasdaq +2.27%, NVDA -12.75%; 10Y 5.15%, Dec hike odds >100%; watch NVDA Tue and FOMC mins Wed — Mixed NQ"
     ],
-    "trump": "Earlier: US no longer needs a deal with Iran supporting oil premium; reports of China trip next week with Xi/Putin on arms control and Musk joining; praised Huang previously.",
-    "watch": "Weekend: Iran/Hormuz tanker mines, FAA ground stop resolution, NVDA CEO search/Huang petition. Mon: Empire State 8:30 AM ET, Chair Warsh noon ET. Tue: NVDA AMC (biggest catalyst under interim CEO), HD/DIS BMO, FOMC minutes. 10Y vs 5.15%, QQQ 675-688 range.",
+    "trump": "No fresh market-moving posts overnight; prior signals include possible Iran strike pause and planned Trump-Xi-Putin talks next week at APEC, while Saudi 'disintegrating' comments added Gulf noise earlier.",
+    "watch": "Sun 6 PM ET CME futures reopen (gap risk on Hormuz/NVDA/BTC headlines); Mon: Empire State 8:30 AM ET, Chair Warsh speech; Tue: retail sales 8:30 AM, HD/DIS BMO, NVDA AMC (first under interim CEO Kress); Wed: FOMC minutes 2 PM ET, Anthropic pricing, TGT/LOW; Thu: WMT BMO, ANT Nasdaq debut. 10Y vs 5.15%, QQQ 675-688.",
     "forSite": []
   }
 }
