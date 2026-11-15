@@ -1,17 +1,17 @@
 {
   "date": "2026-11-14",
-  "at": "2026-11-14T21:22:34Z",
-  "pulse": "Weekend NQ tape stays heavy after Friday's NVDA-led semis flush (NQ -1.24%, SOX -3.4%), with a fresh crypto leg down (BTC <$65K) and the WSJ 'circular financing' NVDA report adding pressure, partly offset by Trump signaling he may pause further Iran strikes, CENTCOM saying Hormuz flows continue, and the Trump-Putin-Xi summit next week.",
-  "bias": "risk-off — NVDA leadership/legal overhang into Tue AMC, crypto liquidations and live Hormuz mine/drone headlines outweigh Trump's Iran-pause signal and US-China summit hopes until futures reopen Sun 6 PM ET",
+  "at": "2026-11-15T01:33:12Z",
+  "pulse": "Weekend NQ tape stays risk-off into Sunday's 6 PM ET reopen: crypto extends its slide (BTC <$63K) and Iran's IRGC says two more tankers caught fire after hitting mines in Hormuz, while Kushner's push for direct Russia-Europe Ukraine talks and next week's Trump-Xi-Putin summit offer only a partial offset.",
+  "bias": "risk-off — fresh BTC breakdown, Hormuz tanker fires (CL upside risk) and the NVDA leadership overhang into Tue AMC outweigh Ukraine-diplomacy and summit hopes",
   "items": [
-    "@WatcherGuru (~4:01 PM ET): BTC breaks under $65K, ETH under $1,800, $360M+ liquidated in 5 min (BTC was <$66K at ~9:43 AM) — Bearish NQ (risk appetite; COIN/MSTR)",
-    "WSJ via X News (~2:05 PM ET): report says Nvidia financed/guaranteed smaller AI firms and DC builders so they could keep buying GPUs; FT says NVDA carries only Side A D&O cover — Bearish NQ (NVDA, AI capex circularity)",
-    "@WatcherGuru (~12:42 PM ET): two NVDA holders with $2B+ in shares urge board to reinstate Jensen Huang; petition passed 100K signatures (@unusual_whales ~12:09 PM), Musk signed (~9:39 AM) — Mixed NQ (NVDA)",
-    "@FirstSquawk (~12:44-12:45 PM ET): CENTCOM says 1.7B+ bbl moved through Hormuz by Gulf partners, F-16 patrols; Iran FM slams Rubio blockade remarks as more tankers hit mines — Mixed NQ (CL)",
-    "@DeItaone (~3:11 PM ET): 10K+ US flights delayed/canceled Sat after air-traffic comms failure; FAA sees full recovery by Sun — Mixed NQ (airlines, small)"
+    "@WatcherGuru (~8:04 PM ET): Bitcoin crashes under $63,000, extending the slide from <$65K at ~4:01 PM — Bearish NQ (risk appetite; COIN/MSTR)",
+    "@FirstSquawk (~7:24 & 8:20 PM ET): Iran's IRGC Navy says two oil tankers hit naval mines in the Strait of Hormuz and are on fire — Bearish NQ (CL upside, yields/inflation)",
+    "@FirstSquawk (~7:26 & 8:14 PM ET): Kushner says the US is working to bring Russia and Europe into direct dialogue after Ukraine peace talks (CBS) — Mixed NQ (geopolitical de-risk, limited tape impact)",
+    "@unusual_whales (~8:01 PM ET): The Information reports both of Jensen Huang's children work at Nvidia, adding to governance headlines after his exit and the 100K+ reinstatement petition — Mixed NQ (NVDA)",
+    "@FirstSquawk (~7:33-7:45 PM ET): US air-traffic disruptions run into Sunday after ~9,000 Friday cancellations and 5,000 Saturday delays (NYT); Duffy to send a funding proposal to the Hill on Monday — Mixed NQ (airlines/travel)"
   ],
-  "trump": "Per X News (~3:44 PM ET), Trump told senior advisers he may delay further military action on Iran unless Iran or the Houthis provoke again; the White House said Trump, Putin and Xi plan a joint meeting in China next week (per @unusual_whales ~9:23 AM ET).",
-  "watch": "Sun 6 PM ET futures reopen (gap risk on Hormuz/Iran + NVDA board headlines); weekend crypto liquidations; Tue Nov 17: HD, DIS BMO, NVDA AMC (call 5 PM ET); Wed Nov 18: TGT, LOW BMO, PANW AMC; Thu Nov 19: WMT 7 AM, BABA BMO, INTU AMC; Trump-Putin-Xi meeting in China next week",
+  "trump": "No market-moving Trump posts since the close; the White House has confirmed a Trump-Xi-Putin trilateral summit in China next week, and Kushner (Trump envoy) is pushing direct Russia-Europe dialogue on Ukraine.",
+  "watch": "Sun 6 PM ET futures reopen (gap watch on BTC/Hormuz headlines); Hormuz/Iran tanker and drone headlines for CL; Mon: Duffy aviation funding proposal; Tue BMO HD, DIS; Tue AMC NVDA (call 5 PM ET); Wed BMO TGT, LOW, AMC PANW; Thu BMO WMT, BABA, AMC INTU; Trump-Xi-Putin summit next week",
   "forSite": [],
   "reports": [
     {
@@ -57,6 +57,21 @@
       ],
       "trump": "Per X News (~3:44 PM ET), Trump told senior advisers he may delay further military action on Iran unless Iran or the Houthis provoke again; the White House said Trump, Putin and Xi plan a joint meeting in China next week (per @unusual_whales ~9:23 AM ET).",
       "watch": "Sun 6 PM ET futures reopen (gap risk on Hormuz/Iran + NVDA board headlines); weekend crypto liquidations; Tue Nov 17: HD, DIS BMO, NVDA AMC (call 5 PM ET); Wed Nov 18: TGT, LOW BMO, PANW AMC; Thu Nov 19: WMT 7 AM, BABA BMO, INTU AMC; Trump-Putin-Xi meeting in China next week",
+      "forSite": []
+    },
+    {
+      "at": "2026-11-15T01:33:12Z",
+      "pulse": "Weekend NQ tape stays risk-off into Sunday's 6 PM ET reopen: crypto extends its slide (BTC <$63K) and Iran's IRGC says two more tankers caught fire after hitting mines in Hormuz, while Kushner's push for direct Russia-Europe Ukraine talks and next week's Trump-Xi-Putin summit offer only a partial offset.",
+      "bias": "risk-off — fresh BTC breakdown, Hormuz tanker fires (CL upside risk) and the NVDA leadership overhang into Tue AMC outweigh Ukraine-diplomacy and summit hopes",
+      "items": [
+        "@WatcherGuru (~8:04 PM ET): Bitcoin crashes under $63,000, extending the slide from <$65K at ~4:01 PM — Bearish NQ (risk appetite; COIN/MSTR)",
+        "@FirstSquawk (~7:24 & 8:20 PM ET): Iran's IRGC Navy says two oil tankers hit naval mines in the Strait of Hormuz and are on fire — Bearish NQ (CL upside, yields/inflation)",
+        "@FirstSquawk (~7:26 & 8:14 PM ET): Kushner says the US is working to bring Russia and Europe into direct dialogue after Ukraine peace talks (CBS) — Mixed NQ (geopolitical de-risk, limited tape impact)",
+        "@unusual_whales (~8:01 PM ET): The Information reports both of Jensen Huang's children work at Nvidia, adding to governance headlines after his exit and the 100K+ reinstatement petition — Mixed NQ (NVDA)",
+        "@FirstSquawk (~7:33-7:45 PM ET): US air-traffic disruptions run into Sunday after ~9,000 Friday cancellations and 5,000 Saturday delays (NYT); Duffy to send a funding proposal to the Hill on Monday — Mixed NQ (airlines/travel)"
+      ],
+      "trump": "No market-moving Trump posts since the close; the White House has confirmed a Trump-Xi-Putin trilateral summit in China next week, and Kushner (Trump envoy) is pushing direct Russia-Europe dialogue on Ukraine.",
+      "watch": "Sun 6 PM ET futures reopen (gap watch on BTC/Hormuz headlines); Hormuz/Iran tanker and drone headlines for CL; Mon: Duffy aviation funding proposal; Tue BMO HD, DIS; Tue AMC NVDA (call 5 PM ET); Wed BMO TGT, LOW, AMC PANW; Thu BMO WMT, BABA, AMC INTU; Trump-Xi-Putin summit next week",
       "forSite": []
     }
   ]
