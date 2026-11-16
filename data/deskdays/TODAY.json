@@ -1,18 +1,18 @@
 {
-  "date": "2026-11-15",
+  "date": "2026-11-16",
   "grok": {
-    "at": "2026-11-16T01:12:00Z",
-    "pulse": "Weekend X pulse into the Monday session is mixed as Hormuz tanker-mine reports and hawkish Fed speakers keep oil and yields elevated, offset by NVDA earnings under interim CEO Kress on Tuesday and Anthropic IPO mid-week as key AI catalysts.",
-    "bias": "mixed — higher oil from Iran/Hormuz risks and fully priced December hike pressure long-duration NQ/AI names, while NVDA print and Anthropic debut offer potential upside catalysts",
+    "at": "2026-11-16T03:06:37Z",
+    "pulse": "Sunday night futures ticked higher with NQ +0.6% and ES +0.3% as traders brace for Nvidia earnings under interim CEO Kress and Anthropic IPO, amid hawkish Fed pricing a December hike and Brent holding near $95 on lingering Iran/Hormuz risks.",
+    "bias": "mixed — AI leadership uncertainty and fully priced Dec hike weigh on long-duration tech, offset by futures bounce, softer oil on surplus signals and potential Iran de-escalation",
     "items": [
-      "@VuBuiNew (~6:09 PM ET): Market Pulse flags IRGC supertanker sank on Hormuz mine (unverified), Iran drones on Bahrain base, Brent ~$95.84; hawkish Fed speakers (Schmid, Collins), Dec hike fully priced, 10Y 5.15%; NVDA Tue under Kress, Anthropic IPO Wed/Thu — Mixed NQ",
-      "@trader_rag (~8:11 PM ET): Chair Warsh Monday, $NVDA earnings Tuesday as the biggest market-wide event this week — Mixed NQ",
-      "@MaverickSignal (~8:11 PM ET): The IPO everyone is watching lands this week; Anthropic prices Wed, trades Thu on Nasdaq as ANT at $70-78 on 825M shares — Mixed NQ (AI test)",
-      "@SPXVIX (~8:10 PM ET): And just like that, /NQ turned negative. Thank you $NVDA — Bearish NQ tilt",
-      "@StayInformedNow (weekend): Nvidia leadership vacuum still shaking global risk appetite after Huang exit; oil mixed around $96 on Iran tensions vs surplus fears — Mixed NQ"
+      "CNBC (~8:03 PM ET): Stock futures tick higher as traders brace for Nvidia earnings and Anthropic IPO this week; NQ futures +0.6%, ES +0.3%",
+      "@VuBuiNew (~11:09 PM ET Sun): Market Pulse flags IRGC supertanker/Hormuz mine reports, Iran drones on Bahrain, Brent ~$95.84; hawkish Fed speakers, Dec hike fully priced, 10Y 5.15%; NVDA Tue under Kress, Anthropic IPO mid-week",
+      "@IranIntl_En (~10:05 PM ET): Oil prices fell as crude shipments through Strait of Hormuz approach pre-war levels and IEA forecasts Q4 surplus; Brent ~$95.37",
+      "@holantei (~10:02 PM ET): ES & NQ 1H likely path — dead-cat bounce into Friday base then fail; still sell-the-bounce below daily 20-day",
+      "@blitzkreigm (~10:02 PM ET): CUES FOR TODAY — Brent holds ~$95 steady, Wall St mixed Fri (Nasdaq -0.9%), big week for AI trade with Nvidia results & Anthropic IPO"
     ],
-    "trump": "Trump leaning toward holding off on new Iran strikes unless provoked (Reuters); earlier stated US doesn't need a deal with Iran while blockade has halted Iranian oil exports per Bessent.",
-    "watch": "Mon: Chair Warsh speech (noon ET); Tue Nov 17: Oct retail sales 8:30 AM ET, HD/DIS BMO, NVDA AMC (call 5 PM ET, first under interim CEO Kress); Wed Nov 18: FOMC minutes 2 PM ET, Anthropic IPO pricing, TGT/LOW; Thu: WMT BMO, ANT Nasdaq debut. Watch CL/Brent near $96, 10Y ~5.15%, Hormuz headlines.",
+    "trump": "Trump downplaying further Iran strikes as not necessary while forces remain locked and loaded; earlier said US doesn't need a deal with Iran; standing signals of possible pause unless provoked amid Hormuz tensions.",
+    "watch": "Mon Nov 16: Empire State 8:30 AM ET, Chair Warsh remarks; Tue Nov 17: Oct retail sales 8:30 AM, HD/DIS BMO, NVDA AMC (call ~5 PM ET, first under interim CEO Kress); Wed Nov 18: FOMC minutes 2 PM ET, Anthropic IPO pricing; Thu: ANT Nasdaq debut. Watch Hormuz/Iran headlines, Brent ~$95, 10Y ~5.15%.",
     "forSite": []
   }
 }
