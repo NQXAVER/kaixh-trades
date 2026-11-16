@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-16",
+  "grok": {
+    "at": "2026-11-16T12:00:43Z",
+    "pulse": "Monday morning sees NQ futures down about 1% and ES softer as AI/tech sells off on Nvidia leadership uncertainty ahead of Tuesday earnings, amid fully priced December Fed hike bets and lingering Iran/oil risks near $95-96 Brent.",
+    "bias": "risk-off — Nasdaq/ES futures sliding on Nvidia/AI jitters and leadership vacuum, hot inflation supporting hawkish Dec hike (possible 50bp), oil elevated on Hormuz/Iran tensions; limited offsets from any short-covering or de-escalation hopes",
+    "items": [
+      "@MarketJournalX (~7:00 AM ET): Nasdaq 100 futures erase gains and fall over -1% on the day as chip stocks sell off sharply; NVDA trading below $160 — Bearish NQ",
+      "@Get_Leveraged (~3:22 AM ET): Nasdaq futures down 1.0% as investors brace for Fed Chair Warsh speech today and Nvidia earnings tomorrow; QQQ short interest at 11% — Bearish NQ",
+      "@EssKayOne (~7:00 AM ET): Market Signal remains cautiously bullish but tech under pressure, Kospi down, expect choppy week with bearish tilt; key events retail sales, NVDA, ANT — Mixed NQ",
+      "@VuBuiNew (Sun ~6:09 PM ET): Market Pulse flags IRGC supertanker on Hormuz mine, Iran drones on Bahrain, Brent ~$95.84; hawkish Fed, Dec hike fully priced, 10Y 5.15%; NVDA Tue under Kress — Mixed NQ",
+      "@TradeloTrading (~4:59 AM ET): Iran claims drone strikes on US assets in Bahrain as USS Roosevelt arrives; Collins backs further Fed tightening; Bessent urges outside CEO search at Nvidia — Bearish NQ"
+    ],
+    "trump": "none",
+    "watch": "Today: Fed Chair Warsh speech ~12 PM ET; Tue Nov 17: Oct retail sales 8:30 AM ET, HD/DIS BMO, NVDA AMC (first under interim CEO Kress); Wed: FOMC minutes 2 PM ET, Anthropic IPO pricing; Thu: ANT Nasdaq debut. Watch oil/Hormuz, 10Y ~5.15%, AI/semis reaction.",
+    "forSite": []
+  }
+}
