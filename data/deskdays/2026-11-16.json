@@ -1,18 +1,51 @@
 {
   "date": "2026-11-16",
   "grok": {
-    "at": "2026-11-16T12:00:43Z",
-    "pulse": "Monday morning sees NQ futures down about 1% and ES softer as AI/tech sells off on Nvidia leadership uncertainty ahead of Tuesday earnings, amid fully priced December Fed hike bets and lingering Iran/oil risks near $95-96 Brent.",
-    "bias": "risk-off — Nasdaq/ES futures sliding on Nvidia/AI jitters and leadership vacuum, hot inflation supporting hawkish Dec hike (possible 50bp), oil elevated on Hormuz/Iran tensions; limited offsets from any short-covering or de-escalation hopes",
+    "date": "2026-11-16",
+    "at": "2026-11-16T12:35:31Z",
+    "pulse": "NQ is gapping lower in premarket (about -1.6% to -1.7%, at session lows) as NVDA slides 4-5% on the Huang leadership fight ahead of Tuesday's print and Asia semis got routed overnight; softer oil on the IEA surplus revision is the only real offset.",
+    "bias": "risk-off — NVDA/AI-semis selloff (Taiwan -7% overnight, NVDA ~-$2T since the Oct 6 peak) plus hike-risk talk (Deutsche Bank) outweigh lower Brent (~$95) and Trump's 'National Champion' nod for NVDA",
     "items": [
-      "@MarketJournalX (~7:00 AM ET): Nasdaq 100 futures erase gains and fall over -1% on the day as chip stocks sell off sharply; NVDA trading below $160 — Bearish NQ",
-      "@Get_Leveraged (~3:22 AM ET): Nasdaq futures down 1.0% as investors brace for Fed Chair Warsh speech today and Nvidia earnings tomorrow; QQQ short interest at 11% — Bearish NQ",
-      "@EssKayOne (~7:00 AM ET): Market Signal remains cautiously bullish but tech under pressure, Kospi down, expect choppy week with bearish tilt; key events retail sales, NVDA, ANT — Mixed NQ",
-      "@VuBuiNew (Sun ~6:09 PM ET): Market Pulse flags IRGC supertanker on Hormuz mine, Iran drones on Bahrain, Brent ~$95.84; hawkish Fed, Dec hike fully priced, 10Y 5.15%; NVDA Tue under Kress — Mixed NQ",
-      "@TradeloTrading (~4:59 AM ET): Iran claims drone strikes on US assets in Bahrain as USS Roosevelt arrives; Collins backs further Fed tightening; Bessent urges outside CEO search at Nvidia — Bearish NQ"
+      "@DeItaone (~7:22 AM ET): ES -0.75%, NQ -1.56%, YM -0.13%; @FirstSquawk (~7:31 AM ET) says ES/NQ extending to session lows — Bearish NQ",
+      "@KobeissiLetter (~7:32 AM ET): NQ -1.7% premarket as NVDA falls >5%; NVDA has erased ~$2T of market cap since its Oct 6 peak. Lynx (via @DeItaone ~7:17 AM) sees almost no chance Huang returns — Bearish NQ",
+      "X News (~5:05 AM ET): Japan Q3 GDP -0.1% annualized (missed); Taiwan -7%, Nikkei -2.4%, so Asia chip names dumped overnight — Bearish NQ",
+      "X News (~7:33 AM ET): Brent $95.37, WTI $88.33, lower after the IEA sees a 1.7M bpd Q4 surplus as Hormuz flows recover; IRGC (~7:14 AM) claims US-escorted tankers hit mines in Hormuz — Mixed NQ",
+      "@WatcherGuru (Sun ~11:07 PM ET): Trump to designate $NVDA an AI \"National Champion\"; Bessent reportedly opposes Huang's return (@DeItaone ~7:12 AM) — Mixed NQ"
     ],
-    "trump": "none",
-    "watch": "Today: Fed Chair Warsh speech ~12 PM ET; Tue Nov 17: Oct retail sales 8:30 AM ET, HD/DIS BMO, NVDA AMC (first under interim CEO Kress); Wed: FOMC minutes 2 PM ET, Anthropic IPO pricing; Thu: ANT Nasdaq debut. Watch oil/Hormuz, 10Y ~5.15%, AI/semis reaction.",
-    "forSite": []
+    "trump": "Per @WatcherGuru (Sun ~11:07 PM ET), Trump plans to designate Nvidia an AI \"National Champion\". Treasury Sec. Bessent reportedly opposes Jensen Huang's return as CEO (@DeItaone ~7:12 AM ET). Israel Hayom reports an alleged Iranian drone plot against Trump, which has tightened his security.",
+    "watch": "Today: Fed Chair Warsh speaks (AI/productivity), NVDA premarket/open reaction, Hormuz tanker headlines. Tue Nov 17: Oct retail sales 8:30 AM ET, HD/DIS BMO, NVDA AMC (Street ~$109B rev, +91% y/y; first print under interim CEO Kress). Wed Nov 18: TGT/LOW BMO, PANW AMC, FOMC minutes 2 PM ET; Anthropic IPO this week. Thu Nov 19: WMT/BABA BMO, INTU AMC.",
+    "forSite": [],
+    "reports": [
+      {
+        "at": "2026-11-16T12:00:43Z",
+        "pulse": "Monday morning sees NQ futures down about 1% and ES softer as AI/tech sells off on Nvidia leadership uncertainty ahead of Tuesday earnings, amid fully priced December Fed hike bets and lingering Iran/oil risks near $95-96 Brent.",
+        "bias": "risk-off — Nasdaq/ES futures sliding on Nvidia/AI jitters and leadership vacuum, hot inflation supporting hawkish Dec hike (possible 50bp), oil elevated on Hormuz/Iran tensions; limited offsets from any short-covering or de-escalation hopes",
+        "items": [
+          "@MarketJournalX (~7:00 AM ET): Nasdaq 100 futures erase gains and fall over -1% on the day as chip stocks sell off sharply; NVDA trading below $160 — Bearish NQ",
+          "@Get_Leveraged (~3:22 AM ET): Nasdaq futures down 1.0% as investors brace for Fed Chair Warsh speech today and Nvidia earnings tomorrow; QQQ short interest at 11% — Bearish NQ",
+          "@EssKayOne (~7:00 AM ET): Market Signal remains cautiously bullish but tech under pressure, Kospi down, expect choppy week with bearish tilt; key events retail sales, NVDA, ANT — Mixed NQ",
+          "@VuBuiNew (Sun ~6:09 PM ET): Market Pulse flags IRGC supertanker on Hormuz mine, Iran drones on Bahrain, Brent ~$95.84; hawkish Fed, Dec hike fully priced, 10Y 5.15%; NVDA Tue under Kress — Mixed NQ",
+          "@TradeloTrading (~4:59 AM ET): Iran claims drone strikes on US assets in Bahrain as USS Roosevelt arrives; Collins backs further Fed tightening; Bessent urges outside CEO search at Nvidia — Bearish NQ"
+        ],
+        "trump": "none",
+        "watch": "Today: Fed Chair Warsh speech ~12 PM ET; Tue Nov 17: Oct retail sales 8:30 AM ET, HD/DIS BMO, NVDA AMC (first under interim CEO Kress); Wed: FOMC minutes 2 PM ET, Anthropic IPO pricing; Thu: ANT Nasdaq debut. Watch oil/Hormuz, 10Y ~5.15%, AI/semis reaction.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-16T12:35:31Z",
+        "pulse": "NQ is gapping lower in premarket (about -1.6% to -1.7%, at session lows) as NVDA slides 4-5% on the Huang leadership fight ahead of Tuesday's print and Asia semis got routed overnight; softer oil on the IEA surplus revision is the only real offset.",
+        "bias": "risk-off — NVDA/AI-semis selloff (Taiwan -7% overnight, NVDA ~-$2T since the Oct 6 peak) plus hike-risk talk (Deutsche Bank) outweigh lower Brent (~$95) and Trump's 'National Champion' nod for NVDA",
+        "items": [
+          "@DeItaone (~7:22 AM ET): ES -0.75%, NQ -1.56%, YM -0.13%; @FirstSquawk (~7:31 AM ET) says ES/NQ extending to session lows — Bearish NQ",
+          "@KobeissiLetter (~7:32 AM ET): NQ -1.7% premarket as NVDA falls >5%; NVDA has erased ~$2T of market cap since its Oct 6 peak. Lynx (via @DeItaone ~7:17 AM) sees almost no chance Huang returns — Bearish NQ",
+          "X News (~5:05 AM ET): Japan Q3 GDP -0.1% annualized (missed); Taiwan -7%, Nikkei -2.4%, so Asia chip names dumped overnight — Bearish NQ",
+          "X News (~7:33 AM ET): Brent $95.37, WTI $88.33, lower after the IEA sees a 1.7M bpd Q4 surplus as Hormuz flows recover; IRGC (~7:14 AM) claims US-escorted tankers hit mines in Hormuz — Mixed NQ",
+          "@WatcherGuru (Sun ~11:07 PM ET): Trump to designate $NVDA an AI \"National Champion\"; Bessent reportedly opposes Huang's return (@DeItaone ~7:12 AM) — Mixed NQ"
+        ],
+        "trump": "Per @WatcherGuru (Sun ~11:07 PM ET), Trump plans to designate Nvidia an AI \"National Champion\". Treasury Sec. Bessent reportedly opposes Jensen Huang's return as CEO (@DeItaone ~7:12 AM ET). Israel Hayom reports an alleged Iranian drone plot against Trump, which has tightened his security.",
+        "watch": "Today: Fed Chair Warsh speaks (AI/productivity), NVDA premarket/open reaction, Hormuz tanker headlines. Tue Nov 17: Oct retail sales 8:30 AM ET, HD/DIS BMO, NVDA AMC (Street ~$109B rev, +91% y/y; first print under interim CEO Kress). Wed Nov 18: TGT/LOW BMO, PANW AMC, FOMC minutes 2 PM ET; Anthropic IPO this week. Thu Nov 19: WMT/BABA BMO, INTU AMC.",
+        "forSite": []
+      }
+    ]
   }
 }
