@@ -1,0 +1,78 @@
+{
+ "date": "2026-11-16",
+ "entryUrl": "https://app.notion.com/41a60e8f5c458059b13ff43615e77870",
+ "summary": "The big issue for this trading day is Sunday night. At about 7:40 PM ET on Nov 15 you took a short on your XFA account in the Asia session and logged it as Session: Asia. That breaks your NY-only rule, even though it was a trailed-out win. You were honest about it everywhere: Notion, the 8:52 PM journal post ('W Asia Session') and this morning's 8:36 AM check-in ('traded last night am locked out for the day'). You then kept your word and stayed out of NY-AM on the funded account and only practiced on paper. Your pre-market read today was right: you wanted the daily UMG filled lower, and MO dumped about 170 points into it. But Notion shows no paper entry and no Results yet, so the practice day left nothing you can review.",
+ "trade": "Today: no trade · NY-AM · Paper (practice only, no entry logged). Sunday Nov 15: short · Asia (~7:40 PM ET) · XFA · trailed out W · entry ~28,183.50 · stop 28,279.25 (15min high) · trailed ~27,945 (≈2.5R on the chart vs 2.39 logged) · target NWOG fill.",
+ "rule": "Tuesday: funded accounts are traded only from 9:30 to 11:00 AM ET. After the 4 PM close and all through Sunday evening, the chart is for marking levels only. If you see an Asia setup, write it in Notion as a paper idea and take it nowhere else.",
+ "screenshots": [
+  {
+   "label": "Sun Execution 1 · 1min NQ/ES (8:46 PM, Nov 15)",
+   "feedback": "The short box runs from about 28,183.50, with the stop at the 15min high 28,279.25 (the grey box) and the trail at ~27,945, roughly 2.5R. That's a clean continuation entry after the internal-high sweep, and your notes match the chart. The problem isn't the setup. The x-axis shows it was taken between about 7:30 and 8:10 PM, in Asia, on XFA."
+  },
+  {
+   "label": "Sun Execution 2 · 15min NQ/ES (8:46 PM, Nov 15)",
+   "feedback": "15min shows the displacement IFVG and the rejection off the PD-EQ area, with the NWOG target below. Good HTF framing. It also shows how fast the trade happened right after the Sunday open, which is exactly when your rules say you aren't supposed to be clicking."
+  },
+  {
+   "label": "Sun TimeFrame 1 · 4h NQ (8:47 PM, Nov 15)",
+   "feedback": "The 4h fib from PD-H down to PD-L, with price rejecting at around 0.5 to 0.618 inside the bearish gap, backs up your 'HTF EQ hit' note. It's solid context, and you could have saved it for the NY open."
+  },
+  {
+   "label": "Sun TimeFrame 2 · 1h NQ (8:47 PM, Nov 15)",
+   "feedback": "1h shows price under the dashed trendline after a failed push back to PD-EQ, with PD-L below. Your bearish read was reasonable. It just didn't need to be traded that night."
+  },
+  {
+   "label": "Pre-market 1 · Daily NQ/ES (9:27 AM)",
+   "feedback": "Daily NQ was at 27,680, under PD-L (~27,690), with the green daily UMG at about 27,460 to 27,520 below and the fib drawn on the last leg. Your pre-market called for that fill, and the day delivered it. Good HTF read."
+  },
+  {
+   "label": "Pre-market 2 · 4h NQ/ES (9:27 AM)",
+   "feedback": "4h shows price breaking down out of the 0.5 to 0.618 retrace into PD-L, with the green gap around 27,450 to 27,490 as the magnet. That's consistent with the daily read."
+  },
+  {
+   "label": "Pre-market 3 · 1h NQ/ES (9:28 AM)",
+   "feedback": "1h has a small red premium block at about 27,720 to 27,735 inside 0.618 to 0.786, with price under PD-L. That's the area a paper short would have been planned from. Mark the entry and stop next time, even on paper."
+  },
+  {
+   "label": "Pre-market 4 · 15min NQ/ES (9:28 AM)",
+   "feedback": "15min is well marked: LO.H/LO.L, AS.H, the red block at about 27,710 to 27,735, 0.5 at ~27,700, and a dashed projection lower toward the 0 level near 27,555. The plan was there. A paper RR box from that block would have turned today into a real rep."
+  }
+ ],
+ "good": [
+  "Your pre-market bias was right: you wanted the daily UMG filled lower, and MO dumped about 170 points into it.",
+  "You were honest about the Asia trade in Notion, in your journal post and in the morning check-in, and nothing was hidden.",
+  "You kept your lockout: no funded NY-AM trade today, practice only.",
+  "The morning check-in was on time (submitted 8:36 AM ET, risk screenshot confirmed 8:37 AM), the 17-day streak is intact, and there were no eval or prop-firm purchases in Gmail (only Apex and Tradeify promos and a TradingView receipt).",
+  "On Sunday the stop sat above the 15min high, the protected high, and the trade was well reasoned."
+ ],
+ "fix": [
+  "NY-only means NY-only. A Sunday-evening Asia trade on XFA breaks the rule even when it wins. A winning rule break is the most dangerous kind, because it teaches you that breaking the rule pays.",
+  "If you practice on paper, log the entry, stop and RR box in Notion. Without that, a correct read is never tested.",
+  "Notion housekeeping: today's Results and Long or Short are empty. Set Results to 'No Trades' (or log the paper trade) so the calendar shows the day.",
+  "Sunday's notes say 'it was 50 bucks i missed'. Measure the close in R, not dollars.",
+  "Your End of Day card for today isn't filed yet (due by midnight ET). File it, and say 'Rules Followed: No' for Sunday's Asia trade if you count it in this trading day."
+ ],
+ "questions": [
+  {
+   "q": "You wrote 'im def not trading tmr NYAM sesh i already traded for the trading day.' What made the ~7:40 PM Sunday Asia setup feel like an exception to your NY-only rule?"
+  },
+  {
+   "q": "Your pre-market wanted the daily UMG filled lower, and MO dumped 170 points into it. You were on paper, so what stopped you from putting an RR box on that move?"
+  },
+  {
+   "q": "On Sunday you closed on the 1min bullish SMT and then wrote 'it was 50 bucks i missed.' Was that close part of the plan, or nerves from trading outside your session?"
+  },
+  {
+   "q": "If the Sunday open hands you another clean setup next week, what exactly will you do instead of entering?"
+  }
+ ],
+ "discord": {
+  "chartsOpened": "\"Not trading today\" (Morning Check-in submitted 8:36 AM ET, before the 9:30 deadline, streak 17 days).",
+  "plan": "\"traded last night am locked out for the day\"",
+  "risk": "On time: risk-settings screenshot posted 8:37 AM ET and confirmed by SYNDICATOR at 8:37 AM.",
+  "eod": "Not filed as of about 4:11 PM ET (the prompt went out at 11:00 AM and is due by 12:00 AM ET).",
+  "match": "Consistent and honest. The check-in says you were locked out because you traded last night, and Notion shows only a Paper practice day for NY-AM. The 'locked out' plan exists only because of the Asia trade, which breaks the NY-only rule. At 8:47 AM you told Bibz 'start of the week strong aiming for that consistency.' Bibz checked in at 9:25 AM.",
+  "journalChannel": "No post on Nov 16. Sunday Nov 15 at 8:52 PM ET (edited 8:53): 'W Asia Session - i was expecting a NWOG ... HTF BEST DOL NWOG ... I locked out im not trading NYAM session', with two chart screenshots (an NQ short RR box). It matches the Nov 15 Notion entry (Session: Asia, Short, Trailed out W)."
+ },
+ "reviewedAt": "2026-11-16T21:13:50Z"
+}
