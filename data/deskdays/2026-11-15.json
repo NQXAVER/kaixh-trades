@@ -2,18 +2,18 @@
   "date": "2026-11-15",
   "grok": {
     "date": "2026-11-15",
-    "at": "2026-11-16T01:27:24Z",
-    "pulse": "NQ's Sunday reopen popped ~+0.5% on short covering after two down sessions, then faded back to red by ~8:20 PM ET as NVDA leadership uncertainty into Tuesday's AMC print dominates, partly offset by Brent easing to ~$95.50 and Huang-comeback headlines.",
-    "bias": "mixed — green open (NQ +0.5%) already given back with Nikkei -1% and JGB yields climbing, NVDA governance overhang and hawkish Dec-hike pricing weigh; offsets are softer Brent (~$95.50), record QQQ short interest (squeeze fuel) and Xi-Trump-Putin talks",
+    "at": "2026-11-16T03:33:41Z",
+    "pulse": "NQ heads into Monday's Asia session on the defensive as Taiwan sells off >4% and China's Oct data misses ahead of NVDA's Tuesday AMC print under interim leadership, partly offset by Brent sliding >1% to ~$94.85 and Huang-comeback chatter.",
+    "bias": "risk-off — Asia semis selloff (Taiwan -4%+), weak China IP/FAI, Hormuz/Red Sea escalation headlines and NVDA governance overhang weigh on tech; offsets are softer Brent (~$94.85), cooler gold and squeeze fuel from heavy QQQ shorts",
     "items": [
-      "@FirstSquawk (~7:55 PM ET): US equity futures rebound after two losing sessions, Nasdaq 100 futs +0.5%, S&P +0.2%, Brent eases to ~$95.50 — Bullish NQ (faded: X traders flag /NQ back red by ~8:20 PM)",
-      "@unusual_whales (~8:21 PM ET): Jensen Huang discusses comeback as NVDA CEO with allies (FT) — Mixed NQ",
-      "@zerohedge (~8:03 PM ET) / @FirstSquawk (~8:02 PM ET): China confirms Xi-Trump-Putin talks in Shenzhen (Xinhua) — Mixed NQ (trade/geopolitics headline risk)",
-      "@FirstSquawk (~7:44-8:22 PM ET): Nikkei -1%, 20Y JGB 3.755% (+2 bps), 2Y JGB 1.88% — Bearish NQ",
-      "@FirstSquawk / @LiveSquawk (~7:40 PM ET): Boeing-Lockheed (ULA) rocket fails mid-flight, destroys Amazon Leo satellite payload — Bearish NQ (AMZN)"
+      "@FirstSquawk (~10:00 PM ET): Taiwanese shares drop over 4% amid broad market selloff; KOSPI opened a tad lower ahead of NVDA earnings (~9:26 PM ET) — Bearish NQ",
+      "@LiveSquawk (~9:03 PM ET): China Oct IP 4.8% y/y (est 5.3%), FAI YTD -8.1% (est -7.0%), property investment -21.6%; @zerohedge: China Oct apparent oil demand -9.9% y/y — Bearish NQ",
+      "@zerohedge (~9:30 PM ET): Hormuz 'closed', Bab el-Mandeb falls, three US carriers off Iran by Monday — Bearish NQ (geopolitics); @FirstSquawk (~9:51 PM ET): Brent slides >1% to $94.85 — Mixed NQ",
+      "@zerohedge (~9:55 PM ET): Judge refuses to toss DRAM cartel suit vs Samsung, SK Hynix, Micron — Bearish NQ (MU/memory); (~9:05 PM ET) Goldman cuts CRWV PT to $101, Blackstone data-center unit can't sell $800M IG debt — Bearish NQ (AI capex funding)",
+      "@unusual_whales (~10:01 PM ET): investigators mapping US AI compute smuggled via Southeast Asia, as Silicon Valley allies push NVDA board to reinstate Huang (FT/Reuters) — Mixed NQ"
     ],
-    "trump": "Xi set to meet Trump and Putin in Shenzhen per Xinhua (~8:02 PM ET) — watch for trade/chip-export headlines; no new market-moving Trump posts tonight; standing signal: may hold off on new Iran strikes unless provoked.",
-    "watch": "Overnight: Asia session, Xi-Trump-Putin headlines, Hormuz/Iran, Brent ~$95.50; Mon Nov 16: Empire State 8:30 AM ET, Chair Warsh remarks; Tue Nov 17: Oct retail sales 8:30 AM ET (est +0.2%), HD & DIS BMO, NVDA AMC (call 5 PM ET, interim CEO Kress, rev est ~$109B); Wed Nov 18: TGT & LOW BMO, FOMC minutes 2 PM ET, Anthropic IPO pricing ($70-78), PANW AMC; Thu Nov 19: WMT BMO, ANT Nasdaq debut, INTU AMC",
+    "trump": "No new market-moving Trump posts tonight (WhiteHouse 'Weekly Wins' ~7:08 PM ET only); standing signals: Xi-Trump-Putin Shenzhen talks confirmed by Xinhua, Trump says further Iran strikes not necessary unless provoked while forces stay 'locked and loaded'.",
+    "watch": "Overnight: Taiwan/Nikkei/KOSPI semis tone, Hormuz/Bab el-Mandeb and US carrier headlines, Brent ~$94.85, JGB yields; Mon Nov 16: Empire State 8:30 AM ET, Fed Chair Warsh remarks; Tue Nov 17: Oct retail sales 8:30 AM ET (est +0.2%), HD & DIS BMO, NVDA AMC (call 5 PM ET, rev est ~$109B, interim CEO Kress); Wed Nov 18: TGT & LOW BMO, FOMC minutes 2 PM ET, Anthropic IPO pricing, PANW AMC; Thu Nov 19: WMT BMO, Anthropic Nasdaq debut, INTU AMC.",
     "forSite": [],
     "reports": [
       {
@@ -134,6 +134,36 @@
         ],
         "trump": "Xi set to meet Trump and Putin in Shenzhen per Xinhua (~8:02 PM ET) — watch for trade/chip-export headlines; no new market-moving Trump posts tonight; standing signal: may hold off on new Iran strikes unless provoked.",
         "watch": "Overnight: Asia session, Xi-Trump-Putin headlines, Hormuz/Iran, Brent ~$95.50; Mon Nov 16: Empire State 8:30 AM ET, Chair Warsh remarks; Tue Nov 17: Oct retail sales 8:30 AM ET (est +0.2%), HD & DIS BMO, NVDA AMC (call 5 PM ET, interim CEO Kress, rev est ~$109B); Wed Nov 18: TGT & LOW BMO, FOMC minutes 2 PM ET, Anthropic IPO pricing ($70-78), PANW AMC; Thu Nov 19: WMT BMO, ANT Nasdaq debut, INTU AMC",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-16T03:06:37Z",
+        "pulse": "Sunday night futures ticked higher with NQ +0.6% and ES +0.3% as traders brace for Nvidia earnings under interim CEO Kress and Anthropic IPO, amid hawkish Fed pricing a December hike and Brent holding near $95 on lingering Iran/Hormuz risks.",
+        "bias": "mixed — AI leadership uncertainty and fully priced Dec hike weigh on long-duration tech, offset by futures bounce, softer oil on surplus signals and potential Iran de-escalation",
+        "items": [
+          "CNBC (~8:03 PM ET): Stock futures tick higher as traders brace for Nvidia earnings and Anthropic IPO this week; NQ futures +0.6%, ES +0.3%",
+          "@VuBuiNew (~11:09 PM ET Sun): Market Pulse flags IRGC supertanker/Hormuz mine reports, Iran drones on Bahrain, Brent ~$95.84; hawkish Fed speakers, Dec hike fully priced, 10Y 5.15%; NVDA Tue under Kress, Anthropic IPO mid-week",
+          "@IranIntl_En (~10:05 PM ET): Oil prices fell as crude shipments through Strait of Hormuz approach pre-war levels and IEA forecasts Q4 surplus; Brent ~$95.37",
+          "@holantei (~10:02 PM ET): ES & NQ 1H likely path — dead-cat bounce into Friday base then fail; still sell-the-bounce below daily 20-day",
+          "@blitzkreigm (~10:02 PM ET): CUES FOR TODAY — Brent holds ~$95 steady, Wall St mixed Fri (Nasdaq -0.9%), big week for AI trade with Nvidia results & Anthropic IPO"
+        ],
+        "trump": "Trump downplaying further Iran strikes as not necessary while forces remain locked and loaded; earlier said US doesn't need a deal with Iran; standing signals of possible pause unless provoked amid Hormuz tensions.",
+        "watch": "Mon Nov 16: Empire State 8:30 AM ET, Chair Warsh remarks; Tue Nov 17: Oct retail sales 8:30 AM, HD/DIS BMO, NVDA AMC (call ~5 PM ET, first under interim CEO Kress); Wed Nov 18: FOMC minutes 2 PM ET, Anthropic IPO pricing; Thu: ANT Nasdaq debut. Watch Hormuz/Iran headlines, Brent ~$95, 10Y ~5.15%.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-16T03:33:41Z",
+        "pulse": "NQ heads into Monday's Asia session on the defensive as Taiwan sells off >4% and China's Oct data misses ahead of NVDA's Tuesday AMC print under interim leadership, partly offset by Brent sliding >1% to ~$94.85 and Huang-comeback chatter.",
+        "bias": "risk-off — Asia semis selloff (Taiwan -4%+), weak China IP/FAI, Hormuz/Red Sea escalation headlines and NVDA governance overhang weigh on tech; offsets are softer Brent (~$94.85), cooler gold and squeeze fuel from heavy QQQ shorts",
+        "items": [
+          "@FirstSquawk (~10:00 PM ET): Taiwanese shares drop over 4% amid broad market selloff; KOSPI opened a tad lower ahead of NVDA earnings (~9:26 PM ET) — Bearish NQ",
+          "@LiveSquawk (~9:03 PM ET): China Oct IP 4.8% y/y (est 5.3%), FAI YTD -8.1% (est -7.0%), property investment -21.6%; @zerohedge: China Oct apparent oil demand -9.9% y/y — Bearish NQ",
+          "@zerohedge (~9:30 PM ET): Hormuz 'closed', Bab el-Mandeb falls, three US carriers off Iran by Monday — Bearish NQ (geopolitics); @FirstSquawk (~9:51 PM ET): Brent slides >1% to $94.85 — Mixed NQ",
+          "@zerohedge (~9:55 PM ET): Judge refuses to toss DRAM cartel suit vs Samsung, SK Hynix, Micron — Bearish NQ (MU/memory); (~9:05 PM ET) Goldman cuts CRWV PT to $101, Blackstone data-center unit can't sell $800M IG debt — Bearish NQ (AI capex funding)",
+          "@unusual_whales (~10:01 PM ET): investigators mapping US AI compute smuggled via Southeast Asia, as Silicon Valley allies push NVDA board to reinstate Huang (FT/Reuters) — Mixed NQ"
+        ],
+        "trump": "No new market-moving Trump posts tonight (WhiteHouse 'Weekly Wins' ~7:08 PM ET only); standing signals: Xi-Trump-Putin Shenzhen talks confirmed by Xinhua, Trump says further Iran strikes not necessary unless provoked while forces stay 'locked and loaded'.",
+        "watch": "Overnight: Taiwan/Nikkei/KOSPI semis tone, Hormuz/Bab el-Mandeb and US carrier headlines, Brent ~$94.85, JGB yields; Mon Nov 16: Empire State 8:30 AM ET, Fed Chair Warsh remarks; Tue Nov 17: Oct retail sales 8:30 AM ET (est +0.2%), HD & DIS BMO, NVDA AMC (call 5 PM ET, rev est ~$109B, interim CEO Kress); Wed Nov 18: TGT & LOW BMO, FOMC minutes 2 PM ET, Anthropic IPO pricing, PANW AMC; Thu Nov 19: WMT BMO, Anthropic Nasdaq debut, INTU AMC.",
         "forSite": []
       }
     ]
