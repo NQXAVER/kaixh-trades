@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T02:14:51Z",
+  "updatedAt": "2026-11-16T06:46:55Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -408,13 +408,13 @@
       "auto": true
     },
     {
-      "id": "f041069ad7903",
-      "headline": "In French Election, Centrists Eye a Judo Star and a Central Banker",
-      "source": "New York Times",
-      "url": "https://www.nytimes.com/2026/11/13/world/europe/france-riner-judo-lagarde-election.html",
-      "publishedAt": "2026-11-13T05:01:06Z",
-      "time": "Fri 12:01 AM",
-      "section": "fed",
+      "id": "ffb7efcf74fe6",
+      "headline": "China’s slowdown deepens in October as industrial output, retail sales, investment miss estimates",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/16/china-retail-sales-october-industrial-output-investment.html",
+      "publishedAt": "2026-11-16T03:53:59Z",
+      "time": "Sun 10:53 PM",
+      "section": "econ",
       "impact": "Medium",
       "lean": null,
       "auto": true
@@ -552,6 +552,18 @@
       "auto": true
     },
     {
+      "id": "fd842459f408c",
+      "headline": "Investors sue chip giant Intel after 29% stock plunge",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cw62p42p288do?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-11-16T03:04:01Z",
+      "time": "Sun 10:04 PM",
+      "section": "tech",
+      "impact": "Medium",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
       "id": "ffcc18d7c0d30",
       "headline": "US Treasury chief calls for outsider to lead embattled tech firm Nvidia",
       "source": "Al Jazeera",
@@ -612,6 +624,30 @@
       "auto": true
     },
     {
+      "id": "fec210b24164b",
+      "headline": "Oil Prices Fall as Fears of a Global Supply Glut Return",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Fears-of-a-Global-Supply-Glut-Return.html",
+      "publishedAt": "2026-11-16T05:25:32Z",
+      "time": "Mon 12:25 AM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fba39e670c8ca",
+      "headline": "Iraqi armed group denies involvement in oil smuggling, calls probe a ‘lie’",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/16/iraqi-armed-group-denies-involvement-in-oil-smuggling-calls-probe-a-lie?traffic_source=rss",
+      "publishedAt": "2026-11-16T04:53:42Z",
+      "time": "Sun 11:53 PM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "f19ed46bb79c5",
       "headline": "Trump’s Oil Grab in Venezuela Is Testing the Country’s National Identity",
       "source": "New York Times",
@@ -666,18 +702,6 @@
       "url": "https://www.npr.org/2026/11/14/nx-s1-6040144/chile-protests-fuel-kast-students",
       "publishedAt": "2026-11-14T16:05:12Z",
       "time": "Sat 11:05 AM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f13a020bde06c",
-      "headline": "Ecuador wants to monetize its biodiversity — while still drilling for oil",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/14/ecuador-biodiversity-green-finance-oil.html",
-      "publishedAt": "2026-11-14T06:00:01Z",
-      "time": "Sat 1:00 AM",
       "section": "energy",
       "impact": "Medium",
       "lean": null,
