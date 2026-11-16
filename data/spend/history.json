@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T16:51:06Z",
+  "updatedAt": "2026-11-16T20:57:47Z",
   "source": "Gmail order/receipt emails (ajjh5529@gmail.com) via Grok Account spending watch",
   "purchases": [
     {
@@ -849,6 +849,14 @@
     },
     {
       "date": "2026-10-16",
+      "vendor": "TradingView",
+      "product": "CME Group market data",
+      "amount": 7.42,
+      "type": "data",
+      "refunded": null
+    },
+    {
+      "date": "2026-11-16",
       "vendor": "TradingView",
       "product": "CME Group market data",
       "amount": 7.42,
