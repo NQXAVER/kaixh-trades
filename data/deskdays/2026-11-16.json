@@ -2,18 +2,18 @@
   "date": "2026-11-16",
   "grok": {
     "date": "2026-11-16",
-    "at": "2026-11-16T12:35:31Z",
-    "pulse": "NQ is gapping lower in premarket (about -1.6% to -1.7%, at session lows) as NVDA slides 4-5% on the Huang leadership fight ahead of Tuesday's print and Asia semis got routed overnight; softer oil on the IEA surplus revision is the only real offset.",
-    "bias": "risk-off — NVDA/AI-semis selloff (Taiwan -7% overnight, NVDA ~-$2T since the Oct 6 peak) plus hike-risk talk (Deutsche Bank) outweigh lower Brent (~$95) and Trump's 'National Champion' nod for NVDA",
+    "at": "2026-11-16T14:26:35Z",
+    "pulse": "NQ is gapping lower into the open (about -1.4% to -1.7% premarket) as NVDA (-3.5% to -4%) and AI infra extend losses a day before NVDA's print, with a new Commerce rule on China remote access to AI chips adding pressure; Brent -2% and BlackRock adding equity exposure are the only offsets.",
+    "bias": "risk-off — chips lead the selloff after Asia's semis rout (Taiex -6%, TSMC -5.7%), plus NVDA leadership uncertainty, a new China AI-chip access rule, falling crypto and Fed-hike pricing; softer oil is not enough to offset it",
     "items": [
-      "@DeItaone (~7:22 AM ET): ES -0.75%, NQ -1.56%, YM -0.13%; @FirstSquawk (~7:31 AM ET) says ES/NQ extending to session lows — Bearish NQ",
-      "@KobeissiLetter (~7:32 AM ET): NQ -1.7% premarket as NVDA falls >5%; NVDA has erased ~$2T of market cap since its Oct 6 peak. Lynx (via @DeItaone ~7:17 AM) sees almost no chance Huang returns — Bearish NQ",
-      "X News (~5:05 AM ET): Japan Q3 GDP -0.1% annualized (missed); Taiwan -7%, Nikkei -2.4%, so Asia chip names dumped overnight — Bearish NQ",
-      "X News (~7:33 AM ET): Brent $95.37, WTI $88.33, lower after the IEA sees a 1.7M bpd Q4 surplus as Hormuz flows recover; IRGC (~7:14 AM) claims US-escorted tankers hit mines in Hormuz — Mixed NQ",
-      "@WatcherGuru (Sun ~11:07 PM ET): Trump to designate $NVDA an AI \"National Champion\"; Bessent reportedly opposes Huang's return (@DeItaone ~7:12 AM) — Mixed NQ"
+      "@Briefingcom (~9:16 AM ET): risk appetite fading as $NVDA and AI infra stocks extend declines; weak China data, falling crypto and expectations of more Fed tightening add pressure — Bearish NQ",
+      "@unusual_whales (~9:13 AM ET): Commerce Dept issues a rule stopping China from remotely accessing (renting) advanced US AI chips, closing the cloud loophole — Bearish NQ",
+      "@FirstSquawk (~9:22 AM ET): Brent -2% to $93.92 on recovering Middle East flows — Bullish NQ",
+      "@DeItaone (~9:14 AM ET): $BLK raises equity overweight to 3% from 1% across its $300B model portfolios and rebalances AI bets after the selloff — Bullish NQ",
+      "@DeItaone (~9:01 AM ET): Kremlin confirms a Trump-Putin-Xi three-way summit on Nov 19 at APEC — Mixed NQ"
     ],
-    "trump": "Per @WatcherGuru (Sun ~11:07 PM ET), Trump plans to designate Nvidia an AI \"National Champion\". Treasury Sec. Bessent reportedly opposes Jensen Huang's return as CEO (@DeItaone ~7:12 AM ET). Israel Hayom reports an alleged Iranian drone plot against Trump, which has tightened his security.",
-    "watch": "Today: Fed Chair Warsh speaks (AI/productivity), NVDA premarket/open reaction, Hormuz tanker headlines. Tue Nov 17: Oct retail sales 8:30 AM ET, HD/DIS BMO, NVDA AMC (Street ~$109B rev, +91% y/y; first print under interim CEO Kress). Wed Nov 18: TGT/LOW BMO, PANW AMC, FOMC minutes 2 PM ET; Anthropic IPO this week. Thu Nov 19: WMT/BABA BMO, INTU AMC.",
+    "trump": "Truth Social (via @DeItaone, ~9:23 AM ET): claims US defenses neutralized nearly all Iranian drone and missile threats, saying Iran has launched 8,000-9,000 drones and ~2,000 ballistic missiles since Feb 28. He is flying to Asia with Lutnick and Bessent (~8:39 AM ET), and a Trump-Putin-Xi summit is set for Nov 19.",
+    "watch": "9:30 AM ET cash open (SPY 745 support, 756 to reclaim); Fed Chair Warsh speaks today on AI/productivity; Tue 11/17: DIS, HD BMO, NVDA AMC (call 5 PM ET); Wed 11/18: FOMC minutes, TGT/LOW BMO, PANW AMC; Thu 11/19: Anthropic IPO trading, Trump-Putin-Xi summit, WMT/BABA BMO, INTU AMC; Iran/oil headlines",
     "forSite": [],
     "reports": [
       {
@@ -44,6 +44,21 @@
         ],
         "trump": "Per @WatcherGuru (Sun ~11:07 PM ET), Trump plans to designate Nvidia an AI \"National Champion\". Treasury Sec. Bessent reportedly opposes Jensen Huang's return as CEO (@DeItaone ~7:12 AM ET). Israel Hayom reports an alleged Iranian drone plot against Trump, which has tightened his security.",
         "watch": "Today: Fed Chair Warsh speaks (AI/productivity), NVDA premarket/open reaction, Hormuz tanker headlines. Tue Nov 17: Oct retail sales 8:30 AM ET, HD/DIS BMO, NVDA AMC (Street ~$109B rev, +91% y/y; first print under interim CEO Kress). Wed Nov 18: TGT/LOW BMO, PANW AMC, FOMC minutes 2 PM ET; Anthropic IPO this week. Thu Nov 19: WMT/BABA BMO, INTU AMC.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-16T14:26:35Z",
+        "pulse": "NQ is gapping lower into the open (about -1.4% to -1.7% premarket) as NVDA (-3.5% to -4%) and AI infra extend losses a day before NVDA's print, with a new Commerce rule on China remote access to AI chips adding pressure; Brent -2% and BlackRock adding equity exposure are the only offsets.",
+        "bias": "risk-off — chips lead the selloff after Asia's semis rout (Taiex -6%, TSMC -5.7%), plus NVDA leadership uncertainty, a new China AI-chip access rule, falling crypto and Fed-hike pricing; softer oil is not enough to offset it",
+        "items": [
+          "@Briefingcom (~9:16 AM ET): risk appetite fading as $NVDA and AI infra stocks extend declines; weak China data, falling crypto and expectations of more Fed tightening add pressure — Bearish NQ",
+          "@unusual_whales (~9:13 AM ET): Commerce Dept issues a rule stopping China from remotely accessing (renting) advanced US AI chips, closing the cloud loophole — Bearish NQ",
+          "@FirstSquawk (~9:22 AM ET): Brent -2% to $93.92 on recovering Middle East flows — Bullish NQ",
+          "@DeItaone (~9:14 AM ET): $BLK raises equity overweight to 3% from 1% across its $300B model portfolios and rebalances AI bets after the selloff — Bullish NQ",
+          "@DeItaone (~9:01 AM ET): Kremlin confirms a Trump-Putin-Xi three-way summit on Nov 19 at APEC — Mixed NQ"
+        ],
+        "trump": "Truth Social (via @DeItaone, ~9:23 AM ET): claims US defenses neutralized nearly all Iranian drone and missile threats, saying Iran has launched 8,000-9,000 drones and ~2,000 ballistic missiles since Feb 28. He is flying to Asia with Lutnick and Bessent (~8:39 AM ET), and a Trump-Putin-Xi summit is set for Nov 19.",
+        "watch": "9:30 AM ET cash open (SPY 745 support, 756 to reclaim); Fed Chair Warsh speaks today on AI/productivity; Tue 11/17: DIS, HD BMO, NVDA AMC (call 5 PM ET); Wed 11/18: FOMC minutes, TGT/LOW BMO, PANW AMC; Thu 11/19: Anthropic IPO trading, Trump-Putin-Xi summit, WMT/BABA BMO, INTU AMC; Iran/oil headlines",
         "forSite": []
       }
     ]
