@@ -1,18 +1,18 @@
 {
   "date": "2026-11-16",
   "grok": {
-    "at": "2026-11-16T03:06:37Z",
-    "pulse": "Sunday night futures ticked higher with NQ +0.6% and ES +0.3% as traders brace for Nvidia earnings under interim CEO Kress and Anthropic IPO, amid hawkish Fed pricing a December hike and Brent holding near $95 on lingering Iran/Hormuz risks.",
-    "bias": "mixed — AI leadership uncertainty and fully priced Dec hike weigh on long-duration tech, offset by futures bounce, softer oil on surplus signals and potential Iran de-escalation",
+    "at": "2026-11-16T14:37:50Z",
+    "pulse": "NQ and Nasdaq open sharply lower (~1.3%) on continued AI/semis selloff led by NVDA ahead of Tuesday earnings, after Asia rout (Taiex -6%, Kospi -3.6%), with softer oil providing limited offset amid hawkish Fed pricing.",
+    "bias": "risk-off — AI/chip selloff and Asia weakness dominate into NVDA print, outweighing lower Brent and any short-covering; Dec hike fully priced with Warsh speaking today",
     "items": [
-      "CNBC (~8:03 PM ET): Stock futures tick higher as traders brace for Nvidia earnings and Anthropic IPO this week; NQ futures +0.6%, ES +0.3%",
-      "@VuBuiNew (~11:09 PM ET Sun): Market Pulse flags IRGC supertanker/Hormuz mine reports, Iran drones on Bahrain, Brent ~$95.84; hawkish Fed speakers, Dec hike fully priced, 10Y 5.15%; NVDA Tue under Kress, Anthropic IPO mid-week",
-      "@IranIntl_En (~10:05 PM ET): Oil prices fell as crude shipments through Strait of Hormuz approach pre-war levels and IEA forecasts Q4 surplus; Brent ~$95.37",
-      "@holantei (~10:02 PM ET): ES & NQ 1H likely path — dead-cat bounce into Friday base then fail; still sell-the-bounce below daily 20-day",
-      "@blitzkreigm (~10:02 PM ET): CUES FOR TODAY — Brent holds ~$95 steady, Wall St mixed Fri (Nasdaq -0.9%), big week for AI trade with Nvidia results & Anthropic IPO"
+      "@MacroEarnings (~9:37 AM ET): Taiex -6.03% (2nd biggest drop), TSMC -5.74%, Kospi -3.6%, Nikkei -2.4%; NQ futures -1.36% at 9:01 AM ET, NVDA reports Tue",
+      "@MarketWatch (~9:34 AM ET): Dow, S&P 500 and Nasdaq open lower as tech drops ahead of Nvidia results",
+      "@AshCrypto (~9:36 AM ET): $700B erased from US stocks at open as AI selloff continues",
+      "@ZXCM_fx (~9:36 AM ET): After open: Dow -0.16%, Nasdaq -1.26%, S&P -0.76%",
+      "@GriffinSchulz (~9:33 AM ET): Mon open: S&P futures -0.7%, NQ-100 -1.5% as AI names slide; Kospi -3.6%, Nikkei -2.4% on Japan GDP miss"
     ],
-    "trump": "Trump downplaying further Iran strikes as not necessary while forces remain locked and loaded; earlier said US doesn't need a deal with Iran; standing signals of possible pause unless provoked amid Hormuz tensions.",
-    "watch": "Mon Nov 16: Empire State 8:30 AM ET, Chair Warsh remarks; Tue Nov 17: Oct retail sales 8:30 AM, HD/DIS BMO, NVDA AMC (call ~5 PM ET, first under interim CEO Kress); Wed Nov 18: FOMC minutes 2 PM ET, Anthropic IPO pricing; Thu: ANT Nasdaq debut. Watch Hormuz/Iran headlines, Brent ~$95, 10Y ~5.15%.",
+    "trump": "none",
+    "watch": "Cash open reaction and first 30 min for NQ/ES; Fed Chair Warsh speech today (~12 PM ET); Tue: retail sales 8:30 AM ET, NVDA AMC (first under interim CEO); Wed: FOMC minutes; Thu: Anthropic debut, Trump-Xi-Putin APEC summit. Watch Brent ~$94, Hormuz headlines, 10Y ~5.1%.",
     "forSite": []
   }
 }
