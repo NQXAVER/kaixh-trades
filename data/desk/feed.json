@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T22:49:14Z",
+  "updatedAt": "2026-11-16T02:14:51Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -127,16 +127,16 @@
     {
       "id": "mw-live",
       "label": "MarketWatch",
-      "ok": false,
-      "items": 0,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
+      "ok": true,
+      "items": 10,
+      "error": null
     },
     {
       "id": "mw-top",
       "label": "MarketWatch",
-      "ok": false,
-      "items": 0,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
+      "ok": true,
+      "items": 10,
+      "error": null
     },
     {
       "id": "npr-biz",
@@ -484,8 +484,8 @@
       "headline": "Nvidia is gearing up for one of Wall Street’s most anticipated earnings calls in years",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/nvidia-is-gearing-up-for-one-of-wall-streets-most-anticipated-earnings-calls-in-years-91855b1e?mod=mw_rss_topstories",
-      "publishedAt": "2026-11-15T15:00:00Z",
-      "time": "Sun 10:00 AM",
+      "publishedAt": "2026-11-15T21:32:00Z",
+      "time": "Sun 4:32 PM",
       "section": "tech",
       "impact": "High",
       "lean": null,
@@ -546,18 +546,6 @@
       "url": "https://www.cnbc.com/2026/11/12/anthropic-ipo-cramer-pricing-growth-ai-safety.html",
       "publishedAt": "2026-11-12T23:45:00Z",
       "time": "Thu 6:45 PM",
-      "section": "tech",
-      "impact": "High",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f6ae48befdc55",
-      "headline": "Jim Cramer: This is the bet you're making if you buy the Anthropic IPO",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/11/anthropic-ipo-profit-computing-commitments.html",
-      "publishedAt": "2026-11-11T23:30:48Z",
-      "time": "Wed 6:30 PM",
       "section": "tech",
       "impact": "High",
       "lean": null,
