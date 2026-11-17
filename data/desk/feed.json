@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T17:40:33Z",
+  "updatedAt": "2026-11-17T18:16:52Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -183,9 +183,9 @@
     {
       "id": "un-peace",
       "label": "UN News",
-      "ok": true,
-      "items": 20,
-      "error": null
+      "ok": false,
+      "items": 0,
+      "error": "ParseError: not well-formed (invalid token): line 1, column 0"
     },
     {
       "id": "wsj-biz",
@@ -203,6 +203,18 @@
     }
   ],
   "items": [
+    {
+      "id": "ff10dd83fe66d",
+      "headline": "Iraqi PM heads to Lebanon amid push to explore oil routes beyond Hormuz",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/economy/2026/11/17/iraq-pm-heads-to-lebanon-amid-push-to-explore-oil-routes-beyond-hormuz?traffic_source=rss",
+      "publishedAt": "2026-11-17T17:34:27Z",
+      "time": "Tue 12:34 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
     {
       "id": "f55198e27dbc2",
       "headline": "Brent Stuck Near $93 as Hormuz Tanker Attacks Offset Gulf Export Surge",
@@ -306,18 +318,6 @@
       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/oil-tankers-hit-sea-mines-in-the-strait-of-hormuz?traffic_source=rss",
       "publishedAt": "2026-11-16T15:37:49Z",
       "time": "Mon 10:37 AM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "f4ebd7894373a",
-      "headline": "Iran Claims Two More Oil Tankers Hit Mines in Strait of Hormuz",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Claims-Two-More-Oil-Tankers-Hit-Mines-in-Strait-of-Hormuz.html",
-      "publishedAt": "2026-11-16T10:00:00Z",
-      "time": "Mon 5:00 AM",
       "section": "war",
       "impact": "High",
       "lean": "risk-off",
@@ -504,6 +504,18 @@
       "auto": true
     },
     {
+      "id": "f4f76732e5f26",
+      "headline": "Altimeter's Brad Gerstner aims to invest $5 billion in Anthropic IPO",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/16/altimeters-brad-gerstner-investing-5-billion-in-anthropic-ipo.html",
+      "publishedAt": "2026-11-17T17:47:03Z",
+      "time": "Tue 12:47 PM",
+      "section": "tech",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "fe57c342d8cbb",
       "headline": "Markets drop ahead of Nvidia’s results; Jensen Huang says he’d be ‘honoured’ to return as CEO – as it happened",
       "source": "The Guardian",
@@ -570,18 +582,6 @@
       "url": "https://www.cnbc.com/2026/11/17/nvidias-kress-faces-earnings-test-after-stock-drags-wall-street-into-the-red.html",
       "publishedAt": "2026-11-17T11:04:17Z",
       "time": "Tue 6:04 AM",
-      "section": "tech",
-      "impact": "High",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f4f76732e5f26",
-      "headline": "Altimeter's Brad Gerstner aims to invest $5 billion in Anthropic IPO",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/16/altimeters-brad-gerstner-investing-5-billion-in-anthropic-ipo.html",
-      "publishedAt": "2026-11-16T22:01:12Z",
-      "time": "Mon 5:01 PM",
       "section": "tech",
       "impact": "High",
       "lean": null,
