@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-17",
+  "grok": {
+    "at": "2026-11-17T12:01:13Z",
+    "pulse": "Nasdaq and S&P futures remain under pressure into Tuesday's open after Monday's sharp AI-led selloff, with NVDA earnings after the close the key catalyst amid tighter US chip export rules and leadership uncertainty.",
+    "bias": "risk-off — AI/chip de-rating and priced-in December hike dominate ahead of NVDA print and FOMC minutes; softer oil on surplus fears is insufficient offset",
+    "items": [
+      "@ClosingPrints (~5:30 AM CT / ~6:30 AM ET): Asia sold off on chips ahead of NVDA, US futures Nasdaq -0.1% S&P -0.3%; tighter China AI-chip access",
+      "@myboonapp (~6:56 AM ET): Asia sold the AI trade (Kospi -2.6%, Nikkei -1.3%), US futures S&P -0.5% Nasdaq -0.6%; Brent ~$90",
+      "@TheAlphaBrief (~6:58 AM ET): US futures S&P -0.5% Nasdaq -0.6% extending Monday selloff; oil softening on oversupply, Trump Asia tour / Xi-Trump-Putin prep",
+      "@funding4trdrs (~7:00 AM ET): Pre-market alerts for ES/NQ — retail sales 8:30 AM ET critical, Fed speakers, FOMC minutes tomorrow",
+      "@FlowStateOfMind (~6:09 AM ET): Quiet night, NQ/ES futures off ~0.4%; oil up a bit on Iran headlines, retail sales then all NVDA"
+    ],
+    "trump": "Trump Asia tour underway with possible Xi-Trump-Putin summit prep; prior comments that he wouldn't mind seeing Huang back at NVDA amid board resistance.",
+    "watch": "Today: Oct retail sales 8:30 AM ET, HD/DIS BMO, NVDA AMC (first without Huang, ~$109B rev); Wed: FOMC minutes 2 PM ET, TGT/LOW; oil/Hormuz/Iran tanker headlines, 10Y ~5.13%.",
+    "forSite": []
+  }
+}
