@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T02:33:57Z",
+  "updatedAt": "2026-11-17T08:06:25Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -204,6 +204,42 @@
   ],
   "items": [
     {
+      "id": "fca81c158b5b1",
+      "headline": "Oil Prices Slide as Global Glut Fears Eclipse Hormuz Attacks",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Slide-as-Global-Glut-Fears-Eclipse-Hormuz-Attacks.html",
+      "publishedAt": "2026-11-17T06:10:00Z",
+      "time": "Tue 1:10 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "fc0e0476b951a",
+      "headline": "Iran escalates threats as third U.S. carrier arrives in Middle East, tanker struck in Hormuz",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/17/iran-war-trump-hormuz-oil-.html",
+      "publishedAt": "2026-11-17T05:51:13Z",
+      "time": "Tue 12:51 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "fec03766eca2f",
+      "headline": "Tankers hit in Strait of Hormuz as drone raises alarm at Iraq gas field",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/17/tankers-hit-in-strait-of-hormuz-as-drone-raises-alarm-at-iraq-gas-field?traffic_source=rss",
+      "publishedAt": "2026-11-17T03:12:54Z",
+      "time": "Mon 10:12 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
       "id": "f661c5ffd80a4",
       "headline": "Airstrikes on Iran Missile Sites May Shed Light on Justification for Dams",
       "source": "New York Times",
@@ -282,42 +318,6 @@
       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/myanmar-airstrike-displacement-camp-rakhine?traffic_source=rss",
       "publishedAt": "2026-11-14T16:13:43Z",
       "time": "Sat 11:13 AM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "f442e8e2f330b",
-      "headline": "IRGC says tanker caught fire after hitting mines in Strait of Hormuz",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/irgc-says-tanker-caught-fire-after-hitting-mines-in-strait-of-hormuz?traffic_source=rss",
-      "publishedAt": "2026-11-13T19:23:05Z",
-      "time": "Fri 2:23 PM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "fece05acb9ce5",
-      "headline": "Iran honours fallen soldiers in Iran-Iraq war with missile display",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/iran-honours-fallen-soldiers-in-iran-iraq-war-with-missile-display?traffic_source=rss",
-      "publishedAt": "2026-11-13T18:09:05Z",
-      "time": "Fri 1:09 PM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "fdce2d52a7494",
-      "headline": "Iraq’s Oil Production Soars to 2019 High as Hormuz Flows Surge",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Iraqs-Oil-Production-Soars-to-2019-High-as-Hormuz-Flows-Surge.html",
-      "publishedAt": "2026-11-13T17:30:00Z",
-      "time": "Fri 12:30 PM",
       "section": "war",
       "impact": "High",
       "lean": "risk-off",
@@ -405,6 +405,42 @@
       "section": "fed",
       "impact": "Medium",
       "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f1babc45795f3",
+      "headline": "UK unemployment unexpectedly eases to 4.6%, as government prepares to release Milburn report",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/nov/17/uk-unemployment-wage-growth-milburn-report",
+      "publishedAt": "2026-11-17T08:05:09Z",
+      "time": "Tue 3:05 AM",
+      "section": "econ",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f9f40cd7d3568",
+      "headline": "UK jobs market is a ‘mixed picture’ as wage growth slows and unemployment falls – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/nov/17/uk-jobs-market-wage-growth-payrolls-unemployment-milburn-china-us-chips-latest-news-updates",
+      "publishedAt": "2026-11-17T08:00:27Z",
+      "time": "Tue 3:00 AM",
+      "section": "econ",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fb4cbf32ccbfd",
+      "headline": "Shoe Prices Hit a Record High Amid Inflation and Increased Tariffs",
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/2026/11/17/business/shoe-prices-inflation-tariffs.html",
+      "publishedAt": "2026-11-17T05:00:08Z",
+      "time": "Tue 12:00 AM",
+      "section": "econ",
+      "impact": "Medium",
+      "lean": "risk-on",
       "auto": true
     },
     {
@@ -572,6 +608,18 @@
       "time": "Fri 11:23 AM",
       "section": "tech",
       "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f0f67d8426683",
+      "headline": "Here's what to expect when Disney reports earnings before the bell",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/17/disney-dis-earnings-q-2026.html",
+      "publishedAt": "2026-11-17T05:01:01Z",
+      "time": "Tue 12:01 AM",
+      "section": "tech",
+      "impact": "Medium",
       "lean": null,
       "auto": true
     },
