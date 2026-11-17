@@ -1,0 +1,70 @@
+{
+ "date": "2026-11-17",
+ "entryUrl": "https://app.notion.com/41b60e8f5c4580ea843ac7bb540a8c7e",
+ "summary": "A strong execution day on XFA in NY-AM. Your first short (~9:41 AM) went to breakeven at the MO low. You re-entered at about 10:00 off the 15min FVG/EQ rejection and caught roughly 200 points into London low for the payout balance. Your pre-market only said 'if we go lower I want to see bearish', your chart notes say 'Wanted to long', and you still flipped to shorts once the 5min rejected. That's the two-sided reading you named in your EOD card. The process miss is Discord: SYNDICATOR gave you a strike (1 of 3) at 9:30 AM, and your morning card came in at 9:31, filed late. The card also says charts opened at 9:28, two minutes before the open. Taking profit at the London-low DOL was the plan. Cutting before PWL so you'd hit $3k for the payout was a P&L reason, and you should see it as one.",
+ "trade": "2 shorts · NY-AM · XFA · BE then Win (AB: trade of the day). T1 ~9:41 AM: entry 27,266.50 · stop 27,351.00 (high that rejected the 5min gap) · target 27,088.00 (London low), ≈2.1R planned, moved to BE at the MO low (~27,200) and closed BE. T2 re-entry ~10:00 AM: entry 27,261.00 · stop 27,337.25 · target 27,052.75 (just under London low) · 2.73R logged = box, ~208 pts.",
+ "rule": "Tomorrow: file the SYNDICATOR morning check-in, with the risk screenshot, by 9:15 AM ET, and open charts by 9:00. If the check-in isn't confirmed by 9:30, you take no trade before 10:00.",
+ "screenshots": [
+  {
+   "label": "Execution 1 · 1min NQ/ES (9:55 AM)",
+   "feedback": "The short box runs from 27,266.50, with the stop at 27,351.00 above the high that rejected the 5min gap, about 85 points of risk. The target is 27,088.00, sitting just above the London low/0 line, which works out to about 2.1R planned. The stop really is above the protected high after the displacement, so that's clean. The BE line sits at ~27,200 at the MO/NYAM low, which matches your note. ES on the left is holding its NYAM.L while NQ pushes down, the bullish SMT that made you stick with it. Moving to BE at a known reaction level was a reasonable call, not fear."
+  },
+  {
+   "label": "Execution 2 · 1min NQ/ES (10:24 AM)",
+   "feedback": "The re-entry short is at 27,261.00, with the stop at 27,337.25 above the red 15min FVG/0.5 zone (76 points) and the target at 27,052.75 (208 points). That's exactly your 2.73R. The 10:00 marker on ES and the 'smt' line on NQ's lower high back up your 'bearish SMT + flip displacement' notes. Your entry and stop line up closely with what you wrote. The chart is from 10:24, before the target filled, so the final fill comes from your notes ('my trade was 200 pts')."
+  },
+  {
+   "label": "Pre-market 1 · 4h NQ/ES (9:30 AM)",
+   "feedback": "The 4h fib from PD-H shows price back below 0.5, sitting on PD-L. That's a bearish HTF picture, and it supports 'HTF bearish' better than your written plan of 'want to see us go higher'."
+  },
+  {
+   "label": "Pre-market 2 · 1h NQ/ES (9:30 AM)",
+   "feedback": "1h is under the descending trendline with lower highs from PD-H and a range sitting on PD-L. The 0 line below marks the obvious draw, which was the right framing for shorts."
+  },
+  {
+   "label": "Pre-market 3 · 15min NQ/ES (9:30 AM)",
+   "feedback": "15min has LO.L marked clearly as the draw, with D OPEN and NYAM.H above. You had today's actual target marked before the open, so the London-low DOL was planned, not chased."
+  },
+  {
+   "label": "Pre-market 4 · 5min NQ/ES (9:30 AM)",
+   "feedback": "5min shows the Asia high, London high and London low, and price coming into D OPEN from above. It's good level mapping, but it shows no written 'if X then short from Y' scenario, and that's what's missing from your pre-market text."
+  }
+ ],
+ "good": [
+  "Your stops on both trades sat above a real protected high (5min-gap rejection high and above the 15min FVG/0.5), not at an arbitrary number.",
+  "After the first trade went BE you didn't revenge-click. You waited for a fresh 10:00 setup with its own confluence (15min FVG, EQ rejection, 1min SMT and flip).",
+  "You flipped bias from 'wanted to long' to shorts once the 5min rejected, so you weren't married to your idea the way you were last Friday (Nov 13).",
+  "Your chart, Notion, the journal post and the EOD card all tell the same story: BE, then W, with the same levels.",
+  "AB put it in trade of the day."
+ ],
+ "fix": [
+  "Morning check-in: SYNDICATOR gave you a strike at 9:30 AM, and the card was filed late at 9:31. Your streak survived, but you're at strike 1 of 3.",
+  "Charts opened at 9:28 leaves no real pre-market. Your written plan was one line, and the 9:30 screenshots were taken right at the open.",
+  "Write the pre-market as two concrete scenarios with levels (like Nov 13), not 'want higher but if lower bearish'.",
+  "Know why you took profit: London low was the planned DOL, which is fine. But 'decided to hit my 3k bal for my 1st payout' is an account-balance reason. Decide the exit from structure before entry, not from the payout number.",
+  "EOD card says 'Rules Followed: Yes' on a day with a check-in strike. The late check-in belongs in that card."
+ ],
+ "questions": [
+  {
+   "q": "Your EOD card says 'Rules Followed: Yes', but SYNDICATOR gave you a strike at 9:30 for the missing check-in and you filed it at 9:31. Is the morning check-in one of your rules or not?"
+  },
+  {
+   "q": "You wrote you cut before PWL to 'hit my 3k bal for my 1st payout.' If the account didn't have a payout target, where would your exit have been, and why?"
+  },
+  {
+   "q": "Your plan said 'want to see us go higher' and your chart says 'Wanted to long'. What specifically did the 5min do at about 9:40 that made you short instead, and would you have written that down as a scenario before the open?"
+  },
+  {
+   "q": "On trade 1 you moved to BE at the MO low because of the bullish SMT. If the same setup happens tomorrow, what would tell you to hold through that level instead?"
+  }
+ ],
+ "discord": {
+  "chartsOpened": "Charts Opened: 9:28 (Morning Check-in card filed 9:31 AM ET, marked 'filed late'; streak 18 days). At 9:30 AM SYNDICATOR issued a strike: 'Nothing filed before 9:30 AM ET. Strikes 1 of 3'.",
+  "plan": "\"stay patient i want to see what MO does\"",
+  "risk": "Late: risk-settings screenshot posted 9:31 AM ET and confirmed by SYNDICATOR at 9:31 AM, which completed the check-in after the 9:30 deadline.",
+  "eod": "Filed 3:51 PM ET (streak 19 days): \"took 2 trades 1st got BE than the 2nd W ... 2nd came after 10am manipulated into 15min bearish gap rejecting EQ 1min flip displacement for shorts\". Rules Followed: Yes. Improvement/Wins: \"Reading both sides of the market an understanding HTF is bearish + News\". PNL screenshot confirmed.",
+  "match": "The trade story matches. Notion, the journal post and the EOD card all say BE, then a W short to London low after 10:00. The plan 'stay patient, see what MO does' fits the BE first trade at ~9:41, then waiting for 10:00. The mismatch is 'Rules Followed: Yes' on a day with a late check-in and a strike. Bibz checked in at 9:15 to 9:16 AM ('Continuation shorts to PWL'), and the only chat between you two was morning greetings ('Morning bro lets get itttt', 9:31 AM).",
+  "journalChannel": "Two posts in xavier Journal, at 10:48 AM ET (edited) and 10:50 AM ET, both '11/17/26 - BE Trade ... RE-ENTRY 10AM opened ... DOL London low', with chart screenshots taken at 9:55 and 10:24. The 10:50 post adds 'W' before RE-ENTRY. Text matches the Notion entry word for word."
+ },
+ "reviewedAt": "2026-11-17T21:11:00.562Z"
+}
