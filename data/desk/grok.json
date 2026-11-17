@@ -1,15 +1,15 @@
 {
-  "at": "2026-11-17T21:23:55Z",
-  "pulse": "US indices closed lower Tuesday with S&P 500 off ~1% and Nasdaq ~0.7% amid AI/tech pressure into Nvidia earnings after the close, as yields hold near 5.1% with a December rate hike heavily priced and oil softer on Iran de-escalation.",
-  "bias": "mixed \u2014 risk-off from Nvidia leadership uncertainty, software weakness and hawkish Fed expectations, balanced by solid retail sales and lower crude easing inflation fears",
+  "at": "2026-11-17T21:28:39Z",
+  "pulse": "US indices closed lower Tuesday for a fourth straight day with S&P ~-1% and Nasdaq ~-0.7% amid AI pressure into the close, but Nvidia crushed earnings after hours with $115.8B revenue beating estimates and strong Q4 guidance, while yields hold near 5.1% with a December rate hike priced and oil edges higher on Iran tensions.",
+  "bias": "mixed \u2014 risk-off from recent multi-day selloff, elevated VIX ~26, high yields and hawkish Fed pricing, balanced by strong NVDA beat supporting AI/tech sentiment for the next session",
   "items": [
-    "@CTKCapitalIntel (~4:23 PM ET): SPX -1.03% to 7340, NDX -0.72% to 27002 after paring losses; NVDA -0.5%, software led declines ahead of Anthropic IPO, VIX 25.5, 10y ~5.10%",
-    "@Cash_Cat_Div (~4:23 PM ET): S&P -1.02%, Nasdaq -0.74%; weak internals (72% decliners), Huang open to CEO return but board not considering, Musalem sees need for more hikes, Iran drone on Bahrain",
-    "@imoDpotato (~4:22 PM ET): Three indices down, VIX over 25, NVIDIA earnings the key catalyst, software stocks under pressure, AI boom sustainability tested this week",
-    "@xaigorgo (~4:22 PM ET): Markets lower on AI jitters into NVDA (Huang exit), US chip export curbs, rising Fed hike expectations; portfolio -1.76%",
-    "Market wraps (~close): Retail sales +0.2% matching forecasts with ex-autos beat, industrial production -0.4% miss; WTI ~$85.7, Brent ~$92.4-93 on surplus and de-escalation"
+    "@bitfunded (~4:28 PM ET): $NVDA beats estimates with $115.8B revenue vs $109.3B, data center $107.6B, adjusted EPS $2.68, Q4 guide $130B midpoint",
+    "@RomeInvests (~4:28 PM ET): Tuesday close all 11 S&P sectors red; SPX 7,341 (-1.0%), Nasdaq 24,329 (-0.7%), Dow worse, VIX 26, 10y ~5.13%; NVDA results out",
+    "@T_LauRekt (~4:27 PM ET): NQ down 4 straight sessions, VIX 26; Fed Musalem/Williams hawkish on more hikes; WTI $86.01 (+0.3%), Brent $93.14 (+0.8%) on Hormuz jitters",
+    "@RonenTzirin (~4:28 PM ET): Tom Lee says tech selloff almost over; NVDA delivered $115.8B vs guide, AH ~+2% near $158.8; 10y 5.12% remains a warning",
+    "@JoseAgu67679961 (~4:28 PM ET): Brent crude settled +0.76% at $93.14, WTI +0.34% to $86.01"
   ],
-  "trump": "In Manila for ASEAN summit on Asia tour; VP JD Vance signals no prolonged Iran war, reducing oil risk premium; no major new market-moving remarks.",
-  "watch": "Nvidia Q3 earnings after close tonight (first without Huang as CEO, ~$109B rev est, options implying large move), FOMC minutes Wednesday 2PM ET, Anthropic IPO pricing/listing this week, Iran/Hormuz oil risks, yields near 5.1%.",
+  "trump": "US intelligence detected specific Iranian plans that could potentially target senior Trump administration officials in DC with dirty bombs or chemical weapons (agencies have not established an attack is imminent); Mossad chief in Washington amid reports of Netanyahu pushing for resumed ops vs Trump resistance; VP Vance signals no prolonged Iran war.",
+  "watch": "NVDA after-hours reaction and earnings call (strong beat and guide so far), FOMC minutes Wednesday 2PM ET, Anthropic IPO pricing/listing this week, yields near 5.1%, Iran/Hormuz oil risk headlines.",
   "forSite": []
 }
