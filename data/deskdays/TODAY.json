@@ -1,18 +1,18 @@
 {
-  "date": "2026-11-16",
+  "date": "2026-11-17",
   "grok": {
-    "at": "2026-11-17T01:15:00Z",
-    "pulse": "Nasdaq and S&P closed sharply lower (~2.5% and ~1.9%) on AI/NVDA-led selloff ahead of Tuesday earnings, as Hormuz tensions were outweighed by oil supply surplus fears (WTI ~$85.72) while high Fed hike odds kept yields sticky near 5.13%.",
-    "bias": "risk-off — broad AI/chip selloff and priced-in December hike dominate despite softer oil and limited new Iran escalation",
+    "at": "2026-11-17T03:10:00Z",
+    "pulse": "NQ and ES remain under pressure in the Asia session after Monday's sharp AI-led selloff (Nasdaq -2.5%, S&P -1.9%, SOX -5.3%) with NVDA earnings after the close tonight the key catalyst amid high Fed hike odds and soft oil on surplus fears.",
+    "bias": "risk-off — NVDA/AI de-rating and priced-in December hike dominate ahead of AMC print and FOMC minutes; softer crude (~$85-92) and limited Iran escalation are insufficient offsets",
     "items": [
-      "@Kabuinu89 (~8:07 PM ET): Nasdaq -2.49%, S&P -1.92%, NVDA -4.12% to $156.14 on leadership uncertainty; WTI -3.2% to $85.72, 10Y ~5.13%",
-      "@teajayzz64 (~8:08 PM ET): NVDA trading $162.85 faces tough earnings without Huang, citing inventory/purchase commitments and AI financing debt trap risks; ~7.9% of S&P",
-      "@JorgeFranc97ko (~4:21 PM ET): Sold into the bell: Nasdaq -2.49%, S&P -1.92%, VIX +22.3% to 23.61; AI networking and servers hard hit",
-      "@VuBuiNew (~6:55 PM ET): NVDA drags AI trade again, chips -5.3%, NVDA -4.1% to $156.14; lower oil/yields didn't help, de-rating on governance/policy",
-      "@NathanCompLab (~8:07 PM ET): S&P -1.92%, Nasdaq -2.67%; China data miss, semis pressure, next focus NVDA earnings"
+      "@wirequantsspace (~10:06 PM ET): SOX plunges 5.28%, NVDA -4.12% ahead of Q3 earnings; Dec hike odds >90% after hot CPI/PPI, Anthropic IPO Wed adds liquidity concern — Bearish NQ",
+      "@holantei (~10:03 PM ET): ES & NQ 1H path — dead-cat bounce into broken base then fail; NQ 27414, bounce to 27695-27800 then fail to 27180/27000 — Bearish NQ",
+      "@Riz_Capitaledge (~10:04 PM ET): Pre-market Nov 17 — Wall St bleeds, Nasdaq -2.5%, Brent near $92, FIIs buy, NVDA earnings tonight, US 10Y 5.13% — Mixed NQ",
+      "@0xDoran_NFT (~10:05 PM ET): Oil market still falling unstoppable, President Trump actions hitting world economy — Bullish NQ (via lower energy)",
+      "@deepcoin_news (~10:04 PM ET): BTC ~$64.4k extreme fear; NVDA reports today Nov 17, FOMC minutes Nov 18 — Bearish risk"
     ],
-    "trump": "none",
-    "watch": "Tue: Oct retail sales 8:30 AM ET, HD/DIS BMO, NVDA AMC (first under interim CEO, guide/margins/succession); Wed: FOMC minutes; Thu: Anthropic IPO debut, Trump-Xi-Putin APEC; Hormuz/Iran headlines, 10Y ~5.13%",
+    "trump": "Mentions of Ro Khanna pitching $1,700 checks to offset Iran war costs; oil falling linked to Trump policies; prior Bessent comments on NVDA CEO/revenue; Trump-Xi-Putin APEC summit later this week.",
+    "watch": "Tue Nov 17: NVDA AMC earnings (first post-Huang, rev ~$108B), retail sales 8:30 AM ET, HD/DIS BMO; Wed: FOMC minutes, Anthropic IPO pricing; oil/Iran headlines, 10Y ~5.13%, Asia open reaction.",
     "forSite": []
   }
 }
