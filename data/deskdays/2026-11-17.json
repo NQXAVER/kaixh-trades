@@ -1,18 +1,51 @@
 {
   "date": "2026-11-17",
   "grok": {
-    "at": "2026-11-17T12:01:13Z",
-    "pulse": "Nasdaq and S&P futures remain under pressure into Tuesday's open after Monday's sharp AI-led selloff, with NVDA earnings after the close the key catalyst amid tighter US chip export rules and leadership uncertainty.",
-    "bias": "risk-off — AI/chip de-rating and priced-in December hike dominate ahead of NVDA print and FOMC minutes; softer oil on surplus fears is insufficient offset",
+    "date": "2026-11-17",
+    "at": "2026-11-17T12:30:07Z",
+    "pulse": "NQ futures flipped green into 7:15 ET (~27,390, +0.4%) after an overnight dip to ~27,200 extending Monday's -2.5% Nasdaq rout; the bounce is offset by BofA FMS showing record tech selling and AI-capex cut fears ahead of the NVDA print tonight.",
+    "bias": "mixed — oversold bounce in NQ and DIS/HD beats vs. AI-capex fears (BofA FMS), China data-center tech ban and Iran/Bahrain headlines; retail sales 8:30 AM and NVDA AMC decide direction",
     "items": [
-      "@ClosingPrints (~5:30 AM CT / ~6:30 AM ET): Asia sold off on chips ahead of NVDA, US futures Nasdaq -0.1% S&P -0.3%; tighter China AI-chip access",
-      "@myboonapp (~6:56 AM ET): Asia sold the AI trade (Kospi -2.6%, Nikkei -1.3%), US futures S&P -0.5% Nasdaq -0.6%; Brent ~$90",
-      "@TheAlphaBrief (~6:58 AM ET): US futures S&P -0.5% Nasdaq -0.6% extending Monday selloff; oil softening on oversupply, Trump Asia tour / Xi-Trump-Putin prep",
-      "@funding4trdrs (~7:00 AM ET): Pre-market alerts for ES/NQ — retail sales 8:30 AM ET critical, Fed speakers, FOMC minutes tomorrow",
-      "@FlowStateOfMind (~6:09 AM ET): Quiet night, NQ/ES futures off ~0.4%; oil up a bit on Iran headlines, retail sales then all NVDA"
+      "@T_LauRekt (~7:21 AM ET): NQ ~27,392 (+0.4%) at 7:10 ET after dip near 27,200 ~5 AM; QQQ +0.33% premarket per @Morpheu5Watcher (~7:13 AM) — Bullish NQ",
+      "@DeItaone (~6:40 AM ET): BofA FMS — biggest tech allocation cut since Jun 2006, 52% expect hyperscaler capex cut, AI bubble top tail risk — Bearish NQ",
+      "@LiveSquawk (~6:00 AM ET): Trump admin pressing ahead with ban on Chinese data-centre tech despite AMZN/GOOGL/META/CSCO/CRWV lobbying (RTRS) — Bearish NQ",
+      "@FirstSquawk (~6:35 AM ET): DIS Q4 adj EPS $1.77 vs $1.66 est, rev $25.95B vs $25.18B; HD (~6:03 AM) EPS $3.86 vs $3.85, comps +2.2% vs 1.71%, HD ~-1.9% pre — Mixed NQ",
+      "@DeItaone (~7:21 AM ET): IRGC warns Bahrain over cooperation in US attacks; Qatar says US-Iran mediation ongoing, meeting today (@FirstSquawk ~5:13 AM) — Mixed NQ"
     ],
-    "trump": "Trump Asia tour underway with possible Xi-Trump-Putin summit prep; prior comments that he wouldn't mind seeing Huang back at NVDA amid board resistance.",
-    "watch": "Today: Oct retail sales 8:30 AM ET, HD/DIS BMO, NVDA AMC (first without Huang, ~$109B rev); Wed: FOMC minutes 2 PM ET, TGT/LOW; oil/Hormuz/Iran tanker headlines, 10Y ~5.13%.",
-    "forSite": []
+    "trump": "Signing US-Thai trade deal: 'Thailand will eliminate all tariffs on US exports' (~7:27 AM ET); Quad leaders launched an AI initiative, new critical-minerals deals (~5:59 AM); on Iran dirty-bomb report: 'We take it very seriously; this is why they can't have a nuclear weapon' (~5:50 AM).",
+    "watch": "Today: Oct retail sales 8:30 AM ET, Fed speakers, NVDA AMC (call 5 PM ET, ~$109B rev est, options ~8% move); Wed: Anthropic IPO pricing ($70-78, ANT lists Thu), FOMC minutes 2 PM ET, TGT/LOW BMO, PANW AMC; Iran/Bahrain and Qatar mediation headlines.",
+    "forSite": [],
+    "reports": [
+      {
+        "at": "2026-11-17T12:01:13Z",
+        "pulse": "Nasdaq and S&P futures remain under pressure into Tuesday's open after Monday's sharp AI-led selloff, with NVDA earnings after the close the key catalyst amid tighter US chip export rules and leadership uncertainty.",
+        "bias": "risk-off — AI/chip de-rating and priced-in December hike dominate ahead of NVDA print and FOMC minutes; softer oil on surplus fears is insufficient offset",
+        "items": [
+          "@ClosingPrints (~5:30 AM CT / ~6:30 AM ET): Asia sold off on chips ahead of NVDA, US futures Nasdaq -0.1% S&P -0.3%; tighter China AI-chip access",
+          "@myboonapp (~6:56 AM ET): Asia sold the AI trade (Kospi -2.6%, Nikkei -1.3%), US futures S&P -0.5% Nasdaq -0.6%; Brent ~$90",
+          "@TheAlphaBrief (~6:58 AM ET): US futures S&P -0.5% Nasdaq -0.6% extending Monday selloff; oil softening on oversupply, Trump Asia tour / Xi-Trump-Putin prep",
+          "@funding4trdrs (~7:00 AM ET): Pre-market alerts for ES/NQ — retail sales 8:30 AM ET critical, Fed speakers, FOMC minutes tomorrow",
+          "@FlowStateOfMind (~6:09 AM ET): Quiet night, NQ/ES futures off ~0.4%; oil up a bit on Iran headlines, retail sales then all NVDA"
+        ],
+        "trump": "Trump Asia tour underway with possible Xi-Trump-Putin summit prep; prior comments that he wouldn't mind seeing Huang back at NVDA amid board resistance.",
+        "watch": "Today: Oct retail sales 8:30 AM ET, HD/DIS BMO, NVDA AMC (first without Huang, ~$109B rev); Wed: FOMC minutes 2 PM ET, TGT/LOW; oil/Hormuz/Iran tanker headlines, 10Y ~5.13%.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-17T12:30:07Z",
+        "pulse": "NQ futures flipped green into 7:15 ET (~27,390, +0.4%) after an overnight dip to ~27,200 extending Monday's -2.5% Nasdaq rout; the bounce is offset by BofA FMS showing record tech selling and AI-capex cut fears ahead of the NVDA print tonight.",
+        "bias": "mixed — oversold bounce in NQ and DIS/HD beats vs. AI-capex fears (BofA FMS), China data-center tech ban and Iran/Bahrain headlines; retail sales 8:30 AM and NVDA AMC decide direction",
+        "items": [
+          "@T_LauRekt (~7:21 AM ET): NQ ~27,392 (+0.4%) at 7:10 ET after dip near 27,200 ~5 AM; QQQ +0.33% premarket per @Morpheu5Watcher (~7:13 AM) — Bullish NQ",
+          "@DeItaone (~6:40 AM ET): BofA FMS — biggest tech allocation cut since Jun 2006, 52% expect hyperscaler capex cut, AI bubble top tail risk — Bearish NQ",
+          "@LiveSquawk (~6:00 AM ET): Trump admin pressing ahead with ban on Chinese data-centre tech despite AMZN/GOOGL/META/CSCO/CRWV lobbying (RTRS) — Bearish NQ",
+          "@FirstSquawk (~6:35 AM ET): DIS Q4 adj EPS $1.77 vs $1.66 est, rev $25.95B vs $25.18B; HD (~6:03 AM) EPS $3.86 vs $3.85, comps +2.2% vs 1.71%, HD ~-1.9% pre — Mixed NQ",
+          "@DeItaone (~7:21 AM ET): IRGC warns Bahrain over cooperation in US attacks; Qatar says US-Iran mediation ongoing, meeting today (@FirstSquawk ~5:13 AM) — Mixed NQ"
+        ],
+        "trump": "Signing US-Thai trade deal: 'Thailand will eliminate all tariffs on US exports' (~7:27 AM ET); Quad leaders launched an AI initiative, new critical-minerals deals (~5:59 AM); on Iran dirty-bomb report: 'We take it very seriously; this is why they can't have a nuclear weapon' (~5:50 AM).",
+        "watch": "Today: Oct retail sales 8:30 AM ET, Fed speakers, NVDA AMC (call 5 PM ET, ~$109B rev est, options ~8% move); Wed: Anthropic IPO pricing ($70-78, ANT lists Thu), FOMC minutes 2 PM ET, TGT/LOW BMO, PANW AMC; Iran/Bahrain and Qatar mediation headlines.",
+        "forSite": []
+      }
+    ]
   }
 }

@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-16",
-  "at": "2026-11-17T03:35:00Z",
+  "date": "2026-11-17",
+  "at": "2026-11-17T12:30:07Z",
   "items": [
     {
       "ticker": "TSN",
@@ -24,16 +24,19 @@
       "company": "Walt Disney (DIS)",
       "date": "2026-11-17",
       "when": "BMO",
-      "status": "upcoming",
-      "why": "FY Q4; consensus EPS ~$1.67; call 8:30 AM ET"
+      "status": "reported",
+      "why": "FY Q4 adj EPS $1.77 vs $1.66 est, rev $25.95B vs $25.18B (beat); entertainment rev $11.89B vs $11.48B; FY27 double-digit EPS growth reaffirmed, FY27 capex ~$9B. Small NQ weight.",
+      "sentiment": "Mixed"
     },
     {
       "ticker": "HD",
       "company": "Home Depot (HD)",
       "date": "2026-11-17",
       "when": "BMO",
-      "status": "upcoming",
-      "why": "Q3; consensus EPS ~$3.87 (yr-ago $3.74); call 9 AM ET; housing/consumer read"
+      "status": "reported",
+      "why": "Q3 adj EPS $3.86 vs $3.85 est, sales $43.4B vs $42.83B, comps +2.2% vs 1.71% est; FY sales growth ~4.5% (top of old range); CFO McPhail named CEO from Nov 23; fewer transactions weigh.",
+      "reaction": "-1.9% pre",
+      "sentiment": "Mixed"
     },
     {
       "ticker": "TGT",
