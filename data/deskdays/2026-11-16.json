@@ -2,18 +2,18 @@
   "date": "2026-11-16",
   "grok": {
     "date": "2026-11-16",
-    "at": "2026-11-16T21:29:11Z",
-    "pulse": "NQ closed at the lows of a -2.6% Nasdaq day as the AI/chip unwind (NVDA -4% into Tue AMC print, tighter chip export rules, MU/INTC -7%) swamped a slightly softer 10Y (~5.12%) and lower oil.",
-    "bias": "risk-off — chip/AI liquidation into NVDA earnings with no permanent CEO, $1.4T wiped from US equities; only offsets are 10Y -3bp and softer crude",
+    "at": "2026-11-17T01:30:05Z",
+    "pulse": "NQ futures heavy into the Asia open after cash Nasdaq -2.5% / S&P ~-1.9% on the NVDA-led AI de-rating (chips -5.3%), with Warsh's AI-bust scenario and Bessent's reported NVDA revenue doubts adding pressure; softer oil and the PBOC's strongest yuan fix in 3+ yrs are the only offsets.",
+    "bias": "risk-off — AI/semis unwind and Dec hike odds dominate ahead of NVDA AMC Tue; Iran dirty-bomb intel headlines add tail risk, Asia opening lower (Nikkei futs -1.2%)",
     "items": [
-      "@FirstSquawk (~4:01 PM ET): Nasdaq closes -2.58% at 24,486.99, S&P -1.97% at 7,412.91, Dow -1.46% at 51,584 — Bearish NQ",
-      "@BellwetherFCF (~4:24 PM ET): all 36 AI names tracked closed red as Commerce tightened chip export rules; NVDA -4.1% to $156.14, lowest close since Jul '25 — Bearish NQ",
-      "@MrMasonJ (~4:15 PM ET): MU -7.6%, INTC -7.1% day before NVDA reports with no permanent CEO — Bearish NQ",
-      "@baalhadid (~4:04 PM ET): QQQ $661.75 (-2.7%), SPY $739.96 (-1.9%), 10Y 5.12% (-3bp) — Bearish NQ",
-      "@DeItaone (~2:30 PM ET): Vance says he won't let Iran become a two-year US military commitment (Fox) — Mixed NQ"
+      "@FirstSquawk (~7:12 PM ET): NVDA slides again as Treasury Sec Bessent reportedly questions company's revenue (HBSS) — Bearish NQ",
+      "@DeItaone (~6:55 PM ET): US intel warns Iran may plan dirty bomb/chemical attack on senior Trump officials in DC (CNN, 7 officials) — Bearish NQ",
+      "X News (~6:38 PM ET): Fed Chair Warsh lays out AI paths incl. overhyped capex fading → stock drops/slower growth; gold near 1-yr lows on Dec hike bets, 10Y >5% — Bearish NQ",
+      "@FirstSquawk (~8:10 PM ET): Asia-Pac equities under pressure after all major US indices closed lower; Nikkei futs -1.2% (6:48 PM), 30Y JGB +1.5bp to 4.045% — Bearish NQ",
+      "@FirstSquawk (~8:18 PM ET): PBOC fixes yuan at strongest in 3+ yrs (6.7132); @zerohedge (~8:00 PM ET): AWS breaks ground on $7B Indiana data center — Mixed NQ"
     ],
-    "trump": "Trump left for Asia (ASEAN in Philippines, then APEC in Shenzhen) per @WhiteHouse ~11:10 AM ET; traders cite him saying he 'wouldn't mind' Huang back at NVDA while the board says no; no new tariff/Fed posts",
-    "watch": "Tue: Oct retail sales 8:30 AM ET, HD/DIS BMO, NVDA AMC (call 5 PM ET) — guide/margins/leadership; Wed: FOMC minutes 2 PM ET, TGT/LOW BMO, PANW AMC; Thu: WMT/BABA BMO, INTU AMC, Anthropic IPO; Hormuz/Iran headlines, 10Y ~5.12%",
+    "trump": "Trump publicly addressed the Bessent-Lutnick clash on China chip controls before his Asia trip (Bessent tougher, Lutnick cautious); Schumer (~6:33 PM ET) claims Trump holds NVDA stock and profits from China chip access; Trump said he was \"a little bit surprised\" Republicans didn't do better in the midterms.",
+    "watch": "Tue: HD/DIS BMO, NVDA AMC (call 5 PM ET; cons EPS ~$2.49, rev ~$108.7-109B; first print under interim CEO Kress); Wed: TGT/LOW BMO, PANW AMC; Thu: WMT/BABA BMO, INTU AMC; overnight: Asia/JGB yields, Iran/DC threat headlines, China chip-control headlines",
     "forSite": [],
     "reports": [
       {
@@ -104,6 +104,36 @@
         ],
         "trump": "Trump left for Asia (ASEAN in Philippines, then APEC in Shenzhen) per @WhiteHouse ~11:10 AM ET; traders cite him saying he 'wouldn't mind' Huang back at NVDA while the board says no; no new tariff/Fed posts",
         "watch": "Tue: Oct retail sales 8:30 AM ET, HD/DIS BMO, NVDA AMC (call 5 PM ET) — guide/margins/leadership; Wed: FOMC minutes 2 PM ET, TGT/LOW BMO, PANW AMC; Thu: WMT/BABA BMO, INTU AMC, Anthropic IPO; Hormuz/Iran headlines, 10Y ~5.12%",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-17T01:15:00Z",
+        "pulse": "Nasdaq and S&P closed sharply lower (~2.5% and ~1.9%) on AI/NVDA-led selloff ahead of Tuesday earnings, as Hormuz tensions were outweighed by oil supply surplus fears (WTI ~$85.72) while high Fed hike odds kept yields sticky near 5.13%.",
+        "bias": "risk-off — broad AI/chip selloff and priced-in December hike dominate despite softer oil and limited new Iran escalation",
+        "items": [
+          "@Kabuinu89 (~8:07 PM ET): Nasdaq -2.49%, S&P -1.92%, NVDA -4.12% to $156.14 on leadership uncertainty; WTI -3.2% to $85.72, 10Y ~5.13%",
+          "@teajayzz64 (~8:08 PM ET): NVDA trading $162.85 faces tough earnings without Huang, citing inventory/purchase commitments and AI financing debt trap risks; ~7.9% of S&P",
+          "@JorgeFranc97ko (~4:21 PM ET): Sold into the bell: Nasdaq -2.49%, S&P -1.92%, VIX +22.3% to 23.61; AI networking and servers hard hit",
+          "@VuBuiNew (~6:55 PM ET): NVDA drags AI trade again, chips -5.3%, NVDA -4.1% to $156.14; lower oil/yields didn't help, de-rating on governance/policy",
+          "@NathanCompLab (~8:07 PM ET): S&P -1.92%, Nasdaq -2.67%; China data miss, semis pressure, next focus NVDA earnings"
+        ],
+        "trump": "none",
+        "watch": "Tue: Oct retail sales 8:30 AM ET, HD/DIS BMO, NVDA AMC (first under interim CEO, guide/margins/succession); Wed: FOMC minutes; Thu: Anthropic IPO debut, Trump-Xi-Putin APEC; Hormuz/Iran headlines, 10Y ~5.13%",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-17T01:30:05Z",
+        "pulse": "NQ futures heavy into the Asia open after cash Nasdaq -2.5% / S&P ~-1.9% on the NVDA-led AI de-rating (chips -5.3%), with Warsh's AI-bust scenario and Bessent's reported NVDA revenue doubts adding pressure; softer oil and the PBOC's strongest yuan fix in 3+ yrs are the only offsets.",
+        "bias": "risk-off — AI/semis unwind and Dec hike odds dominate ahead of NVDA AMC Tue; Iran dirty-bomb intel headlines add tail risk, Asia opening lower (Nikkei futs -1.2%)",
+        "items": [
+          "@FirstSquawk (~7:12 PM ET): NVDA slides again as Treasury Sec Bessent reportedly questions company's revenue (HBSS) — Bearish NQ",
+          "@DeItaone (~6:55 PM ET): US intel warns Iran may plan dirty bomb/chemical attack on senior Trump officials in DC (CNN, 7 officials) — Bearish NQ",
+          "X News (~6:38 PM ET): Fed Chair Warsh lays out AI paths incl. overhyped capex fading → stock drops/slower growth; gold near 1-yr lows on Dec hike bets, 10Y >5% — Bearish NQ",
+          "@FirstSquawk (~8:10 PM ET): Asia-Pac equities under pressure after all major US indices closed lower; Nikkei futs -1.2% (6:48 PM), 30Y JGB +1.5bp to 4.045% — Bearish NQ",
+          "@FirstSquawk (~8:18 PM ET): PBOC fixes yuan at strongest in 3+ yrs (6.7132); @zerohedge (~8:00 PM ET): AWS breaks ground on $7B Indiana data center — Mixed NQ"
+        ],
+        "trump": "Trump publicly addressed the Bessent-Lutnick clash on China chip controls before his Asia trip (Bessent tougher, Lutnick cautious); Schumer (~6:33 PM ET) claims Trump holds NVDA stock and profits from China chip access; Trump said he was \"a little bit surprised\" Republicans didn't do better in the midterms.",
+        "watch": "Tue: HD/DIS BMO, NVDA AMC (call 5 PM ET; cons EPS ~$2.49, rev ~$108.7-109B; first print under interim CEO Kress); Wed: TGT/LOW BMO, PANW AMC; Thu: WMT/BABA BMO, INTU AMC; overnight: Asia/JGB yields, Iran/DC threat headlines, China chip-control headlines",
         "forSite": []
       }
     ]
