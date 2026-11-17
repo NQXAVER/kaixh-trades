@@ -1,30 +1,138 @@
 {
   "date": "2026-11-17",
   "grok": {
-    "at": "2026-11-17T21:28:39Z",
-    "pulse": "US indices closed lower Tuesday for a fourth straight day with S&P ~-1% and Nasdaq ~-0.7% amid AI pressure into the close, but Nvidia crushed earnings after hours with $115.8B revenue beating estimates and strong Q4 guidance, while yields hold near 5.1% with a December rate hike priced and oil edges higher on Iran tensions.",
-    "bias": "mixed \u2014 risk-off from recent multi-day selloff, elevated VIX ~26, high yields and hawkish Fed pricing, balanced by strong NVDA beat supporting AI/tech sentiment for the next session",
+    "date": "2026-11-17",
+    "at": "2026-11-17T21:29:20Z",
+    "pulse": "NQ fell a 4th straight day (NDX -0.72% to 27,002, Comp -0.74%) on an SEC probe into NVDA, hawkish Fed talk and Hormuz tanker hits, but NVDA's blowout beat and $130B guide has it +2-4% AH, which offsets the risk-off cash close.",
+    "bias": "mixed — NVDA beat/raise + $150B buyback lifts NQ futures AH, but the SEC probe, Hammack/Musalem hike talk, 10y ~5.10% and VIX ~26 keep risk-off pressure on",
     "items": [
-      "@bitfunded (~4:28 PM ET): $NVDA beats estimates with $115.8B revenue vs $109.3B, data center $107.6B, adjusted EPS $2.68, Q4 guide $130B midpoint",
-      "@RomeInvests (~4:28 PM ET): Tuesday close all 11 S&P sectors red; SPX 7,341 (-1.0%), Nasdaq 24,329 (-0.7%), Dow worse, VIX 26, 10y ~5.13%; NVDA results out",
-      "@T_LauRekt (~4:27 PM ET): NQ down 4 straight sessions, VIX 26; Fed Musalem/Williams hawkish on more hikes; WTI $86.01 (+0.3%), Brent $93.14 (+0.8%) on Hormuz jitters",
-      "@RonenTzirin (~4:28 PM ET): Tom Lee says tech selloff almost over; NVDA delivered $115.8B vs guide, AH ~+2% near $158.8; 10y 5.12% remains a warning",
-      "@JoseAgu67679961 (~4:28 PM ET): Brent crude settled +0.76% at $93.14, WTI +0.34% to $86.01"
+      "@DeItaone (~4:20 PM ET): NVDA Q3 adj EPS $2.68 vs $2.48 est, rev $115.8B vs $109.33B, DC $107.6B vs $101.87B, adj GM 74.9% — Bullish NQ",
+      "@zerohedge (~4:21 PM ET): NVDA sees Q4 rev $127.4-132.6B vs $125.25B est; board approved $150B buyback; NVDA +2-4% AH — Bullish NQ",
+      "@FirstSquawk (~3:59 PM ET): WSJ says SEC civil probe into NVDA disclosure after Huang's exit — Bearish NQ",
+      "@CTKCapitalIntel (~4:22 PM ET): close SPX -1.03% 7,340.53, Comp -0.74% 24,328, NDX -0.72% 27,002, Dow -1.64%; VIX ~25.9 (+13%), SOXX +0.25% — Bearish NQ",
+      "@FirstSquawk (~3:53 PM ET): Cleveland Fed's Hammack favors small, steady hikes, larger if inflation entrenches; WTI settled $86.01 (+0.34%), Brent ~$93.1 after 5 tankers hit near Hormuz — Bearish NQ"
     ],
-    "trump": "US intelligence detected specific Iranian plans that could potentially target senior Trump administration officials in DC with dirty bombs or chemical weapons (agencies have not established an attack is imminent); Mossad chief in Washington amid reports of Netanyahu pushing for resumed ops vs Trump resistance; VP Vance signals no prolonged Iran war.",
-    "watch": "NVDA after-hours reaction and earnings call (strong beat and guide so far), FOMC minutes Wednesday 2PM ET, Anthropic IPO pricing/listing this week, yields near 5.1%, Iran/Hormuz oil risk headlines.",
-    "forSite": []
+    "trump": "In Manila for ASEAN/Quad; @WhiteHouse: signed reciprocal trade deal with Thailand eliminating tariffs on US exports (~9:56 AM ET). No new NQ-moving remarks; US-Iran diplomacy has 'no breakthrough' (Al Arabiya, 2:09 PM ET).",
+    "watch": "NVDA call 5:00 PM ET (China, margins 71-72% Q4 guide, CEO search, SEC probe); Wed BMO TGT, LOW; Wed AMC PANW; FOMC minutes this week; Thu BMO WMT, BABA, AMC INTU; Hormuz/Iran tanker headlines overnight",
+    "forSite": [],
+    "reports": [
+      {
+        "at": "2026-11-17T12:01:13Z",
+        "pulse": "Nasdaq and S&P futures remain under pressure into Tuesday's open after Monday's sharp AI-led selloff, with NVDA earnings after the close the key catalyst amid tighter US chip export rules and leadership uncertainty.",
+        "bias": "risk-off — AI/chip de-rating and priced-in December hike dominate ahead of NVDA print and FOMC minutes; softer oil on surplus fears is insufficient offset",
+        "items": [
+          "@ClosingPrints (~5:30 AM CT / ~6:30 AM ET): Asia sold off on chips ahead of NVDA, US futures Nasdaq -0.1% S&P -0.3%; tighter China AI-chip access",
+          "@myboonapp (~6:56 AM ET): Asia sold the AI trade (Kospi -2.6%, Nikkei -1.3%), US futures S&P -0.5% Nasdaq -0.6%; Brent ~$90",
+          "@TheAlphaBrief (~6:58 AM ET): US futures S&P -0.5% Nasdaq -0.6% extending Monday selloff; oil softening on oversupply, Trump Asia tour / Xi-Trump-Putin prep",
+          "@funding4trdrs (~7:00 AM ET): Pre-market alerts for ES/NQ — retail sales 8:30 AM ET critical, Fed speakers, FOMC minutes tomorrow",
+          "@FlowStateOfMind (~6:09 AM ET): Quiet night, NQ/ES futures off ~0.4%; oil up a bit on Iran headlines, retail sales then all NVDA"
+        ],
+        "trump": "Trump Asia tour underway with possible Xi-Trump-Putin summit prep; prior comments that he wouldn't mind seeing Huang back at NVDA amid board resistance.",
+        "watch": "Today: Oct retail sales 8:30 AM ET, HD/DIS BMO, NVDA AMC (first without Huang, ~$109B rev); Wed: FOMC minutes 2 PM ET, TGT/LOW; oil/Hormuz/Iran tanker headlines, 10Y ~5.13%.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-17T12:30:07Z",
+        "pulse": "NQ futures flipped green into 7:15 ET (~27,390, +0.4%) after an overnight dip to ~27,200 extending Monday's -2.5% Nasdaq rout; the bounce is offset by BofA FMS showing record tech selling and AI-capex cut fears ahead of the NVDA print tonight.",
+        "bias": "mixed — oversold bounce in NQ and DIS/HD beats vs. AI-capex fears (BofA FMS), China data-center tech ban and Iran/Bahrain headlines; retail sales 8:30 AM and NVDA AMC decide direction",
+        "items": [
+          "@T_LauRekt (~7:21 AM ET): NQ ~27,392 (+0.4%) at 7:10 ET after dip near 27,200 ~5 AM; QQQ +0.33% premarket per @Morpheu5Watcher (~7:13 AM) — Bullish NQ",
+          "@DeItaone (~6:40 AM ET): BofA FMS — biggest tech allocation cut since Jun 2006, 52% expect hyperscaler capex cut, AI bubble top tail risk — Bearish NQ",
+          "@LiveSquawk (~6:00 AM ET): Trump admin pressing ahead with ban on Chinese data-centre tech despite AMZN/GOOGL/META/CSCO/CRWV lobbying (RTRS) — Bearish NQ",
+          "@FirstSquawk (~6:35 AM ET): DIS Q4 adj EPS $1.77 vs $1.66 est, rev $25.95B vs $25.18B; HD (~6:03 AM) EPS $3.86 vs $3.85, comps +2.2% vs 1.71%, HD ~-1.9% pre — Mixed NQ",
+          "@DeItaone (~7:21 AM ET): IRGC warns Bahrain over cooperation in US attacks; Qatar says US-Iran mediation ongoing, meeting today (@FirstSquawk ~5:13 AM) — Mixed NQ"
+        ],
+        "trump": "Signing US-Thai trade deal: 'Thailand will eliminate all tariffs on US exports' (~7:27 AM ET); Quad leaders launched an AI initiative, new critical-minerals deals (~5:59 AM); on Iran dirty-bomb report: 'We take it very seriously; this is why they can't have a nuclear weapon' (~5:50 AM).",
+        "watch": "Today: Oct retail sales 8:30 AM ET, Fed speakers, NVDA AMC (call 5 PM ET, ~$109B rev est, options ~8% move); Wed: Anthropic IPO pricing ($70-78, ANT lists Thu), FOMC minutes 2 PM ET, TGT/LOW BMO, PANW AMC; Iran/Bahrain and Qatar mediation headlines.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-17T14:27:01Z",
+        "pulse": "NQ futures modestly green (~+0.2%) into the open after Monday's -2.5% Nasdaq rout, held up by a retail-sales beat and Anthropic IPO pricing strength, offset by a surprise -0.4% industrial production miss, fresh Hormuz tanker/mine and Qeshm strike headlines (VIX ~23) and NVDA AMC risk.",
+        "bias": "mixed — oversold bounce and solid retail control group vs. IP miss, Iran/Hormuz escalation lifting oil risk, and AI-trade nerves into NVDA tonight (Huang exit, AMD/GOOGL share-loss report)",
+        "items": [
+          "@LiveSquawk (~8:32 AM ET): Oct retail sales +0.2% vs 0.1% est; ex-autos +0.6% vs 0.4%, ex-gas/autos +0.5% vs 0.3% — Mixed NQ (resilient consumer, but keeps yields firm)",
+          "@FirstSquawk (~9:16 AM ET): Oct industrial production -0.4% m/m vs +0.1% est; mfg +0.3% vs 0.2%, cap util 76.4% vs 76.8% — Mixed NQ",
+          "@DeItaone (~8:43 AM ET): Third oil tanker hits naval mine east of Hormuz (IRNA); IRGC reportedly strikes warships near Qeshm Island (~8:40 AM) — Bearish NQ",
+          "@DeItaone (~9:03 AM ET): $NVDA — AMD and Google chipping away at Nvidia as Huang exit shakes customers (The Information); NVDA AMC tonight — Bearish NQ",
+          "@FirstSquawk (~8:58 AM ET): Anthropic said to guide IPO price to top of range or above, books close 4 PM today; @WatcherGuru (~8:30 AM): GOOGL+AMZN to own ~28% post-IPO — Bullish NQ"
+        ],
+        "trump": "In Manila for the ASEAN Summit (@WhiteHouse ~8:21 AM ET) after the US-Thai trade deal signing and Quad meeting overnight; no new tariff or Fed remarks since 7:15 AM. Reuters/Ipsos approval 32% (@DeItaone ~9:25 AM).",
+        "watch": "Today: cash open 9:30 AM ET, Anthropic books close 4 PM, NVDA AMC (call 5 PM ET, ~$109B rev est, ~8% implied move), Hormuz/Iran headlines for CL; Wed: TGT/LOW BMO, FOMC minutes 2 PM ET, PANW AMC, VIX expiry; Thu: ANT lists, WMT BMO; Fri: OPEX.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-17T15:13:01Z",
+        "pulse": "Markets mixed with Nasdaq futures bouncing ~0.3% after Monday's AI selloff as Dow lags, yields near 5.14% with ~95% Dec hike priced, Nvidia earnings tonight the key under interim CEO amid China chip curbs and Iran tensions.",
+        "bias": "mixed — tech bounce and oversold chips vs hawkish Fed pricing, high yields, Nvidia leadership risk and Iran/Hormuz headlines",
+        "items": [
+          "@HerbsTake (~10:11 AM ET): Nasdaq futures +0.3%, Dow lower, 10y 5.14%, Dec hike ~95%, Nvidia tonight — Mixed",
+          "@Marketscreener1 (~10:11 AM ET): Nasdaq recovering some losses, chips bouncing (AVGO +0.8%, AMD +1.7%, MU +1.1%), Intel -1.4% on Nvidia stake cut",
+          "@pablosanchez562 (~10:11 AM ET): Reports of US air strikes on Qeshm Island, Iran targeting SAM launchers",
+          "@BobLoukas (~10:11 AM ET): Difficult read, cyclical bull stretched 48 months, oversold weekly cycle turning higher potential",
+          "Investopedia/ZeroHedge (~8-10 AM ET): Futures mixed (NQ +0.3-0.5%, ES flat, YM -0.6%), oil ~$85-92 little changed"
+        ],
+        "trump": "VP Vance signals no prolonged Iran war; no new direct Trump market remarks (in Manila for ASEAN).",
+        "watch": "Nvidia earnings after close tonight (interim CEO Kress, ~$109B rev), FOMC minutes Wed 2PM ET, Anthropic IPO pricing/listing, Iran/Hormuz oil risks, yields.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-17T21:23:55Z",
+        "pulse": "US indices closed lower Tuesday with S&P 500 off ~1% and Nasdaq ~0.7% amid AI/tech pressure into Nvidia earnings after the close, as yields hold near 5.1% with a December rate hike heavily priced and oil softer on Iran de-escalation.",
+        "bias": "mixed — risk-off from Nvidia leadership uncertainty, software weakness and hawkish Fed expectations, balanced by solid retail sales and lower crude easing inflation fears",
+        "items": [
+          "@CTKCapitalIntel (~4:23 PM ET): SPX -1.03% to 7340, NDX -0.72% to 27002 after paring losses; NVDA -0.5%, software led declines ahead of Anthropic IPO, VIX 25.5, 10y ~5.10%",
+          "@Cash_Cat_Div (~4:23 PM ET): S&P -1.02%, Nasdaq -0.74%; weak internals (72% decliners), Huang open to CEO return but board not considering, Musalem sees need for more hikes, Iran drone on Bahrain",
+          "@imoDpotato (~4:22 PM ET): Three indices down, VIX over 25, NVIDIA earnings the key catalyst, software stocks under pressure, AI boom sustainability tested this week",
+          "@xaigorgo (~4:22 PM ET): Markets lower on AI jitters into NVDA (Huang exit), US chip export curbs, rising Fed hike expectations; portfolio -1.76%",
+          "Market wraps (~close): Retail sales +0.2% matching forecasts with ex-autos beat, industrial production -0.4% miss; WTI ~$85.7, Brent ~$92.4-93 on surplus and de-escalation"
+        ],
+        "trump": "In Manila for ASEAN summit on Asia tour; VP JD Vance signals no prolonged Iran war, reducing oil risk premium; no major new market-moving remarks.",
+        "watch": "Nvidia Q3 earnings after close tonight (first without Huang as CEO, ~$109B rev est, options implying large move), FOMC minutes Wednesday 2PM ET, Anthropic IPO pricing/listing this week, Iran/Hormuz oil risks, yields near 5.1%.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-17T21:28:39Z",
+        "pulse": "US indices closed lower Tuesday for a fourth straight day with S&P ~-1% and Nasdaq ~-0.7% amid AI pressure into the close, but Nvidia crushed earnings after hours with $115.8B revenue beating estimates and strong Q4 guidance, while yields hold near 5.1% with a December rate hike priced and oil edges higher on Iran tensions.",
+        "bias": "mixed — risk-off from recent multi-day selloff, elevated VIX ~26, high yields and hawkish Fed pricing, balanced by strong NVDA beat supporting AI/tech sentiment for the next session",
+        "items": [
+          "@bitfunded (~4:28 PM ET): $NVDA beats estimates with $115.8B revenue vs $109.3B, data center $107.6B, adjusted EPS $2.68, Q4 guide $130B midpoint",
+          "@RomeInvests (~4:28 PM ET): Tuesday close all 11 S&P sectors red; SPX 7,341 (-1.0%), Nasdaq 24,329 (-0.7%), Dow worse, VIX 26, 10y ~5.13%; NVDA results out",
+          "@T_LauRekt (~4:27 PM ET): NQ down 4 straight sessions, VIX 26; Fed Musalem/Williams hawkish on more hikes; WTI $86.01 (+0.3%), Brent $93.14 (+0.8%) on Hormuz jitters",
+          "@RonenTzirin (~4:28 PM ET): Tom Lee says tech selloff almost over; NVDA delivered $115.8B vs guide, AH ~+2% near $158.8; 10y 5.12% remains a warning",
+          "@JoseAgu67679961 (~4:28 PM ET): Brent crude settled +0.76% at $93.14, WTI +0.34% to $86.01"
+        ],
+        "trump": "US intelligence detected specific Iranian plans that could potentially target senior Trump administration officials in DC with dirty bombs or chemical weapons (agencies have not established an attack is imminent); Mossad chief in Washington amid reports of Netanyahu pushing for resumed ops vs Trump resistance; VP Vance signals no prolonged Iran war.",
+        "watch": "NVDA after-hours reaction and earnings call (strong beat and guide so far), FOMC minutes Wednesday 2PM ET, Anthropic IPO pricing/listing this week, yields near 5.1%, Iran/Hormuz oil risk headlines.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-17T21:29:20Z",
+        "pulse": "NQ fell a 4th straight day (NDX -0.72% to 27,002, Comp -0.74%) on an SEC probe into NVDA, hawkish Fed talk and Hormuz tanker hits, but NVDA's blowout beat and $130B guide has it +2-4% AH, which offsets the risk-off cash close.",
+        "bias": "mixed — NVDA beat/raise + $150B buyback lifts NQ futures AH, but the SEC probe, Hammack/Musalem hike talk, 10y ~5.10% and VIX ~26 keep risk-off pressure on",
+        "items": [
+          "@DeItaone (~4:20 PM ET): NVDA Q3 adj EPS $2.68 vs $2.48 est, rev $115.8B vs $109.33B, DC $107.6B vs $101.87B, adj GM 74.9% — Bullish NQ",
+          "@zerohedge (~4:21 PM ET): NVDA sees Q4 rev $127.4-132.6B vs $125.25B est; board approved $150B buyback; NVDA +2-4% AH — Bullish NQ",
+          "@FirstSquawk (~3:59 PM ET): WSJ says SEC civil probe into NVDA disclosure after Huang's exit — Bearish NQ",
+          "@CTKCapitalIntel (~4:22 PM ET): close SPX -1.03% 7,340.53, Comp -0.74% 24,328, NDX -0.72% 27,002, Dow -1.64%; VIX ~25.9 (+13%), SOXX +0.25% — Bearish NQ",
+          "@FirstSquawk (~3:53 PM ET): Cleveland Fed's Hammack favors small, steady hikes, larger if inflation entrenches; WTI settled $86.01 (+0.34%), Brent ~$93.1 after 5 tankers hit near Hormuz — Bearish NQ"
+        ],
+        "trump": "In Manila for ASEAN/Quad; @WhiteHouse: signed reciprocal trade deal with Thailand eliminating tariffs on US exports (~9:56 AM ET). No new NQ-moving remarks; US-Iran diplomacy has 'no breakthrough' (Al Arabiya, 2:09 PM ET).",
+        "watch": "NVDA call 5:00 PM ET (China, margins 71-72% Q4 guide, CEO search, SEC probe); Wed BMO TGT, LOW; Wed AMC PANW; FOMC minutes this week; Thu BMO WMT, BABA, AMC INTU; Hormuz/Iran tanker headlines overnight",
+        "forSite": []
+      }
+    ]
   },
   "reports": [
     {
       "at": "2026-11-17T12:01:13Z",
       "pulse": "Nasdaq and S&P futures remain under pressure into Tuesday's open after Monday's sharp AI-led selloff, with NVDA earnings after the close the key catalyst amid tighter US chip export rules and leadership uncertainty.",
-      "bias": "risk-off \u2014 AI/chip de-rating and priced-in December hike dominate ahead of NVDA print and FOMC minutes; softer oil on surplus fears is insufficient offset",
+      "bias": "risk-off — AI/chip de-rating and priced-in December hike dominate ahead of NVDA print and FOMC minutes; softer oil on surplus fears is insufficient offset",
       "items": [
         "@ClosingPrints (~5:30 AM CT / ~6:30 AM ET): Asia sold off on chips ahead of NVDA, US futures Nasdaq -0.1% S&P -0.3%; tighter China AI-chip access",
         "@myboonapp (~6:56 AM ET): Asia sold the AI trade (Kospi -2.6%, Nikkei -1.3%), US futures S&P -0.5% Nasdaq -0.6%; Brent ~$90",
         "@TheAlphaBrief (~6:58 AM ET): US futures S&P -0.5% Nasdaq -0.6% extending Monday selloff; oil softening on oversupply, Trump Asia tour / Xi-Trump-Putin prep",
-        "@funding4trdrs (~7:00 AM ET): Pre-market alerts for ES/NQ \u2014 retail sales 8:30 AM ET critical, Fed speakers, FOMC minutes tomorrow",
+        "@funding4trdrs (~7:00 AM ET): Pre-market alerts for ES/NQ — retail sales 8:30 AM ET critical, Fed speakers, FOMC minutes tomorrow",
         "@FlowStateOfMind (~6:09 AM ET): Quiet night, NQ/ES futures off ~0.4%; oil up a bit on Iran headlines, retail sales then all NVDA"
       ],
       "trump": "Trump Asia tour underway with possible Xi-Trump-Putin summit prep; prior comments that he wouldn't mind seeing Huang back at NVDA amid board resistance.",
@@ -34,13 +142,13 @@
     {
       "at": "2026-11-17T12:30:07Z",
       "pulse": "NQ futures flipped green into 7:15 ET (~27,390, +0.4%) after an overnight dip to ~27,200 extending Monday's -2.5% Nasdaq rout; the bounce is offset by BofA FMS showing record tech selling and AI-capex cut fears ahead of the NVDA print tonight.",
-      "bias": "mixed \u2014 oversold bounce in NQ and DIS/HD beats vs. AI-capex fears (BofA FMS), China data-center tech ban and Iran/Bahrain headlines; retail sales 8:30 AM and NVDA AMC decide direction",
+      "bias": "mixed — oversold bounce in NQ and DIS/HD beats vs. AI-capex fears (BofA FMS), China data-center tech ban and Iran/Bahrain headlines; retail sales 8:30 AM and NVDA AMC decide direction",
       "items": [
-        "@T_LauRekt (~7:21 AM ET): NQ ~27,392 (+0.4%) at 7:10 ET after dip near 27,200 ~5 AM; QQQ +0.33% premarket per @Morpheu5Watcher (~7:13 AM) \u2014 Bullish NQ",
-        "@DeItaone (~6:40 AM ET): BofA FMS \u2014 biggest tech allocation cut since Jun 2006, 52% expect hyperscaler capex cut, AI bubble top tail risk \u2014 Bearish NQ",
-        "@LiveSquawk (~6:00 AM ET): Trump admin pressing ahead with ban on Chinese data-centre tech despite AMZN/GOOGL/META/CSCO/CRWV lobbying (RTRS) \u2014 Bearish NQ",
-        "@FirstSquawk (~6:35 AM ET): DIS Q4 adj EPS $1.77 vs $1.66 est, rev $25.95B vs $25.18B; HD (~6:03 AM) EPS $3.86 vs $3.85, comps +2.2% vs 1.71%, HD ~-1.9% pre \u2014 Mixed NQ",
-        "@DeItaone (~7:21 AM ET): IRGC warns Bahrain over cooperation in US attacks; Qatar says US-Iran mediation ongoing, meeting today (@FirstSquawk ~5:13 AM) \u2014 Mixed NQ"
+        "@T_LauRekt (~7:21 AM ET): NQ ~27,392 (+0.4%) at 7:10 ET after dip near 27,200 ~5 AM; QQQ +0.33% premarket per @Morpheu5Watcher (~7:13 AM) — Bullish NQ",
+        "@DeItaone (~6:40 AM ET): BofA FMS — biggest tech allocation cut since Jun 2006, 52% expect hyperscaler capex cut, AI bubble top tail risk — Bearish NQ",
+        "@LiveSquawk (~6:00 AM ET): Trump admin pressing ahead with ban on Chinese data-centre tech despite AMZN/GOOGL/META/CSCO/CRWV lobbying (RTRS) — Bearish NQ",
+        "@FirstSquawk (~6:35 AM ET): DIS Q4 adj EPS $1.77 vs $1.66 est, rev $25.95B vs $25.18B; HD (~6:03 AM) EPS $3.86 vs $3.85, comps +2.2% vs 1.71%, HD ~-1.9% pre — Mixed NQ",
+        "@DeItaone (~7:21 AM ET): IRGC warns Bahrain over cooperation in US attacks; Qatar says US-Iran mediation ongoing, meeting today (@FirstSquawk ~5:13 AM) — Mixed NQ"
       ],
       "trump": "Signing US-Thai trade deal: 'Thailand will eliminate all tariffs on US exports' (~7:27 AM ET); Quad leaders launched an AI initiative, new critical-minerals deals (~5:59 AM); on Iran dirty-bomb report: 'We take it very seriously; this is why they can't have a nuclear weapon' (~5:50 AM).",
       "watch": "Today: Oct retail sales 8:30 AM ET, Fed speakers, NVDA AMC (call 5 PM ET, ~$109B rev est, options ~8% move); Wed: Anthropic IPO pricing ($70-78, ANT lists Thu), FOMC minutes 2 PM ET, TGT/LOW BMO, PANW AMC; Iran/Bahrain and Qatar mediation headlines.",
@@ -49,13 +157,13 @@
     {
       "at": "2026-11-17T14:27:01Z",
       "pulse": "NQ futures modestly green (~+0.2%) into the open after Monday's -2.5% Nasdaq rout, held up by a retail-sales beat and Anthropic IPO pricing strength, offset by a surprise -0.4% industrial production miss, fresh Hormuz tanker/mine and Qeshm strike headlines (VIX ~23) and NVDA AMC risk.",
-      "bias": "mixed \u2014 oversold bounce and solid retail control group vs. IP miss, Iran/Hormuz escalation lifting oil risk, and AI-trade nerves into NVDA tonight (Huang exit, AMD/GOOGL share-loss report)",
+      "bias": "mixed — oversold bounce and solid retail control group vs. IP miss, Iran/Hormuz escalation lifting oil risk, and AI-trade nerves into NVDA tonight (Huang exit, AMD/GOOGL share-loss report)",
       "items": [
-        "@LiveSquawk (~8:32 AM ET): Oct retail sales +0.2% vs 0.1% est; ex-autos +0.6% vs 0.4%, ex-gas/autos +0.5% vs 0.3% \u2014 Mixed NQ (resilient consumer, but keeps yields firm)",
-        "@FirstSquawk (~9:16 AM ET): Oct industrial production -0.4% m/m vs +0.1% est; mfg +0.3% vs 0.2%, cap util 76.4% vs 76.8% \u2014 Mixed NQ",
-        "@DeItaone (~8:43 AM ET): Third oil tanker hits naval mine east of Hormuz (IRNA); IRGC reportedly strikes warships near Qeshm Island (~8:40 AM) \u2014 Bearish NQ",
-        "@DeItaone (~9:03 AM ET): $NVDA \u2014 AMD and Google chipping away at Nvidia as Huang exit shakes customers (The Information); NVDA AMC tonight \u2014 Bearish NQ",
-        "@FirstSquawk (~8:58 AM ET): Anthropic said to guide IPO price to top of range or above, books close 4 PM today; @WatcherGuru (~8:30 AM): GOOGL+AMZN to own ~28% post-IPO \u2014 Bullish NQ"
+        "@LiveSquawk (~8:32 AM ET): Oct retail sales +0.2% vs 0.1% est; ex-autos +0.6% vs 0.4%, ex-gas/autos +0.5% vs 0.3% — Mixed NQ (resilient consumer, but keeps yields firm)",
+        "@FirstSquawk (~9:16 AM ET): Oct industrial production -0.4% m/m vs +0.1% est; mfg +0.3% vs 0.2%, cap util 76.4% vs 76.8% — Mixed NQ",
+        "@DeItaone (~8:43 AM ET): Third oil tanker hits naval mine east of Hormuz (IRNA); IRGC reportedly strikes warships near Qeshm Island (~8:40 AM) — Bearish NQ",
+        "@DeItaone (~9:03 AM ET): $NVDA — AMD and Google chipping away at Nvidia as Huang exit shakes customers (The Information); NVDA AMC tonight — Bearish NQ",
+        "@FirstSquawk (~8:58 AM ET): Anthropic said to guide IPO price to top of range or above, books close 4 PM today; @WatcherGuru (~8:30 AM): GOOGL+AMZN to own ~28% post-IPO — Bullish NQ"
       ],
       "trump": "In Manila for the ASEAN Summit (@WhiteHouse ~8:21 AM ET) after the US-Thai trade deal signing and Quad meeting overnight; no new tariff or Fed remarks since 7:15 AM. Reuters/Ipsos approval 32% (@DeItaone ~9:25 AM).",
       "watch": "Today: cash open 9:30 AM ET, Anthropic books close 4 PM, NVDA AMC (call 5 PM ET, ~$109B rev est, ~8% implied move), Hormuz/Iran headlines for CL; Wed: TGT/LOW BMO, FOMC minutes 2 PM ET, PANW AMC, VIX expiry; Thu: ANT lists, WMT BMO; Fri: OPEX.",
@@ -64,9 +172,9 @@
     {
       "at": "2026-11-17T15:13:01Z",
       "pulse": "Markets mixed with Nasdaq futures bouncing ~0.3% after Monday's AI selloff as Dow lags, yields near 5.14% with ~95% Dec hike priced, Nvidia earnings tonight the key under interim CEO amid China chip curbs and Iran tensions.",
-      "bias": "mixed \u2014 tech bounce and oversold chips vs hawkish Fed pricing, high yields, Nvidia leadership risk and Iran/Hormuz headlines",
+      "bias": "mixed — tech bounce and oversold chips vs hawkish Fed pricing, high yields, Nvidia leadership risk and Iran/Hormuz headlines",
       "items": [
-        "@HerbsTake (~10:11 AM ET): Nasdaq futures +0.3%, Dow lower, 10y 5.14%, Dec hike ~95%, Nvidia tonight \u2014 Mixed",
+        "@HerbsTake (~10:11 AM ET): Nasdaq futures +0.3%, Dow lower, 10y 5.14%, Dec hike ~95%, Nvidia tonight — Mixed",
         "@Marketscreener1 (~10:11 AM ET): Nasdaq recovering some losses, chips bouncing (AVGO +0.8%, AMD +1.7%, MU +1.1%), Intel -1.4% on Nvidia stake cut",
         "@pablosanchez562 (~10:11 AM ET): Reports of US air strikes on Qeshm Island, Iran targeting SAM launchers",
         "@BobLoukas (~10:11 AM ET): Difficult read, cyclical bull stretched 48 months, oversold weekly cycle turning higher potential",

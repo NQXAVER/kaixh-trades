@@ -1,6 +1,6 @@
 {
   "date": "2026-11-17",
-  "at": "2026-11-17T14:27:01Z",
+  "at": "2026-11-17T21:29:20Z",
   "items": [
     {
       "ticker": "TSN",
@@ -10,14 +10,6 @@
       "status": "reported",
       "sentiment": "Mixed",
       "why": "Q4 adj EPS 61c vs 53c est, sales $14.59B vs $14.32B (beat); sees FY27 sales -3.5% to -5.5%, FY27 capex $1.1-1.4B vs ~$965M est. Small NQ weight."
-    },
-    {
-      "ticker": "NVDA",
-      "company": "NVIDIA (NVDA)",
-      "date": "2026-11-17",
-      "when": "AMC",
-      "status": "upcoming",
-      "why": "Largest NQ weight; consensus EPS ~$2.49, rev ~$108.7B; call 5 PM ET; first print under interim CEO Kress after Huang resigned Nov 12; -2% Fri, ~-12.8% on the week; Congress seeking Huang testimony on China chip sales; Sun: Bessent demands board answers within 10 days and an outsider CEO, FT says Huang discussing a comeback"
     },
     {
       "ticker": "DIS",
@@ -39,12 +31,14 @@
       "sentiment": "Mixed"
     },
     {
-      "ticker": "TGT",
-      "company": "Target (TGT)",
-      "date": "2026-11-18",
-      "when": "BMO",
-      "status": "upcoming",
-      "why": "Q3; consensus EPS ~$2.03; call 8 AM ET; consumer read"
+      "ticker": "NVDA",
+      "company": "NVIDIA (NVDA)",
+      "date": "2026-11-17",
+      "when": "AMC",
+      "status": "reported",
+      "reaction": "+2-4% AH (~$159)",
+      "sentiment": "Bullish",
+      "why": "Q3 adj EPS $2.68 vs $2.48 est, rev $115.8B (+103% y/y) vs $109.3B, Data Center $107.6B vs $101.9B, adj GM 74.9%; Q4 rev guide $127.4-132.6B vs $125.25B est; $150B buyback; SEC probe headline weighs on the move."
     },
     {
       "ticker": "LOW",
@@ -63,12 +57,12 @@
       "why": "FQ1; call 4:30 PM ET; cyber/software sentiment after FTNT/NOW selloffs"
     },
     {
-      "ticker": "WMT",
-      "company": "Walmart (WMT)",
-      "date": "2026-11-19",
+      "ticker": "TGT",
+      "company": "Target (TGT)",
+      "date": "2026-11-18",
       "when": "BMO",
       "status": "upcoming",
-      "why": "Q3; ~$1.0T mkt cap; consensus EPS ~$0.64 (guided $0.62-0.64); release 7 AM ET, call 8 AM ET"
+      "why": "Q3; consensus EPS ~$2.03; call 8 AM ET; consumer read"
     },
     {
       "ticker": "BABA",
@@ -85,6 +79,14 @@
       "when": "AMC",
       "status": "upcoming",
       "why": "FQ1; software read"
+    },
+    {
+      "ticker": "WMT",
+      "company": "Walmart (WMT)",
+      "date": "2026-11-19",
+      "when": "BMO",
+      "status": "upcoming",
+      "why": "Q3; ~$1.0T mkt cap; consensus EPS ~$0.64 (guided $0.62-0.64); release 7 AM ET, call 8 AM ET"
     }
   ]
 }
