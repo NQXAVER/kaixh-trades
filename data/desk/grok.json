@@ -1,15 +1,15 @@
 {
-  "at": "2026-11-17T15:13:01Z",
-  "pulse": "Markets mixed with Nasdaq futures bouncing ~0.3% after Monday's AI selloff as Dow lags, yields near 5.14% with ~95% Dec hike priced, Nvidia earnings tonight the key under interim CEO amid China chip curbs and Iran tensions.",
-  "bias": "mixed — tech bounce and oversold chips vs hawkish Fed pricing, high yields, Nvidia leadership risk and Iran/Hormuz headlines",
+  "at": "2026-11-17T21:23:55Z",
+  "pulse": "US indices closed lower Tuesday with S&P 500 off ~1% and Nasdaq ~0.7% amid AI/tech pressure into Nvidia earnings after the close, as yields hold near 5.1% with a December rate hike heavily priced and oil softer on Iran de-escalation.",
+  "bias": "mixed \u2014 risk-off from Nvidia leadership uncertainty, software weakness and hawkish Fed expectations, balanced by solid retail sales and lower crude easing inflation fears",
   "items": [
-    "@HerbsTake (~10:11 AM ET): Nasdaq futures +0.3%, Dow lower, 10y 5.14%, Dec hike ~95%, Nvidia tonight — Mixed",
-    "@Marketscreener1 (~10:11 AM ET): Nasdaq recovering some losses, chips bouncing (AVGO +0.8%, AMD +1.7%, MU +1.1%), Intel -1.4% on Nvidia stake cut",
-    "@pablosanchez562 (~10:11 AM ET): Reports of US air strikes on Qeshm Island, Iran targeting SAM launchers",
-    "@BobLoukas (~10:11 AM ET): Difficult read, cyclical bull stretched 48 months, oversold weekly cycle turning higher potential",
-    "Investopedia/ZeroHedge (~8-10 AM ET): Futures mixed (NQ +0.3-0.5%, ES flat, YM -0.6%), oil ~$85-92 little changed"
+    "@CTKCapitalIntel (~4:23 PM ET): SPX -1.03% to 7340, NDX -0.72% to 27002 after paring losses; NVDA -0.5%, software led declines ahead of Anthropic IPO, VIX 25.5, 10y ~5.10%",
+    "@Cash_Cat_Div (~4:23 PM ET): S&P -1.02%, Nasdaq -0.74%; weak internals (72% decliners), Huang open to CEO return but board not considering, Musalem sees need for more hikes, Iran drone on Bahrain",
+    "@imoDpotato (~4:22 PM ET): Three indices down, VIX over 25, NVIDIA earnings the key catalyst, software stocks under pressure, AI boom sustainability tested this week",
+    "@xaigorgo (~4:22 PM ET): Markets lower on AI jitters into NVDA (Huang exit), US chip export curbs, rising Fed hike expectations; portfolio -1.76%",
+    "Market wraps (~close): Retail sales +0.2% matching forecasts with ex-autos beat, industrial production -0.4% miss; WTI ~$85.7, Brent ~$92.4-93 on surplus and de-escalation"
   ],
-  "trump": "VP Vance signals no prolonged Iran war; no new direct Trump market remarks (in Manila for ASEAN).",
-  "watch": "Nvidia earnings after close tonight (interim CEO Kress, ~$109B rev), FOMC minutes Wed 2PM ET, Anthropic IPO pricing/listing, Iran/Hormuz oil risks, yields.",
+  "trump": "In Manila for ASEAN summit on Asia tour; VP JD Vance signals no prolonged Iran war, reducing oil risk premium; no major new market-moving remarks.",
+  "watch": "Nvidia Q3 earnings after close tonight (first without Huang as CEO, ~$109B rev est, options implying large move), FOMC minutes Wednesday 2PM ET, Anthropic IPO pricing/listing this week, Iran/Hormuz oil risks, yields near 5.1%.",
   "forSite": []
 }
