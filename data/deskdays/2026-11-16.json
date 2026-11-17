@@ -2,18 +2,18 @@
   "date": "2026-11-16",
   "grok": {
     "date": "2026-11-16",
-    "at": "2026-11-17T01:30:05Z",
-    "pulse": "NQ futures heavy into the Asia open after cash Nasdaq -2.5% / S&P ~-1.9% on the NVDA-led AI de-rating (chips -5.3%), with Warsh's AI-bust scenario and Bessent's reported NVDA revenue doubts adding pressure; softer oil and the PBOC's strongest yuan fix in 3+ yrs are the only offsets.",
-    "bias": "risk-off — AI/semis unwind and Dec hike odds dominate ahead of NVDA AMC Tue; Iran dirty-bomb intel headlines add tail risk, Asia opening lower (Nikkei futs -1.2%)",
+    "at": "2026-11-17T03:35:00Z",
+    "pulse": "NQ futures bouncing overnight (Nasdaq futs +0.5%, ES +0.2% at ~8:45 PM ET) after Monday's AI/semis rout, with NVDA's Tue AMC print the single driver; offsets are Asia tech weakness (BABA HK -5%, Tencent -2%) and NVDA leadership chaos (board hasn't discussed reinstating Huang).",
+    "bias": "mixed — relief bid into NVDA earnings vs. unresolved NVDA CEO turmoil, Dec hike pricing with 10Y >5%, and Iran/DC threat tail risk; NQ likely chops pre-print and moves on NVDA after 4 PM ET Tue",
     "items": [
-      "@FirstSquawk (~7:12 PM ET): NVDA slides again as Treasury Sec Bessent reportedly questions company's revenue (HBSS) — Bearish NQ",
-      "@DeItaone (~6:55 PM ET): US intel warns Iran may plan dirty bomb/chemical attack on senior Trump officials in DC (CNN, 7 officials) — Bearish NQ",
-      "X News (~6:38 PM ET): Fed Chair Warsh lays out AI paths incl. overhyped capex fading → stock drops/slower growth; gold near 1-yr lows on Dec hike bets, 10Y >5% — Bearish NQ",
-      "@FirstSquawk (~8:10 PM ET): Asia-Pac equities under pressure after all major US indices closed lower; Nikkei futs -1.2% (6:48 PM), 30Y JGB +1.5bp to 4.045% — Bearish NQ",
-      "@FirstSquawk (~8:18 PM ET): PBOC fixes yuan at strongest in 3+ yrs (6.7132); @zerohedge (~8:00 PM ET): AWS breaks ground on $7B Indiana data center — Mixed NQ"
+      "@FirstSquawk (~8:45 PM ET): US stock futures edge higher, Nasdaq +0.5%, S&P +0.2% — Bullish NQ",
+      "@FirstSquawk (~9:46 PM ET): NVDA board has not discussed reinstating Jensen Huang as CEO (WSJ); @WatcherGuru (~9:45 PM ET): senior NVDA director warns board it could lose \"irreplaceable talent\" without Huang — Bearish NQ",
+      "@FirstSquawk (~8:46 PM ET): Alibaba HK shares -5% to HK$85.6, lowest since Jan 2025; Tencent -2%+ in HK — Bearish NQ",
+      "@unusual_whales (~8:46 PM ET): Google says \"the era of autonomous attacks has arrived\" (AI used to weaponize patches before install) — Mixed NQ (cyber bid into PANW, AI-risk headline)",
+      "@FirstSquawk (~10:14 PM ET): Xi and Carney say China-Canada cooperation fully restarted ahead of APEC; @LiveSquawk (~8:56 PM ET): Japan postpones new floating-rate JGB launch (Reuters) — Mixed NQ"
     ],
-    "trump": "Trump publicly addressed the Bessent-Lutnick clash on China chip controls before his Asia trip (Bessent tougher, Lutnick cautious); Schumer (~6:33 PM ET) claims Trump holds NVDA stock and profits from China chip access; Trump said he was \"a little bit surprised\" Republicans didn't do better in the midterms.",
-    "watch": "Tue: HD/DIS BMO, NVDA AMC (call 5 PM ET; cons EPS ~$2.49, rev ~$108.7-109B; first print under interim CEO Kress); Wed: TGT/LOW BMO, PANW AMC; Thu: WMT/BABA BMO, INTU AMC; overnight: Asia/JGB yields, Iran/DC threat headlines, China chip-control headlines",
+    "trump": "No new Trump statement since 8:15 PM; @unusual_whales (~9:31 PM ET) recaps that Trump told Huang to fight for the NVDA job before he resigned, and disclosures show Trump's NVDA stake grew to ~$62M amid China chip-sale scrutiny.",
+    "watch": "Overnight: Asia close (Nikkei/Kospi/HK tech), Europe open ~3 AM ET, NVDA CEO/board headlines, Iran/DC threat headlines; Tue: HD BMO (call 9 AM ET), DIS BMO (call 8:30 AM ET), cash open 9:30 AM ET, NVDA AMC (call 5 PM ET; cons rev ~$109B, EPS ~$2.49); Wed: TGT/LOW BMO, PANW AMC; Thu: WMT/BABA BMO, INTU AMC",
     "forSite": [],
     "reports": [
       {
@@ -134,6 +134,36 @@
         ],
         "trump": "Trump publicly addressed the Bessent-Lutnick clash on China chip controls before his Asia trip (Bessent tougher, Lutnick cautious); Schumer (~6:33 PM ET) claims Trump holds NVDA stock and profits from China chip access; Trump said he was \"a little bit surprised\" Republicans didn't do better in the midterms.",
         "watch": "Tue: HD/DIS BMO, NVDA AMC (call 5 PM ET; cons EPS ~$2.49, rev ~$108.7-109B; first print under interim CEO Kress); Wed: TGT/LOW BMO, PANW AMC; Thu: WMT/BABA BMO, INTU AMC; overnight: Asia/JGB yields, Iran/DC threat headlines, China chip-control headlines",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-17T03:10:00Z",
+        "pulse": "NQ and ES remain under pressure in the Asia session after Monday's sharp AI-led selloff (Nasdaq -2.5%, S&P -1.9%, SOX -5.3%) with NVDA earnings after the close tonight the key catalyst amid high Fed hike odds and soft oil on surplus fears.",
+        "bias": "risk-off — NVDA/AI de-rating and priced-in December hike dominate ahead of AMC print and FOMC minutes; softer crude (~$85-92) and limited Iran escalation are insufficient offsets",
+        "items": [
+          "@wirequantsspace (~10:06 PM ET): SOX plunges 5.28%, NVDA -4.12% ahead of Q3 earnings; Dec hike odds >90% after hot CPI/PPI, Anthropic IPO Wed adds liquidity concern — Bearish NQ",
+          "@holantei (~10:03 PM ET): ES & NQ 1H path — dead-cat bounce into broken base then fail; NQ 27414, bounce to 27695-27800 then fail to 27180/27000 — Bearish NQ",
+          "@Riz_Capitaledge (~10:04 PM ET): Pre-market Nov 17 — Wall St bleeds, Nasdaq -2.5%, Brent near $92, FIIs buy, NVDA earnings tonight, US 10Y 5.13% — Mixed NQ",
+          "@0xDoran_NFT (~10:05 PM ET): Oil market still falling unstoppable, President Trump actions hitting world economy — Bullish NQ (via lower energy)",
+          "@deepcoin_news (~10:04 PM ET): BTC ~$64.4k extreme fear; NVDA reports today Nov 17, FOMC minutes Nov 18 — Bearish risk"
+        ],
+        "trump": "Mentions of Ro Khanna pitching $1,700 checks to offset Iran war costs; oil falling linked to Trump policies; prior Bessent comments on NVDA CEO/revenue; Trump-Xi-Putin APEC summit later this week.",
+        "watch": "Tue Nov 17: NVDA AMC earnings (first post-Huang, rev ~$108B), retail sales 8:30 AM ET, HD/DIS BMO; Wed: FOMC minutes, Anthropic IPO pricing; oil/Iran headlines, 10Y ~5.13%, Asia open reaction.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-17T03:35:00Z",
+        "pulse": "NQ futures bouncing overnight (Nasdaq futs +0.5%, ES +0.2% at ~8:45 PM ET) after Monday's AI/semis rout, with NVDA's Tue AMC print the single driver; offsets are Asia tech weakness (BABA HK -5%, Tencent -2%) and NVDA leadership chaos (board hasn't discussed reinstating Huang).",
+        "bias": "mixed — relief bid into NVDA earnings vs. unresolved NVDA CEO turmoil, Dec hike pricing with 10Y >5%, and Iran/DC threat tail risk; NQ likely chops pre-print and moves on NVDA after 4 PM ET Tue",
+        "items": [
+          "@FirstSquawk (~8:45 PM ET): US stock futures edge higher, Nasdaq +0.5%, S&P +0.2% — Bullish NQ",
+          "@FirstSquawk (~9:46 PM ET): NVDA board has not discussed reinstating Jensen Huang as CEO (WSJ); @WatcherGuru (~9:45 PM ET): senior NVDA director warns board it could lose \"irreplaceable talent\" without Huang — Bearish NQ",
+          "@FirstSquawk (~8:46 PM ET): Alibaba HK shares -5% to HK$85.6, lowest since Jan 2025; Tencent -2%+ in HK — Bearish NQ",
+          "@unusual_whales (~8:46 PM ET): Google says \"the era of autonomous attacks has arrived\" (AI used to weaponize patches before install) — Mixed NQ (cyber bid into PANW, AI-risk headline)",
+          "@FirstSquawk (~10:14 PM ET): Xi and Carney say China-Canada cooperation fully restarted ahead of APEC; @LiveSquawk (~8:56 PM ET): Japan postpones new floating-rate JGB launch (Reuters) — Mixed NQ"
+        ],
+        "trump": "No new Trump statement since 8:15 PM; @unusual_whales (~9:31 PM ET) recaps that Trump told Huang to fight for the NVDA job before he resigned, and disclosures show Trump's NVDA stake grew to ~$62M amid China chip-sale scrutiny.",
+        "watch": "Overnight: Asia close (Nikkei/Kospi/HK tech), Europe open ~3 AM ET, NVDA CEO/board headlines, Iran/DC threat headlines; Tue: HD BMO (call 9 AM ET), DIS BMO (call 8:30 AM ET), cash open 9:30 AM ET, NVDA AMC (call 5 PM ET; cons rev ~$109B, EPS ~$2.49); Wed: TGT/LOW BMO, PANW AMC; Thu: WMT/BABA BMO, INTU AMC",
         "forSite": []
       }
     ]
