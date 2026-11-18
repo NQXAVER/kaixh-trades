@@ -1,15 +1,24 @@
 {
-  "at": "2026-11-18T14:44:02Z",
-  "pulse": "Nasdaq futures and open higher ~0.5-1% on Nvidia's beat and $130B guidance lifting AI trade, while broader market remains mixed with Dow lagging, 10Y yields ~5.1%, and FOMC minutes due at 2 PM ET amid Iran/oil tensions.",
-  "bias": "mixed — NVDA/AI relief bid supports NQ/ES but hawkish Fed hike pricing, elevated yields, strong DXY, and residual Iran-Gulf oil risks prevent broad risk-on",
+  "at": "2026-11-18T21:10:00Z",
+  "pulse": "Nasdaq futures and open higher ~0.5-1% on Nvidia's beat and $130B guidance lifting AI trade, while broader market remains mixed with Dow lagging, 10Y yields ~5.1%, and FOMC minutes due at 2 PM ET amid Iran/oil tensions. PANW just printed a strong beat after close.",
+  "bias": "mixed — NVDA/AI relief bid supports NQ/ES but hawkish Fed hike pricing, elevated yields, strong DXY, and residual Iran-Gulf oil risks prevent broad risk-on; PANW beat adds selective bullish tilt to tech",
   "items": [
     "@0xkyliekim (~9:40 AM ET): NVDA beat lifts Nasdaq ~+0.6% / S&P barely green near 7350 but not broad risk-on; BTC lagging, yields ~5.1%, DXY strong, VIX still elevated",
     "@sekardreams (~9:43 AM ET): Nasdaq futures up after NVDA beat but Bitcoin not following, with US spot BTC ETF outflows $240M Tuesday",
     "@tereasienn (~9:43 AM ET): Opening bell Nasdaq +0.5%, S&P barely green, Dow -0.4%; NVDA carrying tech but Waller 50bp talk and 10Y >5% weigh",
     "Market wraps (~premarket/open): NQ futures +0.5-1.2% on NVDA $115.8B beat/$130B guide; WTI oil ~$83-85 softer; Dec Fed hike highly priced",
-    "@naro007mag / geopolitics: Iran-related PAC-3 stocks used; Trump-Xi APEC discussions on Hormuz/oil ongoing"
+    "@naro007mag / geopolitics: Iran-related PAC-3 stocks used; Trump-Xi APEC discussions on Hormuz/oil ongoing",
+    "PANW AH: +4.8% on strong Q1 beat and raised guidance"
   ],
   "trump": "At APEC in China for Trump-Xi-Putin meetings focused on Iran war, Hormuz oil flows, and trade; recent comments on not needing Iran deal but seeking resolution via China leverage.",
-  "watch": "2:00 PM ET FOMC minutes for hike path signals; Anthropic IPO pricing and AI sentiment expansion beyond NVDA; whether NQ holds gains into close; Iran/Gulf oil headlines and yields; next session Thu data/earnings (WMT, BABA, INTU).",
-  "forSite": []
+  "watch": "2:00 PM ET FOMC minutes for hike path signals; Anthropic IPO pricing and AI sentiment expansion beyond NVDA; whether NQ holds gains into close; Iran/Gulf oil headlines and yields; next session Thu data/earnings (WMT, BABA, INTU); PANW AH reaction and cyber sector.",
+  "forSite": [],
+  "earnings": [
+    {
+      "ticker": "PANW",
+      "reaction": "+4.8% AH",
+      "sentiment": "Bullish",
+      "why": "Beat EPS $1.05 vs $0.97 est and rev $3.44B vs $3.31B; NGS ARR +66% YoY to $9.73B with raised FY27 guidance on AI-driven cybersecurity demand."
+    }
+  ]
 }
