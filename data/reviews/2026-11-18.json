@@ -1,0 +1,63 @@
+{
+ "date": "2026-11-18",
+ "entryUrl": "https://app.notion.com/41c60e8f5c45801f8fcecd630bf382ba",
+ "summary": "You took today off on purpose after requesting your first Lucid payout, and that part is fine: Notion says Day OFF / No Trades, the 9:02 AM check-in said 'OFF Today', and the EOD card said 'Day off'. The real story of this trading day is last night. Around 6:30 to 7:00 PM ET on Nov 17 you shorted NQ on XFA in the Asia session, logged as Session: Asia. That breaks your NY-only rule, and it's the second time this week after Sunday's Asia short. You were up about $700 and wrote 'i got greedy on wanting the max payout', held for ES to take PDL, and woke up trailed out near entry. Unlike Nov 15, the Asia trade isn't mentioned in Discord. Today's EOD says 'Rules Followed: Yes' and the journal channel has nothing since Nov 17 at 10:50 AM.",
+ "trade": "Today: no trade · Day OFF (payout requested). Nov 17 evening: short · Asia (~6:30 to 7:00 PM ET) · XFA · trailed out W (about BE) · entry ~27,452.50 · stop ~27,605.25 (high that rejected out of the daily gap with the IFVG) · RR tool target ~26,845.50 · low reached ~27,121 by 9:56 PM · trailed out near ~27,448 overnight. Levels are read off the chart's price markers.",
+ "rule": "Thursday: funded accounts are traded only from 9:30 to 11:00 AM ET. After the 4 PM close, the chart is for marking levels. If an Asia idea shows up, write it in Notion as a paper idea, and any trade you do take goes into that day's EOD card and journal post.",
+ "screenshots": [
+  {
+   "label": "Execution 1 · 5min NQ / 15min ES (9:56 PM, Nov 17)",
+   "feedback": "The short box starts around 27,452.50, with the stop at ~27,605.25 above the high that rejected out of the daily gap and the target box down to ~26,845.50. Price had already dropped to about 27,121, so you were well in profit. Your own note on the chart says you'd close or trail aggressively once price consolidated at the bullish leg's EQ. It consolidated, and you didn't close. The x-axis puts the entry right after the 6 PM reopen, which is Asia."
+  },
+  {
+   "label": "Execution 2 · 15min NQ / ES (8:52 AM, Nov 18)",
+   "feedback": "The 'Trailed' mark sits near 27,448, about where you got in. Price bounced off the 0.5 to 0.618 area of the range and came back up through D OPEN, which is the 'MO ended up going higher' case you found when you studied October's similar day. The setup read wasn't bad. Holding a 300-point open profit through the night just to max out the payout is what turned it into a scratch."
+  },
+  {
+   "label": "TimeFrame 1 · Daily NQ / ES (9:18 PM, Nov 17)",
+   "feedback": "The daily shows price pushing up into the dashed levels of the bearish daily gap after a big November sell-off. That backs up your 'inside of a DAILY BEARISH GAP sweeping PDH' pre-market note. It's good context, and it would have been just as valid at 9:30 AM."
+  },
+  {
+   "label": "TimeFrame 2 · 4h NQ / ES (9:19 PM, Nov 17)",
+   "feedback": "The 4h wick rejects off the upper dashed gap level, which fits your 'HTF bearish' read. It also shows how far PDL was, which is why your RR tool to PDL ran past the 40% consistency cap."
+  },
+  {
+   "label": "TimeFrame 3 · 1h NQ / ES (9:19 PM, Nov 17)",
+   "feedback": "The 1h spike into the gap and the instant rejection is the PDH sweep you traded. The structure is clean, but every screenshot is stamped after 9 PM, which confirms the whole trade was planned and managed in Asia."
+  }
+ ],
+ "good": [
+  "You took a planned day off after the payout instead of trading on a high. The check-in (9:02 AM, before the cutoff) and the EOD card were both filed on time.",
+  "Your first payout came from 28 trading days on one account without blowing it up. That patience is real and Bibz said so too.",
+  "Your Notion write-up of the Asia trade is honest: 'i got greedy on wanting the max payout' and 'i do have issues i need to address'. That's the kind of self-review that fixes things."
+ ],
+ "fix": [
+  "Two Asia trades on XFA in three days (Nov 15 and Nov 17). The NY-only rule is turning into 'NY-only unless I see something good at night'.",
+  "Today's EOD card says 'Rules Followed: Yes' and the journal channel has no post about last night's Asia short. On Nov 15 you put it everywhere, so do that again.",
+  "Payout math drove trade management. You held +$700 to reach the max payout instead of managing the setup, and the consistency cap even made your target unreachable.",
+  "'Next step is secure a 2nd payout than im OK to buy another acc' sets up a new account purchase. The standing rule is no new eval accounts, so treat the payout as the win and don't turn it into a reason to buy."
+ ],
+ "questions": [
+  {
+   "q": "On Nov 15 you posted the Asia trade in the journal channel and in your check-in. This time the EOD card says 'Day off' and 'Rules Followed: Yes', and the short isn't mentioned anywhere in Discord. What made it feel different?"
+  },
+  {
+   "q": "You wrote 'if i closed i wouldve secured 1.6k but na i got greedy on wanting the max payout'. Before you enter, what number of open profit would make you close no matter what the payout math says?"
+  },
+  {
+   "q": "You studied the October day and 'did get less confident' but still held. What did you need to see that night to close, and why wasn't losing confidence enough?"
+  },
+  {
+   "q": "'Next step is secure a 2nd payout than im OK to buy another acc'. Who set that condition, you or AB? And what would make a second account different from the evals you've already paid for?"
+  }
+ ],
+ "discord": {
+  "chartsOpened": "Morning Check-in card filed 9:02 AM ET (streak 19 days), before the 9:30 cutoff. Charts Opened: \"OFF Today\". No late tag, no strike.",
+  "plan": "\"Payout requested\"",
+  "risk": "Risk-settings screenshot posted 9:02 AM ET and confirmed by SYNDICATOR (\"your morning check-in for 2026-11-18 is complete\").",
+  "eod": "Filed 11:45 AM ET (streak 20 days): Trade Summary \"Day off\", Rules Followed: Yes, Improvement \"OFF\". Screenshot (prop-firm account page with equity curve) confirmed 11:46 AM.",
+  "match": "The NY session matches: no trade today in Notion or Discord. But the Asia short on XFA on the evening of Nov 17 (Notion: Session Asia, trailed out W) appears nowhere in Discord. Nothing was posted in either channel between 3:51 PM Nov 17 and 8:30 AM Nov 18, and today's card says Rules Followed: Yes. Chat with Bibz was about the payout (9:03 AM 'Morning brother we did ittttt!'; Bibz at 10:52 AM 'So proud of you man'; you at 11:48 AM 'i did have like 2 tilt days...').",
+  "journalChannel": "No post in xavier Journal on Nov 18 and none after 4 PM on Nov 17. The latest post is Nov 17 at 10:50 AM (the BE + re-entry W NY trade)."
+ },
+ "reviewedAt": "2026-11-18T21:11:53.877Z"
+}
