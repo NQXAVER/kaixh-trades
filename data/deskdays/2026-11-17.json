@@ -1,1 +1,19 @@
-PLACEHOLDER
+{
+  "date": "2026-11-17",
+  "grok": {
+    "at": "2026-11-18T03:22:14Z",
+    "pulse": "NQ futures hold gains after hours on Nvidia's record $115.8B Q3 beat, $130B guide and $150B buyback, countering a fourth straight cash decline in Nasdaq and S&P amid AI leadership concerns and lingering Iran/Bahrain tensions.",
+    "bias": "mixed — NVDA blowout supports AI/tech overnight lift, but multi-day selloff, elevated VIX, near-certain Dec hike pricing into FOMC minutes, and Iran headlines keep the tape balanced.",
+    "items": [
+      "@JonahLupton (~10:19 PM ET): Nasdaq futures are green — Bullish NQ",
+      "@Langmay (~10:18 PM ET): NVIDIA record Q3 FY2027 $115.8B rev (+103% YoY), Q4 guide $130B; rebounds in AH trading — Bullish NQ",
+      "@VoidTradeStudio (~10:18 PM ET): Anthropic IPO pricing tomorrow night likely above $70-$78 range, ~$1.4T valuation, lists Thursday as ANT on Nasdaq — Mixed AI",
+      "@AJEnglish (~10:20 PM ET): Rubio says Iran poses no imminent threat to US, dismisses dirty bomb report; no evidence recent tech outages from nefarious actors — Neutral/De-escalation",
+      "Market wraps: WTI ~$86, Brent ~$93 on choppy Iran/Hormuz headlines despite de-escalation signals; 10Y yields ~5.1%"
+    ],
+    "trump": "none",
+    "watch": "Wed Nov 18 open: hold of NVDA AH gap; FOMC minutes 2PM ET; LOW/TGT BMO; Anthropic IPO pricing; PANW AMC; overnight Iran/Bahrain/Hormuz oil risks and yields.",
+    "forSite": []
+  },
+  "reports": []
+}
