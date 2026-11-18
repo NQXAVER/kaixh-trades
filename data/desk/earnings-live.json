@@ -1,6 +1,6 @@
 {
   "date": "2026-11-18",
-  "at": "2026-11-18T14:26:35Z",
+  "at": "2026-11-18T21:30:54Z",
   "items": [
     {
       "ticker": "TSN",
@@ -36,7 +36,7 @@
       "date": "2026-11-17",
       "when": "AMC",
       "status": "reported",
-      "reaction": "+4-5% AH; ~+3% premarket (~$160 vs $155.46 close)",
+      "reaction": "+4-5% AH, ~+3% premarket, then faded to ~-2.9% close Nov 18",
       "sentiment": "Bullish",
       "why": "Q3 adj EPS $2.68 vs $2.48 est, rev $115.8B (+103% y/y) vs $109.3B, Data Center $107.6B vs $101.9B, adj GM 74.9%; Q4 rev guide $127.4-132.6B vs $125.25B est; $150B buyback; SEC probe headline weighs on the move."
     },
@@ -54,8 +54,10 @@
       "company": "Palo Alto Networks (PANW)",
       "date": "2026-11-18",
       "when": "AMC",
-      "status": "upcoming",
-      "why": "FQ1; call 4:30 PM ET; cyber/software sentiment after FTNT/NOW selloffs"
+      "status": "reported",
+      "why": "FQ1 adj EPS $1.05 vs $0.97 est, rev $3.44B (+39% y/y) vs $3.31B, NGS ARR $9.73B (+66%); FY27 rev guide raised to $14.52-14.57B vs $14.16B est, EPS $4.26-4.30 vs $4.18; $4.5B Applied Compute buy. Cyber/software lift.",
+      "reaction": "~+7-8% AH (after +10.6% regular session)",
+      "sentiment": "Bullish"
     },
     {
       "ticker": "TGT",

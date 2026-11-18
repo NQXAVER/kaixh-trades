@@ -1,18 +1,127 @@
 {
   "date": "2026-11-18",
   "grok": {
-    "at": "2026-11-18T21:19:32Z",
-    "pulse": "Nasdaq closed +0.4% while S&P slipped ~0.2% and Dow fell 1.1% as NVDA faded -2.9% post-beat, FOMC minutes showed nearly all officials see further hikes (some open to 50bp), oil plunged on inventories, and Anthropic priced above range for Thursday open.",
-    "bias": "mixed — selective AI/consumer and cyber strength supports NQ but hawkish Fed minutes, NVDA sell-the-news, energy/healthcare drag, elevated yields >5%, and residual Iran-oil risks keep broader risk-off tone",
+    "date": "2026-11-18",
+    "at": "2026-11-18T21:30:54Z",
+    "pulse": "NQ snapped its 4-day skid (NDX +0.42%, Comp +0.36%) on AMD/AVGO and cyber strength led by PANW, offset by NVDA's -2.9% sell-the-news, hawkish FOMC minutes/Fed talk of a 50bp hike and 10Y ~5.07%, while S&P fell a 5th day and Dow -1.1% on health insurers.",
+    "bias": "mixed — PANW beat-and-raise (+7-8% AH) and oil -3% help tech, but hawkish Fed (bigger Dec hike chatter), 10Y >5%, NVDA fade and Anthropic IPO supply cap upside",
     "items": [
-      "@RonenTzirin (~4:19 PM ET): Wall Street split — Nasdaq 100 +0.4%, S&P -0.3%, Dow -1.1%; NVDA -2.9%, health care/energy weak, consumer/cyber strong; Anthropic pricing tonight",
-      "@The_Retest (~4:18 PM ET): NVDA beat then fell from +2.7% to -3.1%; closes Dow -1.12%, S&P -0.24%, Nasdaq +0.39%; Fed minutes a few argued for 50bp if inflation unfavorable",
-      "@RomeInvests (~4:15 PM ET): $ANT priced at $83 above $70-78 range, ~$1.5T valuation, trading starts tomorrow on Nasdaq",
-      "@FuturesWire (~4:15 PM ET): Nasdaq ends higher as stocks tumble post-NVDA; AI bubble concerns, Fed hike talk, gold -3.2%",
-      "@Akatricapital (~4:18 PM ET): NVDA revenue beat by $6.7B to $115.8B but stock -2.89%; selling empty CEO chair after Huang exit"
+      "@FirstSquawk (~4:01 PM ET): Nasdaq Comp +0.36% to 24,415.93, S&P -0.25% to 7,322.19, Dow -1.12% to 50,189.14 (unofficial); VIX ~24.5 — Mixed NQ",
+      "@InvestingDesk (~4:08 PM ET): PANW AMC beat — EPS $1.05 vs $0.97, rev $3.44B vs $3.31B (+39% y/y), FY27 rev guide $14.52-14.57B vs $14.16B est; ~+7-8% AH after +10.6% day, plus $4.5B Applied Compute deal (@FirstSquawk 4:04 PM) — Bullish NQ",
+      "@DeItaone (~4:07 PM ET): Anthropic prices IPO at $83/share, ~$1.5T valuation (@WatcherGuru 4:17 PM), first trade Thursday; @zerohedge flags 'Anthropic overhang' — Mixed NQ",
+      "@Geo_News_Alert_ (~4:30 PM ET): FOMC minutes plus Waller/Barr/Kashkari flag a possible bigger-than-25bp Dec hike; 10Y ~5.07% (@BSDMarkets 4:22 PM) — Bearish NQ",
+      "@zerohedge (~4:06 PM ET): IRGC says 3 more tankers on fire in Hormuz area; WTI still settled -3.2% at $83.26 on a 3.38M bbl crude build, Brent $91.95 — Mixed NQ"
     ],
-    "trump": "At APEC in China for Trump-Xi-Putin meetings on Iran, Hormuz oil flows, and trade; some reports of Trump-Vance friction on Iran approach.",
-    "watch": "Thursday: Anthropic (ANT) first trade and open reaction for AI sentiment; Walmart earnings for consumer read; 8:30 AM ET jobless claims and Philly Fed; oil/Iran headlines, 10Y yields, whether NQ can hold above recent lows or AI fade continues.",
-    "forSite": []
+    "trump": "Admin weighs new penalties on China over jailed Americans (ABC via @LiveSquawk ~3:59 PM ET) while Trump is at APEC in Shenzhen — US-China trade headline risk.",
+    "watch": "Thu Nov 19: WMT BMO (7 AM ET release, 8 AM call), BABA BMO (7 AM call); 8:30 AM ET jobless claims + Philly Fed; Anthropic (ANT) first trade on Nasdaq; INTU AMC; Hormuz tanker/Iran headlines; 10Y above 5%.",
+    "forSite": [],
+    "reports": [
+      {
+        "at": "2026-11-18T12:00:00Z",
+        "pulse": "NQ and ES futures higher premarket on Nvidia's strong $130B Q4 guide lifting AI sentiment after Tuesday's four-day cash decline, with oil softer near $83 amid mixed Iran/Hormuz tensions ahead of FOMC minutes.",
+        "bias": "mixed — NVDA/AI rebound and futures bid vs. near-certain December hike pricing into today's 2PM ET FOMC minutes and residual Iran oil risks",
+        "items": [
+          "@funding4trdrs (~7:00 AM ET): Pre-market alerts for ES/NQ — housing starts/permits 8:30 AM, FOMC minutes 2PM ET critical catalyst; protocol is flatten before release",
+          "@JoshTradeOption (~7:00 AM ET): AVGO up further premarket on NVDA $115.8B beat/$130B guide; watching if AI pop holds past open and through Fed minutes",
+          "@2xnmore (~7:00 AM ET): Anthropic IPO pricing today for Thu Nasdaq debut as ANT targeting up to $1.4T; highlights circular AI supplier funding and limited governance",
+          "@quantalg0 (~12:12 AM ET): NQ bounced from ~26,650 to 27,450 but still under MAs after NVDA; CL lower near $84.5, FOMC minutes Wednesday key",
+          "Market wraps (~premarket): NQ futures +1.2%, ES +0.6% on NVDA; WTI ~$83 down ~2%, Dec hike 100% priced; Iran claims Patriot hits in Kuwait"
+        ],
+        "trump": "none",
+        "watch": "FOMC minutes reaction at 2:00 PM ET; Anthropic IPO pricing and AI sentiment; whether NQ holds the overnight gap into the 9:30 open; Iran/Hormuz oil headlines and yields.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-18T12:31:33Z",
+        "pulse": "NQ +0.9% premarket (~27,300) as NVDA's $115.8B beat / $130B guide pauses a 4-day selloff, offset by Iran strikes on Kuwait/Bahrain, 7.35% mortgage rates and hawkish Fed pricing into 2 PM FOMC minutes.",
+        "bias": "risk-on — NVDA beat-and-raise relief lifts semis/AI premarket (NVDA ~+3% to ~$160), but Iran-Gulf escalation, NVDA China chip halt and hawkish Fed pricing into the 2 PM minutes cap the bounce",
+        "items": [
+          "@DeItaone (~6:55 AM ET): ES +0.40%, NQ +0.88%, YM +0.06% premarket after the NVDA print — Bullish NQ",
+          "@unusual_whales (~5:17 AM ET): Iran launched strikes on Kuwait and Bahrain (WSJ); Iran claims hits on US drone/missile sites at Ali Al Salem (@FirstSquawk ~10:59 PM), yet WTI slid to $84.74 and Brent to $91.83 overnight — Mixed NQ",
+          "@unusual_whales (~5:27 AM ET): NVDA has stopped shipping US-approved AI chips to China (Reuters); @WatcherGuru (~5:56 AM): Chinese military seeking NVDA's top AI chips — Bearish NQ",
+          "@FirstSquawk (~6:31 AM ET): TGT Q3 adj EPS $2.65 vs $2.08 est, sales $27.07B vs $26.53B, comps +5.6%; LOW (~6:05 AM) comps +1.8% vs +0.37%, FY sales $92.5B (saw $92B) — Bullish NQ",
+          "@DeItaone (~7:01 AM ET): MBA 30Y mortgage rate +14bp to 7.35%, apps -2.3%; ECB's Vujcic says Dec hike 'very likely' (@FirstSquawk ~7:03 AM) — Bearish NQ"
+        ],
+        "trump": "In Shenzhen for APEC, greeted by Xi (@WhiteHouse ~7:23 AM ET); first-ever Trump-Xi-Putin trilateral meeting (@unusual_whales ~7:20 AM); admin weighing rules forcing US companies to disclose use of Chinese AI models (Reuters via @LiveSquawk ~6:01 AM); says Washington is 'doing very well' on Iran (@FirstSquawk ~10:38 PM).",
+        "watch": "8:30 AM ET Housing Starts/Permits; 9:30 open — does NQ hold the NVDA gap; 2:00 PM ET FOMC minutes (hike pricing); PANW AMC; Anthropic IPO pricing ahead of Nasdaq debut; Trump-Xi APEC headlines; Iran/Gulf oil headlines; Thu: WMT and BABA BMO, INTU AMC.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-18T14:26:35Z",
+        "pulse": "NQ holds ~+0.9% premarket into the open on NVDA's beat-and-raise (NVDA ~+3%, GOOGL +1%), offset by Waller reprising a 50bp hike call, Street adding Fed hikes and new Commerce AI-compute rules ahead of 2 PM FOMC minutes.",
+        "bias": "risk-on — NVDA relief bid lifts semis/AI into the open, but hawkish Fed talk (Waller 50bp, Danske 3 hikes), new Commerce compute rules and Iran-Gulf risk cap it into the 2 PM minutes",
+        "items": [
+          "@zerohedge (~8:09 AM ET): premarket Mag7 mostly higher — NVDA +3%, GOOGL +1%, TSLA +0.9%, AMZN +0.5%, MSFT flat, META -0.1%, AAPL -0.2%; AI infra (AVGO, CRWV) bid — Bullish NQ",
+          "@LiveSquawk (~8:30 AM ET): Oct housing starts 1.309M vs 1.25M est (+9.9% m/m), permits 1.295M vs 1.375M est (-7.4%) — Mixed NQ",
+          "@DeItaone (~8:54 AM ET): Commerce Dept setting new rules to stop foreign actors leveraging US-tech advanced computing power (Federal Register) — Bearish NQ",
+          "@FirstSquawk (~9:03 AM ET): ByteDance in advanced talks to spend extra $500M on MSFT cloud (The Information) — Bullish NQ",
+          "@zerohedge (~9:25 AM ET): Fed's Waller reprises 50bp hike call; @DeItaone (~8:43 AM) Danske adds a 3rd Fed hike, sees 4.50-4.75% by Mar 2027 — Bearish NQ"
+        ],
+        "trump": "At APEC in China: will meet Putin individually (AP via @FirstSquawk ~9:23 AM ET), on top of the Trump-Xi-Putin trilateral; Mexico's Sheinbaum says a US trade deal is 'well advanced' (@DeItaone ~9:09 AM ET).",
+        "watch": "9:30 AM ET open — does NQ hold the NVDA gap; 2:00 PM ET FOMC minutes (hike pricing, Waller 50bp talk); PANW AMC (call 4:30 PM); Anthropic (ANT) IPO pricing guided above range; Trump-Xi/Putin APEC headlines; Iran/Gulf oil headlines; Thu: WMT and BABA BMO, INTU AMC.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-18T14:44:02Z",
+        "pulse": "Nasdaq futures and open higher ~0.5-1% on Nvidia's beat and $130B guidance lifting AI trade, while broader market remains mixed with Dow lagging, 10Y yields ~5.1%, and FOMC minutes due at 2 PM ET amid Iran/oil tensions.",
+        "bias": "mixed — NVDA/AI relief bid supports NQ/ES but hawkish Fed hike pricing, elevated yields, strong DXY, and residual Iran-Gulf oil risks prevent broad risk-on",
+        "items": [
+          "@0xkyliekim (~9:40 AM ET): NVDA beat lifts Nasdaq ~+0.6% / S&P barely green near 7350 but not broad risk-on; BTC lagging, yields ~5.1%, DXY strong, VIX still elevated",
+          "@sekardreams (~9:43 AM ET): Nasdaq futures up after NVDA beat but Bitcoin not following, with US spot BTC ETF outflows $240M Tuesday",
+          "@tereasienn (~9:43 AM ET): Opening bell Nasdaq +0.5%, S&P barely green, Dow -0.4%; NVDA carrying tech but Waller 50bp talk and 10Y >5% weigh",
+          "Market wraps (~premarket/open): NQ futures +0.5-1.2% on NVDA $115.8B beat/$130B guide; WTI oil ~$83-85 softer; Dec Fed hike highly priced",
+          "@naro007mag / geopolitics: Iran-related PAC-3 stocks used; Trump-Xi APEC discussions on Hormuz/oil ongoing"
+        ],
+        "trump": "At APEC in China for Trump-Xi-Putin meetings focused on Iran war, Hormuz oil flows, and trade; recent comments on not needing Iran deal but seeking resolution via China leverage.",
+        "watch": "2:00 PM ET FOMC minutes for hike path signals; Anthropic IPO pricing and AI sentiment expansion beyond NVDA; whether NQ holds gains into close; Iran/Gulf oil headlines and yields; next session Thu data/earnings (WMT, BABA, INTU).",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-18T21:10:00Z",
+        "pulse": "Nasdaq futures and open higher ~0.5-1% on Nvidia's beat and $130B guidance lifting AI trade, while broader market remains mixed with Dow lagging, 10Y yields ~5.1%, and FOMC minutes due at 2 PM ET amid Iran/oil tensions. PANW just printed a strong beat after close.",
+        "bias": "mixed — NVDA/AI relief bid supports NQ/ES but hawkish Fed hike pricing, elevated yields, strong DXY, and residual Iran-Gulf oil risks prevent broad risk-on; PANW beat adds selective bullish tilt to tech",
+        "items": [
+          "@0xkyliekim (~9:40 AM ET): NVDA beat lifts Nasdaq ~+0.6% / S&P barely green near 7350 but not broad risk-on; BTC lagging, yields ~5.1%, DXY strong, VIX still elevated",
+          "@sekardreams (~9:43 AM ET): Nasdaq futures up after NVDA beat but Bitcoin not following, with US spot BTC ETF outflows $240M Tuesday",
+          "@tereasienn (~9:43 AM ET): Opening bell Nasdaq +0.5%, S&P barely green, Dow -0.4%; NVDA carrying tech but Waller 50bp talk and 10Y >5% weigh",
+          "Market wraps (~premarket/open): NQ futures +0.5-1.2% on NVDA $115.8B beat/$130B guide; WTI oil ~$83-85 softer; Dec Fed hike highly priced",
+          "@naro007mag / geopolitics: Iran-related PAC-3 stocks used; Trump-Xi APEC discussions on Hormuz/oil ongoing",
+          "PANW AH: +4.8% on strong Q1 beat and raised guidance"
+        ],
+        "trump": "At APEC in China for Trump-Xi-Putin meetings focused on Iran war, Hormuz oil flows, and trade; recent comments on not needing Iran deal but seeking resolution via China leverage.",
+        "watch": "2:00 PM ET FOMC minutes for hike path signals; Anthropic IPO pricing and AI sentiment expansion beyond NVDA; whether NQ holds gains into close; Iran/Gulf oil headlines and yields; next session Thu data/earnings (WMT, BABA, INTU); PANW AH reaction and cyber sector.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-18T21:19:32Z",
+        "pulse": "Nasdaq closed +0.4% while S&P slipped ~0.2% and Dow fell 1.1% as NVDA faded -2.9% post-beat, FOMC minutes showed nearly all officials see further hikes (some open to 50bp), oil plunged on inventories, and Anthropic priced above range for Thursday open.",
+        "bias": "mixed — selective AI/consumer and cyber strength supports NQ but hawkish Fed minutes, NVDA sell-the-news, energy/healthcare drag, elevated yields >5%, and residual Iran-oil risks keep broader risk-off tone",
+        "items": [
+          "@RonenTzirin (~4:19 PM ET): Wall Street split — Nasdaq 100 +0.4%, S&P -0.3%, Dow -1.1%; NVDA -2.9%, health care/energy weak, consumer/cyber strong; Anthropic pricing tonight",
+          "@The_Retest (~4:18 PM ET): NVDA beat then fell from +2.7% to -3.1%; closes Dow -1.12%, S&P -0.24%, Nasdaq +0.39%; Fed minutes a few argued for 50bp if inflation unfavorable",
+          "@RomeInvests (~4:15 PM ET): $ANT priced at $83 above $70-78 range, ~$1.5T valuation, trading starts tomorrow on Nasdaq",
+          "@FuturesWire (~4:15 PM ET): Nasdaq ends higher as stocks tumble post-NVDA; AI bubble concerns, Fed hike talk, gold -3.2%",
+          "@Akatricapital (~4:18 PM ET): NVDA revenue beat by $6.7B to $115.8B but stock -2.89%; selling empty CEO chair after Huang exit"
+        ],
+        "trump": "At APEC in China for Trump-Xi-Putin meetings on Iran, Hormuz oil flows, and trade; some reports of Trump-Vance friction on Iran approach.",
+        "watch": "Thursday: Anthropic (ANT) first trade and open reaction for AI sentiment; Walmart earnings for consumer read; 8:30 AM ET jobless claims and Philly Fed; oil/Iran headlines, 10Y yields, whether NQ can hold above recent lows or AI fade continues.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-18T21:30:54Z",
+        "pulse": "NQ snapped its 4-day skid (NDX +0.42%, Comp +0.36%) on AMD/AVGO and cyber strength led by PANW, offset by NVDA's -2.9% sell-the-news, hawkish FOMC minutes/Fed talk of a 50bp hike and 10Y ~5.07%, while S&P fell a 5th day and Dow -1.1% on health insurers.",
+        "bias": "mixed — PANW beat-and-raise (+7-8% AH) and oil -3% help tech, but hawkish Fed (bigger Dec hike chatter), 10Y >5%, NVDA fade and Anthropic IPO supply cap upside",
+        "items": [
+          "@FirstSquawk (~4:01 PM ET): Nasdaq Comp +0.36% to 24,415.93, S&P -0.25% to 7,322.19, Dow -1.12% to 50,189.14 (unofficial); VIX ~24.5 — Mixed NQ",
+          "@InvestingDesk (~4:08 PM ET): PANW AMC beat — EPS $1.05 vs $0.97, rev $3.44B vs $3.31B (+39% y/y), FY27 rev guide $14.52-14.57B vs $14.16B est; ~+7-8% AH after +10.6% day, plus $4.5B Applied Compute deal (@FirstSquawk 4:04 PM) — Bullish NQ",
+          "@DeItaone (~4:07 PM ET): Anthropic prices IPO at $83/share, ~$1.5T valuation (@WatcherGuru 4:17 PM), first trade Thursday; @zerohedge flags 'Anthropic overhang' — Mixed NQ",
+          "@Geo_News_Alert_ (~4:30 PM ET): FOMC minutes plus Waller/Barr/Kashkari flag a possible bigger-than-25bp Dec hike; 10Y ~5.07% (@BSDMarkets 4:22 PM) — Bearish NQ",
+          "@zerohedge (~4:06 PM ET): IRGC says 3 more tankers on fire in Hormuz area; WTI still settled -3.2% at $83.26 on a 3.38M bbl crude build, Brent $91.95 — Mixed NQ"
+        ],
+        "trump": "Admin weighs new penalties on China over jailed Americans (ABC via @LiveSquawk ~3:59 PM ET) while Trump is at APEC in Shenzhen — US-China trade headline risk.",
+        "watch": "Thu Nov 19: WMT BMO (7 AM ET release, 8 AM call), BABA BMO (7 AM call); 8:30 AM ET jobless claims + Philly Fed; Anthropic (ANT) first trade on Nasdaq; INTU AMC; Hormuz tanker/Iran headlines; 10Y above 5%.",
+        "forSite": []
+      }
+    ]
   }
 }
