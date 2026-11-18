@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T17:21:08Z",
+  "updatedAt": "2026-11-18T17:52:12Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -92,9 +92,9 @@
     {
       "id": "fed-all",
       "label": "Federal Reserve",
-      "ok": false,
-      "items": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "ok": true,
+      "items": 20,
+      "error": null
     },
     {
       "id": "fed-monetary",
@@ -228,6 +228,18 @@
       "auto": true
     },
     {
+      "id": "ff546eef554b4",
+      "headline": "Three killed as Israel launches first ground push since ‘ceasefire’ began",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/18/palestinians-flee-refugee-camp-as-israel-begins-operation-in-central-gaza?traffic_source=rss",
+      "publishedAt": "2026-11-18T14:39:09Z",
+      "time": "Wed 9:39 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": "mixed",
+      "auto": true
+    },
+    {
       "id": "f2f8af6ac9f57",
       "headline": "IEA chief sees no 'credible pathway' back to pre-war normality in the Strait of Hormuz",
       "source": "CNBC",
@@ -306,18 +318,6 @@
       "url": "https://www.aljazeera.com/economy/2026/11/17/iraq-pm-heads-to-lebanon-amid-push-to-explore-oil-routes-beyond-hormuz?traffic_source=rss",
       "publishedAt": "2026-11-17T17:34:27Z",
       "time": "Tue 12:34 PM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "f55198e27dbc2",
-      "headline": "Brent Stuck Near $93 as Hormuz Tanker Attacks Offset Gulf Export Surge",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Energy/Energy-General/Brent-Stuck-Near-93-as-Hormuz-Tanker-Attacks-Offset-Gulf-Export-Surge.html",
-      "publishedAt": "2026-11-17T16:00:00Z",
-      "time": "Tue 11:00 AM",
       "section": "war",
       "impact": "High",
       "lean": "risk-off",
@@ -564,24 +564,24 @@
       "auto": true
     },
     {
-      "id": "fd98aa7cb827b",
-      "headline": "Anthropic IPO: AI lab considers increasing the offering as investor demand surges, sources say",
+      "id": "f1979cb363a3f",
+      "headline": "Nvidia sinks after earnings, dragging down neoclouds CoreWeave, Iren",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html",
-      "publishedAt": "2026-11-18T17:17:44Z",
-      "time": "Wed 12:17 PM",
+      "url": "https://www.cnbc.com/2026/11/18/nvidia-stock-earnings.html",
+      "publishedAt": "2026-11-18T17:35:27Z",
+      "time": "Wed 12:35 PM",
       "section": "tech",
       "impact": "High",
       "lean": null,
       "auto": true
     },
     {
-      "id": "f09ec25bb3fe8",
-      "headline": "Nvidia sinks after earnings, dragging down neoclouds",
+      "id": "fd98aa7cb827b",
+      "headline": "Anthropic IPO: AI lab considers increasing the offering as investor demand surges, sources say",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/18/nvidia-stock-earnings.html",
-      "publishedAt": "2026-11-18T15:48:12Z",
-      "time": "Wed 10:48 AM",
+      "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html",
+      "publishedAt": "2026-11-18T17:17:44Z",
+      "time": "Wed 12:17 PM",
       "section": "tech",
       "impact": "High",
       "lean": null,
@@ -696,6 +696,18 @@
       "auto": true
     },
     {
+      "id": "fb8ca6a2282c3",
+      "headline": "Mozambique Approves Exxon’s Redesigned $30 Billion Rovuma LNG Plan",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Mozambique-Approves-Exxons-Redesigned-30-Billion-Rovuma-LNG-Plan.html",
+      "publishedAt": "2026-11-18T17:30:00Z",
+      "time": "Wed 12:30 PM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "f42b6ef47d144",
       "headline": "US Oil Inventories On the Rise",
       "source": "OilPrice",
@@ -786,18 +798,6 @@
       "url": "https://oilprice.com/Energy/Energy-General/Cubas-Energy-Crisis-Turns-Into-a-Goldmine-for-US-Fuel-Exporters.html",
       "publishedAt": "2026-11-17T23:00:00Z",
       "time": "Tue 6:00 PM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "fccdc2e64ab88",
-      "headline": "API Shows Substantial Crude Oil, Gasoline Inventory Builds",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/API-Shows-Substantial-Crude-Oil-Gasoline-Inventory-Builds.html",
-      "publishedAt": "2026-11-17T21:58:00Z",
-      "time": "Tue 4:58 PM",
       "section": "energy",
       "impact": "Medium",
       "lean": null,
