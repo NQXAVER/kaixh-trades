@@ -1,17 +1,17 @@
 {
   "date": "2026-11-18",
-  "at": "2026-11-18T12:31:33Z",
-  "pulse": "NQ +0.9% premarket (~27,300) as NVDA's $115.8B beat / $130B guide pauses a 4-day selloff, offset by Iran strikes on Kuwait/Bahrain, 7.35% mortgage rates and hawkish Fed pricing into 2 PM FOMC minutes.",
-  "bias": "risk-on — NVDA beat-and-raise relief lifts semis/AI premarket (NVDA ~+3% to ~$160), but Iran-Gulf escalation, NVDA China chip halt and hawkish Fed pricing into the 2 PM minutes cap the bounce",
+  "at": "2026-11-18T14:26:35Z",
+  "pulse": "NQ holds ~+0.9% premarket into the open on NVDA's beat-and-raise (NVDA ~+3%, GOOGL +1%), offset by Waller reprising a 50bp hike call, Street adding Fed hikes and new Commerce AI-compute rules ahead of 2 PM FOMC minutes.",
+  "bias": "risk-on — NVDA relief bid lifts semis/AI into the open, but hawkish Fed talk (Waller 50bp, Danske 3 hikes), new Commerce compute rules and Iran-Gulf risk cap it into the 2 PM minutes",
   "items": [
-    "@DeItaone (~6:55 AM ET): ES +0.40%, NQ +0.88%, YM +0.06% premarket after the NVDA print — Bullish NQ",
-    "@unusual_whales (~5:17 AM ET): Iran launched strikes on Kuwait and Bahrain (WSJ); Iran claims hits on US drone/missile sites at Ali Al Salem (@FirstSquawk ~10:59 PM), yet WTI slid to $84.74 and Brent to $91.83 overnight — Mixed NQ",
-    "@unusual_whales (~5:27 AM ET): NVDA has stopped shipping US-approved AI chips to China (Reuters); @WatcherGuru (~5:56 AM): Chinese military seeking NVDA's top AI chips — Bearish NQ",
-    "@FirstSquawk (~6:31 AM ET): TGT Q3 adj EPS $2.65 vs $2.08 est, sales $27.07B vs $26.53B, comps +5.6%; LOW (~6:05 AM) comps +1.8% vs +0.37%, FY sales $92.5B (saw $92B) — Bullish NQ",
-    "@DeItaone (~7:01 AM ET): MBA 30Y mortgage rate +14bp to 7.35%, apps -2.3%; ECB's Vujcic says Dec hike 'very likely' (@FirstSquawk ~7:03 AM) — Bearish NQ"
+    "@zerohedge (~8:09 AM ET): premarket Mag7 mostly higher — NVDA +3%, GOOGL +1%, TSLA +0.9%, AMZN +0.5%, MSFT flat, META -0.1%, AAPL -0.2%; AI infra (AVGO, CRWV) bid — Bullish NQ",
+    "@LiveSquawk (~8:30 AM ET): Oct housing starts 1.309M vs 1.25M est (+9.9% m/m), permits 1.295M vs 1.375M est (-7.4%) — Mixed NQ",
+    "@DeItaone (~8:54 AM ET): Commerce Dept setting new rules to stop foreign actors leveraging US-tech advanced computing power (Federal Register) — Bearish NQ",
+    "@FirstSquawk (~9:03 AM ET): ByteDance in advanced talks to spend extra $500M on MSFT cloud (The Information) — Bullish NQ",
+    "@zerohedge (~9:25 AM ET): Fed's Waller reprises 50bp hike call; @DeItaone (~8:43 AM) Danske adds a 3rd Fed hike, sees 4.50-4.75% by Mar 2027 — Bearish NQ"
   ],
-  "trump": "In Shenzhen for APEC, greeted by Xi (@WhiteHouse ~7:23 AM ET); first-ever Trump-Xi-Putin trilateral meeting (@unusual_whales ~7:20 AM); admin weighing rules forcing US companies to disclose use of Chinese AI models (Reuters via @LiveSquawk ~6:01 AM); says Washington is 'doing very well' on Iran (@FirstSquawk ~10:38 PM).",
-  "watch": "8:30 AM ET Housing Starts/Permits; 9:30 open — does NQ hold the NVDA gap; 2:00 PM ET FOMC minutes (hike pricing); PANW AMC; Anthropic IPO pricing ahead of Nasdaq debut; Trump-Xi APEC headlines; Iran/Gulf oil headlines; Thu: WMT and BABA BMO, INTU AMC.",
+  "trump": "At APEC in China: will meet Putin individually (AP via @FirstSquawk ~9:23 AM ET), on top of the Trump-Xi-Putin trilateral; Mexico's Sheinbaum says a US trade deal is 'well advanced' (@DeItaone ~9:09 AM ET).",
+  "watch": "9:30 AM ET open — does NQ hold the NVDA gap; 2:00 PM ET FOMC minutes (hike pricing, Waller 50bp talk); PANW AMC (call 4:30 PM); Anthropic (ANT) IPO pricing guided above range; Trump-Xi/Putin APEC headlines; Iran/Gulf oil headlines; Thu: WMT and BABA BMO, INTU AMC.",
   "forSite": [],
   "reports": [
     {
@@ -42,6 +42,21 @@
       ],
       "trump": "In Shenzhen for APEC, greeted by Xi (@WhiteHouse ~7:23 AM ET); first-ever Trump-Xi-Putin trilateral meeting (@unusual_whales ~7:20 AM); admin weighing rules forcing US companies to disclose use of Chinese AI models (Reuters via @LiveSquawk ~6:01 AM); says Washington is 'doing very well' on Iran (@FirstSquawk ~10:38 PM).",
       "watch": "8:30 AM ET Housing Starts/Permits; 9:30 open — does NQ hold the NVDA gap; 2:00 PM ET FOMC minutes (hike pricing); PANW AMC; Anthropic IPO pricing ahead of Nasdaq debut; Trump-Xi APEC headlines; Iran/Gulf oil headlines; Thu: WMT and BABA BMO, INTU AMC.",
+      "forSite": []
+    },
+    {
+      "at": "2026-11-18T14:26:35Z",
+      "pulse": "NQ holds ~+0.9% premarket into the open on NVDA's beat-and-raise (NVDA ~+3%, GOOGL +1%), offset by Waller reprising a 50bp hike call, Street adding Fed hikes and new Commerce AI-compute rules ahead of 2 PM FOMC minutes.",
+      "bias": "risk-on — NVDA relief bid lifts semis/AI into the open, but hawkish Fed talk (Waller 50bp, Danske 3 hikes), new Commerce compute rules and Iran-Gulf risk cap it into the 2 PM minutes",
+      "items": [
+        "@zerohedge (~8:09 AM ET): premarket Mag7 mostly higher — NVDA +3%, GOOGL +1%, TSLA +0.9%, AMZN +0.5%, MSFT flat, META -0.1%, AAPL -0.2%; AI infra (AVGO, CRWV) bid — Bullish NQ",
+        "@LiveSquawk (~8:30 AM ET): Oct housing starts 1.309M vs 1.25M est (+9.9% m/m), permits 1.295M vs 1.375M est (-7.4%) — Mixed NQ",
+        "@DeItaone (~8:54 AM ET): Commerce Dept setting new rules to stop foreign actors leveraging US-tech advanced computing power (Federal Register) — Bearish NQ",
+        "@FirstSquawk (~9:03 AM ET): ByteDance in advanced talks to spend extra $500M on MSFT cloud (The Information) — Bullish NQ",
+        "@zerohedge (~9:25 AM ET): Fed's Waller reprises 50bp hike call; @DeItaone (~8:43 AM) Danske adds a 3rd Fed hike, sees 4.50-4.75% by Mar 2027 — Bearish NQ"
+      ],
+      "trump": "At APEC in China: will meet Putin individually (AP via @FirstSquawk ~9:23 AM ET), on top of the Trump-Xi-Putin trilateral; Mexico's Sheinbaum says a US trade deal is 'well advanced' (@DeItaone ~9:09 AM ET).",
+      "watch": "9:30 AM ET open — does NQ hold the NVDA gap; 2:00 PM ET FOMC minutes (hike pricing, Waller 50bp talk); PANW AMC (call 4:30 PM); Anthropic (ANT) IPO pricing guided above range; Trump-Xi/Putin APEC headlines; Iran/Gulf oil headlines; Thu: WMT and BABA BMO, INTU AMC.",
       "forSite": []
     }
   ]
