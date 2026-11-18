@@ -1,6 +1,6 @@
 {
   "date": "2026-11-17",
-  "at": "2026-11-17T21:29:20Z",
+  "at": "2026-11-18T01:31:17Z",
   "items": [
     {
       "ticker": "TSN",
@@ -36,7 +36,7 @@
       "date": "2026-11-17",
       "when": "AMC",
       "status": "reported",
-      "reaction": "+2-4% AH (~$159)",
+      "reaction": "+4% AH (NQ futs +1.4%)",
       "sentiment": "Bullish",
       "why": "Q3 adj EPS $2.68 vs $2.48 est, rev $115.8B (+103% y/y) vs $109.3B, Data Center $107.6B vs $101.9B, adj GM 74.9%; Q4 rev guide $127.4-132.6B vs $125.25B est; $150B buyback; SEC probe headline weighs on the move."
     },
