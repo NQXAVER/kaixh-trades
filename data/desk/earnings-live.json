@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-17",
-  "at": "2026-11-18T03:33:02Z",
+  "date": "2026-11-18",
+  "at": "2026-11-18T12:31:33Z",
   "items": [
     {
       "ticker": "TSN",
@@ -36,7 +36,7 @@
       "date": "2026-11-17",
       "when": "AMC",
       "status": "reported",
-      "reaction": "+4-5% AH (NQ futs +1.6% early, ~+0.5% by 10:30 PM ET)",
+      "reaction": "+4-5% AH; ~+3% premarket (~$160 vs $155.46 close)",
       "sentiment": "Bullish",
       "why": "Q3 adj EPS $2.68 vs $2.48 est, rev $115.8B (+103% y/y) vs $109.3B, Data Center $107.6B vs $101.9B, adj GM 74.9%; Q4 rev guide $127.4-132.6B vs $125.25B est; $150B buyback; SEC probe headline weighs on the move."
     },
@@ -45,8 +45,9 @@
       "company": "Lowe’s (LOW)",
       "date": "2026-11-18",
       "when": "BMO",
-      "status": "upcoming",
-      "why": "Q3; consensus EPS ~$2.86; call 9 AM ET"
+      "status": "reported",
+      "why": "Q3 adj EPS $3.10 vs $2.92 est, comps +1.8% vs +0.37% est; FY sales lifted to $92.5B (saw $92B, est $92.22B), FY adj EPS still ~$12.25 vs $12.35 est. Housing read, small NQ weight.",
+      "sentiment": "Mixed"
     },
     {
       "ticker": "PANW",
@@ -61,8 +62,9 @@
       "company": "Target (TGT)",
       "date": "2026-11-18",
       "when": "BMO",
-      "status": "upcoming",
-      "why": "Q3; consensus EPS ~$2.03; call 8 AM ET; consumer read"
+      "status": "reported",
+      "why": "Q3 adj EPS $2.65 vs $2.08 est, sales $27.07B vs $26.53B, comps +5.6% vs +3.66% est, GM 30.5% vs 28.2% y/y; sees FY net sales growth ~6%. Strong consumer read.",
+      "sentiment": "Bullish"
     },
     {
       "ticker": "BABA",

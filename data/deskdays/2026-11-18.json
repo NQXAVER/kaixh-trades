@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-18",
+  "grok": {
+    "date": "2026-11-18",
+    "at": "2026-11-18T12:31:33Z",
+    "pulse": "NQ +0.9% premarket (~27,300) as NVDA's $115.8B beat / $130B guide pauses a 4-day selloff, offset by Iran strikes on Kuwait/Bahrain, 7.35% mortgage rates and hawkish Fed pricing into 2 PM FOMC minutes.",
+    "bias": "risk-on — NVDA beat-and-raise relief lifts semis/AI premarket (NVDA ~+3% to ~$160), but Iran-Gulf escalation, NVDA China chip halt and hawkish Fed pricing into the 2 PM minutes cap the bounce",
+    "items": [
+      "@DeItaone (~6:55 AM ET): ES +0.40%, NQ +0.88%, YM +0.06% premarket after the NVDA print — Bullish NQ",
+      "@unusual_whales (~5:17 AM ET): Iran launched strikes on Kuwait and Bahrain (WSJ); Iran claims hits on US drone/missile sites at Ali Al Salem (@FirstSquawk ~10:59 PM), yet WTI slid to $84.74 and Brent to $91.83 overnight — Mixed NQ",
+      "@unusual_whales (~5:27 AM ET): NVDA has stopped shipping US-approved AI chips to China (Reuters); @WatcherGuru (~5:56 AM): Chinese military seeking NVDA's top AI chips — Bearish NQ",
+      "@FirstSquawk (~6:31 AM ET): TGT Q3 adj EPS $2.65 vs $2.08 est, sales $27.07B vs $26.53B, comps +5.6%; LOW (~6:05 AM) comps +1.8% vs +0.37%, FY sales $92.5B (saw $92B) — Bullish NQ",
+      "@DeItaone (~7:01 AM ET): MBA 30Y mortgage rate +14bp to 7.35%, apps -2.3%; ECB's Vujcic says Dec hike 'very likely' (@FirstSquawk ~7:03 AM) — Bearish NQ"
+    ],
+    "trump": "In Shenzhen for APEC, greeted by Xi (@WhiteHouse ~7:23 AM ET); first-ever Trump-Xi-Putin trilateral meeting (@unusual_whales ~7:20 AM); admin weighing rules forcing US companies to disclose use of Chinese AI models (Reuters via @LiveSquawk ~6:01 AM); says Washington is 'doing very well' on Iran (@FirstSquawk ~10:38 PM).",
+    "watch": "8:30 AM ET Housing Starts/Permits; 9:30 open — does NQ hold the NVDA gap; 2:00 PM ET FOMC minutes (hike pricing); PANW AMC; Anthropic IPO pricing ahead of Nasdaq debut; Trump-Xi APEC headlines; Iran/Gulf oil headlines; Thu: WMT and BABA BMO, INTU AMC.",
+    "forSite": [],
+    "reports": [
+      {
+        "at": "2026-11-18T12:00:00Z",
+        "pulse": "NQ and ES futures higher premarket on Nvidia's strong $130B Q4 guide lifting AI sentiment after Tuesday's four-day cash decline, with oil softer near $83 amid mixed Iran/Hormuz tensions ahead of FOMC minutes.",
+        "bias": "mixed — NVDA/AI rebound and futures bid vs. near-certain December hike pricing into today's 2PM ET FOMC minutes and residual Iran oil risks",
+        "items": [
+          "@funding4trdrs (~7:00 AM ET): Pre-market alerts for ES/NQ — housing starts/permits 8:30 AM, FOMC minutes 2PM ET critical catalyst; protocol is flatten before release",
+          "@JoshTradeOption (~7:00 AM ET): AVGO up further premarket on NVDA $115.8B beat/$130B guide; watching if AI pop holds past open and through Fed minutes",
+          "@2xnmore (~7:00 AM ET): Anthropic IPO pricing today for Thu Nasdaq debut as ANT targeting up to $1.4T; highlights circular AI supplier funding and limited governance",
+          "@quantalg0 (~12:12 AM ET): NQ bounced from ~26,650 to 27,450 but still under MAs after NVDA; CL lower near $84.5, FOMC minutes Wednesday key",
+          "Market wraps (~premarket): NQ futures +1.2%, ES +0.6% on NVDA; WTI ~$83 down ~2%, Dec hike 100% priced; Iran claims Patriot hits in Kuwait"
+        ],
+        "trump": "none",
+        "watch": "FOMC minutes reaction at 2:00 PM ET; Anthropic IPO pricing and AI sentiment; whether NQ holds the overnight gap into the 9:30 open; Iran/Hormuz oil headlines and yields.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-18T12:31:33Z",
+        "pulse": "NQ +0.9% premarket (~27,300) as NVDA's $115.8B beat / $130B guide pauses a 4-day selloff, offset by Iran strikes on Kuwait/Bahrain, 7.35% mortgage rates and hawkish Fed pricing into 2 PM FOMC minutes.",
+        "bias": "risk-on — NVDA beat-and-raise relief lifts semis/AI premarket (NVDA ~+3% to ~$160), but Iran-Gulf escalation, NVDA China chip halt and hawkish Fed pricing into the 2 PM minutes cap the bounce",
+        "items": [
+          "@DeItaone (~6:55 AM ET): ES +0.40%, NQ +0.88%, YM +0.06% premarket after the NVDA print — Bullish NQ",
+          "@unusual_whales (~5:17 AM ET): Iran launched strikes on Kuwait and Bahrain (WSJ); Iran claims hits on US drone/missile sites at Ali Al Salem (@FirstSquawk ~10:59 PM), yet WTI slid to $84.74 and Brent to $91.83 overnight — Mixed NQ",
+          "@unusual_whales (~5:27 AM ET): NVDA has stopped shipping US-approved AI chips to China (Reuters); @WatcherGuru (~5:56 AM): Chinese military seeking NVDA's top AI chips — Bearish NQ",
+          "@FirstSquawk (~6:31 AM ET): TGT Q3 adj EPS $2.65 vs $2.08 est, sales $27.07B vs $26.53B, comps +5.6%; LOW (~6:05 AM) comps +1.8% vs +0.37%, FY sales $92.5B (saw $92B) — Bullish NQ",
+          "@DeItaone (~7:01 AM ET): MBA 30Y mortgage rate +14bp to 7.35%, apps -2.3%; ECB's Vujcic says Dec hike 'very likely' (@FirstSquawk ~7:03 AM) — Bearish NQ"
+        ],
+        "trump": "In Shenzhen for APEC, greeted by Xi (@WhiteHouse ~7:23 AM ET); first-ever Trump-Xi-Putin trilateral meeting (@unusual_whales ~7:20 AM); admin weighing rules forcing US companies to disclose use of Chinese AI models (Reuters via @LiveSquawk ~6:01 AM); says Washington is 'doing very well' on Iran (@FirstSquawk ~10:38 PM).",
+        "watch": "8:30 AM ET Housing Starts/Permits; 9:30 open — does NQ hold the NVDA gap; 2:00 PM ET FOMC minutes (hike pricing); PANW AMC; Anthropic IPO pricing ahead of Nasdaq debut; Trump-Xi APEC headlines; Iran/Gulf oil headlines; Thu: WMT and BABA BMO, INTU AMC.",
+        "forSite": []
+      }
+    ]
+  }
+}
