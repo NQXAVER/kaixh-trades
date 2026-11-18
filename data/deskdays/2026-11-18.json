@@ -1,18 +1,18 @@
 {
   "date": "2026-11-18",
   "grok": {
-    "at": "2026-11-18T14:44:02Z",
-    "pulse": "Nasdaq futures and open higher ~0.5-1% on Nvidia's beat and $130B guidance lifting AI trade, while broader market remains mixed with Dow lagging, 10Y yields ~5.1%, and FOMC minutes due at 2 PM ET amid Iran/oil tensions.",
-    "bias": "mixed — NVDA/AI relief bid supports NQ/ES but hawkish Fed hike pricing, elevated yields, strong DXY, and residual Iran-Gulf oil risks prevent broad risk-on",
+    "at": "2026-11-18T21:19:32Z",
+    "pulse": "Nasdaq closed +0.4% while S&P slipped ~0.2% and Dow fell 1.1% as NVDA faded -2.9% post-beat, FOMC minutes showed nearly all officials see further hikes (some open to 50bp), oil plunged on inventories, and Anthropic priced above range for Thursday open.",
+    "bias": "mixed — selective AI/consumer and cyber strength supports NQ but hawkish Fed minutes, NVDA sell-the-news, energy/healthcare drag, elevated yields >5%, and residual Iran-oil risks keep broader risk-off tone",
     "items": [
-      "@0xkyliekim (~9:40 AM ET): NVDA beat lifts Nasdaq ~+0.6% / S&P barely green near 7350 but not broad risk-on; BTC lagging, yields ~5.1%, DXY strong, VIX still elevated",
-      "@sekardreams (~9:43 AM ET): Nasdaq futures up after NVDA beat but Bitcoin not following, with US spot BTC ETF outflows $240M Tuesday",
-      "@tereasienn (~9:43 AM ET): Opening bell Nasdaq +0.5%, S&P barely green, Dow -0.4%; NVDA carrying tech but Waller 50bp talk and 10Y >5% weigh",
-      "Market wraps (~premarket/open): NQ futures +0.5-1.2% on NVDA $115.8B beat/$130B guide; WTI oil ~$83-85 softer; Dec Fed hike highly priced",
-      "@naro007mag / geopolitics: Iran-related PAC-3 stocks used; Trump-Xi APEC discussions on Hormuz/oil ongoing"
+      "@RonenTzirin (~4:19 PM ET): Wall Street split — Nasdaq 100 +0.4%, S&P -0.3%, Dow -1.1%; NVDA -2.9%, health care/energy weak, consumer/cyber strong; Anthropic pricing tonight",
+      "@The_Retest (~4:18 PM ET): NVDA beat then fell from +2.7% to -3.1%; closes Dow -1.12%, S&P -0.24%, Nasdaq +0.39%; Fed minutes a few argued for 50bp if inflation unfavorable",
+      "@RomeInvests (~4:15 PM ET): $ANT priced at $83 above $70-78 range, ~$1.5T valuation, trading starts tomorrow on Nasdaq",
+      "@FuturesWire (~4:15 PM ET): Nasdaq ends higher as stocks tumble post-NVDA; AI bubble concerns, Fed hike talk, gold -3.2%",
+      "@Akatricapital (~4:18 PM ET): NVDA revenue beat by $6.7B to $115.8B but stock -2.89%; selling empty CEO chair after Huang exit"
     ],
-    "trump": "At APEC in China for Trump-Xi-Putin meetings focused on Iran war, Hormuz oil flows, and trade; recent comments on not needing Iran deal but seeking resolution via China leverage.",
-    "watch": "2:00 PM ET FOMC minutes for hike path signals; Anthropic IPO pricing and AI sentiment expansion beyond NVDA; whether NQ holds gains into close; Iran/Gulf oil headlines and yields; next session Thu data/earnings (WMT, BABA, INTU).",
+    "trump": "At APEC in China for Trump-Xi-Putin meetings on Iran, Hormuz oil flows, and trade; some reports of Trump-Vance friction on Iran approach.",
+    "watch": "Thursday: Anthropic (ANT) first trade and open reaction for AI sentiment; Walmart earnings for consumer read; 8:30 AM ET jobless claims and Philly Fed; oil/Iran headlines, 10Y yields, whether NQ can hold above recent lows or AI fade continues.",
     "forSite": []
   }
 }
