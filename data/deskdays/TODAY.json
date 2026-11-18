@@ -1,18 +1,18 @@
 {
-  "date": "2026-11-17",
+  "date": "2026-11-18",
   "grok": {
-    "at": "2026-11-18T01:16:18Z",
-    "pulse": "Nasdaq and S&P closed lower for a fourth straight day amid AI leadership concerns and hawkish Fed pricing, but Nvidia's blowout $115.8B revenue beat and $130B guide has shares up after hours, offering a potential offset into the next session.",
-    "bias": "mixed — strong NVDA beat and buyback support tech/AI sentiment after hours, but multi-day selloff, elevated VIX, 10y near 5.1% with near-certain Dec hike, and residual Iran/Hormuz risks keep overall pressure risk-off leaning",
+    "at": "2026-11-18T12:00:00Z",
+    "pulse": "NQ and ES futures higher premarket on Nvidia's strong $130B Q4 guide lifting AI sentiment after Tuesday's four-day cash decline, with oil softer near $83 amid mixed Iran/Hormuz tensions ahead of FOMC minutes.",
+    "bias": "mixed — NVDA/AI rebound and futures bid vs. near-certain December hike pricing into today's 2PM ET FOMC minutes and residual Iran oil risks",
     "items": [
-      "@eightcap_global (~8:13 PM ET): Nvidia reported $115.84bn revenue and guided next quarter toward $130bn following Jensen Huang’s departure; Nasdaq touched a 7-month low, oil rebounded toward $86 amid ME tensions",
-      "@gluber (~8:13 PM ET): Jensen Huang officially not returning (board confirmed); NVDA Q3 $115.8B (+103% YoY), Q4 guide $130B; Anthropic set for Nasdaq debut Nov 19 as ANT targeting up to $1.4T valuation",
-      "@SignalMkts (~8:14 PM ET): Rough day Dow -860pts (-1.7%), S&P -1.0%, Nasdaq -0.7%; then NVDA $115.8B +103% y/y, next Fed minutes Wed, Anthropic IPO this week",
-      "@quantalg0 (~7:12 PM ET): NQ bounced from ~26,650 to 27,450 but remains under pressure below MAs; NVDA beat but leadership questions linger, FOMC minutes Wed key",
-      "Market wraps (~close): SPX ~7,340 (-1%), NDX ~27,002 (-0.7%), WTI settled ~$86.01, Brent ~$93.1 on choppy Iran/Hormuz headlines despite de-escalation signals"
+      "@funding4trdrs (~7:00 AM ET): Pre-market alerts for ES/NQ — housing starts/permits 8:30 AM, FOMC minutes 2PM ET critical catalyst; protocol is flatten before release",
+      "@JoshTradeOption (~7:00 AM ET): AVGO up further premarket on NVDA $115.8B beat/$130B guide; watching if AI pop holds past open and through Fed minutes",
+      "@2xnmore (~7:00 AM ET): Anthropic IPO pricing today for Thu Nasdaq debut as ANT targeting up to $1.4T; highlights circular AI supplier funding and limited governance",
+      "@quantalg0 (~12:12 AM ET): NQ bounced from ~26,650 to 27,450 but still under MAs after NVDA; CL lower near $84.5, FOMC minutes Wednesday key",
+      "Market wraps (~premarket): NQ futures +1.2%, ES +0.6% on NVDA; WTI ~$83 down ~2%, Dec hike 100% priced; Iran claims Patriot hits in Kuwait"
     ],
-    "trump": "In Manila for ASEAN/Quad summit; VP JD Vance signals Washington wants to avoid prolonged Iran war, reducing some oil risk premium; no major new market-moving remarks post-close.",
-    "watch": "NVDA after-hours reaction and any remaining call commentary into Wed open; FOMC minutes Wednesday 2PM ET; Anthropic IPO pricing/listing this week (ANT); Iran/Hormuz oil headlines overnight; yields and VIX reaction to NVDA beat.",
+    "trump": "none",
+    "watch": "FOMC minutes reaction at 2:00 PM ET; Anthropic IPO pricing and AI sentiment; whether NQ holds the overnight gap into the 9:30 open; Iran/Hormuz oil headlines and yields.",
     "forSite": []
   }
 }
