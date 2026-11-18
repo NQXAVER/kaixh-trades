@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T18:16:52Z",
+  "updatedAt": "2026-11-18T01:10:58Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -204,6 +204,18 @@
   ],
   "items": [
     {
+      "id": "ffceb2b448852",
+      "headline": "Whistleblower: Deadly drone strike in Kuwait could’ve been avoided",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/17/whistleblower-deadly-drone-strike-in-kuwait-couldve-been-avoided?traffic_source=rss",
+      "publishedAt": "2026-11-17T21:14:31Z",
+      "time": "Tue 4:14 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
       "id": "ff10dd83fe66d",
       "headline": "Iraqi PM heads to Lebanon amid push to explore oil routes beyond Hormuz",
       "source": "Al Jazeera",
@@ -312,18 +324,6 @@
       "auto": true
     },
     {
-      "id": "f9dc9467d085f",
-      "headline": "Oil tankers hit sea mines in the Strait of Hormuz",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/oil-tankers-hit-sea-mines-in-the-strait-of-hormuz?traffic_source=rss",
-      "publishedAt": "2026-11-16T15:37:49Z",
-      "time": "Mon 10:37 AM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
       "id": "f99b1c2fe8fc1",
       "headline": "St. Louis Fed's Musalem says four more rate hikes may be needed in coming months",
       "source": "CNBC",
@@ -360,6 +360,30 @@
       "auto": true
     },
     {
+      "id": "f5456129e7c7c",
+      "headline": "US Fed’s Lisa Cook refuses to attend White House hearing",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/economy/2026/11/17/us-feds-lisa-cook-refuses-to-attend-white-house-hearing?traffic_source=rss",
+      "publishedAt": "2026-11-17T22:01:27Z",
+      "time": "Tue 5:01 PM",
+      "section": "fed",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fc58ce61b848d",
+      "headline": "Fed Governor Cook Won’t Attend White House Hearing Without Changes",
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/2026/11/17/business/economy/fed-governor-lisa-cook-trump-white-house-hearing.html",
+      "publishedAt": "2026-11-17T20:14:54Z",
+      "time": "Tue 3:14 PM",
+      "section": "fed",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "f4f49110f1416",
       "headline": "Lisa Cook lawyer signals Fed governor won't attend Trump committee's hearing",
       "source": "CNBC",
@@ -384,18 +408,6 @@
       "auto": true
     },
     {
-      "id": "fc58ce61b848d",
-      "headline": "Fed Governor Cook Won’t Attend White House Hearing Without Changes",
-      "source": "New York Times",
-      "url": "https://www.nytimes.com/2026/11/17/business/economy/fed-governor-lisa-cook-trump-white-house-hearing.html",
-      "publishedAt": "2026-11-17T15:10:40Z",
-      "time": "Tue 10:10 AM",
-      "section": "fed",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
       "id": "f8b81c684482c",
       "headline": "Fed Chairman Highlights Economic Uncertainty of A.I. Boom",
       "source": "New York Times",
@@ -403,6 +415,18 @@
       "publishedAt": "2026-11-16T21:08:30Z",
       "time": "Mon 4:08 PM",
       "section": "fed",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fda1a0f722d58",
+      "headline": "Carney looks to China as Trump tariffs squeeze Canada's car industry",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cq98xlz09ye0o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-11-17T18:58:57Z",
+      "time": "Tue 1:58 PM",
+      "section": "econ",
       "impact": "Medium",
       "lean": null,
       "auto": true
@@ -504,6 +528,54 @@
       "auto": true
     },
     {
+      "id": "fe71e34d3096e",
+      "headline": "Nvidia says it won't reinstate Huang as firm reports bumper results",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-11-18T00:28:01Z",
+      "time": "Tue 7:28 PM",
+      "section": "tech",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fa472e10c1882",
+      "headline": "Nvidia doubles revenue as board says it does not intend to reinstate Jensen Huang",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/technology/2026/nov/17/nvidia-third-quarter-revenue-jensen-huang",
+      "publishedAt": "2026-11-17T23:32:16Z",
+      "time": "Tue 6:32 PM",
+      "section": "tech",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fbd8d437e95d0",
+      "headline": "Nvidia closes lower ahead of earnings as company reels from Huang resignation",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/17/nvidia-stock-earnings-jensen-huang-resignation.html",
+      "publishedAt": "2026-11-17T21:05:24Z",
+      "time": "Tue 4:05 PM",
+      "section": "tech",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f84ae6200c885",
+      "headline": "Stocks Down Just Ahead of Nvidia’s Earnings Report",
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/2026/11/17/business/economy/stock-market-nvidia-earnings.html",
+      "publishedAt": "2026-11-17T20:38:02Z",
+      "time": "Tue 3:38 PM",
+      "section": "tech",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "f4f76732e5f26",
       "headline": "Altimeter's Brad Gerstner aims to invest $5 billion in Anthropic IPO",
       "source": "CNBC",
@@ -576,54 +648,6 @@
       "auto": true
     },
     {
-      "id": "f40fdef677446",
-      "headline": "Nvidia's Kress faces earnings test after stock drags Wall Street into the red",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/17/nvidias-kress-faces-earnings-test-after-stock-drags-wall-street-into-the-red.html",
-      "publishedAt": "2026-11-17T11:04:17Z",
-      "time": "Tue 6:04 AM",
-      "section": "tech",
-      "impact": "High",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f0782308f8038",
-      "headline": "Anthropic IPO guide: Everything you need to know",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/16/anthropic-ipo-date-price-range.html",
-      "publishedAt": "2026-11-16T18:27:56Z",
-      "time": "Mon 1:27 PM",
-      "section": "tech",
-      "impact": "High",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f237c118a61f5",
-      "headline": "Altimeter's Brad Gerstner investing $5 billion in Anthropic IPO",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/16/altimeters-brad-gerstner-investing-5-billion-in-anthropic-ipo.html",
-      "publishedAt": "2026-11-16T17:50:45Z",
-      "time": "Mon 12:50 PM",
-      "section": "tech",
-      "impact": "High",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "fafbb2c268525",
-      "headline": "Nvidia is gearing up for one of Wall Street’s most anticipated earnings calls in years",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/nvidia-is-gearing-up-for-one-of-wall-streets-most-anticipated-earnings-calls-in-years-91855b1e?mod=mw_rss_topstories",
-      "publishedAt": "2026-11-16T16:37:00Z",
-      "time": "Mon 11:37 AM",
-      "section": "tech",
-      "impact": "High",
-      "lean": null,
-      "auto": true
-    },
-    {
       "id": "f018b1cdc863d",
       "headline": "Heating oil prices are up 59% from last winter. The spike is 'crushing folks,' Maine nonprofit says",
       "source": "CNBC",
@@ -632,6 +656,66 @@
       "time": "Sat 9:30 AM",
       "section": "energy",
       "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f5d278db9ef4e",
+      "headline": "5 Oil and Gas Stocks That Crushed Third-Quarter Earnings Estimates",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Energy/Crude-Oil/5-Oil-and-Gas-Stocks-That-Crushed-Third-Quarter-Earnings-Estimates.html",
+      "publishedAt": "2026-11-18T01:00:00Z",
+      "time": "Tue 8:00 PM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f0bd8e3dc2e0c",
+      "headline": "Europe’s LNG Scramble Sends Shockwaves Through Asian Gas Markets",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Energy/Energy-General/Europes-LNG-Scramble-Sends-Shockwaves-Through-Asian-Gas-Markets.html",
+      "publishedAt": "2026-11-18T00:00:00Z",
+      "time": "Tue 7:00 PM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f3ce7242778b8",
+      "headline": "Cuba’s Energy Crisis Turns Into a Goldmine for U.S. Fuel Exporters",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Energy/Energy-General/Cubas-Energy-Crisis-Turns-Into-a-Goldmine-for-US-Fuel-Exporters.html",
+      "publishedAt": "2026-11-17T23:00:00Z",
+      "time": "Tue 6:00 PM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fccdc2e64ab88",
+      "headline": "API Shows Substantial Crude Oil, Gasoline Inventory Builds",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/API-Shows-Substantial-Crude-Oil-Gasoline-Inventory-Builds.html",
+      "publishedAt": "2026-11-17T21:58:00Z",
+      "time": "Tue 4:58 PM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f345ecdd70c1a",
+      "headline": "‘Zero transparency’: Inside Trump’s plans for Venezuela’s oil money",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/17/zero-transparency-inside-trumps-plans-for-venezuelas-oil-money?traffic_source=rss",
+      "publishedAt": "2026-11-17T21:26:42Z",
+      "time": "Tue 4:26 PM",
+      "section": "energy",
+      "impact": "Medium",
       "lean": null,
       "auto": true
     },
@@ -678,66 +762,6 @@
       "url": "https://oilprice.com/Latest-Energy-News/World-News/Kazakhstan-Unveils-85-Million-Oil-and-Gas-Manufacturing-Push.html",
       "publishedAt": "2026-11-17T15:30:00Z",
       "time": "Tue 10:30 AM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f7628ff7109da",
-      "headline": "India Gives Green Light to Commercial Sustainable Jet Fuel Production",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/India-Gives-Green-Light-to-Commercial-Sustainable-Jet-Fuel-Production.html",
-      "publishedAt": "2026-11-17T11:15:00Z",
-      "time": "Tue 6:15 AM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f49faf97df100",
-      "headline": "Japan Proposes an 'Asian IEA' to Protect Oil Supplies",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Japan-Proposes-an-Asian-IEA-to-Protect-Oil-Supplies.html",
-      "publishedAt": "2026-11-17T08:45:00Z",
-      "time": "Tue 3:45 AM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f57d33b094cac",
-      "headline": "Why Iraq Just Fast-Tracked Chevron’s Takeover Of A 14-Billion-Barrel Supergiant",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Energy/Energy-General/Why-Iraq-Just-Fast-Tracked-Chevrons-Takeover-Of-A-14-Billion-Barrel-Supergiant.html",
-      "publishedAt": "2026-11-17T01:00:00Z",
-      "time": "Mon 8:00 PM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f8d4670832f5e",
-      "headline": "Airlines Face Fuel Crisis as Price Hedges Expire",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Energy/Energy-General/Airlines-Face-Fuel-Crisis-as-Price-Hedges-Expire.html",
-      "publishedAt": "2026-11-17T00:00:00Z",
-      "time": "Mon 7:00 PM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f77c108deb14b",
-      "headline": "U.S. crude oil declines to $85 a barrel on recovering Middle East exports",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/16/us-crude-oil-declines-to-87-a-barrel-on-recovering-middle-east-exports.html",
-      "publishedAt": "2026-11-16T22:19:02Z",
-      "time": "Mon 5:19 PM",
       "section": "energy",
       "impact": "Medium",
       "lean": null,
