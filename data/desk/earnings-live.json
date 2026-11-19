@@ -1,6 +1,6 @@
 {
   "date": "2026-11-19",
-  "at": "2026-11-19T12:33:06Z",
+  "at": "2026-11-19T14:34:31Z",
   "items": [
     {
       "ticker": "TSN",
@@ -79,22 +79,22 @@
       "why": "Rev ¥271.5B (+10% y/y) beat ~¥269.8B est; adj EPS ¥8.10 vs ~¥10.7 est miss; AI cloud +53% to ¥61B; AI spend keeps free cash flow negative."
     },
     {
+      "ticker": "WMT",
+      "company": "Walmart (WMT)",
+      "date": "2026-11-19",
+      "when": "BMO",
+      "status": "reported",
+      "reaction": "-0.7% premarket, down as much as -3.2% after the open",
+      "sentiment": "Mixed",
+      "why": "Adj EPS $0.65 vs $0.64, rev $188.84B vs ~$187.2B beat; US comp ex-gas +2.9%; FY adj EPS raised to $2.84-2.89 from $2.80-2.87, midpoint still under the Street."
+    },
+    {
       "ticker": "INTU",
       "company": "Intuit (INTU)",
       "date": "2026-11-19",
       "when": "AMC",
       "status": "upcoming",
       "why": "FQ1; software read"
-    },
-    {
-      "ticker": "WMT",
-      "company": "Walmart (WMT)",
-      "date": "2026-11-19",
-      "when": "BMO",
-      "status": "reported",
-      "reaction": "-0.7% premarket",
-      "sentiment": "Mixed",
-      "why": "Adj EPS $0.65 vs $0.64, rev $188.84B vs ~$187.2B beat; US comp ex-gas +2.9%; FY adj EPS raised to $2.84-2.89 from $2.80-2.87, midpoint still under the Street."
     },
     {
       "ticker": "DELL",

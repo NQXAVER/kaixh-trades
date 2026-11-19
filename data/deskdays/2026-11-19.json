@@ -1,18 +1,81 @@
 {
   "date": "2026-11-19",
   "grok": {
-    "at": "2026-11-19T14:25:55Z",
-    "pulse": "NQ futures surging ~2% and ES ~1.2% premarket as Anthropic's record IPO prices at $83 and begins trading on Nasdaq today, reviving AI sentiment after a multi-day S&P losing streak despite hawkish FOMC signals and Iran/Hormuz oil risks.",
-    "bias": "risk-on — Anthropic debut euphoria and tech/AI bid drive the gap higher, outweighing residual Fed hike risks, NVDA leadership overhang, and ongoing geopolitical tensions",
+    "date": "2026-11-19",
+    "at": "2026-11-19T14:34:31Z",
+    "pulse": "NQ opened ~+1.6% (Nasdaq +1.59% at 9:30) on Anthropic IPO-day AI FOMO, offset by hawkish Fed/AI-inflation talk, 10y ~5.08%, a Philly Fed miss and fresh Iran/Hormuz headlines.",
+    "bias": "risk-on — Anthropic (ANT) debut euphoria and tech bid lift NQ off yesterday's lows, but 5%+ 10y yields, Jefferson's AI-inflation warning and Hormuz risk cap conviction; half of big gaps get faded early.",
     "items": [
-      "@FlowStateOfMind (~7:47 AM ET): Anthropic IPO priced at $83 above range, Nasdaq futures +2% / S&P +1.2% as tech rips into the open",
-      "@flexfutures_ (~8:12 AM ET): NQ surging 2.17% on the Anthropic IPO with yields cooling",
-      "@lonelyRaph (~9:25 AM ET): Premarket green led by tech — NQ +1.89%, ES +1.05%, VIX offered; jobless claims 203k vs 197k est",
-      "@salihenergy (~9:23 AM ET): Iran reports more tanker mines around Hormuz; Trump-Xi-Putin discussed keeping oil flowing through the strait at Shenzhen summit",
-      "@futureseagleeye (~9:25 AM ET): NQ key level 27605 for bullish/bearish open; watch reclaim for potential rally toward 28530"
+      "@DeItaone (~9:30 AM ET): US stocks extend gains, Nasdaq +1.59% at the open; ANT expected to start trading ~10 AM ET — Bullish NQ",
+      "@FirstSquawk (~8:31 AM ET): Jobless claims 203K vs 198K est; continuing 1.763M (+70K); Philly Fed 6.3 vs 20.1 est (big miss) — Mixed NQ",
+      "@DeItaone (~9:25 AM ET): Fed VC Jefferson warns AI investment boom is fueling inflation; 10y +1.85bp to 5.085%, 2y 4.832% — Bearish NQ",
+      "@FirstSquawk (~9:29 AM ET): IRGC says Iran won't discuss nuclear file until Hormuz is resolved; zerohedge flags days-long strike campaign on table — Bearish NQ",
+      "@WatcherGuru (~5:43 AM ET): Samsung and TSMC suspend some chip shipments to China after new US restrictions; Asian chips sold off overnight — Mixed NQ"
     ],
-    "trump": "Trump, Xi and Putin discussed Hormuz oil flows and broader energy supply at APEC trilateral in Shenzhen; Trump has warned Iran over unconventional threats while calling prior MOU a waste of time.",
-    "watch": "Anthropic (ANT) first trade and open reaction on Nasdaq (AI valuation test and whether NQ holds the gap); any further Hormuz/Iran headlines and oil response; residual Fed speaker comments and whether the risk-on holds into the close.",
-    "forSite": []
+    "trump": "Trump linked Iran to chemical/biological weapons with a days-long strike campaign reportedly on the table (zerohedge 9:05 AM ET); Denmark ratified Trump's Greenland deal; Trump said deportation policies \"might be too tough\".",
+    "watch": "ANT first trade ~10:00 AM ET (quotation 9:50); Fed speakers incl. Jefferson follow-through; Iran/Hormuz headlines and CL; INTU AMC today; WMT holding red after beat-and-raise; DELL/HPQ AMC Nov 24.",
+    "forSite": [],
+    "reports": [
+      {
+        "at": "2026-11-19T12:00:00Z",
+        "pulse": "NQ and ES futures jump 1-2% into the open on Anthropic's record $83 IPO debut and AI sentiment revival, tempered by hawkish FOMC minutes aftermath, Iran-Kuwait tensions and yields near 5%.",
+        "bias": "mixed — AI/IPO euphoria and semis bid lift NQ but residual Fed hike risks, geopolitics and NVDA leadership overhang keep broader caution",
+        "items": [
+          "@Joshuatrader1 (~7:00 AM ET): Futures jump on Anthropic's record $83 IPO debut as Nasdaq leads; S&P eyes bounce after 5 straight losses",
+          "@Forbes / market (~6:25 AM ET): Nasdaq 100 futures ~+2.1% to 27,766 ahead of ANT debut; NVDA +1.8% premarket with semis bid",
+          "@PanoramaDirecto (~7:00 AM ET): Iran attacks US air base in Kuwait — residual geopolitical risk",
+          "@WorldwideNNX (~7:00 AM ET): Anthropic starts trading today on Nasdaq under ANT at $83 (~$1.5T val), largest IPO ever",
+          "@Iverson_web3 (~7:00 AM ET): Nasdaq futures ~+2.3% premarket on ANT pricing, NVDA +2.2%; notes yesterday's similar pop faded into close"
+        ],
+        "trump": "Flying back from China after historic APEC meeting with Putin and Xi; discussed Ukraine war and nuclear arms, says things are happening on Ukraine end and open dialogue.",
+        "watch": "Thu Nov 19: Anthropic (ANT) first trade and open reaction on Nasdaq for AI valuation test; WMT and BABA BMO earnings; 8:30 AM ET jobless claims + Philly Fed; Iran/Kuwait headlines and oil reaction; whether NQ holds the overnight gap and 10Y stays near 5%.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-19T12:33:06Z",
+        "pulse": "NQ futures ~+2% premarket (Nasdaq-100 +2.15% per Reuters) on Anthropic's record $83 IPO debut lifting AI/semis (GOOGL, AMD, AVGO, MU bid); offsets are the NVDA leadership overhang, new US chip curbs halting some Samsung/TSMC China shipments, and Hormuz tanker mine strikes keeping Brent ~$92.",
+        "bias": "risk-on — ANT debut euphoria and a semis bid drive the gap up after five red S&P days, but Wednesday's NVDA pop faded into the close and Hormuz/Crimea headlines can cap it",
+        "items": [
+          "@DeItaone (~7:13 AM ET): $ANT Anthropic IPO set to open on Nasdaq ~10:00 AM ET (quotation 9:50), priced $83 above the $70-78 range; gray market indicated +22-26% (@unusual_whales 6:17 AM) — Bullish NQ",
+          "@WatcherGuru (~5:43 AM ET): Samsung and TSMC suspend some chip shipments to China after new US restrictions — Bearish NQ",
+          "X News (~7:28 AM ET): IRGC says supertankers carrying 4M+ bbl hit mines in the Strait of Hormuz; Brent ~$92.2, WTI ~$83.2 (@DepartmentofOil 7:05 AM) — Bearish NQ",
+          "@FirstSquawk (~7:05 AM ET): WMT Q3 adj EPS 65c vs 64c est, rev $188.84B vs $187.17B, FY adj EPS raised to $2.84-2.89; WMT ~-0.7% pre — Mixed NQ",
+          "@LiveSquawk (~7:08 AM ET): Alibaba CEO: AI product revenue run-rate >$10B; BABA rev beat, adj EPS miss, cloud +53%, ~+2.6% pre — Mixed NQ"
+        ],
+        "trump": "Trump, Xi and Putin held the first-ever trilateral at APEC in Shenzhen (@WhiteHouse 12:29 AM ET); Putin: 'I have no doubt that Trump is genuinely committed to resolving the Ukrainian conflict' (6:57 AM ET), but vowed 'much more painful' retaliation for the Crimean bridge strike (7:17 AM ET). Trump on Fox warned Iran over unconventional (gas/biological) threats and called the prior Iran MOU 'a waste of time'.",
+        "watch": "8:30 AM ET weekly jobless claims + Philly Fed; 9:50-10:00 AM ET ANT first trade (AI valuation test, watch NQ hold the gap); INTU AMC tonight; Hormuz/oil and Russia-Ukraine retaliation headlines; Tue Nov 24 DELL and HPQ AMC.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-19T14:25:55Z",
+        "pulse": "NQ futures surging ~2% and ES ~1.2% premarket as Anthropic's record IPO prices at $83 and begins trading on Nasdaq today, reviving AI sentiment after a multi-day S&P losing streak despite hawkish FOMC signals and Iran/Hormuz oil risks.",
+        "bias": "risk-on — Anthropic debut euphoria and tech/AI bid drive the gap higher, outweighing residual Fed hike risks, NVDA leadership overhang, and ongoing geopolitical tensions",
+        "items": [
+          "@FlowStateOfMind (~7:47 AM ET): Anthropic IPO priced at $83 above range, Nasdaq futures +2% / S&P +1.2% as tech rips into the open",
+          "@flexfutures_ (~8:12 AM ET): NQ surging 2.17% on the Anthropic IPO with yields cooling",
+          "@lonelyRaph (~9:25 AM ET): Premarket green led by tech — NQ +1.89%, ES +1.05%, VIX offered; jobless claims 203k vs 197k est",
+          "@salihenergy (~9:23 AM ET): Iran reports more tanker mines around Hormuz; Trump-Xi-Putin discussed keeping oil flowing through the strait at Shenzhen summit",
+          "@futureseagleeye (~9:25 AM ET): NQ key level 27605 for bullish/bearish open; watch reclaim for potential rally toward 28530"
+        ],
+        "trump": "Trump, Xi and Putin discussed Hormuz oil flows and broader energy supply at APEC trilateral in Shenzhen; Trump has warned Iran over unconventional threats while calling prior MOU a waste of time.",
+        "watch": "Anthropic (ANT) first trade and open reaction on Nasdaq (AI valuation test and whether NQ holds the gap); any further Hormuz/Iran headlines and oil response; residual Fed speaker comments and whether the risk-on holds into the close.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-19T14:34:31Z",
+        "pulse": "NQ opened ~+1.6% (Nasdaq +1.59% at 9:30) on Anthropic IPO-day AI FOMO, offset by hawkish Fed/AI-inflation talk, 10y ~5.08%, a Philly Fed miss and fresh Iran/Hormuz headlines.",
+        "bias": "risk-on — Anthropic (ANT) debut euphoria and tech bid lift NQ off yesterday's lows, but 5%+ 10y yields, Jefferson's AI-inflation warning and Hormuz risk cap conviction; half of big gaps get faded early.",
+        "items": [
+          "@DeItaone (~9:30 AM ET): US stocks extend gains, Nasdaq +1.59% at the open; ANT expected to start trading ~10 AM ET — Bullish NQ",
+          "@FirstSquawk (~8:31 AM ET): Jobless claims 203K vs 198K est; continuing 1.763M (+70K); Philly Fed 6.3 vs 20.1 est (big miss) — Mixed NQ",
+          "@DeItaone (~9:25 AM ET): Fed VC Jefferson warns AI investment boom is fueling inflation; 10y +1.85bp to 5.085%, 2y 4.832% — Bearish NQ",
+          "@FirstSquawk (~9:29 AM ET): IRGC says Iran won't discuss nuclear file until Hormuz is resolved; zerohedge flags days-long strike campaign on table — Bearish NQ",
+          "@WatcherGuru (~5:43 AM ET): Samsung and TSMC suspend some chip shipments to China after new US restrictions; Asian chips sold off overnight — Mixed NQ"
+        ],
+        "trump": "Trump linked Iran to chemical/biological weapons with a days-long strike campaign reportedly on the table (zerohedge 9:05 AM ET); Denmark ratified Trump's Greenland deal; Trump said deportation policies \"might be too tough\".",
+        "watch": "ANT first trade ~10:00 AM ET (quotation 9:50); Fed speakers incl. Jefferson follow-through; Iran/Hormuz headlines and CL; INTU AMC today; WMT holding red after beat-and-raise; DELL/HPQ AMC Nov 24.",
+        "forSite": []
+      }
+    ]
   }
 }
