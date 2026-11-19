@@ -1,18 +1,18 @@
 {
   "date": "2026-11-18",
   "grok": {
-    "at": "2026-11-19T01:11:22Z",
-    "pulse": "Nasdaq closed +0.4% while S&P slipped 0.2% and Dow fell 1.1% as hawkish FOMC minutes and NVDA's -2.9% sell-the-news offset selective AI/cyber strength from PANW and Anthropic's above-range IPO pricing, with oil dropping ~3% on crude inventory builds despite Iran/Hormuz tensions.",
-    "bias": "mixed — selective AI, cyber (PANW) and consumer bid supports NQ but hawkish Fed minutes (some open to 50bp Dec hike), NVDA fade, 10Y ~5.07%, and residual Iran-oil risks keep broader caution",
+    "at": "2026-11-19T03:04:00Z",
+    "pulse": "NQ and ES futures stabilize higher overnight after Wednesday's mixed close (Nasdaq +0.4%, S&P -0.2% fifth loss) as Anthropic's $83 IPO pricing and residual AI/cyber strength from PANW offset hawkish FOMC minutes and yields near 5.07% amid Iran/Hormuz oil risks.",
+    "bias": "mixed — selective AI/IPO and cyber bid supports NQ but hawkish Fed minutes (some open to 50bp Dec hike), elevated 10Y, NVDA leadership overhang and S&P losing streak keep broader caution",
     "items": [
-      "@DinmaScoop (~4:58 PM ET): US stocks closed mixed — Dow -1.1%, S&P -0.2%, Nasdaq +0.4% as investors digested NVDA beat alongside hawkish Fed minutes; NVDA shares declined on leadership uncertainty",
-      "@ren_stocks (~8:09 PM ET quoting Kalshi): Fed minutes indicate rate hike larger than 25bps may be appropriate in December (10% chance priced); markets debate necessity given oil drop and other data",
-      "@gluber / market (~8:10 PM ET): Anthropic priced IPO at $83/share above $70-78 range, ~$1.5T valuation, largest ever, trading Thursday on Nasdaq as ANT; retail demand strong",
-      "@RomeInvests / closes (~4:15 PM ET): NVDA beat then fell ~3%; FOMC minutes showed nearly all officials expect more hikes, some argued for 50bp if inflation unfavorable",
-      "@zerohedge / energy (~4:06 PM ET): IRGC claims more tankers on fire in Hormuz but WTI settled -3% on 5M+ barrel crude build, tempering geopolitical premium"
+      "@holantei (~10:00 PM ET): ES & NQ 1H likely path — evening rip spent, both rejected off supply; NQ fade from 27428 toward 27300/27175, ES from 7379 toward 7360/7340",
+      "@quantalg0 (~12:03 AM ET): Equities attempt to stabilise — NQ back toward 27500 from 26658 low, ES ~7376; CL down to ~82, gold to 3741 on hawkish minutes and yields",
+      "@Tickeron (~3:50 PM PT / evening): Futures for Thursday — Nasdaq ~+0.96%, S&P ~+0.45% after Wednesday closes mixed with Dow -1.1%; PANW AH +8-10% on beat",
+      "Market / Anthropic: Priced IPO at $83 above $70-78 range (~$1.5T), set to debut Thursday on Nasdaq as ANT; retail allocation up to 20%",
+      "Energy / Iran: WTI ~$83 on inventory builds tempering Hormuz tanker incidents and Iran tensions; gold lower on hawkish Fed"
     ],
-    "trump": "Trump says he can handle Iran, oil is moving through channels, wants a deal that supersedes future presidents; in Shenzhen for Trump-Xi-Putin APEC meeting covering Iran, arms control and trade.",
-    "watch": "Thursday Nov 19: Anthropic (ANT) first trade and open reaction for AI valuation test; WMT and BABA earnings BMO; 8:30 AM ET jobless claims and Philly Fed; Trump-Xi-Putin outcomes on Iran/trade/chips; oil/Iran headlines and whether 10Y stays above 5%.",
+    "trump": "Trump grows frustrated with Vance over Iran war critique (NYT reports); ongoing APEC meetings with Xi and Putin covering Iran, arms control and trade.",
+    "watch": "Thursday Nov 19 session: Anthropic (ANT) first trade and open reaction as AI valuation test; WMT and BABA earnings BMO; 8:30 AM ET jobless claims and Philly Fed; oil/Iran-Hormuz headlines; whether 10Y holds above 5% and NQ sustains the overnight bid.",
     "forSite": []
   }
 }
