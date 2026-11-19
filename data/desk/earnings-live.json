@@ -1,6 +1,6 @@
 {
   "date": "2026-11-19",
-  "at": "2026-11-19T14:34:31Z",
+  "at": "2026-11-19T21:28:21Z",
   "items": [
     {
       "ticker": "TSN",
@@ -93,8 +93,18 @@
       "company": "Intuit (INTU)",
       "date": "2026-11-19",
       "when": "AMC",
-      "status": "upcoming",
-      "why": "FQ1; software read"
+      "status": "reported",
+      "sentiment": "Mixed",
+      "why": "FQ1 rev $4.35B vs $4.31B est, adj EPS $2.62 vs $2.46 est, adj op income $941M vs $907.9M; agreed to sell Mailchimp to Bending Spoons for $3.68B EV. After-hours move not confirmed yet."
+    },
+    {
+      "ticker": "ROST",
+      "company": "Ross Stores (ROST)",
+      "date": "2026-11-19",
+      "when": "AMC",
+      "status": "reported",
+      "sentiment": "Mixed",
+      "why": "Q3 sales $6.3B vs $6.24B est, EPS $1.91 vs $1.58 y/y, comps +8% vs +7.4% est; Q4 EPS guide $2.16-2.25 vs prior $2.17-2.26. Small NQ weight."
     },
     {
       "ticker": "DELL",
