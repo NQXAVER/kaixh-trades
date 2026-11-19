@@ -2,18 +2,18 @@
   "date": "2026-11-18",
   "grok": {
     "date": "2026-11-18",
-    "at": "2026-11-18T21:30:54Z",
-    "pulse": "NQ snapped its 4-day skid (NDX +0.42%, Comp +0.36%) on AMD/AVGO and cyber strength led by PANW, offset by NVDA's -2.9% sell-the-news, hawkish FOMC minutes/Fed talk of a 50bp hike and 10Y ~5.07%, while S&P fell a 5th day and Dow -1.1% on health insurers.",
-    "bias": "mixed — PANW beat-and-raise (+7-8% AH) and oil -3% help tech, but hawkish Fed (bigger Dec hike chatter), 10Y >5%, NVDA fade and Anthropic IPO supply cap upside",
+    "at": "2026-11-19T01:35:12Z",
+    "pulse": "NQ futures +1.3-1.5% in the evening session on Anthropic's above-range $83 IPO pricing (~$1.5T, trades Thu as ANT) and PANW's beat-and-raise, offset by hawkish FOMC minutes (50bp Dec hike floated), 10Y ~5.07% and a hawkish BOJ Ueda — last night's similar overnight pop was fully given back.",
+    "bias": "mixed — AI/IPO euphoria and cyber strength lift NQ overnight, but hawkish Fed/BOJ, 10Y above 5%, NVDA leadership overhang and an S&P on a 5-day losing streak cap conviction",
     "items": [
-      "@FirstSquawk (~4:01 PM ET): Nasdaq Comp +0.36% to 24,415.93, S&P -0.25% to 7,322.19, Dow -1.12% to 50,189.14 (unofficial); VIX ~24.5 — Mixed NQ",
-      "@InvestingDesk (~4:08 PM ET): PANW AMC beat — EPS $1.05 vs $0.97, rev $3.44B vs $3.31B (+39% y/y), FY27 rev guide $14.52-14.57B vs $14.16B est; ~+7-8% AH after +10.6% day, plus $4.5B Applied Compute deal (@FirstSquawk 4:04 PM) — Bullish NQ",
-      "@DeItaone (~4:07 PM ET): Anthropic prices IPO at $83/share, ~$1.5T valuation (@WatcherGuru 4:17 PM), first trade Thursday; @zerohedge flags 'Anthropic overhang' — Mixed NQ",
-      "@Geo_News_Alert_ (~4:30 PM ET): FOMC minutes plus Waller/Barr/Kashkari flag a possible bigger-than-25bp Dec hike; 10Y ~5.07% (@BSDMarkets 4:22 PM) — Bearish NQ",
-      "@zerohedge (~4:06 PM ET): IRGC says 3 more tankers on fire in Hormuz area; WTI still settled -3.2% at $83.26 on a 3.38M bbl crude build, Brent $91.95 — Mixed NQ"
+      "@CedarMarkets (~8:10 PM ET): Nasdaq futures +1.3% ahead of Anthropic's debut after the S&P 500's fifth straight loss — Bullish NQ",
+      "@insiderwave (~4:33 PM ET): PANW +7% AH (after +9.9% close) — rev $3.44B vs $3.31B est, adj EPS $1.05 vs $0.97, FY guide raised, $4.5B Applied Compute deal — Bullish NQ",
+      "@WatcherGuru (~8:10 PM ET): Trump says NVDA founder Jensen Huang is a \"brilliant man\" and \"can't be replaced\" — Mixed NQ",
+      "@FirstSquawk (~8:08 PM ET): BOJ's Ueda says rates expected to rise further, underlying inflation may overshoot target — Bearish NQ",
+      "@FirstSquawk (~8:06-8:09 PM ET): Shanghai copper -4%, nickel -3%; spot gold +~1% to $3,756 — Mixed NQ (growth worry/haven bid)"
     ],
-    "trump": "Admin weighs new penalties on China over jailed Americans (ABC via @LiveSquawk ~3:59 PM ET) while Trump is at APEC in Shenzhen — US-China trade headline risk.",
-    "watch": "Thu Nov 19: WMT BMO (7 AM ET release, 8 AM call), BABA BMO (7 AM call); 8:30 AM ET jobless claims + Philly Fed; Anthropic (ANT) first trade on Nasdaq; INTU AMC; Hormuz tanker/Iran headlines; 10Y above 5%.",
+    "trump": "Trump on NVDA's Jensen Huang: a \"brilliant man\" who \"can't be replaced\" (via @WatcherGuru ~8:10 PM ET) — keeps NVDA leadership question in focus after the board ruled out his return.",
+    "watch": "Thu Nov 19: WMT and BABA BMO (~7 AM ET); 8:30 AM ET jobless claims + Philly Fed; Anthropic (ANT) first trade on Nasdaq — AI valuation test; INTU AMC; whether 10Y holds above 5% after hawkish minutes; oil/Iran-Hormuz headlines; Ueda/BOJ follow-through overnight.",
     "forSite": [],
     "reports": [
       {
@@ -120,6 +120,36 @@
         ],
         "trump": "Admin weighs new penalties on China over jailed Americans (ABC via @LiveSquawk ~3:59 PM ET) while Trump is at APEC in Shenzhen — US-China trade headline risk.",
         "watch": "Thu Nov 19: WMT BMO (7 AM ET release, 8 AM call), BABA BMO (7 AM call); 8:30 AM ET jobless claims + Philly Fed; Anthropic (ANT) first trade on Nasdaq; INTU AMC; Hormuz tanker/Iran headlines; 10Y above 5%.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-19T01:11:22Z",
+        "pulse": "Nasdaq closed +0.4% while S&P slipped 0.2% and Dow fell 1.1% as hawkish FOMC minutes and NVDA's -2.9% sell-the-news offset selective AI/cyber strength from PANW and Anthropic's above-range IPO pricing, with oil dropping ~3% on crude inventory builds despite Iran/Hormuz tensions.",
+        "bias": "mixed — selective AI, cyber (PANW) and consumer bid supports NQ but hawkish Fed minutes (some open to 50bp Dec hike), NVDA fade, 10Y ~5.07%, and residual Iran-oil risks keep broader caution",
+        "items": [
+          "@DinmaScoop (~4:58 PM ET): US stocks closed mixed — Dow -1.1%, S&P -0.2%, Nasdaq +0.4% as investors digested NVDA beat alongside hawkish Fed minutes; NVDA shares declined on leadership uncertainty",
+          "@ren_stocks (~8:09 PM ET quoting Kalshi): Fed minutes indicate rate hike larger than 25bps may be appropriate in December (10% chance priced); markets debate necessity given oil drop and other data",
+          "@gluber / market (~8:10 PM ET): Anthropic priced IPO at $83/share above $70-78 range, ~$1.5T valuation, largest ever, trading Thursday on Nasdaq as ANT; retail demand strong",
+          "@RomeInvests / closes (~4:15 PM ET): NVDA beat then fell ~3%; FOMC minutes showed nearly all officials expect more hikes, some argued for 50bp if inflation unfavorable",
+          "@zerohedge / energy (~4:06 PM ET): IRGC claims more tankers on fire in Hormuz but WTI settled -3% on 5M+ barrel crude build, tempering geopolitical premium"
+        ],
+        "trump": "Trump says he can handle Iran, oil is moving through channels, wants a deal that supersedes future presidents; in Shenzhen for Trump-Xi-Putin APEC meeting covering Iran, arms control and trade.",
+        "watch": "Thursday Nov 19: Anthropic (ANT) first trade and open reaction for AI valuation test; WMT and BABA earnings BMO; 8:30 AM ET jobless claims and Philly Fed; Trump-Xi-Putin outcomes on Iran/trade/chips; oil/Iran headlines and whether 10Y stays above 5%.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-19T01:35:12Z",
+        "pulse": "NQ futures +1.3-1.5% in the evening session on Anthropic's above-range $83 IPO pricing (~$1.5T, trades Thu as ANT) and PANW's beat-and-raise, offset by hawkish FOMC minutes (50bp Dec hike floated), 10Y ~5.07% and a hawkish BOJ Ueda — last night's similar overnight pop was fully given back.",
+        "bias": "mixed — AI/IPO euphoria and cyber strength lift NQ overnight, but hawkish Fed/BOJ, 10Y above 5%, NVDA leadership overhang and an S&P on a 5-day losing streak cap conviction",
+        "items": [
+          "@CedarMarkets (~8:10 PM ET): Nasdaq futures +1.3% ahead of Anthropic's debut after the S&P 500's fifth straight loss — Bullish NQ",
+          "@insiderwave (~4:33 PM ET): PANW +7% AH (after +9.9% close) — rev $3.44B vs $3.31B est, adj EPS $1.05 vs $0.97, FY guide raised, $4.5B Applied Compute deal — Bullish NQ",
+          "@WatcherGuru (~8:10 PM ET): Trump says NVDA founder Jensen Huang is a \"brilliant man\" and \"can't be replaced\" — Mixed NQ",
+          "@FirstSquawk (~8:08 PM ET): BOJ's Ueda says rates expected to rise further, underlying inflation may overshoot target — Bearish NQ",
+          "@FirstSquawk (~8:06-8:09 PM ET): Shanghai copper -4%, nickel -3%; spot gold +~1% to $3,756 — Mixed NQ (growth worry/haven bid)"
+        ],
+        "trump": "Trump on NVDA's Jensen Huang: a \"brilliant man\" who \"can't be replaced\" (via @WatcherGuru ~8:10 PM ET) — keeps NVDA leadership question in focus after the board ruled out his return.",
+        "watch": "Thu Nov 19: WMT and BABA BMO (~7 AM ET); 8:30 AM ET jobless claims + Philly Fed; Anthropic (ANT) first trade on Nasdaq — AI valuation test; INTU AMC; whether 10Y holds above 5% after hawkish minutes; oil/Iran-Hormuz headlines; Ueda/BOJ follow-through overnight.",
         "forSite": []
       }
     ]

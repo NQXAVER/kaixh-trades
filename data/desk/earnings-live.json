@@ -1,6 +1,6 @@
 {
   "date": "2026-11-18",
-  "at": "2026-11-18T21:30:54Z",
+  "at": "2026-11-19T01:35:12Z",
   "items": [
     {
       "ticker": "TSN",
@@ -56,7 +56,7 @@
       "when": "AMC",
       "status": "reported",
       "why": "FQ1 adj EPS $1.05 vs $0.97 est, rev $3.44B (+39% y/y) vs $3.31B, NGS ARR $9.73B (+66%); FY27 rev guide raised to $14.52-14.57B vs $14.16B est, EPS $4.26-4.30 vs $4.18; $4.5B Applied Compute buy. Cyber/software lift.",
-      "reaction": "~+7-8% AH (after +10.6% regular session)",
+      "reaction": "+7% AH (after +9.9% regular-session close Nov 18)",
       "sentiment": "Bullish"
     },
     {
