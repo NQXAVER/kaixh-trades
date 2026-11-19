@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T17:26:35Z",
+  "updatedAt": "2026-11-19T18:02:12Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -712,8 +712,8 @@
       "headline": "Major Powers Vow to Increase Oil Supply Amid Global Energy Transition",
       "source": "New York Times",
       "url": "https://www.nytimes.com/2026/11/19/world/asia/russia-china-united-states-oil-joint-statement.html",
-      "publishedAt": "2026-11-19T16:44:53Z",
-      "time": "Thu 11:44 AM",
+      "publishedAt": "2026-11-19T17:25:17Z",
+      "time": "Thu 12:25 PM",
       "section": "energy",
       "impact": "Medium",
       "lean": null,
