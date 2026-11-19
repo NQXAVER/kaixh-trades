@@ -1,18 +1,18 @@
 {
   "date": "2026-11-18",
   "grok": {
-    "at": "2026-11-18T12:00:00Z",
-    "pulse": "NQ and ES futures higher premarket on Nvidia's strong $130B Q4 guide lifting AI sentiment after Tuesday's four-day cash decline, with oil softer near $83 amid mixed Iran/Hormuz tensions ahead of FOMC minutes.",
-    "bias": "mixed — NVDA/AI rebound and futures bid vs. near-certain December hike pricing into today's 2PM ET FOMC minutes and residual Iran oil risks",
+    "at": "2026-11-19T01:11:22Z",
+    "pulse": "Nasdaq closed +0.4% while S&P slipped 0.2% and Dow fell 1.1% as hawkish FOMC minutes and NVDA's -2.9% sell-the-news offset selective AI/cyber strength from PANW and Anthropic's above-range IPO pricing, with oil dropping ~3% on crude inventory builds despite Iran/Hormuz tensions.",
+    "bias": "mixed — selective AI, cyber (PANW) and consumer bid supports NQ but hawkish Fed minutes (some open to 50bp Dec hike), NVDA fade, 10Y ~5.07%, and residual Iran-oil risks keep broader caution",
     "items": [
-      "@funding4trdrs (~7:00 AM ET): Pre-market alerts for ES/NQ — housing starts/permits 8:30 AM, FOMC minutes 2PM ET critical catalyst; protocol is flatten before release",
-      "@JoshTradeOption (~7:00 AM ET): AVGO up further premarket on NVDA $115.8B beat/$130B guide; watching if AI pop holds past open and through Fed minutes",
-      "@2xnmore (~7:00 AM ET): Anthropic IPO pricing today for Thu Nasdaq debut as ANT targeting up to $1.4T; highlights circular AI supplier funding and limited governance",
-      "@quantalg0 (~12:12 AM ET): NQ bounced from ~26,650 to 27,450 but still under MAs after NVDA; CL lower near $84.5, FOMC minutes Wednesday key",
-      "Market wraps (~premarket): NQ futures +1.2%, ES +0.6% on NVDA; WTI ~$83 down ~2%, Dec hike 100% priced; Iran claims Patriot hits in Kuwait"
+      "@DinmaScoop (~4:58 PM ET): US stocks closed mixed — Dow -1.1%, S&P -0.2%, Nasdaq +0.4% as investors digested NVDA beat alongside hawkish Fed minutes; NVDA shares declined on leadership uncertainty",
+      "@ren_stocks (~8:09 PM ET quoting Kalshi): Fed minutes indicate rate hike larger than 25bps may be appropriate in December (10% chance priced); markets debate necessity given oil drop and other data",
+      "@gluber / market (~8:10 PM ET): Anthropic priced IPO at $83/share above $70-78 range, ~$1.5T valuation, largest ever, trading Thursday on Nasdaq as ANT; retail demand strong",
+      "@RomeInvests / closes (~4:15 PM ET): NVDA beat then fell ~3%; FOMC minutes showed nearly all officials expect more hikes, some argued for 50bp if inflation unfavorable",
+      "@zerohedge / energy (~4:06 PM ET): IRGC claims more tankers on fire in Hormuz but WTI settled -3% on 5M+ barrel crude build, tempering geopolitical premium"
     ],
-    "trump": "none",
-    "watch": "FOMC minutes reaction at 2:00 PM ET; Anthropic IPO pricing and AI sentiment; whether NQ holds the overnight gap into the 9:30 open; Iran/Hormuz oil headlines and yields.",
+    "trump": "Trump says he can handle Iran, oil is moving through channels, wants a deal that supersedes future presidents; in Shenzhen for Trump-Xi-Putin APEC meeting covering Iran, arms control and trade.",
+    "watch": "Thursday Nov 19: Anthropic (ANT) first trade and open reaction for AI valuation test; WMT and BABA earnings BMO; 8:30 AM ET jobless claims and Philly Fed; Trump-Xi-Putin outcomes on Iran/trade/chips; oil/Iran headlines and whether 10Y stays above 5%.",
     "forSite": []
   }
 }
