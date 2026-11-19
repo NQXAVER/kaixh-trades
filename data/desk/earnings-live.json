@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-18",
-  "at": "2026-11-19T03:28:28Z",
+  "date": "2026-11-19",
+  "at": "2026-11-19T12:33:06Z",
   "items": [
     {
       "ticker": "TSN",
@@ -73,8 +73,10 @@
       "company": "Alibaba (BABA)",
       "date": "2026-11-19",
       "when": "BMO",
-      "status": "upcoming",
-      "why": "FQ2; consensus EPS ~$1.56; call 7 AM ET; China AI/cloud read"
+      "status": "reported",
+      "reaction": "+2.6% premarket",
+      "sentiment": "Mixed",
+      "why": "Rev ¥271.5B (+10% y/y) beat ~¥269.8B est; adj EPS ¥8.10 vs ~¥10.7 est miss; AI cloud +53% to ¥61B; AI spend keeps free cash flow negative."
     },
     {
       "ticker": "INTU",
@@ -89,8 +91,26 @@
       "company": "Walmart (WMT)",
       "date": "2026-11-19",
       "when": "BMO",
+      "status": "reported",
+      "reaction": "-0.7% premarket",
+      "sentiment": "Mixed",
+      "why": "Adj EPS $0.65 vs $0.64, rev $188.84B vs ~$187.2B beat; US comp ex-gas +2.9%; FY adj EPS raised to $2.84-2.89 from $2.80-2.87, midpoint still under the Street."
+    },
+    {
+      "ticker": "DELL",
+      "company": "Dell Technologies (DELL)",
+      "date": "2026-11-24",
+      "when": "AMC",
       "status": "upcoming",
-      "why": "Q3; ~$1.0T mkt cap; consensus EPS ~$0.64 (guided $0.62-0.64); release 7 AM ET, call 8 AM ET"
+      "why": "FY27 Q3 results Nov 24 (4:30 PM ET call); AI server demand read for semis."
+    },
+    {
+      "ticker": "HPQ",
+      "company": "HP Inc. (HPQ)",
+      "date": "2026-11-24",
+      "when": "AMC",
+      "status": "upcoming",
+      "why": "FQ4 results Nov 24, call 5:00 PM ET; PC/AI PC demand read."
     }
   ]
 }
