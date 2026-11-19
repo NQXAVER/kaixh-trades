@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T00:00:35Z",
+  "updatedAt": "2026-11-19T07:38:18Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -204,6 +204,42 @@
   ],
   "items": [
     {
+      "id": "f077286850ae5",
+      "headline": "Could Trump, Putin and Xi end the nuclear age?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/opinions/2026/11/19/could-trump-putin-and-xi-end-the-nuclear-age?traffic_source=rss",
+      "publishedAt": "2026-11-19T06:15:55Z",
+      "time": "Thu 1:15 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "ff16f1b1f7c7c",
+      "headline": "Oil Prices Steady as Hormuz Tanker Threats Offset Supply Glut Fears",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Steady-as-Hormuz-Tanker-Threats-Offset-Supply-Glut-Fears.html",
+      "publishedAt": "2026-11-19T06:00:00Z",
+      "time": "Thu 1:00 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "fd021186e9905",
+      "headline": "Trump wants to talk nuclear with Putin and Xi",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/trump-wants-to-talk-nuclear-with-putin-and-xi?traffic_source=rss",
+      "publishedAt": "2026-11-19T04:50:28Z",
+      "time": "Wed 11:50 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "f0245f31e398f",
       "headline": "Putin’s nuclear briefcase makes surprise appearance at China summit",
       "source": "Al Jazeera",
@@ -282,42 +318,6 @@
       "url": "https://oilprice.com/Latest-Energy-News/World-News/ADNOC-Ship-Attacked-in-Hormuz-as-Maritime-Security-Risks-Rise.html",
       "publishedAt": "2026-11-18T10:00:00Z",
       "time": "Wed 5:00 AM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "f7c43c67919e9",
-      "headline": "Iran says army targets U.S. drone and missile sites in Kuwait as Gulf attacks mount",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/18/trump-iran-war-hormuz-oil-.html",
-      "publishedAt": "2026-11-18T05:24:54Z",
-      "time": "Wed 12:24 AM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "fa47078be4ba6",
-      "headline": "Board of Peace warns Gaza ceasefire faces imminent collapse without action",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/11/18/board-of-peace-warns-gaza-ceasefire-faces-imminent-collapse-without-action?traffic_source=rss",
-      "publishedAt": "2026-11-18T01:07:01Z",
-      "time": "Tue 8:07 PM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-on",
-      "auto": true
-    },
-    {
-      "id": "ffceb2b448852",
-      "headline": "Whistleblower: Deadly drone strike in Kuwait could’ve been avoided",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/11/17/whistleblower-deadly-drone-strike-in-kuwait-couldve-been-avoided?traffic_source=rss",
-      "publishedAt": "2026-11-17T21:14:31Z",
-      "time": "Tue 4:14 PM",
       "section": "war",
       "impact": "High",
       "lean": "risk-off",
@@ -444,6 +444,18 @@
       "auto": true
     },
     {
+      "id": "f7cfb4b792b8f",
+      "headline": "Inside India newsletter: Foreign flows helped the market recover. Now it faces the inflation test",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/19/india-inflation-foreign-investor-nifty50.html",
+      "publishedAt": "2026-11-19T00:01:23Z",
+      "time": "Wed 7:01 PM",
+      "section": "econ",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "f34064fdc81ce",
       "headline": "Typical energy bill forecast to go up by £443 a year from January as inflation rate rises again",
       "source": "BBC",
@@ -552,24 +564,36 @@
       "auto": true
     },
     {
-      "id": "f1babc45795f3",
-      "headline": "UK unemployment unexpectedly eases to 4.6%, as government prepares to release Milburn report",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/nov/17/uk-unemployment-wage-growth-milburn-report",
-      "publishedAt": "2026-11-17T08:05:09Z",
-      "time": "Tue 3:05 AM",
-      "section": "econ",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
       "id": "fc39f244d8a61",
       "headline": "Anthropic IPO raises over $81 billion in largest offering on record, topping SpaceX",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html",
-      "publishedAt": "2026-11-18T23:44:11Z",
-      "time": "Wed 6:44 PM",
+      "publishedAt": "2026-11-19T01:13:20Z",
+      "time": "Wed 8:13 PM",
+      "section": "tech",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fc520285d7b96",
+      "headline": "Anthropic IPO raises record $81.3 billion on strong AI demand",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/11/18/nx-s1-6046212/anthropic-record-ipo-price",
+      "publishedAt": "2026-11-18T23:54:56Z",
+      "time": "Wed 6:54 PM",
+      "section": "tech",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f21d5cd4ad9e7",
+      "headline": "Jim Cramer says Nvidia has a new problem — and it has nothing to do with earnings",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/18/nvidia-cramer-anthropic-ipo-ceo.html",
+      "publishedAt": "2026-11-18T23:46:32Z",
+      "time": "Wed 6:46 PM",
       "section": "tech",
       "impact": "High",
       "lean": null,
@@ -589,7 +613,7 @@
     },
     {
       "id": "fb2388b2a1dbb",
-      "headline": "Can Anthropic's record breaking IPO stop the AI bubble bursting?",
+      "headline": "Can Anthropic's record-breaking IPO stop the AI bubble bursting?",
       "source": "BBC",
       "url": "https://www.bbc.co.uk/news/articles/cj4gnpzll020o?at_medium=RSS&at_campaign=rss",
       "publishedAt": "2026-11-18T21:28:08Z",
@@ -657,30 +681,6 @@
       "section": "tech",
       "impact": "High",
       "lean": null,
-      "auto": true
-    },
-    {
-      "id": "fd86248bb4421",
-      "headline": "Nvidia hold first earnings call since former CEO's departure",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/11/18/nx-s1-6042563/nvidia-hold-first-earnings-call-since-former-ceos-departure",
-      "publishedAt": "2026-11-18T09:43:50Z",
-      "time": "Wed 4:43 AM",
-      "section": "tech",
-      "impact": "High",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f320eabf11cc8",
-      "headline": "'Who and what comes next': Analysts expect Nvidia investor uncertainty despite earnings beat",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/18/nvidia-earnings-market-analysis.html",
-      "publishedAt": "2026-11-18T06:21:45Z",
-      "time": "Wed 1:21 AM",
-      "section": "tech",
-      "impact": "High",
-      "lean": "risk-on",
       "auto": true
     },
     {
