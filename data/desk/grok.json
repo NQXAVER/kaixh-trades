@@ -1,17 +1,17 @@
 {
   "date": "2026-11-20",
-  "at": "2026-11-20T12:31:22Z",
-  "pulse": "NQ ~-1.5% to -1.9% premarket at a fresh overnight low as the AI unwind goes global (Nikkei/Kospi ~-5%, Taiwan -6.6%) with ANT -10% day 2 and INTU -10% on a guide cut; only offset is yields easing to ~4.99% and a stretched six-day S&P slide.",
-  "bias": "risk-off — AI/semis liquidation (ANT, AMD, MU, TSM lower), VIX >30, hawkish Fed pricing (gold -8% wk on hike bets) and fresh Iran strike headlines; Waller 8:25 AM is the next swing factor",
+  "at": "2026-11-20T14:33:26Z",
+  "pulse": "NQ opens deep red (cash Nasdaq -1.2% at 9:30 AM, futs ~-1% to -2% premarket) as ANT's day-2 slide toward its $83 IPO price keeps the AI/semis unwind going; offsets are washout-level sentiment (VIX >30, 6-day S&P losing streak) and Trump reportedly pushing any Iran strike decision past New Year.",
+  "bias": "risk-off — AI liquidation led by ANT and Mag7 (MSFT/AMZN/TSLA lower premarket), USTR 301 tariffs 'before year end' with no China truce extension, VIX >30; bounce risk from oversold tape and OPEX",
   "items": [
-    "@FirstSquawk (~7:25 AM ET): $ANT extends premarket decline to more than 10%, day 2 after its IPO — Bearish NQ",
-    "@T_LauRekt (~7:29 AM ET): NQ futs ~-1.5%, ES ~-0.6% after Taiwan -6.6%, Kospi -5.2%, Nikkei -5.1% overnight — Bearish NQ",
-    "@DeItaone (~7:03 AM ET): VIX rises above 30; AI selloff accelerating ($AMD ~-6%, $INTC lower premarket) — Bearish NQ",
-    "@DeItaone (~7:11 AM ET): CBS: US and Israel considering a new near-term military assault on Iran; Iran tankers massing at Kharg to test US blockade — Bearish NQ",
-    "@DeItaone (~6:49 AM ET): Gold -8% this week as markets price another Fed hike; SocGen sees two more 25bp hikes — Bearish NQ"
+    "@DeItaone (~9:30 AM ET): US stocks extend fall at the open, Nasdaq -1.19% — Bearish NQ",
+    "@DeItaone (~9:31 AM ET): $ANT -9% at $88.45 a day after its IPO debut (was -14% premarket per @FirstSquawk 8:38 AM) — Bearish NQ",
+    "@zerohedge (~8:10 AM ET): futures tumble as Anthropic IPO hangover turns AI unwind into global rout; S&P down 6 straight, a 7th would be longest since 2020 — Bearish NQ",
+    "@FirstSquawk (~8:50 AM ET): USTR Greer says Section 301 tariffs coming 'very soon; before year end'; no agreement on a US-China truce extension (@LiveSquawk 8:41 AM) — Bearish NQ",
+    "@DeItaone (~9:06 AM ET): Citi says US rates are 'unsustainably high', sees Fed cuts in 2027 — Mixed NQ"
   ],
-  "trump": "At APEC (Nov 19, ~8:30 PM ET story) Trump told Xi the US does not support Taiwan independence and they agreed an action plan for 'constructive strategic stability' (mild de-escalation, China/chips positive); he also urged European allies to halt Ukraine aid. No new tariff or Fed comments overnight.",
-  "watch": "Waller 8:25 AM ET (hike signals), UMich final sentiment/inflation expectations 10:00 AM ET, monthly OPEX into the close, ANT/INTU/semis at the 9:30 AM open, Iran strike and Kharg/Hormuz tanker headlines for CL; next week DELL, HPQ, WDAY, ADSK Tue Nov 24 AMC",
+  "trump": "NY Post (via @DeItaone ~8:55 AM ET): Trump to talk the Iran war in a keynote at the Reagan Defense Forum next month; X News (~9:16 AM ET) reports he is delaying a decision on new Iran strikes until after New Year despite Israeli pressure (mild CL/risk offset). USTR Greer (~8:41 AM ET): 'Trump makes US decisions on export controls'; China truce extension hinges on rare earths.",
+  "watch": "UMich final sentiment/inflation expectations 10:00 AM ET; monthly OPEX into the 4:00 PM close; ANT vs $83 IPO price; Iran Kharg Island tanker convoy vs US Hormuz blockade headlines for CL; next week DELL, HPQ, WDAY, ADSK Tue Nov 24 AMC",
   "forSite": [],
   "reports": [
     {
@@ -42,6 +42,21 @@
       ],
       "trump": "At APEC (Nov 19, ~8:30 PM ET story) Trump told Xi the US does not support Taiwan independence and they agreed an action plan for 'constructive strategic stability' (mild de-escalation, China/chips positive); he also urged European allies to halt Ukraine aid. No new tariff or Fed comments overnight.",
       "watch": "Waller 8:25 AM ET (hike signals), UMich final sentiment/inflation expectations 10:00 AM ET, monthly OPEX into the close, ANT/INTU/semis at the 9:30 AM open, Iran strike and Kharg/Hormuz tanker headlines for CL; next week DELL, HPQ, WDAY, ADSK Tue Nov 24 AMC",
+      "forSite": []
+    },
+    {
+      "at": "2026-11-20T14:33:26Z",
+      "pulse": "NQ opens deep red (cash Nasdaq -1.2% at 9:30 AM, futs ~-1% to -2% premarket) as ANT's day-2 slide toward its $83 IPO price keeps the AI/semis unwind going; offsets are washout-level sentiment (VIX >30, 6-day S&P losing streak) and Trump reportedly pushing any Iran strike decision past New Year.",
+      "bias": "risk-off — AI liquidation led by ANT and Mag7 (MSFT/AMZN/TSLA lower premarket), USTR 301 tariffs 'before year end' with no China truce extension, VIX >30; bounce risk from oversold tape and OPEX",
+      "items": [
+        "@DeItaone (~9:30 AM ET): US stocks extend fall at the open, Nasdaq -1.19% — Bearish NQ",
+        "@DeItaone (~9:31 AM ET): $ANT -9% at $88.45 a day after its IPO debut (was -14% premarket per @FirstSquawk 8:38 AM) — Bearish NQ",
+        "@zerohedge (~8:10 AM ET): futures tumble as Anthropic IPO hangover turns AI unwind into global rout; S&P down 6 straight, a 7th would be longest since 2020 — Bearish NQ",
+        "@FirstSquawk (~8:50 AM ET): USTR Greer says Section 301 tariffs coming 'very soon; before year end'; no agreement on a US-China truce extension (@LiveSquawk 8:41 AM) — Bearish NQ",
+        "@DeItaone (~9:06 AM ET): Citi says US rates are 'unsustainably high', sees Fed cuts in 2027 — Mixed NQ"
+      ],
+      "trump": "NY Post (via @DeItaone ~8:55 AM ET): Trump to talk the Iran war in a keynote at the Reagan Defense Forum next month; X News (~9:16 AM ET) reports he is delaying a decision on new Iran strikes until after New Year despite Israeli pressure (mild CL/risk offset). USTR Greer (~8:41 AM ET): 'Trump makes US decisions on export controls'; China truce extension hinges on rare earths.",
+      "watch": "UMich final sentiment/inflation expectations 10:00 AM ET; monthly OPEX into the 4:00 PM close; ANT vs $83 IPO price; Iran Kharg Island tanker convoy vs US Hormuz blockade headlines for CL; next week DELL, HPQ, WDAY, ADSK Tue Nov 24 AMC",
       "forSite": []
     }
   ]
