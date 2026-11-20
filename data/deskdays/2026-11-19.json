@@ -2,18 +2,18 @@
   "date": "2026-11-19",
   "grok": {
     "date": "2026-11-19",
-    "at": "2026-11-20T01:31:55Z",
-    "pulse": "NQ futures extend lower after hours (Nasdaq fut ~-0.7% at 7:55 PM ET) on top of a -2.25% Nasdaq close, with Asia chips dumping (Nikkei -4%, Taiwan -4%) and INTU's soft guide adding software pain; only offset is Goldman's tech-underweight squeeze talk and NVDA's still-strong numbers.",
-    "bias": "risk-off — sixth straight S&P loss, ANT IPO sell-the-news, NVDA governance/probe overhang, VIX 28+ and Asia semis -4% point to a weak overnight NQ tape.",
+    "at": "2026-11-20T03:29:07Z",
+    "pulse": "NQ futures keep bleeding overnight (~26,430, about -0.7% after the cash Nasdaq's -2.2% close) as the AI selloff goes global with Nikkei -5%, TAIEX -6% and Samsung/SK Hynix -6%; the only offset is a stretched six-day S&P losing streak and tech forward P/E at 16.4x, lowest since Mar 2020.",
+    "bias": "risk-off — AI unwind spreading through Asia chips (TAIEX -6%, Nikkei -5%, KOSPI sidecar), INTU ~-13% AH drags software, gold/silver liquidation shows de-grossing; oversold 6-day S&P streak is the only bounce case",
     "items": [
-      "@FirstSquawk (~7:55 PM ET): US equity futures weaken, Nasdaq fut -0.74%, S&P fut -0.34%; gold -1% to ~$3,586 — Bearish NQ",
-      "@zerohedge (~7:54 PM ET): Nikkei 225 -4% as chip shares extend drop; @FirstSquawk (~8:07 PM ET) Taiwan benchmark -4%+, MSCI EM -20% from June peak — Bearish NQ",
-      "@LiveSquawk (~4:04 PM ET): $INTU FQ1 rev $4.35B vs $4.31B est, adj EPS beat, selling Mailchimp to Bending Spoons ($3.68B); Q2 rev guide $4.93-4.95B vs $5.11B est → ~-13% AH (Benzinga) — Bearish NQ",
-      "@WatcherGuru (~5:36 PM ET): California AG opens probe into $NVDA over possibly misleading investors on China risk after Huang exit — Bearish NQ",
-      "CNBC/AP (~4:00 PM ET close): Nasdaq Comp -2.25% to 23,879, S&P -2.02% to 7,175.83 (6th straight loss), Dow -2.19% below 50k, SOX -2.42%, VIX 28.26 (+15%), WTI $83.24 (+1.4%) — Bearish NQ"
+      "@DeItaone (~9:41 PM ET): Nikkei plunges nearly 5% to a 7-month low as the $ANT IPO fails to revive AI confidence; SoftBank -16% on its OpenAI stake, Advantest/TEL -7-12% — Bearish NQ",
+      "@FirstSquawk (~9:35 PM ET): Taiwan's benchmark index plunges more than 6%; China memory maker CXMT hits a record low (~9:31 PM) — Bearish NQ",
+      "@zerohedge (~9:56 PM ET): Korea Exchange activates sidecar to halt KOSPI program selling; KRW -0.4% to 1,339 (FirstSquawk 9:55 PM) — Bearish NQ",
+      "@WatcherGuru (~9:10 PM ET): Gold crashes under $3,550; silver -3% to ~$41.47 (FirstSquawk 9:32 PM) — cross-asset liquidation, not a safety bid — Bearish NQ",
+      "@FirstSquawk (~10:20 PM ET): WSJ — Nvidia chip restrictions leave China AI firms in a compute crunch; Senate passes energy permitting overhaul 62-33 (zerohedge 10:08 PM), a long-run plus for AI power — Mixed NQ"
     ],
-    "trump": "Told Reuters (~3:12 PM ET) after talks with Xi and Putin that a nuclear-arms deal 'will be hard to reach'; said (~2:47 PM ET) Xi and Putin 'want Iran war to end' and are pressuring Tehran (oil-calming). @WatcherGuru (~6:17 PM ET): Trump disclosed 751 Sept stock trades worth up to $148M, incl. NVDA buys. No new tariff headlines.",
-    "watch": "Overnight: Asia chip tape (Nikkei/TWSE/KOSPI) and NQ globex low; Iran/Gulf strike headlines for CL. Fri Nov 20: monthly opex, INTU/GAP/ROST reactions at 9:30 AM ET open, ANT day-2 trade, NVDA after CA probe. Next week: DELL and HPQ AMC Tue Nov 24.",
+    "trump": "none",
+    "watch": "Fri Nov 20: Asia/Europe chip follow-through overnight; 9:30 AM ET open with INTU (~-13% AH) and ANT day-2; monthly opex; UMich sentiment final 10:00 AM ET; Fed speakers on Dec hike odds; Iran/Houthi headlines for CL; next week DELL and HPQ Nov 24 AMC.",
     "forSite": [],
     "reports": [
       {
@@ -134,6 +134,36 @@
         ],
         "trump": "Told Reuters (~3:12 PM ET) after talks with Xi and Putin that a nuclear-arms deal 'will be hard to reach'; said (~2:47 PM ET) Xi and Putin 'want Iran war to end' and are pressuring Tehran (oil-calming). @WatcherGuru (~6:17 PM ET): Trump disclosed 751 Sept stock trades worth up to $148M, incl. NVDA buys. No new tariff headlines.",
         "watch": "Overnight: Asia chip tape (Nikkei/TWSE/KOSPI) and NQ globex low; Iran/Gulf strike headlines for CL. Fri Nov 20: monthly opex, INTU/GAP/ROST reactions at 9:30 AM ET open, ANT day-2 trade, NVDA after CA probe. Next week: DELL and HPQ AMC Tue Nov 24.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-20T03:06:08Z",
+        "pulse": "Nasdaq and S&P closed sharply lower Thursday (-2.2%+) as Anthropic's record IPO faded after a strong open, failing to revive the AI trade amid hawkish Fed hike signals, NVDA pressure, and broad risk-off that extended into Asia semis dumping overnight.",
+        "bias": "risk-off — sixth straight S&P loss, ANT sell-the-news, VIX ~28-29, Asia chips -4%+, Dec hike fully priced with 50bp talk, oil subdued on supply despite Iran risks",
+        "items": [
+          "@Joshuatrader1 / close recaps (~4:00 PM ET): S&P -2.0% to ~7176, Nasdaq -2.3%, Dow -2.2% for 6th straight loss; AI cracked with NVDA -3.3%, VIX 28.4",
+          "@romitkr / Asia open (~10:00 PM ET): Big gap-down setup, AI trade dumped worldwide; US Thu Dow -2.2%/S&P -2%/Nasdaq -2.3% as ANT IPO failed, Nikkei/Kospi ~-4.5%",
+          "@fmb_dev (~10:04 PM ET): Anthropic stock dumped 15% right after market open despite IPO hype; one of biggest AI IPOs already getting rekt",
+          "@ClosingPrints / market (~8:38 PM ET): Indices slid 2%+ after early bounce on ANT; all 11 sectors red, >90% S&P down, ANT closed +17% off open highs",
+          "@quantalg0 / futures (~7:00 PM ET): Equities stabilize attempts uneven, NQ/ES below declining MAs; CL lower, gold new lows as dollar/yields headwinds persist"
+        ],
+        "trump": "none",
+        "watch": "Fri Nov 20 open: Asia follow-through on chips, ANT day-2 action, monthly opex, UMich sentiment 10AM ET, Fed speakers; Iran/Hormuz headlines for oil, NVDA probe/leadership overhang, whether NQ holds post-close lows.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-20T03:29:07Z",
+        "pulse": "NQ futures keep bleeding overnight (~26,430, about -0.7% after the cash Nasdaq's -2.2% close) as the AI selloff goes global with Nikkei -5%, TAIEX -6% and Samsung/SK Hynix -6%; the only offset is a stretched six-day S&P losing streak and tech forward P/E at 16.4x, lowest since Mar 2020.",
+        "bias": "risk-off — AI unwind spreading through Asia chips (TAIEX -6%, Nikkei -5%, KOSPI sidecar), INTU ~-13% AH drags software, gold/silver liquidation shows de-grossing; oversold 6-day S&P streak is the only bounce case",
+        "items": [
+          "@DeItaone (~9:41 PM ET): Nikkei plunges nearly 5% to a 7-month low as the $ANT IPO fails to revive AI confidence; SoftBank -16% on its OpenAI stake, Advantest/TEL -7-12% — Bearish NQ",
+          "@FirstSquawk (~9:35 PM ET): Taiwan's benchmark index plunges more than 6%; China memory maker CXMT hits a record low (~9:31 PM) — Bearish NQ",
+          "@zerohedge (~9:56 PM ET): Korea Exchange activates sidecar to halt KOSPI program selling; KRW -0.4% to 1,339 (FirstSquawk 9:55 PM) — Bearish NQ",
+          "@WatcherGuru (~9:10 PM ET): Gold crashes under $3,550; silver -3% to ~$41.47 (FirstSquawk 9:32 PM) — cross-asset liquidation, not a safety bid — Bearish NQ",
+          "@FirstSquawk (~10:20 PM ET): WSJ — Nvidia chip restrictions leave China AI firms in a compute crunch; Senate passes energy permitting overhaul 62-33 (zerohedge 10:08 PM), a long-run plus for AI power — Mixed NQ"
+        ],
+        "trump": "none",
+        "watch": "Fri Nov 20: Asia/Europe chip follow-through overnight; 9:30 AM ET open with INTU (~-13% AH) and ANT day-2; monthly opex; UMich sentiment final 10:00 AM ET; Fed speakers on Dec hike odds; Iran/Houthi headlines for CL; next week DELL and HPQ Nov 24 AMC.",
         "forSite": []
       }
     ]
