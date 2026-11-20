@@ -1,0 +1,44 @@
+{
+ "date": "2026-11-20",
+ "entryUrl": "https://app.notion.com/41e60e8f5c4580f1b729e6c869861422",
+ "summary": "This was a break-even long on a reasonable read, but the prep behind it was thin. You filed the Morning Check-in on time at 9:18 AM with the risk screenshot confirmed. The card also said charts weren't open yet, and you came back to the desk after the open with no timeframe screenshots, so the HTF picture was a phone glance. The entry was clean: long at 26,250.50 off the double bullish SMT and 30min gap, with the stop at 26,116.75 under the SMT'd low and the target at D OPEN 26,598.25 (~2.6R). Price ran about 250 points toward the target before you moved to BE once London high was taken, and you finished flat. The part to own is 'nervous cus i up the risk a bit'. You raised size on a day you were the least prepared, and right after the 11/19 loss.",
+ "trade": "Long · NY-AM (~9:45 AM ET entry) · XFA · BreakEven · entry 26,250.50 · stop 26,116.75 (under the SMT'd low, ~134 pts) · target 26,598.25 D OPEN (~2.6R) · moved to BE after London high was taken (high ~26,500), then closed flat. Levels are read off the position tool's price-axis labels.",
+ "rule": "Monday: no trade until your charts are open and the timeframe screenshots are in Notion before 9:30 AM. Trade your normal risk. No size increase unless you write it into the pre-market plan before the open.",
+ "screenshots": [
+  {
+   "label": "Execution 1 · 1min ES / NQ (10:01 AM)",
+   "feedback": "The NQ position box reads entry 26,250.50, stop 26,116.75 and target 26,598.25 at the D OPEN line, so about 134 points of risk for 348 points of reward. The box starts around the 9:45 candle, after the low that made the SMT with ES near the 0.618. That's a protected low, and the stop sits under it, which is correct. Price pushed into NYAM.H around 26,500 by ~9:58, which was about 1.9R open. By the 10:01 screenshot it was back at 26,392. Your note says you went BE once London high was taken because ES looked overextended. That's a defensible call, but it was defensive. ES on the left is up into its own NYAM.H above the D OPEN line while NQ is still well under its D OPEN, so NQ was lagging and the draw you planned was still open. There are no timeframe screenshots today, so I can't check the HTF context you based the long on."
+  }
+ ],
+ "good": [
+  "Morning Check-in filed at 9:18 AM, before the 9:30 cutoff, with the risk-settings screenshot confirmed. That's the fix from yesterday's missing check-in, done the next day.",
+  "The stop went under the SMT'd low, which is the low that had to hold for the long. That's the protected-level placement yesterday's rule asked for.",
+  "One trade, BE, and you were willing to wait for a second entry instead of forcing it. Your Notion entry, the journal-channel post and the EOD card all tell the same story."
+ ],
+ "fix": [
+  "'nervous cus i up the risk a bit': you raised size the day after a loss and on a morning with no chart prep. More risk belongs on your best-prepared days, not on a phone-glance day.",
+  "No timeframe screenshots and 'Charts Opened: not yet when i get back home'. The bias came from a quick look on your phone, so the pre-market plan wasn't really built before the open.",
+  "Going BE at London high came from ES feeling overextended, not from a level on NQ. NQ was still well below D OPEN. Decide your BE rule before the trade so nerves from the bigger size don't make the call for you.",
+  "EOD card: 'Rules Followed: yes' and 'no call so i lowkey do not know'. Raising risk with no plan to justify it is worth naming there yourself, call or no call."
+ ],
+ "questions": [
+  {
+   "q": "You wrote 'nervous cus i up the risk a bit'. Why did you raise size today, the day after a loss and with no timeframe screenshots, and how much of the early BE came from that nervousness?"
+  },
+  {
+   "q": "Your check-in said 'Charts Opened: not yet when i get back home' and your pre-market came from a phone glance. If you'd seen this setup at the desk without the size bump, would you still have moved to BE at London high while NQ was still under D OPEN?"
+  },
+  {
+   "q": "Your EOD improvement was 'no call so i lowkey do not know'. Without AB's call, what's the one thing from today's trade you'd change yourself?"
+  }
+ ],
+ "discord": {
+  "chartsOpened": "Morning Check-in card filed 9:18 AM ET (streak 21 days), before the 9:30 AM cutoff. Charts Opened: 'not yet when i get back home'. Charts weren't open at check-in time.",
+  "plan": "Psychological Plan: 'small glimpse on my phone i want to have a rebalancing day'. That matches the Notion pre-market ('Price looks overextened i want TGIF rebalancing day') and the long toward D OPEN.",
+  "risk": "Risk-settings screenshot posted at 9:18 AM ET and confirmed by SYNDICATOR ('your morning check-in for 2026-11-20 is complete'). I didn't open the image itself.",
+  "eod": "Filed 11:44 AM ET (streak 22 days): Trade Summary 'took a long but went BE quick'. Rules Followed: yes. Improvement / Wins: 'no call so i lowkey do not know'. Trade/PNL screenshot confirmed 11:44 AM. Your 9:17 AM message to Bibz: 'Yooo goodmorning bro last day of the week let's get it 💪'. Bibz at 3:22 PM: 'W week bro! we stayed patient 💪🏾'.",
+  "match": "The trade matches across Notion, the EOD card and the journal channel: one NY-AM long, break-even. The check-in was on time and complete. 'Rules Followed: yes' leaves out that you raised risk ('i up the risk a bit') on a morning with no chart prep.",
+  "journalChannel": "xavier Journal: 10:01 AM ET '11/20/26 - BE Executed before ES took out internal high & LOH once it took out London i went BE bc i did not like how overextended ES an i imagined we could've held that smt to get a deeper retrace on NQ which ES would follow to rebalance a bit', with the same 1min ES/NQ screenshot as Notion (clock 10:01:46 AM)."
+ },
+ "reviewedAt": "2026-11-20T21:13:45.758Z"
+}
