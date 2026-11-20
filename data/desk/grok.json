@@ -1,15 +1,138 @@
 {
-  "at": "2026-11-20T01:15:18Z",
-  "pulse": "Nasdaq and S&P closed sharply lower for a sixth straight session as Anthropic's record IPO faded after opening higher, failing to reverse AI trade weakness amid hawkish Fed rhetoric and persistent Iran/Hormuz risks while crude stayed subdued on oversupply.",
-  "bias": "risk-off — broad selloff with tech/AI leading lower (Nasdaq -2.25%, S&P -2%), VIX elevated near 28-29, NVDA under pressure for multiple sessions, Dec hike odds high, oil down despite geopolitics",
+  "date": "2026-11-19",
+  "at": "2026-11-20T01:31:55Z",
+  "pulse": "NQ futures extend lower after hours (Nasdaq fut ~-0.7% at 7:55 PM ET) on top of a -2.25% Nasdaq close, with Asia chips dumping (Nikkei -4%, Taiwan -4%) and INTU's soft guide adding software pain; only offset is Goldman's tech-underweight squeeze talk and NVDA's still-strong numbers.",
+  "bias": "risk-off — sixth straight S&P loss, ANT IPO sell-the-news, NVDA governance/probe overhang, VIX 28+ and Asia semis -4% point to a weak overnight NQ tape.",
   "items": [
-    "@venturesintern (~8:09 PM ET): Anthropic debut was the sell trigger — Nasdaq up as much as 2% early then faded to close on lows with VIX near 29; SPX -2% to ~7176, sixth straight loss, Dow below 50k",
-    "@TechEchelon (~8:04 PM ET): Anthropic raised $81.3B in largest IPO ever, closed +17% at $97.17 (from $111.50 open) but failed to lift broader AI trade as Nasdaq fell 2.25%",
-    "@Grok (~8:07 PM ET): Markets opened strongly on ANT IPO hype, gains reversed sharply once trading began as AI trade lost momentum; Dow -2.2%, S&P -2%, Nasdaq -2.3%, ~90% of S&P stocks red",
-    "@InvestmentGuru_ (~8:06 PM ET): VIX spikes don’t ring a bell at the bottom — historically extreme fear creates long-term entries but bottoms can take weeks or months to form",
-    "@FirstSquawk / market (~4:00 PM ET close): Nasdaq Comp -2.22% to ~23,887, S&P -1.98% to ~7,179, Dow -2.18%; WTI settled ~$83.21, Iran claims on US chem/bio to justify action"
+    "@FirstSquawk (~7:55 PM ET): US equity futures weaken, Nasdaq fut -0.74%, S&P fut -0.34%; gold -1% to ~$3,586 — Bearish NQ",
+    "@zerohedge (~7:54 PM ET): Nikkei 225 -4% as chip shares extend drop; @FirstSquawk (~8:07 PM ET) Taiwan benchmark -4%+, MSCI EM -20% from June peak — Bearish NQ",
+    "@LiveSquawk (~4:04 PM ET): $INTU FQ1 rev $4.35B vs $4.31B est, adj EPS beat, selling Mailchimp to Bending Spoons ($3.68B); Q2 rev guide $4.93-4.95B vs $5.11B est → ~-13% AH (Benzinga) — Bearish NQ",
+    "@WatcherGuru (~5:36 PM ET): California AG opens probe into $NVDA over possibly misleading investors on China risk after Huang exit — Bearish NQ",
+    "CNBC/AP (~4:00 PM ET close): Nasdaq Comp -2.25% to 23,879, S&P -2.02% to 7,175.83 (6th straight loss), Dow -2.19% below 50k, SOX -2.42%, VIX 28.26 (+15%), WTI $83.24 (+1.4%) — Bearish NQ"
   ],
-  "trump": "No new market remarks this evening; White House notes Trump holds a news conference Fri Nov 20 at 12:00 PM ET after Asia trip. Iran strike risk and Hormuz tensions remain on the tape.",
-  "watch": "Fri Nov 20: Waller 8:25 AM ET, UMich sentiment/inflation expectations 10:00 AM, monthly opex, Trump news conference 12:00 PM; ANT day-2 follow-through; Iran/oil headlines and any Fed hike rhetoric. Next week: DELL and HPQ AMC Tue Nov 24.",
-  "forSite": []
+  "trump": "Told Reuters (~3:12 PM ET) after talks with Xi and Putin that a nuclear-arms deal 'will be hard to reach'; said (~2:47 PM ET) Xi and Putin 'want Iran war to end' and are pressuring Tehran (oil-calming). @WatcherGuru (~6:17 PM ET): Trump disclosed 751 Sept stock trades worth up to $148M, incl. NVDA buys. No new tariff headlines.",
+  "watch": "Overnight: Asia chip tape (Nikkei/TWSE/KOSPI) and NQ globex low; Iran/Gulf strike headlines for CL. Fri Nov 20: monthly opex, INTU/GAP/ROST reactions at 9:30 AM ET open, ANT day-2 trade, NVDA after CA probe. Next week: DELL and HPQ AMC Tue Nov 24.",
+  "forSite": [],
+  "reports": [
+    {
+      "at": "2026-11-19T12:00:00Z",
+      "pulse": "NQ and ES futures jump 1-2% into the open on Anthropic's record $83 IPO debut and AI sentiment revival, tempered by hawkish FOMC minutes aftermath, Iran-Kuwait tensions and yields near 5%.",
+      "bias": "mixed — AI/IPO euphoria and semis bid lift NQ but residual Fed hike risks, geopolitics and NVDA leadership overhang keep broader caution",
+      "items": [
+        "@Joshuatrader1 (~7:00 AM ET): Futures jump on Anthropic's record $83 IPO debut as Nasdaq leads; S&P eyes bounce after 5 straight losses",
+        "@Forbes / market (~6:25 AM ET): Nasdaq 100 futures ~+2.1% to 27,766 ahead of ANT debut; NVDA +1.8% premarket with semis bid",
+        "@PanoramaDirecto (~7:00 AM ET): Iran attacks US air base in Kuwait — residual geopolitical risk",
+        "@WorldwideNNX (~7:00 AM ET): Anthropic starts trading today on Nasdaq under ANT at $83 (~$1.5T val), largest IPO ever",
+        "@Iverson_web3 (~7:00 AM ET): Nasdaq futures ~+2.3% premarket on ANT pricing, NVDA +2.2%; notes yesterday's similar pop faded into close"
+      ],
+      "trump": "Flying back from China after historic APEC meeting with Putin and Xi; discussed Ukraine war and nuclear arms, says things are happening on Ukraine end and open dialogue.",
+      "watch": "Thu Nov 19: Anthropic (ANT) first trade and open reaction on Nasdaq for AI valuation test; WMT and BABA BMO earnings; 8:30 AM ET jobless claims + Philly Fed; Iran/Kuwait headlines and oil reaction; whether NQ holds the overnight gap and 10Y stays near 5%.",
+      "forSite": []
+    },
+    {
+      "at": "2026-11-19T12:33:06Z",
+      "pulse": "NQ futures ~+2% premarket (Nasdaq-100 +2.15% per Reuters) on Anthropic's record $83 IPO debut lifting AI/semis (GOOGL, AMD, AVGO, MU bid); offsets are the NVDA leadership overhang, new US chip curbs halting some Samsung/TSMC China shipments, and Hormuz tanker mine strikes keeping Brent ~$92.",
+      "bias": "risk-on — ANT debut euphoria and a semis bid drive the gap up after five red S&P days, but Wednesday's NVDA pop faded into the close and Hormuz/Crimea headlines can cap it",
+      "items": [
+        "@DeItaone (~7:13 AM ET): $ANT Anthropic IPO set to open on Nasdaq ~10:00 AM ET (quotation 9:50), priced $83 above the $70-78 range; gray market indicated +22-26% (@unusual_whales 6:17 AM) — Bullish NQ",
+        "@WatcherGuru (~5:43 AM ET): Samsung and TSMC suspend some chip shipments to China after new US restrictions — Bearish NQ",
+        "X News (~7:28 AM ET): IRGC says supertankers carrying 4M+ bbl hit mines in the Strait of Hormuz; Brent ~$92.2, WTI ~$83.2 (@DepartmentofOil 7:05 AM) — Bearish NQ",
+        "@FirstSquawk (~7:05 AM ET): WMT Q3 adj EPS 65c vs 64c est, rev $188.84B vs $187.17B, FY adj EPS raised to $2.84-2.89; WMT ~-0.7% pre — Mixed NQ",
+        "@LiveSquawk (~7:08 AM ET): Alibaba CEO: AI product revenue run-rate >$10B; BABA rev beat, adj EPS miss, cloud +53%, ~+2.6% pre — Mixed NQ"
+      ],
+      "trump": "Trump, Xi and Putin held the first-ever trilateral at APEC in Shenzhen (@WhiteHouse 12:29 AM ET); Putin: 'I have no doubt that Trump is genuinely committed to resolving the Ukrainian conflict' (6:57 AM ET), but vowed 'much more painful' retaliation for the Crimean bridge strike (7:17 AM ET). Trump on Fox warned Iran over unconventional (gas/biological) threats and called the prior Iran MOU 'a waste of time'.",
+      "watch": "8:30 AM ET weekly jobless claims + Philly Fed; 9:50-10:00 AM ET ANT first trade (AI valuation test, watch NQ hold the gap); INTU AMC tonight; Hormuz/oil and Russia-Ukraine retaliation headlines; Tue Nov 24 DELL and HPQ AMC.",
+      "forSite": []
+    },
+    {
+      "at": "2026-11-19T14:25:55Z",
+      "pulse": "NQ futures surging ~2% and ES ~1.2% premarket as Anthropic's record IPO prices at $83 and begins trading on Nasdaq today, reviving AI sentiment after a multi-day S&P losing streak despite hawkish FOMC signals and Iran/Hormuz oil risks.",
+      "bias": "risk-on — Anthropic debut euphoria and tech/AI bid drive the gap higher, outweighing residual Fed hike risks, NVDA leadership overhang, and ongoing geopolitical tensions",
+      "items": [
+        "@FlowStateOfMind (~7:47 AM ET): Anthropic IPO priced at $83 above range, Nasdaq futures +2% / S&P +1.2% as tech rips into the open",
+        "@flexfutures_ (~8:12 AM ET): NQ surging 2.17% on the Anthropic IPO with yields cooling",
+        "@lonelyRaph (~9:25 AM ET): Premarket green led by tech — NQ +1.89%, ES +1.05%, VIX offered; jobless claims 203k vs 197k est",
+        "@salihenergy (~9:23 AM ET): Iran reports more tanker mines around Hormuz; Trump-Xi-Putin discussed keeping oil flowing through the strait at Shenzhen summit",
+        "@futureseagleeye (~9:25 AM ET): NQ key level 27605 for bullish/bearish open; watch reclaim for potential rally toward 28530"
+      ],
+      "trump": "Trump, Xi and Putin discussed Hormuz oil flows and broader energy supply at APEC trilateral in Shenzhen; Trump has warned Iran over unconventional threats while calling prior MOU a waste of time.",
+      "watch": "Anthropic (ANT) first trade and open reaction on Nasdaq (AI valuation test and whether NQ holds the gap); any further Hormuz/Iran headlines and oil response; residual Fed speaker comments and whether the risk-on holds into the close.",
+      "forSite": []
+    },
+    {
+      "at": "2026-11-19T14:34:31Z",
+      "pulse": "NQ opened ~+1.6% (Nasdaq +1.59% at 9:30) on Anthropic IPO-day AI FOMO, offset by hawkish Fed/AI-inflation talk, 10y ~5.08%, a Philly Fed miss and fresh Iran/Hormuz headlines.",
+      "bias": "risk-on — Anthropic (ANT) debut euphoria and tech bid lift NQ off yesterday's lows, but 5%+ 10y yields, Jefferson's AI-inflation warning and Hormuz risk cap conviction; half of big gaps get faded early.",
+      "items": [
+        "@DeItaone (~9:30 AM ET): US stocks extend gains, Nasdaq +1.59% at the open; ANT expected to start trading ~10 AM ET — Bullish NQ",
+        "@FirstSquawk (~8:31 AM ET): Jobless claims 203K vs 198K est; continuing 1.763M (+70K); Philly Fed 6.3 vs 20.1 est (big miss) — Mixed NQ",
+        "@DeItaone (~9:25 AM ET): Fed VC Jefferson warns AI investment boom is fueling inflation; 10y +1.85bp to 5.085%, 2y 4.832% — Bearish NQ",
+        "@FirstSquawk (~9:29 AM ET): IRGC says Iran won't discuss nuclear file until Hormuz is resolved; zerohedge flags days-long strike campaign on table — Bearish NQ",
+        "@WatcherGuru (~5:43 AM ET): Samsung and TSMC suspend some chip shipments to China after new US restrictions; Asian chips sold off overnight — Mixed NQ"
+      ],
+      "trump": "Trump linked Iran to chemical/biological weapons with a days-long strike campaign reportedly on the table (zerohedge 9:05 AM ET); Denmark ratified Trump's Greenland deal; Trump said deportation policies \"might be too tough\".",
+      "watch": "ANT first trade ~10:00 AM ET (quotation 9:50); Fed speakers incl. Jefferson follow-through; Iran/Hormuz headlines and CL; INTU AMC today; WMT holding red after beat-and-raise; DELL/HPQ AMC Nov 24.",
+      "forSite": []
+    },
+    {
+      "at": "2026-11-19T21:27:24Z",
+      "pulse": "Nasdaq closed down 2.25% and the Dow lost 1,101 points as Anthropic's record IPO faded after opening higher, failing to reverse the AI trade selloff amid hawkish Fed rhetoric and Iran tanker blockade risks.",
+      "bias": "risk-off — broad selloff into the close with VIX at 28 despite ANT +17% (faded from open), as Fed hike odds and Hormuz tensions persist",
+      "items": [
+        "@T_LauRekt (~4:25 PM ET): $NQ −2.3% as Anthropic's record IPO can't save the AI trade; Dow −1,101, Nasdaq −5% on the week, VIX 28; ANT $97.17 (+17% from $83, faded from $111.50 open)",
+        "@MarioNawfal / @officialrnintel (~4:26 PM ET): Iran preparing dozens of oil tankers to break the US naval blockade from Kharg Island, warning of harsh response if interfered",
+        "@JackStr42679640 / reports (~4:24 PM ET): Trump weighs new extensive strikes on Iran per NYT; joint IDF/CENTCOM plans ready with timing pending his decision; \"one way or the other, we'll finish it off\"",
+        "@wisdom_salt (~4:26 PM ET): Anthropic priced at $83, raised $81B; opened $111.50 then faded while crypto and broader tech sold off with liquidity pulled from BTC",
+        "@T_LauRekt (~4:25 PM ET): Jobless claims 203K vs 198K est, Philly Fed 6.3 vs 20.6 est (big miss); yields eased slightly but Dec hike stays live"
+      ],
+      "trump": "Weighing another round of extensive strikes on Iran amid Israeli pressure; joint plans with IDF/CENTCOM exist with timing pending decision; warned \"one way or the other, we'll finish it off.\"",
+      "watch": "Friday: Waller speech 8:25 AM ET, UMich sentiment and inflation expectations 10:00 AM, monthly opex; ANT follow-through and whether NQ holds 23.5k-24k zone; Iran tanker convoy moves and oil reaction; any escalation in Fed hike rhetoric.",
+      "forSite": []
+    },
+    {
+      "at": "2026-11-19T21:28:21Z",
+      "pulse": "NQ closed near the lows as Nasdaq Comp −2.22% (23,887) and S&P −1.98% (7,179) for a 6th straight loss; AI/chips sold despite ANT's +17% debut; the only offsets are INTU's AH beat and heavy MOC buying into the bell.",
+      "bias": "risk-off — tech led a broad selloff with VIX ~28.4 (+16%), NVDA down 6 sessions running, BTC under $62K and Iran strike risk; Friday opex and a Trump presser add event risk",
+      "items": [
+        "@FirstSquawk (~4:02 PM ET): Nasdaq Comp −543 pts/−2.22% to 23,886.88, S&P −1.98% to 7,178.92, Dow −1,095 (−2.18%) to 49,102.72 — Bearish NQ",
+        "@DeItaone (~4:19 PM ET): Anthropic $ANT closes day 1 at $97.17, +17% vs $83 IPO but well off its $111.50 open; record IPO soaked up tech liquidity — Bearish NQ",
+        "@LiveSquawk (~4:04 PM ET): $INTU FQ1 rev $4.35B vs $4.31B est, adj EPS $2.62 vs $2.46; selling Mailchimp to Bending Spoons for $3.68B EV — Mixed NQ",
+        "@WatcherGuru (~3:31 PM ET): Bitcoin falls under $62,000 as risk-off spreads to crypto — Bearish NQ",
+        "@FirstSquawk (~4:04 PM ET): Iran says US chem/bio weapons claims are meant to justify military action; WTI settled $83.21 (−0.06%), Brent $91.98 — Bearish NQ"
+      ],
+      "trump": "No new market remarks this afternoon; the White House says Trump holds a news conference Fri Nov 20 at 12:00 PM ET after his Asia trip. Iran strike risk stays on the tape.",
+      "watch": "Fri Nov 20: Waller 8:25 AM ET, UMich sentiment/inflation expectations 10:00 AM, monthly opex, Trump news conference 12:00 PM; ANT day-2 follow-through; INTU AH reaction; Iran/oil headlines. Next week: DELL and HPQ AMC Tue Nov 24.",
+      "forSite": []
+    },
+    {
+      "at": "2026-11-20T01:15:18Z",
+      "pulse": "Nasdaq and S&P closed sharply lower for a sixth straight session as Anthropic's record IPO faded after opening higher, failing to reverse AI trade weakness amid hawkish Fed rhetoric and persistent Iran/Hormuz risks while crude stayed subdued on oversupply.",
+      "bias": "risk-off — broad selloff with tech/AI leading lower (Nasdaq -2.25%, S&P -2%), VIX elevated near 28-29, NVDA under pressure for multiple sessions, Dec hike odds high, oil down despite geopolitics",
+      "items": [
+        "@venturesintern (~8:09 PM ET): Anthropic debut was the sell trigger — Nasdaq up as much as 2% early then faded to close on lows with VIX near 29; SPX -2% to ~7176, sixth straight loss, Dow below 50k",
+        "@TechEchelon (~8:04 PM ET): Anthropic raised $81.3B in largest IPO ever, closed +17% at $97.17 (from $111.50 open) but failed to lift broader AI trade as Nasdaq fell 2.25%",
+        "@Grok (~8:07 PM ET): Markets opened strongly on ANT IPO hype, gains reversed sharply once trading began as AI trade lost momentum; Dow -2.2%, S&P -2%, Nasdaq -2.3%, ~90% of S&P stocks red",
+        "@InvestmentGuru_ (~8:06 PM ET): VIX spikes don’t ring a bell at the bottom — historically extreme fear creates long-term entries but bottoms can take weeks or months to form",
+        "@FirstSquawk / market (~4:00 PM ET close): Nasdaq Comp -2.22% to ~23,887, S&P -1.98% to ~7,179, Dow -2.18%; WTI settled ~$83.21, Iran claims on US chem/bio to justify action"
+      ],
+      "trump": "No new market remarks this evening; White House notes Trump holds a news conference Fri Nov 20 at 12:00 PM ET after Asia trip. Iran strike risk and Hormuz tensions remain on the tape.",
+      "watch": "Fri Nov 20: Waller 8:25 AM ET, UMich sentiment/inflation expectations 10:00 AM, monthly opex, Trump news conference 12:00 PM; ANT day-2 follow-through; Iran/oil headlines and any Fed hike rhetoric. Next week: DELL and HPQ AMC Tue Nov 24.",
+      "forSite": []
+    },
+    {
+      "at": "2026-11-20T01:31:55Z",
+      "pulse": "NQ futures extend lower after hours (Nasdaq fut ~-0.7% at 7:55 PM ET) on top of a -2.25% Nasdaq close, with Asia chips dumping (Nikkei -4%, Taiwan -4%) and INTU's soft guide adding software pain; only offset is Goldman's tech-underweight squeeze talk and NVDA's still-strong numbers.",
+      "bias": "risk-off — sixth straight S&P loss, ANT IPO sell-the-news, NVDA governance/probe overhang, VIX 28+ and Asia semis -4% point to a weak overnight NQ tape.",
+      "items": [
+        "@FirstSquawk (~7:55 PM ET): US equity futures weaken, Nasdaq fut -0.74%, S&P fut -0.34%; gold -1% to ~$3,586 — Bearish NQ",
+        "@zerohedge (~7:54 PM ET): Nikkei 225 -4% as chip shares extend drop; @FirstSquawk (~8:07 PM ET) Taiwan benchmark -4%+, MSCI EM -20% from June peak — Bearish NQ",
+        "@LiveSquawk (~4:04 PM ET): $INTU FQ1 rev $4.35B vs $4.31B est, adj EPS beat, selling Mailchimp to Bending Spoons ($3.68B); Q2 rev guide $4.93-4.95B vs $5.11B est → ~-13% AH (Benzinga) — Bearish NQ",
+        "@WatcherGuru (~5:36 PM ET): California AG opens probe into $NVDA over possibly misleading investors on China risk after Huang exit — Bearish NQ",
+        "CNBC/AP (~4:00 PM ET close): Nasdaq Comp -2.25% to 23,879, S&P -2.02% to 7,175.83 (6th straight loss), Dow -2.19% below 50k, SOX -2.42%, VIX 28.26 (+15%), WTI $83.24 (+1.4%) — Bearish NQ"
+      ],
+      "trump": "Told Reuters (~3:12 PM ET) after talks with Xi and Putin that a nuclear-arms deal 'will be hard to reach'; said (~2:47 PM ET) Xi and Putin 'want Iran war to end' and are pressuring Tehran (oil-calming). @WatcherGuru (~6:17 PM ET): Trump disclosed 751 Sept stock trades worth up to $148M, incl. NVDA buys. No new tariff headlines.",
+      "watch": "Overnight: Asia chip tape (Nikkei/TWSE/KOSPI) and NQ globex low; Iran/Gulf strike headlines for CL. Fri Nov 20: monthly opex, INTU/GAP/ROST reactions at 9:30 AM ET open, ANT day-2 trade, NVDA after CA probe. Next week: DELL and HPQ AMC Tue Nov 24.",
+      "forSite": []
+    }
+  ]
 }

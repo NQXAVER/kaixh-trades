@@ -1,6 +1,6 @@
 {
   "date": "2026-11-19",
-  "at": "2026-11-19T21:28:21Z",
+  "at": "2026-11-20T01:31:55Z",
   "items": [
     {
       "ticker": "TSN",
@@ -94,8 +94,9 @@
       "date": "2026-11-19",
       "when": "AMC",
       "status": "reported",
-      "sentiment": "Mixed",
-      "why": "FQ1 rev $4.35B vs $4.31B est, adj EPS $2.62 vs $2.46 est, adj op income $941M vs $907.9M; agreed to sell Mailchimp to Bending Spoons for $3.68B EV. After-hours move not confirmed yet."
+      "sentiment": "Bearish",
+      "why": "FQ1 rev $4.35B vs $4.31B est, adj EPS $2.91 vs ~$2.70 est (beat); Q2 rev guide $4.93-4.95B vs $5.11B est, weaker Credit Karma outlook; selling Mailchimp to Bending Spoons for $3.68B. Software drag on NQ.",
+      "reaction": "~-13% AH"
     },
     {
       "ticker": "ROST",
