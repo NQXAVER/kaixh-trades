@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T17:01:41Z",
+  "updatedAt": "2026-11-20T17:38:12Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -92,9 +92,9 @@
     {
       "id": "fed-all",
       "label": "Federal Reserve",
-      "ok": true,
-      "items": 20,
-      "error": null
+      "ok": false,
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "id": "fed-monetary",
@@ -134,9 +134,9 @@
     {
       "id": "mw-top",
       "label": "MarketWatch",
-      "ok": false,
-      "items": 0,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
+      "ok": true,
+      "items": 10,
+      "error": null
     },
     {
       "id": "npr-biz",
@@ -568,8 +568,20 @@
       "headline": "Anthropic defies the odds, holding record IPO despite ‘massively disruptive’ market",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/11/20/anthropic-defies-odds-holding-ipo-despite-massively-disruptive-market.html",
-      "publishedAt": "2026-11-20T16:41:00Z",
-      "time": "Fri 11:41 AM",
+      "publishedAt": "2026-11-20T17:10:52Z",
+      "time": "Fri 12:10 PM",
+      "section": "tech",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f922817cf4f07",
+      "headline": "Anthropic’s stock slides closer to IPO price and drags down the AI trade",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/anthropics-stock-slides-closer-to-ipo-price-and-drags-down-the-ai-trade-cc43a0c4?mod=mw_rss_topstories",
+      "publishedAt": "2026-11-20T15:38:00Z",
+      "time": "Fri 10:38 AM",
       "section": "tech",
       "impact": "High",
       "lean": null,
@@ -672,18 +684,6 @@
       "auto": true
     },
     {
-      "id": "f8dd6bab50395",
-      "headline": "Anthropic starts trading in the US after blockbuster IPO",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/economy/2026/11/19/anthropic-starts-trading-in-the-us-after-blockbuster-ipo?traffic_source=rss",
-      "publishedAt": "2026-11-19T16:57:26Z",
-      "time": "Thu 11:57 AM",
-      "section": "tech",
-      "impact": "High",
-      "lean": null,
-      "auto": true
-    },
-    {
       "id": "f8ee8fa11d319",
       "headline": "China’s Oil Imports from Persian Gulf Jump to Wartime High",
       "source": "OilPrice",
@@ -716,6 +716,18 @@
       "time": "Wed 3:45 AM",
       "section": "energy",
       "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f13ac959884e5",
+      "headline": "Tankers Are Being Hit Daily. So Why Is Oil Falling?",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Energy/Crude-Oil/Tankers-Are-Being-Hit-Daily-So-Why-Is-Oil-Falling.html",
+      "publishedAt": "2026-11-20T17:11:05Z",
+      "time": "Fri 12:11 PM",
+      "section": "energy",
+      "impact": "Medium",
       "lean": null,
       "auto": true
     },
@@ -792,18 +804,6 @@
       "auto": true
     },
     {
-      "id": "f55335a4d8aa6",
-      "headline": "Walmart hikes outlook as CEO tells CNBC retailer aims to keep prices low despite soaring fuel costs",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/19/walmart-wmt-q3-2026-earnings.html",
-      "publishedAt": "2026-11-19T19:58:30Z",
-      "time": "Thu 2:58 PM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
       "id": "fe960d6e27013",
       "headline": "Anthropic lifts Nasdaq futures and tech stocks ahead of its record-breaking IPO",
       "source": "CNBC",
@@ -820,8 +820,20 @@
       "headline": "Bitcoin sell-off: Crypto is failing the 'digital gold' test again as it sinks with stocks",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/11/20/bitcoin-price-gold-market-hedge.html",
-      "publishedAt": "2026-11-20T15:59:21Z",
-      "time": "Fri 10:59 AM",
+      "publishedAt": "2026-11-20T17:25:19Z",
+      "time": "Fri 12:25 PM",
+      "section": "markets",
+      "impact": "Medium",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "f112bc86a0530",
+      "headline": "Investors fled to healthcare stocks for safety. Now insurance and hospital shares are plunging.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/investors-fled-to-healthcare-stocks-for-safety-now-insurance-and-hospital-shares-are-plunging-9cb6a96c?mod=mw_rss_topstories",
+      "publishedAt": "2026-11-20T15:53:00Z",
+      "time": "Fri 10:53 AM",
       "section": "markets",
       "impact": "Medium",
       "lean": "risk-off",
