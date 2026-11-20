@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T17:38:12Z",
+  "updatedAt": "2026-11-20T23:46:38Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -92,9 +92,9 @@
     {
       "id": "fed-all",
       "label": "Federal Reserve",
-      "ok": false,
-      "items": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "ok": true,
+      "items": 20,
+      "error": null
     },
     {
       "id": "fed-monetary",
@@ -328,8 +328,8 @@
       "headline": "Warsh wants Fed officials to talk less. Instead, they’re talking more",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/11/20/warsh-fed-forward-guidance-rate-hikes.html",
-      "publishedAt": "2026-11-20T15:20:54Z",
-      "time": "Fri 10:20 AM",
+      "publishedAt": "2026-11-20T21:10:48Z",
+      "time": "Fri 4:10 PM",
       "section": "fed",
       "impact": "High",
       "lean": null,
@@ -384,26 +384,26 @@
       "auto": true
     },
     {
-      "id": "f916a5a90f242",
-      "headline": "Fed Chairman Kevin Warsh stresses importance of AI to economy, but says it could ‘disappoint’",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/16/fed-ai-task-force-kevin-warsh.html",
-      "publishedAt": "2026-11-16T18:46:07Z",
-      "time": "Mon 1:46 PM",
+      "id": "f248bd4656cfd",
+      "headline": "Federal Reserve announces College Fed Challenge winners",
+      "source": "Federal Reserve",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261120b.htm",
+      "publishedAt": "2026-11-20T21:15:00Z",
+      "time": "Fri 4:15 PM",
       "section": "fed",
-      "impact": "High",
+      "impact": "Medium",
       "lean": null,
       "auto": true
     },
     {
-      "id": "f511793ec94c3",
-      "headline": "How will AI shake up the economy? Warsh says the Fed is starting to figure that out.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/how-will-ai-shake-up-the-economy-warsh-says-the-fed-is-starting-to-figure-that-out-a72f80c4?mod=mw_rss_topstories",
-      "publishedAt": "2026-11-16T17:53:00Z",
-      "time": "Mon 12:53 PM",
+      "id": "f4caeec1911c8",
+      "headline": "Peterson: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html",
+      "publishedAt": "2026-11-20T21:07:08Z",
+      "time": "Fri 4:07 PM",
       "section": "fed",
-      "impact": "High",
+      "impact": "Medium",
       "lean": null,
       "auto": true
     },
@@ -420,24 +420,24 @@
       "auto": true
     },
     {
-      "id": "f4caeec1911c8",
-      "headline": "Peterson: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html",
-      "publishedAt": "2026-11-19T20:18:47Z",
-      "time": "Thu 3:18 PM",
-      "section": "fed",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
       "id": "fdea96ab11fe0",
       "headline": "Federal Reserve Board issues enforcement action with former employee of First Security Bancorp",
       "source": "Federal Reserve",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261119a.htm",
       "publishedAt": "2026-11-19T16:00:00Z",
       "time": "Thu 11:00 AM",
+      "section": "fed",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f9f8e1154bc8a",
+      "headline": "AI demand will push up interest rates around the world, IMF head warns",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/nov/19/imf-head-warns-ai-demand-push-up-interest-rates-apec",
+      "publishedAt": "2026-11-19T15:15:14Z",
+      "time": "Thu 10:15 AM",
       "section": "fed",
       "impact": "Medium",
       "lean": null,
@@ -564,6 +564,42 @@
       "auto": true
     },
     {
+      "id": "ffabc06b0912c",
+      "headline": "The hidden catch in Anthropic’s IPO: Billions of locked-up shares are waiting in the wings",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/the-hidden-catch-in-anthropics-ipo-billions-of-locked-up-shares-are-waiting-in-the-wings-279d33ce?mod=mw_rss_topstories",
+      "publishedAt": "2026-11-20T21:39:00Z",
+      "time": "Fri 4:39 PM",
+      "section": "tech",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f034bf8bb0a55",
+      "headline": "Anthropic’s stock sees dramatic slide but manages to stay above its IPO price",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/anthropics-stock-slides-closer-to-ipo-price-and-drags-down-the-ai-trade-cc43a0c4?mod=mw_rss_topstories",
+      "publishedAt": "2026-11-20T21:25:00Z",
+      "time": "Fri 4:25 PM",
+      "section": "tech",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fec738cfdd723",
+      "headline": "Anthropic defied the odds in its record IPO. Now it has to reckon with AI market turbulence",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/20/anthropic-defies-odds-holding-ipo-despite-massively-disruptive-market.html",
+      "publishedAt": "2026-11-20T21:06:45Z",
+      "time": "Fri 4:06 PM",
+      "section": "tech",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "f036cfbf65819",
       "headline": "Anthropic defies the odds, holding record IPO despite ‘massively disruptive’ market",
       "source": "CNBC",
@@ -648,42 +684,6 @@
       "auto": true
     },
     {
-      "id": "f3fcc7d56096f",
-      "headline": "Anthropic closes first day of public trading at $1.3tn valuation after largest-ever IPO",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/technology/2026/nov/19/anthropic-public-trading-ipo",
-      "publishedAt": "2026-11-19T22:09:18Z",
-      "time": "Thu 5:09 PM",
-      "section": "tech",
-      "impact": "High",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f4d98b1fadb03",
-      "headline": "AI giant Anthropic's shares pop in debut after blockbuster IPO",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/11/19/nx-s1-6042560/ai-giant-anthropics-shares-pop-in-debut-after-blockbuster-ipo",
-      "publishedAt": "2026-11-19T21:19:56Z",
-      "time": "Thu 4:19 PM",
-      "section": "tech",
-      "impact": "High",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f60f836e2b4f4",
-      "headline": "Three arrested during Anthropic IPO protest outside Nasdaq",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/three-arrested-during-anthropic-ipo-protest-outside-nasdaq?traffic_source=rss",
-      "publishedAt": "2026-11-19T20:59:20Z",
-      "time": "Thu 3:59 PM",
-      "section": "tech",
-      "impact": "High",
-      "lean": null,
-      "auto": true
-    },
-    {
       "id": "f8ee8fa11d319",
       "headline": "China’s Oil Imports from Persian Gulf Jump to Wartime High",
       "source": "OilPrice",
@@ -716,6 +716,54 @@
       "time": "Wed 3:45 AM",
       "section": "energy",
       "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fc1b2771bb5a7",
+      "headline": "Fossil fuel talks deadlock pushes COP31 climate summit into overtime",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/20/fossil-fuel-talks-deadlock-pushes-cop31-climate-summit-into-overtime?traffic_source=rss",
+      "publishedAt": "2026-11-20T23:06:41Z",
+      "time": "Fri 6:06 PM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f9609b9f03bf2",
+      "headline": "Saudi Arabia Expands Oil Storage in Japan as Tokyo Restocks",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Expands-Oil-Storage-in-Japan-as-Tokyo-Restocks.html",
+      "publishedAt": "2026-11-20T18:30:00Z",
+      "time": "Fri 1:30 PM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f47bce280fac5",
+      "headline": "U.S. Oil Drillers Pick Up the Pace Just as Oil Prices Fall",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Energy/Energy-General/US-Oil-Drillers-Pick-Up-the-Pace-Just-as-Oil-Prices-Fall.html",
+      "publishedAt": "2026-11-20T18:09:09Z",
+      "time": "Fri 1:09 PM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "ff3bda78c61b3",
+      "headline": "Lufthansa to Slash 1,000 Jobs as Airlines Reel from High Fuel Costs",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Lufthansa-to-Slash-1000-Jobs-as-Airlines-Reel-from-High-Fuel-Costs.html",
+      "publishedAt": "2026-11-20T17:30:00Z",
+      "time": "Fri 12:30 PM",
+      "section": "energy",
+      "impact": "Medium",
       "lean": null,
       "auto": true
     },
@@ -756,54 +804,6 @@
       "auto": true
     },
     {
-      "id": "fa654a580d054",
-      "headline": "‘Completely messed up everything’: Malawi’s fuel crisis causes chaos",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/11/20/completely-messed-up-everything-malawis-fuel-crisis-causes-chaos?traffic_source=rss",
-      "publishedAt": "2026-11-20T01:06:15Z",
-      "time": "Thu 8:06 PM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "ff87ecce82f9a",
-      "headline": "US Oil and Gas Deal Boom Lures BMO Back Into the Market",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Oil-and-Gas-Deal-Boom-Lures-BMO-Back-Into-the-Market.html",
-      "publishedAt": "2026-11-20T01:00:00Z",
-      "time": "Thu 8:00 PM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "fe79b2c0ad7db",
-      "headline": "Guyana Oil Boom Rekindles Frontier Drilling Appetite",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Energy/Crude-Oil/Guyana-Oil-Boom-Rekindles-Frontier-Drilling-Appetite.html",
-      "publishedAt": "2026-11-20T00:00:00Z",
-      "time": "Thu 7:00 PM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f14bdd1fa72db",
-      "headline": "Mercosur’s Tax Break Is Fueling Brazil’s Oil Push Into Europe",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Energy/Crude-Oil/Mercosurs-Tax-Break-Is-Fueling-Brazils-Oil-Push-Into-Europe.html",
-      "publishedAt": "2026-11-19T21:00:00Z",
-      "time": "Thu 4:00 PM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
       "id": "fe960d6e27013",
       "headline": "Anthropic lifts Nasdaq futures and tech stocks ahead of its record-breaking IPO",
       "source": "CNBC",
@@ -813,6 +813,42 @@
       "section": "markets",
       "impact": "High",
       "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fdc0db39bf987",
+      "headline": "Dow, S&P 500 enter correction as Nasdaq suffers worst week since 2020",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/dow-s-p-500-enter-correction-as-nasdaq-suffers-worst-week-since-2020-bd74dadf?mod=mw_rss_topstories",
+      "publishedAt": "2026-11-20T22:46:00Z",
+      "time": "Fri 5:46 PM",
+      "section": "markets",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fce30ee6906d3",
+      "headline": "S&P 500 sinks 3.7% and the Nasdaq composite goes negative for the year",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/11/20/g-s1-154797/nasdaq-sp500-stock-market-ai-sink-negative",
+      "publishedAt": "2026-11-20T22:11:29Z",
+      "time": "Fri 5:11 PM",
+      "section": "markets",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f53aca8de90c4",
+      "headline": "Prediction markets outlook for stocks in 2026 dims amid AI sell-off",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/20/sp-500-8000-kalshi-odds-ai-selloff.html",
+      "publishedAt": "2026-11-20T19:59:03Z",
+      "time": "Fri 2:59 PM",
+      "section": "markets",
+      "impact": "Medium",
+      "lean": "risk-off",
       "auto": true
     },
     {
