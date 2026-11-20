@@ -1,18 +1,18 @@
 {
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "grok": {
-    "at": "2026-11-20T03:06:08Z",
-    "pulse": "Nasdaq and S&P closed sharply lower Thursday (-2.2%+) as Anthropic's record IPO faded after a strong open, failing to revive the AI trade amid hawkish Fed hike signals, NVDA pressure, and broad risk-off that extended into Asia semis dumping overnight.",
-    "bias": "risk-off — sixth straight S&P loss, ANT sell-the-news, VIX ~28-29, Asia chips -4%+, Dec hike fully priced with 50bp talk, oil subdued on supply despite Iran risks",
+    "at": "2026-11-20T12:01:02Z",
+    "pulse": "NQ futures down 1-1.5% and ES ~0.5% as the AI selloff deepens globally after Anthropic's record IPO faded, with Asia chips (Nikkei/Kospi -5%) leading the risk-off and ANT/AMD under pressure premarket.",
+    "bias": "risk-off — AI trade unwind continues post-ANT IPO failure to revive sentiment, futures lower amid Asia semis dump, elevated VIX, and hawkish Fed backdrop with high Dec hike odds",
     "items": [
-      "@Joshuatrader1 / close recaps (~4:00 PM ET): S&P -2.0% to ~7176, Nasdaq -2.3%, Dow -2.2% for 6th straight loss; AI cracked with NVDA -3.3%, VIX 28.4",
-      "@romitkr / Asia open (~10:00 PM ET): Big gap-down setup, AI trade dumped worldwide; US Thu Dow -2.2%/S&P -2%/Nasdaq -2.3% as ANT IPO failed, Nikkei/Kospi ~-4.5%",
-      "@fmb_dev (~10:04 PM ET): Anthropic stock dumped 15% right after market open despite IPO hype; one of biggest AI IPOs already getting rekt",
-      "@ClosingPrints / market (~8:38 PM ET): Indices slid 2%+ after early bounce on ANT; all 11 sectors red, >90% S&P down, ANT closed +17% off open highs",
-      "@quantalg0 / futures (~7:00 PM ET): Equities stabilize attempts uneven, NQ/ES below declining MAs; CL lower, gold new lows as dollar/yields headwinds persist"
+      "@DTradingToolkit (~7:00 AM ET): Asia got smoked overnight — Nikkei and Kospi both fell about 5%, Nasdaq futures about 1.5%; green premarket in red tape is a gift to sellers",
+      "@traderkim71 (~6:59 AM ET): Premarket $QQQ -1.15%, $SPY -0.70%, $DIA -0.20%; $ANT and $AMD both roughly down -7% as selloff extends into OPEX Friday",
+      "@QuasarMarkets (~5:53 AM ET): The AI rout is the whole tape — S&P closed -2.02% for sixth straight loss, Asia followed hard (Kospi -5.1%, Nikkei -4.7%); NQ futures -1.55%, ES -0.61%",
+      "@TradePhantomX (~5:48 AM ET): AI sell-off spread to Asia; SoftBank -14%, ANT ~-6% pre-market still above IPO; NQ down ~1% while YM/RTY holding, gold liquidating",
+      "@sports_lamb (~6:57 AM ET): Rough Friday for AI — Nasdaq futures -1.6% as selloff goes global; $ANT -6% day after debut, $AMD -5% on China short-seller report, $NVDA -2.6%"
     ],
     "trump": "none",
-    "watch": "Fri Nov 20 open: Asia follow-through on chips, ANT day-2 action, monthly opex, UMich sentiment 10AM ET, Fed speakers; Iran/Hormuz headlines for oil, NVDA probe/leadership overhang, whether NQ holds post-close lows.",
+    "watch": "Fri Nov 20 open: monthly OPEX gamma flows, Waller speech 8:25 AM ET, UMich sentiment/inflation expectations 10:00 AM, Cook 12:15 PM; ANT day-2 follow-through; Iran/Hormuz headlines for oil; whether NQ holds or extends the AI unwind into the cash open",
     "forSite": []
   }
 }
