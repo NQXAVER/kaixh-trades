@@ -1,18 +1,18 @@
 {
   "date": "2026-11-19",
   "grok": {
-    "at": "2026-11-20T01:15:18Z",
-    "pulse": "Nasdaq and S&P closed sharply lower for a sixth straight session as Anthropic's record IPO faded after opening higher, failing to reverse AI trade weakness amid hawkish Fed rhetoric and persistent Iran/Hormuz risks while crude stayed subdued on oversupply.",
-    "bias": "risk-off — broad selloff with tech/AI leading lower (Nasdaq -2.25%, S&P -2%), VIX elevated near 28-29, NVDA under pressure for multiple sessions, Dec hike odds high, oil down despite geopolitics",
+    "at": "2026-11-20T03:06:08Z",
+    "pulse": "Nasdaq and S&P closed sharply lower Thursday (-2.2%+) as Anthropic's record IPO faded after a strong open, failing to revive the AI trade amid hawkish Fed hike signals, NVDA pressure, and broad risk-off that extended into Asia semis dumping overnight.",
+    "bias": "risk-off — sixth straight S&P loss, ANT sell-the-news, VIX ~28-29, Asia chips -4%+, Dec hike fully priced with 50bp talk, oil subdued on supply despite Iran risks",
     "items": [
-      "@venturesintern (~8:09 PM ET): Anthropic debut was the sell trigger — Nasdaq up as much as 2% early then faded to close on lows with VIX near 29; SPX -2% to ~7176, sixth straight loss, Dow below 50k",
-      "@TechEchelon (~8:04 PM ET): Anthropic raised $81.3B in largest IPO ever, closed +17% at $97.17 (from $111.50 open) but failed to lift broader AI trade as Nasdaq fell 2.25%",
-      "@Grok (~8:07 PM ET): Markets opened strongly on ANT IPO hype, gains reversed sharply once trading began as AI trade lost momentum; Dow -2.2%, S&P -2%, Nasdaq -2.3%, ~90% of S&P stocks red",
-      "@InvestmentGuru_ (~8:06 PM ET): VIX spikes don’t ring a bell at the bottom — historically extreme fear creates long-term entries but bottoms can take weeks or months to form",
-      "@FirstSquawk / market (~4:00 PM ET close): Nasdaq Comp -2.22% to ~23,887, S&P -1.98% to ~7,179, Dow -2.18%; WTI settled ~$83.21, Iran claims on US chem/bio to justify action"
+      "@Joshuatrader1 / close recaps (~4:00 PM ET): S&P -2.0% to ~7176, Nasdaq -2.3%, Dow -2.2% for 6th straight loss; AI cracked with NVDA -3.3%, VIX 28.4",
+      "@romitkr / Asia open (~10:00 PM ET): Big gap-down setup, AI trade dumped worldwide; US Thu Dow -2.2%/S&P -2%/Nasdaq -2.3% as ANT IPO failed, Nikkei/Kospi ~-4.5%",
+      "@fmb_dev (~10:04 PM ET): Anthropic stock dumped 15% right after market open despite IPO hype; one of biggest AI IPOs already getting rekt",
+      "@ClosingPrints / market (~8:38 PM ET): Indices slid 2%+ after early bounce on ANT; all 11 sectors red, >90% S&P down, ANT closed +17% off open highs",
+      "@quantalg0 / futures (~7:00 PM ET): Equities stabilize attempts uneven, NQ/ES below declining MAs; CL lower, gold new lows as dollar/yields headwinds persist"
     ],
-    "trump": "No new market remarks this evening; White House notes Trump holds a news conference Fri Nov 20 at 12:00 PM ET after Asia trip. Iran strike risk and Hormuz tensions remain on the tape.",
-    "watch": "Fri Nov 20: Waller 8:25 AM ET, UMich sentiment/inflation expectations 10:00 AM, monthly opex, Trump news conference 12:00 PM; ANT day-2 follow-through; Iran/oil headlines and any Fed hike rhetoric. Next week: DELL and HPQ AMC Tue Nov 24.",
+    "trump": "none",
+    "watch": "Fri Nov 20 open: Asia follow-through on chips, ANT day-2 action, monthly opex, UMich sentiment 10AM ET, Fed speakers; Iran/Hormuz headlines for oil, NVDA probe/leadership overhang, whether NQ holds post-close lows.",
     "forSite": []
   }
 }
