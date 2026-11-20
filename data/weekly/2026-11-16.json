@@ -1,0 +1,99 @@
+{
+ "weekStart": "2026-11-16",
+ "weekEnd": "2026-11-20",
+ "updatedAt": "2026-11-20T21:49:52Z",
+ "note": "Three journaled NY executions this week: Tue 2.73R win (best), Thu -1R loss (worst), Fri BE long. Mon was a no-trade paper day and Wed a day off after the payout request. The two Asia shorts (Sun Nov 15, Tue Nov 17 evening) broke the NY-only rule and aren't picks.",
+ "best": {
+  "date": "2026-11-17",
+  "title": "BE first, then a patient 10:00 re-entry short into London low",
+  "result": "BE + Win 2.73R",
+  "trade": "Short x2 · NY-AM · XFA · T1 ~9:41 AM entry 27,266.50 · stop 27,351.00 · BE at MO low (~27,200) · T2 ~10:00 AM entry 27,261.00 · stop 27,337.25 · target 27,052.75 (London low)",
+  "reasoning": "PRE MARKET: \"I want to see us go higher, but if we go lower I want to see bearish.\" DOL: \"London low.\" Stop: \"High that rejected 5min gap with displacement.\"\nEntry type: \"5min rejected. EQ respected. 1min displacement. HTF bearish. Bearish SMT at the 4hr bearish gap with ES. DOL London low. I went BE at the MO low, plus seeing the bullish SMT give us a reaction made me stick with it.\"\nRe-entry: \"10AM opened. 15min FVG tapped. EQ rejected. 1min bearish SMT. 1min flip displacement. DOL London low. BE at the low. I'm expecting price to flood, but if I get BE here I'm locking out for my mental and to stay disciplined, to not cause tilt.\"\nTALK: \"I did want to see us go for PWL, but I decided to just go for my payout. I don't think I would've been mentally fine holding to PWL after seeing us not close strong... my trade was 200 pts, but it did hit PWL and holding would've been a 500 pt trade, but I decided to hit my 3k bal for my 1st payout.\"\nEmotions: \"Chill. 2nd trade calm.\" During: \"Bit nervous. 2nd trade a bit nervous but have lots of conviction.\" After: \"2nd trade HAPPYYY BOYYY.\"",
+  "feedback": "This was your best execution of the week, and it's the kind of day that proves you can trade both ways. You walked in wanting longs, the 5min rejected the gap, and you flipped to shorts instead of fighting it. Trade 1 at 27,266.50 had its stop at 27,351.00 above the high that rejected the 5min gap, a real protected high, and moving to BE at the MO low (~27,200) when ES held its low was a reasonable reaction-level call, not fear. Then the part I like most: no revenge click. You waited for a fresh 10:00 setup with its own confluence (15min FVG tap, EQ rejection, 1min SMT and flip) and shorted 27,261.00 with the stop at 27,337.25 over the 15min FVG/0.5, into the London low at 27,052.75 that was already marked on your 15min before the open. One XFA, NY-AM, 2.73R. AB put it in trade of the day for a reason.\nTwo things to tighten. Your written pre-market was one line and charts opened at 9:28, with the check-in at 9:31, a minute past SYNDICATOR's cutoff (strike 1). The bigger one is the exit: London low as the DOL was the plan, which is fine, but \"hit my 3k bal for my 1st payout\" is an account-balance reason. Price went on to PWL. Decide before entry whether you're holding to London low or PWL, from structure, so the payout number never picks your exit.",
+  "good": [
+   "Both stops sat above real protected highs: 27,351.00 over the 5min-gap rejection high and 27,337.25 over the 15min FVG/0.5.",
+   "After T1 went BE you waited for a new 10:00 setup (15min FVG, EQ rejection, 1min SMT and flip) instead of revenge-clicking.",
+   "Flipped from 'wanted to long' to shorts once the 5min rejected, so you weren't married to the idea.",
+   "London low (27,052.75 target) was marked on your 15min before the open, so the DOL was planned, not chased.",
+   "One XFA, NY-AM only, and chart, Notion, journal post and EOD card all match. AB's trade of the day."
+  ],
+  "fix": [
+   "Morning check-in filed at 9:31 AM, one minute past SYNDICATOR's 9:30 cutoff (strike 1 of 3).",
+   "Charts opened at 9:28 with a one-line plan. Write two concrete scenarios with levels before the open.",
+   "Exit reason was the $3k payout balance. Decide London low vs PWL from structure before entry."
+  ],
+  "screenshots": [
+   {
+    "label": "Execution 1 · 1min NQ/ES (9:55 AM)",
+    "src": "data/weekly/2026-11-16/best-1.png",
+    "note": "Short 27,266.50 with the stop at 27,351.00 above the high that rejected the 5min gap, target 27,088.00 near London low, and BE at ~27,200 at the MO low while ES held its NYAM.L."
+   },
+   {
+    "label": "Execution 2 · 1min NQ/ES (10:24 AM)",
+    "src": "data/weekly/2026-11-16/best-2.png",
+    "note": "Re-entry short 27,261.00, stop 27,337.25 above the 15min FVG/0.5, target 27,052.75: exactly the 2.73R box, with the 10:00 marker and NQ's SMT lower high backing your notes."
+   },
+   {
+    "label": "TimeFrame 1 · 4h NQ/ES (9:30 AM)",
+    "src": "data/weekly/2026-11-16/best-3.png",
+    "note": "Price back below the 0.5 of the 4h fib from PD-H and sitting on PD-L, a bearish HTF picture that supported shorts more than your 'go higher' plan."
+   },
+   {
+    "label": "TimeFrame 2 · 1h NQ/ES (9:30 AM)",
+    "src": "data/weekly/2026-11-16/best-4.png",
+    "note": "Under the descending trendline with lower highs from PD-H and the draw below, the right framing for shorts."
+   },
+   {
+    "label": "TimeFrame 3 · 15min NQ/ES (9:30 AM)",
+    "src": "data/weekly/2026-11-16/best-5.png",
+    "note": "LO.L was already marked as the draw with D OPEN and NYAM.H above, so the London-low target was planned before the open."
+   }
+  ]
+ },
+ "worst": {
+  "date": "2026-11-19",
+  "title": "Right idea, unprotected stop: short swept at 27,836 before it ran to target",
+  "result": "Loss -1R",
+  "trade": "Short · NY-AM · XFA · entry ~27,746.75 (~9:47 AM) · stop ~27,803.00 (under NYAM.H ~27,840) · target ~27,465 (4h unfill / daily open)",
+  "reasoning": "PRE MARKET: \"Want to see us dump today. Want to see MO go higher to short, but I need to see consolidation before shorting. Daily no wick below, well it does have a wick but so small.\" DOL: \"4hr unfill.\" Stop: \"The high that made the displacement.\"\nEntry type: \"15min rejection block. OTE .786. Flip displacement. Bearish SMT at the highs. DOL 4hr unfill, if there's good volume hold to daily open.\"\nTALK: \"I'm annoyed but I really want to follow my rules. I did feel lots of emotions and revenge/FOMO. I'm so upset, cus if I had re-entered... but I decided not to because I wanted to see us consolidate higher... formed bearish SMT, swept low, retrace, and I said nah, wait for consolidation, and never got it, then it ran without me.\"\nEmotions: \"Calm.\" During: \"Bit nervous.\" After: \"Calm. A bit annoyed after seeing my target fully hit, I would've hit 1.2k.\"",
+  "feedback": "First, the part that matters most: you took one loss, felt the revenge and FOMO, wrote it down, and still locked out. That's the discipline that keeps the XFA alive after the payout, and it's a big step from where you were a few weeks ago. Your read was right too. NQ above PD-H while ES stayed under it is a clean bearish SMT, and price did run to the 4h unfill at ~27,465. This loss isn't about the idea.\nIt's about two execution choices. The stop at ~27,803 sat inside the 15min rejection block and ~37 points under NYAM.H (~27,840). 'The high that made the displacement' isn't the high that has to hold for the idea to be wrong, and the spike to ~27,836 took you out while NYAM.H held. A stop above ~27,845 would have survived; if that's too wide for your risk, size down or skip. And the entry: your plan said wait for consolidation and your notes say OTE .786 (~27,788), but you filled ~27,746.75 below the 0.618 off the first push around 9:47, with no Morning Check-in filed. You were right to skip the re-entry without consolidation; the first entry needed the same filter.\nContext for the week: this was the worst journaled NY execution, but the bigger rule breaks were the two Asia shorts on XFA (Sun Nov 15 ~7:40 PM and Tue Nov 17 ~6:30 PM). Both worked out, which makes them more dangerous, not less. NY-only means NY-only.",
+  "good": [
+   "One loss, then locked out despite writing 'lots of emotions and revenge/FOMO'.",
+   "Bias and draw were right: HTF bearish SMT vs ES, short into the 4h unfill at ~27,465, which got hit.",
+   "Skipped the re-entry because it didn't consolidate, which was your plan. EOD card filed at 11:26 AM with the screenshot."
+  ],
+  "fix": [
+   "Stop ~27,803 was inside the rejection block and under NYAM.H (~27,840). Put it above the protected high (~27,845) or size down/skip.",
+   "Entry ~27,746.75 was below the 0.618 off the first push, not the .786 (~27,788) after consolidation you planned.",
+   "No Morning Check-in before 9:30, yet the EOD card said 'Rules Followed: Yes'.",
+   "Judge the trade by the stop placement, not the $1.2k you missed."
+  ],
+  "screenshots": [
+   {
+    "label": "Execution 1 · 1min NQ / ES (9:51 AM)",
+    "src": "data/weekly/2026-11-16/worst-1.png",
+    "note": "Entry 27,746.75 below the 0.618, stop 27,803.00 in the middle of the 15min rejection block ~37 pts under NYAM.H, swept by the wick to ~27,836 while the high held."
+   },
+   {
+    "label": "TimeFrame 2 · 4h ES / Daily NQ (9:27 AM)",
+    "src": "data/weekly/2026-11-16/worst-2.png",
+    "note": "NQ bounced hard off the November low into PD-H inside a larger bear leg, matching AB's 'HTF bear market, expect a reversal'."
+   },
+   {
+    "label": "TimeFrame 1 · 4h NQ / ES (9:26 AM)",
+    "src": "data/weekly/2026-11-16/worst-3.png",
+    "note": "NQ above PD-H into the trendline from the November high while ES stayed under its PD-H: a clean HTF bearish SMT."
+   },
+   {
+    "label": "TimeFrame 3 · 4h NQ / ES (9:27 AM)",
+    "src": "data/weekly/2026-11-16/worst-4.png",
+    "note": "The 4h unfilled range below PD-EQ was the obvious DOL you wrote, and it got hit."
+   },
+   {
+    "label": "TimeFrame 4 · 1h NQ / ES (9:27 AM)",
+    "src": "data/weekly/2026-11-16/worst-5.png",
+    "note": "NQ stretched above PD-H with only a small rejection; the 9:47 entry came off the first push, not the consolidation your plan called for."
+   }
+  ]
+ }
+}
