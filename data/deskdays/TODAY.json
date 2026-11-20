@@ -1,18 +1,18 @@
 {
   "date": "2026-11-19",
   "grok": {
-    "at": "2026-11-19T21:27:24Z",
-    "pulse": "Nasdaq closed down 2.25% and the Dow lost 1,101 points as Anthropic's record IPO faded after opening higher, failing to reverse the AI trade selloff amid hawkish Fed rhetoric and Iran tanker blockade risks.",
-    "bias": "risk-off — broad selloff into the close with VIX at 28 despite ANT +17% (faded from open), as Fed hike odds and Hormuz tensions persist",
+    "at": "2026-11-20T01:15:18Z",
+    "pulse": "Nasdaq and S&P closed sharply lower for a sixth straight session as Anthropic's record IPO faded after opening higher, failing to reverse AI trade weakness amid hawkish Fed rhetoric and persistent Iran/Hormuz risks while crude stayed subdued on oversupply.",
+    "bias": "risk-off — broad selloff with tech/AI leading lower (Nasdaq -2.25%, S&P -2%), VIX elevated near 28-29, NVDA under pressure for multiple sessions, Dec hike odds high, oil down despite geopolitics",
     "items": [
-      "@T_LauRekt (~4:25 PM ET): $NQ −2.3% as Anthropic's record IPO can't save the AI trade; Dow −1,101, Nasdaq −5% on the week, VIX 28; ANT $97.17 (+17% from $83, faded from $111.50 open)",
-      "@MarioNawfal / @officialrnintel (~4:26 PM ET): Iran preparing dozens of oil tankers to break the US naval blockade from Kharg Island, warning of harsh response if interfered",
-      "@JackStr42679640 / reports (~4:24 PM ET): Trump weighs new extensive strikes on Iran per NYT; joint IDF/CENTCOM plans ready with timing pending his decision; \"one way or the other, we'll finish it off\"",
-      "@wisdom_salt (~4:26 PM ET): Anthropic priced at $83, raised $81B; opened $111.50 then faded while crypto and broader tech sold off with liquidity pulled from BTC",
-      "@T_LauRekt (~4:25 PM ET): Jobless claims 203K vs 198K est, Philly Fed 6.3 vs 20.6 est (big miss); yields eased slightly but Dec hike stays live"
+      "@venturesintern (~8:09 PM ET): Anthropic debut was the sell trigger — Nasdaq up as much as 2% early then faded to close on lows with VIX near 29; SPX -2% to ~7176, sixth straight loss, Dow below 50k",
+      "@TechEchelon (~8:04 PM ET): Anthropic raised $81.3B in largest IPO ever, closed +17% at $97.17 (from $111.50 open) but failed to lift broader AI trade as Nasdaq fell 2.25%",
+      "@Grok (~8:07 PM ET): Markets opened strongly on ANT IPO hype, gains reversed sharply once trading began as AI trade lost momentum; Dow -2.2%, S&P -2%, Nasdaq -2.3%, ~90% of S&P stocks red",
+      "@InvestmentGuru_ (~8:06 PM ET): VIX spikes don’t ring a bell at the bottom — historically extreme fear creates long-term entries but bottoms can take weeks or months to form",
+      "@FirstSquawk / market (~4:00 PM ET close): Nasdaq Comp -2.22% to ~23,887, S&P -1.98% to ~7,179, Dow -2.18%; WTI settled ~$83.21, Iran claims on US chem/bio to justify action"
     ],
-    "trump": "Weighing another round of extensive strikes on Iran amid Israeli pressure; joint plans with IDF/CENTCOM exist with timing pending decision; warned \"one way or the other, we'll finish it off.\"",
-    "watch": "Friday: Waller speech 8:25 AM ET, UMich sentiment and inflation expectations 10:00 AM, monthly opex; ANT follow-through and whether NQ holds 23.5k-24k zone; Iran tanker convoy moves and oil reaction; any escalation in Fed hike rhetoric.",
+    "trump": "No new market remarks this evening; White House notes Trump holds a news conference Fri Nov 20 at 12:00 PM ET after Asia trip. Iran strike risk and Hormuz tensions remain on the tape.",
+    "watch": "Fri Nov 20: Waller 8:25 AM ET, UMich sentiment/inflation expectations 10:00 AM, monthly opex, Trump news conference 12:00 PM; ANT day-2 follow-through; Iran/oil headlines and any Fed hike rhetoric. Next week: DELL and HPQ AMC Tue Nov 24.",
     "forSite": []
   }
 }
