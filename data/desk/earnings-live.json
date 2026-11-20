@@ -1,16 +1,7 @@
 {
-  "date": "2026-11-19",
-  "at": "2026-11-20T03:29:07Z",
+  "date": "2026-11-20",
+  "at": "2026-11-20T12:31:22Z",
   "items": [
-    {
-      "ticker": "TSN",
-      "company": "Tyson Foods (TSN)",
-      "date": "2026-11-16",
-      "when": "BMO",
-      "status": "reported",
-      "sentiment": "Mixed",
-      "why": "Q4 adj EPS 61c vs 53c est, sales $14.59B vs $14.32B (beat); sees FY27 sales -3.5% to -5.5%, FY27 capex $1.1-1.4B vs ~$965M est. Small NQ weight."
-    },
     {
       "ticker": "DIS",
       "company": "Walt Disney (DIS)",
@@ -94,8 +85,8 @@
       "when": "AMC",
       "status": "reported",
       "sentiment": "Bearish",
-      "why": "FQ1 rev $4.35B vs $4.31B est, adj EPS $2.91 vs ~$2.70 est (beat); Q2 rev guide $4.93-4.95B vs $5.11B est, weaker Credit Karma outlook; selling Mailchimp to Bending Spoons for $3.68B. Software drag on NQ.",
-      "reaction": "~-13% AH"
+      "why": "FQ1 rev $4.35B vs $4.31B est, adj EPS $2.91 vs ~$2.70 est (beat); Q2 rev guide $4.93-4.95B vs $5.11B est, weaker Credit Karma outlook; selling Mailchimp to Bending Spoons for $3.68B. Software drag on NQ. FY27 rev guide cut to $23.08-23.37B on Credit Karma slowdown (3-7% growth); selling Mailchimp to Bending Spoons.",
+      "reaction": "-10.5% premarket (~$277)"
     },
     {
       "ticker": "KEYS",
@@ -104,7 +95,8 @@
       "when": "AMC",
       "status": "reported",
       "sentiment": "Bullish",
-      "why": "FQ4 rev $1.99B (+41% y/y) vs $1.95B est, adj EPS $3.61 vs ~$3.37 est; orders +53% to $2.34B led by Communications Solutions +51% (AI/data-center test demand)."
+      "why": "FQ4 rev $1.99B (+41% y/y) vs $1.95B est, adj EPS $3.61 vs ~$3.37 est; orders +53% to $2.34B led by Communications Solutions +51% (AI/data-center test demand).",
+      "reaction": "-2.6% premarket ($274, 7:18 AM ET)"
     },
     {
       "ticker": "ROST",
@@ -126,6 +118,14 @@
       "why": "Adj EPS $0.65 vs $0.64, rev $188.84B vs ~$187.2B beat; US comp ex-gas +2.9%; FY adj EPS raised to $2.84-2.89 from $2.80-2.87, midpoint still under the Street."
     },
     {
+      "ticker": "ADSK",
+      "company": "Autodesk (ADSK)",
+      "date": "2026-11-24",
+      "when": "AMC",
+      "status": "upcoming",
+      "why": "FQ3 results Nov 24 AMC; software read."
+    },
+    {
       "ticker": "DELL",
       "company": "Dell Technologies (DELL)",
       "date": "2026-11-24",
@@ -140,6 +140,14 @@
       "when": "AMC",
       "status": "upcoming",
       "why": "FQ4 results Nov 24, call 5:00 PM ET; PC/AI PC demand read."
+    },
+    {
+      "ticker": "WDAY",
+      "company": "Workday (WDAY)",
+      "date": "2026-11-24",
+      "when": "AMC",
+      "status": "upcoming",
+      "why": "FY27 Q3 results Nov 24 AMC (company-confirmed); software/AI-disruption read."
     }
   ]
 }

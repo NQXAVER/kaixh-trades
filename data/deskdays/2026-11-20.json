@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-20",
+  "grok": {
+    "date": "2026-11-20",
+    "at": "2026-11-20T12:31:22Z",
+    "pulse": "NQ ~-1.5% to -1.9% premarket at a fresh overnight low as the AI unwind goes global (Nikkei/Kospi ~-5%, Taiwan -6.6%) with ANT -10% day 2 and INTU -10% on a guide cut; only offset is yields easing to ~4.99% and a stretched six-day S&P slide.",
+    "bias": "risk-off — AI/semis liquidation (ANT, AMD, MU, TSM lower), VIX >30, hawkish Fed pricing (gold -8% wk on hike bets) and fresh Iran strike headlines; Waller 8:25 AM is the next swing factor",
+    "items": [
+      "@FirstSquawk (~7:25 AM ET): $ANT extends premarket decline to more than 10%, day 2 after its IPO — Bearish NQ",
+      "@T_LauRekt (~7:29 AM ET): NQ futs ~-1.5%, ES ~-0.6% after Taiwan -6.6%, Kospi -5.2%, Nikkei -5.1% overnight — Bearish NQ",
+      "@DeItaone (~7:03 AM ET): VIX rises above 30; AI selloff accelerating ($AMD ~-6%, $INTC lower premarket) — Bearish NQ",
+      "@DeItaone (~7:11 AM ET): CBS: US and Israel considering a new near-term military assault on Iran; Iran tankers massing at Kharg to test US blockade — Bearish NQ",
+      "@DeItaone (~6:49 AM ET): Gold -8% this week as markets price another Fed hike; SocGen sees two more 25bp hikes — Bearish NQ"
+    ],
+    "trump": "At APEC (Nov 19, ~8:30 PM ET story) Trump told Xi the US does not support Taiwan independence and they agreed an action plan for 'constructive strategic stability' (mild de-escalation, China/chips positive); he also urged European allies to halt Ukraine aid. No new tariff or Fed comments overnight.",
+    "watch": "Waller 8:25 AM ET (hike signals), UMich final sentiment/inflation expectations 10:00 AM ET, monthly OPEX into the close, ANT/INTU/semis at the 9:30 AM open, Iran strike and Kharg/Hormuz tanker headlines for CL; next week DELL, HPQ, WDAY, ADSK Tue Nov 24 AMC",
+    "forSite": [],
+    "reports": [
+      {
+        "at": "2026-11-20T12:01:02Z",
+        "pulse": "NQ futures down 1-1.5% and ES ~0.5% as the AI selloff deepens globally after Anthropic's record IPO faded, with Asia chips (Nikkei/Kospi -5%) leading the risk-off and ANT/AMD under pressure premarket.",
+        "bias": "risk-off — AI trade unwind continues post-ANT IPO failure to revive sentiment, futures lower amid Asia semis dump, elevated VIX, and hawkish Fed backdrop with high Dec hike odds",
+        "items": [
+          "@DTradingToolkit (~7:00 AM ET): Asia got smoked overnight — Nikkei and Kospi both fell about 5%, Nasdaq futures about 1.5%; green premarket in red tape is a gift to sellers",
+          "@traderkim71 (~6:59 AM ET): Premarket $QQQ -1.15%, $SPY -0.70%, $DIA -0.20%; $ANT and $AMD both roughly down -7% as selloff extends into OPEX Friday",
+          "@QuasarMarkets (~5:53 AM ET): The AI rout is the whole tape — S&P closed -2.02% for sixth straight loss, Asia followed hard (Kospi -5.1%, Nikkei -4.7%); NQ futures -1.55%, ES -0.61%",
+          "@TradePhantomX (~5:48 AM ET): AI sell-off spread to Asia; SoftBank -14%, ANT ~-6% pre-market still above IPO; NQ down ~1% while YM/RTY holding, gold liquidating",
+          "@sports_lamb (~6:57 AM ET): Rough Friday for AI — Nasdaq futures -1.6% as selloff goes global; $ANT -6% day after debut, $AMD -5% on China short-seller report, $NVDA -2.6%"
+        ],
+        "trump": "none",
+        "watch": "Fri Nov 20 open: monthly OPEX gamma flows, Waller speech 8:25 AM ET, UMich sentiment/inflation expectations 10:00 AM, Cook 12:15 PM; ANT day-2 follow-through; Iran/Hormuz headlines for oil; whether NQ holds or extends the AI unwind into the cash open",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-20T12:31:22Z",
+        "pulse": "NQ ~-1.5% to -1.9% premarket at a fresh overnight low as the AI unwind goes global (Nikkei/Kospi ~-5%, Taiwan -6.6%) with ANT -10% day 2 and INTU -10% on a guide cut; only offset is yields easing to ~4.99% and a stretched six-day S&P slide.",
+        "bias": "risk-off — AI/semis liquidation (ANT, AMD, MU, TSM lower), VIX >30, hawkish Fed pricing (gold -8% wk on hike bets) and fresh Iran strike headlines; Waller 8:25 AM is the next swing factor",
+        "items": [
+          "@FirstSquawk (~7:25 AM ET): $ANT extends premarket decline to more than 10%, day 2 after its IPO — Bearish NQ",
+          "@T_LauRekt (~7:29 AM ET): NQ futs ~-1.5%, ES ~-0.6% after Taiwan -6.6%, Kospi -5.2%, Nikkei -5.1% overnight — Bearish NQ",
+          "@DeItaone (~7:03 AM ET): VIX rises above 30; AI selloff accelerating ($AMD ~-6%, $INTC lower premarket) — Bearish NQ",
+          "@DeItaone (~7:11 AM ET): CBS: US and Israel considering a new near-term military assault on Iran; Iran tankers massing at Kharg to test US blockade — Bearish NQ",
+          "@DeItaone (~6:49 AM ET): Gold -8% this week as markets price another Fed hike; SocGen sees two more 25bp hikes — Bearish NQ"
+        ],
+        "trump": "At APEC (Nov 19, ~8:30 PM ET story) Trump told Xi the US does not support Taiwan independence and they agreed an action plan for 'constructive strategic stability' (mild de-escalation, China/chips positive); he also urged European allies to halt Ukraine aid. No new tariff or Fed comments overnight.",
+        "watch": "Waller 8:25 AM ET (hike signals), UMich final sentiment/inflation expectations 10:00 AM ET, monthly OPEX into the close, ANT/INTU/semis at the 9:30 AM open, Iran strike and Kharg/Hormuz tanker headlines for CL; next week DELL, HPQ, WDAY, ADSK Tue Nov 24 AMC",
+        "forSite": []
+      }
+    ]
+  }
+}
