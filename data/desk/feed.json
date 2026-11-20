@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T00:49:11Z",
+  "updatedAt": "2026-11-20T07:28:58Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -204,6 +204,18 @@
   ],
   "items": [
     {
+      "id": "f9e0a0f223ed4",
+      "headline": "Oil Prices Rebound as Houthi Attacks Reignite Middle East Supply Fears",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Rebound-as-Houthi-Attacks-Reignite-Middle-East-Supply-Fears.html",
+      "publishedAt": "2026-11-20T05:51:00Z",
+      "time": "Fri 12:51 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
       "id": "f71f53d4a6747",
       "headline": "Hormuz Oil Exports Could Decline amid Inbound Tanker Shortage",
       "source": "OilPrice",
@@ -309,18 +321,6 @@
       "section": "war",
       "impact": "High",
       "lean": "risk-on",
-      "auto": true
-    },
-    {
-      "id": "fa6fb04c24428",
-      "headline": "US official says Hormuz insurance hits $64m: Is the strait really open?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/11/18/us-official-says-hormuz-insurance-hits-64m-is-the-strait-really-open?traffic_source=rss",
-      "publishedAt": "2026-11-18T14:47:34Z",
-      "time": "Wed 9:47 AM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
       "auto": true
     },
     {
@@ -444,12 +444,24 @@
       "auto": true
     },
     {
+      "id": "f6a5576b4a27c",
+      "headline": "Tinned goods and UHT milk boost retail sales after 'Be Ready' campaign launch",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/ck053mzy2qqeo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-11-20T07:26:25Z",
+      "time": "Fri 2:26 AM",
+      "section": "econ",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "f68a92209d026",
       "headline": "Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html",
-      "publishedAt": "2026-11-20T00:29:24Z",
-      "time": "Thu 7:29 PM",
+      "publishedAt": "2026-11-20T01:49:03Z",
+      "time": "Thu 8:49 PM",
       "section": "econ",
       "impact": "Medium",
       "lean": null,
@@ -552,15 +564,27 @@
       "auto": true
     },
     {
-      "id": "fb4cbf32ccbfd",
-      "headline": "Shoe Prices Hit a Record High Amid Inflation and Increased Tariffs",
-      "source": "New York Times",
-      "url": "https://www.nytimes.com/2026/11/17/business/shoe-prices-inflation-tariffs.html",
-      "publishedAt": "2026-11-17T16:21:40Z",
-      "time": "Tue 11:21 AM",
-      "section": "econ",
-      "impact": "Medium",
-      "lean": "risk-on",
+      "id": "fbc68382762d6",
+      "headline": "Forget Anthropic: In Europe, the IPO hype is about a blue lagoon",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/20/anthropic-ipo-iceland-blue-lagoon.html",
+      "publishedAt": "2026-11-20T06:00:01Z",
+      "time": "Fri 1:00 AM",
+      "section": "tech",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f971c75e0f7c5",
+      "headline": "Anthropic IPO 'exactly what the markets need,' but analysts warn of volatility",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/20/anthropic-ipo-stocks-market.html",
+      "publishedAt": "2026-11-20T04:51:28Z",
+      "time": "Thu 11:51 PM",
+      "section": "tech",
+      "impact": "High",
+      "lean": null,
       "auto": true
     },
     {
@@ -660,30 +684,6 @@
       "auto": true
     },
     {
-      "id": "f390374361641",
-      "headline": "Anthropic’s IPO poses this big risk to an already shaky stock market",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/anthropics-ipo-poses-this-big-risk-to-an-already-shaky-stock-market-83ce7794?mod=mw_rss_topstories",
-      "publishedAt": "2026-11-19T16:49:00Z",
-      "time": "Thu 11:49 AM",
-      "section": "tech",
-      "impact": "High",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f7a1bdcc23b28",
-      "headline": "Can Anthropic’s IPO do for the stock market what Nvidia’s earnings couldn’t?",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/can-anthropics-ipo-do-for-the-stock-market-what-nvidias-earnings-couldnt-be67a434?mod=mw_rss_topstories",
-      "publishedAt": "2026-11-19T15:51:00Z",
-      "time": "Thu 10:51 AM",
-      "section": "tech",
-      "impact": "High",
-      "lean": null,
-      "auto": true
-    },
-    {
       "id": "f8f9eabfdd79e",
       "headline": "India’s Oil Imports Hit Record High as Saudi Shipments Surge",
       "source": "OilPrice",
@@ -704,6 +704,30 @@
       "time": "Wed 3:45 AM",
       "section": "energy",
       "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fa654a580d054",
+      "headline": "‘Completely messed up everything’: Malawi’s fuel crisis causes chaos",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/20/completely-messed-up-everything-malawis-fuel-crisis-causes-chaos?traffic_source=rss",
+      "publishedAt": "2026-11-20T01:06:15Z",
+      "time": "Thu 8:06 PM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "ff87ecce82f9a",
+      "headline": "US Oil and Gas Deal Boom Lures BMO Back Into the Market",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Oil-and-Gas-Deal-Boom-Lures-BMO-Back-Into-the-Market.html",
+      "publishedAt": "2026-11-20T01:00:00Z",
+      "time": "Thu 8:00 PM",
+      "section": "energy",
+      "impact": "Medium",
       "lean": null,
       "auto": true
     },
@@ -780,30 +804,6 @@
       "auto": true
     },
     {
-      "id": "fb8ca6a2282c3",
-      "headline": "Mozambique Approves Exxon’s Redesigned $30 Billion Rovuma LNG Plan",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Mozambique-Approves-Exxons-Redesigned-30-Billion-Rovuma-LNG-Plan.html",
-      "publishedAt": "2026-11-18T17:30:00Z",
-      "time": "Wed 12:30 PM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f42b6ef47d144",
-      "headline": "US Oil Inventories On the Rise",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Energy/Crude-Oil/US-Oil-Inventories-On-the-Rise.html",
-      "publishedAt": "2026-11-18T15:39:53Z",
-      "time": "Wed 10:39 AM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
       "id": "fe960d6e27013",
       "headline": "Anthropic lifts Nasdaq futures and tech stocks ahead of its record-breaking IPO",
       "source": "CNBC",
@@ -813,6 +813,18 @@
       "section": "markets",
       "impact": "High",
       "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fb93964395d6f",
+      "headline": "SoftBank suffers worst day in over two years as AI sell-off hits Asian tech stocks",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/20/softbank-ai-tech-stocks-slide-anthropic-debut.html",
+      "publishedAt": "2026-11-20T07:23:06Z",
+      "time": "Fri 2:23 AM",
+      "section": "markets",
+      "impact": "Medium",
+      "lean": "risk-off",
       "auto": true
     }
   ]
