@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T23:46:38Z",
+  "updatedAt": "2026-11-21T07:08:19Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -204,6 +204,30 @@
   ],
   "items": [
     {
+      "id": "fc587bd19c645",
+      "headline": "Saudi-led coalition intercepts three Houthi missiles headed for Riyadh",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/21/saudi-led-coalition-intercepts-three-houthi-missiles-headed-for-riyadh?traffic_source=rss",
+      "publishedAt": "2026-11-21T04:32:07Z",
+      "time": "Fri 11:32 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "feeb32ee1392a",
+      "headline": "Iran war live: Saudi-led coalition downs Houthi missiles",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/21/iran-war-live-saudi-led-coalition-repels-houthi-missiles?traffic_source=rss",
+      "publishedAt": "2026-11-21T00:00:06Z",
+      "time": "Fri 7:00 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "fa28def0beb59",
       "headline": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
       "source": "BBC",
@@ -297,30 +321,6 @@
       "section": "war",
       "impact": "High",
       "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "fc14ae0035c2b",
-      "headline": "Iran Keeps Up Unrelenting Attacks on Ships in the Strait of Hormuz",
-      "source": "New York Times",
-      "url": "https://www.nytimes.com/2026/11/19/business/iran-tanker-attack-strait-of-hormuz.html",
-      "publishedAt": "2026-11-19T15:32:51Z",
-      "time": "Thu 10:32 AM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "f51368e278f2a",
-      "headline": "Putin, Trump and Xi Condemn Nuclear War as Europe Watches Closely",
-      "source": "New York Times",
-      "url": "https://www.nytimes.com/2026/11/19/world/europe/trump-xi-putin-nuclear-weapons-ukraine.html",
-      "publishedAt": "2026-11-19T14:23:07Z",
-      "time": "Thu 9:23 AM",
-      "section": "war",
-      "impact": "High",
-      "lean": null,
       "auto": true
     },
     {
