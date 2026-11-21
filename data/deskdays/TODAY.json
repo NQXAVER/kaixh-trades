@@ -1,18 +1,18 @@
 {
   "date": "2026-11-20",
   "grok": {
-    "at": "2026-11-20T15:09:25Z",
-    "pulse": "Nasdaq down over 1% early Friday and on track for its worst week in 18 months as the AI selloff continues after Anthropic's IPO fade, with hawkish Fed minutes pricing a near-certain December hike and soft oil providing little offset.",
-    "bias": "risk-off — AI/semis unwind (ANT day-2 slide, Asia chips smashed overnight) and elevated Dec hike odds (~97%) driving NQ lower amid VIX near 29 and a six-day S&P losing streak",
+    "at": "2026-11-21T01:10:48Z",
+    "pulse": "Nasdaq and S&P closed in correction Friday with Nasdaq -5.3% erasing 2026 gains and worst week since 2020 on AI/semis unwind (ANT fade, NVDA plunge), hawkish Fed pricing ~99% Dec hike odds, and Trump weighing Iran options amid softer oil.",
+    "bias": "risk-off — severe AI/chip liquidation spreading to broader indices, VIX spike near 36-40, elevated hike odds and Iran geopolitical overhang with limited oil support",
     "items": [
-      "@wiseapeman (~10:08 AM ET): Stocks opened mixed, Dow small gain while Nasdaq fell more than 1%; Anthropic down ~8% early after +17% debut, Fed minutes hawkish with Dec hike ~97% priced and 10Y near 5.06%",
-      "@T_LauRekt (~7:29 AM ET): NQ futures ~-1.5% after Taiwan -6.6%, Kospi -5.2%, Nikkei -5.1%; ANT ~-6% pre after record IPO, Waller at 8:25 sets tone",
-      "@traderstevex (~10:09 AM ET): $QQQ swept stops under prior low and snapped back; leaning long on bounce but every MA slopes down so trade inside downtrend",
-      "@CharlesEllinas (~10:09 AM ET): Oil market could move from famine to glut on higher supply, but Iranian attacks on ships keep Brent above $92",
-      "@OilandEnergy (~10:09 AM ET): Trump, Xi and Putin met Nov 19 at APEC; joint statement pledged to raise production and supply of refined petroleum products"
+      "@Klarifier (~8:10 PM ET): Dow and S&P 500 entered and closed in correction territory; chipmakers led US sell-off in AI and chip stocks Friday, Nasdaq worst week since 2020",
+      "@Angelpat9988 (~8:10 PM ET): S&P closed -3.7% at 6910, Nasdaq -5.28% at 22618 turning negative YTD, Dow -1.93%; NVDA -14%, ANT -8.5% on day 2, VIX 35.89",
+      "@theinvestnow (~8:10 PM ET): Wall Street worst day in years — S&P -3.7% week -8.6%, Nasdaq -5.28% negative for 2026, NVDA -14%, VIX +26% to 35.89, 10Y eased >10bp, BTC <60k",
+      "@ApexWireApp (~8:10 PM ET): Nvidia worst week in 18 years amid reported SEC probe; Nasdaq -5%+, Dow/S&P in correction; SpaceX $32B bond sale for chips; BTC <58k",
+      "@EarthDeFIRE (~8:10 PM ET): AI week brutal — NVDA beat but -23% week to 125.53 (-47% from peak), ANT IPO day 2 near IPO price; Nasdaq -5.28% erased 2026 gains, semis -11%"
     ],
-    "trump": "Trump, Xi and Putin met Nov 19 on APEC sidelines and pledged higher refined petroleum production (potential oil supply positive); prior reports of delaying any new Iran strike decision past New Year remain in focus.",
-    "watch": "Friday close and monthly OPEX gamma into weekend; UMich sentiment/inflation expectations reaction; ANT follow-through vs IPO price; any Iran/Hormuz or oil headlines; whether AI selloff stabilizes or extends into next week",
+    "trump": "Trump weighing Iran decision amid ongoing tensions and naval activity; reports of delaying any new strike past New Year; Nov 19 APEC with Xi/Putin on petroleum supply; data center tax warnings for overseas AI build.",
+    "watch": "Monday open reaction to weekly wipeout and AI rout; any weekend Iran/Hormuz or oil headlines; ANT hold above $83 IPO and options debut; NVDA/semis stabilization; VIX and yield behavior; Fed hike odds into next week",
     "forSite": []
   }
 }
