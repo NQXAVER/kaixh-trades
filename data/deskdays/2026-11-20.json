@@ -2,18 +2,18 @@
   "date": "2026-11-20",
   "grok": {
     "date": "2026-11-20",
-    "at": "2026-11-21T01:31:20Z",
-    "pulse": "NQ closed Friday in a deep AI/semis liquidation (Nasdaq -5.3% to 22,618, red for 2026, worst week since Mar 2020) driven by the Reuters-reported SEC accounting probe into NVDA (-14%), with only a 14 bp drop in the 10Y to 4.91% offsetting while weekend Iran strike chatter adds headline risk.",
-    "bias": "risk-off — NVDA SEC probe and AI unwind still dominant, VIX ~35.9 highest close since Apr 2025, crypto bleeding and US-Israel Iran strike reports into the weekend; lower yields are the only cushion",
+    "at": "2026-11-21T03:27:54Z",
+    "pulse": "NQ heads into the weekend after Friday's -5.3% Nasdaq rout (22,618, negative YTD) on the NVDA SEC accounting probe and AI/semis unwind, with nothing offsetting overnight as Iran strike/Hormuz headlines and Trump's new offshore data-center tax threat stack weekend gap risk; only cushion is lower yields and Trump's push for sharp Fed cuts.",
+    "bias": "risk-off — AI/semis liquidation (NVDA -14%) unresolved, VIX ~36, US-Israel Iran strike reports and Strait of Hormuz incidents raise oil/gap-down risk for Sunday's 6 PM ET reopen; lower yields and Fed-cut pressure are the only offsets",
     "items": [
-      "Reuters via @factwire_news (~4:17 PM ET): SEC staff examining potential accounting issues at NVDA per two sources; shares down ~12-14% on the day — Bearish NQ",
-      "@NasdaqNancy (~6:30 PM ET): VIX 35.89 (+26%), highest close since Apr 11 2025; Nasdaq 18.1% off Oct 6 record; 10Y 4.91% (-14 bp); week S&P -8.6%, Nasdaq -10% — Bearish NQ",
-      "@WatcherGuru (~5:35 PM ET): $150B wiped from crypto market cap today; BTC ~$59K — Bearish NQ (risk appetite, crypto equities)",
-      "X News (~8:24 PM ET): reports US and Israeli officials preparing possible Iran strikes in 2-4 days; Trump at WH briefing says Iran won't accept a deal acceptable to US — Bearish NQ (oil/geopolitical risk)",
-      "X News (~6:51 PM ET): Trump presses Fed for sharp rate cuts, says each point costs $650B — Mixed NQ"
+      "X News (~10:10 PM ET): US F-16 declares emergency near Iran's Qeshm Island amid reported US strikes and Iranian air-defense activity; IRGC warns of 'final showdown' — Bearish NQ (oil/geopolitical)",
+      "@FirstSquawk (~8:57 PM ET): Trump says US is hitting Iran hard but remains patient and holding back for now — Mixed NQ",
+      "X News (~10:11 PM ET): Trump says US will put a 'tremendous tax' on companies building data centers overseas — Bearish NQ (hyperscaler capex/AI names)",
+      "@unusual_whales (~9:58 PM ET): NVDA pulling forward raises and stock grants to December to stop departures after Jensen Huang's exit — Bearish NQ (NVDA leadership/talent risk)",
+      "@FirstSquawk (~9:03 PM ET): Saudi-led coalition says 3 Houthi ballistic missiles fired at Riyadh intercepted, after Houthi hits on Saudi Al-Shuqaiq power station and Jizan port — Bearish NQ (oil risk)"
     ],
-    "trump": "At a Nov 20 White House briefing Trump said Iran wants a deal but refuses one acceptable to the US, calling past efforts 'bullshitting' for 51 years, tied the conflict to gasoline prices; separately pushed the Fed for sharp rate cuts, saying each percentage point costs $650 billion.",
-    "watch": "Weekend Iran/Israel strike headlines and Treasury Iran sanctions; NVDA SEC probe follow-ups; CME futures reopen Sun ~6:00 PM ET; Mon Nov 24 AMC: DELL, HPQ, WDAY, ADSK; Thanksgiving Thu Nov 26 US markets closed.",
+    "trump": "At Friday's White House news conference Trump said the US is 'hitting Iran hard' but is 'patient' and holding back for now; threatened a 'tremendous tax' on firms building data centers abroad to win the 'super intelligence' race vs China; again pushed the Fed to cut rates sharply (calling it 'very political'); accused Canada of 'ripping off' the US on trade; said he hasn't lost confidence in Lutnick amid chip-export scrutiny.",
+    "watch": "Weekend: Iran/Israel strike and Strait of Hormuz/tanker headlines, Houthi-Saudi escalation, NVDA SEC probe follow-ups; CME futures reopen Sun ~6:00 PM ET (gap risk); Mon Nov 24 AMC: DELL, HPQ, WDAY, ADSK; Thanksgiving Thu Nov 26 markets closed, Fri Nov 27 early close.",
     "forSite": [],
     "reports": [
       {
@@ -134,6 +134,36 @@
         ],
         "trump": "At a Nov 20 White House briefing Trump said Iran wants a deal but refuses one acceptable to the US, calling past efforts 'bullshitting' for 51 years, tied the conflict to gasoline prices; separately pushed the Fed for sharp rate cuts, saying each percentage point costs $650 billion.",
         "watch": "Weekend Iran/Israel strike headlines and Treasury Iran sanctions; NVDA SEC probe follow-ups; CME futures reopen Sun ~6:00 PM ET; Mon Nov 24 AMC: DELL, HPQ, WDAY, ADSK; Thanksgiving Thu Nov 26 US markets closed.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-21T03:05:39Z",
+        "pulse": "Nasdaq closed -5.28% Friday erasing 2026 gains and posting its worst week since 2020 as the AI/semis unwind accelerated on Anthropic IPO fade and Nvidia plunge amid hawkish Fed hike pricing and Iran headline risk.",
+        "bias": "risk-off — deep AI and chip liquidation spreading to major indices into correction territory, VIX near 36, elevated December hike odds, and ongoing Iran geopolitical overhang",
+        "items": [
+          "@marketsday (~10:03 PM ET): S&P 500 -3.70% to 6910 for 7th straight loss and into correction, Nasdaq -5.28% to 22618 negative YTD, Dow -1.93%; NVDA -14%, ANT -8.5-9%, VIX +26% toward 36",
+          "@jayaramNvenkat (~10:03 PM ET): AI sell-off became market correction; S&P and Dow >10% below peaks, Nvidia -13.8%",
+          "@tradeAIetc (~10:05 PM ET): Weekly: NASDAQ -10.23%, S&P500 -8.61% on AI/semis plunge; Walmart flat highlighting real economy vs market gap",
+          "@noolanded (~10:02 PM ET): Crypto sold off with stocks; Nasdaq -5.28% negative YTD, BTC near 58558 -5%; chip stocks led the fall",
+          "@amori (~10:04 PM ET): Nasdaq -5.28% as Anthropic IPO celebration ended day 1; semis -10.73%, questioning AI valuation amid near-5% yields"
+        ],
+        "trump": "Trump weighing Iran decision amid naval blockade and tanker activity; reports of not rushing new strikes past New Year; prior comments tying conflict to gasoline prices and pushing Fed for rate cuts.",
+        "watch": "Monday open reaction to weekly wipeout and AI rout; any weekend Iran/Hormuz or oil headlines; ANT hold above $83 IPO and options debut; NVDA/semis stabilization and SEC probe updates; VIX and yield behavior; Fed hike odds into next week",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-21T03:27:54Z",
+        "pulse": "NQ heads into the weekend after Friday's -5.3% Nasdaq rout (22,618, negative YTD) on the NVDA SEC accounting probe and AI/semis unwind, with nothing offsetting overnight as Iran strike/Hormuz headlines and Trump's new offshore data-center tax threat stack weekend gap risk; only cushion is lower yields and Trump's push for sharp Fed cuts.",
+        "bias": "risk-off — AI/semis liquidation (NVDA -14%) unresolved, VIX ~36, US-Israel Iran strike reports and Strait of Hormuz incidents raise oil/gap-down risk for Sunday's 6 PM ET reopen; lower yields and Fed-cut pressure are the only offsets",
+        "items": [
+          "X News (~10:10 PM ET): US F-16 declares emergency near Iran's Qeshm Island amid reported US strikes and Iranian air-defense activity; IRGC warns of 'final showdown' — Bearish NQ (oil/geopolitical)",
+          "@FirstSquawk (~8:57 PM ET): Trump says US is hitting Iran hard but remains patient and holding back for now — Mixed NQ",
+          "X News (~10:11 PM ET): Trump says US will put a 'tremendous tax' on companies building data centers overseas — Bearish NQ (hyperscaler capex/AI names)",
+          "@unusual_whales (~9:58 PM ET): NVDA pulling forward raises and stock grants to December to stop departures after Jensen Huang's exit — Bearish NQ (NVDA leadership/talent risk)",
+          "@FirstSquawk (~9:03 PM ET): Saudi-led coalition says 3 Houthi ballistic missiles fired at Riyadh intercepted, after Houthi hits on Saudi Al-Shuqaiq power station and Jizan port — Bearish NQ (oil risk)"
+        ],
+        "trump": "At Friday's White House news conference Trump said the US is 'hitting Iran hard' but is 'patient' and holding back for now; threatened a 'tremendous tax' on firms building data centers abroad to win the 'super intelligence' race vs China; again pushed the Fed to cut rates sharply (calling it 'very political'); accused Canada of 'ripping off' the US on trade; said he hasn't lost confidence in Lutnick amid chip-export scrutiny.",
+        "watch": "Weekend: Iran/Israel strike and Strait of Hormuz/tanker headlines, Houthi-Saudi escalation, NVDA SEC probe follow-ups; CME futures reopen Sun ~6:00 PM ET (gap risk); Mon Nov 24 AMC: DELL, HPQ, WDAY, ADSK; Thanksgiving Thu Nov 26 markets closed, Fri Nov 27 early close.",
         "forSite": []
       }
     ]
