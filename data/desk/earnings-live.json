@@ -1,36 +1,7 @@
 {
-  "date": "2026-11-20",
-  "at": "2026-11-21T03:27:54Z",
+  "date": "2026-11-21",
+  "at": "2026-11-21T12:33:33Z",
   "items": [
-    {
-      "ticker": "DIS",
-      "company": "Walt Disney (DIS)",
-      "date": "2026-11-17",
-      "when": "BMO",
-      "status": "reported",
-      "why": "FY Q4 adj EPS $1.77 vs $1.66 est, rev $25.95B vs $25.18B (beat); entertainment rev $11.89B vs $11.48B; FY27 double-digit EPS growth reaffirmed, FY27 capex ~$9B. Small NQ weight.",
-      "sentiment": "Mixed"
-    },
-    {
-      "ticker": "HD",
-      "company": "Home Depot (HD)",
-      "date": "2026-11-17",
-      "when": "BMO",
-      "status": "reported",
-      "why": "Q3 adj EPS $3.86 vs $3.85 est, sales $43.4B vs $42.83B, comps +2.2% vs 1.71% est; FY sales growth ~4.5% (top of old range); CFO McPhail named CEO from Nov 23; fewer transactions weigh.",
-      "reaction": "-1.9% pre",
-      "sentiment": "Mixed"
-    },
-    {
-      "ticker": "NVDA",
-      "company": "NVIDIA (NVDA)",
-      "date": "2026-11-17",
-      "when": "AMC",
-      "status": "reported",
-      "reaction": "+4-5% AH, ~+3% premarket, then faded to ~-2.9% close Nov 18",
-      "sentiment": "Bullish",
-      "why": "Q3 adj EPS $2.68 vs $2.48 est, rev $115.8B (+103% y/y) vs $109.3B, Data Center $107.6B vs $101.9B, adj GM 74.9%; Q4 rev guide $127.4-132.6B vs $125.25B est; $150B buyback; SEC probe headline weighs on the move."
-    },
     {
       "ticker": "LOW",
       "company": "Lowe’s (LOW)",
@@ -118,6 +89,30 @@
       "why": "Adj EPS $0.65 vs $0.64, rev $188.84B vs ~$187.2B beat; US comp ex-gas +2.9%; FY adj EPS raised to $2.84-2.89 from $2.80-2.87, midpoint still under the Street."
     },
     {
+      "ticker": "HPE",
+      "company": "Hewlett Packard Enterprise (HPE)",
+      "date": "2026-11-23",
+      "when": "AMC",
+      "status": "upcoming",
+      "why": "FQ4 results Nov 23 AMC (consensus EPS $1.28); AI server/networking read."
+    },
+    {
+      "ticker": "ZM",
+      "company": "Zoom Communications (ZM)",
+      "date": "2026-11-23",
+      "when": "AMC",
+      "status": "upcoming",
+      "why": "FQ3 results Nov 23 AMC (consensus EPS $1.49); software read."
+    },
+    {
+      "ticker": "ADI",
+      "company": "Analog Devices (ADI)",
+      "date": "2026-11-24",
+      "when": "BMO",
+      "status": "upcoming",
+      "why": "FQ4 results Nov 24 BMO (consensus EPS $3.88); analog semis read for SOXX."
+    },
+    {
       "ticker": "ADSK",
       "company": "Autodesk (ADSK)",
       "date": "2026-11-24",
@@ -140,6 +135,14 @@
       "when": "AMC",
       "status": "upcoming",
       "why": "FQ4 results Nov 24, call 5:00 PM ET; PC/AI PC demand read."
+    },
+    {
+      "ticker": "NTNX",
+      "company": "Nutanix (NTNX)",
+      "date": "2026-11-24",
+      "when": "AMC",
+      "status": "upcoming",
+      "why": "FQ1 results Nov 24 AMC (consensus EPS $0.61); infra software read."
     },
     {
       "ticker": "WDAY",

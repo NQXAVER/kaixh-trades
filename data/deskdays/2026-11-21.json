@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-21",
+  "grok": {
+    "date": "2026-11-21",
+    "at": "2026-11-21T12:33:33Z",
+    "pulse": "NQ heads into the weekend after a -4.35% Friday wipeout (Nasdaq Comp 22,840, worst week since 2020) led by NVDA -14% on a Reuters SEC accounting-probe report; overnight Iran/Hormuz tanker attacks and a crypto crash (BTC < $56K) add to risk-off, with only Trump's renewed push for Fed cuts as an offset.",
+    "bias": "risk-off — AI/semis rout (NVDA probe + Huang exit), S&P/Dow in correction, Hormuz tanker attacks lifting oil risk and BTC liquidations; weekend headlines likely set a gap for Sunday's 6 PM ET open",
+    "items": [
+      "Reuters/news (Fri close, ~10:02 PM ET recap): Nasdaq Comp -4.35% to 22,840.42, S&P -2.83% to 6,973.04, Dow -1.13%; NVDA -14% on SEC accounting-probe report, Nasdaq negative YTD — Bearish NQ",
+      "@FirstSquawk (~5:57 AM ET): Oil tanker hit by naval mine east of Strait of Hormuz, on fire (Iran state TV); UKMTO confirms 2 tanker attacks near Khasab, Oman (~5:29 AM) — Bearish NQ",
+      "@WatcherGuru (~11:13 PM ET Fri): Crypto crash — BTC < $56K, ETH < $1,550, $650M liquidated; BTC first sub-$57K in 2+ yrs (~10:35 PM) — Bearish NQ",
+      "@DeItaone (~6:11 AM ET): Iran shows new underground 'missile city' with double-launcher — Bearish NQ",
+      "@FirstSquawk (~5:36 AM ET): Trump and Xi agree against fully autonomous military AI decision-making, Bessent says (SCMP) — Mixed NQ"
+    ],
+    "trump": "Pushing the Fed for sharp rate cuts, citing India's low rates and ~7% growth (reported ~7:23 AM ET); announced 'tremendous' taxes on US firms building data centers overseas to keep AI compute domestic; demands zero trade deficit before Canada talks.",
+    "watch": "Sun 6:00 PM ET futures reopen (gap risk on NVDA/Iran weekend headlines); Mon Nov 23 AMC HPE, ZM; Tue Nov 24 BMO ADI, AMC DELL/WDAY/ADSK/HPQ; Wed Nov 25 BMO DE; Thu Nov 26 Thanksgiving (cash closed), Fri Nov 27 half day; Hormuz/Iran tanker convoy headlines; Citi now sees a Dec Fed hike",
+    "forSite": [],
+    "reports": [
+      {
+        "at": "2026-11-21T12:33:33Z",
+        "pulse": "NQ heads into the weekend after a -4.35% Friday wipeout (Nasdaq Comp 22,840, worst week since 2020) led by NVDA -14% on a Reuters SEC accounting-probe report; overnight Iran/Hormuz tanker attacks and a crypto crash (BTC < $56K) add to risk-off, with only Trump's renewed push for Fed cuts as an offset.",
+        "bias": "risk-off — AI/semis rout (NVDA probe + Huang exit), S&P/Dow in correction, Hormuz tanker attacks lifting oil risk and BTC liquidations; weekend headlines likely set a gap for Sunday's 6 PM ET open",
+        "items": [
+          "Reuters/news (Fri close, ~10:02 PM ET recap): Nasdaq Comp -4.35% to 22,840.42, S&P -2.83% to 6,973.04, Dow -1.13%; NVDA -14% on SEC accounting-probe report, Nasdaq negative YTD — Bearish NQ",
+          "@FirstSquawk (~5:57 AM ET): Oil tanker hit by naval mine east of Strait of Hormuz, on fire (Iran state TV); UKMTO confirms 2 tanker attacks near Khasab, Oman (~5:29 AM) — Bearish NQ",
+          "@WatcherGuru (~11:13 PM ET Fri): Crypto crash — BTC < $56K, ETH < $1,550, $650M liquidated; BTC first sub-$57K in 2+ yrs (~10:35 PM) — Bearish NQ",
+          "@DeItaone (~6:11 AM ET): Iran shows new underground 'missile city' with double-launcher — Bearish NQ",
+          "@FirstSquawk (~5:36 AM ET): Trump and Xi agree against fully autonomous military AI decision-making, Bessent says (SCMP) — Mixed NQ"
+        ],
+        "trump": "Pushing the Fed for sharp rate cuts, citing India's low rates and ~7% growth (reported ~7:23 AM ET); announced 'tremendous' taxes on US firms building data centers overseas to keep AI compute domestic; demands zero trade deficit before Canada talks.",
+        "watch": "Sun 6:00 PM ET futures reopen (gap risk on NVDA/Iran weekend headlines); Mon Nov 23 AMC HPE, ZM; Tue Nov 24 BMO ADI, AMC DELL/WDAY/ADSK/HPQ; Wed Nov 25 BMO DE; Thu Nov 26 Thanksgiving (cash closed), Fri Nov 27 half day; Hormuz/Iran tanker convoy headlines; Citi now sees a Dec Fed hike",
+        "forSite": []
+      }
+    ]
+  }
+}
