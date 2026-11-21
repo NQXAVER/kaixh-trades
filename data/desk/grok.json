@@ -1,15 +1,138 @@
 {
-  "at": "2026-11-21T01:10:48Z",
-  "pulse": "Nasdaq and S&P closed in correction Friday with Nasdaq -5.3% erasing 2026 gains and worst week since 2020 on AI/semis unwind (ANT fade, NVDA plunge), hawkish Fed pricing ~99% Dec hike odds, and Trump weighing Iran options amid softer oil.",
-  "bias": "risk-off — severe AI/chip liquidation spreading to broader indices, VIX spike near 36-40, elevated hike odds and Iran geopolitical overhang with limited oil support",
+  "date": "2026-11-20",
+  "at": "2026-11-21T01:31:20Z",
+  "pulse": "NQ closed Friday in a deep AI/semis liquidation (Nasdaq -5.3% to 22,618, red for 2026, worst week since Mar 2020) driven by the Reuters-reported SEC accounting probe into NVDA (-14%), with only a 14 bp drop in the 10Y to 4.91% offsetting while weekend Iran strike chatter adds headline risk.",
+  "bias": "risk-off — NVDA SEC probe and AI unwind still dominant, VIX ~35.9 highest close since Apr 2025, crypto bleeding and US-Israel Iran strike reports into the weekend; lower yields are the only cushion",
   "items": [
-    "@Klarifier (~8:10 PM ET): Dow and S&P 500 entered and closed in correction territory; chipmakers led US sell-off in AI and chip stocks Friday, Nasdaq worst week since 2020",
-    "@Angelpat9988 (~8:10 PM ET): S&P closed -3.7% at 6910, Nasdaq -5.28% at 22618 turning negative YTD, Dow -1.93%; NVDA -14%, ANT -8.5% on day 2, VIX 35.89",
-    "@theinvestnow (~8:10 PM ET): Wall Street worst day in years — S&P -3.7% week -8.6%, Nasdaq -5.28% negative for 2026, NVDA -14%, VIX +26% to 35.89, 10Y eased >10bp, BTC <60k",
-    "@ApexWireApp (~8:10 PM ET): Nvidia worst week in 18 years amid reported SEC probe; Nasdaq -5%+, Dow/S&P in correction; SpaceX $32B bond sale for chips; BTC <58k",
-    "@EarthDeFIRE (~8:10 PM ET): AI week brutal — NVDA beat but -23% week to 125.53 (-47% from peak), ANT IPO day 2 near IPO price; Nasdaq -5.28% erased 2026 gains, semis -11%"
+    "Reuters via @factwire_news (~4:17 PM ET): SEC staff examining potential accounting issues at NVDA per two sources; shares down ~12-14% on the day — Bearish NQ",
+    "@NasdaqNancy (~6:30 PM ET): VIX 35.89 (+26%), highest close since Apr 11 2025; Nasdaq 18.1% off Oct 6 record; 10Y 4.91% (-14 bp); week S&P -8.6%, Nasdaq -10% — Bearish NQ",
+    "@WatcherGuru (~5:35 PM ET): $150B wiped from crypto market cap today; BTC ~$59K — Bearish NQ (risk appetite, crypto equities)",
+    "X News (~8:24 PM ET): reports US and Israeli officials preparing possible Iran strikes in 2-4 days; Trump at WH briefing says Iran won't accept a deal acceptable to US — Bearish NQ (oil/geopolitical risk)",
+    "X News (~6:51 PM ET): Trump presses Fed for sharp rate cuts, says each point costs $650B — Mixed NQ"
   ],
-  "trump": "Trump weighing Iran decision amid ongoing tensions and naval activity; reports of delaying any new strike past New Year; Nov 19 APEC with Xi/Putin on petroleum supply; data center tax warnings for overseas AI build.",
-  "watch": "Monday open reaction to weekly wipeout and AI rout; any weekend Iran/Hormuz or oil headlines; ANT hold above $83 IPO and options debut; NVDA/semis stabilization; VIX and yield behavior; Fed hike odds into next week",
-  "forSite": []
+  "trump": "At a Nov 20 White House briefing Trump said Iran wants a deal but refuses one acceptable to the US, calling past efforts 'bullshitting' for 51 years, tied the conflict to gasoline prices; separately pushed the Fed for sharp rate cuts, saying each percentage point costs $650 billion.",
+  "watch": "Weekend Iran/Israel strike headlines and Treasury Iran sanctions; NVDA SEC probe follow-ups; CME futures reopen Sun ~6:00 PM ET; Mon Nov 24 AMC: DELL, HPQ, WDAY, ADSK; Thanksgiving Thu Nov 26 US markets closed.",
+  "forSite": [],
+  "reports": [
+    {
+      "at": "2026-11-20T12:01:02Z",
+      "pulse": "NQ futures down 1-1.5% and ES ~0.5% as the AI selloff deepens globally after Anthropic's record IPO faded, with Asia chips (Nikkei/Kospi -5%) leading the risk-off and ANT/AMD under pressure premarket.",
+      "bias": "risk-off — AI trade unwind continues post-ANT IPO failure to revive sentiment, futures lower amid Asia semis dump, elevated VIX, and hawkish Fed backdrop with high Dec hike odds",
+      "items": [
+        "@DTradingToolkit (~7:00 AM ET): Asia got smoked overnight — Nikkei and Kospi both fell about 5%, Nasdaq futures about 1.5%; green premarket in red tape is a gift to sellers",
+        "@traderkim71 (~6:59 AM ET): Premarket $QQQ -1.15%, $SPY -0.70%, $DIA -0.20%; $ANT and $AMD both roughly down -7% as selloff extends into OPEX Friday",
+        "@QuasarMarkets (~5:53 AM ET): The AI rout is the whole tape — S&P closed -2.02% for sixth straight loss, Asia followed hard (Kospi -5.1%, Nikkei -4.7%); NQ futures -1.55%, ES -0.61%",
+        "@TradePhantomX (~5:48 AM ET): AI sell-off spread to Asia; SoftBank -14%, ANT ~-6% pre-market still above IPO; NQ down ~1% while YM/RTY holding, gold liquidating",
+        "@sports_lamb (~6:57 AM ET): Rough Friday for AI — Nasdaq futures -1.6% as selloff goes global; $ANT -6% day after debut, $AMD -5% on China short-seller report, $NVDA -2.6%"
+      ],
+      "trump": "none",
+      "watch": "Fri Nov 20 open: monthly OPEX gamma flows, Waller speech 8:25 AM ET, UMich sentiment/inflation expectations 10:00 AM, Cook 12:15 PM; ANT day-2 follow-through; Iran/Hormuz headlines for oil; whether NQ holds or extends the AI unwind into the cash open",
+      "forSite": []
+    },
+    {
+      "at": "2026-11-20T12:31:22Z",
+      "pulse": "NQ ~-1.5% to -1.9% premarket at a fresh overnight low as the AI unwind goes global (Nikkei/Kospi ~-5%, Taiwan -6.6%) with ANT -10% day 2 and INTU -10% on a guide cut; only offset is yields easing to ~4.99% and a stretched six-day S&P slide.",
+      "bias": "risk-off — AI/semis liquidation (ANT, AMD, MU, TSM lower), VIX >30, hawkish Fed pricing (gold -8% wk on hike bets) and fresh Iran strike headlines; Waller 8:25 AM is the next swing factor",
+      "items": [
+        "@FirstSquawk (~7:25 AM ET): $ANT extends premarket decline to more than 10%, day 2 after its IPO — Bearish NQ",
+        "@T_LauRekt (~7:29 AM ET): NQ futs ~-1.5%, ES ~-0.6% after Taiwan -6.6%, Kospi -5.2%, Nikkei -5.1% overnight — Bearish NQ",
+        "@DeItaone (~7:03 AM ET): VIX rises above 30; AI selloff accelerating ($AMD ~-6%, $INTC lower premarket) — Bearish NQ",
+        "@DeItaone (~7:11 AM ET): CBS: US and Israel considering a new near-term military assault on Iran; Iran tankers massing at Kharg to test US blockade — Bearish NQ",
+        "@DeItaone (~6:49 AM ET): Gold -8% this week as markets price another Fed hike; SocGen sees two more 25bp hikes — Bearish NQ"
+      ],
+      "trump": "At APEC (Nov 19, ~8:30 PM ET story) Trump told Xi the US does not support Taiwan independence and they agreed an action plan for 'constructive strategic stability' (mild de-escalation, China/chips positive); he also urged European allies to halt Ukraine aid. No new tariff or Fed comments overnight.",
+      "watch": "Waller 8:25 AM ET (hike signals), UMich final sentiment/inflation expectations 10:00 AM ET, monthly OPEX into the close, ANT/INTU/semis at the 9:30 AM open, Iran strike and Kharg/Hormuz tanker headlines for CL; next week DELL, HPQ, WDAY, ADSK Tue Nov 24 AMC",
+      "forSite": []
+    },
+    {
+      "at": "2026-11-20T14:33:26Z",
+      "pulse": "NQ opens deep red (cash Nasdaq -1.2% at 9:30 AM, futs ~-1% to -2% premarket) as ANT's day-2 slide toward its $83 IPO price keeps the AI/semis unwind going; offsets are washout-level sentiment (VIX >30, 6-day S&P losing streak) and Trump reportedly pushing any Iran strike decision past New Year.",
+      "bias": "risk-off — AI liquidation led by ANT and Mag7 (MSFT/AMZN/TSLA lower premarket), USTR 301 tariffs 'before year end' with no China truce extension, VIX >30; bounce risk from oversold tape and OPEX",
+      "items": [
+        "@DeItaone (~9:30 AM ET): US stocks extend fall at the open, Nasdaq -1.19% — Bearish NQ",
+        "@DeItaone (~9:31 AM ET): $ANT -9% at $88.45 a day after its IPO debut (was -14% premarket per @FirstSquawk 8:38 AM) — Bearish NQ",
+        "@zerohedge (~8:10 AM ET): futures tumble as Anthropic IPO hangover turns AI unwind into global rout; S&P down 6 straight, a 7th would be longest since 2020 — Bearish NQ",
+        "@FirstSquawk (~8:50 AM ET): USTR Greer says Section 301 tariffs coming 'very soon; before year end'; no agreement on a US-China truce extension (@LiveSquawk 8:41 AM) — Bearish NQ",
+        "@DeItaone (~9:06 AM ET): Citi says US rates are 'unsustainably high', sees Fed cuts in 2027 — Mixed NQ"
+      ],
+      "trump": "NY Post (via @DeItaone ~8:55 AM ET): Trump to talk the Iran war in a keynote at the Reagan Defense Forum next month; X News (~9:16 AM ET) reports he is delaying a decision on new Iran strikes until after New Year despite Israeli pressure (mild CL/risk offset). USTR Greer (~8:41 AM ET): 'Trump makes US decisions on export controls'; China truce extension hinges on rare earths.",
+      "watch": "UMich final sentiment/inflation expectations 10:00 AM ET; monthly OPEX into the 4:00 PM close; ANT vs $83 IPO price; Iran Kharg Island tanker convoy vs US Hormuz blockade headlines for CL; next week DELL, HPQ, WDAY, ADSK Tue Nov 24 AMC",
+      "forSite": []
+    },
+    {
+      "at": "2026-11-20T15:09:25Z",
+      "pulse": "Nasdaq down over 1% early Friday and on track for its worst week in 18 months as the AI selloff continues after Anthropic's IPO fade, with hawkish Fed minutes pricing a near-certain December hike and soft oil providing little offset.",
+      "bias": "risk-off — AI/semis unwind (ANT day-2 slide, Asia chips smashed overnight) and elevated Dec hike odds (~97%) driving NQ lower amid VIX near 29 and a six-day S&P losing streak",
+      "items": [
+        "@wiseapeman (~10:08 AM ET): Stocks opened mixed, Dow small gain while Nasdaq fell more than 1%; Anthropic down ~8% early after +17% debut, Fed minutes hawkish with Dec hike ~97% priced and 10Y near 5.06%",
+        "@T_LauRekt (~7:29 AM ET): NQ futures ~-1.5% after Taiwan -6.6%, Kospi -5.2%, Nikkei -5.1%; ANT ~-6% pre after record IPO, Waller at 8:25 sets tone",
+        "@traderstevex (~10:09 AM ET): $QQQ swept stops under prior low and snapped back; leaning long on bounce but every MA slopes down so trade inside downtrend",
+        "@CharlesEllinas (~10:09 AM ET): Oil market could move from famine to glut on higher supply, but Iranian attacks on ships keep Brent above $92",
+        "@OilandEnergy (~10:09 AM ET): Trump, Xi and Putin met Nov 19 at APEC; joint statement pledged to raise production and supply of refined petroleum products"
+      ],
+      "trump": "Trump, Xi and Putin met Nov 19 on APEC sidelines and pledged higher refined petroleum production (potential oil supply positive); prior reports of delaying any new Iran strike decision past New Year remain in focus.",
+      "watch": "Friday close and monthly OPEX gamma into weekend; UMich sentiment/inflation expectations reaction; ANT follow-through vs IPO price; any Iran/Hormuz or oil headlines; whether AI selloff stabilizes or extends into next week",
+      "forSite": []
+    },
+    {
+      "at": "2026-11-20T21:31:55Z",
+      "pulse": "Nasdaq and S&P closed sharply lower Friday (Nasdaq ~-5.3%, S&P ~-3.7%) extending the AI selloff into correction territory amid hawkish Fed pricing a near-certain December hike and lingering Iran/Hormuz risks with oil softer.",
+      "bias": "risk-off — severe AI/semis unwind (ANT -8.5%, NVDA -10.6%) and elevated Dec hike odds (~98%) driving risk assets lower, VIX spiking near 40",
+      "items": [
+        "@Joshuatrader1 (~4:30 PM ET): Market close S&P -3.7% to 6910, Nasdaq -5.3%, Dow -1.9% in correction; AI rout ANT -8.5%, NVDA -10.6%; VIX 39.79 +40%",
+        "@iafterfeed (~4:30 PM ET): Nasdaq 100 records its biggest weekly decline since the COVID-19 market crash in 2020",
+        "@CaktusJxck (~4:30 PM ET): ~$2.4T S&P market value erased Friday, ~$5.8T for the week; S&P and Dow into correction, Nasdaq erased 2026 gains; semis plunged",
+        "@TheTradeBrief (~4:30 PM ET): Nasdaq 100 -5.45%, VIX +30.6% to 37; AI infra spend worries + hawkish Fed; Gulf markets shrugged as they trade oil/Fed not chips; Brent flat ~$92.68; Iran Hormuz terms unchanged",
+        "@NarsTrading (~4:30 PM ET): Reminder NQ futures roll coming as December contract expiry approaches; volume shifts to next contract"
+      ],
+      "trump": "Trump weighing Iran decision amid naval blockade and tanker activity; prior reports of delaying any new strike past New Year; Nov 19 APEC meeting with Xi and Putin pledged higher refined petroleum production.",
+      "watch": "Monday open for potential bounce or continuation of AI rout after weekly worst since COVID; ANT options debut and $83 hold; NVDA reaction; any weekend Iran/Hormuz or oil headlines; VIX behavior above 30-40",
+      "forSite": []
+    },
+    {
+      "at": "2026-11-20T21:32:33Z",
+      "pulse": "NQ got crushed into the close: Nasdaq -5.27% to 22,620 and NDX ~-6% on the day, -19.8% from the October record (bear-market edge), on the NVDA collapse (-23% week, SEC accounting probe) and the ANT IPO fade; the only offsets are fading Dec hike odds, bonds bid, and NVDA +1.8% AH.",
+      "bias": "risk-off — AI/semis liquidation with NVDA leadership vacuum + SEC probe, worst tech week since 2020, VIX 30-handle and Iran-strike risk into the weekend; bounce needs NVDA AH hold and Iran deal headlines",
+      "items": [
+        "@DeItaone (~4:00 PM ET): Nasdaq closes -1,259 pts / -5.27% at 22,620.17; week S&P -8.61%, Nasdaq -10.02%, Dow -8.02% (unofficial) — Bearish NQ",
+        "@DeItaone (~4:01 PM ET): NVDA -23% on the week, biggest weekly drop since Oct 2008; SEC probing NVDA accounting (@unusual_whales ~2:23 PM ET, per Reuters); NVDA +1.8% postmarket (@zerohedge ~4:17 PM ET) — Bearish NQ",
+        "@LiveSquawk (~4:02 PM ET): $ANT closes -9.1% on day 2 of trading; NDX -6% on the day, ~20% off Oct peak — Bearish NQ",
+        "@DeItaone (~2:36 PM ET): traders no longer fully price a December Fed hike; Citi sees rates 'unsustainably high', cut in 2027 (@unusual_whales ~2:57 PM ET) — Bullish NQ",
+        "@FirstSquawk (~3:45 PM ET): FT says Trump weighing renewed Iran strikes; Iran FM Araghchi (@LiveSquawk ~4:17 PM ET) says Hormuz reopens if 7 conditions met, deal offer still on table; Brent settled +$0.59 at $92.57 (~2:50 PM ET) — Mixed NQ"
+      ],
+      "trump": "Trump said Nvidia is 'very important' to the US and, 'if they were smart', would take Huang back; he discussed Huang with Xi (~1:19–1:20 PM ET). FT (~3:44 PM ET): he signalled major tax measures on companies building data centres outside the US (bearish hyperscalers/AI capex), and is weighing renewed Iran strikes (~3:21 PM ET).",
+      "watch": "Weekend Iran/Hormuz headlines (strike risk vs Qatar-brokered talks); NVDA AH/Sunday futures open 6:00 PM ET Sun; ANT leveraged ETFs (ANTT/ANTZ) list Mon; Fed speakers on the Dec hike; DELL, HPQ, WDAY, ADSK AMC Tue Nov 24; Thanksgiving week thin liquidity (Thu closed, Fri half day)",
+      "forSite": []
+    },
+    {
+      "at": "2026-11-21T01:10:48Z",
+      "pulse": "Nasdaq and S&P closed in correction Friday with Nasdaq -5.3% erasing 2026 gains and worst week since 2020 on AI/semis unwind (ANT fade, NVDA plunge), hawkish Fed pricing ~99% Dec hike odds, and Trump weighing Iran options amid softer oil.",
+      "bias": "risk-off — severe AI/chip liquidation spreading to broader indices, VIX spike near 36-40, elevated hike odds and Iran geopolitical overhang with limited oil support",
+      "items": [
+        "@Klarifier (~8:10 PM ET): Dow and S&P 500 entered and closed in correction territory; chipmakers led US sell-off in AI and chip stocks Friday, Nasdaq worst week since 2020",
+        "@Angelpat9988 (~8:10 PM ET): S&P closed -3.7% at 6910, Nasdaq -5.28% at 22618 turning negative YTD, Dow -1.93%; NVDA -14%, ANT -8.5% on day 2, VIX 35.89",
+        "@theinvestnow (~8:10 PM ET): Wall Street worst day in years — S&P -3.7% week -8.6%, Nasdaq -5.28% negative for 2026, NVDA -14%, VIX +26% to 35.89, 10Y eased >10bp, BTC <60k",
+        "@ApexWireApp (~8:10 PM ET): Nvidia worst week in 18 years amid reported SEC probe; Nasdaq -5%+, Dow/S&P in correction; SpaceX $32B bond sale for chips; BTC <58k",
+        "@EarthDeFIRE (~8:10 PM ET): AI week brutal — NVDA beat but -23% week to 125.53 (-47% from peak), ANT IPO day 2 near IPO price; Nasdaq -5.28% erased 2026 gains, semis -11%"
+      ],
+      "trump": "Trump weighing Iran decision amid ongoing tensions and naval activity; reports of delaying any new strike past New Year; Nov 19 APEC with Xi/Putin on petroleum supply; data center tax warnings for overseas AI build.",
+      "watch": "Monday open reaction to weekly wipeout and AI rout; any weekend Iran/Hormuz or oil headlines; ANT hold above $83 IPO and options debut; NVDA/semis stabilization; VIX and yield behavior; Fed hike odds into next week",
+      "forSite": []
+    },
+    {
+      "at": "2026-11-21T01:31:20Z",
+      "pulse": "NQ closed Friday in a deep AI/semis liquidation (Nasdaq -5.3% to 22,618, red for 2026, worst week since Mar 2020) driven by the Reuters-reported SEC accounting probe into NVDA (-14%), with only a 14 bp drop in the 10Y to 4.91% offsetting while weekend Iran strike chatter adds headline risk.",
+      "bias": "risk-off — NVDA SEC probe and AI unwind still dominant, VIX ~35.9 highest close since Apr 2025, crypto bleeding and US-Israel Iran strike reports into the weekend; lower yields are the only cushion",
+      "items": [
+        "Reuters via @factwire_news (~4:17 PM ET): SEC staff examining potential accounting issues at NVDA per two sources; shares down ~12-14% on the day — Bearish NQ",
+        "@NasdaqNancy (~6:30 PM ET): VIX 35.89 (+26%), highest close since Apr 11 2025; Nasdaq 18.1% off Oct 6 record; 10Y 4.91% (-14 bp); week S&P -8.6%, Nasdaq -10% — Bearish NQ",
+        "@WatcherGuru (~5:35 PM ET): $150B wiped from crypto market cap today; BTC ~$59K — Bearish NQ (risk appetite, crypto equities)",
+        "X News (~8:24 PM ET): reports US and Israeli officials preparing possible Iran strikes in 2-4 days; Trump at WH briefing says Iran won't accept a deal acceptable to US — Bearish NQ (oil/geopolitical risk)",
+        "X News (~6:51 PM ET): Trump presses Fed for sharp rate cuts, says each point costs $650B — Mixed NQ"
+      ],
+      "trump": "At a Nov 20 White House briefing Trump said Iran wants a deal but refuses one acceptable to the US, calling past efforts 'bullshitting' for 51 years, tied the conflict to gasoline prices; separately pushed the Fed for sharp rate cuts, saying each percentage point costs $650 billion.",
+      "watch": "Weekend Iran/Israel strike headlines and Treasury Iran sanctions; NVDA SEC probe follow-ups; CME futures reopen Sun ~6:00 PM ET; Mon Nov 24 AMC: DELL, HPQ, WDAY, ADSK; Thanksgiving Thu Nov 26 US markets closed.",
+      "forSite": []
+    }
+  ]
 }
