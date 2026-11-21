@@ -1,17 +1,17 @@
 {
   "date": "2026-11-21",
-  "at": "2026-11-21T14:32:41Z",
-  "pulse": "Weekend tape still risk-off after Friday's -4.35% Nasdaq rout on the NVDA SEC-probe/Huang-exit story; fresh Iran escalation (claimed missile hit on a US F-16 over the Gulf) adds oil/geopolitical risk, partly offset by a BTC bounce back to $60K with $136M of shorts squeezed and an averted US port strike.",
-  "bias": "risk-off — NVDA overhang (stock -47.5% from Oct peak, worst week since 2008) plus Iran/Hormuz escalation keep gap-down risk for Sunday's 6 PM ET reopen; crypto short squeeze and Trump's rate-cut push are the only offsets",
+  "at": "2026-11-21T21:28:38Z",
+  "pulse": "Weekend tape still risk-off into Sunday's 6 PM ET reopen on the NVDA SEC-probe/Huang-exit overhang (Fri close $125.53, Nasdaq -4.35% Fri), partly offset by Iran signalling a Hormuz reopening path, Trump saying he wants a 'permanent' Iran deal, and BTC rebounding ~8% to ~$60K.",
+  "bias": "risk-off — no cash session today; NVDA/semis overhang (ARK selling NVDA, memory names under pressure) keeps gap-down risk for Sunday futures, while softer Iran/Hormuz rhetoric and the crypto bounce are the only offsets",
   "items": [
-    "@DeItaone (~8:50 AM ET): Iran's army says its air-defence missile damaged a US F-16 over the Gulf, forcing an emergency landing (state media); US official denies it to Al Arabiya (@LiveSquawk ~9:26 AM) — Bearish NQ",
-    "@FirstSquawk (~8:44 AM ET): CBS: US jets bombed an Iranian missile site on Qeshm Island last Tuesday; IRGC claims another drone downed off Bushehr (~9:13 AM) — Bearish NQ",
-    "@WatcherGuru (~8:38 AM ET): Bitcoin back to $60,000; $136M of crypto shorts liquidated in the past hour (~9:00 AM) — Mixed NQ",
-    "X News (~9:25 AM ET): NVDA closed Fri at $125.53, -14% on SEC accounting review, down 47.5% from the Oct 6 peak; shareholders pushing for Jensen Huang's return — Bearish NQ",
-    "@FirstSquawk (~8:52 AM ET): US ports avoid potential strike after tentative deal (WSJ); US copper flows to China resume as tariff concerns ease (FT, ~7:40 AM) — Bullish NQ"
+    "@DeItaone (~11:01 AM ET): Iran FM (Tasnim): 'not difficult' to reopen the Strait of Hormuz if the US accepts Iran's conditions; Trump to Fox (~10:56 AM): 'going to make a deal that is permanent' — Bullish NQ",
+    "@DeItaone (~12:32 PM ET): Bitcoin rebounds 8% to ~$59,952 after plunging to a two-year low (Reuters) — Mixed NQ",
+    "@zerohedge (~12:23 PM ET): FT: AMZN closing in on a $7.5B deal for AI start-up Decart, could come together as soon as early next week — Mixed NQ",
+    "X News (~4:01 PM ET): ARK sold ~135.8K NVDA shares (~$17M at the $125.53 close) across ARKK/ARKW; NVDA ~-48% from its Oct peak on the SEC accounting probe and Huang resignation — Bearish NQ",
+    "@WatcherGuru (~10:16 AM ET): Trump says he will work with Democrats to cap credit-card interest rates at 10% — Bearish NQ (card issuers/financials)"
   ],
-  "trump": "No new Trump posts since the 7:15 AM report; still pushing the Fed for sharp rate cuts and threatening 'tremendous' taxes on US firms building data centers overseas.",
-  "watch": "Sun 6:00 PM ET futures reopen (gap risk on NVDA/Iran weekend headlines); Mon Nov 23 AMC HPE, ZM; Tue Nov 24 BMO ADI, AMC DELL/WDAY/ADSK/HPQ/NTNX; Wed Nov 25 BMO DE; Thu Nov 26 Thanksgiving (cash closed), Fri Nov 27 half day; Iran F-16/Hormuz headlines",
+  "trump": "Fox interview: on Iran, 'am going to make a deal that is permanent'; backs a 10% credit-card rate cap with Democrats; on the reported FBI hack, 'just heard about it, not good'; repeats 'tremendous penalties' for US firms building data centers abroad.",
+  "watch": "Sun 6:00 PM ET futures reopen (gap risk on NVDA/Iran weekend headlines); Mon Nov 23 AMC HPE, ZM; Tue Nov 24 BMO ADI, AMC DELL/WDAY/ADSK/HPQ/NTNX; Wed Nov 25 BMO DE; Thu Nov 26 Thanksgiving (cash closed), Fri Nov 27 half day; AMZN-Decart deal headlines; Iran/Hormuz headlines",
   "forSite": [],
   "reports": [
     {
@@ -42,6 +42,21 @@
       ],
       "trump": "No new Trump posts since the 7:15 AM report; still pushing the Fed for sharp rate cuts and threatening 'tremendous' taxes on US firms building data centers overseas.",
       "watch": "Sun 6:00 PM ET futures reopen (gap risk on NVDA/Iran weekend headlines); Mon Nov 23 AMC HPE, ZM; Tue Nov 24 BMO ADI, AMC DELL/WDAY/ADSK/HPQ/NTNX; Wed Nov 25 BMO DE; Thu Nov 26 Thanksgiving (cash closed), Fri Nov 27 half day; Iran F-16/Hormuz headlines",
+      "forSite": []
+    },
+    {
+      "at": "2026-11-21T21:28:38Z",
+      "pulse": "Weekend tape still risk-off into Sunday's 6 PM ET reopen on the NVDA SEC-probe/Huang-exit overhang (Fri close $125.53, Nasdaq -4.35% Fri), partly offset by Iran signalling a Hormuz reopening path, Trump saying he wants a 'permanent' Iran deal, and BTC rebounding ~8% to ~$60K.",
+      "bias": "risk-off — no cash session today; NVDA/semis overhang (ARK selling NVDA, memory names under pressure) keeps gap-down risk for Sunday futures, while softer Iran/Hormuz rhetoric and the crypto bounce are the only offsets",
+      "items": [
+        "@DeItaone (~11:01 AM ET): Iran FM (Tasnim): 'not difficult' to reopen the Strait of Hormuz if the US accepts Iran's conditions; Trump to Fox (~10:56 AM): 'going to make a deal that is permanent' — Bullish NQ",
+        "@DeItaone (~12:32 PM ET): Bitcoin rebounds 8% to ~$59,952 after plunging to a two-year low (Reuters) — Mixed NQ",
+        "@zerohedge (~12:23 PM ET): FT: AMZN closing in on a $7.5B deal for AI start-up Decart, could come together as soon as early next week — Mixed NQ",
+        "X News (~4:01 PM ET): ARK sold ~135.8K NVDA shares (~$17M at the $125.53 close) across ARKK/ARKW; NVDA ~-48% from its Oct peak on the SEC accounting probe and Huang resignation — Bearish NQ",
+        "@WatcherGuru (~10:16 AM ET): Trump says he will work with Democrats to cap credit-card interest rates at 10% — Bearish NQ (card issuers/financials)"
+      ],
+      "trump": "Fox interview: on Iran, 'am going to make a deal that is permanent'; backs a 10% credit-card rate cap with Democrats; on the reported FBI hack, 'just heard about it, not good'; repeats 'tremendous penalties' for US firms building data centers abroad.",
+      "watch": "Sun 6:00 PM ET futures reopen (gap risk on NVDA/Iran weekend headlines); Mon Nov 23 AMC HPE, ZM; Tue Nov 24 BMO ADI, AMC DELL/WDAY/ADSK/HPQ/NTNX; Wed Nov 25 BMO DE; Thu Nov 26 Thanksgiving (cash closed), Fri Nov 27 half day; AMZN-Decart deal headlines; Iran/Hormuz headlines",
       "forSite": []
     }
   ]
