@@ -2,18 +2,18 @@
   "date": "2026-11-21",
   "grok": {
     "date": "2026-11-21",
-    "at": "2026-11-21T12:33:33Z",
-    "pulse": "NQ heads into the weekend after a -4.35% Friday wipeout (Nasdaq Comp 22,840, worst week since 2020) led by NVDA -14% on a Reuters SEC accounting-probe report; overnight Iran/Hormuz tanker attacks and a crypto crash (BTC < $56K) add to risk-off, with only Trump's renewed push for Fed cuts as an offset.",
-    "bias": "risk-off — AI/semis rout (NVDA probe + Huang exit), S&P/Dow in correction, Hormuz tanker attacks lifting oil risk and BTC liquidations; weekend headlines likely set a gap for Sunday's 6 PM ET open",
+    "at": "2026-11-21T14:32:41Z",
+    "pulse": "Weekend tape still risk-off after Friday's -4.35% Nasdaq rout on the NVDA SEC-probe/Huang-exit story; fresh Iran escalation (claimed missile hit on a US F-16 over the Gulf) adds oil/geopolitical risk, partly offset by a BTC bounce back to $60K with $136M of shorts squeezed and an averted US port strike.",
+    "bias": "risk-off — NVDA overhang (stock -47.5% from Oct peak, worst week since 2008) plus Iran/Hormuz escalation keep gap-down risk for Sunday's 6 PM ET reopen; crypto short squeeze and Trump's rate-cut push are the only offsets",
     "items": [
-      "Reuters/news (Fri close, ~10:02 PM ET recap): Nasdaq Comp -4.35% to 22,840.42, S&P -2.83% to 6,973.04, Dow -1.13%; NVDA -14% on SEC accounting-probe report, Nasdaq negative YTD — Bearish NQ",
-      "@FirstSquawk (~5:57 AM ET): Oil tanker hit by naval mine east of Strait of Hormuz, on fire (Iran state TV); UKMTO confirms 2 tanker attacks near Khasab, Oman (~5:29 AM) — Bearish NQ",
-      "@WatcherGuru (~11:13 PM ET Fri): Crypto crash — BTC < $56K, ETH < $1,550, $650M liquidated; BTC first sub-$57K in 2+ yrs (~10:35 PM) — Bearish NQ",
-      "@DeItaone (~6:11 AM ET): Iran shows new underground 'missile city' with double-launcher — Bearish NQ",
-      "@FirstSquawk (~5:36 AM ET): Trump and Xi agree against fully autonomous military AI decision-making, Bessent says (SCMP) — Mixed NQ"
+      "@DeItaone (~8:50 AM ET): Iran's army says its air-defence missile damaged a US F-16 over the Gulf, forcing an emergency landing (state media); US official denies it to Al Arabiya (@LiveSquawk ~9:26 AM) — Bearish NQ",
+      "@FirstSquawk (~8:44 AM ET): CBS: US jets bombed an Iranian missile site on Qeshm Island last Tuesday; IRGC claims another drone downed off Bushehr (~9:13 AM) — Bearish NQ",
+      "@WatcherGuru (~8:38 AM ET): Bitcoin back to $60,000; $136M of crypto shorts liquidated in the past hour (~9:00 AM) — Mixed NQ",
+      "X News (~9:25 AM ET): NVDA closed Fri at $125.53, -14% on SEC accounting review, down 47.5% from the Oct 6 peak; shareholders pushing for Jensen Huang's return — Bearish NQ",
+      "@FirstSquawk (~8:52 AM ET): US ports avoid potential strike after tentative deal (WSJ); US copper flows to China resume as tariff concerns ease (FT, ~7:40 AM) — Bullish NQ"
     ],
-    "trump": "Pushing the Fed for sharp rate cuts, citing India's low rates and ~7% growth (reported ~7:23 AM ET); announced 'tremendous' taxes on US firms building data centers overseas to keep AI compute domestic; demands zero trade deficit before Canada talks.",
-    "watch": "Sun 6:00 PM ET futures reopen (gap risk on NVDA/Iran weekend headlines); Mon Nov 23 AMC HPE, ZM; Tue Nov 24 BMO ADI, AMC DELL/WDAY/ADSK/HPQ; Wed Nov 25 BMO DE; Thu Nov 26 Thanksgiving (cash closed), Fri Nov 27 half day; Hormuz/Iran tanker convoy headlines; Citi now sees a Dec Fed hike",
+    "trump": "No new Trump posts since the 7:15 AM report; still pushing the Fed for sharp rate cuts and threatening 'tremendous' taxes on US firms building data centers overseas.",
+    "watch": "Sun 6:00 PM ET futures reopen (gap risk on NVDA/Iran weekend headlines); Mon Nov 23 AMC HPE, ZM; Tue Nov 24 BMO ADI, AMC DELL/WDAY/ADSK/HPQ/NTNX; Wed Nov 25 BMO DE; Thu Nov 26 Thanksgiving (cash closed), Fri Nov 27 half day; Iran F-16/Hormuz headlines",
     "forSite": [],
     "reports": [
       {
@@ -29,6 +29,21 @@
         ],
         "trump": "Pushing the Fed for sharp rate cuts, citing India's low rates and ~7% growth (reported ~7:23 AM ET); announced 'tremendous' taxes on US firms building data centers overseas to keep AI compute domestic; demands zero trade deficit before Canada talks.",
         "watch": "Sun 6:00 PM ET futures reopen (gap risk on NVDA/Iran weekend headlines); Mon Nov 23 AMC HPE, ZM; Tue Nov 24 BMO ADI, AMC DELL/WDAY/ADSK/HPQ; Wed Nov 25 BMO DE; Thu Nov 26 Thanksgiving (cash closed), Fri Nov 27 half day; Hormuz/Iran tanker convoy headlines; Citi now sees a Dec Fed hike",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-21T14:32:41Z",
+        "pulse": "Weekend tape still risk-off after Friday's -4.35% Nasdaq rout on the NVDA SEC-probe/Huang-exit story; fresh Iran escalation (claimed missile hit on a US F-16 over the Gulf) adds oil/geopolitical risk, partly offset by a BTC bounce back to $60K with $136M of shorts squeezed and an averted US port strike.",
+        "bias": "risk-off — NVDA overhang (stock -47.5% from Oct peak, worst week since 2008) plus Iran/Hormuz escalation keep gap-down risk for Sunday's 6 PM ET reopen; crypto short squeeze and Trump's rate-cut push are the only offsets",
+        "items": [
+          "@DeItaone (~8:50 AM ET): Iran's army says its air-defence missile damaged a US F-16 over the Gulf, forcing an emergency landing (state media); US official denies it to Al Arabiya (@LiveSquawk ~9:26 AM) — Bearish NQ",
+          "@FirstSquawk (~8:44 AM ET): CBS: US jets bombed an Iranian missile site on Qeshm Island last Tuesday; IRGC claims another drone downed off Bushehr (~9:13 AM) — Bearish NQ",
+          "@WatcherGuru (~8:38 AM ET): Bitcoin back to $60,000; $136M of crypto shorts liquidated in the past hour (~9:00 AM) — Mixed NQ",
+          "X News (~9:25 AM ET): NVDA closed Fri at $125.53, -14% on SEC accounting review, down 47.5% from the Oct 6 peak; shareholders pushing for Jensen Huang's return — Bearish NQ",
+          "@FirstSquawk (~8:52 AM ET): US ports avoid potential strike after tentative deal (WSJ); US copper flows to China resume as tariff concerns ease (FT, ~7:40 AM) — Bullish NQ"
+        ],
+        "trump": "No new Trump posts since the 7:15 AM report; still pushing the Fed for sharp rate cuts and threatening 'tremendous' taxes on US firms building data centers overseas.",
+        "watch": "Sun 6:00 PM ET futures reopen (gap risk on NVDA/Iran weekend headlines); Mon Nov 23 AMC HPE, ZM; Tue Nov 24 BMO ADI, AMC DELL/WDAY/ADSK/HPQ/NTNX; Wed Nov 25 BMO DE; Thu Nov 26 Thanksgiving (cash closed), Fri Nov 27 half day; Iran F-16/Hormuz headlines",
         "forSite": []
       }
     ]
