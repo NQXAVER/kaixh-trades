@@ -1,18 +1,18 @@
 {
-  "date": "2026-11-21",
+  "date": "2026-11-22",
   "grok": {
-    "at": "2026-11-21T03:05:39Z",
-    "pulse": "Nasdaq closed -5.28% Friday erasing 2026 gains and posting its worst week since 2020 as the AI/semis unwind accelerated on Anthropic IPO fade and Nvidia plunge amid hawkish Fed hike pricing and Iran headline risk.",
-    "bias": "risk-off — deep AI and chip liquidation spreading to major indices into correction territory, VIX near 36, elevated December hike odds, and ongoing Iran geopolitical overhang",
+    "at": "2026-11-22T12:01:22Z",
+    "pulse": "Weekend tape remains risk-off ahead of Sunday's 6 PM ET futures reopen after Friday's sharp NQ/ES declines that pushed Nasdaq ~20% below its October peak on AI/semis unwind, near-certain December Fed hike, and ongoing Iran geopolitical risks.",
+    "bias": "risk-off — deep AI and semiconductor liquidation into correction territory, hawkish Fed hike pricing near certainty, and Iran/Hormuz headline risk point to gap-down potential at the Sunday open",
     "items": [
-      "@marketsday (~10:03 PM ET): S&P 500 -3.70% to 6910 for 7th straight loss and into correction, Nasdaq -5.28% to 22618 negative YTD, Dow -1.93%; NVDA -14%, ANT -8.5-9%, VIX +26% toward 36",
-      "@jayaramNvenkat (~10:03 PM ET): AI sell-off became market correction; S&P and Dow >10% below peaks, Nvidia -13.8%",
-      "@tradeAIetc (~10:05 PM ET): Weekly: NASDAQ -10.23%, S&P500 -8.61% on AI/semis plunge; Walmart flat highlighting real economy vs market gap",
-      "@noolanded (~10:02 PM ET): Crypto sold off with stocks; Nasdaq -5.28% negative YTD, BTC near 58558 -5%; chip stocks led the fall",
-      "@amori (~10:04 PM ET): Nasdaq -5.28% as Anthropic IPO celebration ended day 1; semis -10.73%, questioning AI valuation amid near-5% yields"
+      "The CEO Magazine (~7:00 AM ET): IMF chief Georgieva expects further market corrections due to overdone AI enthusiasm; Nasdaq 100 dropped amid scrutiny over $1T circular financing and rising debt",
+      "@kiki2bondy_ (~7:00 AM ET): Biggest mistake is confusing the brutal weekly Nasdaq decline and semis hit with the end of the AI revolution; watching select AI plays rather than every dip",
+      "@Bisons119 (~7:00 AM ET): Report that Trump favors economic stranglehold on Iran over new major strikes",
+      "@convicta_news (~7:00 AM ET): Polymarket prices Dec Fed 25bps hike at ~89.5% with Iran invasion odds low at 5.5%",
+      "@GraphCall (~7:00 AM ET): Notes US Nasdaq down 20%+ and oil embargo spike as a disappointment returning to surplus for 2027"
     ],
-    "trump": "Trump weighing Iran decision amid naval blockade and tanker activity; reports of not rushing new strikes past New Year; prior comments tying conflict to gasoline prices and pushing Fed for rate cuts.",
-    "watch": "Monday open reaction to weekly wipeout and AI rout; any weekend Iran/Hormuz or oil headlines; ANT hold above $83 IPO and options debut; NVDA/semis stabilization and SEC probe updates; VIX and yield behavior; Fed hike odds into next week",
+    "trump": "Reports indicate Trump favors economic stranglehold on Iran over renewed major strikes; earlier weekend comments included pledging a 'permanent' Iran nuclear deal.",
+    "watch": "Sunday 6:00 PM ET futures reopen for gap risk on Iran/Bahrain/Hormuz headlines and NVDA/AI overhang; Monday open reaction to the weekly wipeout; December Fed hike path and any oil moves; thin Thanksgiving week liquidity ahead.",
     "forSite": []
   }
 }
