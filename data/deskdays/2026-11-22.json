@@ -2,18 +2,18 @@
   "date": "2026-11-22",
   "grok": {
     "date": "2026-11-22",
-    "at": "2026-11-22T12:34:37Z",
-    "pulse": "Sunday premarket setup stays risk-off into the 6 PM ET NQ/ES reopen: Friday's AI/semis rout (Nasdaq -5.3%, NVDA -14% to $125.53) plus Iran's overnight Bahrain strikes (Gulf states now condemning a hit on a civilian industrial site) keep gap-down and CL-spike risk high; the offsets are the 10y easing to ~4.91% from 5.15% w/w and Iran's president signaling he wants out of 'neither war nor peace'.",
-    "bias": "risk-off — semis liquidation (worst week since 2001 per X chatter) and NVDA leadership/SEC overhang plus Iran-Bahrain escalation dominate into the reopen; lower yields and washed-out sentiment are the bounce risk",
+    "at": "2026-11-22T14:28:45Z",
+    "pulse": "Sunday pre-reopen NQ stays heavy after Friday's AI/semis capitulation (NQ ~-10% on the week, worst since Mar 2020); AI server price hikes and record hedge-fund shorting weigh, offset by China margin easing and Trump leaning on the Fed for cuts.",
+    "bias": "risk-off — AI/semis liquidation and short-heavy positioning into a thin Thanksgiving week with Wed PCE/GDP; China support and Trump rate-cut push only partial offsets, watch the 6 PM ET gap",
     "items": [
-      "@moving_markets (~2:52 AM ET): Friday close recap — S&P -3.7% to 6,910, Nasdaq -5.3%, NVDA -14% to $125.53; 10y eased to 4.91% from 5.15% a week ago — Bearish NQ",
-      "@FirstSquawk (~7:18 AM ET): Qatar condemns the Iranian attack on a civilian industrial facility in Bahrain (Saudi, Jordan also condemn) — Bearish NQ (Gulf escalation, CL up)",
-      "@FirstSquawk (~6:19 AM ET): Iranian president says Iran must exit the 'neither war nor peace' state ASAP; Qalibaf accuses US of economic pressure to collapse Iran — Mixed NQ",
-      "@zerohedge (~7:30 AM ET): Bessent says Trump and Xi agreed AI should not be autonomous for major military actions — Mixed NQ (US-China AI détente read)",
-      "@unusual_whales (~12:01 AM ET): AMD fell sharply after Hunterbrook reported possible China export-control violations and disclosed a short — Bearish NQ (semis)"
+      "@zerohedge (~9:00 AM ET): Hedge funds launch biggest single-stock short wave since 2022, dump US financials at fastest pace in 5 yrs — Bearish NQ",
+      "@DeItaone (~8:55 AM ET): China's 3 exchanges ease margin rules from Nov 30 to stabilize equities — Bullish NQ",
+      "@FirstSquawk (~8:26 AM ET): Dell, HPE, Lenovo, SMCI hiking AI server prices up to 45%, even on signed deals — Mixed NQ (margin win for OEMs, capex cost hit for hyperscalers)",
+      "@zerohedge (~7:30 AM ET): Bessent says Trump and Xi agreed AI should not be autonomous for major military actions; FT: 'Xi needs Trump more than ever' — Mixed NQ",
+      "@FirstSquawk (~7:18 AM ET): Qatar condemns Iranian attack on a civilian industrial facility in Bahrain; Hormuz risk stays live for CL — Bearish NQ"
     ],
-    "trump": "No new market-moving Trump posts overnight. Bessent (via @zerohedge, ~7:30 AM ET) says Trump and Xi agreed AI 'should not be allowed to be autonomous for major military actions'; Trump still backing a 10% credit-card rate cap (Saturday in America interview).",
-    "watch": "Sun 6:00 PM ET NQ/ES reopen (gap risk on Bahrain/Hormuz headlines, CL/Brent); NVDA board/SEC probe headlines; AMD export-control fallout; Mon Nov 23 AMC HPE, ZM; Tue Nov 24 BMO ADI, AMC DELL/WDAY/ADSK/HPQ/NTNX; Thu Nov 26 Thanksgiving (cash closed), Fri Nov 27 half day; Dec FOMC hike pricing.",
+    "trump": "Cited India's ~7% growth to push the Fed to slash rates (X News ~7:02 AM ET); pledged a permanent Iran nuclear deal that holds under future presidents, says regime change isn't the main goal (Fox, X News ~7:14 AM ET); said it will be 'very hard' to work with Schumer as Senate leader (DeItaone ~8:50 AM ET).",
+    "watch": "Sun 6:00 PM ET NQ/ES reopen (gap risk on AI/Iran headlines); Mon flash PMIs ~9:45 AM ET, HPE + ZM AMC; Tue ADI BMO, DELL/HPQ/WDAY/ADSK/NTNX AMC; Wed Oct PCE + Q3 GDP + Beige Book (Fed hike odds); Thu cash closed for Thanksgiving.",
     "forSite": [],
     "reports": [
       {
@@ -44,6 +44,36 @@
         ],
         "trump": "No new market-moving Trump posts overnight. Bessent (via @zerohedge, ~7:30 AM ET) says Trump and Xi agreed AI 'should not be allowed to be autonomous for major military actions'; Trump still backing a 10% credit-card rate cap (Saturday in America interview).",
         "watch": "Sun 6:00 PM ET NQ/ES reopen (gap risk on Bahrain/Hormuz headlines, CL/Brent); NVDA board/SEC probe headlines; AMD export-control fallout; Mon Nov 23 AMC HPE, ZM; Tue Nov 24 BMO ADI, AMC DELL/WDAY/ADSK/HPQ/NTNX; Thu Nov 26 Thanksgiving (cash closed), Fri Nov 27 half day; Dec FOMC hike pricing.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-22T14:27:51Z",
+        "pulse": "Sunday pre-reopen tape stays risk-off into the 6 PM ET NQ/ES futures open after Friday's AI/semis rout drove Nasdaq near bear-market territory and the S&P into correction, with hawkish December FOMC hike odds near 90%+ and lingering Iran/Hormuz supply risks.",
+        "bias": "risk-off — deep AI and semiconductor liquidation, near-certain Dec Fed hike pricing, and Iran geopolitical overhang point to gap risk at the reopen",
+        "items": [
+          "@Tradenometry (~9:19 AM ET): AI selloff turned policy problem with Taiwan short ban and Trump data-center tax threat; lean remains bearish pending futures hold at 6pm ET open",
+          "@Turbocharts (~9:15 AM ET): Key week for NQ/ES with Mon PMIs, Tue confidence, Wed PCE/GDP; higher inflation print would reinforce hawkish Fed pressure",
+          "@Axel_bitblaze69 (~9:14 AM ET): Flush may have cleared leverage but Fed hikes and Iran oil threats remain; tech cheapest since 2020 yet market discounts AI payoffs",
+          "@VuBuiNew (~00:39 AM ET): Weekend Hormuz tanker strikes and NVDA SEC probe headlines; Wednesday PCE is the swing factor for hike size and oversold bounce",
+          "OILAV (~1:00 AM ET): Brent slid to ~$90 despite fresh Hormuz attacks as market sells surplus over risk; fade rallies into $92.50"
+        ],
+        "trump": "No fresh market-moving posts; earlier reports of a threatened 'tremendous tax' on US firms building data centers abroad add to AI capex overhang.",
+        "watch": "Sunday 6:00 PM ET NQ/ES reopen for gap risk on Iran/Hormuz and AI overhang; Monday flash PMIs; Wednesday October PCE and Q3 GDP as Fed hike catalysts; thin Thanksgiving-week liquidity (cash closed Thursday).",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-22T14:28:45Z",
+        "pulse": "Sunday pre-reopen NQ stays heavy after Friday's AI/semis capitulation (NQ ~-10% on the week, worst since Mar 2020); AI server price hikes and record hedge-fund shorting weigh, offset by China margin easing and Trump leaning on the Fed for cuts.",
+        "bias": "risk-off — AI/semis liquidation and short-heavy positioning into a thin Thanksgiving week with Wed PCE/GDP; China support and Trump rate-cut push only partial offsets, watch the 6 PM ET gap",
+        "items": [
+          "@zerohedge (~9:00 AM ET): Hedge funds launch biggest single-stock short wave since 2022, dump US financials at fastest pace in 5 yrs — Bearish NQ",
+          "@DeItaone (~8:55 AM ET): China's 3 exchanges ease margin rules from Nov 30 to stabilize equities — Bullish NQ",
+          "@FirstSquawk (~8:26 AM ET): Dell, HPE, Lenovo, SMCI hiking AI server prices up to 45%, even on signed deals — Mixed NQ (margin win for OEMs, capex cost hit for hyperscalers)",
+          "@zerohedge (~7:30 AM ET): Bessent says Trump and Xi agreed AI should not be autonomous for major military actions; FT: 'Xi needs Trump more than ever' — Mixed NQ",
+          "@FirstSquawk (~7:18 AM ET): Qatar condemns Iranian attack on a civilian industrial facility in Bahrain; Hormuz risk stays live for CL — Bearish NQ"
+        ],
+        "trump": "Cited India's ~7% growth to push the Fed to slash rates (X News ~7:02 AM ET); pledged a permanent Iran nuclear deal that holds under future presidents, says regime change isn't the main goal (Fox, X News ~7:14 AM ET); said it will be 'very hard' to work with Schumer as Senate leader (DeItaone ~8:50 AM ET).",
+        "watch": "Sun 6:00 PM ET NQ/ES reopen (gap risk on AI/Iran headlines); Mon flash PMIs ~9:45 AM ET, HPE + ZM AMC; Tue ADI BMO, DELL/HPQ/WDAY/ADSK/NTNX AMC; Wed Oct PCE + Q3 GDP + Beige Book (Fed hike odds); Thu cash closed for Thanksgiving.",
         "forSite": []
       }
     ]
