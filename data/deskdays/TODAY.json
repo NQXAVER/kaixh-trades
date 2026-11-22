@@ -1,18 +1,18 @@
 {
   "date": "2026-11-22",
   "grok": {
-    "at": "2026-11-22T12:01:22Z",
-    "pulse": "Weekend tape remains risk-off ahead of Sunday's 6 PM ET futures reopen after Friday's sharp NQ/ES declines that pushed Nasdaq ~20% below its October peak on AI/semis unwind, near-certain December Fed hike, and ongoing Iran geopolitical risks.",
-    "bias": "risk-off — deep AI and semiconductor liquidation into correction territory, hawkish Fed hike pricing near certainty, and Iran/Hormuz headline risk point to gap-down potential at the Sunday open",
+    "at": "2026-11-22T14:27:51Z",
+    "pulse": "Sunday pre-reopen tape stays risk-off into the 6 PM ET NQ/ES futures open after Friday's AI/semis rout drove Nasdaq near bear-market territory and the S&P into correction, with hawkish December FOMC hike odds near 90%+ and lingering Iran/Hormuz supply risks.",
+    "bias": "risk-off — deep AI and semiconductor liquidation, near-certain Dec Fed hike pricing, and Iran geopolitical overhang point to gap risk at the reopen",
     "items": [
-      "The CEO Magazine (~7:00 AM ET): IMF chief Georgieva expects further market corrections due to overdone AI enthusiasm; Nasdaq 100 dropped amid scrutiny over $1T circular financing and rising debt",
-      "@kiki2bondy_ (~7:00 AM ET): Biggest mistake is confusing the brutal weekly Nasdaq decline and semis hit with the end of the AI revolution; watching select AI plays rather than every dip",
-      "@Bisons119 (~7:00 AM ET): Report that Trump favors economic stranglehold on Iran over new major strikes",
-      "@convicta_news (~7:00 AM ET): Polymarket prices Dec Fed 25bps hike at ~89.5% with Iran invasion odds low at 5.5%",
-      "@GraphCall (~7:00 AM ET): Notes US Nasdaq down 20%+ and oil embargo spike as a disappointment returning to surplus for 2027"
+      "@Tradenometry (~9:19 AM ET): AI selloff turned policy problem with Taiwan short ban and Trump data-center tax threat; lean remains bearish pending futures hold at 6pm ET open",
+      "@Turbocharts (~9:15 AM ET): Key week for NQ/ES with Mon PMIs, Tue confidence, Wed PCE/GDP; higher inflation print would reinforce hawkish Fed pressure",
+      "@Axel_bitblaze69 (~9:14 AM ET): Flush may have cleared leverage but Fed hikes and Iran oil threats remain; tech cheapest since 2020 yet market discounts AI payoffs",
+      "@VuBuiNew (~00:39 AM ET): Weekend Hormuz tanker strikes and NVDA SEC probe headlines; Wednesday PCE is the swing factor for hike size and oversold bounce",
+      "OILAV (~1:00 AM ET): Brent slid to ~$90 despite fresh Hormuz attacks as market sells surplus over risk; fade rallies into $92.50"
     ],
-    "trump": "Reports indicate Trump favors economic stranglehold on Iran over renewed major strikes; earlier weekend comments included pledging a 'permanent' Iran nuclear deal.",
-    "watch": "Sunday 6:00 PM ET futures reopen for gap risk on Iran/Bahrain/Hormuz headlines and NVDA/AI overhang; Monday open reaction to the weekly wipeout; December Fed hike path and any oil moves; thin Thanksgiving week liquidity ahead.",
+    "trump": "No fresh market-moving posts; earlier reports of a threatened 'tremendous tax' on US firms building data centers abroad add to AI capex overhang.",
+    "watch": "Sunday 6:00 PM ET NQ/ES reopen for gap risk on Iran/Hormuz and AI overhang; Monday flash PMIs; Wednesday October PCE and Q3 GDP as Fed hike catalysts; thin Thanksgiving-week liquidity (cash closed Thursday).",
     "forSite": []
   }
 }
