@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T06:48:02Z",
+  "updatedAt": "2026-11-22T17:09:52Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -127,9 +127,9 @@
     {
       "id": "mw-live",
       "label": "MarketWatch",
-      "ok": true,
-      "items": 10,
-      "error": null
+      "ok": false,
+      "items": 0,
+      "error": "HTTPError: HTTP Error 400: Bad Request"
     },
     {
       "id": "mw-top",
@@ -183,9 +183,9 @@
     {
       "id": "un-peace",
       "label": "UN News",
-      "ok": true,
-      "items": 20,
-      "error": null
+      "ok": false,
+      "items": 0,
+      "error": "ParseError: not well-formed (invalid token): line 1, column 0"
     },
     {
       "id": "wsj-biz",
@@ -203,6 +203,42 @@
     }
   ],
   "items": [
+    {
+      "id": "f929b9ee50f1e",
+      "headline": "Zelenskyy urges US to release Patriot missiles as Russia kills 5 in Ukraine",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/22/zelenskyy-urges-us-to-release-patriot-missiles?traffic_source=rss",
+      "publishedAt": "2026-11-22T14:48:50Z",
+      "time": "Sun 9:48 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f092901af56dd",
+      "headline": "Iran unveils dual-missile launcher, new ‘missile city’: What to know",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/22/iran-unveils-dual-missile-launcher-new-missile-city-what-to-know?traffic_source=rss",
+      "publishedAt": "2026-11-22T14:20:41Z",
+      "time": "Sun 9:20 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "f292529f9aa3b",
+      "headline": "Saudi Arabia intercepts drone, missile as Houthis report attack on Sanaa",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/22/houthis-report-attack-on-sanaa-as-saudi-arabia-intercepts-drone?traffic_source=rss",
+      "publishedAt": "2026-11-22T13:16:45Z",
+      "time": "Sun 8:16 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
     {
       "id": "f25b293e8d399",
       "headline": "Displaced Palestinians protest as Israeli air strikes continue in Gaza",
@@ -288,42 +324,6 @@
       "auto": true
     },
     {
-      "id": "ff19e3b992cca",
-      "headline": "What we know about the latest Russian missile strikes on Ukraine",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/videos/c65y19wy3xl8o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-11-20T15:14:01Z",
-      "time": "Fri 10:14 AM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "f4a7cc4516169",
-      "headline": "Poland hit by at least one Russian missile, says Polish govt",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/poland-hit-by-at-least-one-russian-missile-says-polish-govt?traffic_source=rss",
-      "publishedAt": "2026-11-20T13:23:53Z",
-      "time": "Fri 8:23 AM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "f5d6429de4826",
-      "headline": "Iran Steps Up Hormuz Tanker Attacks as Oil Prices Slide",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Steps-Up-Hormuz-Tanker-Attacks-as-Oil-Prices-Slide.html",
-      "publishedAt": "2026-11-20T12:30:00Z",
-      "time": "Fri 7:30 AM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
       "id": "f3316551fe8e3",
       "headline": "Warsh wants Fed officials to talk less. Instead, they’re talking more",
       "source": "CNBC",
@@ -342,30 +342,6 @@
       "url": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html",
       "publishedAt": "2026-11-18T19:41:59Z",
       "time": "Wed 2:41 PM",
-      "section": "fed",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "fce4de8efc197",
-      "headline": "Fed’s Waller says central bank may need to ‘shock people’ with half-point rate hike",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html",
-      "publishedAt": "2026-11-18T15:13:39Z",
-      "time": "Wed 10:13 AM",
-      "section": "fed",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "f21e69cb7d86d",
-      "headline": "Fed’s Waller says interest-rate hikes may be needed to ‘shock’ inflation out of the system",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/how-high-must-interest-rates-go-to-cool-inflation-possibly-100-basis-points-or-more-feds-waller-says-e7b41cf6?mod=mw_rss_topstories",
-      "publishedAt": "2026-11-18T15:00:00Z",
-      "time": "Wed 10:00 AM",
       "section": "fed",
       "impact": "High",
       "lean": "risk-off",
@@ -402,30 +378,6 @@
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261120a.htm",
       "publishedAt": "2026-11-20T15:00:00Z",
       "time": "Fri 10:00 AM",
-      "section": "fed",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "fdea96ab11fe0",
-      "headline": "Federal Reserve Board issues enforcement action with former employee of First Security Bancorp",
-      "source": "Federal Reserve",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261119a.htm",
-      "publishedAt": "2026-11-19T16:00:00Z",
-      "time": "Thu 11:00 AM",
-      "section": "fed",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f9f8e1154bc8a",
-      "headline": "AI demand will push up interest rates around the world, IMF head warns",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/nov/19/imf-head-warns-ai-demand-push-up-interest-rates-apec",
-      "publishedAt": "2026-11-19T15:15:14Z",
-      "time": "Thu 10:15 AM",
       "section": "fed",
       "impact": "Medium",
       "lean": null,
@@ -636,14 +588,14 @@
       "auto": true
     },
     {
-      "id": "f14ac1739562f",
-      "headline": "EU Moves to Fast-Track Renewables as Oil Import Costs Soar",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/EU-Moves-to-Fast-Track-Renewables-as-Oil-Import-Costs-Soar.html",
-      "publishedAt": "2026-11-18T08:45:00Z",
-      "time": "Wed 3:45 AM",
+      "id": "f4f895ff8230d",
+      "headline": "Major fire erupts at a fuel station in Lagos",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/major-fire-erupts-at-a-fuel-station-in-lagos?traffic_source=rss",
+      "publishedAt": "2026-11-22T13:26:19Z",
+      "time": "Sun 8:26 AM",
       "section": "energy",
-      "impact": "High",
+      "impact": "Medium",
       "lean": null,
       "auto": true
     },
@@ -720,18 +672,6 @@
       "auto": true
     },
     {
-      "id": "f4ab424bdbc9e",
-      "headline": "Iraq's Oil Crackdown Sparks New Showdown With Kurdistan",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Energy/Energy-General/Iraqs-Oil-Crackdown-Sparks-New-Showdown-With-Kurdistan.html",
-      "publishedAt": "2026-11-20T12:30:00Z",
-      "time": "Fri 7:30 AM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
       "id": "fe960d6e27013",
       "headline": "Anthropic lifts Nasdaq futures and tech stocks ahead of its record-breaking IPO",
       "source": "CNBC",
@@ -741,6 +681,30 @@
       "section": "markets",
       "impact": "High",
       "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f124569ccd073",
+      "headline": "The Nasdaq is in freefall. Here's one stock to look at",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/22/the-nasdaq-is-in-freefall-heres-one-stock-to-look-at.html",
+      "publishedAt": "2026-11-22T12:10:39Z",
+      "time": "Sun 7:10 AM",
+      "section": "markets",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f8fdac4f33df7",
+      "headline": "S&P 500 correction: Five forces behind the market sell-off",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/20/sp-500-correction-market-sell-off.html",
+      "publishedAt": "2026-11-21T11:29:25Z",
+      "time": "Sat 6:29 AM",
+      "section": "markets",
+      "impact": "Medium",
+      "lean": "risk-off",
       "auto": true
     },
     {
@@ -786,30 +750,6 @@
       "url": "https://www.cnbc.com/2026/11/20/bitcoin-price-gold-market-hedge.html",
       "publishedAt": "2026-11-20T17:25:19Z",
       "time": "Fri 12:25 PM",
-      "section": "markets",
-      "impact": "Medium",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "f112bc86a0530",
-      "headline": "Investors fled to healthcare stocks for safety. Now insurance and hospital shares are plunging.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/investors-fled-to-healthcare-stocks-for-safety-now-insurance-and-hospital-shares-are-plunging-9cb6a96c?mod=mw_rss_topstories",
-      "publishedAt": "2026-11-20T15:53:00Z",
-      "time": "Fri 10:53 AM",
-      "section": "markets",
-      "impact": "Medium",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "fb93964395d6f",
-      "headline": "SoftBank suffers worst day in over two years as AI sell-off hits Asian tech stocks",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/20/softbank-ai-tech-stocks-slide-anthropic-debut.html",
-      "publishedAt": "2026-11-20T07:23:06Z",
-      "time": "Fri 2:23 AM",
       "section": "markets",
       "impact": "Medium",
       "lean": "risk-off",
