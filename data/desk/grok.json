@@ -1,17 +1,17 @@
 {
   "date": "2026-11-21",
-  "at": "2026-11-22T01:33:28Z",
-  "pulse": "Weekend tape tilting further risk-off into Sunday's 6 PM ET futures reopen: IRGC strikes on US sites in Bahrain (~5:38 PM ET) and an Iranian tanker convoy massing at Kharg to test the US blockade add oil/geopolitical risk on top of the NVDA SEC-probe/Huang-exit overhang (NVDA $125.53, SOX 8 straight down days), only partly offset by Trump's 'permanent deal' Iran talk and the AMZN-Decart AI deal.",
-  "bias": "risk-off — Iran-US escalation in Bahrain plus the semis rout (VanEck SMH -23% MTD, Goldman panic index record 9.8) point to gap-down/CL-up risk at the Sunday open; Trump's Iran-deal rhetoric is the main offset",
+  "at": "2026-11-22T03:34:07Z",
+  "pulse": "Next-day setup stays risk-off into Sunday's 6 PM ET futures reopen: Iran's IRGC widened its Bahrain strike claims (Patriot radars, Fifth Fleet HQ, Sheikh Isa AB) keeping CL/geopolitical gap risk high, while the NVDA leadership crisis (Huang exit, Ackman slamming the board, NVDA ~$125, -48% from peak) keeps semis heavy; CENTCOM denying Iran's F-16 claim and Trump's Iran 'permanent deal' talk are the only offsets.",
+  "bias": "risk-off — Iran-US escalation in Bahrain (oil-up/gap-down risk) plus the NVDA/semis rout dominate into the Sunday open; washed-out sentiment (record Goldman panic index) is the bounce risk",
   "items": [
-    "@FirstSquawk (~5:38 PM ET): IRGC says it targeted US military sites at Riffa and Al-Awali bases in Bahrain; CBS (US official): no casualties or damage; 8:05 PM: IRGC says it hit US Patriot radars, Bahrain reports damage at a civilian industrial site — Bearish NQ (oil up)",
-    "X News (~8:32 PM ET): Iran assembling 14+ oil tankers at Kharg Island, transponders off, to sail through Hormuz and challenge the US naval blockade — Bearish NQ",
-    "@zerohedge (~6:30 PM ET): Goldman's Panic Index hits a record 9.8 after the fifth-biggest VIX spike on record — Mixed NQ (washed-out sentiment, contrarian bounce risk)",
-    "X News (~6:41 PM ET): Semis' sharpest correction in years: SOX 8 straight losing sessions (longest since 2008), SMH -23% in Nov, worst month in 20+ years; NVDA ~-50% from peak — Bearish NQ",
-    "@FirstSquawk (~8:07 PM ET): FT: Amazon moves closer to a $7.5B takeover of AI start-up Decart — Mixed NQ"
+    "X News (~10:10 PM ET): IRGC claims ballistic-missile/drone hits on US Patriot radars at Al-Riffa, Awali/Sakhir, the Fifth Fleet HQ and Sheikh Isa Air Base in Bahrain, calling it retaliation for US drone incursions — Bearish NQ (CL up)",
+    "X News (~10:10 PM ET): CENTCOM flatly denies Iran's claim it damaged/downed a US F-16 over the Gulf; all US aircraft safe — Mixed NQ",
+    "@unusual_whales (~9:46 PM ET): Bill Ackman says NVDA's board had major governance failures by ruling out Jensen Huang's return before its probe is done — Bearish NQ",
+    "X News (~10:17 PM ET): NVDA ~-48% from peak near $125 after Huang's resignation, CFO Kress interim CEO; ARK trimmed ~$17M more at $125.53 — Bearish NQ",
+    "@zerohedge (~8:30 PM ET): Hartnett: 'quickest way to stop the Fed' is stocks giving up all 2026 gains — S&P ~80 pts away — Bearish NQ"
   ],
-  "trump": "Pledges a 'permanent' Iran nuclear deal that binds future presidents (no regime change) and says he'd authorize the strikes again; seeks bipartisan support for a 10% credit-card rate cap (CBS, ~8:23 PM ET); earlier cited India's 7% growth and low rates as a model and criticized the Fed for possible hikes.",
-  "watch": "Sun 6:00 PM ET futures reopen (gap risk on Bahrain strikes/Iran tanker convoy, CL/Brent spike risk); Mon Nov 23 AMC HPE, ZM; Mon: 2x long/short Anthropic ETFs (ANTT/ANTZ) begin trading; Tue Nov 24 BMO ADI, AMC DELL/WDAY/ADSK/HPQ/NTNX; Wed Nov 25 BMO DE; Thu Nov 26 Thanksgiving (cash closed), Fri Nov 27 half day; Hormuz/Kharg convoy headlines",
+  "trump": "No new Trump posts since 8:30 PM ET; earlier tonight he pledged a 'permanent' Iran nuclear deal binding future presidents and sought bipartisan support for a 10% credit-card rate cap (CBS, ~8:23 PM ET).",
+  "watch": "Sun 6:00 PM ET futures reopen (gap risk on Bahrain strikes/Iran Kharg tanker convoy, CL/Brent spike risk); Mon Nov 23 AMC HPE, ZM; Tue Nov 24 BMO ADI, AMC DELL/WDAY/ADSK/HPQ/NTNX; Wed Nov 25 BMO DE; Thu Nov 26 Thanksgiving (cash closed), Fri Nov 27 half day; NVDA board/probe headlines; Hormuz convoy headlines",
   "forSite": [],
   "reports": [
     {
@@ -72,6 +72,21 @@
       ],
       "trump": "Pledges a 'permanent' Iran nuclear deal that binds future presidents (no regime change) and says he'd authorize the strikes again; seeks bipartisan support for a 10% credit-card rate cap (CBS, ~8:23 PM ET); earlier cited India's 7% growth and low rates as a model and criticized the Fed for possible hikes.",
       "watch": "Sun 6:00 PM ET futures reopen (gap risk on Bahrain strikes/Iran tanker convoy, CL/Brent spike risk); Mon Nov 23 AMC HPE, ZM; Mon: 2x long/short Anthropic ETFs (ANTT/ANTZ) begin trading; Tue Nov 24 BMO ADI, AMC DELL/WDAY/ADSK/HPQ/NTNX; Wed Nov 25 BMO DE; Thu Nov 26 Thanksgiving (cash closed), Fri Nov 27 half day; Hormuz/Kharg convoy headlines",
+      "forSite": []
+    },
+    {
+      "at": "2026-11-22T03:34:07Z",
+      "pulse": "Next-day setup stays risk-off into Sunday's 6 PM ET futures reopen: Iran's IRGC widened its Bahrain strike claims (Patriot radars, Fifth Fleet HQ, Sheikh Isa AB) keeping CL/geopolitical gap risk high, while the NVDA leadership crisis (Huang exit, Ackman slamming the board, NVDA ~$125, -48% from peak) keeps semis heavy; CENTCOM denying Iran's F-16 claim and Trump's Iran 'permanent deal' talk are the only offsets.",
+      "bias": "risk-off — Iran-US escalation in Bahrain (oil-up/gap-down risk) plus the NVDA/semis rout dominate into the Sunday open; washed-out sentiment (record Goldman panic index) is the bounce risk",
+      "items": [
+        "X News (~10:10 PM ET): IRGC claims ballistic-missile/drone hits on US Patriot radars at Al-Riffa, Awali/Sakhir, the Fifth Fleet HQ and Sheikh Isa Air Base in Bahrain, calling it retaliation for US drone incursions — Bearish NQ (CL up)",
+        "X News (~10:10 PM ET): CENTCOM flatly denies Iran's claim it damaged/downed a US F-16 over the Gulf; all US aircraft safe — Mixed NQ",
+        "@unusual_whales (~9:46 PM ET): Bill Ackman says NVDA's board had major governance failures by ruling out Jensen Huang's return before its probe is done — Bearish NQ",
+        "X News (~10:17 PM ET): NVDA ~-48% from peak near $125 after Huang's resignation, CFO Kress interim CEO; ARK trimmed ~$17M more at $125.53 — Bearish NQ",
+        "@zerohedge (~8:30 PM ET): Hartnett: 'quickest way to stop the Fed' is stocks giving up all 2026 gains — S&P ~80 pts away — Bearish NQ"
+      ],
+      "trump": "No new Trump posts since 8:30 PM ET; earlier tonight he pledged a 'permanent' Iran nuclear deal binding future presidents and sought bipartisan support for a 10% credit-card rate cap (CBS, ~8:23 PM ET).",
+      "watch": "Sun 6:00 PM ET futures reopen (gap risk on Bahrain strikes/Iran Kharg tanker convoy, CL/Brent spike risk); Mon Nov 23 AMC HPE, ZM; Tue Nov 24 BMO ADI, AMC DELL/WDAY/ADSK/HPQ/NTNX; Wed Nov 25 BMO DE; Thu Nov 26 Thanksgiving (cash closed), Fri Nov 27 half day; NVDA board/probe headlines; Hormuz convoy headlines",
       "forSite": []
     }
   ]
