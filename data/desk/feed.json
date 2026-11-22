@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T23:16:10Z",
+  "updatedAt": "2026-11-22T06:48:02Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -204,6 +204,18 @@
   ],
   "items": [
     {
+      "id": "f25b293e8d399",
+      "headline": "Displaced Palestinians protest as Israeli air strikes continue in Gaza",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/22/displaced-palestinians-protest-as-israeli-air-strikes-continue-in-gaza?traffic_source=rss",
+      "publishedAt": "2026-11-22T02:14:18Z",
+      "time": "Sat 9:14 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
       "id": "f5d988f7c913c",
       "headline": "Trump says he wants ‘permanent’ deal to stop Iran getting nuclear weapons",
       "source": "Al Jazeera",
@@ -309,18 +321,6 @@
       "section": "war",
       "impact": "High",
       "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "fc2074551d618",
-      "headline": "Trump’s Ukraine Energy Truce Unravels as Russian Missiles Hit Kyiv",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Energy/Energy-General/Trumps-Ukraine-Energy-Truce-Unravels-as-Russian-Missiles-Hit-Kyiv.html",
-      "publishedAt": "2026-11-20T12:30:00Z",
-      "time": "Fri 7:30 AM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-on",
       "auto": true
     },
     {
@@ -492,18 +492,6 @@
       "auto": true
     },
     {
-      "id": "f7cfb4b792b8f",
-      "headline": "Inside India newsletter: Foreign flows helped the market recover. Now it faces the inflation test",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/19/india-inflation-foreign-investor-nifty50.html",
-      "publishedAt": "2026-11-19T00:01:23Z",
-      "time": "Wed 7:01 PM",
-      "section": "econ",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
       "id": "f98d611028537",
       "headline": "Anthropic’s record IPO collides with tech’s worst week on Wall Street since 2020",
       "source": "CNBC",
@@ -660,6 +648,18 @@
       "auto": true
     },
     {
+      "id": "f200978595f8d",
+      "headline": "Fossil fuel impasse pushes COP31 climate talks into second day of overtime",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/22/fossil-fuel-impasse-pushes-cop31-climate-talks-into-second-day-of-overtime?traffic_source=rss",
+      "publishedAt": "2026-11-22T04:51:35Z",
+      "time": "Sat 11:51 PM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "fc1b2771bb5a7",
       "headline": "Fossil fuel talks deadlock pushes COP31 climate summit into overtime",
       "source": "Al Jazeera",
@@ -724,18 +724,6 @@
       "headline": "Iraq's Oil Crackdown Sparks New Showdown With Kurdistan",
       "source": "OilPrice",
       "url": "https://oilprice.com/Energy/Energy-General/Iraqs-Oil-Crackdown-Sparks-New-Showdown-With-Kurdistan.html",
-      "publishedAt": "2026-11-20T12:30:00Z",
-      "time": "Fri 7:30 AM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "fc732066f414b",
-      "headline": "WTI Crude Sinks More Than 5% as Global Oil Glut Fears Grow",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Energy/Energy-General/WTI-Crude-Sinks-More-Than-5-as-Global-Oil-Glut-Fears-Grow.html",
       "publishedAt": "2026-11-20T12:30:00Z",
       "time": "Fri 7:30 AM",
       "section": "energy",
