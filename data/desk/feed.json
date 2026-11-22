@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T17:09:52Z",
+  "updatedAt": "2026-11-22T23:36:49Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -127,9 +127,9 @@
     {
       "id": "mw-live",
       "label": "MarketWatch",
-      "ok": false,
-      "items": 0,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
+      "ok": true,
+      "items": 10,
+      "error": null
     },
     {
       "id": "mw-top",
@@ -183,9 +183,9 @@
     {
       "id": "un-peace",
       "label": "UN News",
-      "ok": false,
-      "items": 0,
-      "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+      "ok": true,
+      "items": 20,
+      "error": null
     },
     {
       "id": "wsj-biz",
@@ -203,6 +203,18 @@
     }
   ],
   "items": [
+    {
+      "id": "f4d0819d74a46",
+      "headline": "Civilians killed in RSF drone strikes in Sudan",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/civilians-killed-in-rsf-drone-strikes-in-sudan?traffic_source=rss",
+      "publishedAt": "2026-11-22T18:12:07Z",
+      "time": "Sun 1:12 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
     {
       "id": "f929b9ee50f1e",
       "headline": "Zelenskyy urges US to release Patriot missiles as Russia kills 5 in Ukraine",
@@ -312,18 +324,6 @@
       "auto": true
     },
     {
-      "id": "fa28def0beb59",
-      "headline": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-11-20T16:54:29Z",
-      "time": "Fri 11:54 AM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
       "id": "f3316551fe8e3",
       "headline": "Warsh wants Fed officials to talk less. Instead, they’re talking more",
       "source": "CNBC",
@@ -333,18 +333,6 @@
       "section": "fed",
       "impact": "High",
       "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f93137cf33496",
-      "headline": "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html",
-      "publishedAt": "2026-11-18T19:41:59Z",
-      "time": "Wed 2:41 PM",
-      "section": "fed",
-      "impact": "High",
-      "lean": "risk-off",
       "auto": true
     },
     {
@@ -612,66 +600,6 @@
       "auto": true
     },
     {
-      "id": "fc1b2771bb5a7",
-      "headline": "Fossil fuel talks deadlock pushes COP31 climate summit into overtime",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/11/20/fossil-fuel-talks-deadlock-pushes-cop31-climate-summit-into-overtime?traffic_source=rss",
-      "publishedAt": "2026-11-20T23:06:41Z",
-      "time": "Fri 6:06 PM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f9609b9f03bf2",
-      "headline": "Saudi Arabia Expands Oil Storage in Japan as Tokyo Restocks",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Expands-Oil-Storage-in-Japan-as-Tokyo-Restocks.html",
-      "publishedAt": "2026-11-20T18:30:00Z",
-      "time": "Fri 1:30 PM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f47bce280fac5",
-      "headline": "U.S. Oil Drillers Pick Up the Pace Just as Oil Prices Fall",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Energy/Energy-General/US-Oil-Drillers-Pick-Up-the-Pace-Just-as-Oil-Prices-Fall.html",
-      "publishedAt": "2026-11-20T18:09:09Z",
-      "time": "Fri 1:09 PM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "ff3bda78c61b3",
-      "headline": "Lufthansa to Slash 1,000 Jobs as Airlines Reel from High Fuel Costs",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Lufthansa-to-Slash-1000-Jobs-as-Airlines-Reel-from-High-Fuel-Costs.html",
-      "publishedAt": "2026-11-20T17:30:00Z",
-      "time": "Fri 12:30 PM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f13ac959884e5",
-      "headline": "Tankers Are Being Hit Daily. So Why Is Oil Falling?",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Energy/Crude-Oil/Tankers-Are-Being-Hit-Daily-So-Why-Is-Oil-Falling.html",
-      "publishedAt": "2026-11-20T17:11:05Z",
-      "time": "Fri 12:11 PM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
       "id": "fe960d6e27013",
       "headline": "Anthropic lifts Nasdaq futures and tech stocks ahead of its record-breaking IPO",
       "source": "CNBC",
@@ -702,54 +630,6 @@
       "url": "https://www.cnbc.com/2026/11/20/sp-500-correction-market-sell-off.html",
       "publishedAt": "2026-11-21T11:29:25Z",
       "time": "Sat 6:29 AM",
-      "section": "markets",
-      "impact": "Medium",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "fdc0db39bf987",
-      "headline": "Dow, S&P 500 enter correction as Nasdaq suffers worst week since 2020",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/dow-s-p-500-enter-correction-as-nasdaq-suffers-worst-week-since-2020-bd74dadf?mod=mw_rss_topstories",
-      "publishedAt": "2026-11-20T22:46:00Z",
-      "time": "Fri 5:46 PM",
-      "section": "markets",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "fce30ee6906d3",
-      "headline": "S&P 500 sinks 3.7% and the Nasdaq composite goes negative for the year",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/11/20/g-s1-154797/nasdaq-sp500-stock-market-ai-sink-negative",
-      "publishedAt": "2026-11-20T22:11:29Z",
-      "time": "Fri 5:11 PM",
-      "section": "markets",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f53aca8de90c4",
-      "headline": "Prediction markets outlook for stocks in 2026 dims amid AI sell-off",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/20/sp-500-8000-kalshi-odds-ai-selloff.html",
-      "publishedAt": "2026-11-20T19:59:03Z",
-      "time": "Fri 2:59 PM",
-      "section": "markets",
-      "impact": "Medium",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "f00e2eb8ae1ba",
-      "headline": "Bitcoin sell-off: Crypto is failing the 'digital gold' test again as it sinks with stocks",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/20/bitcoin-price-gold-market-hedge.html",
-      "publishedAt": "2026-11-20T17:25:19Z",
-      "time": "Fri 12:25 PM",
       "section": "markets",
       "impact": "Medium",
       "lean": "risk-off",
