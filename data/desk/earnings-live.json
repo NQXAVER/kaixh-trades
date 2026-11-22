@@ -1,35 +1,7 @@
 {
-  "date": "2026-11-21",
-  "at": "2026-11-22T03:34:07Z",
+  "date": "2026-11-22",
+  "at": "2026-11-22T12:34:37Z",
   "items": [
-    {
-      "ticker": "LOW",
-      "company": "Lowe’s (LOW)",
-      "date": "2026-11-18",
-      "when": "BMO",
-      "status": "reported",
-      "why": "Q3 adj EPS $3.10 vs $2.92 est, comps +1.8% vs +0.37% est; FY sales lifted to $92.5B (saw $92B, est $92.22B), FY adj EPS still ~$12.25 vs $12.35 est. Housing read, small NQ weight.",
-      "sentiment": "Mixed"
-    },
-    {
-      "ticker": "PANW",
-      "company": "Palo Alto Networks (PANW)",
-      "date": "2026-11-18",
-      "when": "AMC",
-      "status": "reported",
-      "why": "FQ1 adj EPS $1.05 vs $0.97 est, rev $3.44B (+39% y/y) vs $3.31B, NGS ARR $9.73B (+66%); FY27 rev guide raised to $14.52-14.57B vs $14.16B est, EPS $4.26-4.30 vs $4.18; $4.5B Applied Compute buy. Cyber/software lift.",
-      "reaction": "+7% AH (after +9.9% regular-session close Nov 18)",
-      "sentiment": "Bullish"
-    },
-    {
-      "ticker": "TGT",
-      "company": "Target (TGT)",
-      "date": "2026-11-18",
-      "when": "BMO",
-      "status": "reported",
-      "why": "Q3 adj EPS $2.65 vs $2.08 est, sales $27.07B vs $26.53B, comps +5.6% vs +3.66% est, GM 30.5% vs 28.2% y/y; sees FY net sales growth ~6%. Strong consumer read.",
-      "sentiment": "Bullish"
-    },
     {
       "ticker": "BABA",
       "company": "Alibaba (BABA)",
