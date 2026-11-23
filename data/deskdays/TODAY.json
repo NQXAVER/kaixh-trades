@@ -1,18 +1,18 @@
 {
-  "date": "2026-11-22",
+  "date": "2026-11-23",
   "grok": {
-    "at": "2026-11-22T14:27:51Z",
-    "pulse": "Sunday pre-reopen tape stays risk-off into the 6 PM ET NQ/ES futures open after Friday's AI/semis rout drove Nasdaq near bear-market territory and the S&P into correction, with hawkish December FOMC hike odds near 90%+ and lingering Iran/Hormuz supply risks.",
-    "bias": "risk-off — deep AI and semiconductor liquidation, near-certain Dec Fed hike pricing, and Iran geopolitical overhang point to gap risk at the reopen",
+    "at": "2026-11-23T14:40:00Z",
+    "pulse": "NQ is ripping ~7% at the cash open (futures briefly halted) after Nvidia's board reinstated Jensen Huang as CEO with Trump's backing, sending NVDA +25-30%+ and collapsing VIX after last week's AI rout.",
+    "bias": "risk-on — Huang return removes the key AI leadership overhang and sparks violent short-covering after a -10% Nasdaq week, but the extreme squeeze is stretched, JPM remains cautious, AI-credit stress lingers and Iran blockade threats keep two-way risk elevated",
     "items": [
-      "@Tradenometry (~9:19 AM ET): AI selloff turned policy problem with Taiwan short ban and Trump data-center tax threat; lean remains bearish pending futures hold at 6pm ET open",
-      "@Turbocharts (~9:15 AM ET): Key week for NQ/ES with Mon PMIs, Tue confidence, Wed PCE/GDP; higher inflation print would reinforce hawkish Fed pressure",
-      "@Axel_bitblaze69 (~9:14 AM ET): Flush may have cleared leverage but Fed hikes and Iran oil threats remain; tech cheapest since 2020 yet market discounts AI payoffs",
-      "@VuBuiNew (~00:39 AM ET): Weekend Hormuz tanker strikes and NVDA SEC probe headlines; Wednesday PCE is the swing factor for hike size and oversold bounce",
-      "OILAV (~1:00 AM ET): Brent slid to ~$90 despite fresh Hormuz attacks as market sells surplus over risk; fade rallies into $92.50"
+      "@markminervini (~9:40 AM ET): Oversold bounce is a rip-your-face-off rally so covered shorts; still counter-trend in downtrends, not out of the woods, wait for upside confirmation",
+      "@gatezam / @Kunkafa_app (~9:40 AM ET): Nasdaq 100 futures spiked ~7% (brief halt) after Huang reinstated; S&P futures +4.7%, all majors erasing Friday losses",
+      "@RyanAFournier (~9:40 AM ET): NASDAQ +7%, S&P +5%, Dow +3% as trillions surge on Jensen Huang return; Trump called for reinstatement",
+      "@youssbm (~9:40 AM ET): Nvidia board unanimously reinstated Huang effective immediately after gov input; independent probe continues, Kress stays CFO",
+      "Oil/Iran (~premarket): WTI ~$83, Brent ~$92 choppy on Houthi/Iran-linked Gulf attacks vs resilient exports; Iran earlier threatened all means vs US blockade"
     ],
-    "trump": "No fresh market-moving posts; earlier reports of a threatened 'tremendous tax' on US firms building data centers abroad add to AI capex overhang.",
-    "watch": "Sunday 6:00 PM ET NQ/ES reopen for gap risk on Iran/Hormuz and AI overhang; Monday flash PMIs; Wednesday October PCE and Q3 GDP as Fed hike catalysts; thin Thanksgiving-week liquidity (cash closed Thursday).",
+    "trump": "Trump praised the Nvidia board for making the correct decision to reinstate Jensen Huang as CEO, stating the country needs his leadership at Nvidia and that the US sees no national-security risk in his return.",
+    "watch": "First-hour follow-through on the NQ open squeeze and whether it holds or fades; flash PMIs 9:45 AM ET; HPE/ZM AMC; Iran/oil headlines; thin Thanksgiving-week liquidity (closed Thu); Wed GDP/core PCE for Fed hike path.",
     "forSite": []
   }
 }
