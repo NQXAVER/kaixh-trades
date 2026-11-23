@@ -1,18 +1,51 @@
 {
   "date": "2026-11-23",
   "grok": {
-    "at": "2026-11-23T12:00:00Z",
-    "pulse": "US stock futures are rebounding sharply Monday morning after last week's AI-driven correction, with Nasdaq futures up ~3-3.5% and S&P ~2-2.8% as buyers step into oversold tech despite ongoing Nvidia probe and Iran tensions.",
-    "bias": "mixed — risk-on gap higher on short-covering and oversold bounce after Nasdaq's worst week since 2020, but NVDA leadership/SEC issues, persistent Dec FOMC hike risks, and Gulf oil supply threats keep the recovery fragile into thin holiday week",
+    "date": "2026-11-23",
+    "at": "2026-11-23T12:36:21Z",
+    "pulse": "NQ gapping up ~3.4% premarket on an oversold bounce after the Nasdaq's worst week since 2020, led by NVDA +8% as Trump pushes for Huang's return; offset by Iran blockade threats, JPM turning cautious and CRWD -8% on its $43.9B ZS deal.",
+    "bias": "mixed — risk-on gap (NQ +3.4%, ES +2.7%, NVDA +8% pre, oil < $83) after a -10% week, but bounce is fragile: JPM desk warns rally may not last, Iran threatens 'all available means' vs US blockade, and Trump says the slide 'will only get worse'; thin Thanksgiving week",
     "items": [
-      "@Joshuatrader1 (~7:00 AM ET): Futures rebound sharply after correction week — S&P +2.9%, Nasdaq +3.6%, Nvidia +8.5% premarket",
-      "@business (~7:00 AM ET): US Stock Futures Bounce After AI-Driven Correction",
-      "@moneycontrolcom (~6:33 AM ET): US stock futures rebound as tech stocks recover from AI sell-off; Nasdaq 100 jumps 3.5%, S&P 500 climbs 2.8%",
-      "@DTradingToolkit (~7:00 AM ET): Futures up about 3% doesn't fix Friday's bag; NQ ~+3.6% after AI rout",
-      "Web/X (~early AM ET): Oil choppy near $83-93 with Houthi/Iran-linked Gulf attacks vs resilient exports"
+      "@FirstSquawk (~4:06 AM ET): ES +2.7%, NQ +3.4%, YM +1.8%; NVDA +8% premarket after -14% Fri — Bullish NQ",
+      "@WatcherGuru (~9:57 PM ET Sun): Trump calls on $NVDA to rehire Jensen Huang as CEO, 'best thing for the company and also, for the USA' — Bullish NQ",
+      "@FirstSquawk (~5:33 AM ET): $CRWD to buy $ZS in ~$43.9B all-stock deal; CRWD Q3 rev $1.583B vs $1.529B est, Q4/FY guide above est; CRWD ~-8% pre, ZS +13% — Mixed NQ",
+      "@DeItaone (~6:45 AM ET): Iran threatens 'all available means' against US naval blockade of its ports — Bearish NQ",
+      "@DeItaone (~6:57 AM ET): JPMorgan trading desk drops bullish stock view, warns rally may not last — Bearish NQ"
     ],
-    "trump": "Bessent says US seeking answers on Nvidia chip sales to China under Huang; Trump previously urged rehiring Huang and flagged possible Iran strikes if talks fail; no major new market posts overnight.",
-    "watch": "Cash open reaction to the gap higher; whether AI bounce holds or fades; oil/Iran/Hormuz headlines; flash PMIs later; Wed PCE/GDP for Fed path; thin Thanksgiving week liquidity (closed Thu).",
-    "forSite": []
+    "trump": "Trump (via @unusual_whales ~5:47 AM ET): market slide 'will only get worse' if Democrats 'don't change, FAST' — 'The Market is down more than 6 Trillion Dollars' since the midterms. Sun ~9:57 PM ET urged Nvidia to rehire Jensen Huang ('best thing for the company and also, for the USA').",
+    "watch": "9:30 AM ET cash open: does the +3% gap hold or fade; NVDA/semis follow-through; HPE + ZM AMC today; Tue: CB Confidence 10:00 AM, ADI BMO, DELL/HPQ/WDAY/ADSK/NTNX AMC; Wed 8:30 AM: Core PCE, Q3 GDP 2nd est, jobless claims; Thu closed (Thanksgiving); Iran/Hormuz and oil headlines.",
+    "forSite": [],
+    "reports": [
+      {
+        "at": "2026-11-23T12:00:00Z",
+        "pulse": "US stock futures are rebounding sharply Monday morning after last week's AI-driven correction, with Nasdaq futures up ~3-3.5% and S&P ~2-2.8% as buyers step into oversold tech despite ongoing Nvidia probe and Iran tensions.",
+        "bias": "mixed — risk-on gap higher on short-covering and oversold bounce after Nasdaq's worst week since 2020, but NVDA leadership/SEC issues, persistent Dec FOMC hike risks, and Gulf oil supply threats keep the recovery fragile into thin holiday week",
+        "items": [
+          "@Joshuatrader1 (~7:00 AM ET): Futures rebound sharply after correction week — S&P +2.9%, Nasdaq +3.6%, Nvidia +8.5% premarket",
+          "@business (~7:00 AM ET): US Stock Futures Bounce After AI-Driven Correction",
+          "@moneycontrolcom (~6:33 AM ET): US stock futures rebound as tech stocks recover from AI sell-off; Nasdaq 100 jumps 3.5%, S&P 500 climbs 2.8%",
+          "@DTradingToolkit (~7:00 AM ET): Futures up about 3% doesn't fix Friday's bag; NQ ~+3.6% after AI rout",
+          "Web/X (~early AM ET): Oil choppy near $83-93 with Houthi/Iran-linked Gulf attacks vs resilient exports"
+        ],
+        "trump": "Bessent says US seeking answers on Nvidia chip sales to China under Huang; Trump previously urged rehiring Huang and flagged possible Iran strikes if talks fail; no major new market posts overnight.",
+        "watch": "Cash open reaction to the gap higher; whether AI bounce holds or fades; oil/Iran/Hormuz headlines; flash PMIs later; Wed PCE/GDP for Fed path; thin Thanksgiving week liquidity (closed Thu).",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-23T12:36:21Z",
+        "pulse": "NQ gapping up ~3.4% premarket on an oversold bounce after the Nasdaq's worst week since 2020, led by NVDA +8% as Trump pushes for Huang's return; offset by Iran blockade threats, JPM turning cautious and CRWD -8% on its $43.9B ZS deal.",
+        "bias": "mixed — risk-on gap (NQ +3.4%, ES +2.7%, NVDA +8% pre, oil < $83) after a -10% week, but bounce is fragile: JPM desk warns rally may not last, Iran threatens 'all available means' vs US blockade, and Trump says the slide 'will only get worse'; thin Thanksgiving week",
+        "items": [
+          "@FirstSquawk (~4:06 AM ET): ES +2.7%, NQ +3.4%, YM +1.8%; NVDA +8% premarket after -14% Fri — Bullish NQ",
+          "@WatcherGuru (~9:57 PM ET Sun): Trump calls on $NVDA to rehire Jensen Huang as CEO, 'best thing for the company and also, for the USA' — Bullish NQ",
+          "@FirstSquawk (~5:33 AM ET): $CRWD to buy $ZS in ~$43.9B all-stock deal; CRWD Q3 rev $1.583B vs $1.529B est, Q4/FY guide above est; CRWD ~-8% pre, ZS +13% — Mixed NQ",
+          "@DeItaone (~6:45 AM ET): Iran threatens 'all available means' against US naval blockade of its ports — Bearish NQ",
+          "@DeItaone (~6:57 AM ET): JPMorgan trading desk drops bullish stock view, warns rally may not last — Bearish NQ"
+        ],
+        "trump": "Trump (via @unusual_whales ~5:47 AM ET): market slide 'will only get worse' if Democrats 'don't change, FAST' — 'The Market is down more than 6 Trillion Dollars' since the midterms. Sun ~9:57 PM ET urged Nvidia to rehire Jensen Huang ('best thing for the company and also, for the USA').",
+        "watch": "9:30 AM ET cash open: does the +3% gap hold or fade; NVDA/semis follow-through; HPE + ZM AMC today; Tue: CB Confidence 10:00 AM, ADI BMO, DELL/HPQ/WDAY/ADSK/NTNX AMC; Wed 8:30 AM: Core PCE, Q3 GDP 2nd est, jobless claims; Thu closed (Thanksgiving); Iran/Hormuz and oil headlines.",
+        "forSite": []
+      }
+    ]
   }
 }

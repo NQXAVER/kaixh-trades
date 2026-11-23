@@ -1,64 +1,16 @@
 {
-  "date": "2026-11-22",
-  "at": "2026-11-23T03:27:42Z",
+  "date": "2026-11-23",
+  "at": "2026-11-23T12:36:21Z",
   "items": [
     {
-      "ticker": "BABA",
-      "company": "Alibaba (BABA)",
-      "date": "2026-11-19",
+      "ticker": "CRWD",
+      "company": "CrowdStrike (CRWD)",
+      "date": "2026-11-23",
       "when": "BMO",
       "status": "reported",
-      "reaction": "+2.6% premarket",
+      "reaction": "~-8% premarket",
       "sentiment": "Mixed",
-      "why": "Rev ¥271.5B (+10% y/y) beat ~¥269.8B est; adj EPS ¥8.10 vs ~¥10.7 est miss; AI cloud +53% to ¥61B; AI spend keeps free cash flow negative."
-    },
-    {
-      "ticker": "GAP",
-      "company": "Gap Inc. (GAP)",
-      "date": "2026-11-19",
-      "when": "AMC",
-      "status": "reported",
-      "sentiment": "Mixed",
-      "why": "Q3 net sales $4.01B (+2% y/y), adj EPS $0.82 beat; Gap brand +9% but Athleta -15% and full-year outlook cut; new Athleta CEO from Dec 14. Small NQ weight."
-    },
-    {
-      "ticker": "INTU",
-      "company": "Intuit (INTU)",
-      "date": "2026-11-19",
-      "when": "AMC",
-      "status": "reported",
-      "sentiment": "Bearish",
-      "why": "FQ1 rev $4.35B vs $4.31B est, adj EPS $2.91 vs ~$2.70 est (beat); Q2 rev guide $4.93-4.95B vs $5.11B est, weaker Credit Karma outlook; selling Mailchimp to Bending Spoons for $3.68B. Software drag on NQ. FY27 rev guide cut to $23.08-23.37B on Credit Karma slowdown (3-7% growth); selling Mailchimp to Bending Spoons.",
-      "reaction": "-10.5% premarket (~$277)"
-    },
-    {
-      "ticker": "KEYS",
-      "company": "Keysight Technologies (KEYS)",
-      "date": "2026-11-19",
-      "when": "AMC",
-      "status": "reported",
-      "sentiment": "Bullish",
-      "why": "FQ4 rev $1.99B (+41% y/y) vs $1.95B est, adj EPS $3.61 vs ~$3.37 est; orders +53% to $2.34B led by Communications Solutions +51% (AI/data-center test demand).",
-      "reaction": "-2.6% premarket ($274, 7:18 AM ET)"
-    },
-    {
-      "ticker": "ROST",
-      "company": "Ross Stores (ROST)",
-      "date": "2026-11-19",
-      "when": "AMC",
-      "status": "reported",
-      "sentiment": "Mixed",
-      "why": "Q3 sales $6.3B vs $6.24B est, EPS $1.91 vs $1.58 y/y, comps +8% vs +7.4% est; Q4 EPS guide $2.16-2.25 vs prior $2.17-2.26. Small NQ weight."
-    },
-    {
-      "ticker": "WMT",
-      "company": "Walmart (WMT)",
-      "date": "2026-11-19",
-      "when": "BMO",
-      "status": "reported",
-      "reaction": "-0.7% premarket, down as much as -3.2% after the open",
-      "sentiment": "Mixed",
-      "why": "Adj EPS $0.65 vs $0.64, rev $188.84B vs ~$187.2B beat; US comp ex-gas +2.9%; FY adj EPS raised to $2.84-2.89 from $2.80-2.87, midpoint still under the Street."
+      "why": "Q3 rev $1.583B vs $1.529B est; Q4 rev guide $1.638-1.644B vs $1.623B est, FY rev $6.078-6.084B; announced ~$43.9B all-stock buy of Zscaler (1.135 CRWD/ZS, 34% premium) — stock down on deal dilution"
     },
     {
       "ticker": "HPE",
