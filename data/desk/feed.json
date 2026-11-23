@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T02:54:20Z",
+  "updatedAt": "2026-11-23T07:52:28Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -127,16 +127,16 @@
     {
       "id": "mw-live",
       "label": "MarketWatch",
-      "ok": false,
-      "items": 0,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
+      "ok": true,
+      "items": 10,
+      "error": null
     },
     {
       "id": "mw-top",
       "label": "MarketWatch",
-      "ok": true,
-      "items": 10,
-      "error": null
+      "ok": false,
+      "items": 0,
+      "error": "HTTPError: HTTP Error 400: Bad Request"
     },
     {
       "id": "npr-biz",
@@ -372,6 +372,18 @@
       "auto": true
     },
     {
+      "id": "f9a616a17fe8c",
+      "headline": "Unemployment to surpass 5% and ‘things will get a bit harder’, treasurer Jim Chalmers warns",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/23/unemployment-to-surpass-5-and-things-will-get-a-bit-harder-treasurer-jim-chalmers-warns",
+      "publishedAt": "2026-11-23T04:17:27Z",
+      "time": "Sun 11:17 PM",
+      "section": "econ",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "fa6cc2383775e",
       "headline": "Household rush to stockpile emergency supplies sends British retail sales soaring",
       "source": "The Guardian",
@@ -402,18 +414,6 @@
       "url": "https://www.bbc.co.uk/news/articles/ck053mzy2qqeo?at_medium=RSS&at_campaign=rss",
       "publishedAt": "2026-11-20T09:44:56Z",
       "time": "Fri 4:44 AM",
-      "section": "econ",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f6a5576b4a27c",
-      "headline": "Tinned goods and UHT milk boost retail sales after 'Be Ready' campaign launch",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/ck053mzy2qqeo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-11-20T07:26:25Z",
-      "time": "Fri 2:26 AM",
       "section": "econ",
       "impact": "Medium",
       "lean": null,
@@ -540,6 +540,18 @@
       "auto": true
     },
     {
+      "id": "fc08ff0aa687a",
+      "headline": "Yemen's Houthis claim attacks on Saudi oil refinery as Trump warns of new strikes next year",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/23/trump-iran-war-hormuz-saudi-.html",
+      "publishedAt": "2026-11-23T03:52:17Z",
+      "time": "Sun 10:52 PM",
+      "section": "energy",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
       "id": "f8ee8fa11d319",
       "headline": "China’s Oil Imports from Persian Gulf Jump to Wartime High",
       "source": "OilPrice",
@@ -561,6 +573,18 @@
       "section": "energy",
       "impact": "High",
       "lean": "risk-on",
+      "auto": true
+    },
+    {
+      "id": "f63f2f80d139d",
+      "headline": "Oil Prices Slide as AI Bubble Fears Rattle Global Markets",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Slide-as-AI-Bubble-Fears-Rattle-Global-Markets.html",
+      "publishedAt": "2026-11-23T05:50:00Z",
+      "time": "Mon 12:50 AM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
       "auto": true
     },
     {
