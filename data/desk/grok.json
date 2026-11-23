@@ -1,17 +1,17 @@
 {
   "date": "2026-11-23",
-  "at": "2026-11-23T12:36:21Z",
-  "pulse": "NQ gapping up ~3.4% premarket on an oversold bounce after the Nasdaq's worst week since 2020, led by NVDA +8% as Trump pushes for Huang's return; offset by Iran blockade threats, JPM turning cautious and CRWD -8% on its $43.9B ZS deal.",
-  "bias": "mixed — risk-on gap (NQ +3.4%, ES +2.7%, NVDA +8% pre, oil < $83) after a -10% week, but bounce is fragile: JPM desk warns rally may not last, Iran threatens 'all available means' vs US blockade, and Trump says the slide 'will only get worse'; thin Thanksgiving week",
+  "at": "2026-11-23T14:32:34Z",
+  "pulse": "NQ is ripping ~7% at the open (Nasdaq 100 futures briefly halted limit-up) after Nvidia's board reinstated Jensen Huang as CEO, sending NVDA +30%+ premarket and VIX down ~8 pts to ~27.8; offsets are JPM's desk dropping its bullish view, AI-credit stress chatter and Iran blockade threats.",
+  "bias": "risk-on — NVDA leadership overhang removed (Huang back, Trump backing it, no security risk), NQ +7.4% at the open and VIX collapsing after a -10% week; but the squeeze is extreme and stretched, JPM's desk is cautious, AI funding/credit stress persists and Iran threatens 'all available means' vs the US blockade, so expect violent two-way chop",
   "items": [
-    "@FirstSquawk (~4:06 AM ET): ES +2.7%, NQ +3.4%, YM +1.8%; NVDA +8% premarket after -14% Fri — Bullish NQ",
-    "@WatcherGuru (~9:57 PM ET Sun): Trump calls on $NVDA to rehire Jensen Huang as CEO, 'best thing for the company and also, for the USA' — Bullish NQ",
-    "@FirstSquawk (~5:33 AM ET): $CRWD to buy $ZS in ~$43.9B all-stock deal; CRWD Q3 rev $1.583B vs $1.529B est, Q4/FY guide above est; CRWD ~-8% pre, ZS +13% — Mixed NQ",
-    "@DeItaone (~6:45 AM ET): Iran threatens 'all available means' against US naval blockade of its ports — Bearish NQ",
-    "@DeItaone (~6:57 AM ET): JPMorgan trading desk drops bullish stock view, warns rally may not last — Bearish NQ"
+    "@DeItaone (~8:56 AM ET): $NVDA board unanimously reinstates Jensen Huang as President and CEO, effective immediately; reached with senior US government input — Bullish NQ",
+    "@FirstSquawk (~9:23 AM ET): Nasdaq 100 futures halted for volatility after surging 7%; @zerohedge (~9:31 AM ET): S&P 500 +5.1%, NDX +7.4% at the open — Bullish NQ",
+    "@DeItaone (~9:28 AM ET): NVDA extends premarket gain to +34.5%; VIX down 7.97 to 27.80 (~9:11 AM ET) — Bullish NQ",
+    "@unusual_whales (~9:31 AM ET): JPMorgan trading desk drops its bullish view on US stocks after last week's selloff (Bloomberg); Bloomberg (~9:12 AM ET): banks dumping AI loans, tech bond buyers balking — Bearish NQ",
+    "@DeItaone (~6:45 AM ET): Iran threatens 'all available means' against the US naval blockade of its ports; spot gold +~4% to $3,673 (~9:22 AM ET) — Bearish NQ"
   ],
-  "trump": "Trump (via @unusual_whales ~5:47 AM ET): market slide 'will only get worse' if Democrats 'don't change, FAST' — 'The Market is down more than 6 Trillion Dollars' since the midterms. Sun ~9:57 PM ET urged Nvidia to rehire Jensen Huang ('best thing for the company and also, for the USA').",
-  "watch": "9:30 AM ET cash open: does the +3% gap hold or fade; NVDA/semis follow-through; HPE + ZM AMC today; Tue: CB Confidence 10:00 AM, ADI BMO, DELL/HPQ/WDAY/ADSK/NTNX AMC; Wed 8:30 AM: Core PCE, Q3 GDP 2nd est, jobless claims; Thu closed (Thanksgiving); Iran/Hormuz and oil headlines.",
+  "trump": "Trump (~9:07 AM ET): the Nvidia board 'made the correct and proper decision to return Jensen Huang to the position of CEO'; 'country needs Jensen's leadership at Nvidia'; US sees no national-security risk in his return, though Nvidia should continue its internal export-control compliance probe. Overnight he told Fox he might resume the war on Iran next year if talks fail.",
+  "watch": "Mon Nov 23: flash PMIs 9:45 AM ET; NVDA/NQ halt and squeeze follow-through into the first hour; HPE and ZM AMC. Tue Nov 24: consumer confidence 10 AM ET; ADI BMO; DELL, WDAY, ADSK, HPQ, NTNX AMC. Wed Nov 25: GDP and core PCE 8:30 AM ET. Thu Nov 26: US markets closed for Thanksgiving. Ongoing: Iran blockade headlines, Fed hike-path talk.",
   "forSite": [],
   "reports": [
     {
@@ -42,6 +42,21 @@
       ],
       "trump": "Trump (via @unusual_whales ~5:47 AM ET): market slide 'will only get worse' if Democrats 'don't change, FAST' — 'The Market is down more than 6 Trillion Dollars' since the midterms. Sun ~9:57 PM ET urged Nvidia to rehire Jensen Huang ('best thing for the company and also, for the USA').",
       "watch": "9:30 AM ET cash open: does the +3% gap hold or fade; NVDA/semis follow-through; HPE + ZM AMC today; Tue: CB Confidence 10:00 AM, ADI BMO, DELL/HPQ/WDAY/ADSK/NTNX AMC; Wed 8:30 AM: Core PCE, Q3 GDP 2nd est, jobless claims; Thu closed (Thanksgiving); Iran/Hormuz and oil headlines.",
+      "forSite": []
+    },
+    {
+      "at": "2026-11-23T14:32:34Z",
+      "pulse": "NQ is ripping ~7% at the open (Nasdaq 100 futures briefly halted limit-up) after Nvidia's board reinstated Jensen Huang as CEO, sending NVDA +30%+ premarket and VIX down ~8 pts to ~27.8; offsets are JPM's desk dropping its bullish view, AI-credit stress chatter and Iran blockade threats.",
+      "bias": "risk-on — NVDA leadership overhang removed (Huang back, Trump backing it, no security risk), NQ +7.4% at the open and VIX collapsing after a -10% week; but the squeeze is extreme and stretched, JPM's desk is cautious, AI funding/credit stress persists and Iran threatens 'all available means' vs the US blockade, so expect violent two-way chop",
+      "items": [
+        "@DeItaone (~8:56 AM ET): $NVDA board unanimously reinstates Jensen Huang as President and CEO, effective immediately; reached with senior US government input — Bullish NQ",
+        "@FirstSquawk (~9:23 AM ET): Nasdaq 100 futures halted for volatility after surging 7%; @zerohedge (~9:31 AM ET): S&P 500 +5.1%, NDX +7.4% at the open — Bullish NQ",
+        "@DeItaone (~9:28 AM ET): NVDA extends premarket gain to +34.5%; VIX down 7.97 to 27.80 (~9:11 AM ET) — Bullish NQ",
+        "@unusual_whales (~9:31 AM ET): JPMorgan trading desk drops its bullish view on US stocks after last week's selloff (Bloomberg); Bloomberg (~9:12 AM ET): banks dumping AI loans, tech bond buyers balking — Bearish NQ",
+        "@DeItaone (~6:45 AM ET): Iran threatens 'all available means' against the US naval blockade of its ports; spot gold +~4% to $3,673 (~9:22 AM ET) — Bearish NQ"
+      ],
+      "trump": "Trump (~9:07 AM ET): the Nvidia board 'made the correct and proper decision to return Jensen Huang to the position of CEO'; 'country needs Jensen's leadership at Nvidia'; US sees no national-security risk in his return, though Nvidia should continue its internal export-control compliance probe. Overnight he told Fox he might resume the war on Iran next year if talks fail.",
+      "watch": "Mon Nov 23: flash PMIs 9:45 AM ET; NVDA/NQ halt and squeeze follow-through into the first hour; HPE and ZM AMC. Tue Nov 24: consumer confidence 10 AM ET; ADI BMO; DELL, WDAY, ADSK, HPQ, NTNX AMC. Wed Nov 25: GDP and core PCE 8:30 AM ET. Thu Nov 26: US markets closed for Thanksgiving. Ongoing: Iran blockade headlines, Fed hike-path talk.",
       "forSite": []
     }
   ]
