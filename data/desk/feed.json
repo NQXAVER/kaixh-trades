@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T23:36:49Z",
+  "updatedAt": "2026-11-23T02:54:20Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -127,9 +127,9 @@
     {
       "id": "mw-live",
       "label": "MarketWatch",
-      "ok": true,
-      "items": 10,
-      "error": null
+      "ok": false,
+      "items": 0,
+      "error": "HTTPError: HTTP Error 400: Bad Request"
     },
     {
       "id": "mw-top",
@@ -203,6 +203,18 @@
     }
   ],
   "items": [
+    {
+      "id": "f32601747adb0",
+      "headline": "Iran war live: Tankers set ablaze in Hormuz as IRGC warns of unrest threat",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/22/iran-war-live-tankers-set-ablaze-in-hormuz-as-irgc-warns-of-unrest-threat?traffic_source=rss",
+      "publishedAt": "2026-11-22T23:59:22Z",
+      "time": "Sun 6:59 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
     {
       "id": "f4d0819d74a46",
       "headline": "Civilians killed in RSF drone strikes in Sudan",
@@ -312,18 +324,6 @@
       "auto": true
     },
     {
-      "id": "feeb32ee1392a",
-      "headline": "Iran war live: Saudi-led coalition downs Houthi missiles",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/11/21/iran-war-live-saudi-led-coalition-repels-houthi-missiles?traffic_source=rss",
-      "publishedAt": "2026-11-21T00:00:06Z",
-      "time": "Fri 7:00 PM",
-      "section": "war",
-      "impact": "High",
-      "lean": null,
-      "auto": true
-    },
-    {
       "id": "f3316551fe8e3",
       "headline": "Warsh wants Fed officials to talk less. Instead, they’re talking more",
       "source": "CNBC",
@@ -414,18 +414,6 @@
       "url": "https://www.bbc.co.uk/news/articles/ck053mzy2qqeo?at_medium=RSS&at_campaign=rss",
       "publishedAt": "2026-11-20T07:26:25Z",
       "time": "Fri 2:26 AM",
-      "section": "econ",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f68a92209d026",
-      "headline": "Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html",
-      "publishedAt": "2026-11-20T01:49:03Z",
-      "time": "Thu 8:49 PM",
       "section": "econ",
       "impact": "Medium",
       "lean": null,
@@ -573,6 +561,18 @@
       "section": "energy",
       "impact": "High",
       "lean": "risk-on",
+      "auto": true
+    },
+    {
+      "id": "f7aee5773cd3c",
+      "headline": "Oil Markets Are Betting on a Surplus That Hasn't Arrived Yet",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Energy/Oil-Prices/Oil-Markets-Are-Betting-on-a-Surplus-That-Hasnt-Arrived-Yet.html",
+      "publishedAt": "2026-11-23T00:00:00Z",
+      "time": "Sun 7:00 PM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
       "auto": true
     },
     {
