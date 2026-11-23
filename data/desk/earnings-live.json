@@ -1,6 +1,6 @@
 {
   "date": "2026-11-23",
-  "at": "2026-11-23T14:32:34Z",
+  "at": "2026-11-23T21:31:22Z",
   "items": [
     {
       "ticker": "CRWD",
@@ -17,16 +17,20 @@
       "company": "Hewlett Packard Enterprise (HPE)",
       "date": "2026-11-23",
       "when": "AMC",
-      "status": "upcoming",
-      "why": "FQ4 results Nov 23 AMC (consensus EPS $1.28); AI server/networking read."
+      "status": "reported",
+      "reaction": "~-4% AH",
+      "sentiment": "Mixed",
+      "why": "FQ4 rev $14.55B vs $14.25B est, adj EPS $1.43 vs $1.28, networking $3.06B; FY27 rev $59.4-63.1B and EPS $5.05-5.35 above est, but stock sold off AH after a +17% day."
     },
     {
       "ticker": "ZM",
       "company": "Zoom Communications (ZM)",
       "date": "2026-11-23",
       "when": "AMC",
-      "status": "upcoming",
-      "why": "FQ3 results Nov 23 AMC (consensus EPS $1.49); software read."
+      "status": "reported",
+      "reaction": "~-2% AH",
+      "sentiment": "Mixed",
+      "why": "FQ3 rev $1.29B vs $1.28B est, adj EPS $1.59 vs $1.49; enterprise rev +8.6% (fastest in 13 qtrs), first dividend; muted AH."
     },
     {
       "ticker": "ADI",
