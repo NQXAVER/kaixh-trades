@@ -1,15 +1,15 @@
 {
-  "at": "2026-11-23T14:40:00Z",
-  "pulse": "NQ is ripping ~7% at the cash open (futures briefly halted) after Nvidia's board reinstated Jensen Huang as CEO with Trump's backing, sending NVDA +25-30%+ and collapsing VIX after last week's AI rout.",
-  "bias": "risk-on — Huang return removes the key AI leadership overhang and sparks violent short-covering after a -10% Nasdaq week, but the extreme squeeze is stretched, JPM remains cautious, AI-credit stress lingers and Iran blockade threats keep two-way risk elevated",
+  "at": "2026-11-23T21:21:00Z",
+  "pulse": "Massive risk-on session with NQ/Nasdaq ripping on Jensen Huang's reinstatement as Nvidia CEO, delivering the largest one-day market-cap gain in history while oil slid and December hike odds rose further.",
+  "bias": "risk-on — Huang return sparked violent short-covering and AI relief after last week's rout, but rising front-end yields and ~98% Dec hike odds plus ongoing Iran blockade keep the tape two-way",
   "items": [
-    "@markminervini (~9:40 AM ET): Oversold bounce is a rip-your-face-off rally so covered shorts; still counter-trend in downtrends, not out of the woods, wait for upside confirmation",
-    "@gatezam / @Kunkafa_app (~9:40 AM ET): Nasdaq 100 futures spiked ~7% (brief halt) after Huang reinstated; S&P futures +4.7%, all majors erasing Friday losses",
-    "@RyanAFournier (~9:40 AM ET): NASDAQ +7%, S&P +5%, Dow +3% as trillions surge on Jensen Huang return; Trump called for reinstatement",
-    "@youssbm (~9:40 AM ET): Nvidia board unanimously reinstated Huang effective immediately after gov input; independent probe continues, Kress stays CFO",
-    "Oil/Iran (~premarket): WTI ~$83, Brent ~$92 choppy on Houthi/Iran-linked Gulf attacks vs resilient exports; Iran earlier threatened all means vs US blockade"
+    "@StockMKTNewz (~4:20 PM ET): NVIDIA just posted the largest one-day market-cap gain ever at +$954B (+31.5%) on Huang's return",
+    "@TheLocusAlpha (~4:17 PM ET): S&P 500 best day since Apr 2025 (+4.73% to 7,237), Nasdaq-100 +6.86%; CME Dec hike odds jumped to ~98% as 2Y rose",
+    "@T_LauRekt (~4:07 PM ET): Williams leans hawkish but measured — inflation risks skewed up, no immediate Fed relief for NQ",
+    "@samoinvest_35 (~4:17 PM ET): Nasdaq Comp closed ~+6.4% to 24,062 on NVDA-led AI bounce; WTI settled ~$80.17 (-3.9%)",
+    "Oil/Iran (~evening): WTI ~$80 on resilient Gulf flows despite US blockade of Iranian exports and sporadic Hormuz incidents; no fresh escalation priced"
   ],
-  "trump": "Trump praised the Nvidia board for making the correct decision to reinstate Jensen Huang as CEO, stating the country needs his leadership at Nvidia and that the US sees no national-security risk in his return.",
-  "watch": "First-hour follow-through on the NQ open squeeze and whether it holds or fades; flash PMIs 9:45 AM ET; HPE/ZM AMC; Iran/oil headlines; thin Thanksgiving-week liquidity (closed Thu); Wed GDP/core PCE for Fed hike path.",
+  "trump": "Trump backed the unanimous board vote to reinstate Jensen Huang as Nvidia CEO, calling it the correct decision and stating the US needs his leadership with no national-security risk.",
+  "watch": "Hold of the Huang-driven squeeze into thin Thanksgiving-week liquidity (closed Thu, early close Fri); Wednesday core PCE and GDP for hike path confirmation; Iran/oil headlines and any Fed speaker pushback.",
   "forSite": []
 }
