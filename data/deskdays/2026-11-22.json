@@ -1,1 +1,35 @@
-PLACEHOLDER
+{
+  "date": "2026-11-22",
+  "grok": {
+    "at": "2026-11-23T03:05:26Z",
+    "pulse": "Sunday night NQ and ES futures hold a ~2% short-covering bounce after Nasdaq's worst week since 2020 on AI/semis unwind, while Asia readies support funds amid mixed chip selling, hawkish Dec FOMC pricing near certainty, and Iran/Hormuz risks into a thin Thanksgiving week.",
+    "bias": "mixed — relief bounce in US futures after deep AI liquidation and S&P correction, offset by Asian chip weakness with Korea/Taiwan support measures, ~95% Dec Fed hike odds, and ongoing Iran tensions",
+    "items": [
+      "@Bitget_TradFi (~10:03 PM ET): Nasdaq futures jump ~2% as markets bounce back from the Nasdaq 100's worst week since the 2020 COVID crash",
+      "@WhosTheHouse (~10:04 PM ET): U.S. Stock Futures Bounce Over 2% While Asia Readies Market Rescue Funds; Korea pledges stabilization, Taiwan tightens shorts",
+      "@simplebnc (~10:03 PM ET): Friday close S&P -3.70%, Nasdaq -5.28% on AI/chip selloff; futures rebounded Monday morning",
+      "@A_L_E_X_V_E_G_A (~10:04 PM ET): Crude oil slipped below $83, fourth week of declines as surplus forecasts outweigh Iran/Hormuz tensions",
+      "Trump (recent X/Truth): Blames Democrats' midterm win for multi-trillion market drop, says inclined to resume Iran strikes after Jan 1 if talks fail"
+    ],
+    "trump": "Continues to blame Democrats' midterm sweep for a $4-6T market drop since Nov 3, predicting worse ahead under 'Anti Growth' policies; earlier indicated inclined to resume military strikes on Iran after Jan 1 if negotiations fail.",
+    "watch": "Monday cash open and Asian follow-through on the bounce (Korea support fund, chip stocks); flash PMIs ~9:45 AM ET, HPE/ZM AMC; Tue Dell/ADI earnings; Wed Oct PCE/GDP for Fed hike confirmation; thin Thanksgiving week liquidity (cash closed Thu); Iran/Hormuz headlines and oil.",
+    "forSite": [],
+    "reports": [
+      {
+        "at": "2026-11-23T01:33:55Z",
+        "pulse": "NQ futures reopened Sunday +2-3% (~25,800-25,880) in a short-covering bounce after the Nasdaq-100's worst week since 2020 (-10.4%, ~20% off the high), but Asia is selling chips (Kospi ~-4%, Samsung SDS -15.7%, Shanghai seen -0.9%) and Trump's market-drop post plus Iran strike chatter cap it.",
+        "bias": "mixed — relief bounce in futures with VIX ~35 and ES back over 7,000, offset by Asian chip liquidation, Korea readying its stock support fund, Bessent probing NVDA China chip sales, and Iran/Hormuz risk into a thin Thanksgiving week",
+        "items": [
+          "@WatcherGuru (~6:29 PM ET): US stock futures open green after $2.7T wiped out Friday; NQ +2-3%, ES +1.7-2.2% off Friday — Bullish NQ",
+          "@zerohedge (~7:50 PM ET): Asian market panic continues, Korea readies 'plunge protection' support fund for first time since Lehman; @FirstSquawk (~8:00 PM ET) Samsung SDS -15.7% — Bearish NQ",
+          "@FirstSquawk (~7:37 PM ET): Bessent says Washington wants answers on Nvidia chip sales to Chinese buyers (SCMP) — Bearish NQ",
+          "@FirstSquawk (~8:11 PM ET): Gold +~2% to $3,603, silver +~3%; WTI ~$83 (+~1.5%) on Hormuz tanker-mine reports — Mixed NQ",
+          "Trump (X News, ~8:11 PM ET): blames Democrats' midterm win for >$6T market drop, says 'Anti Growth' policies mean worse ahead — Bearish NQ"
+        ],
+        "trump": "Posted that markets have shed over $6 trillion since Democrats' midterm wins and blamed their 'Anti Growth' policies, predicting worse ahead (X News ~8:11 PM ET). Earlier told Fox he is 'inclined to' resume Iran strikes after Jan 1 if talks fail (@DeItaone ~3:47 PM ET); admin readying digital trade probe into EU, Australia, South Korea (Politico via @LiveSquawk ~4:37 PM ET).",
+        "watch": "Shanghai/Kospi follow-through tonight and Korea support-fund briefing; Mon 9:45 AM ET flash PMIs, NY Fed Williams, $69B 2Y auction; HPE/ZM AMC Mon; Tue ADI BMO, DELL/HPQ/WDAY/ADSK/NTNX AMC, consumer confidence 10 AM ET; Wed 8:30 AM ET core PCE/GDP/claims; cash closed Thu; Iran/Hormuz and US-Israel strike headlines.",
+        "forSite": []
+      }
+    ]
+  }
+}
