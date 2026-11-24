@@ -1,15 +1,48 @@
 {
-  "at": "2026-11-24T14:30:00Z",
-  "pulse": "NQ and ES futures fading hard into the open (NQ ~-2%, ES ~-1.3%) after Monday's +6.5% Nasdaq Huang relief rally, with NVDA and chips leading the giveback amid lingering AI valuation concerns, near-100% Dec hike odds, and ongoing Hormuz/Iran tensions.",
-  "bias": "risk-off — profit-taking and skepticism on the AI trade after the snapback, hawkish Fed pricing, and oil/geopolitical noise into thin holiday volume; strong Asia overnight limits extreme downside",
+  "date": "2026-11-24",
+  "at": "2026-11-24T14:31:21Z",
+  "pulse": "NQ futures are ~-2% into the open (QQQ ~-2%, SPY ~-1.2%) as NVDA (~-5%) and MU (~-7%) lead a chip giveback of Monday's Huang rally, now compounded by a WSJ report that new tariffs on China, the EU and 14+ economies could land as soon as today; a 3bp dip in the 10Y to 4.89% and softer Case-Shiller/FHFA prints only partly offset it.",
+  "bias": "risk-off — semis profit-taking plus fresh Trump tariff-hike headlines on China/EU, VIX up to ~29 and Anthropic slipping again weigh on tech; slightly lower yields and softer housing inflation are the only cushion before Wed PCE",
   "items": [
-    "@IntelliX_US (~9:28 AM ET): Premarket snapshot — S&P fut ~-1.34%, NQ ~-2.25%; NVDA ~-5.5%, SMH -5%; VIX ~30; consumer conf at 10AM key",
-    "@EmmanuelInvest (~9:28 AM ET): AI relief rally already unravelling; NQ futures -1.89% less than 24h after NVDA historic rebound; concerns on valuations, financing, Dec Fed",
-    "@ProfitRajatrade (~9:28 AM ET): Futures S&P ▼1.4% | Nasdaq 100 ▼2.3%; NVDA gives back 5% after Monday's 31.5%; key level 7074",
-    "@aestheticbull (~9:28 AM ET): ES must hold 7170 or yesterday's pump gets retraced; targets 7210/7240 if holds",
-    "Web/Morningstar/Yahoo (~8-9 AM ET): Nasdaq futures fall as questions linger over AI trade post-Huang return; oil soft near $80 on supply surplus vs Hormuz mines"
+    "@DeItaone (~9:02 AM ET): WSJ: Trump admin preparing higher tariffs on China, the EU and more than a dozen other economies, announcement as soon as Tuesday — Bearish NQ",
+    "@getvaunt (~9:30 AM ET): since close — Nasdaq fut -2.0%, S&P fut -1.2%, VIX 29.4 (+2.8), 10Y 4.89% (-3bp), Brent $88 (-1.7%) — Bearish NQ",
+    "@Briefingcom (~9:16 AM ET): $NVDA giving back part of Mon's +31% as Huang-return enthusiasm fades; AI capex financing worries remain; ~-5% premarket near $157 — Bearish NQ",
+    "@Briefingcom (~9:09 AM ET): $MU downgraded to Neutral at BNP Paribas (tgt $775); stock ~-7% premarket after Mon +19% — Bearish NQ",
+    "@LiveSquawk (~9:01 AM ET): Case-Shiller 20-city Sep +0.13% m/m (est 0.2%), +2.56% y/y (est 2.71%); FHFA HPI 0.0% (est 0.2%) — softer housing inflation — Mixed NQ"
   ],
-  "trump": "Trump pushed for and celebrated Jensen Huang's reinstatement as Nvidia CEO, saying the market proved it right; standing Iran stance of pausing further strikes until after Jan 1 if talks stall, with new Treasury sanctions ongoing.",
-  "watch": "Tue open follow-through on the fade and 10AM Conference Board consumer confidence; Wed 8:30 AM ET core PCE, Q3 GDP 2nd, claims (Dec hike near fully priced); markets closed Thu Thanksgiving, early close Fri. Hormuz tanker/mine headlines and oil reaction.",
-  "forSite": []
+  "trump": "Per WSJ (~9:02 AM ET) the Trump administration is preparing to announce higher tariffs on goods from China, the EU and 14+ other economies as soon as today; no new direct posts from Trump or the White House this morning.",
+  "watch": "Today: cash open 9:30 AM ET (QQQ trend line ~641-642), Conference Board consumer confidence 10:00 AM ET, possible tariff announcement on China/EU any time; DELL, HPQ, WDAY, ADSK, NTNX AMC; CME gold/silver margin hikes after close. Wed Nov 25 8:30 AM ET: Oct core PCE, Q3 GDP 2nd est, jobless claims (Dec hike ~94% priced). Thu closed, Fri 1:00 PM ET early close.",
+  "forSite": [],
+  "reports": [
+    {
+      "at": "2026-11-24T14:30:00Z",
+      "pulse": "NQ and ES futures fading hard into the open (NQ ~-2%, ES ~-1.3%) after Monday's +6.5% Nasdaq Huang relief rally, with NVDA and chips leading the giveback amid lingering AI valuation concerns, near-100% Dec hike odds, and ongoing Hormuz/Iran tensions.",
+      "bias": "risk-off — profit-taking and skepticism on the AI trade after the snapback, hawkish Fed pricing, and oil/geopolitical noise into thin holiday volume; strong Asia overnight limits extreme downside",
+      "items": [
+        "@IntelliX_US (~9:28 AM ET): Premarket snapshot — S&P fut ~-1.34%, NQ ~-2.25%; NVDA ~-5.5%, SMH -5%; VIX ~30; consumer conf at 10AM key",
+        "@EmmanuelInvest (~9:28 AM ET): AI relief rally already unravelling; NQ futures -1.89% less than 24h after NVDA historic rebound; concerns on valuations, financing, Dec Fed",
+        "@ProfitRajatrade (~9:28 AM ET): Futures S&P ▼1.4% | Nasdaq 100 ▼2.3%; NVDA gives back 5% after Monday's 31.5%; key level 7074",
+        "@aestheticbull (~9:28 AM ET): ES must hold 7170 or yesterday's pump gets retraced; targets 7210/7240 if holds",
+        "Web/Morningstar/Yahoo (~8-9 AM ET): Nasdaq futures fall as questions linger over AI trade post-Huang return; oil soft near $80 on supply surplus vs Hormuz mines"
+      ],
+      "trump": "Trump pushed for and celebrated Jensen Huang's reinstatement as Nvidia CEO, saying the market proved it right; standing Iran stance of pausing further strikes until after Jan 1 if talks stall, with new Treasury sanctions ongoing.",
+      "watch": "Tue open follow-through on the fade and 10AM Conference Board consumer confidence; Wed 8:30 AM ET core PCE, Q3 GDP 2nd, claims (Dec hike near fully priced); markets closed Thu Thanksgiving, early close Fri. Hormuz tanker/mine headlines and oil reaction.",
+      "forSite": []
+    },
+    {
+      "at": "2026-11-24T14:31:21Z",
+      "pulse": "NQ futures are ~-2% into the open (QQQ ~-2%, SPY ~-1.2%) as NVDA (~-5%) and MU (~-7%) lead a chip giveback of Monday's Huang rally, now compounded by a WSJ report that new tariffs on China, the EU and 14+ economies could land as soon as today; a 3bp dip in the 10Y to 4.89% and softer Case-Shiller/FHFA prints only partly offset it.",
+      "bias": "risk-off — semis profit-taking plus fresh Trump tariff-hike headlines on China/EU, VIX up to ~29 and Anthropic slipping again weigh on tech; slightly lower yields and softer housing inflation are the only cushion before Wed PCE",
+      "items": [
+        "@DeItaone (~9:02 AM ET): WSJ: Trump admin preparing higher tariffs on China, the EU and more than a dozen other economies, announcement as soon as Tuesday — Bearish NQ",
+        "@getvaunt (~9:30 AM ET): since close — Nasdaq fut -2.0%, S&P fut -1.2%, VIX 29.4 (+2.8), 10Y 4.89% (-3bp), Brent $88 (-1.7%) — Bearish NQ",
+        "@Briefingcom (~9:16 AM ET): $NVDA giving back part of Mon's +31% as Huang-return enthusiasm fades; AI capex financing worries remain; ~-5% premarket near $157 — Bearish NQ",
+        "@Briefingcom (~9:09 AM ET): $MU downgraded to Neutral at BNP Paribas (tgt $775); stock ~-7% premarket after Mon +19% — Bearish NQ",
+        "@LiveSquawk (~9:01 AM ET): Case-Shiller 20-city Sep +0.13% m/m (est 0.2%), +2.56% y/y (est 2.71%); FHFA HPI 0.0% (est 0.2%) — softer housing inflation — Mixed NQ"
+      ],
+      "trump": "Per WSJ (~9:02 AM ET) the Trump administration is preparing to announce higher tariffs on goods from China, the EU and 14+ other economies as soon as today; no new direct posts from Trump or the White House this morning.",
+      "watch": "Today: cash open 9:30 AM ET (QQQ trend line ~641-642), Conference Board consumer confidence 10:00 AM ET, possible tariff announcement on China/EU any time; DELL, HPQ, WDAY, ADSK, NTNX AMC; CME gold/silver margin hikes after close. Wed Nov 25 8:30 AM ET: Oct core PCE, Q3 GDP 2nd est, jobless claims (Dec hike ~94% priced). Thu closed, Fri 1:00 PM ET early close.",
+      "forSite": []
+    }
+  ]
 }
