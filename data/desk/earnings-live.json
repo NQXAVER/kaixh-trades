@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-23",
-  "at": "2026-11-24T03:31:21Z",
+  "date": "2026-11-24",
+  "at": "2026-11-24T12:37:14Z",
   "items": [
     {
       "ticker": "CRWD",
@@ -37,8 +37,10 @@
       "company": "Analog Devices (ADI)",
       "date": "2026-11-24",
       "when": "BMO",
-      "status": "upcoming",
-      "why": "FQ4 results Nov 24 BMO (consensus EPS $3.88); analog semis read for SOXX."
+      "status": "reported",
+      "reaction": "~-7.5% premarket",
+      "sentiment": "Bearish",
+      "why": "FQ4 rev $4.37B (+42% y/y) vs $4.32B est, adj EPS $4.06 vs $3.89; Q1 rev guide ~$4.4B vs $4.36B but adj EPS guide $3.82 vs $3.88 est, stock sold off on the EPS step-down"
     },
     {
       "ticker": "ADSK",
