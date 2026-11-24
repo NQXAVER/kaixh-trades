@@ -1,18 +1,18 @@
 {
-  "date": "2026-11-23",
+  "date": "2026-11-24",
   "grok": {
-    "at": "2026-11-24T03:06:49Z",
-    "pulse": "After Monday's historic +6.5-7% AI relief rally on Jensen Huang's Nvidia reinstatement, NQ futures are digesting near flat overnight with Asia chasing while Trump's Iran strike talk and near-certain Dec FOMC hike odds cap upside.",
-    "bias": "mixed — Huang-driven short-covering snapback is fading into thin holiday-week trade; oil down on supply but Iran/Hormuz risks and hawkish Fed pricing keep the tape two-way",
+    "at": "2026-11-24T12:00:48Z",
+    "pulse": "After Monday's historic +6.5% AI relief rally on Jensen Huang's Nvidia reinstatement, NQ and ES futures are reversing lower pre-market on profit-taking, lingering AI questions, fresh Iran sanctions/Hormuz mine claims, and near-certain December Fed hike pricing ahead of Wednesday's PCE.",
+    "bias": "mixed — Huang-driven snapback fading into profit-taking and hawkish Fed/Iran headlines; oil soft and Asia chased overnight keep it two-way into thin holiday liquidity",
     "items": [
-      "@T_LauRekt (~4:22 PM ET): $NQ best day since Apr 2025; Nasdaq Comp +6.47% to 24,081, NDX +6.86%, S&P +4.75%, NVDA +32% to $166 after Huang reinstated; WTI -3.9% to $80.17 — Bullish NQ",
-      "@ChaosLensX (~10:06 PM ET): Trump inclined to restart military strikes on Iran after New Year if talks fail; called negotiators 'professional tap dancers'; blockade holds, ships hit near Hormuz — Bearish NQ",
-      "@T_LauRekt / Fed (~4:00 PM ET): Williams hawkish but measured — inflation risks skewed up, higher rates over time, no immediate relief; Dec hike odds ~96-98% — Bearish NQ",
-      "Web/X (~evening): Asia (Nikkei +3%, KOSPI sidecar) chasing the AI rally while US futures flat to -0.3%; oil lower on Libya restart offsetting Gulf attacks — Mixed NQ",
-      "@dale_vaz / X (~10:05 PM ET): Nvidia board governance questions post-Huang return after $1T market-cap swing; AI trade credibility under scrutiny — Mixed NQ"
+      "@T_LauRekt (~4:22 PM ET Mon): $NQ best day since Apr 2025; Nasdaq Comp +6.47% to 24,081, NDX +6.86%, S&P +4.75%, NVDA +32% to $166 after Huang reinstated; WTI -3.9% to $80.17",
+      "@SaloneStephen (~6:59 AM ET): Morning briefing — Mon face-ripper NVDA +31% SPX +4.7%; this morning NQ futures -1.4% ES -0.71%; Dec hike ~94% odds; Iran claims hit three tankers with mines in Hormuz",
+      "@rittikd (~6:58 AM ET): Pre-market edition — S&P futures ~-0.6% NQ -1 to -1.3%; NVDA -5% after +31%; Asia Nikkei +3.9% KOSPI +6.3% chasing while BTC gave back to $59k",
+      "@NightOwlTrade (~7:00 AM ET): Hormuz risk escalates as IRGC says another tanker hit a mine; AI mixed with Anthropic below IPO; sentiment bearish",
+      "Web/Benzinga (~5 AM ET): Dow/S&P/Nasdaq futures fall after Scott Bessent unveils fresh Iran sanctions and Hormuz warnings; NQ ~-1% premarket"
     ],
-    "trump": "Trump says he's inclined to restart military strikes on Iran after New Year if talks don't produce a deal; called Iranian officials professional tap dancers. Earlier backed Nvidia board reinstating Huang as CEO with no national-security risk and has been involved in the rehiring push.",
-    "watch": "Tue Nov 24: Conference Board consumer confidence 10:00 AM ET; ADI BMO, DELL/HPQ/WDAY/ADSK/NTNX AMC. Wed Nov 25 8:30 AM ET: core PCE, Q3 GDP 2nd est, jobless claims. Markets closed Thu Thanksgiving, early close Fri. Hormuz/Iran headlines and NVDA open follow-through into thin liquidity.",
+    "trump": "Trump backed the Nvidia board's reinstatement of Jensen Huang as CEO with no national-security risk and has been involved in the rehiring push. On Iran he has paused further strikes until after the new year but leans toward resuming them after Jan 1 if talks stall; new Treasury sanctions announced.",
+    "watch": "Tue Nov 24: Conference Board consumer confidence 10:00 AM ET; retail earnings BMO (BBY, DLTR, etc). Wed Nov 25 8:30 AM ET: core PCE, Q3 GDP 2nd est, jobless claims. Markets closed Thu Thanksgiving, early close Fri. Watch NVDA open follow-through, Hormuz/Iran headlines, and Dec hike pricing into thin liquidity.",
     "forSite": []
   }
 }
