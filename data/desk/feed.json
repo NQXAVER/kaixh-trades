@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T10:04:44Z",
+  "updatedAt": "2026-11-24T20:00:29Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -107,7 +107,7 @@
       "id": "guard-biz",
       "label": "The Guardian",
       "ok": true,
-      "items": 20,
+      "items": 19,
       "error": null
     },
     {
@@ -127,9 +127,9 @@
     {
       "id": "mw-live",
       "label": "MarketWatch",
-      "ok": true,
-      "items": 10,
-      "error": null
+      "ok": false,
+      "items": 0,
+      "error": "HTTPError: HTTP Error 400: Bad Request"
     },
     {
       "id": "mw-top",
@@ -204,6 +204,42 @@
   ],
   "items": [
     {
+      "id": "fa740a0118644",
+      "headline": "Senior Hamas security official killed in Israeli drone strikes",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/senior-hamas-security-official-killed-in-israeli-drone-strikes?traffic_source=rss",
+      "publishedAt": "2026-11-24T18:20:00Z",
+      "time": "Tue 1:20 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "f9fcfd139d5f8",
+      "headline": "Israeli air strike kills Hamas internal security chief in Gaza",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-11-24T15:35:53Z",
+      "time": "Tue 10:35 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "f065b2cbb7e8d",
+      "headline": "Nato chief vows defence against space threat after Russian nuclear satellite reports",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c9x2er1ry2mzo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-11-24T10:58:51Z",
+      "time": "Tue 5:58 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "ffbae2ab0817a",
       "headline": "Oil slicks in the Strait of Hormuz are harming the environment",
       "source": "NPR",
@@ -237,18 +273,6 @@
       "section": "war",
       "impact": "High",
       "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "f065b2cbb7e8d",
-      "headline": "Nato chief vows defence against space threat after Russian nuclear satellite reports",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c9x2er1ry2mzo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-11-24T02:15:59Z",
-      "time": "Mon 9:15 PM",
-      "section": "war",
-      "impact": "High",
-      "lean": null,
       "auto": true
     },
     {
@@ -300,30 +324,6 @@
       "auto": true
     },
     {
-      "id": "f4d0819d74a46",
-      "headline": "Civilians killed in RSF drone strikes in Sudan",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/civilians-killed-in-rsf-drone-strikes-in-sudan?traffic_source=rss",
-      "publishedAt": "2026-11-22T18:12:07Z",
-      "time": "Sun 1:12 PM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "f929b9ee50f1e",
-      "headline": "Zelenskyy urges US to release Patriot missiles as Russia kills 5 in Ukraine",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/11/22/zelenskyy-urges-us-to-release-patriot-missiles?traffic_source=rss",
-      "publishedAt": "2026-11-22T14:48:50Z",
-      "time": "Sun 9:48 AM",
-      "section": "war",
-      "impact": "High",
-      "lean": null,
-      "auto": true
-    },
-    {
       "id": "f6659a9fdba83",
       "headline": "5 Energy Stocks That Can Shrug Off a December Fed Rate Hike",
       "source": "OilPrice",
@@ -360,12 +360,36 @@
       "auto": true
     },
     {
+      "id": "fd29a88ff40d7",
+      "headline": "Treasury yields are steady as investors await more economic data",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/24/treasury-yields-bonds-inflation.html",
+      "publishedAt": "2026-11-24T19:58:31Z",
+      "time": "Tue 2:58 PM",
+      "section": "fed",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fb506f3ab911f",
+      "headline": "Commercial real estate activity falls 14% in October, as interest rates rise",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/24/commercial-real-estate-activity-falls-14percent-in-october.html",
+      "publishedAt": "2026-11-24T15:05:14Z",
+      "time": "Tue 10:05 AM",
+      "section": "fed",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "fac29fe153db0",
       "headline": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html",
-      "publishedAt": "2026-11-23T21:02:17Z",
-      "time": "Mon 4:02 PM",
+      "publishedAt": "2026-11-24T13:33:26Z",
+      "time": "Tue 8:33 AM",
       "section": "fed",
       "impact": "Medium",
       "lean": null,
@@ -396,6 +420,18 @@
       "auto": true
     },
     {
+      "id": "fccbe917fdd37",
+      "headline": "Consumer confidence shoots up after Democrats' midterm victories — though inflation worries persist",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/24/consumer-confidence-november-election-midterm.html",
+      "publishedAt": "2026-11-24T18:34:43Z",
+      "time": "Tue 1:34 PM",
+      "section": "econ",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "f9a616a17fe8c",
       "headline": "Unemployment to surpass 5% and ‘things will get a bit harder’, treasurer Jim Chalmers warns",
       "source": "The Guardian",
@@ -405,6 +441,54 @@
       "section": "econ",
       "impact": "Medium",
       "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fe90b6f9101c9",
+      "headline": "Anthropic shares fall below IPO price. Traders see even more pain",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/24/anthropic-options-trading-ipo-price.html",
+      "publishedAt": "2026-11-24T19:47:42Z",
+      "time": "Tue 2:47 PM",
+      "section": "tech",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f7d76d723306d",
+      "headline": "Anthropic’s stock just broke below its IPO price for the first time",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/anthropics-stock-just-broke-below-its-ipo-price-for-the-first-time-5dc82668?mod=mw_rss_topstories",
+      "publishedAt": "2026-11-24T19:31:00Z",
+      "time": "Tue 2:31 PM",
+      "section": "tech",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fbb18e823748e",
+      "headline": "Anthropic sinks 8%, falling below $83 IPO price, but analysts are still largely positive",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/24/anthropic-stock-ipo-price.html",
+      "publishedAt": "2026-11-24T17:30:26Z",
+      "time": "Tue 12:30 PM",
+      "section": "tech",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "ffe90579dd7cb",
+      "headline": "Tech sell-off resumes as Nvidia shares drop 5% and Anthropic tumbles below IPO price – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/nov/24/jensen-huang-nvidia-stock-markets-ai-trade-us-political-backlash-donald-trump-latest-news-updates",
+      "publishedAt": "2026-11-24T15:36:28Z",
+      "time": "Tue 10:36 AM",
+      "section": "tech",
+      "impact": "High",
+      "lean": "risk-off",
       "auto": true
     },
     {
@@ -480,54 +564,6 @@
       "auto": true
     },
     {
-      "id": "fec738cfdd723",
-      "headline": "Anthropic defied the odds in its record IPO. Now it has to reckon with AI market turbulence",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/20/anthropic-defies-odds-holding-ipo-despite-massively-disruptive-market.html",
-      "publishedAt": "2026-11-20T21:06:45Z",
-      "time": "Fri 4:06 PM",
-      "section": "tech",
-      "impact": "High",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f036cfbf65819",
-      "headline": "Anthropic defies the odds, holding record IPO despite ‘massively disruptive’ market",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/20/anthropic-defies-odds-holding-ipo-despite-massively-disruptive-market.html",
-      "publishedAt": "2026-11-20T17:10:52Z",
-      "time": "Fri 12:10 PM",
-      "section": "tech",
-      "impact": "High",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f922817cf4f07",
-      "headline": "Anthropic’s stock slides closer to IPO price and drags down the AI trade",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/anthropics-stock-slides-closer-to-ipo-price-and-drags-down-the-ai-trade-cc43a0c4?mod=mw_rss_topstories",
-      "publishedAt": "2026-11-20T15:38:00Z",
-      "time": "Fri 10:38 AM",
-      "section": "tech",
-      "impact": "High",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f84cd413076a1",
-      "headline": "Trump Administration Imposes Sanctions on Megaspeed, Singaporean Firm at Center of Nvidia Scandal",
-      "source": "New York Times",
-      "url": "https://www.nytimes.com/2026/11/23/business/trump-administration-megaspeed-trade-blacklist-nvidia.html",
-      "publishedAt": "2026-11-24T05:39:23Z",
-      "time": "Tue 12:39 AM",
-      "section": "tech",
-      "impact": "Medium",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
       "id": "f5a8743f02536",
       "headline": "Oil Slides Nearly 4% as Returning Supply Outweighs Gulf Attacks",
       "source": "OilPrice",
@@ -552,14 +588,86 @@
       "auto": true
     },
     {
-      "id": "f8ee8fa11d319",
-      "headline": "China’s Oil Imports from Persian Gulf Jump to Wartime High",
+      "id": "fc078513071eb",
+      "headline": "Is This Tiny Oil Giant The Real Crown Jewel Of Trump’s New World Order?",
       "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Oil-Imports-from-Persian-Gulf-Jump-to-Wartime-High.html",
-      "publishedAt": "2026-11-20T15:36:00Z",
-      "time": "Fri 10:36 AM",
+      "url": "https://oilprice.com/Energy/Crude-Oil/Is-This-Tiny-Oil-Giant-The-Real-Crown-Jewel-Of-Trumps-New-World-Order.html",
+      "publishedAt": "2026-11-24T20:00:00Z",
+      "time": "Tue 3:00 PM",
       "section": "energy",
-      "impact": "High",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f6bb0d2767aa0",
+      "headline": "Iraq Refuses to Accept OPEC+ Assessment of its Production Capacity",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Iraq-Refuses-to-Accept-OPEC-Assessment-of-its-Production-Capacity.html",
+      "publishedAt": "2026-11-24T18:30:00Z",
+      "time": "Tue 1:30 PM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f0e6d344db38a",
+      "headline": "Canada’s Oilfield Services Sector Is Gearing Up for a Stronger 2027",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Energy/Energy-General/Canadas-Oilfield-Services-Sector-Is-Gearing-Up-for-a-Stronger-2027.html",
+      "publishedAt": "2026-11-24T18:00:00Z",
+      "time": "Tue 1:00 PM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f12d4b74f7a8e",
+      "headline": "Saudi Arabia Sees Smaller Economic Slump as More Oil Reaches Market",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Sees-Smaller-Economic-Slump-as-More-Oil-Reaches-Market.html",
+      "publishedAt": "2026-11-24T17:00:00Z",
+      "time": "Tue 12:00 PM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "f1b3054c336da",
+      "headline": "Libya and Iraq Could Be the Next Big Headache for Oil Markets",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Energy/Crude-Oil/Libya-and-Iraq-Could-Be-the-Next-Big-Headache-for-Oil-Markets.html",
+      "publishedAt": "2026-11-24T15:21:00Z",
+      "time": "Tue 10:21 AM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f5be283f8329c",
+      "headline": "South Korea Says Its Crude Supply Is Stable Through the Winter",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/South-Korea-Says-Its-Crude-Supply-Is-Stable-Through-the-Winter.html",
+      "publishedAt": "2026-11-24T13:00:00Z",
+      "time": "Tue 8:00 AM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f44b12fb052d3",
+      "headline": "Japan Poised to Ramp Up LNG Buying as Power Prices Surge",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Japan-Poised-to-Ramp-Up-LNG-Buying-as-Power-Prices-Surge.html",
+      "publishedAt": "2026-11-24T10:35:00Z",
+      "time": "Tue 5:35 AM",
+      "section": "energy",
+      "impact": "Medium",
       "lean": null,
       "auto": true
     },
@@ -576,73 +684,13 @@
       "auto": true
     },
     {
-      "id": "ff1fa65d7bd9c",
-      "headline": "America’s Biggest Oil Export Port Faces Thousands of Cyberattack Attempts",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Energy/Energy-General/Americas-Biggest-Oil-Export-Port-Faces-Thousands-of-Cyberattack-Attempts.html",
-      "publishedAt": "2026-11-23T17:00:00Z",
-      "time": "Mon 12:00 PM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f31ba1496817e",
-      "headline": "Brent Drops Below $90 as Wall Street Splits on 2027 Oil Outlook",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Drops-Below-90-as-Wall-Street-Splits-on-2027-Oil-Outlook.html",
-      "publishedAt": "2026-11-23T14:30:00Z",
-      "time": "Mon 9:30 AM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "fe419a744691a",
-      "headline": "‘Once installed, there’s no getting rid of it’: what Falklands oil plans mean for its seals, whales and penguins",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/global-development/2026/nov/23/falkland-islands-argentina-sea-lion-oil-environment-sovereignty-wildlife-pollution",
-      "publishedAt": "2026-11-23T06:00:49Z",
-      "time": "Mon 1:00 AM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f63f2f80d139d",
-      "headline": "Oil Prices Slide as AI Bubble Fears Rattle Global Markets",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Slide-as-AI-Bubble-Fears-Rattle-Global-Markets.html",
-      "publishedAt": "2026-11-23T05:50:00Z",
-      "time": "Mon 12:50 AM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f7aee5773cd3c",
-      "headline": "Oil Markets Are Betting on a Surplus That Hasn't Arrived Yet",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Energy/Oil-Prices/Oil-Markets-Are-Betting-on-a-Surplus-That-Hasnt-Arrived-Yet.html",
-      "publishedAt": "2026-11-23T00:00:00Z",
-      "time": "Sun 7:00 PM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f4f895ff8230d",
-      "headline": "Major fire erupts at a fuel station in Lagos",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/major-fire-erupts-at-a-fuel-station-in-lagos?traffic_source=rss",
-      "publishedAt": "2026-11-22T13:26:19Z",
-      "time": "Sun 8:26 AM",
-      "section": "energy",
+      "id": "f965f01edbdef",
+      "headline": "Trump Account contributions from friends and family pass $1 billion mark, Treasury says",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/24/trump-accounts-family-contributions-billion.html",
+      "publishedAt": "2026-11-24T17:59:12Z",
+      "time": "Tue 12:59 PM",
+      "section": "markets",
       "impact": "Medium",
       "lean": null,
       "auto": true
@@ -654,18 +702,6 @@
       "url": "https://www.cnbc.com/2026/11/23/tokenized-stocks-face-pushback-as-nyse-nasdaq-pivot-for-a-new-market-.html",
       "publishedAt": "2026-11-23T15:30:27Z",
       "time": "Mon 10:30 AM",
-      "section": "markets",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f124569ccd073",
-      "headline": "The Nasdaq is in freefall. Here's one stock to look at",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/22/the-nasdaq-is-in-freefall-heres-one-stock-to-look-at.html",
-      "publishedAt": "2026-11-22T12:10:39Z",
-      "time": "Sun 7:10 AM",
       "section": "markets",
       "impact": "Medium",
       "lean": null,
