@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T20:20:27Z",
+  "updatedAt": "2026-11-24T05:14:05Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -134,9 +134,9 @@
     {
       "id": "mw-top",
       "label": "MarketWatch",
-      "ok": true,
-      "items": 10,
-      "error": null
+      "ok": false,
+      "items": 0,
+      "error": "HTTPError: HTTP Error 400: Bad Request"
     },
     {
       "id": "npr-biz",
@@ -203,6 +203,54 @@
     }
   ],
   "items": [
+    {
+      "id": "f50d8cf75e072",
+      "headline": "Iran says three tankers hit mines in Hormuz despite U.S. escort, as Treasury widens sanctions",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/24/iran-trump-hormuz-crude-.html",
+      "publishedAt": "2026-11-24T05:05:08Z",
+      "time": "Tue 12:05 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "f065b2cbb7e8d",
+      "headline": "Nato chief vows defence against space threat after Russian nuclear satellite reports",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c9x2er1ry2mzo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-11-24T02:15:59Z",
+      "time": "Mon 9:15 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fc03bd9011f77",
+      "headline": "Amazon faces FAA probe after delivery drone strikes Michigan fiber cable, garage",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/23/amazon-drone-crash-michigan-faa-investigation.html",
+      "publishedAt": "2026-11-24T00:56:10Z",
+      "time": "Mon 7:56 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "f6c80f9d60563",
+      "headline": "Iran war live: Iran says three ships catch fire after hitting Hormuz mines",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/24/iran-war-live-iran-says-three-ships-catch-fire-after-hitting-hormuz-mines?traffic_source=rss",
+      "publishedAt": "2026-11-24T00:00:00Z",
+      "time": "Mon 7:00 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
     {
       "id": "fc01636b52de7",
       "headline": "South Korea Asks Qatar for Priority LNG Once Hormuz Reopens",
@@ -276,51 +324,15 @@
       "auto": true
     },
     {
-      "id": "f25b293e8d399",
-      "headline": "Displaced Palestinians protest as Israeli air strikes continue in Gaza",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/11/22/displaced-palestinians-protest-as-israeli-air-strikes-continue-in-gaza?traffic_source=rss",
-      "publishedAt": "2026-11-22T02:14:18Z",
-      "time": "Sat 9:14 PM",
-      "section": "war",
+      "id": "f6659a9fdba83",
+      "headline": "5 Energy Stocks That Can Shrug Off a December Fed Rate Hike",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Energy/Energy-General/5-Energy-Stocks-That-Can-Shrug-Off-a-December-Fed-Rate-Hike.html",
+      "publishedAt": "2026-11-23T22:00:00Z",
+      "time": "Mon 5:00 PM",
+      "section": "fed",
       "impact": "High",
       "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "f5d988f7c913c",
-      "headline": "Trump says he wants ‘permanent’ deal to stop Iran getting nuclear weapons",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/21-11-clip-trump-iran-permanent-nuclear-deal?traffic_source=rss",
-      "publishedAt": "2026-11-21T18:05:51Z",
-      "time": "Sat 1:05 PM",
-      "section": "war",
-      "impact": "High",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f4010efeaec53",
-      "headline": "Tankers hit in Strait of Hormuz as Iran tightens grip on shipping",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/11/21/tankers-hit-in-strait-of-hormuz-as-iran-tightens-grip-on-shipping?traffic_source=rss",
-      "publishedAt": "2026-11-21T15:01:18Z",
-      "time": "Sat 10:01 AM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "fbe11b3d8317a",
-      "headline": "Could Iran reverse its stated policy of a civil-only nuclear programme?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/11/21/could-iran-reverse-its-stated-policy-of-a-civil-only-nuclear-programme?traffic_source=rss",
-      "publishedAt": "2026-11-21T14:15:36Z",
-      "time": "Sat 9:15 AM",
-      "section": "war",
-      "impact": "High",
-      "lean": null,
       "auto": true
     },
     {
@@ -348,6 +360,18 @@
       "auto": true
     },
     {
+      "id": "fac29fe153db0",
+      "headline": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html",
+      "publishedAt": "2026-11-23T21:02:17Z",
+      "time": "Mon 4:02 PM",
+      "section": "fed",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "f18704c71e763",
       "headline": "2-year Treasury yield jumps as stocks rebound, investors await New York Fed President Williams speech",
       "source": "CNBC",
@@ -366,30 +390,6 @@
       "url": "https://www.marketwatch.com/story/trump-is-open-to-capping-credit-card-interest-rates-but-holiday-shoppers-shouldnt-bank-on-it-yet-34260705?mod=mw_rss_topstories",
       "publishedAt": "2026-11-23T18:55:00Z",
       "time": "Mon 1:55 PM",
-      "section": "fed",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f248bd4656cfd",
-      "headline": "Federal Reserve announces College Fed Challenge winners",
-      "source": "Federal Reserve",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261120b.htm",
-      "publishedAt": "2026-11-20T21:15:00Z",
-      "time": "Fri 4:15 PM",
-      "section": "fed",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f4caeec1911c8",
-      "headline": "Peterson: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html",
-      "publishedAt": "2026-11-20T21:07:08Z",
-      "time": "Fri 4:07 PM",
       "section": "fed",
       "impact": "Medium",
       "lean": null,
@@ -516,15 +516,15 @@
       "auto": true
     },
     {
-      "id": "f971c75e0f7c5",
-      "headline": "Anthropic IPO 'exactly what the markets need,' but analysts warn of volatility",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/20/anthropic-ipo-stocks-market.html",
-      "publishedAt": "2026-11-20T04:51:28Z",
-      "time": "Thu 11:51 PM",
+      "id": "f84cd413076a1",
+      "headline": "Trump Administration Imposes Sanctions on Megaspeed, Singaporean Firm at Center of Nvidia Scandal",
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/2026/11/23/business/trump-administration-megaspeed-trade-blacklist-nvidia.html",
+      "publishedAt": "2026-11-24T03:12:26Z",
+      "time": "Mon 10:12 PM",
       "section": "tech",
-      "impact": "High",
-      "lean": null,
+      "impact": "Medium",
+      "lean": "risk-off",
       "auto": true
     },
     {
@@ -560,6 +560,18 @@
       "time": "Fri 10:36 AM",
       "section": "energy",
       "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fee96ee7f1acf",
+      "headline": "America's Refiners Drowned Their Own Gasoline Windfall",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Energy/Crude-Oil/Americas-Refiners-Drowned-Their-Own-Gasoline-Windfall.html",
+      "publishedAt": "2026-11-24T01:00:00Z",
+      "time": "Mon 8:00 PM",
+      "section": "energy",
+      "impact": "Medium",
       "lean": null,
       "auto": true
     },
@@ -630,18 +642,6 @@
       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/major-fire-erupts-at-a-fuel-station-in-lagos?traffic_source=rss",
       "publishedAt": "2026-11-22T13:26:19Z",
       "time": "Sun 8:26 AM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f200978595f8d",
-      "headline": "Fossil fuel impasse pushes COP31 climate talks into second day of overtime",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/11/22/fossil-fuel-impasse-pushes-cop31-climate-talks-into-second-day-of-overtime?traffic_source=rss",
-      "publishedAt": "2026-11-22T04:51:35Z",
-      "time": "Sat 11:51 PM",
       "section": "energy",
       "impact": "Medium",
       "lean": null,
