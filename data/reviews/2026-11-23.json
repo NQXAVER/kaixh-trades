@@ -1,63 +1,69 @@
 {
- "date": "2026-11-23",
- "entryUrl": "https://app.notion.com/42160e8f5c4580e2bed5c9e3d0613b20",
- "summary": "No NY trade today. That was the right call, but the day doesn't start at 9:30. Sunday night you took two of the same Asia shorts trying to fill the NWOG and lost both ('annoyed fomo revenge trading'). At 12:59 AM ET a Lucid order came in for a LucidFlex 50K ($88.20 after the AB coupon), and today's Notion row is filed under Account: Eval. Your 9:25 AM check-in said 'im locked out for today', and Notion says you sat out because NQ was halted after the 5%+ NVDA move. Sitting out the open was disciplined. Breaking two of your own rules overnight (NY-only, no new evals) is what this day is really about.",
- "trade": "No trade · NY-AM · Account: Eval (new LucidFlex 50K order at 12:59 AM ET) · No Trades. NQ gapped about +6.3% (≈26,878 at 9:27 AM) above PD-H on the NVDA/Jensen news, so there was no entry, stop or target to grade.",
- "rule": "Tuesday: NY session only. Make no trade before 9:30 AM and no new account purchase. If a loss makes you want to 'make it back', write that in TALK and close the platform for the day.",
- "screenshots": [
-  {
-   "label": "TimeFrame 1 · Daily ES / NQ (9:27 AM)",
-   "feedback": "Both indices show one huge bullish daily candle off PD-L. NQ is up ~1,587 pts (+6.28%) and ES +4.37%, and both are already well above PD-H. Your pre-market wanted a rebalance 'out of the daily bearish gap'. The open blew straight through that. There was no pullback to plan around, so standing aside was correct."
+  "date": "2026-11-23",
+  "entryUrl": "https://app.notion.com/42160e8f5c4580e2bed5c9e3d0613b20",
+  "summary": "No NY trade today. That was the right call, but the day doesn't start at 9:30. Sunday night you took two of the same Asia shorts trying to fill the NWOG and lost both ('annoyed fomo revenge trading'). At 12:59 AM ET a Lucid order came in for a LucidFlex 50K ($88.20 after the AB coupon), and today's Notion row is filed under Account: Eval. Your 9:25 AM check-in said 'im locked out for today', and Notion says you sat out because NQ was halted after the 5%+ NVDA move. Sitting out the open was disciplined. Breaking two of your own rules overnight (NY-only, no new evals) is what this day is really about.",
+  "trade": "No trade · NY-AM · Account: Eval (new LucidFlex 50K order at 12:59 AM ET) · No Trades. NQ gapped about +6.3% (≈26,878 at 9:27 AM) above PD-H on the NVDA/Jensen news, so there was no entry, stop or target to grade.",
+  "rule": "Tuesday: NY session only. Make no trade before 9:30 AM and no new account purchase. If a loss makes you want to 'make it back', write that in TALK and close the platform for the day.",
+  "screenshots": [
+    {
+      "label": "TimeFrame 1 · Daily ES / NQ (9:27 AM)",
+      "feedback": "Both indices show one huge bullish daily candle off PD-L. NQ is up ~1,587 pts (+6.28%) and ES +4.37%, and both are already well above PD-H. Your pre-market wanted a rebalance 'out of the daily bearish gap'. The open blew straight through that. There was no pullback to plan around, so standing aside was correct."
+    },
+    {
+      "label": "TimeFrame 2 · 4h ES / NQ (9:27 AM)",
+      "feedback": "On the 4h, NQ goes from the PD-L area (~25,200) through PD-EQ and PD-H in one candle, a full reversal of last week's selloff. Reading it as 'Trending' and 'Reversal' fits. The only nearby levels were behind price, so any entry here would have been a chase."
+    },
+    {
+      "label": "TimeFrame 3 · 1h ES / NQ (9:27 AM)",
+      "feedback": "The 1h shows the Sunday-night chop between PD-EQ and PD-L, which is where your two Asia shorts lost. Then a vertical candle runs through PD-H. Those overnight shorts were fighting a market that was about to reprice on news, and there was no HTF confirmation."
+    },
+    {
+      "label": "TimeFrame 4 · 15min ES / NQ (9:27 AM)",
+      "feedback": "Your marked levels are clear: LO.H/LO.L, AS.H, NYAM.H, D OPEN, PD-H and PD-EQ, plus a 10:00 marker. NQ printed ~26,878, far above D OPEN and PD-H, before 10:00. The prep was good, and you were right to let the 10:00 marker and the halt keep you out. There's nothing here to criticize on execution."
+    }
+  ],
+  "good": [
+    "No trade into a 6% news gap. You saw that the market had already left your levels and didn't chase it.",
+    "The Morning Check-in was filed at 9:25 AM ET, before the 9:30 cutoff (streak 22). It had charts opened at 9:25 and a risk-settings screenshot that SYNDICATOR confirmed.",
+    "You were honest in the check-in and with Bibz ('i traded last night trying to fill the NWOG took a massive L') instead of hiding the Sunday trade.",
+    "The 15min chart was fully marked up before the open (session highs/lows, D OPEN, PD levels, 10:00 marker)."
+  ],
+  "fix": [
+    "Sunday night was an Asia session trade, twice. That breaks your NY-only rule, and your own notes call it 'fomo revenge trading'.",
+    "A new LucidFlex 50K eval was ordered at 12:59 AM ET, hours after that loss, and today's row says Account: Eval. You set 'no more eval accounts' as a rule, and the purchase came at the worst emotional moment.",
+    "'ill make it back AM session' is PNL and revenge language. The plan after a loss should be a lockout, not a recovery target.",
+    "There's no post in the xavier Journal channel today, and the End of Day card wasn't submitted yet as of ~4:15 PM ET. A no-trade day still deserves an honest EOD with 'Rules Followed: no' because of the overnight trade and the purchase."
+  ],
+  "questions": [
+    {
+      "q": "You wrote 'i did tell myself ill make it back AM session' and a LucidFlex 50K was ordered at 12:59 AM. Was that purchase part of making it back, and what would have stopped you from buying it if you'd waited until morning?",
+      "answer": "well cus ive lost big before in the acc an i made it back didnt i so im okay now but in the moment i wasnt",
+      "answeredAt": "2026-11-24T00:12:07.345Z",
+      "reply": "You're right that you weren't okay in the moment, and that's the part that matters. Making it back before doesn't make buying a new eval at 12:59 AM fine; it's the reason the habit keeps paying off just enough to repeat. That purchase broke your no-new-accounts rule and was revenge money, not a plan. Next time the 'make it back' thought shows up after a loss, write it in TALK, close the platform, and leave any purchase decision for after the NY session.",
+      "repliedAt": "2026-11-24T00:43:34.000Z"
+    },
+    {
+      "q": "Your own word for Sunday night was 'fomo revenge trading', on two of the same trades in Asia. What did you see before the second entry that was different from the first, if anything?",
+      "answer": "more structure an timing but i was in patient didnt want to miss the move an entered aka gambling",
+      "answeredAt": "2026-11-24T00:12:41.820Z",
+      "reply": "Calling it gambling is the honest read, and that's the right lesson. 'More structure and timing' was your excuse to re-enter, but impatience and fear of missing the move were what actually pulled the trigger, in Asia, which is outside your NY-only rule. Same idea twice after a loss is the revenge pattern. Next time, one loss on an idea ends that idea, and anything outside 9:30 to the NY close stays chart-watching only.",
+      "repliedAt": "2026-11-24T00:43:34.000Z"
+    },
+    {
+      "q": "Your check-in said 'im locked out for today' but the Notion row is filed under Eval. Which account were you planning to trade this morning if NQ hadn't halted?",
+      "answer": "both if i could but now im saving my self on xfa for nyam an night if it only looks good for eval i put myself in like eval jail sorta",
+      "answeredAt": "2026-11-24T00:13:23.817Z",
+      "reply": "Protecting the XFA for NY AM is the right priority, and keeping it clean is a good call. Trading both accounts 'if I could' goes against one account, one idea, and 'eval jail' only works if the eval doesn't become the place you dump the trades you know are B-grade or after hours. Next time, pick one account in the morning check-in, trade only NY session on it, and if a setup only looks good enough for the eval, treat that as a pass.",
+      "repliedAt": "2026-11-24T00:43:34.000Z"
+    }
+  ],
+  "discord": {
+    "chartsOpened": "Morning Check-in submitted 9:25 AM ET (streak 22), before the 9:30 AM cutoff. Charts Opened: '9:25am'.",
+    "plan": "Psychological Plan: 'took a big L last night i got to confident an lossed im locked out for today'. That matches the Notion row (No Trades). Notion gives the halt after the NVDA news as the reason, while the card gives a self-lockout after the Sunday loss.",
+    "risk": "Risk-settings screenshot posted 9:25 AM ET and confirmed by SYNDICATOR ('your morning check-in for 2026-11-23 is complete'). The image was too small to read.",
+    "eod": "End of Day prompt posted 11:00 AM ET (due by midnight). No End of Day submission from you yet as of ~4:15 PM ET. At 9:23 AM you told Bibz: 'lets get it bro' / 'i traded last night trying to fill the NWOG took a massive L 😞'. Bibz at 9:02 AM: 'New week new money bro. Let's get it 🏌️'.",
+    "match": "No-trade NY session matches across the check-in and Notion. The check-in admits the overnight loss but not the Asia session or the 12:59 AM eval order, and Notion lists the account as Eval.",
+    "journalChannel": "No post in xavier Journal today. The latest is Fri 11/20 at 10:01 AM."
   },
-  {
-   "label": "TimeFrame 2 · 4h ES / NQ (9:27 AM)",
-   "feedback": "On the 4h, NQ goes from the PD-L area (~25,200) through PD-EQ and PD-H in one candle, a full reversal of last week's selloff. Reading it as 'Trending' and 'Reversal' fits. The only nearby levels were behind price, so any entry here would have been a chase."
-  },
-  {
-   "label": "TimeFrame 3 · 1h ES / NQ (9:27 AM)",
-   "feedback": "The 1h shows the Sunday-night chop between PD-EQ and PD-L, which is where your two Asia shorts lost. Then a vertical candle runs through PD-H. Those overnight shorts were fighting a market that was about to reprice on news, and there was no HTF confirmation."
-  },
-  {
-   "label": "TimeFrame 4 · 15min ES / NQ (9:27 AM)",
-   "feedback": "Your marked levels are clear: LO.H/LO.L, AS.H, NYAM.H, D OPEN, PD-H and PD-EQ, plus a 10:00 marker. NQ printed ~26,878, far above D OPEN and PD-H, before 10:00. The prep was good, and you were right to let the 10:00 marker and the halt keep you out. There's nothing here to criticize on execution."
-  }
- ],
- "good": [
-  "No trade into a 6% news gap. You saw that the market had already left your levels and didn't chase it.",
-  "The Morning Check-in was filed at 9:25 AM ET, before the 9:30 cutoff (streak 22). It had charts opened at 9:25 and a risk-settings screenshot that SYNDICATOR confirmed.",
-  "You were honest in the check-in and with Bibz ('i traded last night trying to fill the NWOG took a massive L') instead of hiding the Sunday trade.",
-  "The 15min chart was fully marked up before the open (session highs/lows, D OPEN, PD levels, 10:00 marker)."
- ],
- "fix": [
-  "Sunday night was an Asia session trade, twice. That breaks your NY-only rule, and your own notes call it 'fomo revenge trading'.",
-  "A new LucidFlex 50K eval was ordered at 12:59 AM ET, hours after that loss, and today's row says Account: Eval. You set 'no more eval accounts' as a rule, and the purchase came at the worst emotional moment.",
-  "'ill make it back AM session' is PNL and revenge language. The plan after a loss should be a lockout, not a recovery target.",
-  "There's no post in the xavier Journal channel today, and the End of Day card wasn't submitted yet as of ~4:15 PM ET. A no-trade day still deserves an honest EOD with 'Rules Followed: no' because of the overnight trade and the purchase."
- ],
- "questions": [
-  {
-   "q": "You wrote 'i did tell myself ill make it back AM session' and a LucidFlex 50K was ordered at 12:59 AM. Was that purchase part of making it back, and what would have stopped you from buying it if you'd waited until morning?",
-   "answer": "well cus ive lost big before in the acc an i made it back didnt i so im okay now but in the moment i wasnt",
-   "answeredAt": "2026-11-24T00:12:07.345Z"
-  },
-  {
-   "q": "Your own word for Sunday night was 'fomo revenge trading', on two of the same trades in Asia. What did you see before the second entry that was different from the first, if anything?",
-   "answer": "more structure an timing but i was in patient didnt want to miss the move an entered aka gambling",
-   "answeredAt": "2026-11-24T00:12:41.820Z"
-  },
-  {
-   "q": "Your check-in said 'im locked out for today' but the Notion row is filed under Eval. Which account were you planning to trade this morning if NQ hadn't halted?",
-   "answer": "both if i could but now im saving my self on xfa for nyam an night if it only looks good for eval i put myself in like eval jail sorta",
-   "answeredAt": "2026-11-24T00:13:23.817Z"
-  }
- ],
- "discord": {
-  "chartsOpened": "Morning Check-in submitted 9:25 AM ET (streak 22), before the 9:30 AM cutoff. Charts Opened: '9:25am'.",
-  "plan": "Psychological Plan: 'took a big L last night i got to confident an lossed im locked out for today'. That matches the Notion row (No Trades). Notion gives the halt after the NVDA news as the reason, while the card gives a self-lockout after the Sunday loss.",
-  "risk": "Risk-settings screenshot posted 9:25 AM ET and confirmed by SYNDICATOR ('your morning check-in for 2026-11-23 is complete'). The image was too small to read.",
-  "eod": "End of Day prompt posted 11:00 AM ET (due by midnight). No End of Day submission from you yet as of ~4:15 PM ET. At 9:23 AM you told Bibz: 'lets get it bro' / 'i traded last night trying to fill the NWOG took a massive L 😞'. Bibz at 9:02 AM: 'New week new money bro. Let's get it 🏌️'.",
-  "match": "No-trade NY session matches across the check-in and Notion. The check-in admits the overnight loss but not the Asia session or the 12:59 AM eval order, and Notion lists the account as Eval.",
-  "journalChannel": "No post in xavier Journal today. The latest is Fri 11/20 at 10:01 AM."
- },
- "reviewedAt": "2026-11-23T21:16:28.516Z"
+  "reviewedAt": "2026-11-23T21:16:28.516Z"
 }
