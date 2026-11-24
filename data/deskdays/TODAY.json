@@ -1,18 +1,18 @@
 {
   "date": "2026-11-23",
   "grok": {
-    "at": "2026-11-23T21:21:00Z",
-    "pulse": "Massive risk-on session with NQ/Nasdaq ripping on Jensen Huang's reinstatement as Nvidia CEO, delivering the largest one-day market-cap gain in history while oil slid and December hike odds rose further.",
-    "bias": "risk-on — Huang return sparked violent short-covering and AI relief after last week's rout, but rising front-end yields and ~98% Dec hike odds plus ongoing Iran blockade keep the tape two-way",
+    "at": "2026-11-24T03:06:49Z",
+    "pulse": "After Monday's historic +6.5-7% AI relief rally on Jensen Huang's Nvidia reinstatement, NQ futures are digesting near flat overnight with Asia chasing while Trump's Iran strike talk and near-certain Dec FOMC hike odds cap upside.",
+    "bias": "mixed — Huang-driven short-covering snapback is fading into thin holiday-week trade; oil down on supply but Iran/Hormuz risks and hawkish Fed pricing keep the tape two-way",
     "items": [
-      "@StockMKTNewz (~4:20 PM ET): NVIDIA just posted the largest one-day market-cap gain ever at +$954B (+31.5%) on Huang's return",
-      "@TheLocusAlpha (~4:17 PM ET): S&P 500 best day since Apr 2025 (+4.73% to 7,237), Nasdaq-100 +6.86%; CME Dec hike odds jumped to ~98% as 2Y rose",
-      "@T_LauRekt (~4:07 PM ET): Williams leans hawkish but measured — inflation risks skewed up, no immediate Fed relief for NQ",
-      "@samoinvest_35 (~4:17 PM ET): Nasdaq Comp closed ~+6.4% to 24,062 on NVDA-led AI bounce; WTI settled ~$80.17 (-3.9%)",
-      "Oil/Iran (~evening): WTI ~$80 on resilient Gulf flows despite US blockade of Iranian exports and sporadic Hormuz incidents; no fresh escalation priced"
+      "@T_LauRekt (~4:22 PM ET): $NQ best day since Apr 2025; Nasdaq Comp +6.47% to 24,081, NDX +6.86%, S&P +4.75%, NVDA +32% to $166 after Huang reinstated; WTI -3.9% to $80.17 — Bullish NQ",
+      "@ChaosLensX (~10:06 PM ET): Trump inclined to restart military strikes on Iran after New Year if talks fail; called negotiators 'professional tap dancers'; blockade holds, ships hit near Hormuz — Bearish NQ",
+      "@T_LauRekt / Fed (~4:00 PM ET): Williams hawkish but measured — inflation risks skewed up, higher rates over time, no immediate relief; Dec hike odds ~96-98% — Bearish NQ",
+      "Web/X (~evening): Asia (Nikkei +3%, KOSPI sidecar) chasing the AI rally while US futures flat to -0.3%; oil lower on Libya restart offsetting Gulf attacks — Mixed NQ",
+      "@dale_vaz / X (~10:05 PM ET): Nvidia board governance questions post-Huang return after $1T market-cap swing; AI trade credibility under scrutiny — Mixed NQ"
     ],
-    "trump": "Trump backed the unanimous board vote to reinstate Jensen Huang as Nvidia CEO, calling it the correct decision and stating the US needs his leadership with no national-security risk.",
-    "watch": "Hold of the Huang-driven squeeze into thin Thanksgiving-week liquidity (closed Thu, early close Fri); Wednesday core PCE and GDP for hike path confirmation; Iran/oil headlines and any Fed speaker pushback.",
+    "trump": "Trump says he's inclined to restart military strikes on Iran after New Year if talks don't produce a deal; called Iranian officials professional tap dancers. Earlier backed Nvidia board reinstating Huang as CEO with no national-security risk and has been involved in the rehiring push.",
+    "watch": "Tue Nov 24: Conference Board consumer confidence 10:00 AM ET; ADI BMO, DELL/HPQ/WDAY/ADSK/NTNX AMC. Wed Nov 25 8:30 AM ET: core PCE, Q3 GDP 2nd est, jobless claims. Markets closed Thu Thanksgiving, early close Fri. Hormuz/Iran headlines and NVDA open follow-through into thin liquidity.",
     "forSite": []
   }
 }
