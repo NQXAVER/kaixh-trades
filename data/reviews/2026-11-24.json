@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-24",
+  "entryUrl": "",
+  "summary": "No Live Journal entry exists for today as of the 4 PM close, so I can't tell from Notion whether you traded. Your Discord morning check-in was on time (8:59 AM ET, charts opened 8:58, risk screenshot confirmed, streak 23). It laid out a two-sided plan: NY AM distributes up to PDH, or momentum continues down to PDL. You also said you'd be 'trading on my phone'. Nothing went into the xavier Journal channel today, and the End of Day card hadn't been submitted as of ~4:10 PM ET. No prop-firm purchase emails came in today. If today was a no-trade day, that's a fine outcome, but it still needs a journal row so the record stays honest.",
+  "trade": "No journal entry · NY session plan only (PDH up / PDL down) · Account and result not logged · no entry, stop or target to grade.",
+  "rule": "Wednesday (pre-Thanksgiving, thin tape): log a Notion row before 9:30 AM with your bias and DOL, and take only an NY-AM setup that hits that DOL. If you trade from your phone, write the entry, stop and screenshot into the journal the same day.",
+  "screenshots": [],
+  "good": [
+    "Morning Check-in was filed at 8:59 AM ET, well before the 9:30 cutoff, with charts opened at 8:58 and a risk-settings screenshot SYNDICATOR confirmed (streak 23).",
+    "The pre-market plan had both sides mapped with clear liquidity targets (PDH above, PDL below) instead of a one-way guess.",
+    "No new eval or account purchase showed up in email today, after yesterday's LucidFlex order."
+  ],
+  "fix": [
+    "There's no Notion Live Journal entry for today. A day with no log can't be reviewed or put on the calendar.",
+    "'Will be trading on my phone' makes it harder to place stops precisely and to take screenshots. If you did trade, the journal is where that has to show up.",
+    "As of ~4:10 PM ET, there's no post in the xavier Journal channel and no End of Day card (the deadline is midnight ET). File the EOD honestly, even if the answer is 'no trade'."
+  ],
+  "questions": [
+    {
+      "q": "You planned 'distribute higher to PDH' or 'continue lower to PDL'. Which one actually played out, and where were you when it did?"
+    },
+    {
+      "q": "You said you'd be trading on your phone today. Did you take a trade from it, and if so, why isn't it in the journal yet?"
+    },
+    {
+      "q": "After Sunday's two Asia losses and Monday's eval order, what did you do today to make sure the 'make it back' feeling didn't drive a trade?"
+    }
+  ],
+  "discord": {
+    "chartsOpened": "Morning Check-in posted by SYNDICATOR at 8:59 AM ET. Charts opened at 8:58. Streak 23 days.",
+    "plan": "\"We accumulated overnight an manipulated lower maybe NYAM can distribute higher to PDH but if we continue momentum lower i want PDL. Will be trading on my phone\"",
+    "risk": "Risk-settings screenshot posted at 8:59 AM ET. SYNDICATOR confirmed it ('your morning check-in for 2026-11-24 is complete'). On time.",
+    "eod": "End of Day prompt posted at 11:00 AM ET. No EOD card had been submitted as of ~4:10 PM ET (deadline 12:00 AM ET). Chat with Bibz: 8:59 AM 'Let's get it bro', and Bibz at 9:19 AM 'patience pays'.",
+    "match": "Can't compare yet. There's no Notion entry and no EOD card for today, so whether the plan matched any trade is unverified.",
+    "journalChannel": "No post today in 'xavier Journal'. The latest one is from 11/20 at 10:01 AM ET (the BE trade)."
+  },
+  "reviewedAt": "2026-11-24T21:10:46.389Z"
+}
