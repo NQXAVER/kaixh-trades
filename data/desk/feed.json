@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T05:14:05Z",
+  "updatedAt": "2026-11-24T10:04:44Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -134,9 +134,9 @@
     {
       "id": "mw-top",
       "label": "MarketWatch",
-      "ok": false,
-      "items": 0,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
+      "ok": true,
+      "items": 10,
+      "error": null
     },
     {
       "id": "npr-biz",
@@ -203,6 +203,30 @@
     }
   ],
   "items": [
+    {
+      "id": "ffbae2ab0817a",
+      "headline": "Oil slicks in the Strait of Hormuz are harming the environment",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/11/24/nx-s1-6051361/oil-slicks-in-the-strait-of-hormuz-are-harming-the-environment",
+      "publishedAt": "2026-11-24T09:52:43Z",
+      "time": "Tue 4:52 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "f73cabb415d05",
+      "headline": "Oil Prices Hold Near Three-Month Lows Despite Hormuz Mine Claims",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Hold-Near-Three-Month-Lows-Despite-Hormuz-Mine-Claims.html",
+      "publishedAt": "2026-11-24T07:05:00Z",
+      "time": "Tue 2:05 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
     {
       "id": "f50d8cf75e072",
       "headline": "Iran says three tankers hit mines in Hormuz despite U.S. escort, as Treasury widens sanctions",
@@ -297,30 +321,6 @@
       "section": "war",
       "impact": "High",
       "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f092901af56dd",
-      "headline": "Iran unveils dual-missile launcher, new ‘missile city’: What to know",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/11/22/iran-unveils-dual-missile-launcher-new-missile-city-what-to-know?traffic_source=rss",
-      "publishedAt": "2026-11-22T14:20:41Z",
-      "time": "Sun 9:20 AM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "f292529f9aa3b",
-      "headline": "Saudi Arabia intercepts drone, missile as Houthis report attack on Sanaa",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/11/22/houthis-report-attack-on-sanaa-as-saudi-arabia-intercepts-drone?traffic_source=rss",
-      "publishedAt": "2026-11-22T13:16:45Z",
-      "time": "Sun 8:16 AM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
       "auto": true
     },
     {
@@ -520,8 +520,8 @@
       "headline": "Trump Administration Imposes Sanctions on Megaspeed, Singaporean Firm at Center of Nvidia Scandal",
       "source": "New York Times",
       "url": "https://www.nytimes.com/2026/11/23/business/trump-administration-megaspeed-trade-blacklist-nvidia.html",
-      "publishedAt": "2026-11-24T03:12:26Z",
-      "time": "Mon 10:12 PM",
+      "publishedAt": "2026-11-24T05:39:23Z",
+      "time": "Tue 12:39 AM",
       "section": "tech",
       "impact": "Medium",
       "lean": "risk-off",
