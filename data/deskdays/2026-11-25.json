@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-25",
+  "grok": {
+    "at": "2026-11-25T12:00:00Z",
+    "pulse": "NQ futures down over 2% as Monday's Huang AI relief rally fades hard into AI growth fears, potential new US tariffs, and near-certain December Fed hike pricing ahead of PCE data, while oil eases slightly despite ongoing Hormuz tanker mine incidents.",
+    "bias": "risk-off — deepening AI/semis selloff (NVDA ~-5%), tariff escalation risk on China/EU and others, 97% Dec hike odds, and Hormuz geo noise into thin holiday volume; softer oil is the only limited cushion",
+    "items": [
+      "@TheAlphaBrief (~7:00 AM ET): US futures S&P -1.9%/Nasdaq 100 -2.8%; AI trade under heavy pressure with NVDA -5.2% premarket; Brent < $88 as supply glut fears override Hormuz; three tankers hit mines",
+      "@boishivers (~7:00 AM ET): Nasdaq 100 futures down over 2.5% at 6:45am ET, NVDA off ~5% pre-market as chipmakers lead losses; Monday's Huang bounce faded, on track for worst November since 2008",
+      "@bigmelloww (~7:00 AM ET): Recap — S&P -0.5%, Nasdaq -1.5%, NVDA -6% after Monday +31%, chips smoked (MU -11%); Fed Dec hike odds 97%; PCE drops 8:30 AM ET",
+      "Web/Reuters/Yahoo (~6:00-6:30 AM ET): Nasdaq futures tumble >2% as persistent AI selling and reports of potential new US tariffs press sentiment ahead of inflation data; hyperscalers and chips lead declines",
+      "@dmoritz08151 / IRGC claims (~7:00 AM ET): Iran's IRGC Navy claims two tankers caught fire after hitting sea mines in southern/eastern Strait of Hormuz; tensions keep shipping on high alert"
+    ],
+    "trump": "Trump told reporters the Iran war is 'funded through January' amid IRGC mocking US strategic ambiguity and ongoing Hormuz incidents; standing backdrop includes reports of new tariffs on China/EU/14+ partners and openness to Nvidia stake or Huang pardon.",
+    "watch": "Wed Nov 25 8:30 AM ET: Oct core PCE, Q3 GDP 2nd est, jobless claims (Dec hike near fully priced). AI/semis open follow-through and any tariff details. Hormuz tanker/mine headlines for oil. Markets closed Thu Nov 26 (Thanksgiving), early close Fri Nov 27. Thin liquidity amplifies moves.",
+    "forSite": []
+  }
+}
