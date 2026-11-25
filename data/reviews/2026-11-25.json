@@ -1,0 +1,63 @@
+{
+ "date": "2026-11-25",
+ "entryUrl": "https://app.notion.com/42360e8f5c4580ecbecfdf5c0ef03d58",
+ "summary": "Your bias was right: bearish, NWOG fill and Friday's low (24,976.50) as the DOL. The day still went red (-$296) because of how you ran it. You were 70% on the charts while playing DayZ, so you missed the first short. You chased a late one for -$500, then re-entered the planned short. When the lunch-hour rally hit the 25,509.75 stop you were down about $1.2k. Then you turned off your DLL and, in your own words, 'risked the whole acc gambled' on a 4hr gap. You won that gamble, but it's still the most dangerous thing in this journal. A won gamble trains you to do it again. Locking out until December 1st is the right call. Also, no Morning Check-in was filed today (the SYNDICATOR check-ins look broken), and there's no End of Day card yet.",
+ "trade": "Short · NY-AM · XFA · Loss (-$296 day) · planned short entry 25,307.75 (30min 0.5 / NWOG), stop 25,509.75 (NYAM.H, ~202 pts), target 24,976.50 (Friday's low, ~331 pts, ~1.6R). Also a late chase short (-$500) and an oversized recovery trade with the DLL turned off.",
+ "rule": "Thanksgiving week: no trading until December 1st, as you wrote yourself. When you come back, the DLL stays on and never gets switched off mid-session. Max 2 trades, and no games or second screens open until you're flat.",
+ "screenshots": [
+  {
+   "label": "TimeFrame 1 · 4h ES/NQ (9:12 AM)",
+   "feedback": "The HTF read is clean. NQ is in a steep 4h leg down from 27k+ and sitting just above the NWOG, with the magenta 24,976.50 low below as the obvious draw. ES is mirroring it at its own low line. Your 'NWOG fill and Friday's low' pre-market plan comes straight off this chart."
+  },
+  {
+   "label": "TimeFrame 2 · 1h ES/NQ (9:12 AM)",
+   "feedback": "The 1h shows NQ breaking PD-H, then PD-EQ, then PD-L, with no real retrace into 9:12. That's strong bearish momentum. It also means price was already extended into the NWOG before the open, so 'wait for a 30min retrace to short' was the right framework. The setup wasn't missing. Your attention was."
+  },
+  {
+   "label": "TimeFrame 3 · 15min ES/NQ (9:12 AM)",
+   "feedback": "You marked the levels well: AS.H/AS.L, LO.H/LO.L, D OPEN and the 10:00 line, with price pressing into the NWOG and 24,976.50 far below. That's a lot of room to the DOL, so a bounce first was always likely. That bounce is what you mistook for a 'missed move' and chased."
+  },
+  {
+   "label": "Execution 1 · 5min NQ (1:40 PM)",
+   "feedback": "The short box reads entry 25,307.75 at the 0.5 of the range, with the stop at 25,509.75 just above NYAM.H. The stop is above the protected high, so it was placed correctly, but it's ~202 pts. The target is 24,976.50, ~331 pts, roughly 1.6R. Price bottomed near 25,060, about 85 pts short of target, and then the 12 PM rally ripped through the stop to NYPM.H around 25,911. Your notes (30min tap, 1min slowing, 1/5min internal bearish SMT, 1min displacement) match a real setup. The problem was holding a 200-pt stop through lunch with no bullish SMT, after you were already up ~$400."
+  }
+ ],
+ "good": [
+  "The bias was right: bearish, NWOG fill and Friday's low as the DOL, and price traded down to ~25,060 in NY AM.",
+  "The stop sat above NYAM.H (the protected high that made the displacement), not inside the range.",
+  "The target matched the pre-market plan exactly (24,976.50 = Friday's low).",
+  "You told the truth in the journal: DayZ, FOMO, tilt, DLL off, 'gambled'. That honesty is what makes this fixable.",
+  "You decided to lock out until December 1st. That's the right response to a tilt day, and you made the call yourself."
+ ],
+ "fix": [
+  "You turned off the DLL and risked the whole account to make back $1.2k. That's the single rule break that can end an XFA. The DLL is not a setting you're allowed to touch during a session.",
+  "Trading with 70% focus while playing DayZ is why you missed the first entry and then chased.",
+  "The late chase short cost $500 and set up the tilt. Missing a move means waiting for the next retrace, not entering where you are.",
+  "When you were up ~$400 with no bullish SMT and lunch coming, the trade was managed on hope. Lunch hour is when NY AM targets stall. Paying yourself, or at least moving the stop, was the plan-consistent move.",
+  "That's at least 3 trades today, well over your 2-trade cap (yesterday's EOD already said 'No, I took more than 2 trades').",
+  "No Morning Check-in was filed today (SYNDICATOR posted nothing; Bibz said check-ins look broken), and there's no End of Day card yet. Post a manual check-in with your risk screenshot when the bot is down."
+ ],
+ "questions": [
+  {
+   "q": "You wrote that you 'risked super heavy' and told Bibz you 'took off my DLL setting.' If that 4hr gap trade had failed, what would your XFA balance be right now, and would there still be an account to lock out?"
+  },
+  {
+   "q": "You said DayZ 'worked before because I would hop on after entering.' Today you were in it while trying to enter. What's the exact rule for screens and games during the session from now on?"
+  },
+  {
+   "q": "You were up ~$400 on the planned short with no bullish SMT and lunch coming. What would you have needed to see to take profit there instead of holding for the full 1.3k?"
+  },
+  {
+   "q": "Bibz called this 'post-payout stress.' Is the payout request on the 18th changing how much you feel you have to make each day?"
+  }
+ ],
+ "discord": {
+  "chartsOpened": "No Morning Check-in card from SYNDICATOR today, so there's no charts-opened time on record. At 12:25 PM ET Bibz said 'Not showing checkins - might be broken', and at 12:56 PM you said 'yeah it's broken for right now'.",
+  "plan": "No morning plan was posted to the pair channel today. The only written plan is the Notion pre-market note: 'bearish today i just want to see NWOG fill an fridays low get hit'.",
+  "risk": "No risk-settings screenshot was posted or confirmed today. Then, mid-session, you told Bibz at 12:55 PM ET 'i took off my DLL setting… risked the whole acc gambled to make back the loss'.",
+  "eod": "No End of Day card for today as of ~4:15 PM ET. Yesterday's (11/24) EOD at 10:35 PM said Rules Followed 'No bc i took more than 2 trades' (streak 24). Today's chat with Bibz: 11:38 AM 'i needa go on a mental reset', 12:54 PM 'bro i had a horrible day', 12:55 PM the full -$290 recap.",
+  "match": "Discord matches Notion: both say you let the trade breathe, the lunch pump took you out at about -$1.2k, you oversized on the 4hr gap to recover, and the day closed red (~-$290/-$296). The bias also matches the chart. Nothing posted contradicts the journal. Today's Rules Followed would honestly be 'No' (DLL off, oversizing, more than 2 trades).",
+  "journalChannel": "'xavier Journal' post at 11:06 AM ET (edited 11:07): '11/25/26 - super bearish today want to see HTF low get hit. I did not go BE i allowed it form its structure / 30min tap / 1min started to slow down… 1/5min internal bearish smt / 1min displacement. Marked EQ to give me a bit more confidence on letting it breathe', with one chart screenshot. That's the same reasoning as the Notion execution notes. It was posted while the trade was still open, before the stop-out and the oversized trade."
+ },
+ "reviewedAt": "2026-11-25T21:09:38.572Z"
+}
