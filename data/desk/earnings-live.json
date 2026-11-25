@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-24",
-  "at": "2026-11-25T03:28:08Z",
+  "date": "2026-11-25",
+  "at": "2026-11-25T12:35:04Z",
   "items": [
     {
       "ticker": "CRWD",
@@ -92,12 +92,45 @@
       "why": "Q3 rev $2.705B vs $2.69B, adj EPS $2.82 vs $2.74, sub rev +12.8%; FY27 sub rev raised to $9.958B but Q4 sub rev guide $2.60B vs $2.609B (~10% growth) and backlog growth slowing."
     },
     {
+      "ticker": "DE",
+      "company": "Deere & Co. (DE)",
+      "date": "2026-11-25",
+      "when": "BMO",
+      "status": "reported",
+      "sentiment": "Mixed",
+      "why": "FQ4 EPS $3.89 vs $4.03 est miss, net income $1.05B vs $1.08B est, net sales $12.12B; Small Ag & Turf $2.70B vs $2.74B est. Small NQ weight."
+    },
+    {
       "ticker": "MRVL",
       "company": "Marvell Technology (MRVL)",
       "date": "2026-12-01",
       "when": "AMC",
       "status": "upcoming",
       "why": "FQ3 results Dec 1 AMC (consensus EPS ~$1.10, rev ~$3.15B per MarketBeat); AI custom silicon/semis read."
+    },
+    {
+      "ticker": "OKTA",
+      "company": "Okta (OKTA)",
+      "date": "2026-12-01",
+      "when": "AMC",
+      "status": "upcoming",
+      "why": "Q3 FY27 results Dec 1 AMC (consensus EPS ~$0.93 per TradingView); cyber/software read."
+    },
+    {
+      "ticker": "CRM",
+      "company": "Salesforce (CRM)",
+      "date": "2026-12-02",
+      "when": "AMC",
+      "status": "upcoming",
+      "why": "Q3 FY27 results Dec 2 AMC (consensus EPS ~$3.45); key software/AI-agent read for NQ."
+    },
+    {
+      "ticker": "SNOW",
+      "company": "Snowflake (SNOW)",
+      "date": "2026-12-02",
+      "when": "AMC",
+      "status": "upcoming",
+      "why": "Q3 FY27 results Dec 2 AMC (consensus EPS ~$0.60); AI data/cloud software read."
     }
   ]
 }
