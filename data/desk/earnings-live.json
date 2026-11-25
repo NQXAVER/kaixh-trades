@@ -1,6 +1,6 @@
 {
   "date": "2026-11-24",
-  "at": "2026-11-24T21:35:18Z",
+  "at": "2026-11-25T01:32:40Z",
   "items": [
     {
       "ticker": "CRWD",
@@ -58,9 +58,9 @@
       "date": "2026-11-24",
       "when": "AMC",
       "status": "reported",
-      "reaction": "~+3-4% AH",
+      "reaction": "~+4-6% AH",
       "sentiment": "Bullish",
-      "why": "Q3 rev $54.94B (+103% y/y) vs $49.32B est, adj EPS $9.45 vs $6.59; Q4 rev guide $56.3B vs $53.61B, FY rev guide $202B vs $194.5B; AI backlog $132.3B; +$25B buyback."
+      "why": "Q3 rev $54.94B (+103% y/y) vs $49.32B est, adj EPS $9.45 vs $6.59; AI server rev $22.0B (+291%), AI backlog $132.3B; Q4 rev guide $56.3B vs $53.61B, FY guide raised to $202B; +$25B buyback. Stock fell ~12% in the regular session before the print."
     },
     {
       "ticker": "HPQ",
@@ -87,7 +87,7 @@
       "date": "2026-11-24",
       "when": "AMC",
       "status": "reported",
-      "reaction": "~-3-4% AH",
+      "reaction": "~-3% to -7% AH",
       "sentiment": "Mixed",
       "why": "Q3 rev $2.705B vs $2.69B, adj EPS $2.82 vs $2.74, sub rev +12.8%; FY27 sub rev raised to $9.958B but Q4 sub rev guide $2.60B vs $2.609B (~10% growth) and backlog growth slowing."
     },
