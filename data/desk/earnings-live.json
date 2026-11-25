@@ -1,6 +1,6 @@
 {
   "date": "2026-11-25",
-  "at": "2026-11-25T14:34:28Z",
+  "at": "2026-11-25T21:35:44Z",
   "items": [
     {
       "ticker": "CRWD",
@@ -58,7 +58,7 @@
       "date": "2026-11-24",
       "when": "AMC",
       "status": "reported",
-      "reaction": "~+4-6% AH",
+      "reaction": "+0.6% close Wed",
       "sentiment": "Bullish",
       "why": "Q3 rev $54.94B (+103% y/y) vs $49.32B est, adj EPS $9.45 vs $6.59; AI server rev $22.0B (+291%), AI backlog $132.3B; Q4 rev guide $56.3B vs $53.61B, FY guide raised to $202B; +$25B buyback. Stock fell ~12% in the regular session before the print."
     },
@@ -68,7 +68,7 @@
       "date": "2026-11-24",
       "when": "AMC",
       "status": "reported",
-      "reaction": "~+13% AH",
+      "reaction": "+11.4% close Wed",
       "sentiment": "Bullish",
       "why": "FQ4 rev $16.0B vs $15.42B est (+9.3% y/y), adj EPS $0.83 vs $0.75; Personal Systems +14%; FY27 adj EPS guide $3.15-3.45 vs $3.17 est."
     },
