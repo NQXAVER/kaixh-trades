@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T03:41:11Z",
+  "updatedAt": "2026-11-25T08:50:00Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -127,16 +127,16 @@
     {
       "id": "mw-live",
       "label": "MarketWatch",
-      "ok": false,
-      "items": 0,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
+      "ok": true,
+      "items": 10,
+      "error": null
     },
     {
       "id": "mw-top",
       "label": "MarketWatch",
-      "ok": true,
-      "items": 10,
-      "error": null
+      "ok": false,
+      "items": 0,
+      "error": "HTTPError: HTTP Error 400: Bad Request"
     },
     {
       "id": "npr-biz",
@@ -203,6 +203,30 @@
     }
   ],
   "items": [
+    {
+      "id": "fbd707c745a23",
+      "headline": "Oil Prices Slide Despite Mounting Threats in the Strait of Hormuz",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Energy/Energy-General/Oil-Prices-Slide-Despite-Mounting-Threats-in-the-Strait-of-Hormuz.html",
+      "publishedAt": "2026-11-25T05:50:00Z",
+      "time": "Wed 12:50 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "fb94c061dadfd",
+      "headline": "Phone spying to missiles: Why India-Israel strategic ties go beyond Modi",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/25/phone-spying-to-missiles-why-india-israel-strategic-ties-go-beyond-modi?traffic_source=rss",
+      "publishedAt": "2026-11-25T05:27:32Z",
+      "time": "Wed 12:27 AM",
+      "section": "war",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
     {
       "id": "fa740a0118644",
       "headline": "Senior Hamas security official killed in Israeli drone strikes",
@@ -300,30 +324,6 @@
       "auto": true
     },
     {
-      "id": "fc01636b52de7",
-      "headline": "South Korea Asks Qatar for Priority LNG Once Hormuz Reopens",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/South-Korea-Asks-Qatar-for-Priority-LNG-Once-Hormuz-Reopens.html",
-      "publishedAt": "2026-11-23T13:30:00Z",
-      "time": "Mon 8:30 AM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "f32601747adb0",
-      "headline": "Iran war live: Tankers set ablaze in Hormuz as IRGC warns of unrest threat",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/11/22/iran-war-live-tankers-set-ablaze-in-hormuz-as-irgc-warns-of-unrest-threat?traffic_source=rss",
-      "publishedAt": "2026-11-22T23:59:22Z",
-      "time": "Sun 6:59 PM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
       "id": "f6659a9fdba83",
       "headline": "5 Energy Stocks That Can Shrug Off a December Fed Rate Hike",
       "source": "OilPrice",
@@ -408,6 +408,18 @@
       "auto": true
     },
     {
+      "id": "fde94ece66919",
+      "headline": "Treasury yields fall as investors await key inflation signal",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/25/treasury-yields-bonds-inflation.html",
+      "publishedAt": "2026-11-25T07:44:24Z",
+      "time": "Wed 2:44 AM",
+      "section": "econ",
+      "impact": "Medium",
+      "lean": "risk-on",
+      "auto": true
+    },
+    {
       "id": "fbfac256976f4",
       "headline": "Politics live: Chalmers says economy faces ‘serious moment’ amid inflation; NSW ‘scaling up’ response after fire ants found in Sydney",
       "source": "The Guardian",
@@ -432,8 +444,8 @@
       "auto": true
     },
     {
-      "id": "fd6b7f6e19cfc",
-      "headline": "US preparing to unveil new tariffs on global trading partners",
+      "id": "fbb974305fd83",
+      "headline": "US preparing to unveil plan for new tariffs on global trading partners",
       "source": "BBC",
       "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
       "publishedAt": "2026-11-25T00:38:01Z",
@@ -612,6 +624,54 @@
       "auto": true
     },
     {
+      "id": "f14aaaa616c18",
+      "headline": "Global LNG Supply Crunch Set to Spill Into 2027",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Global-LNG-Supply-Crunch-Set-to-Spill-Into-2027.html",
+      "publishedAt": "2026-11-25T08:30:00Z",
+      "time": "Wed 3:30 AM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f362f1fbfc6ce",
+      "headline": "Labor wins Greens support for trust changes in exchange for scrapping jet fuel subsidies for the wealthy",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/25/labor-greens-deal-discretionary-trust-changes-jet-fuel-subsidies-scrapped-for-private-jet-owners",
+      "publishedAt": "2026-11-25T07:16:33Z",
+      "time": "Wed 2:16 AM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f7b38211df710",
+      "headline": "Goldman Sachs Sees U.S. Natural Gas Demand Surging on Data Center Boom",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Goldman-Sachs-Sees-US-Natural-Gas-Demand-Surging-on-Data-Center-Boom.html",
+      "publishedAt": "2026-11-25T06:45:00Z",
+      "time": "Wed 1:45 AM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f279f43d7bd26",
+      "headline": "China Goes on Oil Buying Spree as Crude Prices Slide",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/China-Goes-on-Oil-Buying-Spree-as-Crude-Prices-Slide.html",
+      "publishedAt": "2026-11-25T05:25:00Z",
+      "time": "Wed 12:25 AM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "f25795c76f859",
       "headline": "WHO chief urges end to US fuel blockade on Cuba",
       "source": "Al Jazeera",
@@ -660,60 +720,12 @@
       "auto": true
     },
     {
-      "id": "fc078513071eb",
-      "headline": "Is This Tiny Oil Giant The Real Crown Jewel Of Trump’s New World Order?",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Energy/Crude-Oil/Is-This-Tiny-Oil-Giant-The-Real-Crown-Jewel-Of-Trumps-New-World-Order.html",
-      "publishedAt": "2026-11-24T20:00:00Z",
-      "time": "Tue 3:00 PM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f6bb0d2767aa0",
-      "headline": "Iraq Refuses to Accept OPEC+ Assessment of its Production Capacity",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Iraq-Refuses-to-Accept-OPEC-Assessment-of-its-Production-Capacity.html",
-      "publishedAt": "2026-11-24T18:30:00Z",
-      "time": "Tue 1:30 PM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f0e6d344db38a",
-      "headline": "Canada’s Oilfield Services Sector Is Gearing Up for a Stronger 2027",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Energy/Energy-General/Canadas-Oilfield-Services-Sector-Is-Gearing-Up-for-a-Stronger-2027.html",
-      "publishedAt": "2026-11-24T18:00:00Z",
-      "time": "Tue 1:00 PM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f12d4b74f7a8e",
-      "headline": "Saudi Arabia Sees Smaller Economic Slump as More Oil Reaches Market",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Sees-Smaller-Economic-Slump-as-More-Oil-Reaches-Market.html",
-      "publishedAt": "2026-11-24T17:00:00Z",
-      "time": "Tue 12:00 PM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "ff14d9b2ac4d4",
-      "headline": "SoftBank drops 14% as Wall Street AI sell-off ripples across Asian tech names",
+      "id": "f87c86a983162",
+      "headline": "SoftBank drops 15% as Wall Street AI sell-off ripples across Asian tech names",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/11/25/tech-stocks-softbank-group-advantest-sk-hynix-samsung.html",
-      "publishedAt": "2026-11-25T01:57:29Z",
-      "time": "Tue 8:57 PM",
+      "publishedAt": "2026-11-25T03:52:03Z",
+      "time": "Tue 10:52 PM",
       "section": "markets",
       "impact": "Medium",
       "lean": "risk-off",
