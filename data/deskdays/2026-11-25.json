@@ -2,28 +2,28 @@
   "date": "2026-11-25",
   "grok": {
     "date": "2026-11-25",
-    "at": "2026-11-25T14:30:27Z",
-    "pulse": "NQ and ES futures are sharply lower into the cash open as the AI selloff resumes with NVDA down ~5% premarket, hot PCE inflation (3.8% y/y) locking in a December Fed hike, and lingering Iran/Hormuz risks amid thin pre-Thanksgiving liquidity.",
-    "bias": "risk-off \u2014 renewed AI/semis liquidation after Huang bounce faded, hotter-than-expected core PCE cementing ~97% Dec hike odds, tariff threats and Hormuz tanker incidents; thin holiday tape amplifies downside",
+    "at": "2026-11-25T14:34:28Z",
+    "pulse": "NQ gaps down ~3.3% at the cash open (Nasdaq -3.3%, SOX -5.9%, NVDA -8%) as the AI/semis unwind deepens on a hot core PCE (3.3% y/y vs 3.2%) and new Section 301 'deal-rate' tariffs on China/EU/Asia, partly offset by a strong Q3 GDP revision to 4.3% and a 10y yield bid (-10 bp to 4.83%).",
+    "bias": "risk-off — AI capex/debt fears, NVDA -8% erasing the Huang rally, sticky core PCE keeping ~93% Dec hike odds, new tariff proposals and a fresh Hormuz tanker mine hit; only offsets are falling yields and strong GDP in a thin pre-Thanksgiving tape.",
     "items": [
-      "@myboon (~9:30 AM ET): Nasdaq 100 futures -2.88%, S&P -1.94%, Dow -1.32%; NVDA -5.25% premarket \u2014 Bearish NQ",
-      "@Tickeron (~8:50 AM ET): NQ futures -2.9%, ES -1.9%; AI selling back with NVDA -5%, VIX ~26 \u2014 Bearish NQ",
-      "Barrons/WSJ (~8:54 AM ET): Hot PCE (3.8% annual, core 3.3%) worsens AI selloff; Nasdaq futures -3.1% \u2014 Bearish NQ",
-      "Reuters/Yahoo (~6:00-9:00 AM ET): Nasdaq futures tumble >2% on AI losses and potential new US tariffs ahead of inflation data; Dec hike ~97% \u2014 Bearish NQ",
-      "@FuturesWire (~7:15 AM ET): AI trade wobbles, Nasdaq futures fall over 2%, gold/silver slide on haven flows to Treasuries \u2014 Bearish NQ"
+      "@FirstSquawk (~9:33 AM ET): Nasdaq -3.34% at 22,942, S&P -2.30% at 7,036, Dow -1.56% after the open; @DeItaone 9:31 AM: NVDA -8.3% after -5.9% Tue — Bearish NQ",
+      "@zerohedge (~8:31 AM ET): Oct core PCE 3.3% y/y vs 3.2% exp (0.3% m/m in line), headline 3.8% in line; Q3 GDP 2nd est 4.3% vs 3.5% exp — Bearish NQ",
+      "@zerohedge (~8:18 AM ET): US proposes 20% 'deal rate' tariff on China, 15%+ on EU, Taiwan, 20%+ Vietnam; @FirstSquawk 9:01 AM: 15% net of MFN on S.Korea/Taiwan/Japan — Bearish NQ",
+      "@FirstSquawk (~9:31 AM ET): US 10y yield -10 bp to 4.83% as money flees to Treasuries; gold -2% to $3,484 (@DeItaone 8:37 AM) — Mixed NQ",
+      "@LiveSquawk (~9:26 AM ET): Iran Navy says tanker hit a sea mine and caught fire east of Hormuz (Fars); Bessent 9:22 AM: Iran has no oil left on the water to sell — Bearish NQ"
     ],
-    "trump": "Admin reports of new broad tariffs on China, EU and 14 other economies after Section 301 probe; Trump said Iran war is funded through January amid ongoing Hormuz incidents.",
-    "watch": "Cash open reaction to hot PCE and AI weakness; Hormuz/oil headlines; markets closed Thursday for Thanksgiving, early close Friday; Dec 9 FOMC for the expected hike.",
+    "trump": "Admin rolled out proposed Section 301 'deal-rate' tariffs (China 20%, EU 15%+, Taiwan/Japan/S.Korea 15% net of MFN, Vietnam 20%+, India 17%+); USTR Greer: 'tariff rates will hew towards deal rates', Nvidia is 'structurally important', hearings set for Jan 25, 2027. White House touted Q3 GDP: 'Economy grows FASTER THAN EXPECTED'. Reports the admin is debating strikes on Iranian leaders; no decision.",
+    "watch": "10:00 AM ET: first-hour follow-through on NVDA/SOX and whether NQ holds the gap low; Hormuz tanker/mine and Iran strike headlines; tariff reaction from China/EU. Thu Nov 26 closed (Thanksgiving), Fri Nov 27 early 1:00 PM close. Dec 1 AMC: MRVL, OKTA; Dec 2 AMC: CRM, SNOW. Dec 9 FOMC (~93% hike odds).",
     "forSite": [],
     "reports": [
       {
         "at": "2026-11-25T12:00:00Z",
         "pulse": "NQ futures down over 2% as Monday's Huang AI relief rally fades hard into AI growth fears, potential new US tariffs, and near-certain December Fed hike pricing ahead of PCE data, while oil eases slightly despite ongoing Hormuz tanker mine incidents.",
-        "bias": "risk-off \u2014 deepening AI/semis selloff (NVDA ~-5%), tariff escalation risk on China/EU and others, 97% Dec hike odds, and Hormuz geo noise into thin holiday volume; softer oil is the only limited cushion",
+        "bias": "risk-off — deepening AI/semis selloff (NVDA ~-5%), tariff escalation risk on China/EU and others, 97% Dec hike odds, and Hormuz geo noise into thin holiday volume; softer oil is the only limited cushion",
         "items": [
           "@TheAlphaBrief (~7:00 AM ET): US futures S&P -1.9%/Nasdaq 100 -2.8%; AI trade under heavy pressure with NVDA -5.2% premarket; Brent < $88 as supply glut fears override Hormuz; three tankers hit mines",
           "@boishivers (~7:00 AM ET): Nasdaq 100 futures down over 2.5% at 6:45am ET, NVDA off ~5% pre-market as chipmakers lead losses; Monday's Huang bounce faded, on track for worst November since 2008",
-          "@bigmelloww (~7:00 AM ET): Recap \u2014 S&P -0.5%, Nasdaq -1.5%, NVDA -6% after Monday +31%, chips smoked (MU -11%); Fed Dec hike odds 97%; PCE drops 8:30 AM ET",
+          "@bigmelloww (~7:00 AM ET): Recap — S&P -0.5%, Nasdaq -1.5%, NVDA -6% after Monday +31%, chips smoked (MU -11%); Fed Dec hike odds 97%; PCE drops 8:30 AM ET",
           "Web/Reuters/Yahoo (~6:00-6:30 AM ET): Nasdaq futures tumble >2% as persistent AI selling and reports of potential new US tariffs press sentiment ahead of inflation data; hyperscalers and chips lead declines",
           "@dmoritz08151 / IRGC claims (~7:00 AM ET): Iran's IRGC Navy claims two tankers caught fire after hitting sea mines in southern/eastern Strait of Hormuz; tensions keep shipping on high alert"
         ],
@@ -34,13 +34,13 @@
       {
         "at": "2026-11-25T12:35:04Z",
         "pulse": "NQ futures down ~3% premarket (below pre-Huang levels, fully erasing Monday's rally) on a renewed AI/semis selloff (NVDA -5% pre, SOXX -4%, SoftBank -15%, Kospi -6%) plus reports of new Trump tariffs on 16 economies, with only Dec-hike pricing already near 100% and a pre-holiday data dump at 8:30 AM as possible offsets.",
-        "bias": "risk-off \u2014 AI capex/financing fears (banks selling AI data center loans), NVDA comeback fading, tariff threat and ~97% Dec hike odds; a soft core PCE at 8:30 is the main upside risk for a squeeze.",
+        "bias": "risk-off — AI capex/financing fears (banks selling AI data center loans), NVDA comeback fading, tariff threat and ~97% Dec hike odds; a soft core PCE at 8:30 is the main upside risk for a squeeze.",
         "items": [
-          "@DeItaone (~7:05 AM ET): NQ futures -2.97%, ES -1.98%, YM -1.3%; @zerohedge 7:20 AM: NQ extends drop to 3% \u2014 Bearish NQ",
-          "@DeItaone (~6:47 AM ET): Nasdaq-100 futures erase entire Huang comeback rally; NVDA -5% premarket after -5.9% Tue, SOXX -4.2% (@FirstSquawk 4:34 AM) \u2014 Bearish NQ",
-          "@DeItaone (~7:09 AM ET): banks selling AI data center loans as financing risks mount (Reuters Breakingviews); SoftBank -15% (6:34 AM) \u2014 Bearish NQ",
-          "WSJ/AP via X (~5:15 PM ET Tue onward): Trump admin preparing new tariffs on 16 economies (China, EU, Japan, Korea, Taiwan, India, Mexico) after Section 301 probe \u2014 Bearish NQ",
-          "@LiveSquawk (~7:00 AM ET): MBA mortgage apps +6.1%, 30y rate 7.38%; gold < $3,500 (7:05 AM), BTC < $59K (@DeItaone 6:26 AM) = liquidity flush \u2014 Bearish NQ"
+          "@DeItaone (~7:05 AM ET): NQ futures -2.97%, ES -1.98%, YM -1.3%; @zerohedge 7:20 AM: NQ extends drop to 3% — Bearish NQ",
+          "@DeItaone (~6:47 AM ET): Nasdaq-100 futures erase entire Huang comeback rally; NVDA -5% premarket after -5.9% Tue, SOXX -4.2% (@FirstSquawk 4:34 AM) — Bearish NQ",
+          "@DeItaone (~7:09 AM ET): banks selling AI data center loans as financing risks mount (Reuters Breakingviews); SoftBank -15% (6:34 AM) — Bearish NQ",
+          "WSJ/AP via X (~5:15 PM ET Tue onward): Trump admin preparing new tariffs on 16 economies (China, EU, Japan, Korea, Taiwan, India, Mexico) after Section 301 probe — Bearish NQ",
+          "@LiveSquawk (~7:00 AM ET): MBA mortgage apps +6.1%, 30y rate 7.38%; gold < $3,500 (7:05 AM), BTC < $59K (@DeItaone 6:26 AM) = liquidity flush — Bearish NQ"
         ],
         "trump": "Admin reportedly readying broad Section 301 tariffs on 16 economies (WSJ, Tue evening); Trump told NY Post the Iran war is 'funded' through January; backed a 10% credit card rate cap. No new Truth Social posts overnight.",
         "watch": "8:30 AM ET: Oct PCE (est 0.3% m/m, 3.8% y/y; core 0.3%/3.2%), Q3 GDP 2nd est, jobless claims, durable goods. 10:00 AM: cash open follow-through for NVDA/semis. Hormuz tanker/mine and tariff headlines. Thu Nov 26 closed (Thanksgiving), Fri Nov 27 early close. Next week: MRVL/OKTA Dec 1 AMC, CRM/SNOW Dec 2 AMC.",
@@ -49,16 +49,31 @@
       {
         "at": "2026-11-25T14:30:27Z",
         "pulse": "NQ and ES futures are sharply lower into the cash open as the AI selloff resumes with NVDA down ~5% premarket, hot PCE inflation (3.8% y/y) locking in a December Fed hike, and lingering Iran/Hormuz risks amid thin pre-Thanksgiving liquidity.",
-        "bias": "risk-off \u2014 renewed AI/semis liquidation after Huang bounce faded, hotter-than-expected core PCE cementing ~97% Dec hike odds, tariff threats and Hormuz tanker incidents; thin holiday tape amplifies downside",
+        "bias": "risk-off — renewed AI/semis liquidation after Huang bounce faded, hotter-than-expected core PCE cementing ~97% Dec hike odds, tariff threats and Hormuz tanker incidents; thin holiday tape amplifies downside",
         "items": [
-          "@myboon (~9:30 AM ET): Nasdaq 100 futures -2.88%, S&P -1.94%, Dow -1.32%; NVDA -5.25% premarket \u2014 Bearish NQ",
-          "@Tickeron (~8:50 AM ET): NQ futures -2.9%, ES -1.9%; AI selling back with NVDA -5%, VIX ~26 \u2014 Bearish NQ",
-          "Barrons/WSJ (~8:54 AM ET): Hot PCE (3.8% annual, core 3.3%) worsens AI selloff; Nasdaq futures -3.1% \u2014 Bearish NQ",
-          "Reuters/Yahoo (~6:00-9:00 AM ET): Nasdaq futures tumble >2% on AI losses and potential new US tariffs ahead of inflation data; Dec hike ~97% \u2014 Bearish NQ",
-          "@FuturesWire (~7:15 AM ET): AI trade wobbles, Nasdaq futures fall over 2%, gold/silver slide on haven flows to Treasuries \u2014 Bearish NQ"
+          "@myboon (~9:30 AM ET): Nasdaq 100 futures -2.88%, S&P -1.94%, Dow -1.32%; NVDA -5.25% premarket — Bearish NQ",
+          "@Tickeron (~8:50 AM ET): NQ futures -2.9%, ES -1.9%; AI selling back with NVDA -5%, VIX ~26 — Bearish NQ",
+          "Barrons/WSJ (~8:54 AM ET): Hot PCE (3.8% annual, core 3.3%) worsens AI selloff; Nasdaq futures -3.1% — Bearish NQ",
+          "Reuters/Yahoo (~6:00-9:00 AM ET): Nasdaq futures tumble >2% on AI losses and potential new US tariffs ahead of inflation data; Dec hike ~97% — Bearish NQ",
+          "@FuturesWire (~7:15 AM ET): AI trade wobbles, Nasdaq futures fall over 2%, gold/silver slide on haven flows to Treasuries — Bearish NQ"
         ],
         "trump": "Admin reports of new broad tariffs on China, EU and 14 other economies after Section 301 probe; Trump said Iran war is funded through January amid ongoing Hormuz incidents.",
         "watch": "Cash open reaction to hot PCE and AI weakness; Hormuz/oil headlines; markets closed Thursday for Thanksgiving, early close Friday; Dec 9 FOMC for the expected hike.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-25T14:34:28Z",
+        "pulse": "NQ gaps down ~3.3% at the cash open (Nasdaq -3.3%, SOX -5.9%, NVDA -8%) as the AI/semis unwind deepens on a hot core PCE (3.3% y/y vs 3.2%) and new Section 301 'deal-rate' tariffs on China/EU/Asia, partly offset by a strong Q3 GDP revision to 4.3% and a 10y yield bid (-10 bp to 4.83%).",
+        "bias": "risk-off — AI capex/debt fears, NVDA -8% erasing the Huang rally, sticky core PCE keeping ~93% Dec hike odds, new tariff proposals and a fresh Hormuz tanker mine hit; only offsets are falling yields and strong GDP in a thin pre-Thanksgiving tape.",
+        "items": [
+          "@FirstSquawk (~9:33 AM ET): Nasdaq -3.34% at 22,942, S&P -2.30% at 7,036, Dow -1.56% after the open; @DeItaone 9:31 AM: NVDA -8.3% after -5.9% Tue — Bearish NQ",
+          "@zerohedge (~8:31 AM ET): Oct core PCE 3.3% y/y vs 3.2% exp (0.3% m/m in line), headline 3.8% in line; Q3 GDP 2nd est 4.3% vs 3.5% exp — Bearish NQ",
+          "@zerohedge (~8:18 AM ET): US proposes 20% 'deal rate' tariff on China, 15%+ on EU, Taiwan, 20%+ Vietnam; @FirstSquawk 9:01 AM: 15% net of MFN on S.Korea/Taiwan/Japan — Bearish NQ",
+          "@FirstSquawk (~9:31 AM ET): US 10y yield -10 bp to 4.83% as money flees to Treasuries; gold -2% to $3,484 (@DeItaone 8:37 AM) — Mixed NQ",
+          "@LiveSquawk (~9:26 AM ET): Iran Navy says tanker hit a sea mine and caught fire east of Hormuz (Fars); Bessent 9:22 AM: Iran has no oil left on the water to sell — Bearish NQ"
+        ],
+        "trump": "Admin rolled out proposed Section 301 'deal-rate' tariffs (China 20%, EU 15%+, Taiwan/Japan/S.Korea 15% net of MFN, Vietnam 20%+, India 17%+); USTR Greer: 'tariff rates will hew towards deal rates', Nvidia is 'structurally important', hearings set for Jan 25, 2027. White House touted Q3 GDP: 'Economy grows FASTER THAN EXPECTED'. Reports the admin is debating strikes on Iranian leaders; no decision.",
+        "watch": "10:00 AM ET: first-hour follow-through on NVDA/SOX and whether NQ holds the gap low; Hormuz tanker/mine and Iran strike headlines; tariff reaction from China/EU. Thu Nov 26 closed (Thanksgiving), Fri Nov 27 early 1:00 PM close. Dec 1 AMC: MRVL, OKTA; Dec 2 AMC: CRM, SNOW. Dec 9 FOMC (~93% hike odds).",
         "forSite": []
       }
     ]
