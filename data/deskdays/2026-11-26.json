@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-26",
+  "grok": {
+    "at": "2026-11-26T12:00:00Z",
+    "pulse": "NQ/ES futures modestly higher (+0.5%) into thin Thanksgiving trading after Wednesday's violent AI-driven swing (Nasdaq intraday -4.6% to close -0.6%), as the AI trade steadies amid fresh Nvidia SE Asia shipment curbs and elevated oil on Iran/Hormuz risks.",
+    "bias": "mixed — holiday-thin liquidity and AI stabilization support a modest futures bid, offset by Nvidia export controls to Southeast Asia and persistent Iran/Hormuz oil premium",
+    "items": [
+      "@onlytrades_club (~7:00 AM ET): Nasdaq futures +0.5% to ~26,228, S&P +0.5%; fade from overnight +1.1%, thin into 1PM ET halt",
+      "@sports_lamb (~7:00 AM ET): Markets closed for Thanksgiving, futures steadying; Nasdaq +0.5% after Wed -4.6% intraday close -0.6%, NVDA -3.9% to $149.30",
+      "@zerohedge (~6:55 AM ET): Nvidia halts AI chip shipments to Malaysia, Singapore, Thailand, Indonesia on new US export controls (FT)",
+      "Reuters (~early AM ET): Oil eases after Wed gains; Brent ~$94, WTI ~$83-84 with lingering Iran mine claims in Hormuz and Houthi attacks on Saudi",
+      "Morningstar (~early): US stock futures higher as AI trade steadies for Thanksgiving break; Nasdaq futures +0.5%"
+    ],
+    "trump": "none",
+    "watch": "Friday Nov 27 half-day session (cash close 1:00 PM ET): recovery hold vs AI/Nvidia export headlines, oil reaction to Iran/Hormuz/Houthi, thin liquidity into Dec 9 FOMC (hike priced).",
+    "forSite": []
+  }
+}
