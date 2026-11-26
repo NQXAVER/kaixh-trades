@@ -1,18 +1,18 @@
 {
-  "date": "2026-11-24",
+  "date": "2026-11-25",
   "grok": {
-    "at": "2026-11-24T12:00:48Z",
-    "pulse": "After Monday's historic +6.5% AI relief rally on Jensen Huang's Nvidia reinstatement, NQ and ES futures are reversing lower pre-market on profit-taking, lingering AI questions, fresh Iran sanctions/Hormuz mine claims, and near-certain December Fed hike pricing ahead of Wednesday's PCE.",
-    "bias": "mixed — Huang-driven snapback fading into profit-taking and hawkish Fed/Iran headlines; oil soft and Asia chased overnight keep it two-way into thin holiday liquidity",
+    "at": "2026-11-26T03:05:34Z",
+    "pulse": "Nasdaq closed -0.6% after a nearly 4% intraday plunge on AI selloff, Trump tariff proposals, and hotter core PCE, with overnight futures and Asia recovering as dip-buying and falling yields supported a bounce ahead of Thanksgiving.",
+    "bias": "mixed — strong afternoon recovery and overnight Asia/futures bid offset persistent AI/semis pressure, new tariffs, sticky inflation locking Dec FOMC hike, and elevated oil from Houthi/Iran risks",
     "items": [
-      "@T_LauRekt (~4:22 PM ET Mon): $NQ best day since Apr 2025; Nasdaq Comp +6.47% to 24,081, NDX +6.86%, S&P +4.75%, NVDA +32% to $166 after Huang reinstated; WTI -3.9% to $80.17",
-      "@SaloneStephen (~6:59 AM ET): Morning briefing — Mon face-ripper NVDA +31% SPX +4.7%; this morning NQ futures -1.4% ES -0.71%; Dec hike ~94% odds; Iran claims hit three tankers with mines in Hormuz",
-      "@rittikd (~6:58 AM ET): Pre-market edition — S&P futures ~-0.6% NQ -1 to -1.3%; NVDA -5% after +31%; Asia Nikkei +3.9% KOSPI +6.3% chasing while BTC gave back to $59k",
-      "@NightOwlTrade (~7:00 AM ET): Hormuz risk escalates as IRGC says another tanker hit a mine; AI mixed with Anthropic below IPO; sentiment bearish",
-      "Web/Benzinga (~5 AM ET): Dow/S&P/Nasdaq futures fall after Scott Bessent unveils fresh Iran sanctions and Hormuz warnings; NQ ~-1% premarket"
+      "@FirstSquawk (~4:01 PM ET): Nasdaq Comp -0.57% to 23,598 after paring near-bear-market drop, S&P -0.20%, Dow +0.40% — Mixed NQ",
+      "@Vest (~12:02 PM ET): $NQ down 4% session, $ES -2.5%, SOX -7% leading second day of losses — Bearish NQ",
+      "Web/Reuters (~11 AM ET): Nasdaq sinks ~4% as AI rout deepens with NVDA -8%, fresh Trump tariffs on 14 partners, core PCE 3.3% — Bearish NQ",
+      "@MarioNawfal / oil (~evening): Houthis claim hit on Saudi refinery, Brent up over 3% — Bearish risk",
+      "@unusual_whales (~7:31 PM ET): Trump says he intervened in Nvidia leadership; Sen. Gallego seeks probe — Mixed NQ"
     ],
-    "trump": "Trump backed the Nvidia board's reinstatement of Jensen Huang as CEO with no national-security risk and has been involved in the rehiring push. On Iran he has paused further strikes until after the new year but leans toward resuming them after Jan 1 if talks stall; new Treasury sanctions announced.",
-    "watch": "Tue Nov 24: Conference Board consumer confidence 10:00 AM ET; retail earnings BMO (BBY, DLTR, etc). Wed Nov 25 8:30 AM ET: core PCE, Q3 GDP 2nd est, jobless claims. Markets closed Thu Thanksgiving, early close Fri. Watch NVDA open follow-through, Hormuz/Iran headlines, and Dec hike pricing into thin liquidity.",
+    "trump": "Admin proposed new Section 301 tariffs up to 20%+ on China, EU and other partners; Trump said he intervened in Nvidia leadership decision on behalf of the USA; Iran/Houthi tensions keeping oil elevated.",
+    "watch": "Friday Nov 27 half-day (cash close 1PM ET): hold of the recovery vs AI follow-through; oil reaction to Houthi/Saudi and OPEC+; any tariff responses; thin liquidity; Dec FOMC hike near certain.",
     "forSite": []
   }
 }
