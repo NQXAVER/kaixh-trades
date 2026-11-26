@@ -1,15 +1,48 @@
 {
-  "at": "2026-11-26T12:00:00Z",
-  "pulse": "NQ/ES futures modestly higher (+0.5%) into thin Thanksgiving trading after Wednesday's violent AI-driven swing (Nasdaq intraday -4.6% to close -0.6%), as the AI trade steadies amid fresh Nvidia SE Asia shipment curbs and elevated oil on Iran/Hormuz risks.",
-  "bias": "mixed — holiday-thin liquidity and AI stabilization support a modest futures bid, offset by Nvidia export controls to Southeast Asia and persistent Iran/Hormuz oil premium",
+  "date": "2026-11-26",
+  "at": "2026-11-26T12:33:47Z",
+  "pulse": "NQ holding a modest bid (~+0.5%) in thin Thanksgiving Globex trade (equity futures halt 1:00 PM ET) as the AI trade steadies after Wed's -4.7% intraday NDX flush/reversal, offset by Nvidia halting AI server shipments to SE Asia on new US export curbs and fresh Iran/Hormuz mine headlines.",
+  "bias": "mixed — holiday-thin AI rebound and softer Brent (~$93.65) support NQ, but NVDA SE Asia shipment halt, Trump's new tariff salvo on 14 partners and Hormuz tanker-mine claims cap upside",
   "items": [
-    "@onlytrades_club (~7:00 AM ET): Nasdaq futures +0.5% to ~26,228, S&P +0.5%; fade from overnight +1.1%, thin into 1PM ET halt",
-    "@sports_lamb (~7:00 AM ET): Markets closed for Thanksgiving, futures steadying; Nasdaq +0.5% after Wed -4.6% intraday close -0.6%, NVDA -3.9% to $149.30",
-    "@zerohedge (~6:55 AM ET): Nvidia halts AI chip shipments to Malaysia, Singapore, Thailand, Indonesia on new US export controls (FT)",
-    "Reuters (~early AM ET): Oil eases after Wed gains; Brent ~$94, WTI ~$83-84 with lingering Iran mine claims in Hormuz and Houthi attacks on Saudi",
-    "Morningstar (~early): US stock futures higher as AI trade steadies for Thanksgiving break; Nasdaq futures +0.5%"
+    "@WatcherGuru (~6:30 AM ET): NVDA orders partners (Dell, SMCI) to halt AI server shipments to Thailand, Malaysia, Indonesia, Singapore after new US export-license rule (FT) — Bearish NQ",
+    "@HIT (~7:06 AM ET): Global stocks and Nasdaq futures climb as AI trade rebounds, shrugging off latest US tariff salvo; Stoxx 600 +1.5% on tech — Bullish NQ",
+    "X News (~7:27 AM ET): Iran IRGC says oil tankers incl. a 2M-bbl supertanker hit naval mines in Strait of Hormuz; Israel IDF (~6:50 AM ET) signals readiness for solo Iran strikes — Bearish NQ",
+    "@FirstSquawk (~4:15 AM ET): Brent futures -1% to $93.65; US envoy confirms direct talks with Iran on sanctions/Hormuz (~1:10 AM ET) — Mixed NQ",
+    "@FirstSquawk (~7:30 AM ET): ECB Oct minutes — uncertainty high, full inflation impact of energy shock yet to play out; Lagarde: AI one reason economy held up — Mixed NQ"
   ],
-  "trump": "none",
-  "watch": "Friday Nov 27 half-day session (cash close 1:00 PM ET): recovery hold vs AI/Nvidia export headlines, oil reaction to Iran/Hormuz/Houthi, thin liquidity into Dec 9 FOMC (hike priced).",
-  "forSite": []
+  "trump": "New tariff salvo on 14 major partners incl. China, Japan, EU (Reuters ~8:00 PM ET Wed; USTR proposing up to 20% on EU and China) drawing protests from partners; WaPo (via @WatcherGuru ~5:49 PM ET Wed): administration discussed invoking wartime powers to reinstate Jensen Huang as NVDA CEO.",
+  "watch": "Today: US cash closed (Thanksgiving), CME equity futures halt 1:00 PM ET. Fri Nov 27: half-day, cash close 1:00 PM ET — thin liquidity. Overnight: Hormuz/Iran and NVDA export headlines. Mon Dec 1 AMC: MRVL, OKTA. Tue Dec 2 AMC: CRM, SNOW. Dec 9 FOMC.",
+  "forSite": [],
+  "reports": [
+    {
+      "at": "2026-11-26T12:00:00Z",
+      "pulse": "NQ/ES futures modestly higher (+0.5%) into thin Thanksgiving trading after Wednesday's violent AI-driven swing (Nasdaq intraday -4.6% to close -0.6%), as the AI trade steadies amid fresh Nvidia SE Asia shipment curbs and elevated oil on Iran/Hormuz risks.",
+      "bias": "mixed — holiday-thin liquidity and AI stabilization support a modest futures bid, offset by Nvidia export controls to Southeast Asia and persistent Iran/Hormuz oil premium",
+      "items": [
+        "@onlytrades_club (~7:00 AM ET): Nasdaq futures +0.5% to ~26,228, S&P +0.5%; fade from overnight +1.1%, thin into 1PM ET halt",
+        "@sports_lamb (~7:00 AM ET): Markets closed for Thanksgiving, futures steadying; Nasdaq +0.5% after Wed -4.6% intraday close -0.6%, NVDA -3.9% to $149.30",
+        "@zerohedge (~6:55 AM ET): Nvidia halts AI chip shipments to Malaysia, Singapore, Thailand, Indonesia on new US export controls (FT)",
+        "Reuters (~early AM ET): Oil eases after Wed gains; Brent ~$94, WTI ~$83-84 with lingering Iran mine claims in Hormuz and Houthi attacks on Saudi",
+        "Morningstar (~early): US stock futures higher as AI trade steadies for Thanksgiving break; Nasdaq futures +0.5%"
+      ],
+      "trump": "none",
+      "watch": "Friday Nov 27 half-day session (cash close 1:00 PM ET): recovery hold vs AI/Nvidia export headlines, oil reaction to Iran/Hormuz/Houthi, thin liquidity into Dec 9 FOMC (hike priced).",
+      "forSite": []
+    },
+    {
+      "at": "2026-11-26T12:33:47Z",
+      "pulse": "NQ holding a modest bid (~+0.5%) in thin Thanksgiving Globex trade (equity futures halt 1:00 PM ET) as the AI trade steadies after Wed's -4.7% intraday NDX flush/reversal, offset by Nvidia halting AI server shipments to SE Asia on new US export curbs and fresh Iran/Hormuz mine headlines.",
+      "bias": "mixed — holiday-thin AI rebound and softer Brent (~$93.65) support NQ, but NVDA SE Asia shipment halt, Trump's new tariff salvo on 14 partners and Hormuz tanker-mine claims cap upside",
+      "items": [
+        "@WatcherGuru (~6:30 AM ET): NVDA orders partners (Dell, SMCI) to halt AI server shipments to Thailand, Malaysia, Indonesia, Singapore after new US export-license rule (FT) — Bearish NQ",
+        "@HIT (~7:06 AM ET): Global stocks and Nasdaq futures climb as AI trade rebounds, shrugging off latest US tariff salvo; Stoxx 600 +1.5% on tech — Bullish NQ",
+        "X News (~7:27 AM ET): Iran IRGC says oil tankers incl. a 2M-bbl supertanker hit naval mines in Strait of Hormuz; Israel IDF (~6:50 AM ET) signals readiness for solo Iran strikes — Bearish NQ",
+        "@FirstSquawk (~4:15 AM ET): Brent futures -1% to $93.65; US envoy confirms direct talks with Iran on sanctions/Hormuz (~1:10 AM ET) — Mixed NQ",
+        "@FirstSquawk (~7:30 AM ET): ECB Oct minutes — uncertainty high, full inflation impact of energy shock yet to play out; Lagarde: AI one reason economy held up — Mixed NQ"
+      ],
+      "trump": "New tariff salvo on 14 major partners incl. China, Japan, EU (Reuters ~8:00 PM ET Wed; USTR proposing up to 20% on EU and China) drawing protests from partners; WaPo (via @WatcherGuru ~5:49 PM ET Wed): administration discussed invoking wartime powers to reinstate Jensen Huang as NVDA CEO.",
+      "watch": "Today: US cash closed (Thanksgiving), CME equity futures halt 1:00 PM ET. Fri Nov 27: half-day, cash close 1:00 PM ET — thin liquidity. Overnight: Hormuz/Iran and NVDA export headlines. Mon Dec 1 AMC: MRVL, OKTA. Tue Dec 2 AMC: CRM, SNOW. Dec 9 FOMC.",
+      "forSite": []
+    }
+  ]
 }
