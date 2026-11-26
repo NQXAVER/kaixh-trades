@@ -2,18 +2,18 @@
   "date": "2026-11-25",
   "grok": {
     "date": "2026-11-25",
-    "at": "2026-11-26T01:29:11Z",
-    "pulse": "NQ futures +0.7% / ES +0.6% in early Asia after the Nasdaq 100 pared a near-bear-market intraday drop to -0.6% (NVDA -3.9%), with HK and Euro futures bid and BTC back at $61K; offsets are a BoK surprise hike, hawkish BOJ talk and the Nvidia/Trump leadership saga into a Thanksgiving-thinned tape.",
-    "bias": "risk-on — overnight bounce extends the afternoon dip-buy reversal (Comp -0.57% from -4% intraday, Dow green) with Asia and Euro futures higher; still fragile with NVDA governance probe calls, BoK/BOJ hawkish tilt and ~certain Dec Fed hike.",
+    "at": "2026-11-26T03:34:16Z",
+    "pulse": "NQ heads into Thanksgiving after Wednesday's violent reversal (NDX -0.6% close after a ~4.7% intraday plunge), with overnight tape quiet but Nvidia governance headlines and hawkish BOJ chatter keeping a lid on the AI bounce.",
+    "bias": "mixed — dip-buying reversal and thin holiday trade support NQ, offset by fresh NVDA leadership/political overhang, USTR tariff pushback from Asia and a hawkish BOJ member",
     "items": [
-      "@FirstSquawk (~8:14 PM ET): US stock futures advance, S&P +0.6%, Nasdaq +0.7%; Euro Stoxx 50 futures +2.1%, DAX +1.8% — Bullish NQ",
-      "@FirstSquawk (~4:01 PM ET): Nasdaq Comp -0.57% to 23,598.27, S&P -0.20% to 7,186.70; NDX pared drop to -0.6% as NVDA -3.9% (4:24 PM) — Mixed NQ",
-      "@unusual_whales (~7:31 PM ET): Trump says he intervened in Nvidia leadership decision; Sen. Gallego wants probe of trades before NVDA announcement (7:58 PM) — Mixed NQ",
-      "@FirstSquawk (~8:23 PM ET): Bank of Korea hikes to 3.25% on AI-boom growth; BOJ's Tamura urges faster hikes toward neutral (8:05 PM) — Bearish NQ",
-      "@WatcherGuru (~7:18 PM ET): Bitcoin reclaims $61,000; House FSC advances Strategic Bitcoin Reserve bill (7:11 PM) — Bullish NQ"
+      "News (~10:13 PM ET): Dow erased a 1,100-pt loss to close +0.33%; S&P -0.25%, Nasdaq Comp -0.62%, NDX recovered from -4.7% to -0.6%, NVDA -3.9% — Mixed NQ",
+      "@unusual_whales (~9:31 PM ET): WSJ says Huang told NVDA board of additional affairs; Schumer (~8:31 PM) says Dems will investigate his reinstatement — Bearish NQ",
+      "WaPo via X News (~10:30 PM ET): Pentagon officials weighed using the Defense Production Act to reinstate Jensen Huang — Mixed NQ",
+      "@LiveSquawk (~9:48 PM ET): Hawkish BOJ member seeks quick rate hikes on inflation (BBG) — Bearish NQ",
+      "@FirstSquawk (~10:13 PM ET): Singapore pushes back on USTR findings and proposed actions; Thailand says US tariffs up to 18% align with talks — Mixed NQ"
     ],
-    "trump": "Said he intervened in Nvidia's leadership decision 'on behalf of the USA' (Semafor: joined NVDA board call to push Huang's return; WaPo: admin discussed wartime powers); also blamed the midterm result for the market selloff.",
-    "watch": "Thu Nov 26 Thanksgiving: US cash closed, CME equity futures holiday hours; Asia/Europe open tonight (HK seen +1.2%, Euro Stoxx futs +2.1%); Fri Nov 27 half day (cash 1:00 PM ET close); NVDA governance/probe headlines; oil on Houthi–Saudi refinery headlines; MRVL/OKTA Dec 1 AMC, CRM/SNOW Dec 2 AMC; Dec FOMC hike priced.",
+    "trump": "Trump told CNBC his line on getting involved in companies 'comes down to touch and feel' (~10:31 PM ET via @unusual_whales) and posted an edited image of Jensen Huang on Truth Social Monday; USTR tariff proposals (up to ~18-20%) drawing Asian pushback.",
+    "watch": "Thu Nov 26: US cash markets closed for Thanksgiving (CME futures abbreviated). Fri Nov 27: half-day, cash close 1:00 PM ET — watch NVDA/Huang headlines, BOJ hike talk/USDJPY, oil on Houthi-Saudi and Iran blockade news, tariff responses. Next week: MRVL & OKTA Mon Dec 1 AMC; CRM & SNOW Tue Dec 2 AMC.",
     "forSite": [],
     "reports": [
       {
@@ -134,6 +134,36 @@
         ],
         "trump": "Said he intervened in Nvidia's leadership decision 'on behalf of the USA' (Semafor: joined NVDA board call to push Huang's return; WaPo: admin discussed wartime powers); also blamed the midterm result for the market selloff.",
         "watch": "Thu Nov 26 Thanksgiving: US cash closed, CME equity futures holiday hours; Asia/Europe open tonight (HK seen +1.2%, Euro Stoxx futs +2.1%); Fri Nov 27 half day (cash 1:00 PM ET close); NVDA governance/probe headlines; oil on Houthi–Saudi refinery headlines; MRVL/OKTA Dec 1 AMC, CRM/SNOW Dec 2 AMC; Dec FOMC hike priced.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-26T03:05:34Z",
+        "pulse": "Nasdaq closed -0.6% after a nearly 4% intraday plunge on AI selloff, Trump tariff proposals, and hotter core PCE, with overnight futures and Asia recovering as dip-buying and falling yields supported a bounce ahead of Thanksgiving.",
+        "bias": "mixed — strong afternoon recovery and overnight Asia/futures bid offset persistent AI/semis pressure, new tariffs, sticky inflation locking Dec FOMC hike, and elevated oil from Houthi/Iran risks",
+        "items": [
+          "@FirstSquawk (~4:01 PM ET): Nasdaq Comp -0.57% to 23,598 after paring near-bear-market drop, S&P -0.20%, Dow +0.40% — Mixed NQ",
+          "@Vest (~12:02 PM ET): $NQ down 4% session, $ES -2.5%, SOX -7% leading second day of losses — Bearish NQ",
+          "Web/Reuters (~11 AM ET): Nasdaq sinks ~4% as AI rout deepens with NVDA -8%, fresh Trump tariffs on 14 partners, core PCE 3.3% — Bearish NQ",
+          "@MarioNawfal / oil (~evening): Houthis claim hit on Saudi refinery, Brent up over 3% — Bearish risk",
+          "@unusual_whales (~7:31 PM ET): Trump says he intervened in Nvidia leadership; Sen. Gallego seeks probe — Mixed NQ"
+        ],
+        "trump": "Admin proposed new Section 301 tariffs up to 20%+ on China, EU and other partners; Trump said he intervened in Nvidia leadership decision on behalf of the USA; Iran/Houthi tensions keeping oil elevated.",
+        "watch": "Friday Nov 27 half-day (cash close 1PM ET): hold of the recovery vs AI follow-through; oil reaction to Houthi/Saudi and OPEC+; any tariff responses; thin liquidity; Dec FOMC hike near certain.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-26T03:34:16Z",
+        "pulse": "NQ heads into Thanksgiving after Wednesday's violent reversal (NDX -0.6% close after a ~4.7% intraday plunge), with overnight tape quiet but Nvidia governance headlines and hawkish BOJ chatter keeping a lid on the AI bounce.",
+        "bias": "mixed — dip-buying reversal and thin holiday trade support NQ, offset by fresh NVDA leadership/political overhang, USTR tariff pushback from Asia and a hawkish BOJ member",
+        "items": [
+          "News (~10:13 PM ET): Dow erased a 1,100-pt loss to close +0.33%; S&P -0.25%, Nasdaq Comp -0.62%, NDX recovered from -4.7% to -0.6%, NVDA -3.9% — Mixed NQ",
+          "@unusual_whales (~9:31 PM ET): WSJ says Huang told NVDA board of additional affairs; Schumer (~8:31 PM) says Dems will investigate his reinstatement — Bearish NQ",
+          "WaPo via X News (~10:30 PM ET): Pentagon officials weighed using the Defense Production Act to reinstate Jensen Huang — Mixed NQ",
+          "@LiveSquawk (~9:48 PM ET): Hawkish BOJ member seeks quick rate hikes on inflation (BBG) — Bearish NQ",
+          "@FirstSquawk (~10:13 PM ET): Singapore pushes back on USTR findings and proposed actions; Thailand says US tariffs up to 18% align with talks — Mixed NQ"
+        ],
+        "trump": "Trump told CNBC his line on getting involved in companies 'comes down to touch and feel' (~10:31 PM ET via @unusual_whales) and posted an edited image of Jensen Huang on Truth Social Monday; USTR tariff proposals (up to ~18-20%) drawing Asian pushback.",
+        "watch": "Thu Nov 26: US cash markets closed for Thanksgiving (CME futures abbreviated). Fri Nov 27: half-day, cash close 1:00 PM ET — watch NVDA/Huang headlines, BOJ hike talk/USDJPY, oil on Houthi-Saudi and Iran blockade news, tariff responses. Next week: MRVL & OKTA Mon Dec 1 AMC; CRM & SNOW Tue Dec 2 AMC.",
         "forSite": []
       }
     ]
