@@ -1,0 +1,36 @@
+{
+ "date": "2026-11-26",
+ "entryUrl": "",
+ "summary": "No Notion entry today, and that's the right outcome. It's Thanksgiving, and yesterday you wrote 'im locking out everyday till December 1st'. Day one of the lockout held: there's nothing in Notion, no post in 'xavier Journal' since Nov 25 at 11:06 AM, and no chat with Bibz today. Gmail shows no prop-firm purchase today, only Black Friday promos from Apex and the usual marketing. Keep it that way, because those sales are aimed at exactly the post-tilt mood you were in yesterday. There's also no Morning Check-in or EOD card today, but the SYNDICATOR check-ins have looked broken since Nov 25, so that's on the bot, not on you.",
+ "trade": "No trade · Thanksgiving, day 1 of the self-imposed lockout until Dec 1 · no account activity logged · no new eval purchase in Gmail.",
+ "rule": "Friday is still lockout: no charts open with a live account logged in, and no Black Friday prop-firm deals (Apex, Topstep and the rest). If you want screen time, mark levels in Notion as a paper plan only.",
+ "screenshots": [],
+ "good": [
+  "You kept your own lockout on day one. There's no trade, no journal post, and no recovery attempt after yesterday's -$296.",
+  "There's no eval or account purchase today, even with Apex's Black Friday email sitting in your inbox since 12:18 AM ET."
+ ],
+ "fix": [
+  "The SYNDICATOR check-ins are still down (Bibz said 'might be broken' at 12:25 PM on Nov 25, and you confirmed it). Until they work, post your plan and risk screenshot by hand in the pair channel on trading days, so your accountability record doesn't have gaps.",
+  "Use the break for what you named yourself: 'focus on my habits outside of trading'. That means no DayZ or second screen open while you're watching for an entry when you come back."
+ ],
+ "questions": [
+  {
+   "q": "You wrote that your habits outside trading are 'clearly correlating in the charts.' Which one habit will you change before Dec 1, and how will you know you actually changed it?"
+  },
+  {
+   "q": "Black Friday prop-firm sales run all weekend. Your Nov 18 note said a 2nd payout makes it 'OK to buy another acc'. What exactly will you do when a 50%-off eval email lands while you're bored and locked out?"
+  },
+  {
+   "q": "On Nov 25 you turned off your DLL mid-session. When you come back on Dec 1, what will physically stop you from doing that again: a broker-side setting you can't edit intraday, Bibz, or something else?"
+  }
+ ],
+ "discord": {
+  "chartsOpened": "No SYNDICATOR Morning Check-in card for Nov 26, so there's no charts-opened time. The channel's last message is from Nov 25 at 12:56 PM ET, and check-ins have been broken since then ('Not showing checkins - might be broken', Bibz, 12:25 PM Nov 25).",
+  "plan": "No morning plan was posted today. That's consistent with a lockout/holiday day.",
+  "risk": "No risk-settings screenshot today. Not trading, so no risk was taken.",
+  "eod": "No End of Day card for Nov 26 as of ~4:15 PM ET. The latest SYNDICATOR card is the 'Trade / PNL screenshot confirmed' card for the 2026-11-24 end-of-day check-in.",
+  "match": "Discord matches Notion: nothing was traded or posted anywhere today, which fits the lockout you announced on Nov 25.",
+  "journalChannel": "There's no 'xavier Journal' post today. The latest is from Nov 25 at 11:06 AM ET ('11/25/26 - super bearish today want to see HTF low get hit…')."
+ },
+ "reviewedAt": "2026-11-26T21:16:21.834Z"
+}
