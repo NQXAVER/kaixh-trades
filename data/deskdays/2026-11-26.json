@@ -2,18 +2,18 @@
   "date": "2026-11-26",
   "grok": {
     "date": "2026-11-26",
-    "at": "2026-11-26T12:33:47Z",
-    "pulse": "NQ holding a modest bid (~+0.5%) in thin Thanksgiving Globex trade (equity futures halt 1:00 PM ET) as the AI trade steadies after Wed's -4.7% intraday NDX flush/reversal, offset by Nvidia halting AI server shipments to SE Asia on new US export curbs and fresh Iran/Hormuz mine headlines.",
-    "bias": "mixed — holiday-thin AI rebound and softer Brent (~$93.65) support NQ, but NVDA SE Asia shipment halt, Trump's new tariff salvo on 14 partners and Hormuz tanker-mine claims cap upside",
+    "at": "2026-11-26T14:31:37Z",
+    "pulse": "NQ extending the Thanksgiving turnaround (~+0.8-1.1%, ~26,300-26,390) in thin Globex trade as a Q3 GDP revision to 4.3% and the AI dip-bid lift futures out of bear-market risk. Offsetting that: oil up 1.5% on Iranian drone attacks on Kuwait and Hormuz tanker fires, plus hyperscaler CDS at record wides.",
+    "bias": "risk-on — GDP revised up to 4.3% plus an AI rebound has NQ near +1% with VIX ~27, though a Gulf escalation (Kuwait drones, Hormuz tankers burning), WTI/Brent +1.5% and record CRWV/hyperscaler CDS argue against chasing into the 1:00 PM ET halt",
     "items": [
-      "@WatcherGuru (~6:30 AM ET): NVDA orders partners (Dell, SMCI) to halt AI server shipments to Thailand, Malaysia, Indonesia, Singapore after new US export-license rule (FT) — Bearish NQ",
-      "@HIT (~7:06 AM ET): Global stocks and Nasdaq futures climb as AI trade rebounds, shrugging off latest US tariff salvo; Stoxx 600 +1.5% on tech — Bullish NQ",
-      "X News (~7:27 AM ET): Iran IRGC says oil tankers incl. a 2M-bbl supertanker hit naval mines in Strait of Hormuz; Israel IDF (~6:50 AM ET) signals readiness for solo Iran strikes — Bearish NQ",
-      "@FirstSquawk (~4:15 AM ET): Brent futures -1% to $93.65; US envoy confirms direct talks with Iran on sanctions/Hormuz (~1:10 AM ET) — Mixed NQ",
-      "@FirstSquawk (~7:30 AM ET): ECB Oct minutes — uncertainty high, full inflation impact of energy shock yet to play out; Lagarde: AI one reason economy held up — Mixed NQ"
+      "X News (~8:45 AM ET): Stock futures climb after Q3 GDP revised to 4.3% (fastest in 3 yrs); ES +0.74% to 7,248.75, NQ near +1% — Bullish NQ",
+      "@zerohedge (~9:09 AM ET): Futures extend Thanksgiving turnaround as Nasdaq dodges bear market; oil climbs on Houthi strikes — Bullish NQ",
+      "@FirstSquawk (~8:05 AM ET): Brent, WTI futures up over 1.5%; @zerohedge (~9:00 AM ET): Iranian drone attack on Kuwait kills 2, three tankers on fire in Hormuz — Bearish NQ",
+      "@zerohedge (~9:18-9:21 AM ET): Hyperscaler CDS closed at record highs; CRWV CDS +125 to a record 1,450bp. Credit isn't confirming the melt-up — Bearish NQ",
+      "@unusual_whales (~9:25 AM ET): Dutch govt will resist US plans to further restrict ASML China sales; NVDA SE Asia server halt still in focus — Mixed NQ"
     ],
-    "trump": "New tariff salvo on 14 major partners incl. China, Japan, EU (Reuters ~8:00 PM ET Wed; USTR proposing up to 20% on EU and China) drawing protests from partners; WaPo (via @WatcherGuru ~5:49 PM ET Wed): administration discussed invoking wartime powers to reinstate Jensen Huang as NVDA CEO.",
-    "watch": "Today: US cash closed (Thanksgiving), CME equity futures halt 1:00 PM ET. Fri Nov 27: half-day, cash close 1:00 PM ET — thin liquidity. Overnight: Hormuz/Iran and NVDA export headlines. Mon Dec 1 AMC: MRVL, OKTA. Tue Dec 2 AMC: CRM, SNOW. Dec 9 FOMC.",
+    "trump": "Trump (via TSL/@FirstSquawk ~9:29 AM ET) touted Q3 GDP revised to 4.3% from 3.4% and 'seeks immediate investigation'; per @zerohedge (~9:27 AM ET) he said 'if people had known that data centers contributed even more to GDP growth, I would have won'. He also discussed Russia-Ukraine and Iran with NATO's Rutte (~9:20-9:24 AM ET). The tariff salvo on 14 partners is still the main trade overhang.",
+    "watch": "Today: US cash closed, CME equity futures halt 1:00 PM ET. Fri Nov 27: half-day, cash close 1:00 PM ET; Friday is 'the real test' of the recovery. Overnight: Kuwait/Hormuz/Iran escalation and oil, NVDA export headlines. Mon Dec 1 AMC: MRVL, OKTA. Tue Dec 2 AMC: CRM, SNOW. Dec 9 FOMC.",
     "forSite": [],
     "reports": [
       {
@@ -44,6 +44,21 @@
         ],
         "trump": "New tariff salvo on 14 major partners incl. China, Japan, EU (Reuters ~8:00 PM ET Wed; USTR proposing up to 20% on EU and China) drawing protests from partners; WaPo (via @WatcherGuru ~5:49 PM ET Wed): administration discussed invoking wartime powers to reinstate Jensen Huang as NVDA CEO.",
         "watch": "Today: US cash closed (Thanksgiving), CME equity futures halt 1:00 PM ET. Fri Nov 27: half-day, cash close 1:00 PM ET — thin liquidity. Overnight: Hormuz/Iran and NVDA export headlines. Mon Dec 1 AMC: MRVL, OKTA. Tue Dec 2 AMC: CRM, SNOW. Dec 9 FOMC.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-26T14:31:37Z",
+        "pulse": "NQ extending the Thanksgiving turnaround (~+0.8-1.1%, ~26,300-26,390) in thin Globex trade as a Q3 GDP revision to 4.3% and the AI dip-bid lift futures out of bear-market risk. Offsetting that: oil up 1.5% on Iranian drone attacks on Kuwait and Hormuz tanker fires, plus hyperscaler CDS at record wides.",
+        "bias": "risk-on — GDP revised up to 4.3% plus an AI rebound has NQ near +1% with VIX ~27, though a Gulf escalation (Kuwait drones, Hormuz tankers burning), WTI/Brent +1.5% and record CRWV/hyperscaler CDS argue against chasing into the 1:00 PM ET halt",
+        "items": [
+          "X News (~8:45 AM ET): Stock futures climb after Q3 GDP revised to 4.3% (fastest in 3 yrs); ES +0.74% to 7,248.75, NQ near +1% — Bullish NQ",
+          "@zerohedge (~9:09 AM ET): Futures extend Thanksgiving turnaround as Nasdaq dodges bear market; oil climbs on Houthi strikes — Bullish NQ",
+          "@FirstSquawk (~8:05 AM ET): Brent, WTI futures up over 1.5%; @zerohedge (~9:00 AM ET): Iranian drone attack on Kuwait kills 2, three tankers on fire in Hormuz — Bearish NQ",
+          "@zerohedge (~9:18-9:21 AM ET): Hyperscaler CDS closed at record highs; CRWV CDS +125 to a record 1,450bp. Credit isn't confirming the melt-up — Bearish NQ",
+          "@unusual_whales (~9:25 AM ET): Dutch govt will resist US plans to further restrict ASML China sales; NVDA SE Asia server halt still in focus — Mixed NQ"
+        ],
+        "trump": "Trump (via TSL/@FirstSquawk ~9:29 AM ET) touted Q3 GDP revised to 4.3% from 3.4% and 'seeks immediate investigation'; per @zerohedge (~9:27 AM ET) he said 'if people had known that data centers contributed even more to GDP growth, I would have won'. He also discussed Russia-Ukraine and Iran with NATO's Rutte (~9:20-9:24 AM ET). The tariff salvo on 14 partners is still the main trade overhang.",
+        "watch": "Today: US cash closed, CME equity futures halt 1:00 PM ET. Fri Nov 27: half-day, cash close 1:00 PM ET; Friday is 'the real test' of the recovery. Overnight: Kuwait/Hormuz/Iran escalation and oil, NVDA export headlines. Mon Dec 1 AMC: MRVL, OKTA. Tue Dec 2 AMC: CRM, SNOW. Dec 9 FOMC.",
         "forSite": []
       }
     ]
