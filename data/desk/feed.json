@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T02:03:48Z",
+  "updatedAt": "2026-11-27T08:46:55Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -134,9 +134,9 @@
     {
       "id": "mw-top",
       "label": "MarketWatch",
-      "ok": false,
-      "items": 0,
-      "error": "HTTPError: HTTP Error 400: Bad Request"
+      "ok": true,
+      "items": 10,
+      "error": null
     },
     {
       "id": "npr-biz",
@@ -183,9 +183,9 @@
     {
       "id": "un-peace",
       "label": "UN News",
-      "ok": true,
-      "items": 20,
-      "error": null
+      "ok": false,
+      "items": 0,
+      "error": "ParseError: not well-formed (invalid token): line 1, column 0"
     },
     {
       "id": "wsj-biz",
@@ -372,6 +372,18 @@
       "auto": true
     },
     {
+      "id": "fbeafea60c87f",
+      "headline": "Spain’s Pablo Hernández de Cos set to lead European Central Bank",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/26/pablo-hernandez-de-cos-ecb-president.html",
+      "publishedAt": "2026-11-27T06:50:38Z",
+      "time": "Fri 1:50 AM",
+      "section": "fed",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "fb52a8f195ea3",
       "headline": "Argentina bars Central Bank from printing money to fund government spending",
       "source": "Al Jazeera",
@@ -388,7 +400,7 @@
       "headline": "European Central Bank Chooses Pablo Hernández de Cos as Next President",
       "source": "New York Times",
       "url": "https://www.nytimes.com/2026/11/26/business/ecb-pablo-hernandez-de-cos.html",
-      "publishedAt": "2026-11-26T19:41:34Z",
+      "publishedAt": "2026-11-26T19:41:35Z",
       "time": "Thu 2:41 PM",
       "section": "fed",
       "impact": "Medium",
@@ -402,18 +414,6 @@
       "url": "https://www.aljazeera.com/news/2026/11/26/spanish-economist-to-become-new-european-central-bank-chief?traffic_source=rss",
       "publishedAt": "2026-11-26T16:20:54Z",
       "time": "Thu 11:20 AM",
-      "section": "fed",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "fbeafea60c87f",
-      "headline": "Spain’s Pablo Hernández de Cos set to lead European Central Bank",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/26/pablo-hernandez-de-cos-ecb-president.html",
-      "publishedAt": "2026-11-26T15:28:26Z",
-      "time": "Thu 10:28 AM",
       "section": "fed",
       "impact": "Medium",
       "lean": null,
@@ -484,7 +484,7 @@
       "headline": "Trump’s Latest Tariffs Revive Focus on Pressuring China",
       "source": "New York Times",
       "url": "https://www.nytimes.com/2026/11/26/business/trump-tariffs-asia.html",
-      "publishedAt": "2026-11-26T17:03:31Z",
+      "publishedAt": "2026-11-26T17:03:32Z",
       "time": "Thu 12:03 PM",
       "section": "econ",
       "impact": "Medium",
@@ -708,15 +708,15 @@
       "auto": true
     },
     {
-      "id": "fc08ff0aa687a",
-      "headline": "Yemen's Houthis claim attacks on Saudi oil refinery as Trump warns of new strikes next year",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/23/trump-iran-war-hormuz-saudi-.html",
-      "publishedAt": "2026-11-23T03:52:17Z",
-      "time": "Sun 10:52 PM",
+      "id": "ff6bc33163290",
+      "headline": "Iraq Delays Up to 30 Million Barrels of Crude Oil Shipments",
+      "source": "OilPrice",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Iraq-Delays-Up-to-30-Million-Barrels-of-Crude-Oil-Shipments.html",
+      "publishedAt": "2026-11-27T08:30:00Z",
+      "time": "Fri 3:30 AM",
       "section": "energy",
-      "impact": "High",
-      "lean": "risk-off",
+      "impact": "Medium",
+      "lean": null,
       "auto": true
     },
     {
@@ -804,6 +804,18 @@
       "auto": true
     },
     {
+      "id": "fede475f907d2",
+      "headline": "Asian stock markets rise after earlier tech rout",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/economy/2026/11/27/asian-stock-markets-rise-after-earlier-tech-rout?traffic_source=rss",
+      "publishedAt": "2026-11-27T03:42:16Z",
+      "time": "Thu 10:42 PM",
+      "section": "markets",
+      "impact": "Medium",
+      "lean": "risk-off",
+      "auto": true
+    },
+    {
       "id": "f89c128195ee5",
       "headline": "Wealthy Europeans look beyond stocks amid AI selloff. Here’s where they’re investing",
       "source": "CNBC",
@@ -873,18 +885,6 @@
       "section": "markets",
       "impact": "Medium",
       "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f87c86a983162",
-      "headline": "SoftBank drops 15% as Wall Street AI sell-off ripples across Asian tech names",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/25/tech-stocks-softbank-group-advantest-sk-hynix-samsung.html",
-      "publishedAt": "2026-11-25T03:52:03Z",
-      "time": "Tue 10:52 PM",
-      "section": "markets",
-      "impact": "Medium",
-      "lean": "risk-off",
       "auto": true
     }
   ]
