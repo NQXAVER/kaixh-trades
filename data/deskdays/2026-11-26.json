@@ -2,18 +2,18 @@
   "date": "2026-11-26",
   "grok": {
     "date": "2026-11-26",
-    "at": "2026-11-27T01:36:32Z",
-    "pulse": "Thanksgiving-night Globex: NQ futures extending the post-Wednesday rebound (~+0.6% on reopen, ~+1% into the Asia open) on Trump's 'concerned about the dips' remarks and a strong Asia/AI-chip bounce, offset by a new tariff proposal on 14 partners and ~93% Dec FOMC hike odds.",
-    "bias": "risk-on — holiday futures bid, Asia rebound (Nikkei/KOSPI, Kioxia on NVDA tie-up) and Trump jawboning support NQ into Friday's half-day, but the 14-country tariff plan (up to 40% China) and a priced Dec hike cap upside in thin liquidity.",
+    "at": "2026-11-27T03:33:08Z",
+    "pulse": "Overnight into Friday's half-day: NQ futures leading (~+1.4% vs ES +1.0% per 8:39 PM tape) on the Asia/AI rebound and Trump's market-dip comments, offset by 10Y yields back near 4.90%, Nvidia halting AI-server shipments to SE Asia, and Brent ~$96 after Houthi strikes on Saudi refineries.",
+    "bias": "risk-on — Asia bounce (KOSPI ~+1.7-1.9%, Nikkei up) and NQ leadership set a gap-up into Friday's thin half-day, but rising yields (10Y 4.904%), Nvidia SE Asia shipment halt, the 14-country tariff plan and $96 Brent can fade it in thin liquidity.",
     "items": [
-      "@FirstSquawk (~6:04 PM ET): S&P 500 futures resume trading +0.6%, Nasdaq futures +0.6% after Thanksgiving pause — Bullish NQ",
-      "@DeItaone (~7:57 PM ET): TRUMP says he was concerned about Wednesday's sharp market dips; 'will probably speak to Nvidia's Huang soon' — Bullish NQ",
-      "X News (~8:28 PM ET): Trump admin proposes tariffs on 14 trading partners after capacity probe — up to 40% China, 35% Vietnam, 25% India, 15% EU on electronics/autos/steel — Bearish NQ",
-      "@investingclinic (~8:30 PM ET): Asia bounces after Wed rout — Nikkei +1.6%, KOSPI +1.9%, Nasdaq futures +1.1%, Kioxia +12.6% on NVDA tie-up, SoftBank +7.3% — Bullish NQ",
-      "@FirstSquawk (~8:32 PM ET): China Oct industrial profits +20.1% y/y (prev 14.4%), YTD +16.0% — Mixed NQ"
+      "@MarketNews_Feed (~8:39 PM ET): Nasdaq futures lead, +1.4%, S&P 500 futures +1.0% — Bullish NQ",
+      "X News (~8:37 PM ET): Houthi attack hits Saudi Jazan refinery (up to 400k bpd), worker killed; Brent above $96 — Bearish NQ",
+      "X News (~9:49 PM ET): Nvidia halts AI-server shipments via Dell/Supermicro to Malaysia, Singapore, Thailand, Indonesia under new US export-license rules (@zerohedge 9:54 PM: Singapore halt not confirmed) — Bearish NQ",
+      "@FirstSquawk (~9:53 PM ET): US 10Y yield +5 bps to 4.904% as rate-cut futures slide — Bearish NQ",
+      "@FirstSquawk (~10:02 PM ET): Vietnam PM says trade deal with Washington is in final stages — Mixed NQ"
     ],
-    "trump": "Via @DeItaone (~7:57-7:59 PM ET): Trump said he was 'concerned about earlier market dips' during Wednesday's selloff before indexes recovered, and 'will probably speak to Nvidia's Huang soon'; on G20, Putin 'can' come if he wants. Holiday call to troops (~8:12 PM ET, X News): said victory over Iran is at hand and the naval blockade continues. Administration also proposed new tariffs on 14 partners (up to 40% China).",
-    "watch": "Fri Nov 27 half-day: cash close 1:00 PM ET, CME equity futures 1:15 PM ET (thin liquidity) — Black Friday retail read; overnight tariff details and Iran/Houthi oil headlines; OPEC+ Sun Nov 29; Mon Dec 1 AMC MRVL, OKTA; Tue Dec 2 AMC CRM, SNOW; Dec 8-9 FOMC with ~93% hike odds priced (Polymarket).",
+    "trump": "No new Trump remarks since ~8 PM ET. Earlier (via @DeItaone ~7:57-7:59 PM ET) he said he was 'concerned about earlier market dips' and 'will probably speak to Nvidia's Huang soon'; his administration proposed tariffs on 14 partners (up to 40% China, 35% Vietnam). @WhiteHouse (~10:29 PM ET) posted his Thanksgiving call with troops.",
+    "watch": "Fri Nov 27: Europe open ~3:00 AM ET; US cash open 9:30 AM, early cash close 1:00 PM ET, CME equity futures 1:15 PM ET (thin). Black Friday retail read; tariff details and the Nvidia SE Asia shipment story; Brent/Houthi-Saudi headlines; OPEC+ Sun Nov 29; Mon Dec 1 AMC MRVL, OKTA; Tue Dec 2 AMC CRM, SNOW; FOMC Dec 8-9 with ~93% hike odds (Polymarket).",
     "forSite": [],
     "reports": [
       {
@@ -134,6 +134,36 @@
         ],
         "trump": "Via @DeItaone (~7:57-7:59 PM ET): Trump said he was 'concerned about earlier market dips' during Wednesday's selloff before indexes recovered, and 'will probably speak to Nvidia's Huang soon'; on G20, Putin 'can' come if he wants. Holiday call to troops (~8:12 PM ET, X News): said victory over Iran is at hand and the naval blockade continues. Administration also proposed new tariffs on 14 partners (up to 40% China).",
         "watch": "Fri Nov 27 half-day: cash close 1:00 PM ET, CME equity futures 1:15 PM ET (thin liquidity) — Black Friday retail read; overnight tariff details and Iran/Houthi oil headlines; OPEC+ Sun Nov 29; Mon Dec 1 AMC MRVL, OKTA; Tue Dec 2 AMC CRM, SNOW; Dec 8-9 FOMC with ~93% hike odds priced (Polymarket).",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-27T03:06:10Z",
+        "pulse": "Post-Thanksgiving Globex shows NQ/ES futures green (Nasdaq ~+0.5-2.5%, S&P ~+0.7-1.4%) as AI trade steadies after Wednesday selloff, while oil remains elevated on Iran/Hormuz tanker mines and Houthi strikes ahead of thin Friday half-day.",
+        "bias": "mixed — holiday futures bid and AI stabilization lean risk-on into Black Friday, but persistent oil premium from Middle East tensions and ~98% Dec FOMC hike odds cap upside in thin liquidity.",
+        "items": [
+          "@Themediachamp (~10:05 PM ET): Futures green heading into Black Friday — S&P futures +0.7%, Nasdaq +0.6%, Dow +277; week-to-date S&P +3.9%, Nasdaq +4.3%",
+          "@cozycoinminutes (~10:04 PM ET): Nasdaq 100 futures jump +2.5% and S&P on track for 7,300 open after Thanksgiving bounce",
+          "@Nifty_anna (~10:03 PM ET): Brent crude ~$96.46, WTI ~$85.72 on elevated Middle East risks including Hormuz blasts and Houthi strikes",
+          "@FoxNews (~9:00 PM ET): Trump blunt warning on Iran nuclear ambitions — nuclear-armed Tehran would trigger 'nuclear holocaust' in Middle East and put US cities in crosshairs",
+          "Market data (~late): Dec FOMC hike odds near 98% amid hot PCE inflation, AI concerns and tariff overhang"
+        ],
+        "trump": "President Trump issued a blunt warning on Iran's nuclear ambitions, arguing a nuclear-armed Tehran would trigger a 'nuclear holocaust' in the Middle East and put U.S. cities in the crosshairs, noting Iran can currently reach Europe.",
+        "watch": "Fri Nov 27 thin half-day cash close 1:00 PM ET to test recovery hold vs AI follow-through and oil/Iran/Hormuz headlines; OPEC+ Sunday on quotas; Dec 9 FOMC with hike heavily priced.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-27T03:33:08Z",
+        "pulse": "Overnight into Friday's half-day: NQ futures leading (~+1.4% vs ES +1.0% per 8:39 PM tape) on the Asia/AI rebound and Trump's market-dip comments, offset by 10Y yields back near 4.90%, Nvidia halting AI-server shipments to SE Asia, and Brent ~$96 after Houthi strikes on Saudi refineries.",
+        "bias": "risk-on — Asia bounce (KOSPI ~+1.7-1.9%, Nikkei up) and NQ leadership set a gap-up into Friday's thin half-day, but rising yields (10Y 4.904%), Nvidia SE Asia shipment halt, the 14-country tariff plan and $96 Brent can fade it in thin liquidity.",
+        "items": [
+          "@MarketNews_Feed (~8:39 PM ET): Nasdaq futures lead, +1.4%, S&P 500 futures +1.0% — Bullish NQ",
+          "X News (~8:37 PM ET): Houthi attack hits Saudi Jazan refinery (up to 400k bpd), worker killed; Brent above $96 — Bearish NQ",
+          "X News (~9:49 PM ET): Nvidia halts AI-server shipments via Dell/Supermicro to Malaysia, Singapore, Thailand, Indonesia under new US export-license rules (@zerohedge 9:54 PM: Singapore halt not confirmed) — Bearish NQ",
+          "@FirstSquawk (~9:53 PM ET): US 10Y yield +5 bps to 4.904% as rate-cut futures slide — Bearish NQ",
+          "@FirstSquawk (~10:02 PM ET): Vietnam PM says trade deal with Washington is in final stages — Mixed NQ"
+        ],
+        "trump": "No new Trump remarks since ~8 PM ET. Earlier (via @DeItaone ~7:57-7:59 PM ET) he said he was 'concerned about earlier market dips' and 'will probably speak to Nvidia's Huang soon'; his administration proposed tariffs on 14 partners (up to 40% China, 35% Vietnam). @WhiteHouse (~10:29 PM ET) posted his Thanksgiving call with troops.",
+        "watch": "Fri Nov 27: Europe open ~3:00 AM ET; US cash open 9:30 AM, early cash close 1:00 PM ET, CME equity futures 1:15 PM ET (thin). Black Friday retail read; tariff details and the Nvidia SE Asia shipment story; Brent/Houthi-Saudi headlines; OPEC+ Sun Nov 29; Mon Dec 1 AMC MRVL, OKTA; Tue Dec 2 AMC CRM, SNOW; FOMC Dec 8-9 with ~93% hike odds (Polymarket).",
         "forSite": []
       }
     ]
