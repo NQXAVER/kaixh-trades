@@ -1,0 +1,50 @@
+{
+ "weekStart": "2026-11-23",
+ "weekEnd": "2026-11-27",
+ "updatedAt": "2026-11-27T21:42:15Z",
+ "note": "Only one journaled execution this week: the Wed Nov 25 NY-AM short (loss, -$296 day), so there's no best pick. Mon was a no-trade gap day, Tue had no journal entry, and Thu-Fri were the self-imposed lockout until Dec 1.",
+ "best": null,
+ "worst": {
+  "date": "2026-11-25",
+  "title": "Right bias, lost focus: chase, lunch stop-out, then DLL off to win it back",
+  "result": "Loss · -$296 day",
+  "trade": "Short · NY-AM · XFA · entry 25,307.75 (30min 0.5 / NWOG) · stop 25,509.75 (above NYAM.H, ~202 pts) · target 24,976.50 (Friday's low, ~1.6R) · plus a late chase short (-$500) and an oversized recovery trade with the DLL off",
+  "reasoning": "PRE MARKET: \"Bearish today. I just want to see NWOG fill and Friday's low get hit.\" DOL: \"Friday's low.\" Stop: \"SMT high.\"\nEntry type: \"1min bearish SMT, 5min close good and 1min displacement. Reason why I took it was also because 1min was slowing down, failing to continue higher.\"\nTALK: \"Horrible day. I need to take a break from trading and mentally get myself back, because I missed the short setup. I didn't see it because I was waiting for a 4hr. My focus was 70% on the charts because I was distracting myself by playing DayZ. I guess it worked before because I would hop on after entering, not while trying to enter, but I missed the entry, entered a late one, got FOMO on missing the move. Of course it flies higher, I lose 500, then re-enter the original one because we were only retracing, then we flew lower. I made back the 500 + up 400, but holding would put me at 700 because my TP was at the DOL, which was 1.3k. And of course we slow down, no bullish SMT made, so I held, then lunch hour sent us higher, flew, taking me out. Was down like 1.2k or more, then I risked super heavy because I saw on the 4hr we were heading towards the UMG on the 4hr, and risked super heavy to target it and made it back, but still left the day red -$296. I will take a break. I'm not trading, I'm locking out every day till December 1st.\"\nEmotions: \"Calm.\" During: \"Confident on the DOL but nervous because I took an unnecessary loss.\" After: \"Very annoyed, disappointed in myself. I tilted so hard. I need to focus on my habits outside of trading, it's clearly correlating in the charts.\"\nAB's feedback (as you logged it): \"My entry could've been earlier, we showed signs of failure to continue. My SL was 200 pts, so big of a stop, but I got the right idea and the right reasons to enter.\"",
+  "feedback": "This was the only journaled execution of the week, and the read behind it was good. You called it bearish, NWOG fill and Friday's low at 24,976.50, and NQ traded down to about 25,060. The planned short at 25,307.75 had its stop at 25,509.75 above NYAM.H, a real protected high, and the target was your pre-market DOL. The idea wasn't the problem. Running it at 70% focus with DayZ open was. That's why you missed the first entry, chased a late one for -$500, and then held a ~202-pt stop into lunch after being up ~$400 with no bullish SMT, until the noon rally took you out.\nThe part I need you to really hear is what came next. You were down about $1.2k, switched off the DLL and, in your words, risked super heavy on the 4hr UMG. It worked, and that's the danger, because a won gamble teaches you to do it again. That's revenge trading on an XFA, more than your 2-trade cap, and the one move that can end the account in a single click. You already made the right call by locking out until December 1st. When you come back, keep the DLL on all session, no games or second screens until you're flat, and if price moves without you, wait for the next retrace instead of chasing.",
+  "good": [
+   "The bias was right: bearish, NWOG fill and Friday's low (24,976.50) as the DOL, and price traded down to ~25,060 in NY AM.",
+   "The stop sat at 25,509.75 above NYAM.H, the protected high that made the displacement, not inside the range.",
+   "The target matched the pre-market plan exactly (24,976.50 = Friday's low).",
+   "You were honest in the journal (DayZ, FOMO, tilt, DLL off, 'gambled') and chose to lock out until December 1st yourself."
+  ],
+  "fix": [
+   "Turning off the DLL and risking the whole account to win back ~$1.2k is the rule break that can end an XFA. The DLL is never touched mid-session.",
+   "Trading at 70% focus with DayZ open is why you missed the first entry and then chased the late short for -$500.",
+   "Up ~$400 with no bullish SMT and lunch coming, the trade was held on hope. Decide before entry where you pay yourself or move the stop.",
+   "At least 3 trades on the day, over your 2-trade cap.",
+   "No Morning Check-in or risk screenshot was posted. When SYNDICATOR is down, post them by hand before 9:30 AM."
+  ],
+  "screenshots": [
+   {
+    "label": "Execution 1 · 5min NQ (1:40 PM)",
+    "src": "data/weekly/2026-11-23/worst-1.png",
+    "note": "Short from 25,307.75 with the stop at 25,509.75 above NYAM.H and target 24,976.50; price bottomed near 25,060, then the noon rally ran through the stop toward NYPM.H."
+   },
+   {
+    "label": "TimeFrame 1 · 4h ES/NQ (9:12 AM)",
+    "src": "data/weekly/2026-11-23/worst-2.png",
+    "note": "Clean HTF read: a steep 4h leg down sitting just above the NWOG, with 24,976.50 below as the obvious draw."
+   },
+   {
+    "label": "TimeFrame 2 · 1h ES/NQ (9:12 AM)",
+    "src": "data/weekly/2026-11-23/worst-3.png",
+    "note": "NQ broke PD-H, PD-EQ and PD-L with no real retrace, so waiting for a 30min retrace to short was the right framework."
+   },
+   {
+    "label": "TimeFrame 3 · 15min ES/NQ (9:12 AM)",
+    "src": "data/weekly/2026-11-23/worst-4.png",
+    "note": "Levels marked well (AS, LO, D OPEN, 10:00), with lots of room to the DOL, so a bounce first was likely; that bounce is what got chased."
+   }
+  ]
+ }
+}
