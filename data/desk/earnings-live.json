@@ -1,37 +1,7 @@
 {
-  "date": "2026-11-26",
-  "at": "2026-11-27T03:33:08Z",
+  "date": "2026-11-27",
+  "at": "2026-11-27T12:32:53Z",
   "items": [
-    {
-      "ticker": "CRWD",
-      "company": "CrowdStrike (CRWD)",
-      "date": "2026-11-23",
-      "when": "BMO",
-      "status": "reported",
-      "reaction": "~-8% premarket",
-      "sentiment": "Mixed",
-      "why": "Q3 rev $1.583B vs $1.529B est; Q4 rev guide $1.638-1.644B vs $1.623B est, FY rev $6.078-6.084B; announced ~$43.9B all-stock buy of Zscaler (1.135 CRWD/ZS, 34% premium) — stock down on deal dilution"
-    },
-    {
-      "ticker": "HPE",
-      "company": "Hewlett Packard Enterprise (HPE)",
-      "date": "2026-11-23",
-      "when": "AMC",
-      "status": "reported",
-      "reaction": "~-4% AH",
-      "sentiment": "Mixed",
-      "why": "FQ4 rev $14.55B vs $14.25B est, adj EPS $1.43 vs $1.28, networking $3.06B; FY27 rev $59.4-63.1B and EPS $5.05-5.35 above est, but stock sold off AH after a +17% day."
-    },
-    {
-      "ticker": "ZM",
-      "company": "Zoom Communications (ZM)",
-      "date": "2026-11-23",
-      "when": "AMC",
-      "status": "reported",
-      "reaction": "~-2% AH",
-      "sentiment": "Mixed",
-      "why": "FQ3 rev $1.29B vs $1.28B est, adj EPS $1.59 vs $1.49; enterprise rev +8.6% (fastest in 13 qtrs), first dividend; muted AH."
-    },
     {
       "ticker": "ADI",
       "company": "Analog Devices (ADI)",
