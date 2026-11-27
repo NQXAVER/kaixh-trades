@@ -1,18 +1,18 @@
 {
-  "date": "2026-11-25",
+  "date": "2026-11-26",
   "grok": {
-    "at": "2026-11-26T03:05:34Z",
-    "pulse": "Nasdaq closed -0.6% after a nearly 4% intraday plunge on AI selloff, Trump tariff proposals, and hotter core PCE, with overnight futures and Asia recovering as dip-buying and falling yields supported a bounce ahead of Thanksgiving.",
-    "bias": "mixed — strong afternoon recovery and overnight Asia/futures bid offset persistent AI/semis pressure, new tariffs, sticky inflation locking Dec FOMC hike, and elevated oil from Houthi/Iran risks",
+    "at": "2026-11-27T01:12:18Z",
+    "pulse": "Thanksgiving night: NQ/ES futures holding modest gains (~+0.5-0.7%) in thin Globex trade after Wednesday's violent AI reversal and recovery, while oil stays elevated on Hormuz/Houthi risks ahead of Friday half-day and OPEC+.",
+    "bias": "mixed — holiday futures bid and global equity rebound lean risk-on, but persistent oil premium from Iran/Houthi, AI credit stress, Nvidia export curbs and near-certain Dec FOMC hike keep it capped.",
     "items": [
-      "@FirstSquawk (~4:01 PM ET): Nasdaq Comp -0.57% to 23,598 after paring near-bear-market drop, S&P -0.20%, Dow +0.40% — Mixed NQ",
-      "@Vest (~12:02 PM ET): $NQ down 4% session, $ES -2.5%, SOX -7% leading second day of losses — Bearish NQ",
-      "Web/Reuters (~11 AM ET): Nasdaq sinks ~4% as AI rout deepens with NVDA -8%, fresh Trump tariffs on 14 partners, core PCE 3.3% — Bearish NQ",
-      "@MarioNawfal / oil (~evening): Houthis claim hit on Saudi refinery, Brent up over 3% — Bearish risk",
-      "@unusual_whales (~7:31 PM ET): Trump says he intervened in Nvidia leadership; Sen. Gallego seeks probe — Mixed NQ"
+      "@SNFuturesLive (~7:31 PM ET): Global markets found relief — STOXX +1.8%, S&P/Nasdaq futures ~+0.7%, Brent settled $96.57, BTC near $60.6k; Friday tests conviction with ~$7B BTC options expiry — Mixed NQ",
+      "@TheWallStreetPress (~6:16 PM ET): S&P 500 and Nasdaq futures reopen up 0.6% after the Thanksgiving break — Bullish NQ",
+      "@Master Trades (~8:11 PM ET): ES & NQ 1H path — NQ 26,389 hold 26,146-26,276 push through 26,436-26,500 toward 26,700 then fade; trap shorts from failed breakdowns — Bullish NQ",
+      "@zerohedge / @Joshuatrader1 (~2:39 PM ET): Futures extend Thanksgiving turnaround as Nasdaq dodges bear market, oil climbs on Houthi strikes — Mixed NQ",
+      "@BayStreetBulls (~3:09 PM ET): Nasdaq futures +0.65% extending Wed reversal (NDX briefly bear-market territory, closed -0.6%); Brent near $95 on Houthi Saudi port strikes — Mixed NQ"
     ],
-    "trump": "Admin proposed new Section 301 tariffs up to 20%+ on China, EU and other partners; Trump said he intervened in Nvidia leadership decision on behalf of the USA; Iran/Houthi tensions keeping oil elevated.",
-    "watch": "Friday Nov 27 half-day (cash close 1PM ET): hold of the recovery vs AI follow-through; oil reaction to Houthi/Saudi and OPEC+; any tariff responses; thin liquidity; Dec FOMC hike near certain.",
+    "trump": "none",
+    "watch": "Fri Nov 27: thin half-day cash close 1 PM ET to confirm Wednesday recovery hold vs AI follow-through; OPEC+ Sunday on 2027 quotas; oil reaction to ongoing Hormuz/Houthi/Kuwait headlines (Brent ~$95-97); Dec 9 FOMC with hike heavily priced (~98%).",
     "forSite": []
   }
 }
