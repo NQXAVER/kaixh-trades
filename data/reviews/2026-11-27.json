@@ -1,0 +1,36 @@
+{
+ "date": "2026-11-27",
+ "entryUrl": "",
+ "summary": "No Notion entry today, and that's the right outcome. It's Black Friday, CME closed equities early at 1:15 PM ET, and you're on day two of the lockout you set on Nov 25 ('im locking out everyday till December 1st'). Nothing in Notion, no 'xavier Journal' post since Nov 25 at 11:06 AM ET, and Gmail shows no prop-firm purchase, even with Black Friday promos from Apex (11:11 AM ET) and Alpha Futures ('2 accounts for less than the price of 1', 1:56 PM ET) sitting in your inbox. Bibz checked in at 2:51 PM ET ('at least you're being honest about it'). The lockout is holding. The real test is whether Monday looks different from Nov 25.",
+ "trade": "No trade · Black Friday (early 1:15 PM ET close), day 2 of the self-imposed lockout until Dec 1 · no account activity logged · no new eval purchase in Gmail.",
+ "rule": "Monday, Dec 1, only if you come back: post your plan and risk screenshot by hand in the pair channel before 9:30 AM ET (SYNDICATOR is still broken), keep the DLL on all session, max 2 trades, and no games or second screen open until you're flat.",
+ "screenshots": [],
+ "good": [
+  "Two days into the lockout with zero trades, zero recovery attempts and zero journal posts. You did what you said you'd do.",
+  "No eval or account purchase on the biggest prop-firm sale day of the year: Apex and Alpha Futures both emailed you today and you didn't bite."
+ ],
+ "fix": [
+  "The SYNDICATOR check-ins are still down: no Morning Check-in or EOD card since Nov 24 at 10:35 PM ET. Until they're fixed, your accountability record only exists if you post it by hand.",
+  "Your last EOD card (Nov 24) said 'Rules Followed: No bc i took more than 2 trades', and Nov 25 went worse. The max-2-trades limit has to be something your platform enforces, not just a promise."
+ ],
+ "questions": [
+  {
+   "q": "Bibz wrote 'at least you're being honest about it.' Honesty after the fact is the easy part. What will you post in the pair channel before 9:30 on Monday that makes it harder to turn off your DLL mid-session?"
+  },
+  {
+   "q": "Alpha Futures is offering '2 accounts for less than the price of 1' all weekend. You already have a funded XFA. What would a new account fix that the lockout and your own rules can't?"
+  },
+  {
+   "q": "On Nov 25 you said DayZ worked before 'bc i would hop on after entering.' On Monday, what is your exact rule for when the game can be open: never during the session, or only after you're flat for the day?"
+  }
+ ],
+ "discord": {
+  "chartsOpened": "No SYNDICATOR Morning Check-in card on Nov 27, so there's no charts-opened time. The bot hasn't posted since Nov 24 at 10:35 PM ET (Bibz, Nov 25 12:25 PM: 'Not showing checkins - might be broken'; you at 12:56 PM: 'yeah it's broken for right now').",
+  "plan": "No morning plan posted today. That fits a lockout/holiday day.",
+  "risk": "No risk-settings screenshot today. You're not trading, so no risk was taken.",
+  "eod": "No End of Day card for Nov 27 as of ~4:10 PM ET. The latest is the Nov 24 card: streak 24 days, 'Rules Followed: No bc i took more than 2 trades'.",
+  "match": "Discord matches Notion: nothing traded or posted today. The only messages are two from Bibz at 2:51 PM ET ('Damn man - at least you're being honest about it!' and 'Hope this thanksgiving period is giving you the break you need').",
+  "journalChannel": "No 'xavier Journal' post on Nov 26 or 27. The latest is from Nov 25 at 11:06 AM ET ('11/25/26 - super bearish today want to see HTF low get hit…')."
+ },
+ "reviewedAt": "2026-11-27T21:08:54.244Z"
+}
