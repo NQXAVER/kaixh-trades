@@ -1,18 +1,18 @@
 {
-  "date": "2026-11-26",
+  "date": "2026-11-27",
   "grok": {
-    "at": "2026-11-27T01:12:18Z",
-    "pulse": "Thanksgiving night: NQ/ES futures holding modest gains (~+0.5-0.7%) in thin Globex trade after Wednesday's violent AI reversal and recovery, while oil stays elevated on Hormuz/Houthi risks ahead of Friday half-day and OPEC+.",
-    "bias": "mixed — holiday futures bid and global equity rebound lean risk-on, but persistent oil premium from Iran/Houthi, AI credit stress, Nvidia export curbs and near-certain Dec FOMC hike keep it capped.",
+    "at": "2026-11-27T03:06:10Z",
+    "pulse": "Post-Thanksgiving Globex shows NQ/ES futures green (Nasdaq ~+0.5-2.5%, S&P ~+0.7-1.4%) as AI trade steadies after Wednesday selloff, while oil remains elevated on Iran/Hormuz tanker mines and Houthi strikes ahead of thin Friday half-day.",
+    "bias": "mixed — holiday futures bid and AI stabilization lean risk-on into Black Friday, but persistent oil premium from Middle East tensions and ~98% Dec FOMC hike odds cap upside in thin liquidity.",
     "items": [
-      "@SNFuturesLive (~7:31 PM ET): Global markets found relief — STOXX +1.8%, S&P/Nasdaq futures ~+0.7%, Brent settled $96.57, BTC near $60.6k; Friday tests conviction with ~$7B BTC options expiry — Mixed NQ",
-      "@TheWallStreetPress (~6:16 PM ET): S&P 500 and Nasdaq futures reopen up 0.6% after the Thanksgiving break — Bullish NQ",
-      "@Master Trades (~8:11 PM ET): ES & NQ 1H path — NQ 26,389 hold 26,146-26,276 push through 26,436-26,500 toward 26,700 then fade; trap shorts from failed breakdowns — Bullish NQ",
-      "@zerohedge / @Joshuatrader1 (~2:39 PM ET): Futures extend Thanksgiving turnaround as Nasdaq dodges bear market, oil climbs on Houthi strikes — Mixed NQ",
-      "@BayStreetBulls (~3:09 PM ET): Nasdaq futures +0.65% extending Wed reversal (NDX briefly bear-market territory, closed -0.6%); Brent near $95 on Houthi Saudi port strikes — Mixed NQ"
+      "@Themediachamp (~10:05 PM ET): Futures green heading into Black Friday — S&P futures +0.7%, Nasdaq +0.6%, Dow +277; week-to-date S&P +3.9%, Nasdaq +4.3%",
+      "@cozycoinminutes (~10:04 PM ET): Nasdaq 100 futures jump +2.5% and S&P on track for 7,300 open after Thanksgiving bounce",
+      "@Nifty_anna (~10:03 PM ET): Brent crude ~$96.46, WTI ~$85.72 on elevated Middle East risks including Hormuz blasts and Houthi strikes",
+      "@FoxNews (~9:00 PM ET): Trump blunt warning on Iran nuclear ambitions — nuclear-armed Tehran would trigger 'nuclear holocaust' in Middle East and put US cities in crosshairs",
+      "Market data (~late): Dec FOMC hike odds near 98% amid hot PCE inflation, AI concerns and tariff overhang"
     ],
-    "trump": "none",
-    "watch": "Fri Nov 27: thin half-day cash close 1 PM ET to confirm Wednesday recovery hold vs AI follow-through; OPEC+ Sunday on 2027 quotas; oil reaction to ongoing Hormuz/Houthi/Kuwait headlines (Brent ~$95-97); Dec 9 FOMC with hike heavily priced (~98%).",
+    "trump": "President Trump issued a blunt warning on Iran's nuclear ambitions, arguing a nuclear-armed Tehran would trigger a 'nuclear holocaust' in the Middle East and put U.S. cities in the crosshairs, noting Iran can currently reach Europe.",
+    "watch": "Fri Nov 27 thin half-day cash close 1:00 PM ET to test recovery hold vs AI follow-through and oil/Iran/Hormuz headlines; OPEC+ Sunday on quotas; Dec 9 FOMC with hike heavily priced.",
     "forSite": []
   }
 }
