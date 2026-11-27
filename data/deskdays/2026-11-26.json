@@ -2,18 +2,18 @@
   "date": "2026-11-26",
   "grok": {
     "date": "2026-11-26",
-    "at": "2026-11-26T21:33:17Z",
-    "pulse": "Thanksgiving close: US cash shut but NQ futures near +1% / ES +0.74% (~7,249) extending Wednesday's rebound, offset by Brent +2% to $96.57 on Hormuz mines and a Houthi hit on Saudi Jazan, plus Nvidia pausing SE Asia AI server shipments.",
-    "bias": "mixed — holiday futures bid and bounce follow-through lean risk-on, but oil/Gulf supply shocks, Nvidia export curbs and AI-credit stress (CoreWeave bonds ~74c) cap it into a thin Friday half-day.",
+    "at": "2026-11-27T01:36:32Z",
+    "pulse": "Thanksgiving-night Globex: NQ futures extending the post-Wednesday rebound (~+0.6% on reopen, ~+1% into the Asia open) on Trump's 'concerned about the dips' remarks and a strong Asia/AI-chip bounce, offset by a new tariff proposal on 14 partners and ~93% Dec FOMC hike odds.",
+    "bias": "risk-on — holiday futures bid, Asia rebound (Nikkei/KOSPI, Kioxia on NVDA tie-up) and Trump jawboning support NQ into Friday's half-day, but the 14-country tariff plan (up to 40% China) and a priced Dec hike cap upside in thin liquidity.",
     "items": [
-      "X News (~4:03 PM ET): Holiday futures — ES +0.74% ~7,248.75, NQ nearing +1% after Wed rebound; cash closed for Thanksgiving — Bullish NQ",
-      "@FirstSquawk (~1:19 PM ET): Brent settles $96.57, +$1.96 (+2.07%); IRGC says 2 tankers hit Hormuz mines, Houthi strike kills worker at Saudi Jazan refinery (400k bpd), some ops paused — Bearish NQ",
-      "X News (~3:26 PM ET): NVDA tells partners to pause AI server shipments to Malaysia/Singapore/Thailand/Indonesia under new US export license rules — Bearish NQ",
-      "X News (~3:26 PM ET): CoreWeave (CRWV) bonds ~74c on the dollar, ~17.9% yield; AI data-center debt raising credit warnings — Bearish NQ",
-      "@FirstSquawk (~3:42 PM ET): OPEC+ weighing extending current quotas into Jan amid Gulf disruptions; Iraq wants higher baseline; rollover seen limited impact — Mixed NQ"
+      "@FirstSquawk (~6:04 PM ET): S&P 500 futures resume trading +0.6%, Nasdaq futures +0.6% after Thanksgiving pause — Bullish NQ",
+      "@DeItaone (~7:57 PM ET): TRUMP says he was concerned about Wednesday's sharp market dips; 'will probably speak to Nvidia's Huang soon' — Bullish NQ",
+      "X News (~8:28 PM ET): Trump admin proposes tariffs on 14 trading partners after capacity probe — up to 40% China, 35% Vietnam, 25% India, 15% EU on electronics/autos/steel — Bearish NQ",
+      "@investingclinic (~8:30 PM ET): Asia bounces after Wed rout — Nikkei +1.6%, KOSPI +1.9%, Nasdaq futures +1.1%, Kioxia +12.6% on NVDA tie-up, SoftBank +7.3% — Bullish NQ",
+      "@FirstSquawk (~8:32 PM ET): China Oct industrial profits +20.1% y/y (prev 14.4%), YTD +16.0% — Mixed NQ"
     ],
-    "trump": "Thanksgiving post blasted pre-election data as a 'RECORD SETTING ERROR' and called for an immediate investigation into 'fake economic numbers' after Q3 GDP was revised up from 3.4% to 4.3% (@WatcherGuru ~10:55 AM ET). USTR proposed excess-capacity tariffs on 14 partners incl. China, India, Vietnam, EU (Nov 25).",
-    "watch": "Fri Nov 27: thin half-day, equities close 1 PM ET — test of Wed reversal; OPEC+ quota decision this weekend; oil/Hormuz/Houthi headlines (Brent ~$96-100); Mon Dec 1: ISM Mfg 10 AM ET, MRVL + OKTA AMC; Tue Dec 2: CRM + SNOW AMC.",
+    "trump": "Via @DeItaone (~7:57-7:59 PM ET): Trump said he was 'concerned about earlier market dips' during Wednesday's selloff before indexes recovered, and 'will probably speak to Nvidia's Huang soon'; on G20, Putin 'can' come if he wants. Holiday call to troops (~8:12 PM ET, X News): said victory over Iran is at hand and the naval blockade continues. Administration also proposed new tariffs on 14 partners (up to 40% China).",
+    "watch": "Fri Nov 27 half-day: cash close 1:00 PM ET, CME equity futures 1:15 PM ET (thin liquidity) — Black Friday retail read; overnight tariff details and Iran/Houthi oil headlines; OPEC+ Sun Nov 29; Mon Dec 1 AMC MRVL, OKTA; Tue Dec 2 AMC CRM, SNOW; Dec 8-9 FOMC with ~93% hike odds priced (Polymarket).",
     "forSite": [],
     "reports": [
       {
@@ -104,6 +104,36 @@
         ],
         "trump": "Thanksgiving post blasted pre-election data as a 'RECORD SETTING ERROR' and called for an immediate investigation into 'fake economic numbers' after Q3 GDP was revised up from 3.4% to 4.3% (@WatcherGuru ~10:55 AM ET). USTR proposed excess-capacity tariffs on 14 partners incl. China, India, Vietnam, EU (Nov 25).",
         "watch": "Fri Nov 27: thin half-day, equities close 1 PM ET — test of Wed reversal; OPEC+ quota decision this weekend; oil/Hormuz/Houthi headlines (Brent ~$96-100); Mon Dec 1: ISM Mfg 10 AM ET, MRVL + OKTA AMC; Tue Dec 2: CRM + SNOW AMC.",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-27T01:12:18Z",
+        "pulse": "Thanksgiving night: NQ/ES futures holding modest gains (~+0.5-0.7%) in thin Globex trade after Wednesday's violent AI reversal and recovery, while oil stays elevated on Hormuz/Houthi risks ahead of Friday half-day and OPEC+.",
+        "bias": "mixed — holiday futures bid and global equity rebound lean risk-on, but persistent oil premium from Iran/Houthi, AI credit stress, Nvidia export curbs and near-certain Dec FOMC hike keep it capped.",
+        "items": [
+          "@SNFuturesLive (~7:31 PM ET): Global markets found relief — STOXX +1.8%, S&P/Nasdaq futures ~+0.7%, Brent settled $96.57, BTC near $60.6k; Friday tests conviction with ~$7B BTC options expiry — Mixed NQ",
+          "@TheWallStreetPress (~6:16 PM ET): S&P 500 and Nasdaq futures reopen up 0.6% after the Thanksgiving break — Bullish NQ",
+          "@Master Trades (~8:11 PM ET): ES & NQ 1H path — NQ 26,389 hold 26,146-26,276 push through 26,436-26,500 toward 26,700 then fade; trap shorts from failed breakdowns — Bullish NQ",
+          "@zerohedge / @Joshuatrader1 (~2:39 PM ET): Futures extend Thanksgiving turnaround as Nasdaq dodges bear market, oil climbs on Houthi strikes — Mixed NQ",
+          "@BayStreetBulls (~3:09 PM ET): Nasdaq futures +0.65% extending Wed reversal (NDX briefly bear-market territory, closed -0.6%); Brent near $95 on Houthi Saudi port strikes — Mixed NQ"
+        ],
+        "trump": "none",
+        "watch": "Fri Nov 27: thin half-day cash close 1 PM ET to confirm Wednesday recovery hold vs AI follow-through; OPEC+ Sunday on 2027 quotas; oil reaction to ongoing Hormuz/Houthi/Kuwait headlines (Brent ~$95-97); Dec 9 FOMC with hike heavily priced (~98%).",
+        "forSite": []
+      },
+      {
+        "at": "2026-11-27T01:36:32Z",
+        "pulse": "Thanksgiving-night Globex: NQ futures extending the post-Wednesday rebound (~+0.6% on reopen, ~+1% into the Asia open) on Trump's 'concerned about the dips' remarks and a strong Asia/AI-chip bounce, offset by a new tariff proposal on 14 partners and ~93% Dec FOMC hike odds.",
+        "bias": "risk-on — holiday futures bid, Asia rebound (Nikkei/KOSPI, Kioxia on NVDA tie-up) and Trump jawboning support NQ into Friday's half-day, but the 14-country tariff plan (up to 40% China) and a priced Dec hike cap upside in thin liquidity.",
+        "items": [
+          "@FirstSquawk (~6:04 PM ET): S&P 500 futures resume trading +0.6%, Nasdaq futures +0.6% after Thanksgiving pause — Bullish NQ",
+          "@DeItaone (~7:57 PM ET): TRUMP says he was concerned about Wednesday's sharp market dips; 'will probably speak to Nvidia's Huang soon' — Bullish NQ",
+          "X News (~8:28 PM ET): Trump admin proposes tariffs on 14 trading partners after capacity probe — up to 40% China, 35% Vietnam, 25% India, 15% EU on electronics/autos/steel — Bearish NQ",
+          "@investingclinic (~8:30 PM ET): Asia bounces after Wed rout — Nikkei +1.6%, KOSPI +1.9%, Nasdaq futures +1.1%, Kioxia +12.6% on NVDA tie-up, SoftBank +7.3% — Bullish NQ",
+          "@FirstSquawk (~8:32 PM ET): China Oct industrial profits +20.1% y/y (prev 14.4%), YTD +16.0% — Mixed NQ"
+        ],
+        "trump": "Via @DeItaone (~7:57-7:59 PM ET): Trump said he was 'concerned about earlier market dips' during Wednesday's selloff before indexes recovered, and 'will probably speak to Nvidia's Huang soon'; on G20, Putin 'can' come if he wants. Holiday call to troops (~8:12 PM ET, X News): said victory over Iran is at hand and the naval blockade continues. Administration also proposed new tariffs on 14 partners (up to 40% China).",
+        "watch": "Fri Nov 27 half-day: cash close 1:00 PM ET, CME equity futures 1:15 PM ET (thin liquidity) — Black Friday retail read; overnight tariff details and Iran/Houthi oil headlines; OPEC+ Sun Nov 29; Mon Dec 1 AMC MRVL, OKTA; Tue Dec 2 AMC CRM, SNOW; Dec 8-9 FOMC with ~93% hike odds priced (Polymarket).",
         "forSite": []
       }
     ]
