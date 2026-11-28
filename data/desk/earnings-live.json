@@ -1,66 +1,7 @@
 {
- "date": "2026-11-27",
- "at": "2026-11-28T03:31:09Z",
+ "date": "2026-11-28",
+ "at": "2026-11-28T12:34:49Z",
  "items": [
-  {
-   "ticker": "ADI",
-   "company": "Analog Devices (ADI)",
-   "date": "2026-11-24",
-   "when": "BMO",
-   "status": "reported",
-   "reaction": "~-17% close",
-   "sentiment": "Bearish",
-   "why": "FQ4 rev $4.37B (+42% y/y) vs $4.32B est, adj EPS $4.06 vs $3.89 beat, but soft Q1 guide sank the stock and dragged semis (SOX ~-8%)."
-  },
-  {
-   "ticker": "ADSK",
-   "company": "Autodesk (ADSK)",
-   "date": "2026-11-24",
-   "when": "AMC",
-   "status": "reported",
-   "reaction": "~-3-4% AH",
-   "sentiment": "Mixed",
-   "why": "Q3 adj EPS $3.20 vs $3.07, rev $2.16B vs $2.134B, 39% adj op margin; Q4 rev guide $2.22-2.24B; beat not enough to lift shares."
-  },
-  {
-   "ticker": "DELL",
-   "company": "Dell Technologies (DELL)",
-   "date": "2026-11-24",
-   "when": "AMC",
-   "status": "reported",
-   "reaction": "+0.6% close Wed",
-   "sentiment": "Bullish",
-   "why": "Q3 rev $54.94B (+103% y/y) vs $49.32B est, adj EPS $9.45 vs $6.59; AI server rev $22.0B (+291%), AI backlog $132.3B; Q4 rev guide $56.3B vs $53.61B, FY guide raised to $202B; +$25B buyback. Stock fell ~12% in the regular session before the print."
-  },
-  {
-   "ticker": "HPQ",
-   "company": "HP Inc. (HPQ)",
-   "date": "2026-11-24",
-   "when": "AMC",
-   "status": "reported",
-   "reaction": "+11.4% close Wed",
-   "sentiment": "Bullish",
-   "why": "FQ4 rev $16.0B vs $15.42B est (+9.3% y/y), adj EPS $0.83 vs $0.75; Personal Systems +14%; FY27 adj EPS guide $3.15-3.45 vs $3.17 est."
-  },
-  {
-   "ticker": "NTNX",
-   "company": "Nutanix (NTNX)",
-   "date": "2026-11-24",
-   "when": "AMC",
-   "status": "reported",
-   "sentiment": "Mixed",
-   "why": "Q1 FY27 rev $772.4M (+15% y/y), ARR $2.63B, FCF $209.3M, guide raised; CEO Ramaswami to step down by April (8-K)."
-  },
-  {
-   "ticker": "WDAY",
-   "company": "Workday (WDAY)",
-   "date": "2026-11-24",
-   "when": "AMC",
-   "status": "reported",
-   "reaction": "~-3% to -7% AH",
-   "sentiment": "Mixed",
-   "why": "Q3 rev $2.705B vs $2.69B, adj EPS $2.82 vs $2.74, sub rev +12.8%; FY27 sub rev raised to $9.958B but Q4 sub rev guide $2.60B vs $2.609B (~10% growth) and backlog growth slowing."
-  },
   {
    "ticker": "DE",
    "company": "Deere & Co. (DE)",
