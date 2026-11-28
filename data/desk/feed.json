@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T01:48:17Z",
+  "updatedAt": "2026-11-28T07:49:00Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -183,9 +183,9 @@
     {
       "id": "un-peace",
       "label": "UN News",
-      "ok": true,
-      "items": 20,
-      "error": null
+      "ok": false,
+      "items": 0,
+      "error": "ParseError: not well-formed (invalid token): line 1, column 0"
     },
     {
       "id": "wsj-biz",
@@ -444,6 +444,18 @@
       "auto": true
     },
     {
+      "id": "fc7268dcad050",
+      "headline": "Trump’s tariffs have become America’s new normal",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/opinions/2026/11/28/trumps-tariffs-have-become-americas-new-normal?traffic_source=rss",
+      "publishedAt": "2026-11-28T06:57:19Z",
+      "time": "Sat 1:57 AM",
+      "section": "econ",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "fee31c6bd9d31",
       "headline": "Inflation has shoppers hunting for value. That bodes well for Black Friday",
       "source": "CNBC",
@@ -522,18 +534,6 @@
       "url": "https://www.theguardian.com/us-news/2026/nov/26/brazil-china-react-to-new-trump-tariffs-threat",
       "publishedAt": "2026-11-26T12:00:22Z",
       "time": "Thu 7:00 AM",
-      "section": "econ",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f967c3d301a1d",
-      "headline": "Asia-Pacific markets close higher as investors look past fresh U.S. tariffs",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/26/stock-markets-today-.html",
-      "publishedAt": "2026-11-26T08:00:27Z",
-      "time": "Thu 3:00 AM",
       "section": "econ",
       "impact": "Medium",
       "lean": null,
@@ -636,6 +636,18 @@
       "auto": true
     },
     {
+      "id": "fcd6e171a70d6",
+      "headline": "Africa’s richest man is taking his mega-refinery public in a blockbuster IPO",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/28/dangote-refinery-oil-ipo-nigeria-africa-energy.html",
+      "publishedAt": "2026-11-28T06:00:01Z",
+      "time": "Sat 1:00 AM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "fc16de8f271a0",
       "headline": "Capsized tanker carrying 7,000 tonnes of diesel to be towed away from Ibiza",
       "source": "BBC",
@@ -720,18 +732,6 @@
       "auto": true
     },
     {
-      "id": "fd36e83fd0134",
-      "headline": "Baghdad Moves to Seize Control of Kurdish Oil and Borders",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Energy/Energy-General/Baghdad-Moves-to-Seize-Control-of-Kurdish-Oil-and-Borders.html",
-      "publishedAt": "2026-11-27T12:30:00Z",
-      "time": "Fri 7:30 AM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
       "id": "fede475f907d2",
       "headline": "Asian stock markets rise after earlier tech rout",
       "source": "Al Jazeera",
@@ -741,30 +741,6 @@
       "section": "markets",
       "impact": "Medium",
       "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "f89c128195ee5",
-      "headline": "Wealthy Europeans look beyond stocks amid AI selloff. Here’s where they’re investing",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/26/wealthy-europeans-alternative-investments-ai.html",
-      "publishedAt": "2026-11-26T07:23:42Z",
-      "time": "Thu 2:23 AM",
-      "section": "markets",
-      "impact": "Medium",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "f0be729d87101",
-      "headline": "Beware higher correlation but nab high U.S. credit yields, fund managers say",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/26/mispricing-risk-fund-managers-ai-volatility.html",
-      "publishedAt": "2026-11-26T05:36:01Z",
-      "time": "Thu 12:36 AM",
-      "section": "markets",
-      "impact": "Medium",
-      "lean": null,
       "auto": true
     }
   ]
