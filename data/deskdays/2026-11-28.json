@@ -2,18 +2,18 @@
  "date": "2026-11-28",
  "grok": {
   "date": "2026-11-28",
-  "at": "2026-11-28T12:34:49Z",
-  "pulse": "Weekend tape: NQ closed Fri at the highs (Nasdaq +2.3% to 24,129, best Thanksgiving week since Apr '25) on AI/memory dip-buying, but fresh Hormuz blockade enforcement, Houthi missiles at Saudi and Nvidia Blackwell-in-Shanghai headlines set up a headline-risk Sunday reopen.",
-  "bias": "mixed — AI momentum and a strong Fri close favor risk-on, offset by U.S. disabling a blockade-runner in the Gulf of Oman, Brent $95.44 (+3% wk) into Sunday OPEC+, NVDA export-control headlines and ~$100B CTA supply flagged for next week.",
+  "at": "2026-11-28T14:26:04Z",
+  "pulse": "Weekend tape, no session: NQ carries a strong Fri close (Nasdaq +2.3% to 24,129) and a record $13.1B Black Friday online spend into Sunday, but a burning tanker near Khasab in Hormuz, a hijacked cargo ship off Yemen and the WLFI crypto crash keep risk on the oil/geopolitics side for the 6 PM ET reopen.",
+  "bias": "mixed — consumer strength (Adobe Black Friday +11.1% y/y) and AI momentum lean risk-on, offset by fresh Hormuz tanker fires/mine claims and Red Sea shipping attacks into Sunday's OPEC+ meeting (Brent $95.44 Fri) plus NVDA China-export headlines.",
   "items": [
-   "X News/CENTCOM (~7:32 AM ET): U.S. aircraft disabled Palau-flagged M/V Pacific Archer from Bandar Abbas trying to breach the Iran port blockade in the Gulf of Oman — Bearish NQ (CL bid risk Sunday)",
-   "@FirstSquawk (~7:18 AM ET): Saudi-led coalition intercepts two more Houthi missiles toward southern Saudi (after ~4:27 AM ballistic missile, Jazan alert) — Bearish NQ",
-   "X News/Bloomberg (~6:26 AM ET): Nvidia GB300 NVL72/Blackwell racks found at a Shanghai data-center site tied to Megaspeed — Bearish NQ (NVDA export-control risk)",
-   "X News (~12:57 AM ET): Fri close S&P +1.6% 7,297.49, Nasdaq +2.3% 24,129.50, Dow +1.2%; SNDK +16%, MU +7.6% memory rebound — Bullish NQ",
-   "@WatcherGuru (~2:23 AM ET): Trump family's World Liberty USD1 stablecoin depegs; Justin Sun accuses WLFI of fraud (~2:43 AM) — Mixed NQ (crypto-equity risk)"
+   "X News (~9:23 AM ET): OSINT images show a 220m tanker on fire ~6.5km off Khasab, Oman in Hormuz; IRGC claims two tankers hit mines — Bearish NQ (CL gap-up risk Sunday)",
+   "@DeItaone (~8:37 AM ET): $AMZN $WMT $TGT U.S. Black Friday online spend record $13.1B, +11.1% y/y (Adobe) — Bullish NQ",
+   "@zerohedge (~8:45 AM ET): cargo ship hijacked off Yemen coast (UKMTO); EUNAVFOR piracy incident off Somalia (~8:27 AM) — Bearish NQ (shipping/oil risk)",
+   "@zerohedge (~8:30 AM ET): Trump-linked WLFI crashes 50% as Justin Sun demands regulator action; Binance auto-closed WLFI perps — Mixed NQ (crypto-equity sentiment)",
+   "@FirstSquawk (~9:11 AM ET): Saudi Civil Defense early warning in Jizan again after overnight Houthi missile intercepts — Bearish NQ"
   ],
-  "trump": "No new market-moving remarks overnight; Fri night he warned the U.S. would 'absolutely hit Pickaxe Mountain' near Natanz if activity resumes and backed NVDA CEO Huang's reinstatement. Weekend crypto noise: his family's WLFI USD1 stablecoin depegged.",
-  "watch": "Sun OPEC+ meeting; Sun 6:00 PM ET futures reopen (Hormuz/blockade, Houthi headlines); Mon Dec 1 ISM Mfg 10:00 AM ET, MRVL & OKTA AMC; Tue Dec 2 CRM & SNOW AMC; Dec 9 FOMC (hike ~fully priced).",
+  "trump": "Nothing new and market-moving this morning; his family's WLFI token/USD1 stablecoin turmoil is the main Trump-linked headline. Fri night: warned U.S. would 'absolutely hit Pickaxe Mountain' near Natanz if reactivated.",
+  "watch": "Sun OPEC+ meeting; Sun 6:00 PM ET futures reopen (Hormuz tankers/blockade, Houthi headlines); Mon Dec 1 ISM Mfg 10:00 AM ET, Cyber Monday spend, MRVL & OKTA AMC; Tue Dec 2 CRM & SNOW AMC; Dec 9 FOMC.",
   "forSite": [],
   "reports": [
    {
@@ -29,6 +29,21 @@
     ],
     "trump": "No new market-moving remarks overnight; Fri night he warned the U.S. would 'absolutely hit Pickaxe Mountain' near Natanz if activity resumes and backed NVDA CEO Huang's reinstatement. Weekend crypto noise: his family's WLFI USD1 stablecoin depegged.",
     "watch": "Sun OPEC+ meeting; Sun 6:00 PM ET futures reopen (Hormuz/blockade, Houthi headlines); Mon Dec 1 ISM Mfg 10:00 AM ET, MRVL & OKTA AMC; Tue Dec 2 CRM & SNOW AMC; Dec 9 FOMC (hike ~fully priced).",
+    "forSite": []
+   },
+   {
+    "at": "2026-11-28T14:26:04Z",
+    "pulse": "Weekend tape, no session: NQ carries a strong Fri close (Nasdaq +2.3% to 24,129) and a record $13.1B Black Friday online spend into Sunday, but a burning tanker near Khasab in Hormuz, a hijacked cargo ship off Yemen and the WLFI crypto crash keep risk on the oil/geopolitics side for the 6 PM ET reopen.",
+    "bias": "mixed — consumer strength (Adobe Black Friday +11.1% y/y) and AI momentum lean risk-on, offset by fresh Hormuz tanker fires/mine claims and Red Sea shipping attacks into Sunday's OPEC+ meeting (Brent $95.44 Fri) plus NVDA China-export headlines.",
+    "items": [
+     "X News (~9:23 AM ET): OSINT images show a 220m tanker on fire ~6.5km off Khasab, Oman in Hormuz; IRGC claims two tankers hit mines — Bearish NQ (CL gap-up risk Sunday)",
+     "@DeItaone (~8:37 AM ET): $AMZN $WMT $TGT U.S. Black Friday online spend record $13.1B, +11.1% y/y (Adobe) — Bullish NQ",
+     "@zerohedge (~8:45 AM ET): cargo ship hijacked off Yemen coast (UKMTO); EUNAVFOR piracy incident off Somalia (~8:27 AM) — Bearish NQ (shipping/oil risk)",
+     "@zerohedge (~8:30 AM ET): Trump-linked WLFI crashes 50% as Justin Sun demands regulator action; Binance auto-closed WLFI perps — Mixed NQ (crypto-equity sentiment)",
+     "@FirstSquawk (~9:11 AM ET): Saudi Civil Defense early warning in Jizan again after overnight Houthi missile intercepts — Bearish NQ"
+    ],
+    "trump": "Nothing new and market-moving this morning; his family's WLFI token/USD1 stablecoin turmoil is the main Trump-linked headline. Fri night: warned U.S. would 'absolutely hit Pickaxe Mountain' near Natanz if reactivated.",
+    "watch": "Sun OPEC+ meeting; Sun 6:00 PM ET futures reopen (Hormuz tankers/blockade, Houthi headlines); Mon Dec 1 ISM Mfg 10:00 AM ET, Cyber Monday spend, MRVL & OKTA AMC; Tue Dec 2 CRM & SNOW AMC; Dec 9 FOMC.",
     "forSite": []
    }
   ]
