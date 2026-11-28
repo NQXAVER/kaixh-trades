@@ -2,18 +2,18 @@
  "date": "2026-11-27",
  "grok": {
   "date": "2026-11-27",
-  "at": "2026-11-28T01:32:47Z",
-  "pulse": "NQ closed the post-Thanksgiving half-day strong (Nasdaq +2.3%, best week since Apr '25 at +6.7%) on AI/semis dip-buying, but tonight's Iran Hormuz tanker/mine headlines and ~99% Dec 9 Fed-hike pricing cloud the Sunday reopen.",
-  "bias": "mixed — risk-on weekly momentum in AI/semis (SOX +4.7% Fri) offset by Hormuz oil risk into the 6 PM ET Sunday futures open and a near-certain 25bp FOMC hike.",
+  "at": "2026-11-28T03:31:09Z",
+  "pulse": "NQ heads into the weekend off a strong Black Friday close (Nasdaq +2.3%, +6.7% week) on AI/memory dip-buying, but Iran/Hormuz escalation headlines and Goldman's warning of ~$100B systematic selling next week threaten the Sunday reopen.",
+  "bias": "mixed — AI/semis momentum and best week since Apr '25 favor risk-on, offset by Hormuz closure/tanker-mine claims (oil risk), a ~99% priced Dec 9 hike and CTA supply into Monday.",
   "items": [
-   "Reuters/X News (~7:04 PM ET): Fri close S&P +1.6% to 7,297.49, Nasdaq +2.3% to 24,129.50, Dow +1.2%; week S&P +5.6%, Nasdaq +6.7% led by NVDA/META/AMZN/TSLA — Bullish NQ",
-   "X News (~8:01 PM ET): Iran says commandos retook two tankers seized by U.S.; IRGC says several tankers incl. a 2M-bbl supertanker hit mines in Hormuz — Bearish NQ (CL gap-up risk Sunday)",
-   "@DeItaone (~7:45 PM ET): $C WSJ — Citi understated RWAs by $35B in London, injected capital, shake-up — Mixed NQ (bank-specific)",
-   "CME FedWatch (~7:43 PM ET): ~98.9% odds of a 25bp hike to 4.00-4.25% at Dec 9 FOMC — Bearish NQ",
-   "@zerohedge (~7:19 PM ET): AI CDS re-rack after this week's equity melt-up; @unusual_whales: AI infra borrowing >$680B by Oct — Mixed NQ (AI credit watch)"
+   "X News (~9:17 PM ET): CENTCOM rejects Iran claims of retaking tankers and hitting USS Abraham Lincoln; Iran adviser says Hormuz stays closed under U.S. blockade — Bearish NQ (CL risk Sunday)",
+   "X News (~7:43 PM ET): Trump says U.S. would 'absolutely hit Pickaxe Mountain' near Natanz if activity resumes — Bearish NQ",
+   "Goldman via X News (~3:23 PM ET): systematic macro funds sold ~$70B equities last week, could sell another ~$100B next week — Bearish NQ",
+   "X News (~9:25 PM ET): Fri close S&P +1.6% 7,297.49, Nasdaq +2%+; TSLA +5.2% to $400, SNDK +15% memory rally — Bullish NQ",
+   "@unusual_whales (~9:46 PM ET): Ukrainian investigators found Nvidia computers in Russian autonomous drones — Mixed NQ (NVDA export-control headline risk)"
   ],
-  "trump": "Thanksgiving message blasted 'fake economic numbers' after Q3 GDP revised up to 4.3%, demanding an investigation; told troops victory over Iran is 'at hand' and can end whenever he chooses. No new tariff posts tonight.",
-  "watch": "Sun 6:00 PM ET futures reopen (Iran/Hormuz tanker headlines, OPEC+ Sunday); Mon Dec 1 Chicago PMI 9:45 AM ET, MRVL & OKTA AMC; Tue Dec 2 CRM & SNOW AMC; Dec 9 FOMC (~99% hike priced).",
+  "trump": "Told troops Iran victory is near and the war ends 'whenever I want', offering Tehran a deal; warned U.S. would 'absolutely hit Pickaxe Mountain' if reactivated; said U.S. doesn't need the region's oil. Also blasted 'fake' Q3 GDP numbers.",
+  "watch": "Sun 6:00 PM ET futures reopen (Iran/Hormuz, OPEC+ Sunday); Mon Dec 1 Chicago PMI 9:45 AM ET, MRVL & OKTA AMC; Tue Dec 2 CRM & SNOW AMC; Dec 9 FOMC (~99% 25bp hike priced).",
   "forSite": [],
   "reports": [
    {
@@ -134,6 +134,36 @@
     ],
     "trump": "Thanksgiving message blasted 'fake economic numbers' after Q3 GDP revised up to 4.3%, demanding an investigation; told troops victory over Iran is 'at hand' and can end whenever he chooses. No new tariff posts tonight.",
     "watch": "Sun 6:00 PM ET futures reopen (Iran/Hormuz tanker headlines, OPEC+ Sunday); Mon Dec 1 Chicago PMI 9:45 AM ET, MRVL & OKTA AMC; Tue Dec 2 CRM & SNOW AMC; Dec 9 FOMC (~99% hike priced).",
+    "forSite": []
+   },
+   {
+    "at": "2026-11-28T03:04:53Z",
+    "pulse": "Black Friday half-day closed with Nasdaq +2.3% to 24130 and S&P +1.6% to 7297 on AI rebound after Thanksgiving, while WTI near $83 and Brent elevated keep a Middle East risk premium amid fully priced December FOMC hike.",
+    "bias": "mixed — strong AI-led equity close and best week since April lean risk-on, but near-certain Dec rate hike, elevated oil from Iran/Hormuz tensions and thin holiday volume cap conviction.",
+    "items": [
+     "@TickerTH (~10:00 PM ET): S&P500 +1.60% Nasdaq100 +2.61% Dow +1.18%; AI stocks lead with MU +7.60% AVGO +3.82% NVDA +0.80% but yields higher on AI capex concerns",
+     "@AliveNhappy (~10:00 PM ET): Stocks close higher Black Friday: S&P +1.6% to 7,297, Nasdaq +2.3% to 24,130, best week since Apr 2025; BTC lags AI rebound",
+     "@bobnews2026 (~10:00 PM ET): Late-night digest S&P 7297.49 (+1.7%) Nasdaq 24129.50 WTI 83.08 (+3.63%)",
+     "@MEBriefNews (~10:00 PM ET): US disabled commercial vessel in Gulf of Oman under Iranian port blockade; Hormuz traffic down 42%, raising energy risk premium",
+     "@fundstrat / Tom Lee (~earlier): Sees best entry point in 18 months for stocks on AI lead and fear extremes despite near-term uncertainty"
+    ],
+    "trump": "none",
+    "watch": "Weekend Iran/Hormuz blockade and oil response plus Sunday OPEC+; next session tests AI rebound hold versus fully priced Dec 9 FOMC 25bp hike and elevated yields.",
+    "forSite": []
+   },
+   {
+    "at": "2026-11-28T03:31:09Z",
+    "pulse": "NQ heads into the weekend off a strong Black Friday close (Nasdaq +2.3%, +6.7% week) on AI/memory dip-buying, but Iran/Hormuz escalation headlines and Goldman's warning of ~$100B systematic selling next week threaten the Sunday reopen.",
+    "bias": "mixed — AI/semis momentum and best week since Apr '25 favor risk-on, offset by Hormuz closure/tanker-mine claims (oil risk), a ~99% priced Dec 9 hike and CTA supply into Monday.",
+    "items": [
+     "X News (~9:17 PM ET): CENTCOM rejects Iran claims of retaking tankers and hitting USS Abraham Lincoln; Iran adviser says Hormuz stays closed under U.S. blockade — Bearish NQ (CL risk Sunday)",
+     "X News (~7:43 PM ET): Trump says U.S. would 'absolutely hit Pickaxe Mountain' near Natanz if activity resumes — Bearish NQ",
+     "Goldman via X News (~3:23 PM ET): systematic macro funds sold ~$70B equities last week, could sell another ~$100B next week — Bearish NQ",
+     "X News (~9:25 PM ET): Fri close S&P +1.6% 7,297.49, Nasdaq +2%+; TSLA +5.2% to $400, SNDK +15% memory rally — Bullish NQ",
+     "@unusual_whales (~9:46 PM ET): Ukrainian investigators found Nvidia computers in Russian autonomous drones — Mixed NQ (NVDA export-control headline risk)"
+    ],
+    "trump": "Told troops Iran victory is near and the war ends 'whenever I want', offering Tehran a deal; warned U.S. would 'absolutely hit Pickaxe Mountain' if reactivated; said U.S. doesn't need the region's oil. Also blasted 'fake' Q3 GDP numbers.",
+    "watch": "Sun 6:00 PM ET futures reopen (Iran/Hormuz, OPEC+ Sunday); Mon Dec 1 Chicago PMI 9:45 AM ET, MRVL & OKTA AMC; Tue Dec 2 CRM & SNOW AMC; Dec 9 FOMC (~99% 25bp hike priced).",
     "forSite": []
    }
   ]
