@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T18:44:06Z",
+  "updatedAt": "2026-11-28T01:48:17Z",
   "generatedBy": "scripts/refresh_desk_news.py",
   "schedule": "Weekdays every 30 minutes from 09:00-23:59 UTC, weekday overnights every 2 hours, weekends every 3 hours, plus Sunday 22:20 and 23:20 UTC.",
   "disclaimer": "Impact and the Bullish / Bearish / Mixed label are an automatic keyword guess for NQ, not trading advice.",
@@ -204,6 +204,42 @@
   ],
   "items": [
     {
+      "id": "f5e3b45232b7c",
+      "headline": "Will Taiwan vote to revive nuclear power – and why does that matter for AI?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/27/will-taiwan-vote-to-revive-nuclear-power-and-why-does-that-matter-for-ai?traffic_source=rss",
+      "publishedAt": "2026-11-27T23:09:04Z",
+      "time": "Fri 6:09 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "f50723159fb94",
+      "headline": "Putin unveils new Russian nuclear-powered submarine with hypersonic weapons",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/27/putin-unveils-new-russian-nuclear-powered-submarine-with-hypersonic-weapons?traffic_source=rss",
+      "publishedAt": "2026-11-27T20:39:57Z",
+      "time": "Fri 3:39 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": null,
+      "auto": true
+    },
+    {
+      "id": "fec3d82147422",
+      "headline": "Kyiv offers Black Sea ceasefire to protect grain exports",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/27/kyiv-offers-black-sea-ceasefire-as-putin-expands-russias-navy?traffic_source=rss",
+      "publishedAt": "2026-11-27T17:44:33Z",
+      "time": "Fri 12:44 PM",
+      "section": "war",
+      "impact": "High",
+      "lean": "risk-on",
+      "auto": true
+    },
+    {
       "id": "f055dfdf0eb36",
       "headline": "Kyiv offers Black Sea ceasefire, as Putin expands Russia’s navy",
       "source": "Al Jazeera",
@@ -288,42 +324,6 @@
       "auto": true
     },
     {
-      "id": "f6325c9e406ca",
-      "headline": "North Korea's Kim calls for nuclear arsenal expansion, says status 'will never change'",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/26/north-korea-kim-nuclear-weapons-expansion.html",
-      "publishedAt": "2026-11-26T05:50:34Z",
-      "time": "Thu 12:50 AM",
-      "section": "war",
-      "impact": "High",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f923cae12554e",
-      "headline": "Oil Rallies as Hormuz Mine Strikes Rattle Global Markets",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Rallies-as-Hormuz-Mine-Strikes-Rattle-Global-Markets.html",
-      "publishedAt": "2026-11-26T05:18:59Z",
-      "time": "Thu 12:18 AM",
-      "section": "war",
-      "impact": "High",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "fdd0a90a16285",
-      "headline": "Iran war live: Explosion rocks Sanaa; missiles intercepted over Riyadh",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/11/26/iran-war-live-explosion-rocks-sanaa-missiles-intercepted-over-riyadh?traffic_source=rss",
-      "publishedAt": "2026-11-26T00:00:00Z",
-      "time": "Wed 7:00 PM",
-      "section": "war",
-      "impact": "High",
-      "lean": null,
-      "auto": true
-    },
-    {
       "id": "fb00dbe0f59b5",
       "headline": "Liesman: Nvidia whiplash tests Kevin Warsh’s push to read market signals",
       "source": "CNBC",
@@ -345,18 +345,6 @@
       "section": "fed",
       "impact": "High",
       "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f6659a9fdba83",
-      "headline": "5 Energy Stocks That Can Shrug Off a December Fed Rate Hike",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Energy/Energy-General/5-Energy-Stocks-That-Can-Shrug-Off-a-December-Fed-Rate-Hike.html",
-      "publishedAt": "2026-11-23T22:00:00Z",
-      "time": "Mon 5:00 PM",
-      "section": "fed",
-      "impact": "High",
-      "lean": "risk-off",
       "auto": true
     },
     {
@@ -456,6 +444,18 @@
       "auto": true
     },
     {
+      "id": "fee31c6bd9d31",
+      "headline": "Inflation has shoppers hunting for value. That bodes well for Black Friday",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/27/black-friday-2026-inflation-value-deals.html",
+      "publishedAt": "2026-11-27T22:00:57Z",
+      "time": "Fri 5:00 PM",
+      "section": "econ",
+      "impact": "Medium",
+      "lean": null,
+      "auto": true
+    },
+    {
       "id": "f5b779c175911",
       "headline": "It’s not just you: Durable goods are getting less reliable, from sputtering cars to glitching smart TVs",
       "source": "CNBC",
@@ -540,18 +540,6 @@
       "auto": true
     },
     {
-      "id": "f02edeaf320c9",
-      "headline": "Trump tariff threat ‘unacceptable’, says Brazil, as China denounces levies as baseless",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/us-news/2026/nov/26/brazil-china-react-to-new-trump-tariffs-threat",
-      "publishedAt": "2026-11-26T06:10:56Z",
-      "time": "Thu 1:10 AM",
-      "section": "econ",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
       "id": "f030d3962da9a",
       "headline": "Tech stocks sink but close well off the lows, Anthropic struggles to rebound above IPO price",
       "source": "CNBC",
@@ -624,18 +612,6 @@
       "auto": true
     },
     {
-      "id": "fbdb6d9382a8e",
-      "headline": "HP’s stock is a standout gainer in the tech selloff, as an earnings beat still matters",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/hps-stock-is-a-standout-gainer-in-the-tech-rout-as-an-earnings-beat-still-matters-8f6c76ad?mod=mw_rss_topstories",
-      "publishedAt": "2026-11-25T21:36:00Z",
-      "time": "Wed 4:36 PM",
-      "section": "tech",
-      "impact": "Medium",
-      "lean": "mixed",
-      "auto": true
-    },
-    {
       "id": "f8c1b23211034",
       "headline": "Oil Surge Pushes Indonesia to Mull First Subsidized Fuel Price Hike in Years",
       "source": "OilPrice",
@@ -657,6 +633,18 @@
       "section": "energy",
       "impact": "High",
       "lean": "risk-off",
+      "auto": true
+    },
+    {
+      "id": "fc16de8f271a0",
+      "headline": "Capsized tanker carrying 7,000 tonnes of diesel to be towed away from Ibiza",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cvrlgz6g0ekgo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-11-27T20:34:45Z",
+      "time": "Fri 3:34 PM",
+      "section": "energy",
+      "impact": "Medium",
+      "lean": null,
       "auto": true
     },
     {
@@ -744,18 +732,6 @@
       "auto": true
     },
     {
-      "id": "f6e191fd555c7",
-      "headline": "Stockpiling Will Support Oil Prices in 2027, Energy Aspects Says",
-      "source": "OilPrice",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Stockpiling-Will-Support-Oil-Prices-in-2027-Energy-Aspects-Says.html",
-      "publishedAt": "2026-11-27T12:30:00Z",
-      "time": "Fri 7:30 AM",
-      "section": "energy",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
       "id": "fede475f907d2",
       "headline": "Asian stock markets rise after earlier tech rout",
       "source": "Al Jazeera",
@@ -786,42 +762,6 @@
       "url": "https://www.cnbc.com/2026/11/26/mispricing-risk-fund-managers-ai-volatility.html",
       "publishedAt": "2026-11-26T05:36:01Z",
       "time": "Thu 12:36 AM",
-      "section": "markets",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "f544f39845762",
-      "headline": "Where the market may be mispricing risk most: AI boom, volatility, high-yield bonds",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/26/mispricing-risk-fund-managers-ai-volatility.html",
-      "publishedAt": "2026-11-26T01:34:58Z",
-      "time": "Wed 8:34 PM",
-      "section": "markets",
-      "impact": "Medium",
-      "lean": null,
-      "auto": true
-    },
-    {
-      "id": "fbf51f43db9ee",
-      "headline": "Oracle, CoreWeave and other tech stocks bounce back after selloff",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/oracles-stock-sinks-toward-a-3-year-low-as-the-ai-trade-continues-to-unravel-d4698d77?mod=mw_rss_topstories",
-      "publishedAt": "2026-11-25T22:16:00Z",
-      "time": "Wed 5:16 PM",
-      "section": "markets",
-      "impact": "Medium",
-      "lean": "risk-off",
-      "auto": true
-    },
-    {
-      "id": "ff8263c54150e",
-      "headline": "Bullish hopes spring as traders bet against a higher VIX: Options Action Live",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/25/bullish-hopes-spring-as-traders-bet-against-a-higher-vix-options-action-live.html",
-      "publishedAt": "2026-11-25T21:26:47Z",
-      "time": "Wed 4:26 PM",
       "section": "markets",
       "impact": "Medium",
       "lean": null,
